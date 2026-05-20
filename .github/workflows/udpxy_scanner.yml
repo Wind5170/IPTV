@@ -1,0 +1,73 @@
+name: udpxy_Scanner
+
+on:
+  schedule:
+    # 每周日凌晨2点运行
+    - cron: '0 2 * * 0'
+  # 支持手动触发
+  workflow_dispatch:
+    inputs:
+      workers:
+        description: '并发线程数'
+        required: false
+        default: '500'
+        type: string
+      timeout:
+        description: '请求超时（秒）'
+        required: false
+        default: '2'
+        type: string
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: 扫描udpxy服务器
+        id: scanner
+        continue-on-error: true
+        run: |
+          cd $GITHUB_WORKSPACE
+          python udpxy_source_scanner.py --auto \
+            -w ${{ github.event.inputs.workers || 500 }} \
+            -t ${{ github.event.inputs.timeout || 2 }}
+
+      - name: 更新扫描结果
+        if: always()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ip/
+          git diff --quiet && git diff --staged --quiet || git commit -m "自动更新udpxy扫描结果 $(date +'%Y-%m-%d %H:%M') [skip ci]" || echo "无变更，跳过提交"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 查看扫描结果
+        if: always()
+        run: |
+          echo "=========================================="
+          echo "扫描完成"
+          echo "=========================================="
+          echo "配置文件列表:"
+          ls -la ip/*_config.txt 2>/dev/null | wc -l || echo "无配置文件"
+          echo ""
+          echo "IP结果文件列表:"
+          ls -la ip/*_ip.txt 2>/dev/null | head -20 || echo "无结果文件"
