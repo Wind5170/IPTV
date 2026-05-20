@@ -1,0 +1,7 @@
+# 20260520_1018_precise
+# 服务器地址	速度
+http://wddpmpc.sosos.run:4022	377.93 KB/s
+http://222.90.31.233:8888	372.18 KB/s
+http://1.83.156.130:26000	371.27 KB/s
+http://www.gaolao.top:8008	343.84 KB/s
+http://36.46.98.62:8025	291.58 KB/s
