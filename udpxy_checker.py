@@ -15,15 +15,18 @@ import sys
 import re
 import socket
 import time
-import requests
+import glob
 import json
 import locale
 from datetime import datetime
 import threading
 import argparse
+from typing import List, Tuple, Dict, Set
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-# ==================== 配置参数 ====================
+import requests
+
+# ==================== 配置常量 ====================
 CONFIG = {
     "test_mode": "quick",
     "quick": {
@@ -51,13 +54,12 @@ CONFIG = {
     "city_config_file": "config/city_config.json",
     "ip_dir": "ip",
     "logs_dir": "logs",
-    "max_servers": 0,        # 最大测试服务器数，0表示不限制
-    "auto_mode": False,      # 自动模式标志
-    "verbose": True,         # 详细输出
+    "max_servers": 0,
+    "auto_mode": False,
+    "verbose": True,
 }
 
 try:
-    import locale
     locale.setlocale(locale.LC_COLLATE, 'zh_CN.UTF-8')
 except:
     pass
@@ -74,39 +76,64 @@ def load_city_config():
         CITY_CONFIG = data.get("cities", data)
 
 
-def get_all_cities():
-    ip_dir = CONFIG["ip_dir"]
-    cities = []
-    if os.path.exists(ip_dir):
-        for filename in os.listdir(ip_dir):
-            if filename.endswith("_ip.txt"):
-                city_name = filename[:-7]
-                skip_patterns = ["存档", "template", "ipresu", "ipgo"]
-                if not any(city_name.startswith(p) for p in skip_patterns):
-                    cities.append(city_name)
+def get_all_cities(ip_dir: str = "ip") -> List[str]:
+    """获取所有有 ip.txt 文件的城市（按拼音排序）"""
+    cities = set()
+    
+    for file_path in glob.glob(os.path.join(ip_dir, "*_ip.txt")):
+        filename = os.path.basename(file_path)
+        city = filename.replace("_ip.txt", "")
+        # 过滤特殊文件
+        skip_patterns = ["存档", "template", "ipresu", "ipgo"]
+        if city not in skip_patterns and not city.startswith("存档"):
+            cities.add(city)
+    
+    # 使用 pypinyin 进行拼音排序
     try:
-        cities = sorted(cities, key=locale.strxfrm)
-    except:
-        cities = sorted(cities)
-    return cities
+        from pypinyin import pinyin, Style
+        def pinyin_key(city: str) -> str:
+            # 提取省份名（去掉运营商）
+            province = city
+            for op in ["电信", "联通", "移动"]:
+                if city.endswith(op):
+                    province = city[:-len(op)]
+                    break
+            # 转换为拼音
+            pinyins = pinyin(province, style=Style.NORMAL)
+            return ''.join([p[0] for p in pinyins])
+        return sorted(cities, key=pinyin_key)
+    except ImportError:
+        # 没有 pypinyin 时使用 locale 排序
+        try:
+            return sorted(cities, key=locale.strxfrm)
+        except:
+            return sorted(cities)
 
 
-def get_city_by_name(city_name):
-    for key, cfg in CITY_CONFIG.items():
-        if cfg.get("city") == city_name:
-            return {"city": city_name, "stream": cfg.get("stream")}
-    return {"city": city_name, "stream": None}
+def print_city_list(cities: List[str]) -> None:
+    """打印格式化的城市列表"""
+    if not cities:
+        print("未找到任何城市")
+        return
+    
+    print("\n可用的城市列表:")
+    print("-" * 60)
+    
+    cols = 5
+    for i in range(0, len(cities), cols):
+        row = cities[i:i+cols]
+        row_parts = []
+        for j, city in enumerate(row):
+            idx = i + j + 1
+            row_parts.append(f"{idx:2d}. {city:<14}")
+        print(' '.join(row_parts))
+    
+    print("-" * 60)
+    print(f"共 {len(cities)} 个城市")
 
 
-def get_city_by_id(city_id):
-    cities = get_all_cities()
-    if city_id < 1 or city_id > len(cities):
-        return None
-    city_name = cities[city_id - 1]
-    return get_city_by_name(city_name)
-
-
-def print_city_list(mode):
+def print_city_list_with_status(mode):
+    """打印带状态标记的城市列表"""
     cities = get_all_cities()
     if not cities:
         return "未找到任何城市文件"
@@ -126,6 +153,56 @@ def print_city_list(mode):
     
     lines.append(f"  (标记 ✓ 表示已有{config['output_name']}结果)")
     return "\n".join(lines)
+
+
+def select_cities(cities: List[str], args) -> List[str]:
+    """选择要处理的城市"""
+    if args.auto:
+        print(f"[模式] 自动模式，处理全部 {len(cities)} 个城市")
+        return cities
+    
+    if args.city:
+        if args.city == 0 or args.city == 'all':
+            return cities
+        elif isinstance(args.city, int) and 1 <= args.city <= len(cities):
+            return [cities[args.city - 1]]
+        elif args.city in cities:
+            return [args.city]
+        else:
+            print(f"[错误] 无效城市: {args.city}")
+            return []
+    
+    # 交互模式
+    print_city_list(cities)
+    
+    while True:
+        try:
+            choice = input("\n请选择城市编号（0=全部，q=退出）: ").strip().lower()
+            if choice == 'q':
+                return []
+            if choice == '0' or choice == '':
+                return cities
+            idx = int(choice)
+            if 1 <= idx <= len(cities):
+                return [cities[idx - 1]]
+            print(f"无效编号，请输入 1-{len(cities)}")
+        except ValueError:
+            print("请输入有效数字")
+
+
+def get_city_by_name(city_name):
+    for key, cfg in CITY_CONFIG.items():
+        if cfg.get("city") == city_name:
+            return {"city": city_name, "stream": cfg.get("stream")}
+    return {"city": city_name, "stream": None}
+
+
+def get_city_by_id(city_id):
+    cities = get_all_cities()
+    if city_id < 1 or city_id > len(cities):
+        return None
+    city_name = cities[city_id - 1]
+    return get_city_by_name(city_name)
 
 
 def resolve_host_to_ip(host_port):
@@ -465,14 +542,14 @@ def process_all_cities(mode, max_servers=0, cities_filter=None):
 
 
 def single_city_mode(mode, max_servers=0):
-    """交互模式"""
+    """交互模式（支持连续处理多个城市）"""
     config = CONFIG[mode]
     cities = get_all_cities()
     
     while True:
         print("\n" + "-" * 60)
         print("可用的城市列表:")
-        print(print_city_list(mode))
+        print(print_city_list_with_status(mode))
         print("-" * 60)
         
         try:
@@ -491,6 +568,8 @@ def single_city_mode(mode, max_servers=0):
                     print(f"\n处理城市: {city_name}")
                     print("-" * 40)
                     process_city(city_name, mode, max_servers)
+                    # 处理完成后自动返回城市列表
+                    print(f"\n[完成] {city_name} 处理完成，返回城市列表")
                 else:
                     print(f"无效选择，请输入 1-{len(cities)} 之间的数字")
         except ValueError:
@@ -554,9 +633,6 @@ def main():
         print("\n自动模式运行...")
         success_count, total_servers = process_all_cities(args.mode, args.num if args.num > 0 else 0, args.cities)
         print(f"\n自动模式完成: {success_count}/{len(cities)} 个城市成功, {total_servers} 个有效服务器")
-        # 如果有失败的城市，返回非零退出码
-        if success_count < len(cities):
-            sys.exit(1)
         return
     
     # 全部城市模式
