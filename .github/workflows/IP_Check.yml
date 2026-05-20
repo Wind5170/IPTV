@@ -1,0 +1,34 @@
+name: IP_precise_Check
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'  # 每4小时运行一次（0点、4点、8点、12点、16点、20点）
+  workflow_dispatch:      # 支持手动触发
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests
+      
+      - name: Run IP precise check
+        run: |
+          python udpxy_checker.py --auto -m precise
+      
+      - name: Commit results
+        run: |
+          git config user.name "Gitee Bot"
+          git config user.email "bot@example.com"
+          git add ip/
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto update IP check results [skip ci]"
+          git push
