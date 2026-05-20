@@ -1,4 +1,4 @@
-name: IP_Check
+name: udpxy_Checker
 
 on:
   schedule:
