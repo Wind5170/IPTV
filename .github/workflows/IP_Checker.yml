@@ -1,0 +1,62 @@
+name: IP_Check
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 添加写入权限
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}  # 添加 token
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: |
+          pip install requests pypinyin
+
+      - name: IP检测（精确测试-全部服务器）
+        id: ip_check
+        continue-on-error: true  # 允许失败，继续执行
+        run: |
+          cd $GITHUB_WORKSPACE
+          python udpxy_checker.py --auto -m precise -n 0 || true  # 忽略错误码
+
+      - name: 更新IP检测结果
+        if: always()  # 无论检测是否成功都执行
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ip/
+          git add logs/
+          git diff --quiet && git diff --staged --quiet || git commit -m "自动更新IP检测结果 $(date +'%Y-%m-%d %H:%M') [skip ci]" || echo "无变更，跳过提交"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 查看失败城市
+        if: always()
+        run: |
+          echo "=========================================="
+          echo "失败城市列表"
+          echo "=========================================="
+          if [ -f logs/failed_cities_precise.txt ]; then
+            cat logs/failed_cities_precise.txt
+            echo "=========================================="
+            echo "失败原因: 城市缺少组播地址配置"
+            echo "请检查 config/city_config.json"
+          else
+            echo "无失败城市记录"
+          fi
