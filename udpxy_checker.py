@@ -51,7 +51,7 @@ CONFIG = {
     "city_config_file": "config/city_config.json",
     "ip_dir": "ip",
     "logs_dir": "logs",
-    "max_servers": 0,
+    "max_servers": 0,        # 最大测试服务器数，0表示不限制
     "auto_mode": False,      # 自动模式标志
     "verbose": True,         # 详细输出
 }
