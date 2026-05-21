@@ -52,7 +52,7 @@ CONFIG = {
         "retry_times": 2,
         "output_suffix": "precise",
         "output_name": "精确测试",
-        "min_speed_kbps": 500,      # 最低速度要求 500KB/s（约4Mbps）
+        "min_speed_kbps": 300,      # 最低速度要求 500KB/s（约4Mbps）
     },
     "city_config_file": "config/city_config.json",
     "ip_dir": "ip",
@@ -683,6 +683,8 @@ def main():
                         help='自动模式（用于CI/CD，无交互）')
     parser.add_argument('--cities', nargs='+',
                         help='指定检测的城市列表（如：--cities 上海电信 北京移动）')
+    parser.add_argument('--min-speed', type=int, default=None,
+                        help='最低速度要求（KB/s），覆盖配置文件中的默认值')
     parser.add_argument('-q', '--quiet', action='store_true',
                         help='静默模式，减少输出')
     args = parser.parse_args()
@@ -710,6 +712,12 @@ def main():
     print(f"最低速度要求: {config.get('min_speed_kbps', 0)} KB/s")
     print("=" * 60)
     
+    if args.min_speed is not None:
+        CONFIG['quick']['min_speed_kbps'] = args.min_speed
+        CONFIG['precise']['min_speed_kbps'] = args.min_speed
+        if CONFIG['verbose']:
+            print(f"最低速度要求: {args.min_speed} KB/s (命令行指定)")
+
     load_city_config()
     cities = get_all_cities()
     
