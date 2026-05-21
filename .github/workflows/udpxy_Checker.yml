@@ -2,7 +2,7 @@ name: udpxy_Checker
 
 on:
   schedule:
-    - cron: '0 22,10 * * *'
+    - cron: '0 6 * * *'
   workflow_dispatch:
 
 jobs:
