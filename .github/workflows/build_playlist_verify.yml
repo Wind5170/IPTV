@@ -2,7 +2,7 @@ name: Build_Playlist_Verify
 
 on:
   schedule:
-    - cron: '0 6,18 * * *'  # 每天 6:00 和 18:00
+    - cron: '0 7,18 * * *'  # 每天 6:00 和 18:00
   workflow_dispatch:
 
 jobs:
