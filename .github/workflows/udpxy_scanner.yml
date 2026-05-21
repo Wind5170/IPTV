@@ -44,6 +44,7 @@ jobs:
             echo "无变更，跳过提交"
           else
             git commit -m "Auto update ip_data at $(date +'%Y-%m-%d %H:%M:%S')"
+            git pull --rebase origin main || true
             git push
           fi
         env:
