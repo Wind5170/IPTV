@@ -273,18 +273,56 @@ def select_config_files(config_files: List[str], auto: bool = False) -> List[str
         print(f"[模式] 自动模式，扫描全部 {len(config_files)} 个城市")
         return config_files
 
-    print("\n[配置列表] 可用城市列表:")
-    print("-" * 60)
-    for idx, config_file in enumerate(config_files, 1):
+    # 提取城市名
+    cities = []
+    for config_file in config_files:
         filename = os.path.basename(config_file)
-        province = filename.split('_')[0]
-        file_size = os.path.getsize(config_file)
-        print(f"  {idx:2d}. {province:<12} | 文件: {filename} | 大小: {file_size}字节")
-
-    print("\n" + "-" * 60)
-    print("[操作提示] 输入城市编号选择扫描对象")
-    print("[操作提示] 输入 0 或 直接回车 扫描全部城市")
-    print("[操作提示] 输入 q 退出程序")
+        city = filename.replace('_config.txt', '')
+        cities.append(city)
+    
+    # 按 REGIONS 表排序
+    REGIONS = [
+        "安徽", "北京", "重庆", "福建", "甘肃", "广东", "广西", "贵州", "海南", "河北",
+        "河南", "黑龙江", "湖北", "湖南", "吉林", "江苏", "江西", "辽宁", "内蒙古", "宁夏",
+        "青海", "山东", "山西", "陕西", "上海", "四川", "天津", "西藏", "新疆", "云南",
+        "浙江", "台湾", "香港", "澳门"
+    ]
+    
+    operator_order = {"电信": 1, "联通": 2, "移动": 3}
+    region_order = {region: idx for idx, region in enumerate(REGIONS)}
+    
+    def sort_key(city: str) -> tuple:
+        province = city
+        operator = ""
+        for op in operator_order.keys():
+            if city.endswith(op):
+                province = city[:-len(op)]
+                operator = op
+                break
+        province_index = region_order.get(province, 999)
+        operator_index = operator_order.get(operator, 99)
+        return (province_index, operator_index)
+    
+    cities = sorted(cities, key=sort_key)
+    
+    print("\n可用的城市列表:")
+    print("-" * 60)
+    
+    cols = 5
+    for i in range(0, len(cities), cols):
+        row = cities[i:i+cols]
+        row_parts = []
+        for j, city in enumerate(row):
+            idx = i + j + 1
+            row_parts.append(f"{idx:2d}. {city:<8}")
+        print(' '.join(row_parts))
+    
+    print("-" * 60)
+    print(f"共 {len(cities)} 个城市")
+    print("\n操作提示:")
+    print("  - 输入城市编号选择扫描对象")
+    print("  - 输入 0 或 直接回车 扫描全部城市")
+    print("  - 输入 q 退出程序")
 
     while True:
         try:
@@ -301,13 +339,15 @@ def select_config_files(config_files: List[str], auto: bool = False) -> List[str
                 return config_files
             
             idx = int(choice)
-            if 1 <= idx <= len(config_files):
-                selected = [config_files[idx - 1]]
-                province = os.path.basename(selected[0]).split('_')[0]
-                print(f"[用户选择] 开始扫描: {province}")
-                return selected
+            if 1 <= idx <= len(cities):
+                # 找到对应的配置文件
+                selected_city = cities[idx - 1]
+                for config_file in config_files:
+                    if selected_city in config_file:
+                        print(f"[用户选择] 开始扫描: {selected_city}")
+                        return [config_file]
             else:
-                print(f"[错误] 无效编号 {idx}，请输入 1-{len(config_files)} 或 0 或 直接回车 或 q")
+                print(f"[错误] 无效编号 {idx}，请输入 1-{len(cities)} 或 0 或 直接回车 或 q")
         except ValueError:
             print("[错误] 请输入有效的数字")
 
