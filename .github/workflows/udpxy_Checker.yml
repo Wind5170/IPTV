@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests  # 添加依赖安装
+          pip install requests
 
       - name: IP检测
         id: ip_check
