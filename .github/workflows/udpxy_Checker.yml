@@ -2,27 +2,18 @@ name: udpxy_Checker
 
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 22,10 * * *'
   workflow_dispatch:
-    inputs:
-      min_speed:
-        description: '最低速度要求（KB/s）'
-        required: false
-        default: '300'
-        type: string
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -33,13 +24,13 @@ jobs:
         run: |
           pip install requests pypinyin
 
-      - name: IP检测（精确测试-全部服务器）
+      - name: IP检测
         id: ip_check
         continue-on-error: true
         run: |
           cd $GITHUB_WORKSPACE
-          MIN_SPEED="${{ github.event.inputs.min_speed || 500 }}"
-          python udpxy_checker.py --auto -m precise -n 0 --min-speed $MIN_SPEED || true
+          # 精确测试，检测全部服务器，最低速度 300 KB/s，忽略错误码
+          python udpxy_checker.py --auto -m precise -n 0 --min-speed 300 || true
 
       - name: 更新IP检测结果
         if: always()
@@ -48,10 +39,8 @@ jobs:
           git config --local user.name "GitHub Action"
           git add ip/
           git add logs/
-          git diff --quiet && git diff --staged --quiet || git commit -m "自动更新IP检测结果 $(date +'%Y-%m-%d %H:%M') [skip ci]" || echo "无变更，跳过提交"
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto update ip_check_data at $(date +'%Y-%m-%d %H:%M:%S')" || echo "无变更，跳过提交"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 查看失败城市
         if: always()
