@@ -1,0 +1,45 @@
+name: Network_IP_Extractor
+
+on:
+  schedule:
+    - cron: '0 4 * * *'  # 每天凌晨4点
+  workflow_dispatch:
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: 提取网络IP
+        run: |
+          cd $GITHUB_WORKSPACE
+          python network_ip_extractor.py
+
+      - name: 更新IP文件
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ip/
+          git add config/processed_urls.json
+          git commit -m "Auto update ip_data_extract at $(date +'%Y-%m-%d %H:%M:%S')" || echo "无变更"
+          git pull --rebase origin main || true
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
