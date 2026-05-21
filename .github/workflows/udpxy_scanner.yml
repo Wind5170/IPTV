@@ -32,7 +32,7 @@ jobs:
         continue-on-error: true
         run: |
           cd $GITHUB_WORKSPACE
-          python udpxy_source_scanner.py --auto -c 2
+          python udpxy_source_scanner.py --auto -q
 
       - name: 更新扫描结果
         if: always()
