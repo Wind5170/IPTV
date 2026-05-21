@@ -4,19 +4,25 @@ on:
   schedule:
     - cron: '0 */4 * * *'
   workflow_dispatch:
+    inputs:
+      min_speed:
+        description: '最低速度要求（KB/s）'
+        required: false
+        default: '300'
+        type: string
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 添加写入权限
+      contents: write
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}  # 添加 token
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -29,13 +35,14 @@ jobs:
 
       - name: IP检测（精确测试-全部服务器）
         id: ip_check
-        continue-on-error: true  # 允许失败，继续执行
+        continue-on-error: true
         run: |
           cd $GITHUB_WORKSPACE
-          python udpxy_checker.py --auto -m precise -n 0 || true  # 忽略错误码
+          MIN_SPEED="${{ github.event.inputs.min_speed || 500 }}"
+          python udpxy_checker.py --auto -m precise -n 0 --min-speed $MIN_SPEED || true
 
       - name: 更新IP检测结果
-        if: always()  # 无论检测是否成功都执行
+        if: always()
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
