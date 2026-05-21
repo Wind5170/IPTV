@@ -32,7 +32,7 @@ CONFIG = {
     "debug": False,             # 调试模式（显示所有细节）
     "skip_strings": ["ipipip", "localhost", "127.0.0.1"],
     "global_deduplicate": True,
-    "records_file": "config/processed_urls.json",
+    "records_file": "config/processed_records.json",
 }
 
 # ==================== 省份排序顺序 ====================
