@@ -18,7 +18,6 @@ import socket
 import time
 import glob
 import json
-import locale
 from datetime import datetime
 import threading
 import argparse
@@ -29,7 +28,7 @@ import requests
 
 # ==================== 配置参数 ====================
 CONFIG = {
-    "test_mode": "quick", # 快速测试或精确测试 （默认精确测试 precise ， 快速测试 quick ）
+    "test_mode": "precise", # 快速测试或精确测试 （默认精确测试 precise ， 快速测试 quick ）
     "quick": {
         "download_size": 64 * 1024,
         "chunk_size": 8192,
@@ -63,10 +62,6 @@ CONFIG = {
     "verbose": True,
 }
 
-try:
-    locale.setlocale(locale.LC_COLLATE, 'zh_CN.UTF-8')
-except:
-    pass
 
 CITY_CONFIG = {}
 
@@ -79,9 +74,16 @@ def load_city_config():
             data = json.load(f)
         CITY_CONFIG = data.get("cities", data)
 
+# ==================== 省份排序顺序（按拼音） ====================
+REGIONS = [
+    "安徽", "北京", "重庆", "福建", "甘肃", "广东", "广西", "贵州", "海南", "河北",
+    "河南", "黑龙江", "湖北", "湖南", "吉林", "江苏", "江西", "辽宁", "内蒙古", "宁夏",
+    "青海", "山东", "山西", "陕西", "上海", "四川", "天津", "西藏", "新疆", "云南",
+    "浙江", "台湾", "香港", "澳门"
+]
 
 def get_all_cities(ip_dir: str = "ip") -> List[str]:
-    """获取所有有 ip.txt 文件的城市（按拼音排序）"""
+    """获取所有有 ip.txt 文件的城市（按 REGIONS 顺序排序）"""
     cities = set()
     
     for file_path in glob.glob(os.path.join(ip_dir, "*_ip.txt")):
@@ -91,23 +93,23 @@ def get_all_cities(ip_dir: str = "ip") -> List[str]:
         if city not in skip_patterns and not city.startswith("存档"):
             cities.add(city)
     
-    # 使用 pypinyin 进行拼音排序
-    try:
-        from pypinyin import pinyin, Style
-        def pinyin_key(city: str) -> str:
-            province = city
-            for op in ["电信", "联通", "移动"]:
-                if city.endswith(op):
-                    province = city[:-len(op)]
-                    break
-            pinyins = pinyin(province, style=Style.NORMAL)
-            return ''.join([p[0] for p in pinyins])
-        return sorted(cities, key=pinyin_key)
-    except ImportError:
-        try:
-            return sorted(cities, key=locale.strxfrm)
-        except:
-            return sorted(cities)
+    # 按省份+运营商排序
+    operator_order = {"电信": 1, "联通": 2, "移动": 3}
+    region_order = {region: idx for idx, region in enumerate(REGIONS)}
+    
+    def sort_key(city: str) -> tuple:
+        province = city
+        operator = ""
+        for op in operator_order.keys():
+            if city.endswith(op):
+                province = city[:-len(op)]
+                operator = op
+                break
+        province_index = region_order.get(province, 999)
+        operator_index = operator_order.get(operator, 99)
+        return (province_index, operator_index)
+    
+    return sorted(cities, key=sort_key)
 
 
 def print_city_list(cities: List[str]) -> None:
