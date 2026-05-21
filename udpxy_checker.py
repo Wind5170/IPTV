@@ -353,11 +353,11 @@ def read_existing_history(city, mode):
 def update_history(existing, results, mode):
     """更新历史记录：只要通就算有效，不管速度"""
     for server, speed in results:
+        # 只去除 http:// 用于内部比较，不修改原始数据
         server_norm = server.replace('http://', '').replace('https://', '')
         if server_norm not in existing:
             existing[server_norm] = {"status": "", "success": 0, "fail": 0}
         
-        # 只要有数据（不是[X]）就算有效
         if speed != "[X]":
             existing[server_norm]["status"] = "有效"
             existing[server_norm]["success"] += 1
@@ -397,18 +397,14 @@ def save_results(city, results, existing, mode):
     result_file = os.path.join(CONFIG["ip_dir"], f"{city}_ip_{config['output_suffix']}.txt")
     
     if valid_servers:
-        # 按速度排序（快的在前）
         valid_servers.sort(key=lambda x: x[2], reverse=True)
         
         with open(result_file, 'w', encoding='utf-8') as f:
             f.write(f"# {current_time}_{config['output_suffix']}\n")
-            f.write("# 服务器地址\t速度\t速度(KB/s)\n")
-            for server, speed, kbps in valid_servers:
-                if not server.startswith('http'):
-                    server = f"http://{server}"
-                f.write(f"{server}\t{speed}\t{kbps:.1f}\n")
+            f.write("# 服务器地址\t速度\n")
+            for server, speed, _ in valid_servers:
+                f.write(f"{server}\t{speed}\n")
     else:
-        # 没有有效服务器，删除文件（如果存在）
         if os.path.exists(result_file):
             os.remove(result_file)
             if CONFIG['verbose']:
@@ -421,11 +417,9 @@ def save_results(city, results, existing, mode):
         
         with open(slow_file, 'w', encoding='utf-8') as f:
             f.write(f"# {current_time}_{config['output_suffix']}_slow\n")
-            f.write("# 服务器地址\t速度\t速度(KB/s)\n")
-            for server, speed, kbps in slow_servers:
-                if not server.startswith('http'):
-                    server = f"http://{server}"
-                f.write(f"{server}\t{speed}\t{kbps:.1f}\n")
+            f.write("# 服务器地址\t速度\n")
+            for server, speed, _ in slow_servers:
+                f.write(f"{server}\t{speed}\n")
         
         if CONFIG['verbose']:
             print(f"    低速服务器: {len(slow_servers)} 个 (已保存到 slow/{city}_ip_{config['output_suffix']}_slow.txt)")
@@ -436,7 +430,7 @@ def save_results(city, results, existing, mode):
     history_file = os.path.join(CONFIG["ip_dir"], f"{city}_ip_history.txt")
     with open(history_file, 'w', encoding='utf-8') as f:
         f.write(f"# {current_time}_{config['output_suffix']}_history\n")
-        f.write("# 服务器地址\t状态\t测试有效次数\t测试无效次数\n")
+        f.write("# 服务器地址\t状态\t有效次数\t无效次数\n")
         for server_norm, data in existing.items():
             f.write(f"{server_norm}\t{data['status']}\t{data['success']}\t{data['fail']}\n")
     
@@ -475,7 +469,7 @@ def process_city(city_name, mode, max_servers=0):
         return False, 0
     
     if CONFIG['verbose']:
-        print(f"  有效IP数量：{len(ip_list)}")
+        print(f"  待测IP数量：{len(ip_list)}")
         print("  正在检测端口连通性...")
     
     good_ips = set()
