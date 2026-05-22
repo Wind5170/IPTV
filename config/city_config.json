@@ -24,7 +24,7 @@
         "22": {"city": "山西电信", "stream": "239.1.1.1:8001", "exclude_prefixes": "", "keep_unmatched": true, "keep_keywords": "新闻|综合|影视"},
         "23": {"city": "陕西电信", "stream": "239.111.205.35:5140", "exclude_prefixes": "10|13|14|20", "keep_unmatched": true, "keep_keywords": "新闻|综合|影视"},
         "24": {"city": "上海电信", "stream": "233.18.204.224:5140", "exclude_prefixes": "10|13|14|20", "keep_unmatched": true, "keep_keywords": "新闻|综合|影视"},
-        "25": {"city": "四川电信", "stream": "239.93.0.169:5140", "exclude_prefixes": "10|13|14|20", "keep_unmatched": true, "keep_keywords": "新闻|综合|影视"},
+        "25": {"city": "四川电信", "stream": "239.94.0.59:5140", "exclude_prefixes": "10|13|14|20", "keep_unmatched": true, "keep_keywords": "新闻|综合|影视"},
         "26": {"city": "天津电信", "stream": "239.5.1.1:5000", "exclude_prefixes": "10|13|14|20", "keep_unmatched": true, "keep_keywords": "新闻|综合|影视"},
         "27": {"city": "西藏电信", "stream": "", "exclude_prefixes": "10|13|14|20", "keep_unmatched": true, "keep_keywords": "新闻|综合|影视"},
         "28": {"city": "新疆电信", "stream": "238.125.3.174:5140", "exclude_prefixes": "10|13|14|20", "keep_unmatched": true, "keep_keywords": "新闻|综合|影视"},
@@ -93,11 +93,6 @@
         "91": {"city": "云南移动", "stream": "", "exclude_prefixes": "10|13|14|20", "keep_unmatched": true, "keep_keywords": "新闻|综合|影视"},
         "92": {"city": "浙江移动", "stream": "", "exclude_prefixes": "10|13|14|20", "keep_unmatched": true, "keep_keywords": "新闻|综合|影视"},
         "93": {"city": "重庆移动", "stream": "", "exclude_prefixes": "10|13|14|20", "keep_unmatched": true, "keep_keywords": "新闻|综合|影视"},
-        "94": {"city": "四川电信2", "stream": "239.93.0.20:1235", "exclude_prefixes": "10|13|14|20", "keep_unmatched": true, "keep_keywords": "新闻|综合|影视"},
-        "95": {"city": "四川电信3", "stream": "239.94.0.60:5140", "exclude_prefixes": "10|13|14|20", "keep_unmatched": true, "keep_keywords": "新闻|综合|影视"},
-        "96": {"city": "四川电信4", "stream": "239.94.0.115:5140", "exclude_prefixes": "10|13|14|20", "keep_unmatched": true, "keep_keywords": "新闻|综合|影视"},
-        "97": {"city": "四川电信5", "stream": "239.93.26.20:1235", "exclude_prefixes": "10|13|14|20", "keep_unmatched": true, "keep_keywords": "新闻|综合|影视"},
-        "98": {"city": "四川电信6", "stream": "239.94.0.59:5140", "exclude_prefixes": "10|13|14|20", "keep_unmatched": true, "keep_keywords": "新闻|综合|影视"},
 
         "9999": {}
     }
