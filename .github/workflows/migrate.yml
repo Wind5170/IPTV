@@ -1,0 +1,37 @@
+name: 手动迁移目录结构
+
+on:
+  workflow_dispatch:  # 仅手动触发
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 执行目录迁移
+        run: |
+          cd $GITHUB_WORKSPACE
+          python migrate_dirs.py
+
+      - name: 提交迁移结果
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ip/
+          git diff --quiet && git diff --staged --quiet || git commit -m "迁移目录结构: 存档->gateway, 历史文件->history [skip ci]" || echo "无变更"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
