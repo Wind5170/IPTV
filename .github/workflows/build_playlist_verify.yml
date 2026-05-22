@@ -38,6 +38,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add output/
           git commit -m "Auto update playlist at $(date +'%Y-%m-%d %H:%M:%S')" || echo "无变更"
+          git pull --rebase origin main || true
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
