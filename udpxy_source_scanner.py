@@ -142,7 +142,8 @@ def check_ip_port(ip_port: str, url_end: str, timeout: int = DEFAULT_TIMEOUT) ->
 
 
 def scan_ip_ports(ip_ports: List[str], url_end: str, workers: int = DEFAULT_WORKERS,
-                  timeout: int = DEFAULT_TIMEOUT, verbose: bool = False) -> List[str]:
+                  timeout: int = DEFAULT_TIMEOUT, verbose: bool = False, 
+                  auto_mode: bool = False) -> List[str]:
     """多线程扫描 IP 端口列表，返回有效的 IP:端口 列表"""
     if not ip_ports:
         return []
@@ -155,7 +156,8 @@ def scan_ip_ports(ip_ports: List[str], url_end: str, workers: int = DEFAULT_WORK
     completed = 0
     total = len(ip_ports)
 
-    if verbose:
+    # 只在非自动模式下显示进度条
+    if verbose and not auto_mode:
         print_progress_bar(0, total, prefix="扫描进度:", suffix=" 有效:0")
 
     with ThreadPoolExecutor(max_workers=workers) as executor:
@@ -167,10 +169,10 @@ def scan_ip_ports(ip_ports: List[str], url_end: str, workers: int = DEFAULT_WORK
                 valid_results.append(result)
 
             completed += 1
-            if verbose:
+            if verbose and not auto_mode:
                 print_progress_bar(completed, total, prefix="扫描进度:", suffix=f" 有效:{len(valid_results)}")
 
-    if verbose:
+    if verbose and not auto_mode:
         print()
     
     elapsed = time.time() - start_time
@@ -178,7 +180,6 @@ def scan_ip_ports(ip_ports: List[str], url_end: str, workers: int = DEFAULT_WORK
         print(f"[扫描完成] 耗时: {elapsed:.2f}秒, 有效IP: {len(valid_results)}个")
 
     return valid_results
-
 
 def save_results(province: str, new_ips: List[str], verbose: bool = True) -> Tuple[int, int, int]:
     """保存扫描结果到 ip/{province}_ip.txt 和 ip/存档/存档_{province}_ip.txt"""
@@ -232,7 +233,8 @@ def save_results(province: str, new_ips: List[str], verbose: bool = True) -> Tup
     return len(existing_ips), len(all_ips), added_count
 
 
-def scan_province(config_file: str, workers: int = DEFAULT_WORKERS, verbose: bool = True) -> bool:
+def scan_province(config_file: str, workers: int = DEFAULT_WORKERS, 
+                  verbose: bool = True, auto_mode: bool = False) -> bool:
     """扫描单个省份的 udpxy 服务器，返回是否发现有效服务"""
     filename = os.path.basename(config_file)
     province = filename.split('_')[0]
@@ -257,7 +259,7 @@ def scan_province(config_file: str, workers: int = DEFAULT_WORKERS, verbose: boo
             print(f"\n[扫描组 {idx}/{len(configs)}] http://{ip}:{port}{url_end}, 选项: {option}")
         
         ip_ports = generate_ip_ports(ip, port, option, verbose)
-        results = scan_ip_ports(ip_ports, url_end, workers, DEFAULT_TIMEOUT, verbose)
+        results = scan_ip_ports(ip_ports, url_end, workers, DEFAULT_TIMEOUT, verbose, auto_mode)
         all_ip_ports.extend(results)
 
     if all_ip_ports:
@@ -426,7 +428,7 @@ def main():
             print(f"[进度] {idx}/{len(selected_configs)} - {province}")
             print(f"{'=' * 60}")
         
-        if scan_province(config_file, args.workers, verbose):
+        if scan_province(config_file, args.workers, verbose, args.auto):
             success_count += 1
 
     elapsed = time.time() - start_time
