@@ -20,7 +20,18 @@ import requests
 # ==================== 配置常量 ====================
 DEFAULT_WORKERS = 500          # 默认并发线程数
 DEFAULT_TIMEOUT = 2            # 请求超时时间（秒）
-DEFAULT_VERBOSE = True         # 默认详细输出模式 （可被 -q 覆盖）
+DEFAULT_VERBOSE = True         # 默认详细输出模式（可被 -q 覆盖）
+
+# 省份排序顺序
+REGIONS = [
+    "安徽", "北京", "重庆", "福建", "甘肃", "广东", "广西", "贵州", "海南", "河北",
+    "河南", "黑龙江", "湖北", "湖南", "吉林", "江苏", "江西", "辽宁", "内蒙古", "宁夏",
+    "青海", "山东", "山西", "陕西", "上海", "四川", "天津", "西藏", "新疆", "云南",
+    "浙江", "台湾", "香港", "澳门"
+]
+
+OPERATOR_ORDER = {"电信": 1, "联通": 2, "移动": 3}
+
 
 # ==================== 进度条函数 ====================
 def print_progress_bar(current: int, total: int, prefix: str = "", suffix: str = "", bar_length: int = 40):
@@ -71,7 +82,7 @@ def read_config(config_file: str, verbose: bool = True) -> List[Tuple[str, str, 
 
                 try:
                     ip_part, port = parts[0].strip().split(':')
-                    a, b, c, d = ip_part.split('.')
+                    a, b, c, _ = ip_part.split('.')  # 使用 _ 代替未使用的 d
                     option = int(parts[1])
                     url_end = "/status" if option >= 10 else "/stat"
                     
@@ -98,7 +109,7 @@ def read_config(config_file: str, verbose: bool = True) -> List[Tuple[str, str, 
 
 def generate_ip_ports(ip: str, port: str, option: int, verbose: bool = True) -> List[str]:
     """根据选项生成待扫描的 IP 端口列表"""
-    a, b, c, d = ip.split('.')
+    a, b, c, _ = ip.split('.')
 
     if option == 2 or option == 12:
         # C段范围扫描
@@ -181,19 +192,22 @@ def scan_ip_ports(ip_ports: List[str], url_end: str, workers: int = DEFAULT_WORK
 
     return valid_results
 
+
 def save_results(province: str, new_ips: List[str], verbose: bool = True) -> Tuple[int, int, int]:
-    """保存扫描结果到 ip/{province}_ip.txt 和 ip/存档/存档_{province}_ip.txt"""
+    """保存扫描结果到 ip/{province}_ip.txt 和 ip/gateway/{province}_gateway.txt"""
     os.makedirs("ip", exist_ok=True)
-    os.makedirs("ip/存档", exist_ok=True)
+    os.makedirs("ip/gateway", exist_ok=True)
 
     main_file = f"ip/{province}_ip.txt"
-    archive_file = f"ip/存档/存档_{province}_ip.txt"
+    gateway_file = f"ip/gateway/{province}_gateway.txt"
 
+    # 读取现有主文件
     existing_ips = []
     if os.path.exists(main_file):
         with open(main_file, 'r', encoding='utf-8') as f:
             existing_ips = [line.strip() for line in f if line.strip()]
 
+    # 合并去重
     all_ips = sorted(set(existing_ips + new_ips))
     added_count = len(all_ips) - len(existing_ips)
 
@@ -204,31 +218,35 @@ def save_results(province: str, new_ips: List[str], verbose: bool = True) -> Tup
         print(f"[文件保存] 结果已保存: {main_file}")
         print(f"[文件保存] 原记录: {len(existing_ips)}, 新记录: {len(all_ips)}, 新增: {added_count}")
 
+    # 处理网关文件
     if new_ips:
-        gateway_ips = set()
+        # 提取网关IP
+        new_gateways = set()
         for ip_port in new_ips:
             try:
                 ip, port = ip_port.split(":")
                 parts = ip.split(".")
                 gateway_ip = f"{parts[0]}.{parts[1]}.{parts[2]}.1:{port}"
-                gateway_ips.add(gateway_ip)
+                new_gateways.add(gateway_ip)
             except ValueError:
                 continue
 
-        archive_ips = []
-        if os.path.exists(archive_file):
-            with open(archive_file, 'r', encoding='utf-8') as f:
-                archive_ips = [line.strip() for line in f if line.strip()]
+        # 读取现有网关文件
+        existing_gateways = []
+        if os.path.exists(gateway_file):
+            with open(gateway_file, 'r', encoding='utf-8') as f:
+                existing_gateways = [line.strip() for line in f if line.strip()]
 
-        all_archive = sorted(set(archive_ips + list(gateway_ips)))
-        archive_added = len(all_archive) - len(archive_ips)
+        # 合并去重
+        all_gateways = sorted(set(existing_gateways + list(new_gateways)))
+        gateway_added = len(all_gateways) - len(existing_gateways)
 
-        with open(archive_file, 'w', encoding='utf-8') as f:
-            f.write('\n'.join(all_archive))
+        with open(gateway_file, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(all_gateways))
 
         if verbose:
-            print(f"[存档更新] 存档文件已更新: {archive_file}")
-            print(f"[存档更新] 原记录: {len(archive_ips)}, 新记录: {len(all_archive)}, 新增: {archive_added}")
+            print(f"[网关更新] 网关文件已更新: {gateway_file}")
+            print(f"[网关更新] 原记录: {len(existing_gateways)}, 新记录: {len(all_gateways)}, 新增: {gateway_added}")
 
     return len(existing_ips), len(all_ips), added_count
 
@@ -276,6 +294,25 @@ def scan_province(config_file: str, workers: int = DEFAULT_WORKERS,
         return False
 
 
+def sort_cities(cities: List[str]) -> List[str]:
+    """按 REGIONS 顺序排序城市"""
+    region_order = {region: idx for idx, region in enumerate(REGIONS)}
+    
+    def sort_key(city: str) -> tuple:
+        province = city
+        operator = ""
+        for op in OPERATOR_ORDER.keys():
+            if city.endswith(op):
+                province = city[:-len(op)]
+                operator = op
+                break
+        province_index = region_order.get(province, 999)
+        operator_index = OPERATOR_ORDER.get(operator, 99)
+        return (province_index, operator_index)
+    
+    return sorted(cities, key=sort_key)
+
+
 def select_config_files(config_files: List[str], auto: bool = False, verbose: bool = True) -> List[str]:
     """选择要扫描的配置文件，自动模式返回全部"""
     if auto:
@@ -283,37 +320,14 @@ def select_config_files(config_files: List[str], auto: bool = False, verbose: bo
             print(f"[模式] 自动模式，扫描全部 {len(config_files)} 个城市")
         return config_files
 
-    # 提取城市名
+    # 提取城市名并排序
     cities = []
     for config_file in config_files:
         filename = os.path.basename(config_file)
         city = filename.replace('_config.txt', '')
         cities.append(city)
     
-    # 按 REGIONS 表排序
-    REGIONS = [
-        "安徽", "北京", "重庆", "福建", "甘肃", "广东", "广西", "贵州", "海南", "河北",
-        "河南", "黑龙江", "湖北", "湖南", "吉林", "江苏", "江西", "辽宁", "内蒙古", "宁夏",
-        "青海", "山东", "山西", "陕西", "上海", "四川", "天津", "西藏", "新疆", "云南",
-        "浙江", "台湾", "香港", "澳门"
-    ]
-    
-    operator_order = {"电信": 1, "联通": 2, "移动": 3}
-    region_order = {region: idx for idx, region in enumerate(REGIONS)}
-    
-    def sort_key(city: str) -> tuple:
-        province = city
-        operator = ""
-        for op in operator_order.keys():
-            if city.endswith(op):
-                province = city[:-len(op)]
-                operator = op
-                break
-        province_index = region_order.get(province, 999)
-        operator_index = operator_order.get(operator, 99)
-        return (province_index, operator_index)
-    
-    cities = sorted(cities, key=sort_key)
+    cities = sort_cities(cities)
     
     if verbose:
         print("\n可用的城市列表:")
