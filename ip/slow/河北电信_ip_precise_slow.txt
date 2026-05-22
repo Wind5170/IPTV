@@ -1,5 +1,4 @@
-# 20260522_1536_precise_slow
+# 20260522_2256_precise_slow
 # 服务器地址	速度
-106.116.126.119:4022	273.82 KB/s
-yaching.xmtcenter.com:9999	246.92 KB/s
-111.226.232.226:10010	226.90 KB/s
+111.226.232.226:10010	274.88 KB/s
+yaching.xmtcenter.com:9999	76.62 KB/s
