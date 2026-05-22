@@ -51,7 +51,7 @@ CONFIG = {
         "retry_times": 2,
         "output_suffix": "precise",
         "output_name": "精确测试",
-        "min_speed_kbps": 300,      # 最低速度要求 500KB/s（约4Mbps）
+        "min_speed_kbps": 500,      # 最低速度要求 500KB/s（约4Mbps）
     },
     "city_config_file": "config/city_config.json",
     "ip_dir": "ip",
@@ -370,7 +370,7 @@ def update_history(existing, results, mode):
 
 
 def save_results(city, results, existing, mode):
-    """分级保存测试结果"""
+    """分级保存测试结果（智能阈值策略）"""
     config = CONFIG[mode]
     current_time = datetime.now().strftime('%Y%m%d_%H%M')
     min_speed_kbps = config.get("min_speed_kbps", 0)
@@ -379,9 +379,9 @@ def save_results(city, results, existing, mode):
     os.makedirs(CONFIG["ip_dir"], exist_ok=True)
     os.makedirs(CONFIG["slow_dir"], exist_ok=True)
     
-    # 分类服务器
-    valid_servers = []      # 速度达标
-    slow_servers = []       # 速度未达标但有数据
+    # 分类服务器（按速度）
+    high_speed_servers = []   # 速度达标
+    low_speed_servers = []    # 速度未达标但有数据
     
     for server, speed in results:
         if speed == "[X]":
@@ -389,14 +389,45 @@ def save_results(city, results, existing, mode):
         
         speed_kbps = parse_speed_to_kbps(speed, mode)
         if min_speed_kbps > 0 and speed_kbps < min_speed_kbps:
-            slow_servers.append((server, speed, speed_kbps))
+            low_speed_servers.append((server, speed, speed_kbps))
         else:
-            valid_servers.append((server, speed, speed_kbps))
+            high_speed_servers.append((server, speed, speed_kbps))
     
-    # 1. 保存有效服务器（速度达标）- 用于生成播放列表
+    # 按速度排序
+    high_speed_servers.sort(key=lambda x: x[2], reverse=True)
+    low_speed_servers.sort(key=lambda x: x[2], reverse=True)
+    
+    # 智能阈值策略：
+    # 1. 有达标服务器：保留所有达标服务器
+    #    - 如果达标服务器只有1个，再保留1个最好的低速服务器（作为备用）
+    #    - 如果达标服务器 >= 2个，只保留达标服务器
+    # 2. 没有达标服务器：保留2个最好的低速服务器
+    valid_servers = []
+    
+    if high_speed_servers:
+        # 有达标的服务器，保留所有达标的
+        valid_servers = high_speed_servers.copy()
+        
+        # 如果只有1个达标服务器，再保留1个最好的低速服务器
+        if len(high_speed_servers) == 1 and low_speed_servers:
+            best_low = low_speed_servers[0]
+            valid_servers.append(best_low)
+            if CONFIG['verbose']:
+                print(f"    达标服务器仅1个，额外保留1个最佳低速服务器: {best_low[1]} ({best_low[2]:.1f} KB/s)")
+    elif low_speed_servers:
+        # 没有达标的，但有低速服务器，保留2个最好的低速服务器
+        keep_count = min(2, len(low_speed_servers))
+        valid_servers = low_speed_servers[:keep_count]
+        if CONFIG['verbose']:
+            print(f"    没有速度达标的服务器，保留 {keep_count} 个最佳低速服务器")
+            for sv in valid_servers:
+                print(f"      - {sv[1]} ({sv[2]:.1f} KB/s)")
+    
+    # 1. 保存有效服务器
     result_file = os.path.join(CONFIG["ip_dir"], f"{city}_ip_{config['output_suffix']}.txt")
     
     if valid_servers:
+        # 按速度排序
         valid_servers.sort(key=lambda x: x[2], reverse=True)
         
         with open(result_file, 'w', encoding='utf-8') as f:
@@ -408,21 +439,26 @@ def save_results(city, results, existing, mode):
         if os.path.exists(result_file):
             os.remove(result_file)
             if CONFIG['verbose']:
-                print(f"    没有速度达标的服务器，已删除 {os.path.basename(result_file)}")
+                print(f"    没有可用服务器，已删除 {os.path.basename(result_file)}")
     
     # 2. 保存低速服务器到 slow/ 子目录（供分析参考）
-    if slow_servers:
-        slow_servers.sort(key=lambda x: x[2], reverse=True)
+    # 确定哪些低速服务器需要保存到 slow 目录
+    valid_low_set = set(valid_servers)
+    slow_for_save = [s for s in low_speed_servers if s not in valid_low_set]
+    
+    if slow_for_save:
         slow_file = os.path.join(CONFIG["slow_dir"], f"{city}_ip_{config['output_suffix']}_slow.txt")
         
         with open(slow_file, 'w', encoding='utf-8') as f:
             f.write(f"# {current_time}_{config['output_suffix']}_slow\n")
             f.write("# 服务器地址\t速度\n")
-            for server, speed, _ in slow_servers:
+            for server, speed, _ in slow_for_save:
                 f.write(f"{server}\t{speed}\n")
         
         if CONFIG['verbose']:
-            print(f"    低速服务器: {len(slow_servers)} 个 (已保存到 slow/{city}_ip_{config['output_suffix']}_slow.txt)")
+            print(f"    低速服务器: {len(slow_for_save)} 个 (已保存到 slow/{city}_ip_{config['output_suffix']}_slow.txt)")
+    elif low_speed_servers and CONFIG['verbose']:
+        print(f"    所有低速服务器均已作为有效服务器保留")
     
     # 3. 更新历史记录（不管速度，只要通就算有效）
     existing = update_history(existing, results, mode)
