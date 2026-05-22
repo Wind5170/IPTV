@@ -2,20 +2,21 @@ name: udpxy_Checker
 
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 22,10 * * *'
   workflow_dispatch:
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 添加写入权限
+      contents: write
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -24,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests
+          pip install requests pypinyin
 
       - name: IP检测
         id: ip_check
@@ -41,8 +42,15 @@ jobs:
           git config --local user.name "GitHub Action"
           git add ip/
           git add logs/
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto update ip_check_data at $(date +'%Y-%m-%d %H:%M:%S')" || echo "无变更，跳过提交"
-          git push
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "无变更，跳过提交"
+          else
+            git commit -m "Auto update ip_check_data at $(date +'%Y-%m-%d %H:%M:%S')"
+            git pull --rebase origin main || true
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 查看失败城市
         if: always()
