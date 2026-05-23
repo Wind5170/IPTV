@@ -30,7 +30,7 @@ jobs:
       - name: 生成播放列表（带实时验证）
         run: |
           cd $GITHUB_WORKSPACE
-          python build_udpxy_playlist_verify.py --all -n 8 --server-sources good precise quick
+          python build_udpxy_playlist_verify.py --auto
 
       - name: 更新播放列表
         run: |
