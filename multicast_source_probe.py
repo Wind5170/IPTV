@@ -40,13 +40,13 @@ CONFIG = {
     "max_concurrency": 50,
     
     # 每个服务器最大并发数（避免单服务器过载）
-    "max_per_server": 5,
+    "max_per_server": 10,
     
     # 是否启用低速服务器备用（仅当没有达标服务器时使用）
     "use_slow_servers": True,
     
     # 低速服务器最大数量（当没有达标服务器时补充）
-    "max_slow_servers": 5,
+    "max_slow_servers": 20,
     
     # ffprobe 超时时间（秒）
     "ffprobe_timeout": 20,
@@ -54,6 +54,9 @@ CONFIG = {
     # 目录配置
     "rtp_dir": "rtp",
     "ip_dir": "ip",
+    
+    # 自动模式（用于CI/CD，不显示进度条）
+    "auto_mode": False,
 }
 
 # ==================== 全局退出标志 ====================
@@ -154,18 +157,21 @@ def parse_server_file(city, ip_dir='ip', server_source='quick', max_servers=10, 
     source_name = "快速测试" if server_source == 'quick' else "精确测试"
     source_file_suffix = "quick" if server_source == 'quick' else "precise"
     
-    # 1. 读取达标服务器
-    server_file = os.path.join(ip_dir, f"{main_city_name}_ip_{source_file_suffix}.txt")
-    slow_dir = os.path.join(ip_dir, "slow")
-    slow_file = os.path.join(slow_dir, f"{main_city_name}_ip_{source_file_suffix}_slow.txt")
+    # 1. 读取达标服务器 - 尝试多种文件格式
+    possible_files = [
+        os.path.join(ip_dir, f"{main_city_name}_ip_{source_file_suffix}.txt"),
+        os.path.join(ip_dir, f"{main_city_name}_ip.txt"),
+        os.path.join(ip_dir, f"{main_city_name}_ip_result.txt"),
+    ]
     
-    # 兼容旧格式（仅 quick 模式）
-    if not os.path.exists(server_file) and server_source == 'quick':
-        server_file = os.path.join(ip_dir, f"{main_city_name}_ip_result.txt")
+    server_file = None
+    for pf in possible_files:
+        if os.path.exists(pf):
+            server_file = pf
+            break
     
     # 读取达标服务器
-    server_file_exists = os.path.exists(server_file)
-    if server_file_exists:
+    if server_file:
         try:
             with open(server_file, 'r', encoding='utf-8') as f:
                 for line in f:
@@ -183,20 +189,33 @@ def parse_server_file(city, ip_dir='ip', server_source='quick', max_servers=10, 
                                 servers.append(server)
                     elif ':' in line:
                         servers.append(line.strip())
+            if verbose:
+                print(f"  读取{source_name}服务器: {os.path.basename(server_file)} ({len(servers)} 个)")
         except Exception as e:
             if verbose:
                 print(f"  读取达标服务器文件失败: {e}")
     else:
         if verbose:
-            print(f"  未找到{source_name}达标服务器文件: {main_city_name}_ip_{source_file_suffix}.txt")
+            print(f"  未找到{source_name}达标服务器文件: {main_city_name}_ip_*.txt")
     
     # 记录达标服务器数量
     current_count = len(servers)
     
     # 2. 只有当没有达标服务器时，才从低速服务器中补充
     if use_slow_servers and current_count == 0:
-        slow_file_exists = os.path.exists(slow_file)
-        if slow_file_exists:
+        slow_dir = os.path.join(ip_dir, "slow")
+        possible_slow_files = [
+            os.path.join(slow_dir, f"{main_city_name}_ip_{source_file_suffix}_slow.txt"),
+            os.path.join(slow_dir, f"{main_city_name}_ip_slow.txt"),
+        ]
+        
+        slow_file = None
+        for psf in possible_slow_files:
+            if os.path.exists(psf):
+                slow_file = psf
+                break
+        
+        if slow_file:
             try:
                 with open(slow_file, 'r', encoding='utf-8') as f:
                     for line in f:
@@ -226,9 +245,9 @@ def parse_server_file(city, ip_dir='ip', server_source='quick', max_servers=10, 
                 if verbose:
                     print(f"  {source_name}达标服务器: 0 个，使用低速服务器: {supplement_count} 个")
             elif verbose:
-                print(f"  未找到{source_name}低速服务器: slow/{main_city_name}_ip_{source_file_suffix}_slow.txt")
+                print(f"  未找到{source_name}低速服务器")
         elif verbose:
-            print(f"  未找到{source_name}低速服务器: slow/{main_city_name}_ip_{source_file_suffix}_slow.txt")
+            print(f"  未找到{source_name}低速服务器")
     elif use_slow_servers and current_count > 0 and verbose:
         print(f"  {source_name}达标服务器: {current_count} 个（充足，不使用低速服务器）")
     
@@ -375,7 +394,7 @@ def test_with_opencv(server, multicast_addr, timeout=15):
         return False, "", "", 0, 99999
 
 
-def process_city(city, source_file, config):
+def process_city(city, source_file, config, auto_mode=False):
     """处理单个城市的组播源探测 - 按总并发数分配任务"""
     global should_exit
     should_exit = False
@@ -394,7 +413,7 @@ def process_city(city, source_file, config):
         config['max_concurrency'],
         config.get('use_slow_servers', True),
         config.get('max_slow_servers', 20),
-        verbose=True
+        verbose=not auto_mode  # 自动模式下减少输出
     )
     
     if not servers:
@@ -413,8 +432,11 @@ def process_city(city, source_file, config):
     num_servers = len(servers)
     num_sources = len(sources)
     
-    print(f"  组播源数量: {num_sources}")
-    print(f"  {source_name}服务器数量: {num_servers}")
+    if not auto_mode:
+        print(f"  组播源数量: {num_sources}")
+        print(f"  {source_name}服务器数量: {num_servers}")
+    else:
+        print(f"  组播源: {num_sources}, 服务器: {num_servers}")
     
     # 选择测试函数
     if config['test_method'] == 'opencv' and HAS_OPENCV:
@@ -460,7 +482,8 @@ def process_city(city, source_file, config):
                             "server": server
                         }
         except Exception as e:
-            print(f"  读取已有结果文件失败: {e}")
+            if not auto_mode:
+                print(f"  读取已有结果文件失败: {e}")
         
         # 筛选需要测试的源（新增 或 状态为无效）
         for name, addr, cat in sources:
@@ -469,10 +492,11 @@ def process_city(city, source_file, config):
             elif existing_results[addr]["status"] != "有效":
                 sources_to_test.append((name, addr, cat))
         
-        print(f"  接续模式: 需要测试 {len(sources_to_test)} 个源")
+        if not auto_mode:
+            print(f"  接续模式: 需要测试 {len(sources_to_test)} 个源")
     else:
         sources_to_test = sources
-        if config.get('test_mode') == 'full':
+        if config.get('test_mode') == 'full' and not auto_mode:
             print(f"  全量模式: 测试全部 {len(sources_to_test)} 个源")
     
     if not sources_to_test:
@@ -523,9 +547,10 @@ def process_city(city, source_file, config):
         if start < end:
             batches.append(sources_to_test[start:end])
     
-    print(f"  总测试次数: {num_items}")
-    print(f"  总并发线程数: {len(batches)} (最大并发 {max_total_concurrency})")
-    print(f"  每个线程处理: {items_per_concurrency} 个地址")
+    if not auto_mode:
+        print(f"  总测试次数: {num_items}")
+        print(f"  总并发线程数: {len(batches)} (最大并发 {max_total_concurrency})")
+        print(f"  每个线程处理: {items_per_concurrency} 个地址")
     
     # 并发测试
     new_results = []
@@ -534,7 +559,10 @@ def process_city(city, source_file, config):
     valid_so_far = 0
     
     print(f"\n  开始测试...")
-    print("  (按 Ctrl+C 可安全中断)\n")
+    if not auto_mode:
+        print("  (按 Ctrl+C 可安全中断)\n")
+    else:
+        print("  处理中...\n")
     
     def test_batch(batch, server):
         nonlocal completed, valid_so_far
@@ -553,9 +581,11 @@ def process_city(city, source_file, config):
                 completed += 1
                 if is_valid:
                     valid_so_far += 1
-                percent = completed * 100 // num_items if num_items > 0 else 0
-                sys.stdout.write(f"\r  进度: {completed}/{num_items} ({percent}%) 有效: {valid_so_far}")
-                sys.stdout.flush()
+                # 自动模式下不显示进度条
+                if not auto_mode:
+                    percent = completed * 100 // num_items if num_items > 0 else 0
+                    sys.stdout.write(f"\r  进度: {completed}/{num_items} ({percent}%) 有效: {valid_so_far}")
+                    sys.stdout.flush()
             
             local_results.append({
                 "name": name,
@@ -585,16 +615,19 @@ def process_city(city, source_file, config):
                 try:
                     new_results.extend(future.result())
                 except Exception as e:
-                    print(f"\n  批次测试异常: {e}")
+                    if not auto_mode:
+                        print(f"\n  批次测试异常: {e}")
         except KeyboardInterrupt:
-            print("\n\n⚠ 用户中断，正在保存已完成的测试结果...")
+            if not auto_mode:
+                print("\n\n⚠ 用户中断，正在保存已完成的测试结果...")
             for future in futures:
                 future.cancel()
     
-    print()  # 换行
+    if not auto_mode:
+        print()  # 换行
     
     # 如果被中断，提示用户
-    if should_exit:
+    if should_exit and not auto_mode:
         print("\n⚠ 测试已被中断，已保存部分结果")
     
     # ========== 合并结果：保留原有有效数据的详细信息 ==========
@@ -651,10 +684,11 @@ def process_city(city, source_file, config):
                     valid_count += 1
                 f.write(f"{item['name']}\t{item['addr_raw']}\t{status}\t{item['resolution']}\t{item['codec']}\t{item['response']}\n")
         
-        print(f"\n  结果保存到: {result_file}")
-        print(f"  统计: 有效 {valid_count}/{len(final_results)}")
-        if should_exit:
-            print("  ⚠ 注意: 测试被中断，结果不完整")
+        if not auto_mode:
+            print(f"\n  结果保存到: {result_file}")
+            print(f"  统计: 有效 {valid_count}/{len(final_results)}")
+            if should_exit:
+                print("  ⚠ 注意: 测试被中断，结果不完整")
         
     except Exception as e:
         print(f"  保存结果失败: {e}")
@@ -708,6 +742,8 @@ def main():
                         help=f'禁用低速服务器备用功能')
     parser.add_argument('--max-slow', type=int, default=CONFIG.get('max_slow_servers', 20),
                         help=f'低速服务器最大数量 (默认: 20)')
+    parser.add_argument('--auto', action='store_true', default=False,
+                        help='自动模式（用于CI/CD，不显示进度条和交互）')
     
     args = parser.parse_args()
     
@@ -721,6 +757,7 @@ def main():
     config['ffprobe_timeout'] = args.timeout
     config['use_slow_servers'] = not args.no_slow
     config['max_slow_servers'] = args.max_slow
+    auto_mode = args.auto
     
     # 测试模式描述
     test_mode_desc = "全部重新测试" if config['test_mode'] == 'full' else "接续测试（只测试无效或新增）"
@@ -757,6 +794,7 @@ def main():
     if config['use_slow_servers']:
         print(f"  规则: 仅当没有达标服务器时使用低速服务器")
         print(f"  最大数量: {config['max_slow_servers']}")
+    print(f"自动模式: {'是' if auto_mode else '否'}")
     print("=" * 60)
     
     # 获取组播源文件
@@ -766,8 +804,9 @@ def main():
         print(f"请确保 {config['rtp_dir']} 目录下有组播源文件（如：北京电信.txt）")
         return
     
-    print(f"\n找到 {len(source_files)} 个组播源文件:")
-    print(print_city_list(source_files))
+    if not auto_mode:
+        print(f"\n找到 {len(source_files)} 个组播源文件:")
+        print(print_city_list(source_files))
     
     # 选择城市
     if args.city:
@@ -775,6 +814,10 @@ def main():
         if not any(city == args.city for city, _ in source_files):
             print(f"错误: 未找到城市 '{args.city}'")
             return
+    elif auto_mode:
+        # 自动模式：处理全部城市
+        selected_cities = [city for city, _ in source_files]
+        print(f"\n自动模式: 处理全部 {len(selected_cities)} 个城市")
     elif len(source_files) > 1:
         try:
             choice = input(f"\n请选择城市 (1-{len(source_files)}，回车全部): ").strip()
@@ -803,7 +846,7 @@ def main():
             print(f"文件不存在: {source_file}")
             fail_count += 1
             continue
-        if process_city(city, source_file, config):
+        if process_city(city, source_file, config, auto_mode):
             success_count += 1
         else:
             fail_count += 1
