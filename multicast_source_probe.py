@@ -3,6 +3,10 @@
 """
 组播源探测工具 - 获取视频流分辨率、编码等信息
 输出文件：{城市}_probe.txt
+
+服务器读取策略：
+1. 优先读取达标服务器文件（_quick.txt 或 _precise.txt）
+2. 只有当没有达标服务器时，才从低速服务器中补充（slow/目录）
 """
 
 import os
@@ -15,33 +19,54 @@ import locale
 import argparse
 import threading
 import math
+import signal
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # ==================== 配置参数（集中调整） ====================
 CONFIG = {
     # 服务器来源: 'quick' 使用 _quick.txt（快速测试），'precise' 使用 _precise.txt（精确测试）
-    "server_source": "quick",
+    "server_source": "precise",
     
     # 测试方法: 'ffprobe' 或 'opencv'
     "test_method": "ffprobe",
     
-    # 最大总并发数（默认50，控制同时运行的测试线程数）
+    # 测试模式: 
+    #   "full" - 全部重新测试（测试所有组播地址）
+    #   "incremental" - 接续测试（只测试无效或新增的组播源）
+    "test_mode": "incremental",
+    
+    # 最大总并发数（控制同时运行的测试线程数）
     "max_concurrency": 50,
     
-    # 每个服务器最大并发数（默认5，避免单服务器过载）
-    "max_per_server": 10,
+    # 每个服务器最大并发数（避免单服务器过载）
+    "max_per_server": 5,
     
-    # 接续模式: True 只测试无效或新增的组播源，False 全部重新测试
-    "retry_failed": False,
+    # 是否启用低速服务器备用（仅当没有达标服务器时使用）
+    "use_slow_servers": True,
+    
+    # 低速服务器最大数量（当没有达标服务器时补充）
+    "max_slow_servers": 5,
     
     # ffprobe 超时时间（秒）
-    "ffprobe_timeout": 15,
+    "ffprobe_timeout": 20,
     
     # 目录配置
     "rtp_dir": "rtp",
     "ip_dir": "ip",
 }
+
+# ==================== 全局退出标志 ====================
+should_exit = False
+
+def signal_handler(signum, frame):
+    """处理 Ctrl+C 信号"""
+    global should_exit
+    print("\n\n⚠ 收到中断信号，正在优雅退出...")
+    should_exit = True
+
+# 注册信号处理器
+signal.signal(signal.SIGINT, signal_handler)
 
 # 设置中文环境用于拼音排序
 try:
@@ -112,50 +137,104 @@ def get_source_files(rtp_dir='rtp'):
     return source_files
 
 
-def parse_server_file(city, ip_dir='ip', server_source='quick', max_servers=10):
+def parse_server_file(city, ip_dir='ip', server_source='quick', max_servers=10, use_slow_servers=True, max_slow_servers=20, verbose=True):
     """
     解析服务器文件，支持快速测试和精确测试结果
     新格式：{city}_ip_quick.txt / {city}_ip_precise.txt
-    兼容旧格式：{city}_ip_result.txt / {city}_ip_precise.txt
-    返回: 服务器地址列表（按速度排序，快的在前）
+    低速服务器：{city}_ip_quick_slow.txt / {city}_ip_precise_slow.txt (在 slow 目录下)
+    
+    读取策略：
+    1. 优先读取达标服务器文件（_quick.txt 或 _precise.txt）
+    2. 只有当没有达标服务器时，才从低速服务器中补充
     """
     servers = []
+    slow_servers = []
     main_city_name = extract_main_city_name(city)
     
-    if server_source == 'quick':
-        server_file = os.path.join(ip_dir, f"{main_city_name}_ip_quick.txt")
-        if not os.path.exists(server_file):
-            server_file = os.path.join(ip_dir, f"{main_city_name}_ip_result.txt")
+    source_name = "快速测试" if server_source == 'quick' else "精确测试"
+    source_file_suffix = "quick" if server_source == 'quick' else "precise"
+    
+    # 1. 读取达标服务器
+    server_file = os.path.join(ip_dir, f"{main_city_name}_ip_{source_file_suffix}.txt")
+    slow_dir = os.path.join(ip_dir, "slow")
+    slow_file = os.path.join(slow_dir, f"{main_city_name}_ip_{source_file_suffix}_slow.txt")
+    
+    # 兼容旧格式（仅 quick 模式）
+    if not os.path.exists(server_file) and server_source == 'quick':
+        server_file = os.path.join(ip_dir, f"{main_city_name}_ip_result.txt")
+    
+    # 读取达标服务器
+    server_file_exists = os.path.exists(server_file)
+    if server_file_exists:
+        try:
+            with open(server_file, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if not line or line.startswith('#'):
+                        continue
+                    
+                    # 格式: 服务器地址\t速度
+                    if '\t' in line:
+                        parts = line.split('\t')
+                        if len(parts) >= 1:
+                            server = parts[0].strip()
+                            server = server.replace('http://', '').replace('https://', '')
+                            if ':' in server:
+                                servers.append(server)
+                    elif ':' in line:
+                        servers.append(line.strip())
+        except Exception as e:
+            if verbose:
+                print(f"  读取达标服务器文件失败: {e}")
     else:
-        server_file = os.path.join(ip_dir, f"{main_city_name}_ip_precise.txt")
+        if verbose:
+            print(f"  未找到{source_name}达标服务器文件: {main_city_name}_ip_{source_file_suffix}.txt")
     
-    if not os.path.exists(server_file):
-        return []
+    # 记录达标服务器数量
+    current_count = len(servers)
     
-    try:
-        with open(server_file, 'r', encoding='utf-8') as f:
-            for line in f:
-                line = line.strip()
-                if not line or line.startswith('#'):
-                    continue
-                
-                # 格式: 服务器地址\t速度
-                if '\t' in line:
-                    parts = line.split('\t')
-                    if len(parts) >= 1:
-                        server = parts[0].strip()
-                        server = server.replace('http://', '').replace('https://', '')
-                        if ':' in server:
-                            servers.append(server)
-                elif ':' in line:
-                    servers.append(line.strip())
-        
-        # 限制服务器数量
-        if max_servers > 0 and len(servers) > max_servers:
-            servers = servers[:max_servers]
-        
-    except Exception as e:
-        print(f"  读取服务器文件失败: {e}")
+    # 2. 只有当没有达标服务器时，才从低速服务器中补充
+    if use_slow_servers and current_count == 0:
+        slow_file_exists = os.path.exists(slow_file)
+        if slow_file_exists:
+            try:
+                with open(slow_file, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        line = line.strip()
+                        if not line or line.startswith('#'):
+                            continue
+                        
+                        # 格式: 服务器地址\t速度
+                        if '\t' in line:
+                            parts = line.split('\t')
+                            if len(parts) >= 1:
+                                server = parts[0].strip()
+                                server = server.replace('http://', '').replace('https://', '')
+                                if ':' in server:
+                                    slow_servers.append(server)
+                        elif ':' in line:
+                            slow_servers.append(line.strip())
+            except Exception as e:
+                if verbose:
+                    print(f"  读取低速服务器文件失败: {e}")
+            
+            # 补充低速服务器（最多 max_slow_servers 个）
+            supplement_count = min(len(slow_servers), max_slow_servers)
+            
+            if supplement_count > 0:
+                servers.extend(slow_servers[:supplement_count])
+                if verbose:
+                    print(f"  {source_name}达标服务器: 0 个，使用低速服务器: {supplement_count} 个")
+            elif verbose:
+                print(f"  未找到{source_name}低速服务器: slow/{main_city_name}_ip_{source_file_suffix}_slow.txt")
+        elif verbose:
+            print(f"  未找到{source_name}低速服务器: slow/{main_city_name}_ip_{source_file_suffix}_slow.txt")
+    elif use_slow_servers and current_count > 0 and verbose:
+        print(f"  {source_name}达标服务器: {current_count} 个（充足，不使用低速服务器）")
+    
+    # 限制服务器数量
+    if max_servers > 0 and len(servers) > max_servers:
+        servers = servers[:max_servers]
     
     return servers
 
@@ -298,13 +377,31 @@ def test_with_opencv(server, multicast_addr, timeout=15):
 
 def process_city(city, source_file, config):
     """处理单个城市的组播源探测 - 按总并发数分配任务"""
+    global should_exit
+    should_exit = False
+    
+    # 确定服务器来源名称
+    source_name = "快速测试" if config['server_source'] == 'quick' else "精确测试"
+    source_file_suffix = "quick" if config['server_source'] == 'quick' else "precise"
     
     print(f"\n处理城市: {city}")
     
-    # 读取服务器列表
-    servers = parse_server_file(city, config['ip_dir'], config['server_source'], config['max_concurrency'])
+    # 读取服务器列表（只有当没有达标服务器时才使用低速服务器）
+    servers = parse_server_file(
+        city, 
+        config['ip_dir'], 
+        config['server_source'], 
+        config['max_concurrency'],
+        config.get('use_slow_servers', True),
+        config.get('max_slow_servers', 20),
+        verbose=True
+    )
+    
     if not servers:
-        print(f"  跳过: 没有可用的服务器")
+        print(f"  跳过: 没有可用的{source_name}服务器")
+        print(f"  提示: 请确保 {city}_ip_{source_file_suffix}.txt 文件存在")
+        if config.get('use_slow_servers', True):
+            print(f"        或确保 slow/{city}_ip_{source_file_suffix}_slow.txt 文件存在")
         return False
     
     # 读取组播源列表
@@ -317,7 +414,7 @@ def process_city(city, source_file, config):
     num_sources = len(sources)
     
     print(f"  组播源数量: {num_sources}")
-    print(f"  服务器数量: {num_servers}")
+    print(f"  {source_name}服务器数量: {num_servers}")
     
     # 选择测试函数
     if config['test_method'] == 'opencv' and HAS_OPENCV:
@@ -327,40 +424,43 @@ def process_city(city, source_file, config):
         test_func = test_with_ffprobe
         timeout = config.get('ffprobe_timeout', 15)
     
-    # 确定需要测试的源（接续测试模式）
+    # 确定需要测试的源（根据测试模式）
     result_file = os.path.join(config['rtp_dir'], f"{city}_probe.txt")
     
     # 读取已有完整结果（保留详细信息）
     existing_results = {}  # key: addr, value: dict with all fields
     sources_to_test = []
     
-    if config.get('retry_failed', False) and os.path.exists(result_file):
-        with open(result_file, 'r', encoding='utf-8') as f:
-            for line in f:
-                line = line.strip()
-                if not line or line.startswith('#'):
-                    continue
-                parts = line.split('\t')
-                if len(parts) >= 3:
-                    name = parts[0].strip()
-                    addr_raw = parts[1].strip()
-                    addr = normalize_multicast_addr(addr_raw)
-                    status = parts[2].strip()
-                    resolution = parts[3].strip() if len(parts) > 3 else ""
-                    codec = parts[4].strip() if len(parts) > 4 else ""
-                    response = parts[5].strip() if len(parts) > 5 else "0"
-                    server = parts[6].strip() if len(parts) > 6 else ""
-                    
-                    existing_results[addr] = {
-                        "name": name,
-                        "addr": addr,
-                        "addr_raw": addr_raw,
-                        "status": status,
-                        "resolution": resolution,
-                        "codec": codec,
-                        "response": response,
-                        "server": server
-                    }
+    if config.get('test_mode') == 'incremental' and os.path.exists(result_file):
+        try:
+            with open(result_file, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if not line or line.startswith('#'):
+                        continue
+                    parts = line.split('\t')
+                    if len(parts) >= 3:
+                        name = parts[0].strip()
+                        addr_raw = parts[1].strip()
+                        addr = normalize_multicast_addr(addr_raw)
+                        status = parts[2].strip()
+                        resolution = parts[3].strip() if len(parts) > 3 else ""
+                        codec = parts[4].strip() if len(parts) > 4 else ""
+                        response = parts[5].strip() if len(parts) > 5 else "0"
+                        server = parts[6].strip() if len(parts) > 6 else ""
+                        
+                        existing_results[addr] = {
+                            "name": name,
+                            "addr": addr,
+                            "addr_raw": addr_raw,
+                            "status": status,
+                            "resolution": resolution,
+                            "codec": codec,
+                            "response": response,
+                            "server": server
+                        }
+        except Exception as e:
+            print(f"  读取已有结果文件失败: {e}")
         
         # 筛选需要测试的源（新增 或 状态为无效）
         for name, addr, cat in sources:
@@ -372,6 +472,8 @@ def process_city(city, source_file, config):
         print(f"  接续模式: 需要测试 {len(sources_to_test)} 个源")
     else:
         sources_to_test = sources
+        if config.get('test_mode') == 'full':
+            print(f"  全量模式: 测试全部 {len(sources_to_test)} 个源")
     
     if not sources_to_test:
         print(f"  所有组播源已完成测试")
@@ -432,11 +534,16 @@ def process_city(city, source_file, config):
     valid_so_far = 0
     
     print(f"\n  开始测试...")
+    print("  (按 Ctrl+C 可安全中断)\n")
     
     def test_batch(batch, server):
         nonlocal completed, valid_so_far
         local_results = []
         for name, addr, cat in batch:
+            # 检查是否需要退出
+            if should_exit:
+                break
+            
             try:
                 is_valid, resolution, codec, bitrate, response = test_func(server, addr, timeout)
             except Exception:
@@ -466,13 +573,29 @@ def process_city(city, source_file, config):
         futures = []
         for batch, server in zip(batches, server_pool):
             futures.append(executor.submit(test_batch, batch, server))
-        for future in as_completed(futures):
-            try:
-                new_results.extend(future.result())
-            except Exception as e:
-                print(f"\n  批次测试异常: {e}")
+        
+        # 等待所有任务完成或中断
+        try:
+            for future in as_completed(futures):
+                if should_exit:
+                    # 取消所有未完成的任务
+                    for f in futures:
+                        f.cancel()
+                    break
+                try:
+                    new_results.extend(future.result())
+                except Exception as e:
+                    print(f"\n  批次测试异常: {e}")
+        except KeyboardInterrupt:
+            print("\n\n⚠ 用户中断，正在保存已完成的测试结果...")
+            for future in futures:
+                future.cancel()
     
     print()  # 换行
+    
+    # 如果被中断，提示用户
+    if should_exit:
+        print("\n⚠ 测试已被中断，已保存部分结果")
     
     # ========== 合并结果：保留原有有效数据的详细信息 ==========
     final_results = []
@@ -517,6 +640,8 @@ def process_city(city, source_file, config):
         with open(result_file, 'w', encoding='utf-8') as f:
             timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
             f.write(f"# {timestamp}_probe\n")
+            if should_exit:
+                f.write("# 注意: 测试被中断，结果不完整\n")
             f.write("# 频道名\t组播地址\t状态\t分辨率\t编码\t响应时间(ms)\n")
             
             valid_count = 0
@@ -528,12 +653,14 @@ def process_city(city, source_file, config):
         
         print(f"\n  结果保存到: {result_file}")
         print(f"  统计: 有效 {valid_count}/{len(final_results)}")
+        if should_exit:
+            print("  ⚠ 注意: 测试被中断，结果不完整")
         
     except Exception as e:
         print(f"  保存结果失败: {e}")
         return False
     
-    return True
+    return not should_exit
 
 
 def print_city_list(source_files):
@@ -572,11 +699,15 @@ def main():
                         help=f'最大总并发数 (默认: {CONFIG["max_concurrency"]})')
     parser.add_argument('--per-server', type=int, default=CONFIG['max_per_server'],
                         help=f'每个服务器最大并发数 (默认: {CONFIG["max_per_server"]})')
-    parser.add_argument('--retry', '-r', action='store_true', default=CONFIG['retry_failed'],
-                        help=f'接续模式: 只测试无效或新增的组播源')
+    parser.add_argument('--test-mode', choices=['full', 'incremental'], default=CONFIG['test_mode'],
+                        help=f'测试模式: full(全部重新测试) 或 incremental(接续测试) (默认: {CONFIG["test_mode"]})')
     parser.add_argument('--city', '-c', help='指定城市名称（可选）')
     parser.add_argument('--timeout', '-t', type=int, default=CONFIG.get('ffprobe_timeout', 15),
                         help=f'测试超时时间（秒） (默认: 15)')
+    parser.add_argument('--no-slow', action='store_true', default=False,
+                        help=f'禁用低速服务器备用功能')
+    parser.add_argument('--max-slow', type=int, default=CONFIG.get('max_slow_servers', 20),
+                        help=f'低速服务器最大数量 (默认: 20)')
     
     args = parser.parse_args()
     
@@ -586,8 +717,13 @@ def main():
     config['test_method'] = args.method
     config['max_concurrency'] = args.servers
     config['max_per_server'] = args.per_server
-    config['retry_failed'] = args.retry
+    config['test_mode'] = args.test_mode
     config['ffprobe_timeout'] = args.timeout
+    config['use_slow_servers'] = not args.no_slow
+    config['max_slow_servers'] = args.max_slow
+    
+    # 测试模式描述
+    test_mode_desc = "全部重新测试" if config['test_mode'] == 'full' else "接续测试（只测试无效或新增）"
     
     # 检查依赖
     if config['test_method'] == 'ffprobe' and FFPROBE_PATH is None:
@@ -611,12 +747,16 @@ def main():
     print("组播源探测工具 (Multicast Source Probe)")
     print("功能: 探测组播源，获取分辨率、编码等信息")
     print("=" * 60)
+    print(f"测试模式: {test_mode_desc}")
     print(f"服务器来源: {'快速测试' if config['server_source'] == 'quick' else '精确测试'}")
     print(f"测试方法: {config['test_method'].upper()}")
     print(f"最大总并发数: {config['max_concurrency']}")
     print(f"单服务器最大并发: {config['max_per_server']}")
-    print(f"接续模式: {'是' if config['retry_failed'] else '否'}")
     print(f"超时时间: {config['ffprobe_timeout']}秒")
+    print(f"低速服务器备用: {'是' if config['use_slow_servers'] else '否'}")
+    if config['use_slow_servers']:
+        print(f"  规则: 仅当没有达标服务器时使用低速服务器")
+        print(f"  最大数量: {config['max_slow_servers']}")
     print("=" * 60)
     
     # 获取组播源文件
@@ -654,15 +794,25 @@ def main():
         selected_cities = [source_files[0][0]]
     
     # 处理选中的城市
+    success_count = 0
+    fail_count = 0
+    
     for city in selected_cities:
         source_file = os.path.join(config['rtp_dir'], f"{city}.txt")
         if not os.path.exists(source_file):
             print(f"文件不存在: {source_file}")
+            fail_count += 1
             continue
-        process_city(city, source_file, config)
+        if process_city(city, source_file, config):
+            success_count += 1
+        else:
+            fail_count += 1
     
     print("\n" + "=" * 60)
     print("处理完成")
+    print(f"成功: {success_count} 个城市")
+    if fail_count > 0:
+        print(f"失败: {fail_count} 个城市")
     print("=" * 60)
 
 
