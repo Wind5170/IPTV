@@ -25,7 +25,13 @@ import argparse
 # ==================== 配置参数 ====================
 CONFIG = {
     "url_config_file": "config/iptv_playlist_url.txt",
-    "proxy_heads": [ "https://gh-proxy.org/", "https://ghfast.top/", "https://gh-proxy.com/", "https://github.moeyy.xyz/", ""],
+    "proxy_heads": [ 
+        "https://gh-proxy.org/", 
+        "https://gh-proxy.playdreamer.cn/",
+        "https://ghfast.top/", 
+        "https://gh-proxy.com/", 
+        "https://github.moeyy.xyz/", 
+        ""],
     "network_timeout": 10,
     "ip_dir": "ip",
     "verbose": False,           # 默认关闭详细输出
