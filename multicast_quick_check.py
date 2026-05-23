@@ -37,10 +37,10 @@ CONFIG = {
     "test_mode": "incremental",
     
     # 最大总并发数（控制同时运行的测试线程数）
-    "max_concurrency": 200,
+    "max_concurrency": 100,
     
     # 每个服务器最大并发数（避免单服务器过载）
-    "max_per_server": 20,
+    "max_per_server": 10,
     
     # 是否启用低速服务器备用（仅当没有达标服务器时使用）
     "use_slow_servers": False,
@@ -485,16 +485,23 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
     city_name = full_basename
 
     if not city_name:
-        print(f"  [跳过] {full_basename}: 无法识别城市名称")
+        if auto_mode:
+            print(f"[{full_basename}] ✗ 无法识别城市名称", flush=True)
+        else:
+            print(f"  [跳过] {full_basename}: 无法识别城市名称")
         return False
 
     source_name = "快速测试" if server_source == "quick" else "精确测试"
     source_file_suffix = "quick" if server_source == "quick" else "precise"
     
-    print(f"\n处理文件: {full_basename}")
-    print(f"  城市: {city_name}")
-    print(f"  服务器来源: {source_name}")
-    print(f"  输出模式: {'详细' if output_mode == 'detailed' else '简洁'}")
+    # auto 模式下显示开始处理
+    if auto_mode:
+        print(f"\n[{full_basename}] 开始处理...", flush=True)
+    else:
+        print(f"\n处理文件: {full_basename}")
+        print(f"  城市: {city_name}")
+        print(f"  服务器来源: {source_name}")
+        print(f"  输出模式: {'详细' if output_mode == 'detailed' else '简洁'}")
 
     valid_existing = []
     invalid_existing = []
@@ -505,36 +512,58 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
         if has_checked_file:
             valid_existing, invalid_existing, all_checked_addrs = read_checked_file(checked_file)
             total_checked = len(valid_existing) + len(invalid_existing)
-            print(f"  模式: 接续测试 - 已测试频道: {total_checked}个，有效: {len(valid_existing)}，待重测无效: {len(invalid_existing)}")
+            if auto_mode:
+                print(f"[{full_basename}] 接续模式: 已有 {total_checked} 个结果, 有效 {len(valid_existing)}", flush=True)
+            else:
+                print(f"  模式: 接续测试 - 已测试频道: {total_checked}个，有效: {len(valid_existing)}，待重测无效: {len(invalid_existing)}")
         else:
-            print(f"  模式: 接续测试 - 未找到检查结果文件，进行全新测试")
+            if auto_mode:
+                print(f"[{full_basename}] 接续模式: 首次运行", flush=True)
+            else:
+                print(f"  模式: 接续测试 - 未找到检查结果文件，进行全新测试")
     else:
-        print(f"  模式: 全部重新测试")
+        if auto_mode:
+            print(f"[{full_basename}] 全量模式: 全部重新测试", flush=True)
+        else:
+            print(f"  模式: 全部重新测试")
 
     items, detected_encoding, _ = parse_multicast_file(multicast_file, city_name)
     if items is None:
-        print(f"  [错误] {full_basename}: {detected_encoding}")
+        if auto_mode:
+            print(f"[{full_basename}] ✗ 解析失败: {detected_encoding}", flush=True)
+        else:
+            print(f"  [错误] {full_basename}: {detected_encoding}")
         return False
     if not items:
-        print(f"  [错误] {full_basename}: 没有找到组播地址")
+        if auto_mode:
+            print(f"[{full_basename}] ✗ 没有找到组播地址", flush=True)
+        else:
+            print(f"  [错误] {full_basename}: 没有找到组播地址")
         return False
 
     region_servers = parse_servers_by_region(ip_dir, main_city_name, server_source, use_slow_servers, max_slow_servers, verbose=not auto_mode)
     
     if not region_servers:
-        print(f"  [跳过] {full_basename}: 服务器列表为空")
-        print(f"  提示: 请确保 {main_city_name}_ip_{source_file_suffix}.txt 文件存在")
-        if use_slow_servers:
-            print(f"        或确保 slow/{main_city_name}_ip_{source_file_suffix}_slow.txt 文件存在")
+        if auto_mode:
+            print(f"[{full_basename}] ✗ 跳过: 无{source_name}服务器", flush=True)
+        else:
+            print(f"  [跳过] {full_basename}: 服务器列表为空")
+            print(f"  提示: 请确保 {main_city_name}_ip_{source_file_suffix}.txt 文件存在")
         return True
 
     region_servers = region_servers[:max_servers]
     num_servers = len(region_servers)
-    print(f"  可用服务器数: {num_servers}")
+    
+    if auto_mode:
+        print(f"[{full_basename}] 服务器: {num_servers} 个", flush=True)
+    else:
+        print(f"  可用服务器数: {num_servers}")
 
     total_active = sum(len(r["active"]) for r in items.values())
     total_failed = sum(len(r["failed"]) for r in items.values())
-    print(f"  分类数: {len(items)}, 地址: {total_active}, 前次无效: {total_failed}")
+    
+    if not auto_mode:
+        print(f"  分类数: {len(items)}, 地址: {total_active}, 前次无效: {total_failed}")
 
     # 确定需要测试的项
     all_test_items = []
@@ -556,10 +585,11 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
                     new_data_items.append(item)
                 item["category"] = category
                 all_test_items.append(item)
-        if new_data_items and not auto_mode:
-            print(f"  新增测试: {len(new_data_items)} 个")
-        if len(all_test_items) > len(new_data_items) and not auto_mode:
-            print(f"  重测无效: {len(all_test_items) - len(new_data_items)} 个")
+        if not auto_mode:
+            if new_data_items:
+                print(f"  新增测试: {len(new_data_items)} 个")
+            if len(all_test_items) > len(new_data_items):
+                print(f"  重测无效: {len(all_test_items) - len(new_data_items)} 个")
     else:
         for category, data in items.items():
             test_items = data["active"].copy()
@@ -572,9 +602,15 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
     num_items = len(all_test_items)
     if num_items == 0:
         if retest_mode == 'invalid_only':
-            print(f"  [完成] {full_basename}: 所有频道已有效")
+            if auto_mode:
+                print(f"[{full_basename}] ✓ 全部已完成", flush=True)
+            else:
+                print(f"  [完成] {full_basename}: 所有频道已有效")
             return True
-        print(f"  [错误] {full_basename}: 没有要测试的地址")
+        if auto_mode:
+            print(f"[{full_basename}] ✗ 没有要测试的地址", flush=True)
+        else:
+            print(f"  [错误] {full_basename}: 没有要测试的地址")
         return False
 
     # 并发分配逻辑
@@ -601,7 +637,10 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
                 actual_total += inc
 
     total_threads = sum(server_concurrency)
-    if not auto_mode:
+    
+    if auto_mode:
+        print(f"[{full_basename}] 测试: {num_items} 个地址 (并发 {total_threads})", flush=True)
+    else:
         print(f"  总测试项: {num_items}, 总并发线程数: {total_threads}, 每个线程处理: {items_per_concurrency} 个地址")
 
     # 切分批次
@@ -625,11 +664,11 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
     completed_count = 0
     total_count = num_items
 
-    print(f"\n  开始测试 {num_items} 个地址...")
-    if not auto_mode:
-        print("  (按 Ctrl+C 可安全中断)\n")
+    if auto_mode:
+        print(f"[{full_basename}] 测试中...", flush=True)
     else:
-        print("  处理中...\n")
+        print(f"\n  开始测试 {num_items} 个地址...")
+        print("  (按 Ctrl+C 可安全中断)\n")
 
     def test_batch(batch, server):
         nonlocal completed_count
@@ -694,8 +733,7 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
         all_valid_addrs = {item["addr"] for item in valid_existing}
     all_valid_addrs.update({item["addr"] for item in valid_results})
 
-    if not auto_mode:
-        print(f"\n  写入结果到 {full_basename}_quick.txt")
+    # 写入结果文件
     try:
         with open(checked_file, 'w', encoding='utf-8') as f:
             f.write(f"# {time.strftime('%Y%m%d_%H%M%S')}_quick\n")
@@ -711,13 +749,21 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
                         addr = item["addr"].replace('rtp://', '').replace('udp://', '')
                         status = "有效" if item["addr"] in all_valid_addrs else "无效"
                         f.write(f"{item['name']}\t{addr}\t{status}\n")
-        if not auto_mode:
+        
+        # auto 模式显示结果
+        if auto_mode:
+            print(f"[{full_basename}] ✓ 完成: 有效 {len(valid_results)}/{len(all_test_items)}", flush=True)
+        else:
+            print(f"\n  写入结果到 {full_basename}_quick.txt")
             print(f"  [完成] {full_basename}: 有效 {len(valid_results)}, 无效 {len(invalid_results)}")
             if should_exit:
                 print("  ⚠ 注意: 测试被中断，结果不完整")
         return True
     except Exception as e:
-        print(f"  [错误] 写入文件失败: {e}")
+        if auto_mode:
+            print(f"[{full_basename}] ✗ 写入失败: {e}", flush=True)
+        else:
+            print(f"  [错误] 写入文件失败: {e}")
         return False
 
 
