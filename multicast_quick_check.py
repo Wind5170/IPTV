@@ -26,7 +26,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # ==================== 配置参数（集中调整） ====================
 CONFIG = {
     # 服务器来源: 'quick' 使用 _quick.txt（快速测试），'precise' 使用 _precise.txt（精确测试）
-    "server_source": "precise",
+    "server_source": "quick",
     
     # 输出模式: 'detailed'（详细模式）或 'simple'（简洁模式）
     "output_mode": "simple",
@@ -46,20 +46,23 @@ CONFIG = {
     "use_slow_servers": True,
     
     # 低速服务器最大数量（当没有达标服务器时补充）
-    "max_slow_servers": 5,
+    "max_slow_servers": 20,
     
     # 测试重试次数
     "retry_count": 2,
     
     # 连接超时时间（秒）
-    "connect_timeout": 10,
+    "connect_timeout": 5,
     
     # 读取超时时间（秒）
-    "read_timeout": 20,
+    "read_timeout": 15,
     
     # 目录配置
     "rtp_dir": "rtp",
     "ip_dir": "ip",
+    
+    # 自动模式（用于CI/CD，不显示进度条）
+    "auto_mode": False,
 }
 
 # ==================== 全局退出标志 ====================
@@ -320,32 +323,27 @@ def parse_multicast_file(file_path, default_region=None):
 
 
 def parse_servers_by_region(ip_dir, main_city_name, server_source="quick", use_slow_servers=True, max_slow_servers=20, verbose=True):
-    """
-    解析服务器列表（使用主城市名）
-    新格式：{main_city_name}_ip_quick.txt 或 {main_city_name}_ip_precise.txt
-    低速服务器：{main_city_name}_ip_quick_slow.txt 或 {main_city_name}_ip_precise_slow.txt (在 slow 目录下)
-    
-    读取策略：
-    1. 优先读取达标服务器文件（_quick.txt 或 _precise.txt）
-    2. 只有当没有达标服务器时，才从低速服务器中补充
-    """
+    """解析服务器列表"""
     servers = []
     slow_servers = []
     
     source_name = "快速测试" if server_source == 'quick' else "精确测试"
     source_file_suffix = "quick" if server_source == 'quick' else "precise"
     
-    # 1. 读取达标服务器
-    server_file = os.path.join(ip_dir, f"{main_city_name}_ip_{source_file_suffix}.txt")
-    slow_dir = os.path.join(ip_dir, "slow")
-    slow_file = os.path.join(slow_dir, f"{main_city_name}_ip_{source_file_suffix}_slow.txt")
+    # 尝试多种文件格式
+    possible_files = [
+        os.path.join(ip_dir, f"{main_city_name}_ip_{source_file_suffix}.txt"),
+        os.path.join(ip_dir, f"{main_city_name}_ip.txt"),
+        os.path.join(ip_dir, f"{main_city_name}_ip_result.txt"),
+    ]
     
-    # 兼容旧格式（仅 quick 模式）
-    if not os.path.exists(server_file) and server_source == 'quick':
-        server_file = os.path.join(ip_dir, f"{main_city_name}_ip_result.txt")
+    server_file = None
+    for pf in possible_files:
+        if os.path.exists(pf):
+            server_file = pf
+            break
     
-    # 读取达标服务器
-    if os.path.exists(server_file):
+    if server_file:
         try:
             with open(server_file, 'r', encoding='utf-8') as f:
                 for line in f:
@@ -361,19 +359,31 @@ def parse_servers_by_region(ip_dir, main_city_name, server_source="quick", use_s
                                 servers.append(server_clean)
                     elif ':' in line:
                         servers.append(line.strip())
+            if verbose:
+                print(f"  读取{source_name}服务器: {os.path.basename(server_file)} ({len(servers)} 个)")
         except Exception as e:
             if verbose:
                 print(f"  读取达标服务器文件失败: {e}")
     else:
         if verbose:
-            print(f"  未找到{source_name}达标服务器文件: {main_city_name}_ip_{source_file_suffix}.txt")
+            print(f"  未找到{source_name}达标服务器文件: {main_city_name}_ip_*.txt")
     
-    # 记录达标服务器数量
     current_count = len(servers)
     
-    # 2. 只有当没有达标服务器时，才从低速服务器中补充
     if use_slow_servers and current_count == 0:
-        if os.path.exists(slow_file):
+        slow_dir = os.path.join(ip_dir, "slow")
+        possible_slow_files = [
+            os.path.join(slow_dir, f"{main_city_name}_ip_{source_file_suffix}_slow.txt"),
+            os.path.join(slow_dir, f"{main_city_name}_ip_slow.txt"),
+        ]
+        
+        slow_file = None
+        for psf in possible_slow_files:
+            if os.path.exists(psf):
+                slow_file = psf
+                break
+        
+        if slow_file:
             try:
                 with open(slow_file, 'r', encoding='utf-8') as f:
                     for line in f:
@@ -393,7 +403,6 @@ def parse_servers_by_region(ip_dir, main_city_name, server_source="quick", use_s
                 if verbose:
                     print(f"  读取低速服务器文件失败: {e}")
             
-            # 补充低速服务器（最多 max_slow_servers 个）
             supplement_count = min(len(slow_servers), max_slow_servers)
             
             if supplement_count > 0:
@@ -401,11 +410,11 @@ def parse_servers_by_region(ip_dir, main_city_name, server_source="quick", use_s
                 if verbose:
                     print(f"  {source_name}达标服务器: 0 个，使用低速服务器: {supplement_count} 个")
             elif verbose:
-                print(f"  未找到{source_name}低速服务器: slow/{main_city_name}_ip_{source_file_suffix}_slow.txt")
+                print(f"  未找到{source_name}低速服务器")
         elif verbose:
-            print(f"  未找到{source_name}低速服务器: slow/{main_city_name}_ip_{source_file_suffix}_slow.txt")
+            print(f"  未找到{source_name}低速服务器")
     elif use_slow_servers and current_count > 0 and verbose:
-        print(f"  {source_name}达标服务器: {current_count} 个（充足，不使用低速服务器）")
+        print(f"  {source_name}达标服务器: {current_count} 个（充足）")
     
     return servers
 
@@ -463,16 +472,15 @@ def print_progress_bar(current, total, bar_length=30):
 
 def process_single_file(multicast_file, ip_dir, max_servers, force_test_all, 
                         retest_mode=None, server_source="quick", output_mode="detailed", 
-                        max_per_server=1, use_slow_servers=True, max_slow_servers=20):
+                        max_per_server=1, use_slow_servers=True, max_slow_servers=20,
+                        auto_mode=False):
     """处理单个组播地址文件"""
     global should_exit
     
     rel_dir = os.path.dirname(multicast_file)
     full_basename = os.path.splitext(os.path.basename(multicast_file))[0]
-    # 输出文件使用新格式 _quick.txt
     checked_file = os.path.join(rel_dir, f"{full_basename}_quick.txt")
 
-    # 提取主城市名（用于读取IP文件）
     main_city_name = extract_main_city_name(full_basename)
     city_name = full_basename
 
@@ -511,8 +519,7 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
         print(f"  [错误] {full_basename}: 没有找到组播地址")
         return False
 
-    # 读取服务器列表（支持低速服务器补充）
-    region_servers = parse_servers_by_region(ip_dir, main_city_name, server_source, use_slow_servers, max_slow_servers, verbose=True)
+    region_servers = parse_servers_by_region(ip_dir, main_city_name, server_source, use_slow_servers, max_slow_servers, verbose=not auto_mode)
     
     if not region_servers:
         print(f"  [跳过] {full_basename}: 服务器列表为空")
@@ -549,9 +556,9 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
                     new_data_items.append(item)
                 item["category"] = category
                 all_test_items.append(item)
-        if new_data_items:
+        if new_data_items and not auto_mode:
             print(f"  新增测试: {len(new_data_items)} 个")
-        if len(all_test_items) > len(new_data_items):
+        if len(all_test_items) > len(new_data_items) and not auto_mode:
             print(f"  重测无效: {len(all_test_items) - len(new_data_items)} 个")
     else:
         for category, data in items.items():
@@ -594,7 +601,8 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
                 actual_total += inc
 
     total_threads = sum(server_concurrency)
-    print(f"  总测试项: {num_items}, 总并发线程数: {total_threads}, 每个线程处理: {items_per_concurrency} 个地址")
+    if not auto_mode:
+        print(f"  总测试项: {num_items}, 总并发线程数: {total_threads}, 每个线程处理: {items_per_concurrency} 个地址")
 
     # 切分批次
     batches = []
@@ -618,7 +626,10 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
     total_count = num_items
 
     print(f"\n  开始测试 {num_items} 个地址...")
-    print("  (按 Ctrl+C 可安全中断)\n")
+    if not auto_mode:
+        print("  (按 Ctrl+C 可安全中断)\n")
+    else:
+        print("  处理中...\n")
 
     def test_batch(batch, server):
         nonlocal completed_count
@@ -640,7 +651,9 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
                         print(f"    [×] {display_name} - {status}")
                 else:
                     completed_count += 1
-                    print_progress_bar(completed_count, total_count)
+                    # 自动模式下不显示进度条
+                    if not auto_mode:
+                        print_progress_bar(completed_count, total_count)
             if is_valid:
                 try:
                     speed = float(status.replace("耗时:", "").replace("s", "").strip()) if "耗时:" in status else 9999.0
@@ -665,14 +678,15 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
                 valid_results.extend(valid_batch)
                 invalid_results.extend(invalid_batch)
         except KeyboardInterrupt:
-            print("\n\n⚠ 用户中断，正在保存已完成的测试结果...")
+            if not auto_mode:
+                print("\n\n⚠ 用户中断，正在保存已完成的测试结果...")
             for future in futures:
                 future.cancel()
 
-    if output_mode == "simple" and total_count > 0:
+    if output_mode == "simple" and total_count > 0 and not auto_mode:
         print()
     
-    if should_exit:
+    if should_exit and not auto_mode:
         print("\n⚠ 测试已被中断，已保存部分结果")
 
     all_valid_addrs = set()
@@ -680,7 +694,8 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
         all_valid_addrs = {item["addr"] for item in valid_existing}
     all_valid_addrs.update({item["addr"] for item in valid_results})
 
-    print(f"\n  写入结果到 {full_basename}_quick.txt")
+    if not auto_mode:
+        print(f"\n  写入结果到 {full_basename}_quick.txt")
     try:
         with open(checked_file, 'w', encoding='utf-8') as f:
             f.write(f"# {time.strftime('%Y%m%d_%H%M%S')}_quick\n")
@@ -696,9 +711,10 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
                         addr = item["addr"].replace('rtp://', '').replace('udp://', '')
                         status = "有效" if item["addr"] in all_valid_addrs else "无效"
                         f.write(f"{item['name']}\t{addr}\t{status}\n")
-        print(f"  [完成] {full_basename}: 有效 {len(valid_results)}, 无效 {len(invalid_results)}")
-        if should_exit:
-            print("  ⚠ 注意: 测试被中断，结果不完整")
+        if not auto_mode:
+            print(f"  [完成] {full_basename}: 有效 {len(valid_results)}, 无效 {len(invalid_results)}")
+            if should_exit:
+                print("  ⚠ 注意: 测试被中断，结果不完整")
         return True
     except Exception as e:
         print(f"  [错误] 写入文件失败: {e}")
@@ -706,17 +722,9 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
 
 
 def main():
-    # 根据配置确定测试模式
-    if CONFIG['test_mode'] == "full":
-        retest_mode = None
-        force_test_all = True
-        test_mode_desc = "全部重新测试"
-    else:  # incremental
-        retest_mode = 'invalid_only'
-        force_test_all = False
-        test_mode_desc = "接续测试（只测试无效或新增）"
+    global should_exit
     
-    # 解析命令行参数（覆盖配置文件）
+    # 解析命令行参数
     parser = argparse.ArgumentParser(description='组播地址健康检查工具')
     parser.add_argument('-d', '--dir', help='组播地址目录路径')
     parser.add_argument('-s', '--servers', type=int, default=CONFIG['max_concurrency'],
@@ -733,6 +741,8 @@ def main():
                         help=f'禁用低速服务器备用功能')
     parser.add_argument('--max-slow', type=int, default=CONFIG['max_slow_servers'],
                         help=f'低速服务器最大数量（默认: {CONFIG["max_slow_servers"]}）')
+    parser.add_argument('--auto', action='store_true', default=False,
+                        help='自动模式（用于CI/CD，不显示进度条和交互）')
     args = parser.parse_args()
 
     # 合并配置
@@ -742,8 +752,9 @@ def main():
     max_per_server = args.per_server
     use_slow_servers = not args.no_slow
     max_slow_servers = args.max_slow
+    auto_mode = args.auto
     
-    # 根据命令行参数覆盖测试模式
+    # 根据测试模式设置参数
     if args.test_mode == "full":
         retest_mode = None
         force_test_all = True
@@ -773,6 +784,7 @@ def main():
     if use_slow_servers:
         print(f"  规则: 仅当没有达标服务器时使用低速服务器")
         print(f"  最大数量: {max_slow_servers}")
+    print(f"自动模式: {'是' if auto_mode else '否'}")
     print("=" * 60)
 
     if not os.path.exists(source_dir):
@@ -784,32 +796,37 @@ def main():
         print(f"在目录 {source_dir} 中没有找到符合规范的组播地址文件")
         return
 
-    print(f"\n找到 {len(multicast_files)} 个待处理文件:")
-    print(print_city_list(multicast_files))
-
-    # 选择要处理的城市
-    selected_files = []
-    if len(multicast_files) > 1:
-        while True:
-            choice = input("\n请选择要处理的城市（输入数字，按回车处理全部，输入 q 退出）: ").strip().lower()
-            if choice == 'q':
-                print("已取消操作，退出程序")
-                return
-            elif not choice:
-                selected_files = multicast_files
-                break
-            else:
-                try:
-                    idx = int(choice) - 1
-                    if 0 <= idx < len(multicast_files):
-                        selected_files = [multicast_files[idx]]
-                        break
-                    else:
-                        print(f"请输入 1-{len(multicast_files)} 之间的数字")
-                except ValueError:
-                    print("请输入有效的数字或 q")
-    else:
+    # 自动模式下直接处理全部城市
+    if auto_mode:
         selected_files = multicast_files
+        print(f"\n自动模式: 处理全部 {len(selected_files)} 个城市")
+    else:
+        print(f"\n找到 {len(multicast_files)} 个待处理文件:")
+        print(print_city_list(multicast_files))
+
+        # 选择要处理的城市
+        selected_files = []
+        if len(multicast_files) > 1:
+            while True:
+                choice = input("\n请选择要处理的城市（输入数字，按回车处理全部，输入 q 退出）: ").strip().lower()
+                if choice == 'q':
+                    print("已取消操作，退出程序")
+                    return
+                elif not choice:
+                    selected_files = multicast_files
+                    break
+                else:
+                    try:
+                        idx = int(choice) - 1
+                        if 0 <= idx < len(multicast_files):
+                            selected_files = [multicast_files[idx]]
+                            break
+                        else:
+                            print(f"请输入 1-{len(multicast_files)} 之间的数字")
+                    except ValueError:
+                        print("请输入有效的数字或 q")
+        else:
+            selected_files = multicast_files
 
     success_count = 0
     fail_count = 0
@@ -818,7 +835,7 @@ def main():
         try:
             if process_single_file(multicast_file, ip_dir, max_servers, force_test_all, 
                                    retest_mode, server_source, output_mode, max_per_server,
-                                   use_slow_servers, max_slow_servers):
+                                   use_slow_servers, max_slow_servers, auto_mode):
                 success_count += 1
             else:
                 fail_count += 1
