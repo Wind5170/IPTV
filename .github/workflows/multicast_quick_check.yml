@@ -34,10 +34,7 @@ jobs:
       
       - name: Run multicast quick check
         run: |
-          echo "=========================================="
-          echo "Auto update multicast_check_data at $(date +'%Y-%m-%d %H:%M:%S')"
-          echo "=========================================="
-          echo -e "\n2" | python multicast_quick_check.py
+          python multicast_quick_check.py --auto
       
       - name: Commit and push changes
         run: |
