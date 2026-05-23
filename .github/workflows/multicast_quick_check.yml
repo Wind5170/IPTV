@@ -1,4 +1,4 @@
-name: Multicast Quick Check (Scheduled)
+name: Multicast Quick Check
 
 on:
   schedule:
