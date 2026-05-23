@@ -8,6 +8,7 @@ udpxy 播放列表生成工具（带实时验证版）
 3. 目标：确保每个城市至少有3个可用服务器（达标服务器 + 低速服务器补充）
 4. 支持定制模式和全量模式，支持实时验证和频道过滤
 5. 读取服务器数据时，对域名进行解析，按解析后的IP去重后使用
+6. 支持自动模式（--auto），用于 CI/CD 环境
 """
 
 import os
@@ -32,7 +33,6 @@ CONFIG = {
     "output_dir_single": "output/single",
     "default_max_servers": 6,           # 默认目标服务器数量
     "default_server_sources": ['good', 'precise', 'quick'],
-    "verify": True,  # 默认启用实时验证
     "save_category": False,
     "verbose": False,
     "local_first": True,
@@ -42,6 +42,8 @@ CONFIG = {
     "verify_timeout": 3,
     "verify_workers": 20,
     "verify_retry": 1,
+    "verify": True,                      # 默认启用实时验证
+    "auto_mode": False,                  # 默认非自动模式
 }
 
 QUALITY_SUFFIXES = ['HD', '-HD', 'hd', '-hd', '高清', '-高清', 'H264', 'H265', 'HEVC']
@@ -714,7 +716,8 @@ def generate_playlist_for_city(city: str, channel_index: Dict, region_index: Dic
                                use_all_ips: bool = False,
                                name_style: str = "full", skip_excluded: bool = True,
                                server_sources: List[str] = None,
-                               verify: bool = True) -> Tuple[bool, int]:
+                               verify: bool = True,
+                               auto_mode: bool = False) -> Tuple[bool, int]:
     """
     生成单个城市的播放列表
     使用智能服务器选择策略，确保至少有 max_servers 个服务器
@@ -817,13 +820,15 @@ def generate_playlist_for_city(city: str, channel_index: Dict, region_index: Dic
 def generate_all_playlists(max_servers: int, local_first: bool, 
                            name_style: str = "full", sort_mode: str = "city_first",
                            server_sources: List[str] = None,
-                           verify: bool = True) -> None:
+                           verify: bool = True,
+                           auto_mode: bool = False) -> None:
     """为所有城市生成播放列表并汇总"""
     
     # 清理历史文件
     limited_dir = Path(CONFIG["output_dir_limited"])
     if limited_dir.exists():
-        print(f"清理历史文件: {CONFIG['output_dir_limited']}/")
+        if not auto_mode:
+            print(f"清理历史文件: {CONFIG['output_dir_limited']}/")
         for file in limited_dir.glob("*.txt"):
             file.unlink()
     else:
@@ -831,20 +836,22 @@ def generate_all_playlists(max_servers: int, local_first: bool,
     
     all_dir = Path(CONFIG["output_dir_all"])
     if all_dir.exists():
-        print(f"清理历史文件: {CONFIG['output_dir_all']}/")
+        if not auto_mode:
+            print(f"清理历史文件: {CONFIG['output_dir_all']}/")
         for file in all_dir.glob("*.txt"):
             file.unlink()
     else:
         all_dir.mkdir(parents=True, exist_ok=True)
     
-    print("\n正在加载分类索引和地区编码...")
+    if not auto_mode:
+        print("\n正在加载分类索引和地区编码...")
     channel_index = load_category_index()
     region_index = load_region_code()
-    print(f"  加载分类: {len(channel_index)} 条")
-    print(f"  加载地区编码: {len(region_index)} 条")
+    if not auto_mode:
+        print(f"  加载分类: {len(channel_index)} 条")
+        print(f"  加载地区编码: {len(region_index)} 条")
     
     sort_mode_name = "先城市后运营商" if sort_mode == "city_first" else "先运营商后城市"
-    print(f"排序模式: {sort_mode_name}")
     
     # 显示服务器源配置
     source_names = []
@@ -854,9 +861,12 @@ def generate_all_playlists(max_servers: int, local_first: bool,
         source_names.append("精确测试(precise)")
     if 'quick' in server_sources:
         source_names.append("快速测试(quick)")
-    print(f"服务器源: {', '.join(source_names)}")
-    print(f"实时验证: {'启用' if verify else '禁用'}")
-    print(f"目标服务器数: {max_servers}")
+    
+    if not auto_mode:
+        print(f"排序模式: {sort_mode_name}")
+        print(f"服务器源: {', '.join(source_names)}")
+        print(f"实时验证: {'启用' if verify else '禁用'}")
+        print(f"目标服务器数: {max_servers}")
     
     # 从 template 目录获取城市列表
     all_cities = get_cities_from_template_dir()
@@ -865,68 +875,83 @@ def generate_all_playlists(max_servers: int, local_first: bool,
         return
     
     cities = sort_cities(all_cities, sort_mode)
-    print(f"\n共 {len(cities)} 个城市待处理")
+    
+    if not auto_mode:
+        print(f"\n共 {len(cities)} 个城市待处理")
     
     zubo_cities_set = load_zubo_cities()
     has_zubo_filter = len(zubo_cities_set) > 0
-    if has_zubo_filter:
+    if has_zubo_filter and not auto_mode:
         print(f"汇总模式: 仅以下 {len(zubo_cities_set)} 个城市汇总到 zubo.txt")
         if CONFIG['verbose']:
             for city in sorted(zubo_cities_set):
                 print(f"  - {city}")
-    else:
+    elif not auto_mode:
         print("汇总模式: 所有城市汇总到 zubo.txt")
     
     # ==================== 模式1: 定制模式 ====================
-    print("\n" + "=" * 60)
-    print(f"模式1: 定制模式 (最多{max_servers}个IP/城市, 跳过排除频道)")
-    print("=" * 60)
+    if not auto_mode:
+        print("\n" + "=" * 60)
+        print(f"模式1: 定制模式 (最多{max_servers}个IP/城市, 跳过排除频道)")
+        print("=" * 60)
+    
     success_count = 0
     for idx, city in enumerate(cities, 1):
-        print(f"  [{idx}/{len(cities)}] 处理 {city}...", end=" ", flush=True)
+        if not auto_mode:
+            print(f"  [{idx}/{len(cities)}] 处理 {city}...", end=" ", flush=True)
         success, server_count = generate_playlist_for_city(
             city, channel_index, region_index, local_first,
             CONFIG["output_dir_limited"], max_servers,
             use_all_ips=False, name_style=name_style, skip_excluded=True,
-            server_sources=server_sources, verify=verify
+            server_sources=server_sources, verify=verify, auto_mode=auto_mode
         )
         if success:
-            success_count += 1
-            print(f"✓ ({server_count}个IP)")
+            if not auto_mode:
+                print(f"✓ ({server_count}个IP)")
         else:
-            print("✗")
-    print(f"  模式1完成: {success_count}/{len(cities)} 个城市成功")
+            if not auto_mode:
+                print("✗")
+    if not auto_mode:
+        print(f"  模式1完成: {success_count}/{len(cities)} 个城市成功")
     
     # ==================== 模式2: 全量模式 ====================
-    print("\n" + "=" * 60)
-    print(f"模式2: 全量模式 (使用全部有效IP, 不跳过任何频道)")
-    print("=" * 60)
+    if not auto_mode:
+        print("\n" + "=" * 60)
+        print(f"模式2: 全量模式 (使用全部有效IP, 不跳过任何频道)")
+        print("=" * 60)
+    
     success_count = 0
     for idx, city in enumerate(cities, 1):
-        print(f"  [{idx}/{len(cities)}] 处理 {city}...", end=" ", flush=True)
+        if not auto_mode:
+            print(f"  [{idx}/{len(cities)}] 处理 {city}...", end=" ", flush=True)
         success, server_count = generate_playlist_for_city(
             city, channel_index, region_index, local_first,
             CONFIG["output_dir_all"], max_servers,
             use_all_ips=True, name_style=name_style, skip_excluded=False,
-            server_sources=server_sources, verify=verify
+            server_sources=server_sources, verify=verify, auto_mode=auto_mode
         )
         if success:
-            success_count += 1
-            print(f"✓ ({server_count}个IP)")
+            if not auto_mode:
+                print(f"✓ ({server_count}个IP)")
         else:
-            print("✗")
-    print(f"  模式2完成: {success_count}/{len(cities)} 个城市成功")
+            if not auto_mode:
+                print("✗")
+    if not auto_mode:
+        print(f"  模式2完成: {success_count}/{len(cities)} 个城市成功")
     
     # ==================== 合并所有组播源 ====================
-    print("\n" + "=" * 60)
-    print("合并所有组播源")
-    print("=" * 60)
+    if not auto_mode:
+        print("\n" + "=" * 60)
+        print("合并所有组播源")
+        print("=" * 60)
+    
     now = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=8)
     current_time = now.strftime("%Y/%m/%d %H:%M")
     os.makedirs("output", exist_ok=True)
     
     # 生成 zubo.txt (定制模式)
-    print("📝 生成 zubo.txt (定制模式)")
+    if not auto_mode:
+        print("📝 生成 zubo.txt (定制模式)")
     limited_contents = []
     for city in cities:
         if has_zubo_filter and city not in zubo_cities_set:
@@ -942,12 +967,15 @@ def generate_all_playlists(max_servers: int, local_first: bool,
             f.write(f"浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8\n\n")
             f.write('\n'.join(limited_contents))
         txt_to_m3u("output/zubo.txt", "output/zubo.m3u")
-        print(f"  ✓ zubo.txt 已生成 (包含 {len(limited_contents)} 个城市)")
+        if not auto_mode:
+            print(f"  ✓ zubo.txt 已生成 (包含 {len(limited_contents)} 个城市)")
     else:
-        print("  ✗ 未生成 zubo.txt (无有效内容)")
+        if not auto_mode:
+            print("  ✗ 未生成 zubo.txt (无有效内容)")
     
     # 生成 zubo_all.txt (全量模式)
-    print("📝 生成 zubo_all.txt (全量模式)")
+    if not auto_mode:
+        print("📝 生成 zubo_all.txt (全量模式)")
     all_contents = []
     for city in cities:
         file_path = f"{CONFIG['output_dir_all']}/{city}.txt"
@@ -961,11 +989,14 @@ def generate_all_playlists(max_servers: int, local_first: bool,
             f.write(f"浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8\n\n")
             f.write('\n'.join(all_contents))
         txt_to_m3u("output/zubo_all.txt", "output/zubo_all.m3u")
-        print(f"  ✓ zubo_all.txt 已生成 (包含 {len(all_contents)} 个城市)")
+        if not auto_mode:
+            print(f"  ✓ zubo_all.txt 已生成 (包含 {len(all_contents)} 个城市)")
     else:
-        print("  ✗ 未生成 zubo_all.txt (无有效内容)")
+        if not auto_mode:
+            print("  ✗ 未生成 zubo_all.txt (无有效内容)")
     
-    print("\n✅ 所有播放列表生成完成！")
+    if not auto_mode:
+        print("\n✅ 所有播放列表生成完成！")
 
 
 def txt_to_m3u(input_file: str, output_file: str) -> None:
@@ -1013,33 +1044,39 @@ def main():
                         help='服务器来源: good(_ip_good.txt), precise(_ip_precise.txt), quick(_ip_quick.txt)，可组合使用')
     parser.add_argument('--no-verify', action='store_true',
                         help='禁用实时验证（默认启用）')
-    parser.add_argument('--verify', action='store_true', dest='force_verify',
-                        help='强制启用实时验证（覆盖配置文件）')
+    parser.add_argument('--auto', action='store_true', default=False,
+                        help='自动模式（用于CI/CD，不显示详细进度和交互）')
     args = parser.parse_args()
     
     if args.verbose:
         CONFIG['verbose'] = True
-    local_first = args.local_first
-    name_style = args.name_style
-    sort_mode = args.sort_mode
+    
+    # 设置自动模式
+    auto_mode = args.auto
+    if auto_mode:
+        CONFIG['verbose'] = False  # 自动模式下关闭详细输出
     
     # 验证开关：命令行优先，然后配置文件，默认 True
-    if args.force_verify:
-        verify = True
-    elif args.no_verify:
+    if args.no_verify:
         verify = False
     else:
         verify = CONFIG.get('verify', True)
+    
+    local_first = args.local_first
+    name_style = args.name_style
+    sort_mode = args.sort_mode
 
     sort_mode_name = "先城市后运营商" if sort_mode == "city_first" else "先运营商后城市"
-    print("IPTVZ 播放列表生成工具（带实时验证版）")
+    
+    print("=" * 60)
+    print("IPTVZ 播放列表生成工具")
     print("=" * 60)
     print(f"目标服务器数: {args.num}")
     print(f"本地频道优先: {'是' if local_first else '否'}")
     print(f"频道名称样式: {'简称' if name_style == 'short' else '全称'}")
     print(f"排序模式: {sort_mode_name}")
-    print(f"详细模式: {'是' if CONFIG['verbose'] else '否'}")
     print(f"实时验证: {'启用' if verify else '禁用'}")
+    print(f"自动模式: {'是' if auto_mode else '否'}")
     
     source_names = []
     if 'good' in args.server_sources:
@@ -1049,17 +1086,20 @@ def main():
     if 'quick' in args.server_sources:
         source_names.append("快速测试(quick)")
     print(f"服务器源: {', '.join(source_names)}")
+    print("=" * 60)
 
     cities = get_cities_from_template_dir()
     
     if not cities:
         print("错误：未找到任何模板文件，请检查 template 目录下的 template_*.txt 文件")
         return   
-
-    if args.all:
-        print(f"\n开始为全部 {len(cities)} 个城市生成播放列表...")
+    
+    # 自动模式：处理全部城市
+    if auto_mode or args.all:
+        if not auto_mode:
+            print(f"\n开始为全部 {len(cities)} 个城市生成播放列表...")
         generate_all_playlists(args.num, local_first, name_style, sort_mode,
-                               server_sources=args.server_sources, verify=verify)
+                               server_sources=args.server_sources, verify=verify, auto_mode=auto_mode)
         return
 
     if args.city is not None:
@@ -1071,7 +1111,7 @@ def main():
             success, _ = generate_playlist_for_city(city_name, channel_index, region_index, local_first,
                                                     CONFIG["output_dir_single"], args.num,
                                                     use_all_ips=False, name_style=name_style, skip_excluded=True,
-                                                    server_sources=args.server_sources, verify=verify)
+                                                    server_sources=args.server_sources, verify=verify, auto_mode=auto_mode)
             if success:
                 print(f"✅ {city_name} 播放列表生成完成！")
             else:
@@ -1094,7 +1134,7 @@ def main():
             elif choice == '':
                 print(f"\n开始为全部 {len(cities)} 个城市生成播放列表...")
                 generate_all_playlists(args.num, local_first, name_style, sort_mode,
-                                       server_sources=args.server_sources, verify=verify)
+                                       server_sources=args.server_sources, verify=verify, auto_mode=auto_mode)
                 return
             else:
                 city_num = int(choice)
@@ -1106,7 +1146,7 @@ def main():
                     success, _ = generate_playlist_for_city(city_name, channel_index, region_index, local_first,
                                                             CONFIG["output_dir_single"], args.num,
                                                             use_all_ips=False, name_style=name_style, skip_excluded=True,
-                                                            server_sources=args.server_sources, verify=verify)
+                                                            server_sources=args.server_sources, verify=verify, auto_mode=auto_mode)
                     if success:
                         print(f"✅ {city_name} 播放列表生成完成！")
                     else:
