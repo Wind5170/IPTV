@@ -403,9 +403,13 @@ def process_city(city, source_file, config, auto_mode=False):
     source_name = "快速测试" if config['server_source'] == 'quick' else "精确测试"
     source_file_suffix = "quick" if config['server_source'] == 'quick' else "precise"
     
-    print(f"\n处理城市: {city}")
+    # auto 模式下也显示开始信息
+    if auto_mode:
+        print(f"\n[{city}] 开始处理...", flush=True)
+    else:
+        print(f"\n处理城市: {city}")
     
-    # 读取服务器列表（只有当没有达标服务器时才使用低速服务器）
+    # 读取服务器列表
     servers = parse_server_file(
         city, 
         config['ip_dir'], 
@@ -413,30 +417,34 @@ def process_city(city, source_file, config, auto_mode=False):
         config['max_concurrency'],
         config.get('use_slow_servers', True),
         config.get('max_slow_servers', 20),
-        verbose=not auto_mode  # 自动模式下减少输出
+        verbose=not auto_mode
     )
     
     if not servers:
-        print(f"  跳过: 没有可用的{source_name}服务器")
-        print(f"  提示: 请确保 {city}_ip_{source_file_suffix}.txt 文件存在")
-        if config.get('use_slow_servers', True):
-            print(f"        或确保 slow/{city}_ip_{source_file_suffix}_slow.txt 文件存在")
+        if auto_mode:
+            print(f"[{city}] ✗ 跳过: 无{source_name}服务器", flush=True)
+        else:
+            print(f"  跳过: 没有可用的{source_name}服务器")
+            print(f"  提示: 请确保 {city}_ip_{source_file_suffix}.txt 文件存在")
         return False
     
     # 读取组播源列表
     sources = parse_source_file(source_file)
     if not sources:
-        print(f"  跳过: 没有找到组播源")
+        if auto_mode:
+            print(f"[{city}] ✗ 跳过: 无组播源", flush=True)
+        else:
+            print(f"  跳过: 没有找到组播源")
         return False
     
     num_servers = len(servers)
     num_sources = len(sources)
     
-    if not auto_mode:
+    if auto_mode:
+        print(f"[{city}] 组播源: {num_sources}, 服务器: {num_servers}", flush=True)
+    else:
         print(f"  组播源数量: {num_sources}")
         print(f"  {source_name}服务器数量: {num_servers}")
-    else:
-        print(f"  组播源: {num_sources}, 服务器: {num_servers}")
     
     # 选择测试函数
     if config['test_method'] == 'opencv' and HAS_OPENCV:
@@ -446,11 +454,9 @@ def process_city(city, source_file, config, auto_mode=False):
         test_func = test_with_ffprobe
         timeout = config.get('ffprobe_timeout', 15)
     
-    # 确定需要测试的源（根据测试模式）
+    # 确定需要测试的源
     result_file = os.path.join(config['rtp_dir'], f"{city}_probe.txt")
-    
-    # 读取已有完整结果（保留详细信息）
-    existing_results = {}  # key: addr, value: dict with all fields
+    existing_results = {}
     sources_to_test = []
     
     if config.get('test_mode') == 'incremental' and os.path.exists(result_file):
@@ -466,50 +472,42 @@ def process_city(city, source_file, config, auto_mode=False):
                         addr_raw = parts[1].strip()
                         addr = normalize_multicast_addr(addr_raw)
                         status = parts[2].strip()
-                        resolution = parts[3].strip() if len(parts) > 3 else ""
-                        codec = parts[4].strip() if len(parts) > 4 else ""
-                        response = parts[5].strip() if len(parts) > 5 else "0"
-                        server = parts[6].strip() if len(parts) > 6 else ""
-                        
-                        existing_results[addr] = {
-                            "name": name,
-                            "addr": addr,
-                            "addr_raw": addr_raw,
-                            "status": status,
-                            "resolution": resolution,
-                            "codec": codec,
-                            "response": response,
-                            "server": server
-                        }
+                        existing_results[addr] = {"name": name, "addr": addr, "status": status}
         except Exception as e:
             if not auto_mode:
                 print(f"  读取已有结果文件失败: {e}")
         
-        # 筛选需要测试的源（新增 或 状态为无效）
         for name, addr, cat in sources:
             if addr not in existing_results:
                 sources_to_test.append((name, addr, cat))
             elif existing_results[addr]["status"] != "有效":
                 sources_to_test.append((name, addr, cat))
         
-        if not auto_mode:
+        if auto_mode:
+            print(f"[{city}] 接续模式: 需测试 {len(sources_to_test)}/{num_sources}", flush=True)
+        elif not auto_mode:
             print(f"  接续模式: 需要测试 {len(sources_to_test)} 个源")
     else:
         sources_to_test = sources
-        if config.get('test_mode') == 'full' and not auto_mode:
+        if auto_mode:
+            mode_text = "全量模式" if config.get('test_mode') == 'full' else "首次运行"
+            print(f"[{city}] {mode_text}: 测试全部 {len(sources_to_test)} 个", flush=True)
+        elif config.get('test_mode') == 'full' and not auto_mode:
             print(f"  全量模式: 测试全部 {len(sources_to_test)} 个源")
     
     if not sources_to_test:
-        print(f"  所有组播源已完成测试")
+        if auto_mode:
+            print(f"[{city}] ✓ 全部已完成", flush=True)
+        else:
+            print(f"  所有组播源已完成测试")
         return True
     
     num_items = len(sources_to_test)
     max_total_concurrency = min(num_servers * config['max_per_server'], config['max_concurrency'])
     
-    # 每个并发单元负责的组播数
     items_per_concurrency = math.ceil(num_items / max_total_concurrency) if max_total_concurrency > 0 else num_items
     
-    # 给每个服务器分配并发数（每个服务器不超过 max_per_server）
+    # 分配服务器并发
     server_concurrency = [0] * num_servers
     remaining = max_total_concurrency
     for i in range(num_servers):
@@ -518,7 +516,7 @@ def process_city(city, source_file, config, auto_mode=False):
         can_assign = min(config['max_per_server'], remaining)
         server_concurrency[i] = can_assign
         remaining -= can_assign
-    # 调整使总和等于 max_total_concurrency
+    
     actual_total = sum(server_concurrency)
     if actual_total < max_total_concurrency:
         for i in range(num_servers):
@@ -530,16 +528,14 @@ def process_city(city, source_file, config, auto_mode=False):
                 actual_total += inc
     
     total_threads = sum(server_concurrency)
-    # 构建服务器池
     server_pool = []
     for i, con in enumerate(server_concurrency):
         server_pool.extend([servers[i]] * con)
-    # 实际使用的线程数 = min(total_threads, ceil(num_items / items_per_concurrency))
+    
     num_batches = math.ceil(num_items / items_per_concurrency)
     effective_threads = min(total_threads, num_batches)
     server_pool = server_pool[:effective_threads]
     
-    # 切分批次
     batches = []
     for i in range(effective_threads):
         start = i * items_per_concurrency
@@ -552,23 +548,22 @@ def process_city(city, source_file, config, auto_mode=False):
         print(f"  总并发线程数: {len(batches)} (最大并发 {max_total_concurrency})")
         print(f"  每个线程处理: {items_per_concurrency} 个地址")
     
-    # 并发测试
+    # 开始测试
+    if auto_mode:
+        print(f"[{city}] 测试中... ({num_items}个地址)", flush=True)
+    else:
+        print(f"\n  开始测试...")
+        print("  (按 Ctrl+C 可安全中断)\n")
+    
     new_results = []
     results_lock = threading.Lock()
     completed = 0
     valid_so_far = 0
     
-    print(f"\n  开始测试...")
-    if not auto_mode:
-        print("  (按 Ctrl+C 可安全中断)\n")
-    else:
-        print("  处理中...\n")
-    
     def test_batch(batch, server):
         nonlocal completed, valid_so_far
         local_results = []
         for name, addr, cat in batch:
-            # 检查是否需要退出
             if should_exit:
                 break
             
@@ -581,7 +576,6 @@ def process_city(city, source_file, config, auto_mode=False):
                 completed += 1
                 if is_valid:
                     valid_so_far += 1
-                # 自动模式下不显示进度条
                 if not auto_mode:
                     percent = completed * 100 // num_items if num_items > 0 else 0
                     sys.stdout.write(f"\r  进度: {completed}/{num_items} ({percent}%) 有效: {valid_so_far}")
@@ -604,11 +598,9 @@ def process_city(city, source_file, config, auto_mode=False):
         for batch, server in zip(batches, server_pool):
             futures.append(executor.submit(test_batch, batch, server))
         
-        # 等待所有任务完成或中断
         try:
             for future in as_completed(futures):
                 if should_exit:
-                    # 取消所有未完成的任务
                     for f in futures:
                         f.cancel()
                     break
@@ -624,17 +616,11 @@ def process_city(city, source_file, config, auto_mode=False):
                 future.cancel()
     
     if not auto_mode:
-        print()  # 换行
+        print()
     
-    # 如果被中断，提示用户
-    if should_exit and not auto_mode:
-        print("\n⚠ 测试已被中断，已保存部分结果")
-    
-    # ========== 合并结果：保留原有有效数据的详细信息 ==========
+    # 合并结果
     final_results = []
-    
     for name, addr, cat in sources:
-        # 优先使用新测试结果
         new_item = None
         for item in new_results:
             if item["addr"] == addr:
@@ -648,15 +634,14 @@ def process_city(city, source_file, config, auto_mode=False):
             final_results.append({
                 "name": existing["name"],
                 "addr": addr,
-                "addr_raw": existing["addr_raw"],
+                "addr_raw": addr.replace('rtp/', '').replace('udp/', ''),
                 "status": existing["status"],
-                "resolution": existing["resolution"],
-                "codec": existing["codec"],
-                "response": existing["response"],
-                "server": existing.get("server", "")
+                "resolution": "",
+                "codec": "",
+                "response": "0",
+                "server": ""
             })
         else:
-            # 兜底
             final_results.append({
                 "name": name,
                 "addr": addr,
@@ -684,14 +669,18 @@ def process_city(city, source_file, config, auto_mode=False):
                     valid_count += 1
                 f.write(f"{item['name']}\t{item['addr_raw']}\t{status}\t{item['resolution']}\t{item['codec']}\t{item['response']}\n")
         
-        if not auto_mode:
+        # auto 模式显示结果
+        if auto_mode:
+            print(f"[{city}] ✓ 完成: 有效 {valid_count}/{len(final_results)}", flush=True)
+        else:
             print(f"\n  结果保存到: {result_file}")
             print(f"  统计: 有效 {valid_count}/{len(final_results)}")
-            if should_exit:
-                print("  ⚠ 注意: 测试被中断，结果不完整")
         
     except Exception as e:
-        print(f"  保存结果失败: {e}")
+        if auto_mode:
+            print(f"[{city}] ✗ 保存失败: {e}", flush=True)
+        else:
+            print(f"  保存结果失败: {e}")
         return False
     
     return not should_exit
