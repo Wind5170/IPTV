@@ -26,7 +26,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # ==================== 配置参数（集中调整） ====================
 CONFIG = {
     # 服务器来源: 'quick' 使用 _quick.txt（快速测试），'precise' 使用 _precise.txt（精确测试）
-    "server_source": "quick",
+    "server_source": "precise",
     
     # 输出模式: 'detailed'（详细模式）或 'simple'（简洁模式）
     "output_mode": "simple",
@@ -37,16 +37,16 @@ CONFIG = {
     "test_mode": "incremental",
     
     # 最大总并发数（控制同时运行的测试线程数）
-    "max_concurrency": 50,
+    "max_concurrency": 100,
     
     # 每个服务器最大并发数（避免单服务器过载）
-    "max_per_server": 10,
+    "max_per_server": 20,
     
     # 是否启用低速服务器备用（仅当没有达标服务器时使用）
-    "use_slow_servers": True,
+    "use_slow_servers": False,
     
     # 低速服务器最大数量（当没有达标服务器时补充）
-    "max_slow_servers": 20,
+    "max_slow_servers": 5,
     
     # 测试重试次数
     "retry_count": 2,
