@@ -32,6 +32,7 @@ CONFIG = {
     "output_dir_single": "output/single",
     "default_max_servers": 6,           # 默认目标服务器数量
     "default_server_sources": ['good', 'precise', 'quick'],
+    "verify": True,  # 默认启用实时验证
     "save_category": False,
     "verbose": False,
     "local_first": True,
@@ -1012,6 +1013,8 @@ def main():
                         help='服务器来源: good(_ip_good.txt), precise(_ip_precise.txt), quick(_ip_quick.txt)，可组合使用')
     parser.add_argument('--no-verify', action='store_true',
                         help='禁用实时验证（默认启用）')
+    parser.add_argument('--verify', action='store_true', dest='force_verify',
+                        help='强制启用实时验证（覆盖配置文件）')
     args = parser.parse_args()
     
     if args.verbose:
@@ -1019,7 +1022,14 @@ def main():
     local_first = args.local_first
     name_style = args.name_style
     sort_mode = args.sort_mode
-    verify = not args.no_verify
+    
+    # 验证开关：命令行优先，然后配置文件，默认 True
+    if args.force_verify:
+        verify = True
+    elif args.no_verify:
+        verify = False
+    else:
+        verify = CONFIG.get('verify', True)
 
     sort_mode_name = "先城市后运营商" if sort_mode == "city_first" else "先运营商后城市"
     print("IPTVZ 播放列表生成工具（带实时验证版）")
