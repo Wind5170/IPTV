@@ -1,4 +1,4 @@
-name: Multicast Source Probe (Scheduled)
+name: Multicast Source Probe
 
 on:
   schedule:
