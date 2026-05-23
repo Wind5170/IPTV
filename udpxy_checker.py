@@ -8,7 +8,7 @@ udpxy 服务器统一检测工具
 支持从 ip/{城市}_ip.txt 读取服务器列表
 支持结果输出到 ip/{城市}_ip_quick.txt（快速）或 ip/{城市}_ip_precise.txt（精确）
 支持自动模式（用于CI/CD）
-分级保存：有效服务器保存到主目录，低速服务器保存到 slow/ 子目录
+分级保存：有效服务器保存到主目录，低速服务器保存到 slow/ 子目录（简单阈值策略）
 """
 
 import os
@@ -28,40 +28,40 @@ import requests
 
 # ==================== 配置参数 ====================
 CONFIG = {
-    "test_mode": "precise", # 快速测试或精确测试 （默认精确测试 precise ， 快速测试 quick ）
+    "test_mode": "quick",
     "quick": {
         "download_size": 64 * 1024,
         "chunk_size": 8192,
         "timeout_connect": 3,
-        "timeout_read": 10,
+        "timeout_read": 15,
         "max_workers_connect": 100,
         "max_workers_speed": 50,
         "retry_times": 1,
         "output_suffix": "quick",
         "output_name": "快速测试",
-        "min_speed_kbps": 200,      # 最低速度要求 200KB/s（约1.6Mbps）
+        "min_speed_kbps": 200,
     },
     "precise": {
         "download_size": 1024 * 1024,
         "chunk_size": 8192,
         "timeout_connect": 5,
-        "timeout_read": 15,
+        "timeout_read": 20,
         "max_workers_connect": 100,
         "max_workers_speed": 50,
         "retry_times": 2,
         "output_suffix": "precise",
         "output_name": "精确测试",
-        "min_speed_kbps": 500,      # 最低速度要求 500KB/s（约4Mbps）
+        "min_speed_kbps": 300,
     },
     "city_config_file": "config/city_config.json",
     "ip_dir": "ip",
-    "slow_dir": "ip/slow",          # 低速服务器保存目录
+    "slow_dir": "ip/slow",
+    "history_dir": "ip/history",
     "logs_dir": "logs",
     "max_servers": 0,
     "auto_mode": False,
     "verbose": True,
 }
-
 
 CITY_CONFIG = {}
 
@@ -74,13 +74,15 @@ def load_city_config():
             data = json.load(f)
         CITY_CONFIG = data.get("cities", data)
 
-# ==================== 省份排序顺序（按拼音） ====================
+
+# ==================== 省份排序顺序 ====================
 REGIONS = [
     "安徽", "北京", "重庆", "福建", "甘肃", "广东", "广西", "贵州", "海南", "河北",
     "河南", "黑龙江", "湖北", "湖南", "吉林", "江苏", "江西", "辽宁", "内蒙古", "宁夏",
     "青海", "山东", "山西", "陕西", "上海", "四川", "天津", "西藏", "新疆", "云南",
     "浙江", "台湾", "香港", "澳门"
 ]
+
 
 def get_all_cities(ip_dir: str = "ip") -> List[str]:
     """获取所有有 ip.txt 文件的城市（按 REGIONS 顺序排序）"""
@@ -89,11 +91,10 @@ def get_all_cities(ip_dir: str = "ip") -> List[str]:
     for file_path in glob.glob(os.path.join(ip_dir, "*_ip.txt")):
         filename = os.path.basename(file_path)
         city = filename.replace("_ip.txt", "")
-        skip_patterns = ["存档", "template", "ipresu", "ipgo"]
-        if city not in skip_patterns and not city.startswith("存档"):
+        skip_patterns = ["gateway", "template", "ipresu", "ipgo", "history", "slow", "backup"]
+        if city not in skip_patterns and not city.startswith(("gateway", "history", "slow", "backup")):
             cities.add(city)
     
-    # 按省份+运营商排序
     operator_order = {"电信": 1, "联通": 2, "移动": 3}
     region_order = {region: idx for idx, region in enumerate(REGIONS)}
     
@@ -113,7 +114,6 @@ def get_all_cities(ip_dir: str = "ip") -> List[str]:
 
 
 def print_city_list(cities: List[str]) -> None:
-    """打印格式化的城市列表"""
     if not cities:
         print("未找到任何城市")
         return
@@ -135,7 +135,6 @@ def print_city_list(cities: List[str]) -> None:
 
 
 def print_city_list_with_status(mode):
-    """打印带状态标记的城市列表"""
     cities = get_all_cities()
     if not cities:
         return "未找到任何城市文件"
@@ -273,7 +272,6 @@ def parse_speed_value(speed_str, mode='quick'):
 
 
 def parse_speed_to_kbps(speed_str: str, mode: str = 'quick') -> float:
-    """将速度字符串转换为 KB/s"""
     if speed_str == "[X]":
         return 0
     
@@ -283,20 +281,20 @@ def parse_speed_to_kbps(speed_str: str, mode: str = 'quick') -> float:
             value = float(match.group(1))
             unit = match.group(2)
             if unit == "M":
-                return value * 1024  # MB/s -> KB/s
+                return value * 1024
             elif unit == "k":
-                return value         # KB/s
+                return value
             elif unit == "B":
-                return value / 1024  # B/s -> KB/s
+                return value / 1024
     else:
         match = re.match(r"([\d.]+)\s+([KM]B/s)", speed_str)
         if match:
             value = float(match.group(1))
             unit = match.group(2)
             if unit == "MB/s":
-                return value * 1024  # MB/s -> KB/s
+                return value * 1024
             elif unit == "KB/s":
-                return value         # KB/s
+                return value
     return 0
 
 
@@ -330,7 +328,7 @@ def parse_servers(city, max_servers=0):
 
 
 def read_existing_history(city, mode):
-    history_file = os.path.join(CONFIG["ip_dir"], f"{city}_ip_history.txt")
+    history_file = os.path.join(CONFIG["history_dir"], f"{city}_ip_history.txt")
     existing = {}
     
     if os.path.exists(history_file):
@@ -351,9 +349,7 @@ def read_existing_history(city, mode):
 
 
 def update_history(existing, results, mode):
-    """更新历史记录：只要通就算有效，不管速度"""
     for server, speed in results:
-        # 只去除 http:// 用于内部比较，不修改原始数据
         server_norm = server.replace('http://', '').replace('https://', '')
         if server_norm not in existing:
             existing[server_norm] = {"status": "", "success": 0, "fail": 0}
@@ -370,18 +366,17 @@ def update_history(existing, results, mode):
 
 
 def save_results(city, results, existing, mode):
-    """分级保存测试结果（智能阈值策略）"""
+    """分级保存测试结果（简单阈值策略）"""
     config = CONFIG[mode]
     current_time = datetime.now().strftime('%Y%m%d_%H%M')
     min_speed_kbps = config.get("min_speed_kbps", 0)
     
-    # 确保目录存在
     os.makedirs(CONFIG["ip_dir"], exist_ok=True)
     os.makedirs(CONFIG["slow_dir"], exist_ok=True)
+    os.makedirs(CONFIG["history_dir"], exist_ok=True)
     
-    # 分类服务器（按速度）
-    high_speed_servers = []   # 速度达标
-    low_speed_servers = []    # 速度未达标但有数据
+    valid_servers = []
+    slow_servers = []
     
     for server, speed in results:
         if speed == "[X]":
@@ -389,47 +384,17 @@ def save_results(city, results, existing, mode):
         
         speed_kbps = parse_speed_to_kbps(speed, mode)
         if min_speed_kbps > 0 and speed_kbps < min_speed_kbps:
-            low_speed_servers.append((server, speed, speed_kbps))
+            slow_servers.append((server, speed, speed_kbps))
         else:
-            high_speed_servers.append((server, speed, speed_kbps))
+            valid_servers.append((server, speed, speed_kbps))
     
-    # 按速度排序
-    high_speed_servers.sort(key=lambda x: x[2], reverse=True)
-    low_speed_servers.sort(key=lambda x: x[2], reverse=True)
-    
-    # 智能阈值策略：
-    # 1. 有达标服务器：保留所有达标服务器
-    #    - 如果达标服务器只有1个，再保留1个最好的低速服务器（作为备用）
-    #    - 如果达标服务器 >= 2个，只保留达标服务器
-    # 2. 没有达标服务器：保留2个最好的低速服务器
-    valid_servers = []
-    
-    if high_speed_servers:
-        # 有达标的服务器，保留所有达标的
-        valid_servers = high_speed_servers.copy()
-        
-        # 如果只有1个达标服务器，再保留1个最好的低速服务器
-        if len(high_speed_servers) == 1 and low_speed_servers:
-            best_low = low_speed_servers[0]
-            valid_servers.append(best_low)
-            if CONFIG['verbose']:
-                print(f"    达标服务器仅1个，额外保留1个最佳低速服务器: {best_low[1]} ({best_low[2]:.1f} KB/s)")
-    elif low_speed_servers:
-        # 没有达标的，但有低速服务器，保留2个最好的低速服务器
-        keep_count = min(2, len(low_speed_servers))
-        valid_servers = low_speed_servers[:keep_count]
-        if CONFIG['verbose']:
-            print(f"    没有速度达标的服务器，保留 {keep_count} 个最佳低速服务器")
-            for sv in valid_servers:
-                print(f"      - {sv[1]} ({sv[2]:.1f} KB/s)")
+    valid_servers.sort(key=lambda x: x[2], reverse=True)
+    slow_servers.sort(key=lambda x: x[2], reverse=True)
     
     # 1. 保存有效服务器
     result_file = os.path.join(CONFIG["ip_dir"], f"{city}_ip_{config['output_suffix']}.txt")
     
     if valid_servers:
-        # 按速度排序
-        valid_servers.sort(key=lambda x: x[2], reverse=True)
-        
         with open(result_file, 'w', encoding='utf-8') as f:
             f.write(f"# {current_time}_{config['output_suffix']}\n")
             f.write("# 服务器地址\t速度\n")
@@ -439,31 +404,31 @@ def save_results(city, results, existing, mode):
         if os.path.exists(result_file):
             os.remove(result_file)
             if CONFIG['verbose']:
-                print(f"    没有可用服务器，已删除 {os.path.basename(result_file)}")
+                print(f"    没有速度达标的服务器，已删除 {os.path.basename(result_file)}")
     
-    # 2. 保存低速服务器到 slow/ 子目录（供分析参考）
-    # 确定哪些低速服务器需要保存到 slow 目录
-    valid_low_set = set(valid_servers)
-    slow_for_save = [s for s in low_speed_servers if s not in valid_low_set]
+    # 2. 保存低速服务器到 slow/ 子目录
+    slow_file = os.path.join(CONFIG["slow_dir"], f"{city}_ip_{config['output_suffix']}_slow.txt")
     
-    if slow_for_save:
-        slow_file = os.path.join(CONFIG["slow_dir"], f"{city}_ip_{config['output_suffix']}_slow.txt")
-        
+    if slow_servers:
         with open(slow_file, 'w', encoding='utf-8') as f:
             f.write(f"# {current_time}_{config['output_suffix']}_slow\n")
             f.write("# 服务器地址\t速度\n")
-            for server, speed, _ in slow_for_save:
+            for server, speed, _ in slow_servers:
                 f.write(f"{server}\t{speed}\n")
         
         if CONFIG['verbose']:
-            print(f"    低速服务器: {len(slow_for_save)} 个 (已保存到 slow/{city}_ip_{config['output_suffix']}_slow.txt)")
-    elif low_speed_servers and CONFIG['verbose']:
-        print(f"    所有低速服务器均已作为有效服务器保留")
+            print(f"    低速服务器: {len(slow_servers)} 个 (已保存到 slow/{city}_ip_{config['output_suffix']}_slow.txt)")
+    else:
+        # 没有低速服务器，删除旧的 slow 文件
+        if os.path.exists(slow_file):
+            os.remove(slow_file)
+            if CONFIG['verbose']:
+                print(f"    没有低速服务器，已删除 {os.path.basename(slow_file)}")
     
-    # 3. 更新历史记录（不管速度，只要通就算有效）
+    # 3. 更新历史记录
     existing = update_history(existing, results, mode)
     
-    history_file = os.path.join(CONFIG["ip_dir"], f"{city}_ip_history.txt")
+    history_file = os.path.join(CONFIG["history_dir"], f"{city}_ip_history.txt")
     with open(history_file, 'w', encoding='utf-8') as f:
         f.write(f"# {current_time}_{config['output_suffix']}_history\n")
         f.write("# 服务器地址\t状态\t有效次数\t无效次数\n")
@@ -474,7 +439,6 @@ def save_results(city, results, existing, mode):
 
 
 def process_city(city_name, mode, max_servers=0):
-    """处理单个城市，返回 (是否成功, 有效服务器数量)"""
     config = CONFIG[mode]
     city_info = get_city_by_name(city_name)
     if not city_info:
@@ -540,7 +504,7 @@ def process_city(city_name, mode, max_servers=0):
                 ip, orig = futures[f]
                 speed = f.result()
                 results.append((orig, speed))
-                if CONFIG['verbose']:
+                if CONFIG['verbose'] and not CONFIG['auto_mode']:
                     print(f"    {orig}\t{speed}")
         
         for ip in ip_list:
@@ -567,10 +531,8 @@ def process_city(city_name, mode, max_servers=0):
 
 
 def process_all_cities(mode, max_servers=0, cities_filter=None):
-    """处理所有城市，返回 (成功城市数, 总有效服务器数)"""
     cities = get_all_cities()
     
-    # 筛选指定城市
     if cities_filter:
         cities = [c for c in cities if c in cities_filter]
         if not cities:
@@ -618,7 +580,6 @@ def process_all_cities(mode, max_servers=0, cities_filter=None):
 
 
 def single_city_mode(mode, max_servers=0):
-    """交互模式（支持连续处理多个城市）"""
     config = CONFIG[mode]
     cities = get_all_cities()
     
@@ -636,11 +597,9 @@ def single_city_mode(mode, max_servers=0):
                 break
             
             if choice == '':
-                # 直接回车：全部测试
                 process_all_cities(mode, max_servers)
                 continue
             
-            # 处理单个或多个城市
             city_num = int(choice)
             if 1 <= city_num <= len(cities):
                 city_name = cities[city_num - 1]
@@ -652,9 +611,7 @@ def single_city_mode(mode, max_servers=0):
                 print(f"无效选择，请输入 1-{len(cities)} 之间的数字")
                 
         except ValueError:
-            # 输入的不是数字，检查是否为多个编号
             if ',' in choice or '-' in choice:
-                # 解析多个编号
                 selected_cities = parse_city_selection(choice, cities)
                 if selected_cities:
                     for city_name in selected_cities:
@@ -672,7 +629,6 @@ def single_city_mode(mode, max_servers=0):
 
 
 def parse_city_selection(choice: str, cities: List[str]) -> List[str]:
-    """解析城市选择输入，支持单个、多个、范围"""
     selected = []
     parts = choice.split(',')
     
@@ -721,7 +677,6 @@ def main():
                         help='静默模式，减少输出')
     args = parser.parse_args()
     
-    # 设置配置
     CONFIG["test_mode"] = args.mode
     CONFIG["max_servers"] = args.num
     CONFIG["auto_mode"] = args.auto
@@ -758,19 +713,16 @@ def main():
         print(f"请确保 {CONFIG['ip_dir']} 目录下有 {{城市}}_ip.txt 文件")
         sys.exit(1)
     
-    # 自动模式
     if args.auto:
         print("\n自动模式运行...")
         success_count, total_servers = process_all_cities(args.mode, args.num if args.num > 0 else 0, args.cities)
         print(f"\n自动模式完成: {success_count}/{len(cities)} 个城市成功, {total_servers} 个有效服务器")
         return
     
-    # 全部城市模式
     if args.all:
         process_all_cities(args.mode, args.num if args.num > 0 else 0, args.cities)
         return
     
-    # 命令行指定城市编号
     if args.city is not None:
         if 1 <= args.city <= len(cities):
             city_name = cities[args.city - 1]
@@ -781,7 +733,6 @@ def main():
             print(f"请输入 1-{len(cities)} 之间的数字")
         return
     
-    # 交互模式
     single_city_mode(args.mode, args.num if args.num > 0 else 0)
 
 
