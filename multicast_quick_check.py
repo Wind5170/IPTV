@@ -37,7 +37,7 @@ CONFIG = {
     "test_mode": "incremental",
     
     # 最大总并发数（控制同时运行的测试线程数）
-    "max_concurrency": 100,
+    "max_concurrency": 200,
     
     # 每个服务器最大并发数（避免单服务器过载）
     "max_per_server": 20,
