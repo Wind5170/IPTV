@@ -26,7 +26,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # ==================== 配置参数（集中调整） ====================
 CONFIG = {
     # 服务器来源: 'quick' 使用 _quick.txt（快速测试），'precise' 使用 _precise.txt（精确测试）
-    "server_source": "quick",
+    "server_source": "precise",
     
     # 输出模式: 'detailed'（详细模式）或 'simple'（简洁模式）
     "output_mode": "simple",
