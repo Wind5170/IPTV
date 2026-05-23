@@ -36,10 +36,7 @@ jobs:
       
       - name: Run multicast source probe
         run: |
-          echo "=========================================="
-          echo "Auto update multicast_source_probe at $(date +'%Y-%m-%d %H:%M:%S')"
-          echo "=========================================="
-          echo "" | python scripts/multicast_source_probe.py
+          python multicast_source_probe.py --auto
       
       - name: Commit and push changes
         run: |
