@@ -28,7 +28,7 @@ import requests
 
 # ==================== 配置参数 ====================
 CONFIG = {
-    "test_mode": "quick",
+    "test_mode": "precise",
     "quick": {
         "download_size": 64 * 1024,
         "chunk_size": 8192,
