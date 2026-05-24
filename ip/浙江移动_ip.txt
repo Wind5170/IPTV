@@ -1,3 +1,4 @@
+﻿# 2026/05/24 20:42
 36.20.107.16:8888
 36.20.107.62:8888
 36.20.107.91:8888
@@ -35,3 +36,16 @@
 39.174.240.82:4162
 124.90.25.241:23331
 223.93.142.35:4022
+stun.bjdfys.top:4162
+smtp.bjdfys.top:4032
+mail.bjdfys.top:4032
+tv.twwhwn.cn:4032
+pop.bjdfys.top:4032
+smtp.bjdfys.top:4162
+yibon.twwhwn.cn:4032
+stun.bjdfys.top:4032
+bjdfys.top:4032
+pop.bjdfys.top:4162
+mail.bjdfys.top:4162
+bjdfys.top:4162
+cmi.816141.xyz:23331
