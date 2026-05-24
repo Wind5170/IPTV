@@ -1,3 +1,8 @@
-# 20260523_2253_precise_slow
+# 20260524_1117_precise_slow
 # 服务器地址	速度
-yaching.xmtcenter.com:9999	105.30 KB/s
+share.xlangnan.cn:10316	253.35 KB/s
+111.226.211.168:8188	73.96 KB/s
+111.226.211.212:8188	56.33 KB/s
+111.226.211.149:8188	54.69 KB/s
+yaching.xmtcenter.com:9999	35.53 KB/s
+111.226.211.175:8188	1.21 KB/s
