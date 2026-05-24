@@ -1,1 +1,4 @@
+﻿# 2026/05/24 20:42
 111.56.201.10:9898
+apifast.smartmanager.xlglgd.cn:9898
+wss.smartmanager.xlglgd.cn:9898
