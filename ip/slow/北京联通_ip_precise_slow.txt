@@ -1,3 +1,9 @@
-# 20260524_1113_precise_slow
+# 20260524_2252_precise_slow
 # 服务器地址	速度
-123.118.62.117:8686	3.86 KB/s
+sphinger.f3322.net:11012	295.77 KB/s
+superpostmail.3322.org:1193	290.20 KB/s
+guoxue7.3322.org:57022	287.46 KB/s
+laiboy.asuscomm.com:58686	247.63 KB/s
+111.194.236.187:4022	234.80 KB/s
+aecm6mg6ilmqybhl.nexusedgeio.com:5588	228.48 KB/s
+file.rbscraft.com:4022	22.78 KB/s

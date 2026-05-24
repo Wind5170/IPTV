@@ -1,0 +1,5 @@
+# 20260524_2311_precise_slow
+# 服务器地址	速度
+www.liangcl.top:8686	204.35 KB/s
+www.negative.top:50000	97.02 KB/s
+slq888.cn:9999	20.82 KB/s

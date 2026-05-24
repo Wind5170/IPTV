@@ -1,6 +1,9 @@
-# 20260524_1119_precise
+# 20260524_2302_precise
 # 服务器地址	速度
-171.83.43.52:52057	618.18 KB/s
-27.18.144.33:9100	529.95 KB/s
-zhangkx717.cn:9999	458.35 KB/s
-219.140.7.61:8188	341.46 KB/s
+www.661130.xyz:8188	369.47 KB/s
+wlei.myds.me:52057	369.12 KB/s
+bk.myds.me:8899	366.54 KB/s
+27.18.144.33:9100	366.48 KB/s
+hiliu.myds.me:18088	358.09 KB/s
+gonas.xyz:38128	319.87 KB/s
+qnapxuan.mycloudnas.com:10001	303.35 KB/s

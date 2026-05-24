@@ -1,0 +1,4 @@
+# 20260524_2250_precise_slow
+# 服务器地址	速度
+nicolethree.top:8188	170.90 KB/s
+www.191919.xyz:8888	4.36 KB/s
