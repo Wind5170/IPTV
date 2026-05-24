@@ -7,6 +7,11 @@
 输出到 ip/ 目录，只保留 REGIONS+运营商 格式的城市
 支持自动模式（用于CI/CD）
 支持文件去重验证（基于URL+MD5）
+
+域名处理规则：
+- 域名格式（如 www.191919.xyz:8888）不解析，按原样保存
+- IP格式（如 183.164.55.123:5000）按原样保存
+- 不进行域名到IP的解析
 """
 
 import os
@@ -219,29 +224,23 @@ def extract_city_from_filename(file_path):
     return filename, False
 
 
-def resolve_host_to_ip(host_port, verbose=False):
-    if ':' not in host_port:
-        return host_port
-    
-    host, port = host_port.rsplit(':', 1)
-    
-    if PATTERNS['ipv4'].match(host):
-        return host_port
-    
-    try:
-        ip = socket.gethostbyname(host)
-        result = f"{ip}:{port}"
-        if verbose:
-            logger.debug(f"域名解析: {host_port} -> {result}")
-        return result
-    except (socket.gaierror, ValueError):
-        if verbose:
-            logger.debug(f"域名解析失败: {host_port}")
-        return host_port
+def is_domain_format(server):
+    """判断服务器地址是否为域名格式"""
+    if not server:
+        return False
+    if ':' in server:
+        host, _ = server.rsplit(':', 1)
+        ip_pattern = re.compile(r'^\d+\.\d+\.\d+\.\d+$')
+        return not ip_pattern.match(host)
+    ip_pattern = re.compile(r'^\d+\.\d+\.\d+\.\d+$')
+    return not ip_pattern.match(server)
 
 
 def parse_url_to_server(url_str):
-    """从URL中解析出服务器地址（IP:端口 或 域名:端口）"""
+    """
+    从URL中解析出服务器地址（IP:端口 或 域名:端口）
+    不进行域名解析，保持原样
+    """
     if not url_str:
         return None
     
@@ -250,6 +249,8 @@ def parse_url_to_server(url_str):
         server = match.group(1)
         if ':' in server:
             return server
+        # 没有端口，添加默认端口
+        return f"{server}:4022"
     return None
 
 
@@ -303,7 +304,10 @@ def detect_file_type(content_preview):
 
 
 def extract_servers_from_content(content, file_type, file_path=None):
-    """从内容中提取服务器地址，按分组归属"""
+    """
+    从内容中提取服务器地址，按分组归属
+    域名格式：不解析，按原样保存
+    """
     city_servers = defaultdict(set)
     lines = content.split('\n')
     
@@ -314,6 +318,7 @@ def extract_servers_from_content(content, file_type, file_path=None):
         if not line:
             continue
         
+        # 处理分组标题
         if '#genre#' in line:
             parts = line.split(',')
             if parts:
@@ -328,34 +333,58 @@ def extract_servers_from_content(content, file_type, file_path=None):
                             logger.debug(f"  识别分组: {group_name} -> {current_city}")
             continue
         
+        # 跳过开头的注释行
         if line_num <= 2:
             continue
         
+        # 没有当前分组则跳过
         if not current_city:
             continue
         
+        # 解析数据行
         if ',' in line:
             parts = line.split(',', 1)
             if len(parts) >= 2:
                 url = parts[1].strip()
                 
+                # 处理 http/https URL
                 if url.startswith(('http://', 'https://')):
                     server = parse_url_to_server(url)
                     if server and ':' in server:
-                        ip_addr = resolve_host_to_ip(server, CONFIG['debug'])
-                        if ip_addr and ':' in ip_addr:
-                            city_servers[current_city].add(ip_addr)
+                        # 直接保存原始格式，不解析域名
+                        city_servers[current_city].add(server)
+                        if CONFIG['debug']:
+                            logger.debug(f"    添加服务器: {server} (来自URL)")
+                
+                # 处理直接是 IP:端口 或 域名:端口 格式
+                elif PATTERNS['ip_with_port'].match(url) or PATTERNS['domain_with_port'].match(url):
+                    city_servers[current_city].add(url)
+                    if CONFIG['debug']:
+                        logger.debug(f"    添加服务器: {url}")
+                
+                # 处理纯IP格式
+                elif PATTERNS['ipv4'].match(url):
+                    server = f"{url}:4022"
+                    city_servers[current_city].add(server)
+                    if CONFIG['debug']:
+                        logger.debug(f"    添加服务器: {server} (补端口)")
     
     return dict(city_servers)
 
 
 def save_servers(city_name, servers, ip_dir="ip"):
+    """
+    保存服务器到文件
+    域名格式：按原样保存
+    IP格式：按原样保存
+    """
     if not servers:
         return 0
     
     os.makedirs(ip_dir, exist_ok=True)
     ip_file = os.path.join(ip_dir, f"{city_name}_ip.txt")
     
+    # 读取现有服务器
     existing_servers = set()
     if os.path.exists(ip_file):
         with open(ip_file, 'r', encoding='utf-8') as f:
@@ -364,18 +393,54 @@ def save_servers(city_name, servers, ip_dir="ip"):
                 if line and not line.startswith('#'):
                     existing_servers.add(line)
     
-    new_servers = servers - existing_servers
+    # 按去重键去重（域名按域名，IP按IP）
+    def get_dedup_key(server):
+        """获取去重键：域名格式保留域名，IP格式保留IP"""
+        return server
+    
+    # 构建现有服务器去重键集合
+    existing_keys = {get_dedup_key(s) for s in existing_servers}
+    
+    # 找出新服务器
+    new_servers = []
+    for server in servers:
+        key = get_dedup_key(server)
+        if key not in existing_keys:
+            existing_keys.add(key)
+            new_servers.append(server)
+    
     added_count = len(new_servers)
     
     if added_count == 0:
         return 0
     
-    all_servers = sorted(existing_servers | servers)
+    # 合并所有服务器
+    all_servers = list(existing_servers) + new_servers
     
+    # 排序（IP按数字排序，域名放在后面）
+    def sort_key(server):
+        if is_domain_format(server):
+            return (2, server)  # 域名放在后面
+        try:
+            ip, port = server.rsplit(':', 1)
+            ip_parts = ip.split('.')
+            if len(ip_parts) == 4:
+                return (0, int(ip_parts[0]), int(ip_parts[1]), int(ip_parts[2]), int(ip_parts[3]), int(port))
+        except:
+            pass
+        return (1, server)
+    
+    all_servers.sort(key=sort_key)
+    
+    # 写入文件（不添加时间戳注释，保持简洁）
     with open(ip_file, 'w', encoding='utf-8') as f:
-        f.write(f"# 自动生成于 {datetime.now().strftime('%Y/%m/%d %H:%M')}\n")
         for server in all_servers:
             f.write(f"{server}\n")
+    
+    if CONFIG['verbose']:
+        domain_count = sum(1 for s in new_servers if is_domain_format(s))
+        ip_count = added_count - domain_count
+        logger.info(f"    {city_name}: +{added_count} (域名:{domain_count}, IP:{ip_count})")
     
     return added_count
 
@@ -411,7 +476,6 @@ def process_network_file(url, filename, content):
     if not city_servers:
         if CONFIG['verbose']:
             logger.warning(f"  未提取到有效服务器")
-        # 记录无新增
         update_processed_record(url, content_md5, filename, 0, 0)
         return 0
     
@@ -463,6 +527,8 @@ def process_network_files():
     
     logger.info("=" * 60)
     logger.info("网络IP提取工具")
+    logger.info("=" * 60)
+    logger.info("域名处理: 保留原始格式，不解析")
     logger.info("=" * 60)
     
     total_added = 0
@@ -556,7 +622,7 @@ def is_already_processed_in_session(url, content_md5, session_md5_cache):
     records = load_processed_records()
     for stored_url, info in records.items():
         if info.get("md5") == content_md5:
-            return True, f"历史记录中已有相同内容"
+            return True, "历史记录中已有相同内容"
     
     # 3. 同一 URL 相同 MD5
     if url in records and records[url].get("md5") == content_md5:
