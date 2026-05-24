@@ -9,6 +9,8 @@ udpxy 播放列表生成工具（带实时验证版）
 4. 支持定制模式和全量模式，支持实时验证和频道过滤
 5. 读取服务器数据时，对域名进行解析，按解析后的IP去重后使用
 6. 支持自动模式（--auto），用于 CI/CD 环境
+7. _ip_good.txt 中的服务器需要验证存在于 precise/quick 中才使用
+8. 统一流程：获取所有优质服务器 -> 验证 -> 补充低速 -> 生成列表
 """
 
 import os
@@ -30,11 +32,10 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 CONFIG = {
     "output_dir_limited": "output/limited",
     "output_dir_all": "output/all",
-    "output_dir_single": "output/single",
-    "default_max_servers": 6,           # 默认目标服务器数量
+    "default_max_servers": 6,           # 默认目标服务器数量（定制版）
     "default_server_sources": ['good', 'precise', 'quick'],
     "save_category": False,
-    "verbose": False,
+    "verbose": True,
     "local_first": True,
     "ip_dir": "ip",
     "template_dir": "template",
@@ -103,6 +104,15 @@ def get_resolved_key(server):
         resolved = resolve_server_to_ip(server)
         return resolved if resolved else server
     return server
+
+
+def extract_main_city_name(filename):
+    """从文件名提取主城市名（去除后缀）"""
+    suffixes = ['_extracted', '_source', '_checked', '_result', '_precise', '_history', '_quick', '_probe']
+    for suffix in suffixes:
+        if filename.endswith(suffix):
+            return filename[:-len(suffix)]
+    return filename
 
 
 # ==================== 城市列表获取 ====================
@@ -266,33 +276,6 @@ def verify_servers(servers: List[str], stream: str, verbose: bool = False,
 
 
 # ==================== 速度解析函数 ====================
-def parse_speed_value(speed_str: str, source_type: str) -> float:
-    if speed_str == "[X]":
-        return 0
-    
-    if source_type == 'quick':
-        match = re.match(r"([\d.]+)([MkB])", speed_str)
-        if match:
-            value = float(match.group(1))
-            unit = match.group(2)
-            if unit == "M":
-                return value * 1024 * 1024
-            elif unit == "k":
-                return value * 1024
-            elif unit == "B":
-                return value
-    else:
-        match = re.match(r"([\d.]+)\s+([KM]B/s)", speed_str)
-        if match:
-            value = float(match.group(1))
-            unit = match.group(2)
-            if unit == "MB/s":
-                return value * 1024 * 1024
-            elif unit == "KB/s":
-                return value * 1024
-    return 0
-
-
 def parse_speed_to_kbps(speed_str: str, mode: str = 'precise') -> float:
     """将速度字符串转换为 KB/s"""
     if speed_str == "[X]":
@@ -321,17 +304,19 @@ def parse_speed_to_kbps(speed_str: str, mode: str = 'precise') -> float:
     return 0
 
 
-# ==================== 智能服务器选择（带域名解析去重） ====================
-def read_qualified_servers(city: str, ip_dir: str = "ip") -> List[Tuple[str, float]]:
+# ==================== 服务器获取函数 ====================
+def get_all_qualified_servers(city: str, ip_dir: str = "ip") -> List[str]:
     """
-    读取达标服务器（精确测试和快速测试）
+    获取所有优质服务器（不限数量）
+    从 _ip_precise.txt 和 _ip_quick.txt 中读取所有服务器
     对域名进行解析，按解析后的IP去重
-    返回 [(原始服务器地址, 速度KB/s), ...] 按速度降序排序
+    返回原始格式的服务器地址列表（按速度排序）
     """
     servers_dict = {}  # 使用解析后的IP作为key，存储 (原始地址, 速度)
+    main_city_name = extract_main_city_name(city)
     
     # 读取精确测试结果
-    precise_file = Path(ip_dir) / f"{city}_ip_precise.txt"
+    precise_file = Path(ip_dir) / f"{main_city_name}_ip_precise.txt"
     if precise_file.exists():
         with open(precise_file, 'r', encoding='utf-8') as f:
             for line in f:
@@ -343,14 +328,12 @@ def read_qualified_servers(city: str, ip_dir: str = "ip") -> List[Tuple[str, flo
                     server = parts[0].strip()
                     speed_str = parts[1].strip()
                     speed_kbps = parse_speed_to_kbps(speed_str, 'precise')
-                    # 解析域名获取去重键
                     resolved_key = get_resolved_key(server)
-                    # 保留速度较高的那个
                     if resolved_key not in servers_dict or servers_dict[resolved_key][1] < speed_kbps:
                         servers_dict[resolved_key] = (server, speed_kbps)
     
     # 读取快速测试结果
-    quick_file = Path(ip_dir) / f"{city}_ip_quick.txt"
+    quick_file = Path(ip_dir) / f"{main_city_name}_ip_quick.txt"
     if quick_file.exists():
         with open(quick_file, 'r', encoding='utf-8') as f:
             for line in f:
@@ -367,28 +350,28 @@ def read_qualified_servers(city: str, ip_dir: str = "ip") -> List[Tuple[str, flo
                         servers_dict[resolved_key] = (server, speed_kbps)
     
     # 转换为列表并按速度降序排序
-    servers = [(original, speed) for original, speed in servers_dict.values()]
-    servers.sort(key=lambda x: x[1], reverse=True)
+    servers = [original for original, _ in sorted(servers_dict.values(), key=lambda x: x[1], reverse=True)]
     
-    if CONFIG['verbose']:
-        domain_count = sum(1 for s, _ in servers if is_domain_format(s))
+    if CONFIG['verbose'] and not CONFIG['auto_mode']:
+        domain_count = sum(1 for s in servers if is_domain_format(s))
         ip_count = len(servers) - domain_count
-        print(f"  达标服务器: {len(servers)} 个 (域名:{domain_count}, IP:{ip_count})")
+        print(f"  所有优质服务器: {len(servers)} 个 (域名:{domain_count}, IP:{ip_count})")
     
     return servers
 
 
-def read_slow_servers(city: str, ip_dir: str = "ip") -> List[Tuple[str, float]]:
+def get_slow_servers_for_city(city: str, ip_dir: str = "ip") -> List[str]:
     """
-    读取 slow 目录下的低速服务器
-    对域名进行解析，按解析后的IP去重
-    返回 [(原始服务器地址, 速度KB/s), ...] 按速度降序排序
+    获取城市的低速服务器列表（用于补充）
+    从 slow 目录下的 _slow.txt 文件读取
+    返回原始格式的服务器地址列表（按速度排序）
     """
     servers_dict = {}
     slow_dir = Path(ip_dir) / "slow"
+    main_city_name = extract_main_city_name(city)
     
     # 读取精确测试低速结果
-    precise_slow_file = slow_dir / f"{city}_ip_precise_slow.txt"
+    precise_slow_file = slow_dir / f"{main_city_name}_ip_precise_slow.txt"
     if precise_slow_file.exists():
         with open(precise_slow_file, 'r', encoding='utf-8') as f:
             for line in f:
@@ -405,7 +388,7 @@ def read_slow_servers(city: str, ip_dir: str = "ip") -> List[Tuple[str, float]]:
                         servers_dict[resolved_key] = (server, speed_kbps)
     
     # 读取快速测试低速结果
-    quick_slow_file = slow_dir / f"{city}_ip_quick_slow.txt"
+    quick_slow_file = slow_dir / f"{main_city_name}_ip_quick_slow.txt"
     if quick_slow_file.exists():
         with open(quick_slow_file, 'r', encoding='utf-8') as f:
             for line in f:
@@ -422,64 +405,48 @@ def read_slow_servers(city: str, ip_dir: str = "ip") -> List[Tuple[str, float]]:
                         servers_dict[resolved_key] = (server, speed_kbps)
     
     # 转换为列表并按速度降序排序
-    servers = [(original, speed) for original, speed in servers_dict.values()]
-    servers.sort(key=lambda x: x[1], reverse=True)
+    servers = [original for original, _ in sorted(servers_dict.values(), key=lambda x: x[1], reverse=True)]
     
-    if CONFIG['verbose']:
-        domain_count = sum(1 for s, _ in servers if is_domain_format(s))
-        ip_count = len(servers) - domain_count
-        print(f"  低速服务器: {len(servers)} 个 (域名:{domain_count}, IP:{ip_count})")
+    if CONFIG['verbose'] and not CONFIG['auto_mode'] and servers:
+        print(f"  低速服务器: {len(servers)} 个可用于补充")
     
     return servers
 
 
-def get_optimal_servers(city: str, ip_dir: str = "ip", 
-                        target_count: int = 3) -> List[str]:
+def prioritize_servers(city: str, servers: List[str]) -> List[str]:
     """
-    获取最优服务器列表（智能补充策略）
-    目标：至少 target_count 个服务器
-    对域名进行解析，按解析后的IP去重
-    返回原始格式的服务器地址列表
-    
-    优先级：
-    1. 达标服务器（精确测试 > 快速测试）
-    2. 低速服务器（精确低速 > 快速低速）
+    对服务器列表按优先级重新排序
+    优先级：good服务器 > 其他服务器（保持原顺序）
     """
-    # 1. 读取达标服务器（已按解析后IP去重）
-    qualified_servers = read_qualified_servers(city, ip_dir)
-    qualified_count = len(qualified_servers)
+    # 读取 good 服务器列表
+    good_file = Path(CONFIG["ip_dir"]) / f"{city}_ip_good.txt"
+    good_servers_set = set()
+    if good_file.exists():
+        with open(good_file, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith('#'):
+                    continue
+                if line.startswith('http://'):
+                    line = line[7:]
+                if line.startswith('https://'):
+                    line = line[8:]
+                if ':' in line:
+                    resolved_key = get_resolved_key(line)
+                    good_servers_set.add(resolved_key)
     
-    # 2. 读取低速服务器（已按解析后IP去重）
-    slow_servers = read_slow_servers(city, ip_dir)
+    # 分离 good 服务器和普通服务器
+    good_servers = []
+    normal_servers = []
+    for server in servers:
+        resolved_key = get_resolved_key(server)
+        if resolved_key in good_servers_set:
+            good_servers.append(server)
+        else:
+            normal_servers.append(server)
     
-    if CONFIG['verbose']:
-        print(f"  服务器统计: 达标 {qualified_count} 个, 低速 {len(slow_servers)} 个")
-    
-    # 3. 计算需要补充的数量
-    if qualified_count >= target_count:
-        result = [server for server, _ in qualified_servers[:target_count]]
-        if CONFIG['verbose']:
-            print(f"  达标服务器充足，使用 {len(result)} 个")
-        return result
-    
-    need_count = target_count - qualified_count
-    supplement_count = min(need_count, len(slow_servers))
-    
-    # 4. 构建结果列表
-    result = [server for server, _ in qualified_servers]
-    
-    if supplement_count > 0:
-        supplement_servers = [server for server, _ in slow_servers[:supplement_count]]
-        result.extend(supplement_servers)
-        if CONFIG['verbose']:
-            print(f"  补充策略: 达标 {qualified_count} 个，补充 {supplement_count} 个低速")
-    else:
-        if CONFIG['verbose'] and qualified_count > 0:
-            print(f"  补充策略: 达标 {qualified_count} 个，无低速可用")
-        elif CONFIG['verbose'] and qualified_count == 0:
-            print(f"  ⚠ 警告: 无任何可用服务器")
-    
-    return result
+    # good 服务器在前，普通服务器在后
+    return good_servers + normal_servers
 
 
 # ==================== 频道分类相关 ====================
@@ -641,16 +608,56 @@ def get_city_exclusion(city_name: str) -> Tuple[Set[str], bool, Set[str]]:
     return set(), True, set()
 
 
+def extract_city_name_from_city(city: str) -> str:
+    """从城市名中提取城市名称（去除运营商后缀）"""
+    city_clean = city
+    for op in ["电信", "移动", "联通"]:
+        if city_clean.endswith(op):
+            city_clean = city_clean[:-len(op)]
+            break
+    return city_clean
+
+
+def is_local_satellite(channel_name: str, city: str) -> bool:
+    """判断频道是否为当前城市的卫视频道"""
+    city_clean = extract_city_name_from_city(city)
+    
+    # 匹配卫视名称
+    pattern = re.compile(r'^([\u4e00-\u9fa5]{2,3})卫视')
+    match = pattern.match(channel_name)
+    
+    if match:
+        channel_city = match.group(1)
+        # 直接匹配
+        if channel_city == city_clean:
+            return True
+        # 特殊映射
+        special = {
+            "上海": ["东方"],
+            "广东": ["大湾区"],
+            "内蒙古": ["内蒙古"],
+            "黑龙江": ["黑龙江"],
+        }
+        if city_clean in special and channel_city in special[city_clean]:
+            return True
+        if channel_city in special and city_clean == special[channel_city][0]:
+            return True
+    
+    return False
+
+
 def classify_channels(channels: List[Dict], city: str, channel_index: Dict,
                       region_index: Dict, local_first: bool,
                       exclude_prefixes: Set[str], keep_unmatched: bool, keep_keywords: Set[str],
                       name_style: str = "full") -> Tuple[List, List, List, List, List]:
+    """分类频道，本城市卫视不受排除规则影响"""
     local_satellite = []
     local_other = []
     categorized = []
     region_based = []
     unmatched = []
     excluded_count = 0
+    kept_local_satellite_count = 0
 
     for channel in channels:
         channel_name = channel["name"]
@@ -658,12 +665,20 @@ def classify_channels(channels: List[Dict], city: str, channel_index: Dict,
 
         if info:
             idx = info["index"]
-            excluded = False
+            # 检查是否需要排除
+            should_exclude = False
             for prefix in exclude_prefixes:
                 if idx.startswith(prefix):
-                    excluded = True
-                    break
-            if excluded:
+                    # 检查是否为本城市卫视频道
+                    if is_local_satellite(channel_name, city):
+                        kept_local_satellite_count += 1
+                        should_exclude = False
+                        break
+                    else:
+                        should_exclude = True
+                        break
+            
+            if should_exclude:
                 excluded_count += 1
                 continue
 
@@ -700,7 +715,7 @@ def classify_channels(channels: List[Dict], city: str, channel_index: Dict,
                 excluded_count += 1
 
     if excluded_count > 0 and CONFIG['verbose']:
-        print(f"  共排除 {excluded_count} 个频道")
+        print(f"  共排除 {excluded_count} 个频道（保留 {kept_local_satellite_count} 个本城市卫视）")
 
     local_satellite.sort(key=lambda x: natural_sort_key(x["name"]))
     local_other.sort(key=lambda x: natural_sort_key(x["name"]))
@@ -711,6 +726,7 @@ def classify_channels(channels: List[Dict], city: str, channel_index: Dict,
     return local_satellite, local_other, categorized, region_based, unmatched
 
 
+# ==================== 核心生成函数 ====================
 def generate_playlist_for_city(city: str, channel_index: Dict, region_index: Dict,
                                local_first: bool, output_dir: str, max_servers: int = None,
                                use_all_ips: bool = False,
@@ -720,7 +736,12 @@ def generate_playlist_for_city(city: str, channel_index: Dict, region_index: Dic
                                auto_mode: bool = False) -> Tuple[bool, int]:
     """
     生成单个城市的播放列表
-    使用智能服务器选择策略，确保至少有 max_servers 个服务器
+    
+    统一流程：
+    1. 获取所有优质服务器
+    2. 验证所有优质服务器（可选）
+    3. 如果优质服务器不足，从低速服务器补充
+    4. 根据模式使用验证结果
     """
     # 获取城市配置，获取组播地址用于验证
     stream = None
@@ -737,28 +758,86 @@ def generate_playlist_for_city(city: str, channel_index: Dict, region_index: Dic
         except Exception:
             pass
     
-    # 目标服务器数量
+    # ==================== 第一步：获取所有优质服务器 ====================
+    all_servers = get_all_qualified_servers(city, CONFIG["ip_dir"])
+    
+    if CONFIG['verbose'] and not auto_mode:
+        print(f"  获取到 {len(all_servers)} 个优质服务器")
+    
+    # ==================== 第二步：验证所有优质服务器 ====================
+    valid_servers = []
+    if verify and stream and all_servers:
+        if CONFIG['verbose'] and not auto_mode:
+            print(f"  正在验证 {len(all_servers)} 个优质服务器...")
+        
+        for server in all_servers:
+            if verify_server(server, stream, CONFIG["verify_timeout"]):
+                valid_servers.append(server)
+                if CONFIG['verbose'] and not auto_mode:
+                    print(f"    ✓ {server} 验证通过 ({len(valid_servers)}/{len(all_servers)})")
+            else:
+                if CONFIG['verbose'] and not auto_mode:
+                    print(f"    ✗ {server} 验证失败")
+        
+        if CONFIG['verbose'] and not auto_mode:
+            print(f"  优质服务器验证通过 {len(valid_servers)}/{len(all_servers)} 个")
+    else:
+        # 不验证，全部视为有效
+        valid_servers = all_servers
+        if CONFIG['verbose'] and not auto_mode:
+            print(f"  跳过验证，使用全部 {len(valid_servers)} 个优质服务器")
+    
+    # ==================== 第三步：如果优质服务器不足，从低速服务器补充 ====================
     target_count = max_servers if max_servers and max_servers > 0 else CONFIG["default_max_servers"]
     
-    # 智能获取最优服务器（返回原始格式）
-    optimal_servers = get_optimal_servers(city, CONFIG["ip_dir"], target_count)
+    if not use_all_ips and len(valid_servers) < target_count:
+        # 定制版且优质服务器不足，从低速服务器补充
+        slow_servers = get_slow_servers_for_city(city, CONFIG["ip_dir"])
+        
+        if slow_servers:
+            if CONFIG['verbose'] and not auto_mode:
+                print(f"  优质服务器不足 ({len(valid_servers)}/{target_count})，尝试补充低速服务器...")
+            
+            # 验证低速服务器
+            valid_slow = []
+            if verify and stream:
+                for server in slow_servers:
+                    if len(valid_servers) + len(valid_slow) >= target_count:
+                        break
+                    if verify_server(server, stream, CONFIG["verify_timeout"]):
+                        valid_slow.append(server)
+                        if CONFIG['verbose'] and not auto_mode:
+                            print(f"    ✓ {server} 验证通过 (低速补充)")
+                    else:
+                        if CONFIG['verbose'] and not auto_mode:
+                            print(f"    ✗ {server} 验证失败")
+            else:
+                valid_slow = slow_servers[:target_count - len(valid_servers)]
+            
+            # 合并服务器
+            original_count = len(valid_servers)
+            valid_servers.extend(valid_slow)
+            if CONFIG['verbose'] and not auto_mode and valid_slow:
+                print(f"  补充低速服务器 {len(valid_slow)} 个，总计 {len(valid_servers)}/{target_count} 个")
     
-    if not optimal_servers:
-        if CONFIG['verbose']:
+    if not valid_servers:
+        if CONFIG['verbose'] and not auto_mode:
             print(f"  {city}: 没有可用的服务器")
         return False, 0
     
-    # 实时验证服务器可用性（直接使用原始格式）
-    if verify and stream:
-        valid_ips = verify_servers(optimal_servers, stream, CONFIG['verbose'], target_count)
-        if not valid_ips:
-            if CONFIG['verbose']:
-                print(f"  {city}: 验证后无可用服务器")
-            return False, 0
-        top_ips = valid_ips
+    # ==================== 第四步：根据模式使用验证结果 ====================
+    if use_all_ips:
+        # 完整版：使用全部服务器（优质 + 低速补充）
+        top_ips = valid_servers
+        if CONFIG['verbose'] and not auto_mode:
+            print(f"  完整版: 使用全部 {len(top_ips)} 个服务器")
     else:
-        top_ips = optimal_servers[:target_count]
+        # 定制版：取前 target_count 个（按优先级排序）
+        top_ips = prioritize_servers(city, valid_servers)[:target_count]
+        if CONFIG['verbose'] and not auto_mode:
+            print(f"  定制版: 使用前 {len(top_ips)}/{len(valid_servers)} 个服务器（目标 {target_count}）")
     
+    # ==================== 第五步：生成播放列表 ====================
     template_file = os.path.join(CONFIG["template_dir"], f"template_{city}.txt")
     if not os.path.exists(template_file):
         return False, 0
@@ -769,13 +848,13 @@ def generate_playlist_for_city(city: str, channel_index: Dict, region_index: Dic
 
     if skip_excluded:
         exclude_prefixes, keep_unmatched, keep_keywords = get_city_exclusion(city)
-        if CONFIG['verbose'] and (exclude_prefixes or (not keep_unmatched and keep_keywords)):
+        if CONFIG['verbose'] and not auto_mode and (exclude_prefixes or (not keep_unmatched and keep_keywords)):
             print(f"  {city}: 排除索引前缀 {exclude_prefixes if exclude_prefixes else '无'}")
     else:
         exclude_prefixes = set()
         keep_unmatched = True
         keep_keywords = set()
-        if CONFIG['verbose']:
+        if CONFIG['verbose'] and not auto_mode:
             print(f"  {city}: 全量模式，使用全部频道")
 
     local_satellite, local_other, categorized, region_based, unmatched = classify_channels(
@@ -811,8 +890,8 @@ def generate_playlist_for_city(city: str, channel_index: Dict, region_index: Dic
     with open(os.path.join(output_dir, f"{city}.txt"), "w", encoding="utf-8") as f:
         f.write("\n".join(output_lines))
     
-    if CONFIG['verbose']:
-        print(f"  {city}: 使用 {len(top_ips)} 个服务器")
+    if CONFIG['verbose'] and not auto_mode:
+        print(f"  {city}: 最终输出 {len(top_ips)} 个服务器")
     
     return True, len(top_ips)
 
@@ -866,7 +945,8 @@ def generate_all_playlists(max_servers: int, local_first: bool,
         print(f"排序模式: {sort_mode_name}")
         print(f"服务器源: {', '.join(source_names)}")
         print(f"实时验证: {'启用' if verify else '禁用'}")
-        print(f"目标服务器数: {max_servers}")
+        print(f"定制版服务器数: {max_servers}")
+        print(f"完整版服务器数: 全部优质服务器")
     
     # 从 template 目录获取城市列表
     all_cities = get_cities_from_template_dir()
@@ -902,7 +982,8 @@ def generate_all_playlists(max_servers: int, local_first: bool,
         success, server_count = generate_playlist_for_city(
             city, channel_index, region_index, local_first,
             CONFIG["output_dir_limited"], max_servers,
-            use_all_ips=False, name_style=name_style, skip_excluded=True,
+            use_all_ips=False,  # 定制版：限制数量
+            name_style=name_style, skip_excluded=True,
             server_sources=server_sources, verify=verify, auto_mode=auto_mode
         )
         if success:
@@ -917,7 +998,7 @@ def generate_all_playlists(max_servers: int, local_first: bool,
     # ==================== 模式2: 全量模式 ====================
     if not auto_mode:
         print("\n" + "=" * 60)
-        print(f"模式2: 全量模式 (使用全部有效IP, 不跳过任何频道)")
+        print(f"模式2: 全量模式 (使用全部优质IP, 不跳过任何频道)")
         print("=" * 60)
     
     success_count = 0
@@ -926,8 +1007,9 @@ def generate_all_playlists(max_servers: int, local_first: bool,
             print(f"  [{idx}/{len(cities)}] 处理 {city}...", end=" ", flush=True)
         success, server_count = generate_playlist_for_city(
             city, channel_index, region_index, local_first,
-            CONFIG["output_dir_all"], max_servers,
-            use_all_ips=True, name_style=name_style, skip_excluded=False,
+            CONFIG["output_dir_all"], None,  # max_servers 传 None
+            use_all_ips=True,  # 完整版：使用所有服务器
+            name_style=name_style, skip_excluded=False,
             server_sources=server_sources, verify=verify, auto_mode=auto_mode
         )
         if success:
@@ -1088,11 +1170,15 @@ def main():
     print(f"服务器源: {', '.join(source_names)}")
     print("=" * 60)
 
-    cities = get_cities_from_template_dir()
+    # 获取并排序城市列表（统一使用排序后的列表）
+    raw_cities = get_cities_from_template_dir()
     
-    if not cities:
+    if not raw_cities:
         print("错误：未找到任何模板文件，请检查 template 目录下的 template_*.txt 文件")
-        return   
+        return
+    
+    # 统一排序
+    cities = sort_cities(raw_cities, sort_mode)
     
     # 自动模式：处理全部城市
     if auto_mode or args.all:
@@ -1102,25 +1188,53 @@ def main():
                                server_sources=args.server_sources, verify=verify, auto_mode=auto_mode)
         return
 
+    # 指定城市编号 - 同时生成定制版和完整版
     if args.city is not None:
         if 1 <= args.city <= len(cities):
             city_name = cities[args.city - 1]
             print(f"\n处理城市: {city_name}")
             channel_index = load_category_index()
             region_index = load_region_code()
-            success, _ = generate_playlist_for_city(city_name, channel_index, region_index, local_first,
-                                                    CONFIG["output_dir_single"], args.num,
-                                                    use_all_ips=False, name_style=name_style, skip_excluded=True,
-                                                    server_sources=args.server_sources, verify=verify, auto_mode=auto_mode)
-            if success:
-                print(f"✅ {city_name} 播放列表生成完成！")
+            
+            # 生成定制版（跳过排除频道，限制服务器数量）
+            if not auto_mode:
+                print(f"\n  生成定制版...")
+            success1, server_count1 = generate_playlist_for_city(
+                city_name, channel_index, region_index, local_first,
+                CONFIG["output_dir_limited"], args.num,
+                use_all_ips=False,
+                name_style=name_style, skip_excluded=True,
+                server_sources=args.server_sources, verify=verify, auto_mode=auto_mode
+            )
+            
+            # 生成完整版（不跳过任何频道，使用全部优质服务器）
+            if not auto_mode:
+                print(f"\n  生成完整版...")
+            success2, server_count2 = generate_playlist_for_city(
+                city_name, channel_index, region_index, local_first,
+                CONFIG["output_dir_all"], None,
+                use_all_ips=True,
+                name_style=name_style, skip_excluded=False,
+                server_sources=args.server_sources, verify=verify, auto_mode=auto_mode
+            )
+            
+            if success1 and success2:
+                print(f"\n✅ {city_name} 播放列表生成完成！")
+                if not auto_mode:
+                    print(f"  定制版: {CONFIG['output_dir_limited']}/{city_name}.txt ({server_count1}个IP)")
+                    print(f"  完整版: {CONFIG['output_dir_all']}/{city_name}.txt ({server_count2}个IP)")
+            elif success1:
+                print(f"\n⚠ {city_name} 定制版生成成功，完整版失败")
+            elif success2:
+                print(f"\n⚠ {city_name} 完整版生成成功，定制版失败")
             else:
-                print(f"❌ {city_name} 播放列表生成失败")
+                print(f"\n❌ {city_name} 播放列表生成失败")
         else:
             print(f"错误：无效的城市编号 {args.city}")
             print(f"请输入 1-{len(cities)} 之间的数字")
         return
 
+    # 交互模式：显示城市列表
     print("\n可用的城市列表:")
     print(print_city_list(sort_mode))
     print()
@@ -1143,14 +1257,37 @@ def main():
                     print(f"\n处理城市: {city_name}")
                     channel_index = load_category_index()
                     region_index = load_region_code()
-                    success, _ = generate_playlist_for_city(city_name, channel_index, region_index, local_first,
-                                                            CONFIG["output_dir_single"], args.num,
-                                                            use_all_ips=False, name_style=name_style, skip_excluded=True,
-                                                            server_sources=args.server_sources, verify=verify, auto_mode=auto_mode)
-                    if success:
-                        print(f"✅ {city_name} 播放列表生成完成！")
+                    
+                    # 生成定制版
+                    print(f"\n  生成定制版...")
+                    success1, server_count1 = generate_playlist_for_city(
+                        city_name, channel_index, region_index, local_first,
+                        CONFIG["output_dir_limited"], args.num,
+                        use_all_ips=False,
+                        name_style=name_style, skip_excluded=True,
+                        server_sources=args.server_sources, verify=verify, auto_mode=auto_mode
+                    )
+                    
+                    # 生成完整版
+                    print(f"\n  生成完整版...")
+                    success2, server_count2 = generate_playlist_for_city(
+                        city_name, channel_index, region_index, local_first,
+                        CONFIG["output_dir_all"], None,
+                        use_all_ips=True,
+                        name_style=name_style, skip_excluded=False,
+                        server_sources=args.server_sources, verify=verify, auto_mode=auto_mode
+                    )
+                    
+                    if success1 and success2:
+                        print(f"\n✅ {city_name} 播放列表生成完成！")
+                        print(f"  定制版: {CONFIG['output_dir_limited']}/{city_name}.txt ({server_count1}个IP)")
+                        print(f"  完整版: {CONFIG['output_dir_all']}/{city_name}.txt ({server_count2}个IP)")
+                    elif success1:
+                        print(f"\n⚠ {city_name} 定制版生成成功，完整版失败")
+                    elif success2:
+                        print(f"\n⚠ {city_name} 完整版生成成功，定制版失败")
                     else:
-                        print(f"❌ {city_name} 播放列表生成失败")
+                        print(f"\n❌ {city_name} 播放列表生成失败")
                     
                     print()
                     continue_choice = input("是否继续处理其他城市？(y/N): ").strip().lower()
