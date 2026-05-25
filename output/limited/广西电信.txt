@@ -16,6 +16,8 @@
 
 CHC动作电影,http://www.vvlcc.cn:8188/rtp/239.81.0.239:4056
 CHC家庭影院,http://www.vvlcc.cn:8188/rtp/239.81.0.238:4056
+CHC影迷电影,http://www.vvlcc.cn:8188/rtp/239.81.0.240:4056
+华数爱上4K电影,http://www.vvlcc.cn:8188/udp/239.81.0.123:4056
 华数精彩影视,http://www.vvlcc.cn:8188/rtp/239.81.0.152:4056
 北京纪实科教,http://www.vvlcc.cn:8188/rtp/239.81.0.195:4056
 北京卡酷少儿,http://www.vvlcc.cn:8188/udp/239.81.0.62:4056
@@ -26,6 +28,9 @@ CHC家庭影院,http://www.vvlcc.cn:8188/rtp/239.81.0.238:4056
 广东嘉佳卡通,http://www.vvlcc.cn:8188/udp/239.81.0.64:4056
 中国天气,http://www.vvlcc.cn:8188/rtp/239.81.0.63:4056
 求索记录,http://www.vvlcc.cn:8188/rtp/239.81.0.153:4056
+IPTV12,http://www.vvlcc.cn:8188/udp/239.81.0.124:4056
+IPTV5体育,http://www.vvlcc.cn:8188/udp/239.81.0.12:4056
+IPTV6电影,http://www.vvlcc.cn:8188/udp/239.81.0.100:4056
 
 南宁公共,http://www.vvlcc.cn:8188/rtp/239.81.0.141:4056
 南宁公共频道,http://www.vvlcc.cn:8188/udp/239.81.0.129:4056
@@ -55,11 +60,6 @@ CHC家庭影院,http://www.vvlcc.cn:8188/rtp/239.81.0.238:4056
 来宾综合,http://www.vvlcc.cn:8188/rtp/239.81.0.173:4056
 崇左综合,http://www.vvlcc.cn:8188/rtp/239.81.0.218:4056
 
-CHC影迷电影,http://www.vvlcc.cn:8188/rtp/239.81.0.240:4056
-IPTV5体育,http://www.vvlcc.cn:8188/udp/239.81.0.12:4056
-IPTV6电影,http://www.vvlcc.cn:8188/udp/239.81.0.100:4056
-IPTV12,http://www.vvlcc.cn:8188/udp/239.81.0.124:4056
-华数爱上4K,http://www.vvlcc.cn:8188/udp/239.81.0.123:4056
 新动漫,http://www.vvlcc.cn:8188/udp/239.81.0.235:4056
 未知节目1,http://www.vvlcc.cn:8188/rtp/239.81.0.189:4056
 未知节目1,http://www.vvlcc.cn:8188/rtp/239.81.0.194:4056

@@ -31,11 +31,12 @@ CCTV-13新闻,http://www.vvlcc.cn:8188/udp/239.81.0.206:4056
 CCTV-14少儿,http://www.vvlcc.cn:8188/udp/239.81.0.120:4056
 CCTV-15音乐,http://www.vvlcc.cn:8188/udp/239.81.0.230:4056
 CCTV-17农业农村,http://www.vvlcc.cn:8188/udp/239.81.0.228:4056
-CCTV4KSDR,http://www.vvlcc.cn:8188/rtp/239.81.0.196:4056
-CCTV16SDR,http://www.vvlcc.cn:8188/rtp/239.81.0.142:4056
-CCTV16SDR,http://www.vvlcc.cn:8188/rtp/239.81.0.144:4056
+CCTV4K超高清,http://www.vvlcc.cn:8188/rtp/239.81.0.196:4056
+CCTV16超高清,http://www.vvlcc.cn:8188/rtp/239.81.0.142:4056
+CCTV16超高清,http://www.vvlcc.cn:8188/rtp/239.81.0.144:4056
 CHC动作电影,http://www.vvlcc.cn:8188/rtp/239.81.0.239:4056
 CHC家庭影院,http://www.vvlcc.cn:8188/rtp/239.81.0.238:4056
+CHC影迷电影,http://www.vvlcc.cn:8188/rtp/239.81.0.240:4056
 CGTN英语,http://www.vvlcc.cn:8188/udp/239.81.0.28:4056
 CETV1,http://www.vvlcc.cn:8188/udp/239.81.0.92:4056
 CETV2,http://www.vvlcc.cn:8188/udp/239.81.0.245:4056
@@ -94,6 +95,7 @@ CETV4,http://www.vvlcc.cn:8188/rtp/239.81.0.188:4056
 四川卫视4K,http://www.vvlcc.cn:8188/udp/239.81.0.80:4056
 深圳卫视4K,http://www.vvlcc.cn:8188/rtp/239.81.0.254:4056
 东方卫视4K,http://www.vvlcc.cn:8188/udp/239.81.0.76:4056
+华数爱上4K电影,http://www.vvlcc.cn:8188/udp/239.81.0.123:4056
 华数精彩影视,http://www.vvlcc.cn:8188/rtp/239.81.0.152:4056
 北京纪实科教,http://www.vvlcc.cn:8188/rtp/239.81.0.195:4056
 北京卡酷少儿,http://www.vvlcc.cn:8188/udp/239.81.0.62:4056
@@ -104,6 +106,9 @@ CETV4,http://www.vvlcc.cn:8188/rtp/239.81.0.188:4056
 广东嘉佳卡通,http://www.vvlcc.cn:8188/udp/239.81.0.64:4056
 中国天气,http://www.vvlcc.cn:8188/rtp/239.81.0.63:4056
 求索记录,http://www.vvlcc.cn:8188/rtp/239.81.0.153:4056
+IPTV12,http://www.vvlcc.cn:8188/udp/239.81.0.124:4056
+IPTV5体育,http://www.vvlcc.cn:8188/udp/239.81.0.12:4056
+IPTV6电影,http://www.vvlcc.cn:8188/udp/239.81.0.100:4056
 
 南宁公共,http://www.vvlcc.cn:8188/rtp/239.81.0.141:4056
 南宁公共频道,http://www.vvlcc.cn:8188/udp/239.81.0.129:4056
@@ -133,11 +138,6 @@ CETV4,http://www.vvlcc.cn:8188/rtp/239.81.0.188:4056
 来宾综合,http://www.vvlcc.cn:8188/rtp/239.81.0.173:4056
 崇左综合,http://www.vvlcc.cn:8188/rtp/239.81.0.218:4056
 
-CHC影迷电影,http://www.vvlcc.cn:8188/rtp/239.81.0.240:4056
-IPTV5体育,http://www.vvlcc.cn:8188/udp/239.81.0.12:4056
-IPTV6电影,http://www.vvlcc.cn:8188/udp/239.81.0.100:4056
-IPTV12,http://www.vvlcc.cn:8188/udp/239.81.0.124:4056
-华数爱上4K,http://www.vvlcc.cn:8188/udp/239.81.0.123:4056
 新动漫,http://www.vvlcc.cn:8188/udp/239.81.0.235:4056
 未知节目1,http://www.vvlcc.cn:8188/rtp/239.81.0.189:4056
 未知节目1,http://www.vvlcc.cn:8188/rtp/239.81.0.194:4056

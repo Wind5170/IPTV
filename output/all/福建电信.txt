@@ -29,6 +29,7 @@ CCTV-16奥林匹克,http://remote.jackye.site:8000/rtp/239.61.4.135:1025
 CCTV-17农业农村,http://remote.jackye.site:8000/rtp/239.61.3.9:9572
 CHC动作电影,http://remote.jackye.site:8000/rtp/239.61.3.16:9616
 CGTN英语,http://remote.jackye.site:8000/rtp/239.61.2.19:8108
+CGTN纪录,http://remote.jackye.site:8000/rtp/239.61.3.43:9776
 CGTN法语,http://remote.jackye.site:8000/rtp/239.61.3.44:9782
 CGTN俄语,http://remote.jackye.site:8000/rtp/239.61.3.45:9788
 CETV1,http://remote.jackye.site:8000/rtp/239.61.2.167:8990
@@ -90,6 +91,7 @@ CETV4,http://remote.jackye.site:8000/rtp/239.61.3.15:9608
 上海纪实人文,http://remote.jackye.site:8000/rtp/239.61.2.165:8978
 广东嘉佳卡通,http://remote.jackye.site:8000/rtp/239.61.2.72:8426
 中国天气,http://remote.jackye.site:8000/rtp/239.61.2.64:8378
+爱上4K,http://remote.jackye.site:8000/rtp/239.61.5.164:1025
 
 福州新闻,http://remote.jackye.site:8000/rtp/239.61.5.97:1025
 厦门1,http://remote.jackye.site:8000/rtp/239.61.4.139:1025
@@ -102,10 +104,8 @@ CETV4,http://remote.jackye.site:8000/rtp/239.61.3.15:9608
 龙岩新闻,http://remote.jackye.site:8000/rtp/239.61.5.95:1025
 宁德新闻,http://remote.jackye.site:8000/rtp/239.61.5.96:1025
 
-CGTN纪录,http://remote.jackye.site:8000/rtp/239.61.3.43:9776
 平潭新闻,http://remote.jackye.site:8000/rtp/239.61.5.117:1025
 海峡卫视,http://remote.jackye.site:8000/rtp/239.61.2.151:8894
-爱上4K,http://remote.jackye.site:8000/rtp/239.61.5.164:1025
 百视4K,http://remote.jackye.site:8000/rtp/239.61.4.129:1025
 
 福建电信-组播2,#genre#
@@ -139,6 +139,7 @@ CCTV-16奥林匹克,http://woc.iiiya.cn:18888/rtp/239.61.4.135:1025
 CCTV-17农业农村,http://woc.iiiya.cn:18888/rtp/239.61.3.9:9572
 CHC动作电影,http://woc.iiiya.cn:18888/rtp/239.61.3.16:9616
 CGTN英语,http://woc.iiiya.cn:18888/rtp/239.61.2.19:8108
+CGTN纪录,http://woc.iiiya.cn:18888/rtp/239.61.3.43:9776
 CGTN法语,http://woc.iiiya.cn:18888/rtp/239.61.3.44:9782
 CGTN俄语,http://woc.iiiya.cn:18888/rtp/239.61.3.45:9788
 CETV1,http://woc.iiiya.cn:18888/rtp/239.61.2.167:8990
@@ -200,6 +201,7 @@ CETV4,http://woc.iiiya.cn:18888/rtp/239.61.3.15:9608
 上海纪实人文,http://woc.iiiya.cn:18888/rtp/239.61.2.165:8978
 广东嘉佳卡通,http://woc.iiiya.cn:18888/rtp/239.61.2.72:8426
 中国天气,http://woc.iiiya.cn:18888/rtp/239.61.2.64:8378
+爱上4K,http://woc.iiiya.cn:18888/rtp/239.61.5.164:1025
 
 福州新闻,http://woc.iiiya.cn:18888/rtp/239.61.5.97:1025
 厦门1,http://woc.iiiya.cn:18888/rtp/239.61.4.139:1025
@@ -212,8 +214,6 @@ CETV4,http://woc.iiiya.cn:18888/rtp/239.61.3.15:9608
 龙岩新闻,http://woc.iiiya.cn:18888/rtp/239.61.5.95:1025
 宁德新闻,http://woc.iiiya.cn:18888/rtp/239.61.5.96:1025
 
-CGTN纪录,http://woc.iiiya.cn:18888/rtp/239.61.3.43:9776
 平潭新闻,http://woc.iiiya.cn:18888/rtp/239.61.5.117:1025
 海峡卫视,http://woc.iiiya.cn:18888/rtp/239.61.2.151:8894
-爱上4K,http://woc.iiiya.cn:18888/rtp/239.61.5.164:1025
 百视4K,http://woc.iiiya.cn:18888/rtp/239.61.4.129:1025

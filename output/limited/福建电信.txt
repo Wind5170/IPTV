@@ -23,6 +23,7 @@ CHC动作电影,http://remote.jackye.site:8000/rtp/239.61.3.16:9616
 上海纪实人文,http://remote.jackye.site:8000/rtp/239.61.2.165:8978
 广东嘉佳卡通,http://remote.jackye.site:8000/rtp/239.61.2.72:8426
 中国天气,http://remote.jackye.site:8000/rtp/239.61.2.64:8378
+爱上4K,http://remote.jackye.site:8000/rtp/239.61.5.164:1025
 
 福州新闻,http://remote.jackye.site:8000/rtp/239.61.5.97:1025
 厦门1,http://remote.jackye.site:8000/rtp/239.61.4.139:1025
@@ -62,6 +63,7 @@ CHC动作电影,http://woc.iiiya.cn:18888/rtp/239.61.3.16:9616
 上海纪实人文,http://woc.iiiya.cn:18888/rtp/239.61.2.165:8978
 广东嘉佳卡通,http://woc.iiiya.cn:18888/rtp/239.61.2.72:8426
 中国天气,http://woc.iiiya.cn:18888/rtp/239.61.2.64:8378
+爱上4K,http://woc.iiiya.cn:18888/rtp/239.61.5.164:1025
 
 福州新闻,http://woc.iiiya.cn:18888/rtp/239.61.5.97:1025
 厦门1,http://woc.iiiya.cn:18888/rtp/239.61.4.139:1025
