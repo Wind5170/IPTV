@@ -11,6 +11,7 @@ udpxy 播放列表生成工具（带实时验证版）
 6. 支持自动模式（--auto），用于 CI/CD 环境
 7. _ip_good.txt 中的服务器需要验证存在于 precise/quick 中才使用
 8. 统一流程：获取所有优质服务器 -> 验证 -> 补充低速 -> 生成列表
+9. 支持关键字索引匹配（IPTV、百事通、广播等）
 """
 
 import os
@@ -35,7 +36,7 @@ CONFIG = {
     "default_max_servers": 6,           # 默认目标服务器数量（定制版）
     "default_server_sources": ['good', 'precise', 'quick'],
     "save_category": False,
-    "verbose": True,
+    "verbose": False,
     "local_first": True,
     "ip_dir": "ip",
     "template_dir": "template",
@@ -44,7 +45,7 @@ CONFIG = {
     "verify_timeout": 3,
     "verify_workers": 20,
     "verify_retry": 1,
-    "verify": False,                      # 默认启用实时验证
+    "verify": True,                      # 默认启用实时验证
     "auto_mode": False,                  # 默认非自动模式
     
     # ==================== 频道过滤规则开关 ====================
@@ -56,13 +57,13 @@ CONFIG = {
     "enable_city_sort": True,            # 是否启用城市排序（按省份+运营商排序）
     "enable_channel_natural_sort": True, # 是否启用频道自然排序（数字排序）
     "local_satellite_top": True,         # 本地卫视是否置顶（排在本地其他频道之前）
-    "local_other_top": True,            # 本地其他频道是否置顶（排在已分类频道之前）
+    "local_other_top": True,             # 本地其他频道是否置顶（排在已分类频道之前）
     "protect_local_satellite": True,     # 是否保护本城市卫视（不被排除规则影响）
-
+    
     # ==================== 本地卫视名称映射 ====================
     "local_satellite_names": {
-        "上海": ["上海卫视", "东方卫视"],   # 上海卫视在前，东方卫视在后
-        "广东": ["广东卫视", "大湾区卫视"], # 广东卫视在前，大湾区卫视在后
+        "上海": ["上海卫视", "东方卫视"],
+        "广东": ["广东卫视", "大湾区卫视"],
         # 其他城市使用默认规则：{城市名}卫视
     },
 }
@@ -70,11 +71,17 @@ CONFIG = {
 QUALITY_SUFFIXES = ['HD', '-HD', 'hd', '-hd', '高清', '-高清', 'H264', 'H265', 'HEVC']
 
 # ==================== 省份排序顺序 ====================
+# 第一行：有华数、iHOT、BesTV、迷视界等频道的城市，流畅
+# 第二行：流畅
+# 第三行：有华数、iHOT、BesTV、迷视界等频道的城市，不够流畅
+# 第四行：不够流畅
+# 第五航：暂无频道
 REGIONS = [
-    "安徽", "北京", "重庆", "福建", "甘肃", "广东", "广西", "贵州", "海南", "河北",
-    "河南", "黑龙江", "湖北", "湖南", "吉林", "江苏", "江西", "辽宁", "内蒙古", "宁夏",
-    "青海", "山东", "山西", "陕西", "上海", "四川", "天津", "西藏", "新疆", "云南",
-    "浙江", "台湾", "香港", "澳门"
+    "四川", "北京", "浙江", "重庆", "上海", "河北", "广东", "安徽", 
+    "江苏", "贵州", "福建", "甘肃", "广西", "海南",
+    "湖北", "湖南", "吉林", "江西", "辽宁", "内蒙古", "宁夏",
+    "河南", "黑龙江", "青海", "山东", "山西", "陕西", "天津", "云南",
+    "西藏", "新疆", "台湾", "香港", "澳门"
 ]
 
 
@@ -135,7 +142,7 @@ def extract_main_city_name(filename):
     return filename
 
 
-# ==================== 城市列表获取（优先使用 export 目录，但包含所有模板） ====================
+# ==================== 城市列表获取（优先使用 export 目录） ====================
 def get_cities_from_template_dir(template_dir: str = "template") -> List[str]:
     """
     从 template 目录读取城市列表（根据模板文件名）
@@ -517,22 +524,95 @@ def load_region_code(region_file: str = "config/region_code.txt") -> Dict:
     return region_index
 
 
+def load_keyword_index(keyword_file: str = "config/keyword_index.txt") -> Dict:
+    """
+    加载关键字索引配置
+    返回: {关键字: 索引号}
+    用于匹配频道名中包含该关键字的频道
+    """
+    keyword_index = {}
+    if not os.path.exists(keyword_file):
+        return keyword_index
+    
+    try:
+        with open(keyword_file, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith('#'):
+                    continue
+                parts = line.split('\t')
+                if len(parts) >= 2:
+                    keyword = parts[0].strip()
+                    idx = parts[1].strip()
+                    if keyword and idx:
+                        keyword_index[keyword] = idx
+    except Exception as e:
+        if CONFIG['verbose']:
+            print(f"  警告：读取关键字索引文件失败 {keyword_file}: {e}")
+    
+    return keyword_index
+
+
 def normalize_channel_name(channel_name: str) -> str:
+    """
+    规范化频道名称
+    1. 去除尾部特殊字符（空格、下划线、横线）
+    2. 去除高清/标清等质量后缀
+    3. 去除特殊符号（-、_、空格等）
+    """
     name = channel_name.strip()
+    
+    # 去除质量后缀
     for suffix in QUALITY_SUFFIXES:
         if name.endswith(suffix):
             name = name[:-len(suffix)].strip()
             if name.endswith(('-', '_')):
                 name = name[:-1].strip()
-    return name.replace(' ', '')
+            break
+    
+    # 去除括号内容
+    name = re.sub(r'[（(].*?[）)]', '', name)
+    
+    # 去除横线、下划线、空格
+    name = re.sub(r'[-_\s]+', '', name)
+    
+    return name
 
 
-def find_matched_channel(channel_name: str, channel_index: Dict) -> Optional[Dict]:
+def find_matched_channel(channel_name: str, channel_index: Dict, keyword_index: Dict = None) -> Optional[Dict]:
+    """
+    查找频道匹配的分类信息
+    优先级：
+    1. 规范化后匹配（去除特殊字符、高清后缀等）
+    2. 原始频道名匹配（兜底）
+    3. 关键字匹配（包含关键字）
+    """
+    # 1. 规范化后匹配
     normalized = normalize_channel_name(channel_name)
     if normalized in channel_index:
+        if CONFIG['verbose']:
+            print(f"    规范化匹配: {channel_name} -> {normalized}")
         return channel_index[normalized]
+    
+    # 2. 原始频道名匹配
     if channel_name in channel_index:
+        if CONFIG['verbose']:
+            print(f"    精确匹配: {channel_name}")
         return channel_index[channel_name]
+    
+    # 3. 关键字匹配
+    if keyword_index:
+        for keyword, idx in keyword_index.items():
+            if keyword in channel_name:
+                if CONFIG['verbose']:
+                    print(f"    关键字匹配: {channel_name} 匹配关键字 '{keyword}' -> 索引 {idx}")
+                return {
+                    "index": idx,
+                    "short_name": channel_name,
+                    "full_name": channel_name,
+                    "group": "关键字匹配"
+                }
+    
     return None
 
 
@@ -557,18 +637,6 @@ def natural_sort_key(name: str) -> tuple:
         else:
             result.append(p)
     return tuple(result)
-
-
-def is_channel_from_local_region(channel_name: str, local_city_name: str) -> bool:
-    if not local_city_name:
-        return False
-    city_clean = local_city_name
-    for op in ["电信", "移动", "联通"]:
-        if city_clean.endswith(op):
-            city_clean = city_clean[:-len(op)]
-            break
-    city_prefix = city_clean[:2] if len(city_clean) >= 2 else city_clean
-    return channel_name.startswith(city_prefix)
 
 
 def load_template_channels(template_file: str) -> List[Dict]:
@@ -656,6 +724,22 @@ def extract_city_name_from_city(city: str) -> str:
     return city_clean
 
 
+def get_local_satellite_order(channel_name: str, city: str) -> int:
+    """
+    获取本地卫视的排序权重（数值越小越靠前）
+    根据 local_satellite_names 配置的顺序决定
+    """
+    city_clean = extract_city_name_from_city(city)
+    local_satellite_names = CONFIG.get("local_satellite_names", {})
+    satellite_list = local_satellite_names.get(city_clean, [f"{city_clean}卫视"])
+    
+    for idx, sat_name in enumerate(satellite_list):
+        if sat_name in channel_name or channel_name == sat_name:
+            return idx
+    
+    return len(satellite_list)
+
+
 def is_local_satellite(channel_name: str, city: str) -> bool:
     """
     判断频道是否为当前城市的卫视频道
@@ -696,24 +780,12 @@ def is_local_other_channel(channel_name: str, city: str) -> bool:
     if channel_name.startswith(city_clean):
         return True
     
-    # 检查两个字开头的匹配（如"广东"匹配"广东"开头）
-    if len(city_clean) >= 2 and channel_name.startswith(city_clean[:2]):
-        # 避免误判：如"广"开头的不算
-        if city_clean[:2] == channel_name[:2]:
-            return True
-    
     return False
 
 
-def is_channel_from_local_region(channel_name: str, local_city_name: str) -> bool:
-    """
-    判断频道是否属于本地（包括本地卫视和本地其他频道）
-    """
-    return is_local_satellite(channel_name, local_city_name) or is_local_other_channel(channel_name, local_city_name)
-
-
 def classify_channels(channels: List[Dict], city: str, channel_index: Dict,
-                      region_index: Dict, local_first: bool,
+                      region_index: Dict, keyword_index: Dict,
+                      local_first: bool,
                       exclude_prefixes: Set[str], keep_unmatched: bool, keep_keywords: Set[str],
                       name_style: str = "full",
                       enable_exclude: bool = True,
@@ -727,7 +799,7 @@ def classify_channels(channels: List[Dict], city: str, channel_index: Dict,
     分类优先级：
     1. 本地卫视（自定义映射或城市名+卫视）
     2. 本地其他频道（以城市名开头的非卫视频道）
-    3. 已分类频道（有分类索引）
+    3. 已分类频道（有分类索引或关键字匹配）
     4. 地区分类频道（有地区编码，且不是本地频道）
     5. 未匹配频道
     """
@@ -741,7 +813,7 @@ def classify_channels(channels: List[Dict], city: str, channel_index: Dict,
 
     for channel in channels:
         channel_name = channel["name"]
-        info = find_matched_channel(channel_name, channel_index)
+        info = find_matched_channel(channel_name, channel_index, keyword_index)
 
         if info:
             idx = info["index"]
@@ -763,7 +835,7 @@ def classify_channels(channels: List[Dict], city: str, channel_index: Dict,
                 excluded_count += 1
                 continue
 
-            # 分类：本地卫视、本地其他、已分类（地区分类不在这里判断）
+            # 分类：本地卫视、本地其他、已分类
             if is_local_satellite(channel_name, city):
                 display_name = info["full_name"] if name_style == "full" else info["short_name"]
                 local_satellite.append({**channel, "display_name": display_name})
@@ -772,7 +844,7 @@ def classify_channels(channels: List[Dict], city: str, channel_index: Dict,
                 local_other.append({**channel, "display_name": display_name})
             else:
                 display_name = info["full_name"] if name_style == "full" else info["short_name"]
-                categorized.append({**channel, "display_name": display_name, "sort_key": (info["index"], channel_name)})
+                categorized.append({**channel, "display_name": display_name, "sort_key": (idx, channel_name)})
             continue
 
         # 没有分类索引的频道
@@ -804,7 +876,7 @@ def classify_channels(channels: List[Dict], city: str, channel_index: Dict,
 
     # ==================== 排序 ====================
     
-    # 1. 本地卫视：按自定义顺序排序（映射中的顺序优先）
+    # 1. 本地卫视：按自定义顺序排序
     local_satellite.sort(key=lambda x: get_local_satellite_order(x["name"], city))
     
     # 2. 本地其他频道：按频道名自然排序
@@ -826,23 +898,6 @@ def classify_channels(channels: List[Dict], city: str, channel_index: Dict,
         unmatched.sort(key=lambda x: x["display_name"])
 
     return local_satellite, local_other, categorized, region_based, unmatched
-
-
-def get_local_satellite_order(channel_name: str, city: str) -> int:
-    """
-    获取本地卫视的排序权重（数值越小越靠前）
-    根据 local_satellite_names 配置的顺序决定
-    """
-    city_clean = extract_city_name_from_city(city)
-    local_satellite_names = CONFIG.get("local_satellite_names", {})
-    satellite_list = local_satellite_names.get(city_clean, [f"{city_clean}卫视"])
-    
-    for idx, sat_name in enumerate(satellite_list):
-        if sat_name in channel_name or channel_name == sat_name:
-            return idx
-    
-    # 默认返回最后
-    return len(satellite_list)
 
 
 # ==================== 核心生成函数 ====================
@@ -915,7 +970,7 @@ def get_valid_servers(city: str, stream: str, verify: bool, target_count: int, a
     return valid_servers, prioritized_servers
 
 
-def generate_city_playlist(city: str, channel_index: Dict, region_index: Dict,
+def generate_city_playlist(city: str, channel_index: Dict, region_index: Dict, keyword_index: Dict,
                            local_first: bool, max_servers: int,
                            verify: bool, auto_mode: bool,
                            valid_servers: List[str] = None,
@@ -971,7 +1026,7 @@ def generate_city_playlist(city: str, channel_index: Dict, region_index: Dict,
     exclude_prefixes, keep_unmatched, keep_keywords, enable_exclude, enable_keep = get_city_exclusion(city)
     
     local_satellite, local_other, categorized, region_based, unmatched = classify_channels(
-        channels, city, channel_index, region_index, local_first,
+        channels, city, channel_index, region_index, keyword_index, local_first,
         exclude_prefixes, keep_unmatched, keep_keywords, name_style="full",
         enable_exclude=enable_exclude,
         enable_natural_sort=CONFIG.get("enable_channel_natural_sort", True),
@@ -1029,7 +1084,7 @@ def generate_city_playlist(city: str, channel_index: Dict, region_index: Dict,
                     f.write(f"{ch['display_name']},{ch['url'].replace('ipipip', ip)}\n")
                 if region_based and (local_other or unmatched):
                     f.write("\n")
-                # 5. 本地其他频道（不置顶，放在已分类频道之后）
+                # 5. 本地其他频道（不置顶）
                 for ch in local_other:
                     f.write(f"{ch['display_name']},{ch['url'].replace('ipipip', ip)}\n")
                 if local_other and unmatched:
@@ -1040,7 +1095,7 @@ def generate_city_playlist(city: str, channel_index: Dict, region_index: Dict,
     
     # ==================== 完整版（不跳过排除频道） ====================
     local_satellite_all, local_other_all, categorized_all, region_based_all, unmatched_all = classify_channels(
-        channels, city, channel_index, region_index, local_first,
+        channels, city, channel_index, region_index, keyword_index, local_first,
         set(), True, set(), name_style="full",
         enable_exclude=False,
         enable_natural_sort=CONFIG.get("enable_channel_natural_sort", True),
@@ -1098,7 +1153,7 @@ def generate_city_playlist(city: str, channel_index: Dict, region_index: Dict,
                     f.write(f"{ch['display_name']},{ch['url'].replace('ipipip', ip)}\n")
                 if region_based_all and (local_other_all or unmatched_all):
                     f.write("\n")
-                # 5. 本地其他频道（不置顶，放在已分类频道之后）
+                # 5. 本地其他频道（不置顶）
                 for ch in local_other_all:
                     f.write(f"{ch['display_name']},{ch['url'].replace('ipipip', ip)}\n")
                 if local_other_all and unmatched_all:
@@ -1315,14 +1370,16 @@ def main():
         print("未选择任何城市")
         return
     
-    # 加载分类索引和地区编码（单城市模式下也需要）
+    # 加载分类索引和地区编码
     if not auto_mode:
         print("\n正在加载分类索引和地区编码...")
     channel_index = load_category_index()
     region_index = load_region_code()
+    keyword_index = load_keyword_index()
     if not auto_mode:
         print(f"  加载分类: {len(channel_index)} 条")
         print(f"  加载地区编码: {len(region_index)} 条")
+        print(f"  加载关键字索引: {len(keyword_index)} 条")
     
     # 加载 zubo_cities 配置（仅汇总时需要）
     zubo_cities_set = load_zubo_cities()
@@ -1364,7 +1421,7 @@ def main():
         
         # 生成播放列表
         success_limited, success_all = generate_city_playlist(
-            city, channel_index, region_index, local_first, args.num,
+            city, channel_index, region_index, keyword_index, local_first, args.num,
             verify, auto_mode, valid_servers, prioritized_servers
         )
         
