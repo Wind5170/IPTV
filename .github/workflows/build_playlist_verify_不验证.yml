@@ -1,0 +1,42 @@
+name: Build_Playlist_Verify（快速）
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: 生成播放列表（带实时验证）
+        run: |
+          cd $GITHUB_WORKSPACE
+          python build_udpxy_playlist_verify.py --auto --no-verify
+
+      - name: 更新播放列表
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add output/
+          git commit -m "Auto update playlist at $(date +'%Y-%m-%d %H:%M:%S')" || echo "无变更"
+          git pull --rebase origin main || true
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
