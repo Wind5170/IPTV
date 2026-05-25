@@ -1,5 +1,6 @@
-# 20260524_2302_precise_slow
+# 20260525_1309_precise_slow
 # 服务器地址	速度
-p365z34227.oicp.vip:60002	283.77 KB/s
-zhangkx717.cn:9999	172.47 KB/s
-cqknas.myqnapcloud.com:8808	123.42 KB/s
+p365z34227.oicp.vip:60002	282.96 KB/s
+hiliu.myds.me:18088	282.87 KB/s
+qnapxuan.mycloudnas.com:10001	280.66 KB/s
+zhangkx717.cn:9999	226.82 KB/s

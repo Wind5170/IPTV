@@ -1,11 +1,5 @@
-# 20260524_2309_precise
+# 20260525_1320_precise
 # 服务器地址	速度
-s.zssss.eu.org:888	354.47 KB/s
-893224162.synology.me:8188	353.67 KB/s
-www.yanbingg.com:18888	346.80 KB/s
-www.yanbingg.com:1888	342.61 KB/s
-171.88.107.244:8118	341.79 KB/s
-www.510100.xyz:5050	341.31 KB/s
-171.213.147.35:4022	321.48 KB/s
-ddns.55682750.xyz:18888	318.67 KB/s
-wan1.tangwudi.cc:47859	314.70 KB/s
+s.zssss.eu.org:888	360.17 KB/s
+ddns.55682750.xyz:18888	334.89 KB/s
+171.213.147.35:4022	332.90 KB/s

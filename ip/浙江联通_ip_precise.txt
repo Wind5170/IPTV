@@ -1,5 +1,5 @@
-# 20260524_2311_precise
+# 20260525_1322_precise
 # 服务器地址	速度
-bgs.cchui.fun:7912	372.10 KB/s
-bgs.cchui.fun:7911	367.08 KB/s
-tplink.eversouthhangzhou.com.cn:8188	359.23 KB/s
+bgs.cchui.fun:7911	381.07 KB/s
+bgs.cchui.fun:7912	374.59 KB/s
+z2m.eversouthhangzhou.com.cn:8188	369.01 KB/s
