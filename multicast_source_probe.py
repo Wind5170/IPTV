@@ -49,7 +49,7 @@ CONFIG = {
     "max_slow_servers": 5,
     
     # ffprobe 超时时间（秒）
-    "ffprobe_timeout": 20,
+    "ffprobe_timeout": 30,
     
     # 调试模式
     "debug": False,
