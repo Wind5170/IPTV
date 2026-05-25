@@ -40,7 +40,7 @@ CONFIG = {
     "max_concurrency": 100,
     
     # 每个服务器最大并发数（避免单服务器过载）
-    "max_per_server": 20,
+    "max_per_server": 10,
     
     # 是否启用低速服务器备用（仅当没有达标服务器时使用）
     "use_slow_servers": False,
@@ -54,6 +54,9 @@ CONFIG = {
     # 目录配置
     "rtp_dir": "rtp",
     "ip_dir": "ip",
+
+    # 调试模式
+    "debug": False,  
     
     # 自动模式（用于CI/CD，不显示进度条）
     "auto_mode": False,
@@ -338,6 +341,7 @@ def test_with_ffprobe(server, multicast_addr, timeout=15):
         bit_rate = 0
         has_video = False
         has_audio = False
+        sample_rate = 0
         
         for stream in info.get('streams', []):
             codec_type = stream.get('codec_type', '')
@@ -348,8 +352,6 @@ def test_with_ffprobe(server, multicast_addr, timeout=15):
                 codec_name = stream.get('codec_name', '')
                 
                 bit_rate_str = stream.get('bit_rate', '')
-                if not bit_rate_str:
-                    bit_rate_str = info.get('format', {}).get('bit_rate', '')
                 if bit_rate_str:
                     try:
                         bit_rate = int(bit_rate_str) // 1000
@@ -357,15 +359,54 @@ def test_with_ffprobe(server, multicast_addr, timeout=15):
                         pass
             elif codec_type == 'audio':
                 has_audio = True
+                if not has_video and not codec_name:
+                    codec_name = stream.get('codec_name', '')
+                sample_rate = stream.get('sample_rate', 0)
         
-        resolution = f"{width}x{height}" if width > 0 and height > 0 else ""
+        # 如果没有视频流码率，尝试从格式中获取
+        if bit_rate == 0:
+            format_bit_rate = info.get('format', {}).get('bit_rate', '')
+            if format_bit_rate:
+                try:
+                    bit_rate = int(format_bit_rate) // 1000
+                except:
+                    pass
+        
+        # 构建分辨率字符串
+        if width > 0 and height > 0:
+            resolution = f"{width}x{height}"
+        elif height > 0:
+            # 只有高度，推算宽度（假设16:9）
+            if height == 1080:
+                resolution = "1920x1080"
+            elif height == 720:
+                resolution = "1280x720"
+            elif height == 576:
+                resolution = "720x576"
+            elif height == 480:
+                resolution = "720x480"
+            else:
+                resolution = f"{height}p"
+        else:
+            resolution = ""
+        
+        # 音频专用：显示采样率
+        if not has_video and has_audio and sample_rate > 0:
+            codec_name = f"{codec_name} ({sample_rate//1000}kHz)" if codec_name else f"音频 {sample_rate//1000}kHz"
+        
         is_valid = has_video or has_audio
+        
+        # 调试输出
+        if CONFIG.get('debug', False):
+            print(f"    ffprobe 结果: 有效={is_valid}, 分辨率={resolution}, 编码={codec_name}, 码率={bit_rate}kbps")
         
         return is_valid, resolution, codec_name, bit_rate, response_time
         
     except subprocess.TimeoutExpired:
         return False, "", "", 0, 99999
-    except Exception:
+    except Exception as e:
+        if CONFIG.get('debug', False):
+            print(f"    ffprobe 异常: {e}")
         return False, "", "", 0, 99999
 
 
