@@ -34,7 +34,7 @@ CONFIG = {
     # 测试模式: 
     #   "full" - 全部重新测试（测试所有组播地址）
     #   "incremental" - 接续测试（只测试无效或新增的组播源）
-    "test_mode": "incremental",
+    "test_mode": "full",
     
     # 最大总并发数（控制同时运行的测试线程数）
     "max_concurrency": 100,
