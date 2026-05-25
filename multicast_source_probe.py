@@ -51,12 +51,12 @@ CONFIG = {
     # ffprobe 超时时间（秒）
     "ffprobe_timeout": 20,
     
+    # 调试模式
+    "debug": False,
+    
     # 目录配置
     "rtp_dir": "rtp",
     "ip_dir": "ip",
-
-    # 调试模式
-    "debug": False,  
     
     # 自动模式（用于CI/CD，不显示进度条）
     "auto_mode": False,
@@ -497,10 +497,13 @@ def process_city(city, source_file, config, auto_mode=False):
     
     # 确定需要测试的源
     result_file = os.path.join(config['rtp_dir'], f"{city}_probe.txt")
-    existing_results = {}
+    
+    # 读取已有完整结果（保留详细信息）
+    existing_results = {}  # key: addr, value: dict with all fields
     sources_to_test = []
     
-    if config.get('test_mode') == 'incremental' and os.path.exists(result_file):
+    # 两种模式都读取已有结果
+    if os.path.exists(result_file):
         try:
             with open(result_file, 'r', encoding='utf-8') as f:
                 for line in f:
@@ -513,11 +516,26 @@ def process_city(city, source_file, config, auto_mode=False):
                         addr_raw = parts[1].strip()
                         addr = normalize_multicast_addr(addr_raw)
                         status = parts[2].strip()
-                        existing_results[addr] = {"name": name, "addr": addr, "status": status}
+                        resolution = parts[3].strip() if len(parts) > 3 else ""
+                        codec = parts[4].strip() if len(parts) > 4 else ""
+                        response = parts[5].strip() if len(parts) > 5 else "0"
+                        
+                        existing_results[addr] = {
+                            "name": name,
+                            "addr": addr,
+                            "addr_raw": addr_raw,
+                            "status": status,
+                            "resolution": resolution,
+                            "codec": codec,
+                            "response": response
+                        }
         except Exception as e:
             if not auto_mode:
                 print(f"  读取已有结果文件失败: {e}")
-        
+    
+    # 根据测试模式决定需要测试的源
+    if config.get('test_mode') == 'incremental':
+        # 增量模式：只测试无效或新增的组播源
         for name, addr, cat in sources:
             if addr not in existing_results:
                 sources_to_test.append((name, addr, cat))
@@ -529,11 +547,11 @@ def process_city(city, source_file, config, auto_mode=False):
         elif not auto_mode:
             print(f"  接续模式: 需要测试 {len(sources_to_test)} 个源")
     else:
+        # 全量模式：测试全部组播源
         sources_to_test = sources
         if auto_mode:
-            mode_text = "全量模式" if config.get('test_mode') == 'full' else "首次运行"
-            print(f"[{city}] {mode_text}: 测试全部 {len(sources_to_test)} 个", flush=True)
-        elif config.get('test_mode') == 'full' and not auto_mode:
+            print(f"[{city}] 全量模式: 测试全部 {len(sources_to_test)} 个", flush=True)
+        elif not auto_mode:
             print(f"  全量模式: 测试全部 {len(sources_to_test)} 个源")
     
     if not sources_to_test:
@@ -629,8 +647,7 @@ def process_city(city, source_file, config, auto_mode=False):
                 "status": "有效" if is_valid else "无效",
                 "resolution": resolution,
                 "codec": codec,
-                "response": str(int(response)),
-                "server": server
+                "response": str(int(response))
             })
         return local_results
     
@@ -659,9 +676,11 @@ def process_city(city, source_file, config, auto_mode=False):
     if not auto_mode:
         print()
     
-    # 合并结果
+    # ==================== 合并结果（全量和增量逻辑统一） ====================
     final_results = []
+    
     for name, addr, cat in sources:
+        # 优先使用新测试结果
         new_item = None
         for item in new_results:
             if item["addr"] == addr:
@@ -669,20 +688,22 @@ def process_city(city, source_file, config, auto_mode=False):
                 break
         
         if new_item:
+            # 新测试结果，包含完整信息
             final_results.append(new_item)
         elif addr in existing_results:
+            # 保留已有结果（保留原有的分辨率、编码等信息）
             existing = existing_results[addr]
             final_results.append({
                 "name": existing["name"],
                 "addr": addr,
-                "addr_raw": addr.replace('rtp/', '').replace('udp/', ''),
+                "addr_raw": existing["addr_raw"],
                 "status": existing["status"],
-                "resolution": "",
-                "codec": "",
-                "response": "0",
-                "server": ""
+                "resolution": existing.get("resolution", ""),
+                "codec": existing.get("codec", ""),
+                "response": existing.get("response", "0")
             })
         else:
+            # 兜底（理论上不会进入）
             final_results.append({
                 "name": name,
                 "addr": addr,
@@ -690,8 +711,7 @@ def process_city(city, source_file, config, auto_mode=False):
                 "status": "未知",
                 "resolution": "",
                 "codec": "",
-                "response": "0",
-                "server": ""
+                "response": "0"
             })
     
     # 保存结果
@@ -708,7 +728,10 @@ def process_city(city, source_file, config, auto_mode=False):
                 status = item["status"]
                 if status == "有效":
                     valid_count += 1
-                f.write(f"{item['name']}\t{item['addr_raw']}\t{status}\t{item['resolution']}\t{item['codec']}\t{item['response']}\n")
+                resolution = item.get("resolution", "")
+                codec = item.get("codec", "")
+                response = item.get("response", "0")
+                f.write(f"{item['name']}\t{item['addr_raw']}\t{status}\t{resolution}\t{codec}\t{response}\n")
         
         # auto 模式显示结果
         if auto_mode:
@@ -774,6 +797,8 @@ def main():
                         help=f'低速服务器最大数量 (默认: 20)')
     parser.add_argument('--auto', action='store_true', default=False,
                         help='自动模式（用于CI/CD，不显示进度条和交互）')
+    parser.add_argument('--debug', action='store_true', default=False,
+                        help='调试模式（显示ffprobe详细信息）')
     
     args = parser.parse_args()
     
@@ -787,6 +812,7 @@ def main():
     config['ffprobe_timeout'] = args.timeout
     config['use_slow_servers'] = not args.no_slow
     config['max_slow_servers'] = args.max_slow
+    config['debug'] = args.debug
     auto_mode = args.auto
     
     # 测试模式描述
@@ -824,6 +850,7 @@ def main():
     if config['use_slow_servers']:
         print(f"  规则: 仅当没有达标服务器时使用低速服务器")
         print(f"  最大数量: {config['max_slow_servers']}")
+    print(f"调试模式: {'是' if config['debug'] else '否'}")
     print(f"自动模式: {'是' if auto_mode else '否'}")
     print("=" * 60)
     
