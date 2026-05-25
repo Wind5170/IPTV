@@ -1,19 +1,10 @@
-# 20260525_1300_precise_slow
+# 20260525_2254_precise_slow
 # 服务器地址	速度
-laiboy.myds.me:58686	284.16 KB/s
-x1x.bid:5146	243.71 KB/s
-111.194.236.187:4022	239.61 KB/s
-aecm6mg6ilmqybhl.nexusedgeio.com:5588	234.73 KB/s
-123.118.62.117:8686	211.03 KB/s
-aikuai.natnum.top:8099	209.64 KB/s
-owvpn.famcloud.top:9878	205.63 KB/s
-www.ikuai.me:4022	188.62 KB/s
-wuyanjiang.cn:8012	153.86 KB/s
-superpostmail.3322.org:1193	122.70 KB/s
-trulyliu.vicp.net:8622	110.42 KB/s
-tnv.asuscomm.com:8012	94.46 KB/s
-www.irisxxd.cn:8888	13.95 KB/s
-www.irisxxd.cn:8000	13.83 KB/s
-www.xiongnas.top:8888	10.23 KB/s
-n2.192372.xyz:8888	2.25 KB/s
-triq.cc:8012	1.28 KB/s
+wuyanjiang.cn:8012	225.42 KB/s
+unicom3.swjms.com:4022	179.25 KB/s
+triq.cc:8012	95.49 KB/s
+www.irisxxd.cn:8000	79.35 KB/s
+www.irisxxd.cn:8888	79.07 KB/s
+rt.tunan.tech:7070	67.94 KB/s
+tnv.asuscomm.com:8012	57.93 KB/s
+n2.192372.xyz:8888	1.17 KB/s

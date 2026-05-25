@@ -1,15 +1,11 @@
-# 20260525_1312_precise_slow
+# 20260525_2305_precise_slow
 # 服务器地址	速度
-jw318.synology.me:888	277.45 KB/s
-114.226.212.138:8787	273.56 KB/s
-980413.xyz:6000	269.74 KB/s
-istoreos.sclvip.top:5566	265.10 KB/s
-www.foreveryyl.top:8001	260.48 KB/s
-106.111.244.23:58099	239.49 KB/s
-121.237.245.48:8888	225.69 KB/s
-121.237.245.72:8888	213.00 KB/s
-www.wxzmz.com:8800	193.60 KB/s
-kouki.pro:8888	168.46 KB/s
-home.amucn.net:8800	160.95 KB/s
-121.232.71.87:8888	69.16 KB/s
-ikuai-v4.17271201.xyz:4000	31.04 KB/s
+www.sclvip.top:8787	265.62 KB/s
+121.237.245.48:8888	248.24 KB/s
+kouki.pro:8888	229.96 KB/s
+www.wxzmz.com:8800	216.18 KB/s
+home.amucn.net:8800	203.92 KB/s
+ikuai-v4.17271201.xyz:4000	171.16 KB/s
+121.237.245.72:8888	92.00 KB/s
+980413.xyz:6000	55.18 KB/s
+www.yzddy.top:8800	2.08 KB/s

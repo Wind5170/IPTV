@@ -1,6 +1,4 @@
-# 20260525_1258_precise_slow
+# 20260525_2253_precise_slow
 # 服务器地址	速度
-124.112.188.241:4022	291.15 KB/s
-124.112.240.175:4022	284.76 KB/s
-nicolethree.top:8188	165.54 KB/s
-www.191919.xyz:8888	4.42 KB/s
+nicolethree.top:8188	191.40 KB/s
+www.191919.xyz:8888	9.46 KB/s
