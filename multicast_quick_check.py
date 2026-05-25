@@ -190,7 +190,7 @@ def print_city_list(multicast_files):
     if not multicast_files:
         return "未找到任何城市文件"
     
-    ip_dir = CONFIG['ip_dir']
+    rtp_dir = CONFIG['rtp_dir']
     cities = [os.path.splitext(os.path.basename(f))[0] for f in multicast_files]
     
     max_len = max(len(c) for c in cities) + 2
@@ -202,8 +202,8 @@ def print_city_list(multicast_files):
         row_text = ""
         for j, city in enumerate(row):
             idx = i + j + 1
-            # 检查快速测试结果文件（新格式 _quick.txt）
-            result_file = os.path.join(ip_dir, f"{extract_main_city_name(city)}_ip_quick.txt")
+            # 检查快速测试结果文件（rtp 目录下的 _quick.txt）
+            result_file = os.path.join(rtp_dir, f"{city}_quick.txt")
             has_result = "✓" if os.path.exists(result_file) else " "
             row_text += f"{idx:2d}.{has_result}{city:<{max_len}}"
         lines.append(row_text)
