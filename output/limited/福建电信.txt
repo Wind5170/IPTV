@@ -9,10 +9,8 @@
 福建经济频道,http://remote.jackye.site:8000/rtp/239.61.2.7:8036
 福建综合频道,http://remote.jackye.site:8000/rtp/239.61.3.4:9542
 
-CHC动作电影,http://remote.jackye.site:8000/rtp/239.61.3.16:9616
 凤凰中文,http://remote.jackye.site:8000/rtp/239.61.2.184:9092
 凤凰资讯,http://remote.jackye.site:8000/rtp/239.61.2.183:9086
-欢笑剧场SDR,http://remote.jackye.site:8000/rtp/239.61.4.145:1025
 北京卡酷少儿,http://remote.jackye.site:8000/rtp/239.61.2.222:9320
 湖南茶频道,http://remote.jackye.site:8000/rtp/239.61.3.59:9872
 湖南金鹰纪实,http://remote.jackye.site:8000/rtp/239.61.3.7:9560
@@ -23,6 +21,7 @@ CHC动作电影,http://remote.jackye.site:8000/rtp/239.61.3.16:9616
 上海纪实人文,http://remote.jackye.site:8000/rtp/239.61.2.165:8978
 广东嘉佳卡通,http://remote.jackye.site:8000/rtp/239.61.2.72:8426
 中国天气,http://remote.jackye.site:8000/rtp/239.61.2.64:8378
+欢笑剧场SDR,http://remote.jackye.site:8000/rtp/239.61.4.145:1025
 爱上4K,http://remote.jackye.site:8000/rtp/239.61.5.164:1025
 
 福州新闻,http://remote.jackye.site:8000/rtp/239.61.5.97:1025
@@ -49,10 +48,8 @@ CHC动作电影,http://remote.jackye.site:8000/rtp/239.61.3.16:9616
 福建经济频道,http://woc.iiiya.cn:18888/rtp/239.61.2.7:8036
 福建综合频道,http://woc.iiiya.cn:18888/rtp/239.61.3.4:9542
 
-CHC动作电影,http://woc.iiiya.cn:18888/rtp/239.61.3.16:9616
 凤凰中文,http://woc.iiiya.cn:18888/rtp/239.61.2.184:9092
 凤凰资讯,http://woc.iiiya.cn:18888/rtp/239.61.2.183:9086
-欢笑剧场SDR,http://woc.iiiya.cn:18888/rtp/239.61.4.145:1025
 北京卡酷少儿,http://woc.iiiya.cn:18888/rtp/239.61.2.222:9320
 湖南茶频道,http://woc.iiiya.cn:18888/rtp/239.61.3.59:9872
 湖南金鹰纪实,http://woc.iiiya.cn:18888/rtp/239.61.3.7:9560
@@ -63,6 +60,7 @@ CHC动作电影,http://woc.iiiya.cn:18888/rtp/239.61.3.16:9616
 上海纪实人文,http://woc.iiiya.cn:18888/rtp/239.61.2.165:8978
 广东嘉佳卡通,http://woc.iiiya.cn:18888/rtp/239.61.2.72:8426
 中国天气,http://woc.iiiya.cn:18888/rtp/239.61.2.64:8378
+欢笑剧场SDR,http://woc.iiiya.cn:18888/rtp/239.61.4.145:1025
 爱上4K,http://woc.iiiya.cn:18888/rtp/239.61.5.164:1025
 
 福州新闻,http://woc.iiiya.cn:18888/rtp/239.61.5.97:1025
