@@ -36,7 +36,8 @@ jobs:
       
       - name: Run multicast source probe
         run: |
-          python multicast_source_probe.py --auto
+         # python multicast_source_probe.py --auto
+          python multicast_source_probe.py --auto --city 江苏电信补充
       
       - name: Commit and push changes
         run: |
