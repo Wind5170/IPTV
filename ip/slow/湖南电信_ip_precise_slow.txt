@@ -1,3 +1,3 @@
 # 20260526_2313_precise_slow
 # 服务器地址	速度
-hiliu.myds.me:18088	253.79 KB/s
+hyxy26.top:4022	1.98 KB/s

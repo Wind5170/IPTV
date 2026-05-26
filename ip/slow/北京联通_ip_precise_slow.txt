@@ -1,12 +1,14 @@
-# 20260526_1237_precise_slow
+# 20260526_2305_precise_slow
 # 服务器地址	速度
-111.194.236.187:4022	291.88 KB/s
-aecm6mg6ilmqybhl.nexusedgeio.com:5588	290.84 KB/s
-triq.cc:8012	251.78 KB/s
-www.irisxxd.cn:8888	251.20 KB/s
-www.irisxxd.cn:8000	246.62 KB/s
-111.193.236.222:9999	218.91 KB/s
-superpostmail.3322.org:1193	161.92 KB/s
-tnv.asuscomm.com:8012	55.11 KB/s
-www.xiongnas.top:8888	2.72 KB/s
-n2.192372.xyz:8888	2.58 KB/s
+aecm6mg6ilmqybhl.nexusedgeio.com:5588	299.05 KB/s
+unicom3.swjms.com:4022	217.02 KB/s
+rt.tunan.tech:7070	215.34 KB/s
+happy2015.synology.me:4000	213.07 KB/s
+laiboy.myds.me:58686	101.85 KB/s
+owvpn.famcloud.top:9878	83.28 KB/s
+tnv.asuscomm.com:8012	75.13 KB/s
+n2.192372.xyz:8888	14.88 KB/s
+aikuai.natnum.top:8099	13.36 KB/s
+triq.cc:8012	1.46 KB/s
+www.irisxxd.cn:8888	1.26 KB/s
+www.irisxxd.cn:8000	1.26 KB/s
