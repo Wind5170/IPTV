@@ -1,12 +1,12 @@
-# 20260525_2313_precise
+# 20260526_1255_precise
 # 服务器地址	速度
-125.115.205.131:4023	668.86 KB/s
-maymoon.asuscomm.com:7777	634.55 KB/s
-www.liangcl.top:8686	615.84 KB/s
-gilbert0571.eu.org:8888	612.23 KB/s
-60.185.249.86:4022	597.86 KB/s
-60.183.109.150:8000	594.32 KB/s
-rhfwily.synology.me:4022	581.30 KB/s
-www.330328.xyz:7778	529.31 KB/s
-9.lexlong.top:8001	500.61 KB/s
-www.slq888.cn:9999	489.67 KB/s
+60.185.249.86:4022	507.72 KB/s
+125.115.205.131:4023	459.90 KB/s
+www.slq888.cn:9999	444.27 KB/s
+maymoon.asuscomm.com:7777	439.52 KB/s
+rhfwily.synology.me:4022	423.13 KB/s
+9.lexlong.top:8001	413.29 KB/s
+www.330328.xyz:7778	410.13 KB/s
+gilbert0571.eu.org:8888	367.81 KB/s
+www.liangcl.top:8686	360.12 KB/s
+60.183.109.150:8000	305.47 KB/s

@@ -1,3 +1,4 @@
-# 20260525_2303_precise_slow
+# 20260526_1246_precise_slow
 # 服务器地址	速度
-zhangkx717.cn:9999	132.13 KB/s
+p365z34227.oicp.vip:60002	254.97 KB/s
+gonas.xyz:38128	234.57 KB/s

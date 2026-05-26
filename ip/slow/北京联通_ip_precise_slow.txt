@@ -1,10 +1,12 @@
-# 20260525_2254_precise_slow
+# 20260526_1237_precise_slow
 # 服务器地址	速度
-wuyanjiang.cn:8012	225.42 KB/s
-unicom3.swjms.com:4022	179.25 KB/s
-triq.cc:8012	95.49 KB/s
-www.irisxxd.cn:8000	79.35 KB/s
-www.irisxxd.cn:8888	79.07 KB/s
-rt.tunan.tech:7070	67.94 KB/s
-tnv.asuscomm.com:8012	57.93 KB/s
-n2.192372.xyz:8888	1.17 KB/s
+111.194.236.187:4022	291.88 KB/s
+aecm6mg6ilmqybhl.nexusedgeio.com:5588	290.84 KB/s
+triq.cc:8012	251.78 KB/s
+www.irisxxd.cn:8888	251.20 KB/s
+www.irisxxd.cn:8000	246.62 KB/s
+111.193.236.222:9999	218.91 KB/s
+superpostmail.3322.org:1193	161.92 KB/s
+tnv.asuscomm.com:8012	55.11 KB/s
+www.xiongnas.top:8888	2.72 KB/s
+n2.192372.xyz:8888	2.58 KB/s

@@ -1,3 +1,4 @@
-# 20260525_2258_precise
+# 20260526_1241_precise
 # 服务器地址	速度
-gaoxing.dns.army:10086	383.01 KB/s
+gaoxing.dns.army:10086	509.04 KB/s
+120.234.187.66:10086	499.18 KB/s

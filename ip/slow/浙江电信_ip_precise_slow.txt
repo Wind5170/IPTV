@@ -1,3 +1,3 @@
-# 20260525_2313_precise_slow
+# 20260526_1255_precise_slow
 # 服务器地址	速度
-www.negative.top:50000	68.93 KB/s
+www.negative.top:50000	283.20 KB/s

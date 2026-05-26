@@ -1,6 +1,3 @@
-# 20260525_2313_precise_slow
+# 20260526_1254_precise_slow
 # 服务器地址	速度
-183.220.20.17:4321	294.58 KB/s
-223.86.170.98:4500	78.43 KB/s
-183.222.15.202:4321	70.54 KB/s
-aecop43ptvea6epk.0kkkkkt.com:4022	53.50 KB/s
+aecop43ptvea6epk.0kkkkkt.com:4022	33.56 KB/s
