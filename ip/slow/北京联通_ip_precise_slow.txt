@@ -1,7 +1,13 @@
-# 20260527_1252_precise_slow
+# 20260527_2312_precise_slow
 # 服务器地址	速度
-laiboy.myds.me:58686	271.57 KB/s
-superpostmail.3322.org:1193	258.34 KB/s
-aecm6mg6ilmqybhl.nexusedgeio.com:5588	257.57 KB/s
-sphinger.f3322.net:11012	120.74 KB/s
-unicom3.swjms.com:4022	28.40 KB/s
+unicom3.swjms.com:4022	287.97 KB/s
+happylive.asuscomm.com:8888	282.28 KB/s
+awnjnmctlaxqsapgzjjsvvfsp.xyz:4022	274.24 KB/s
+aikuai.natnum.top:8099	225.18 KB/s
+trulyliu.vicp.net:8622	197.66 KB/s
+tnv.asuscomm.com:8012	60.16 KB/s
+triq.cc:8012	34.90 KB/s
+superpostmail.3322.org:1193	17.71 KB/s
+n2.192372.xyz:8888	13.11 KB/s
+www.irisxxd.cn:8000	12.65 KB/s
+www.irisxxd.cn:8888	12.64 KB/s

@@ -1,3 +1,3 @@
 # 20260527_2320_precise
 # 服务器地址	速度
-eyfs.vicp.net:8888	426.64 KB/s
+wanda01.e7q.com:18090	402.70 KB/s
