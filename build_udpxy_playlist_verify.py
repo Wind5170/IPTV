@@ -9,7 +9,7 @@ udpxy 播放列表生成工具（带实时验证版）
 4. 支持定制模式和全量模式，支持实时验证和频道过滤
 5. 读取服务器数据时，对域名进行解析，按解析后的IP去重后使用
 6. 支持自动模式（--auto），用于 CI/CD 环境
-7. _ip_good.txt 中的服务器需要验证存在于 precise/quick 中才使用
+7. _ip_good.txt 中的服务器单独验证连通性，通过后优先使用
 8. 统一流程：获取所有优质服务器 -> 验证 -> 补充低速 -> 生成列表
 9. 支持关键字索引匹配（IPTV、百事通、广播等）
 """
@@ -71,11 +71,6 @@ CONFIG = {
 QUALITY_SUFFIXES = ['HD', '-HD', 'hd', '-hd', '高清', '-高清', 'H264', 'H265', 'HEVC']
 
 # ==================== 省份排序顺序 ====================
-# 第一行：有华数、iHOT、BesTV、迷视界等频道的城市，流畅
-# 第二行：流畅
-# 第三行：有华数、iHOT、BesTV、迷视界等频道的城市，不够流畅
-# 第四行：不够流畅
-# 第五航：暂无频道
 REGIONS = [
     "四川", "贵州", "北京", "浙江", "重庆", "上海", "河北", "广东", "安徽", 
     "江苏", "贵州", "福建", "甘肃", "广西", "海南",
@@ -336,14 +331,60 @@ def parse_speed_to_kbps(speed_str: str, mode: str = 'precise') -> float:
 
 
 # ==================== 服务器获取函数 ====================
-def get_all_qualified_servers(city: str, ip_dir: str = "ip", verbose: bool = True) -> List[str]:
+def get_good_servers(city: str, stream: str, verify: bool, verbose: bool = True) -> List[str]:
     """
-    获取所有优质服务器（不限数量）
-    从 _ip_precise.txt 和 _ip_quick.txt 中读取所有服务器
-    对域名进行解析，按解析后的IP去重
-    返回原始格式的服务器地址列表（按速度排序）
+    获取并验证 _ip_good.txt 中的服务器
+    返回验证通过的服务器列表
     """
-    servers_dict = {}  # 使用解析后的IP作为key，存储 (原始地址, 速度)
+    good_file = Path(CONFIG["ip_dir"]) / f"{city}_ip_good.txt"
+    if not good_file.exists():
+        return []
+    
+    good_servers_raw = []
+    with open(good_file, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith('#'):
+                continue
+            if line.startswith('http://'):
+                line = line[7:]
+            if line.startswith('https://'):
+                line = line[8:]
+            if ':' in line:
+                good_servers_raw.append(line)
+    
+    if not good_servers_raw:
+        return []
+    
+    if verbose and CONFIG['verbose'] and not CONFIG['auto_mode']:
+        print(f"  读取优质服务器: {len(good_servers_raw)} 个")
+    
+    # 验证 good 服务器的连通性
+    valid_good = []
+    if verify and stream:
+        for server in good_servers_raw:
+            if verify_server(server, stream, CONFIG["verify_timeout"]):
+                valid_good.append(server)
+                if verbose and CONFIG['verbose'] and not CONFIG['auto_mode']:
+                    print(f"    ✓ {server} (优质服务器) 验证通过")
+            else:
+                if verbose and CONFIG['verbose'] and not CONFIG['auto_mode']:
+                    print(f"    ✗ {server} (优质服务器) 验证失败")
+    else:
+        valid_good = good_servers_raw
+    
+    if verbose and CONFIG['verbose'] and not CONFIG['auto_mode']:
+        print(f"  优质服务器验证通过 {len(valid_good)}/{len(good_servers_raw)} 个")
+    
+    return valid_good
+
+
+def get_test_servers(city: str, ip_dir: str = "ip", verbose: bool = True) -> List[Tuple[str, float]]:
+    """
+    获取测试达标服务器（precise/quick 测试结果）
+    返回 [(原始服务器地址, 速度KB/s), ...] 按速度降序排序
+    """
+    servers_dict = {}
     main_city_name = extract_main_city_name(city)
     
     # 读取精确测试结果
@@ -381,12 +422,13 @@ def get_all_qualified_servers(city: str, ip_dir: str = "ip", verbose: bool = Tru
                         servers_dict[resolved_key] = (server, speed_kbps)
     
     # 转换为列表并按速度降序排序
-    servers = [original for original, _ in sorted(servers_dict.values(), key=lambda x: x[1], reverse=True)]
+    servers = [(original, speed) for original, speed in servers_dict.values()]
+    servers.sort(key=lambda x: x[1], reverse=True)
     
     if verbose and CONFIG['verbose'] and not CONFIG['auto_mode']:
-        domain_count = sum(1 for s in servers if is_domain_format(s))
+        domain_count = sum(1 for s, _ in servers if is_domain_format(s))
         ip_count = len(servers) - domain_count
-        print(f"  所有优质服务器: {len(servers)} 个 (域名:{domain_count}, IP:{ip_count})")
+        print(f"  测试达标服务器: {len(servers)} 个 (域名:{domain_count}, IP:{ip_count})")
     
     return servers
 
@@ -444,40 +486,97 @@ def get_slow_servers_for_city(city: str, ip_dir: str = "ip", verbose: bool = Tru
     return servers
 
 
-def prioritize_servers(city: str, servers: List[str]) -> List[str]:
+def get_valid_servers(city: str, stream: str, verify: bool, target_count: int, auto_mode: bool) -> Tuple[List[str], List[str]]:
     """
-    对服务器列表按优先级重新排序
-    优先级：good服务器 > 其他服务器（保持原顺序）
+    获取并验证服务器
+    流程：
+    1. 获取 good 服务器并验证连通性
+    2. 获取 precise/quick 服务器并验证连通性
+    3. 合并去重（good 服务器优先）
+    4. 如果不足，从低速服务器补充
+    返回: (所有验证通过的服务器列表, 优先级排序后的服务器列表)
     """
-    # 读取 good 服务器列表
-    good_file = Path(CONFIG["ip_dir"]) / f"{city}_ip_good.txt"
-    good_servers_set = set()
-    if good_file.exists():
-        with open(good_file, 'r', encoding='utf-8') as f:
-            for line in f:
-                line = line.strip()
-                if not line or line.startswith('#'):
-                    continue
-                if line.startswith('http://'):
-                    line = line[7:]
-                if line.startswith('https://'):
-                    line = line[8:]
-                if ':' in line:
-                    resolved_key = get_resolved_key(line)
-                    good_servers_set.add(resolved_key)
+    verbose = not auto_mode
     
-    # 分离 good 服务器和普通服务器
-    good_servers = []
-    normal_servers = []
-    for server in servers:
+    # 1. 获取 good 服务器并验证
+    good_servers = get_good_servers(city, stream, verify, verbose=verbose)
+    
+    # 2. 获取测试达标服务器（precise/quick）
+    test_servers_with_speed = get_test_servers(city, CONFIG["ip_dir"], verbose=verbose)
+    test_servers = [server for server, _ in test_servers_with_speed]
+    
+    if verbose and CONFIG['verbose']:
+        print(f"  测试达标服务器: {len(test_servers)} 个")
+    
+    # 3. 验证测试达标服务器
+    valid_test = []
+    if verify and stream and test_servers:
+        if verbose and CONFIG['verbose']:
+            print(f"  正在验证 {len(test_servers)} 个测试达标服务器...")
+        
+        for server in test_servers:
+            if verify_server(server, stream, CONFIG["verify_timeout"]):
+                valid_test.append(server)
+                if verbose and CONFIG['verbose']:
+                    print(f"    ✓ {server} 验证通过 ({len(valid_test)}/{len(test_servers)})")
+            else:
+                if verbose and CONFIG['verbose']:
+                    print(f"    ✗ {server} 验证失败")
+        
+        if verbose and CONFIG['verbose']:
+            print(f"  测试达标服务器验证通过 {len(valid_test)}/{len(test_servers)} 个")
+    else:
+        valid_test = test_servers
+        if verbose and CONFIG['verbose']:
+            print(f"  跳过验证，使用全部 {len(valid_test)} 个测试达标服务器")
+    
+    # 4. 合并 good 服务器和测试达标服务器（去重）
+    # 使用解析后的IP作为去重键
+    good_keys = {get_resolved_key(s) for s in good_servers}
+    
+    # 先添加 good 服务器
+    all_servers = good_servers.copy()
+    
+    # 再添加不在 good 中的测试达标服务器
+    for server in valid_test:
         resolved_key = get_resolved_key(server)
-        if resolved_key in good_servers_set:
-            good_servers.append(server)
-        else:
-            normal_servers.append(server)
+        if resolved_key not in good_keys:
+            all_servers.append(server)
+            good_keys.add(resolved_key)
     
-    # good 服务器在前，普通服务器在后
-    return good_servers + normal_servers
+    if verbose and CONFIG['verbose']:
+        print(f"  合并后共 {len(all_servers)} 个服务器 (优质: {len(good_servers)}, 测试达标: {len(valid_test)})")
+    
+    # 5. 如果服务器不足，从低速服务器补充（仅定制版需要）
+    if len(all_servers) < target_count:
+        slow_servers = get_slow_servers_for_city(city, CONFIG["ip_dir"], verbose=verbose)
+        if slow_servers and verbose and CONFIG['verbose']:
+            print(f"  服务器不足 ({len(all_servers)}/{target_count})，尝试补充低速服务器...")
+        
+        valid_slow = []
+        if verify and stream:
+            for server in slow_servers:
+                if len(all_servers) + len(valid_slow) >= target_count:
+                    break
+                if verify_server(server, stream, CONFIG["verify_timeout"]):
+                    valid_slow.append(server)
+                    if verbose and CONFIG['verbose']:
+                        print(f"    ✓ {server} 验证通过 (低速补充)")
+                else:
+                    if verbose and CONFIG['verbose']:
+                        print(f"    ✗ {server} 验证失败")
+        else:
+            valid_slow = slow_servers[:target_count - len(all_servers)]
+        
+        if valid_slow:
+            all_servers.extend(valid_slow)
+            if verbose and CONFIG['verbose']:
+                print(f"  补充低速服务器 {len(valid_slow)} 个，总计 {len(all_servers)} 个")
+    
+    if not all_servers:
+        return [], []
+    
+    return all_servers, all_servers
 
 
 # ==================== 频道分类相关 ====================
@@ -901,75 +1000,6 @@ def classify_channels(channels: List[Dict], city: str, channel_index: Dict,
 
 
 # ==================== 核心生成函数 ====================
-
-def get_valid_servers(city: str, stream: str, verify: bool, target_count: int, auto_mode: bool) -> Tuple[List[str], List[str]]:
-    """
-    获取并验证服务器
-    返回: (所有验证通过的服务器列表, 优先级排序后的服务器列表)
-    """
-    # 获取所有优质服务器
-    all_servers = get_all_qualified_servers(city, CONFIG["ip_dir"], verbose=not auto_mode)
-    
-    if CONFIG['verbose'] and not auto_mode and all_servers:
-        print(f"  获取到 {len(all_servers)} 个优质服务器")
-    
-    # 验证所有优质服务器
-    valid_servers = []
-    if verify and stream and all_servers:
-        if CONFIG['verbose'] and not auto_mode:
-            print(f"  正在验证 {len(all_servers)} 个服务器...")
-        
-        for server in all_servers:
-            if verify_server(server, stream, CONFIG["verify_timeout"]):
-                valid_servers.append(server)
-                if CONFIG['verbose'] and not auto_mode:
-                    print(f"    ✓ {server} 验证通过 ({len(valid_servers)}/{len(all_servers)})")
-            else:
-                if CONFIG['verbose'] and not auto_mode:
-                    print(f"    ✗ {server} 验证失败")
-        
-        if CONFIG['verbose'] and not auto_mode:
-            print(f"  验证通过 {len(valid_servers)}/{len(all_servers)} 个")
-    else:
-        valid_servers = all_servers
-        if CONFIG['verbose'] and not auto_mode:
-            print(f"  跳过验证，使用全部 {len(valid_servers)} 个服务器")
-    
-    # 如果优质服务器不足，从低速服务器补充（仅定制版需要）
-    if len(valid_servers) < target_count:
-        slow_servers = get_slow_servers_for_city(city, CONFIG["ip_dir"], verbose=not auto_mode)
-        if slow_servers and CONFIG['verbose'] and not auto_mode:
-            print(f"  优质服务器不足 ({len(valid_servers)}/{target_count})，尝试补充低速服务器...")
-        
-        valid_slow = []
-        if verify and stream:
-            for server in slow_servers:
-                if len(valid_servers) + len(valid_slow) >= target_count:
-                    break
-                if verify_server(server, stream, CONFIG["verify_timeout"]):
-                    valid_slow.append(server)
-                    if CONFIG['verbose'] and not auto_mode:
-                        print(f"    ✓ {server} 验证通过 (低速补充)")
-                else:
-                    if CONFIG['verbose'] and not auto_mode:
-                        print(f"    ✗ {server} 验证失败")
-        else:
-            valid_slow = slow_servers[:target_count - len(valid_servers)]
-        
-        if valid_slow:
-            valid_servers.extend(valid_slow)
-            if CONFIG['verbose'] and not auto_mode:
-                print(f"  补充低速服务器 {len(valid_slow)} 个，总计 {len(valid_servers)} 个")
-    
-    if not valid_servers:
-        return [], []
-    
-    # 按优先级排序
-    prioritized_servers = prioritize_servers(city, valid_servers)
-    
-    return valid_servers, prioritized_servers
-
-
 def generate_city_playlist(city: str, channel_index: Dict, region_index: Dict, keyword_index: Dict,
                            local_first: bool, max_servers: int,
                            verify: bool, auto_mode: bool,
@@ -1308,7 +1338,7 @@ def main():
     
     source_names = []
     if 'good' in args.server_sources:
-        source_names.append("优先服务器(good)")
+        source_names.append("优质服务器(good)")
     if 'precise' in args.server_sources:
         source_names.append("精确测试(precise)")
     if 'quick' in args.server_sources:
