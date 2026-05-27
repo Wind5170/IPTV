@@ -1,0 +1,15 @@
+# 20260527_1255_precise_slow
+# 服务器地址	速度
+www.hongzhijiaoyu.net:8188	290.25 KB/s
+vpn.jk960.cn:8686	241.72 KB/s
+wmh.wmh.ink:6633	228.94 KB/s
+58.62.234.243:10000	220.09 KB/s
+unraid.cyruslee.top:8888	179.65 KB/s
+113.83.248.104:4200	157.38 KB/s
+www.ruoshui.uno:30001	153.87 KB/s
+113.119.25.156:58888	116.22 KB/s
+183.51.190.25:6633	95.36 KB/s
+nas.xxika.net:8188	78.34 KB/s
+www.ruoshui.uno:554	67.03 KB/s
+www.yahao.host:4022	66.84 KB/s
+liqn.mycloudnas.com:8188	1.77 KB/s

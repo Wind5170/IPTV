@@ -1,3 +1,4 @@
-# 20260526_2321_precise_slow
+# 20260527_1310_precise_slow
 # 服务器地址	速度
-www.liangcl.top:8686	158.33 KB/s
+rhfwily.synology.me:4022	267.81 KB/s
+www.negative.top:50000	258.85 KB/s
