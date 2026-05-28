@@ -68,7 +68,7 @@ CONFIG = {
     },
 }
 
-QUALITY_SUFFIXES = ['HD', '-HD', 'hd', '-hd', '高清', '-高清', 'H264', 'H265', 'HEVC']
+QUALITY_SUFFIXES = ['HD', '-HD', 'hd', '-hd', '高清', '-高清', 'H264', 'H265', 'HEVC', '央视网']
 
 # ==================== 省份排序顺序 ====================
 REGIONS = [
