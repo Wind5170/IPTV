@@ -11,18 +11,24 @@
 
 凤凰中文,http://woc.iiiya.cn:18888/rtp/239.61.2.184:9092
 凤凰资讯,http://woc.iiiya.cn:18888/rtp/239.61.2.183:9086
+CGTN英语,http://woc.iiiya.cn:18888/rtp/239.61.2.19:8108
+CGTN法语,http://woc.iiiya.cn:18888/rtp/239.61.3.44:9782
+CGTN俄语,http://woc.iiiya.cn:18888/rtp/239.61.3.45:9788
+CETV-1综合教育,http://woc.iiiya.cn:18888/rtp/239.61.2.167:8990
+CETV-2空中课堂,http://woc.iiiya.cn:18888/rtp/239.61.3.6:9554
+CETV-4职业教育,http://woc.iiiya.cn:18888/rtp/239.61.3.15:9608
+CHC动作电影,http://woc.iiiya.cn:18888/rtp/239.61.3.16:9616
+中国天气,http://woc.iiiya.cn:18888/rtp/239.61.2.64:8378
+爱上4K,http://woc.iiiya.cn:18888/rtp/239.61.5.164:1025
 北京卡酷少儿,http://woc.iiiya.cn:18888/rtp/239.61.2.222:9320
+上海多彩文体4K,http://woc.iiiya.cn:18888/rtp/239.61.4.145:1025
+上海纪实人文,http://woc.iiiya.cn:18888/rtp/239.61.2.165:8978
+河南武术世界,http://woc.iiiya.cn:18888/rtp/239.61.3.22:9652
+河南文物宝库,http://woc.iiiya.cn:18888/rtp/239.61.3.21:9646
 湖南茶频道,http://woc.iiiya.cn:18888/rtp/239.61.3.59:9872
 湖南金鹰纪实,http://woc.iiiya.cn:18888/rtp/239.61.3.7:9560
 湖南金鹰卡通,http://woc.iiiya.cn:18888/rtp/239.61.2.221:9314
-河南梨园频道,http://woc.iiiya.cn:18888/rtp/239.61.3.19:9634
-河南武术世界,http://woc.iiiya.cn:18888/rtp/239.61.3.22:9652
-河南文物宝库,http://woc.iiiya.cn:18888/rtp/239.61.3.21:9646
-上海纪实人文,http://woc.iiiya.cn:18888/rtp/239.61.2.165:8978
 广东嘉佳卡通,http://woc.iiiya.cn:18888/rtp/239.61.2.72:8426
-中国天气,http://woc.iiiya.cn:18888/rtp/239.61.2.64:8378
-欢笑剧场SDR,http://woc.iiiya.cn:18888/rtp/239.61.4.145:1025
-爱上4K,http://woc.iiiya.cn:18888/rtp/239.61.5.164:1025
 
 福州新闻,http://woc.iiiya.cn:18888/rtp/239.61.5.97:1025
 厦门1,http://woc.iiiya.cn:18888/rtp/239.61.4.139:1025
@@ -34,6 +40,7 @@
 南平新闻,http://woc.iiiya.cn:18888/rtp/239.61.5.92:1025
 龙岩新闻,http://woc.iiiya.cn:18888/rtp/239.61.5.95:1025
 宁德新闻,http://woc.iiiya.cn:18888/rtp/239.61.5.96:1025
+河南梨园频道,http://woc.iiiya.cn:18888/rtp/239.61.3.19:9634
 
 平潭新闻,http://woc.iiiya.cn:18888/rtp/239.61.5.117:1025
 
@@ -50,18 +57,24 @@
 
 凤凰中文,http://remote.jackye.site:8000/rtp/239.61.2.184:9092
 凤凰资讯,http://remote.jackye.site:8000/rtp/239.61.2.183:9086
+CGTN英语,http://remote.jackye.site:8000/rtp/239.61.2.19:8108
+CGTN法语,http://remote.jackye.site:8000/rtp/239.61.3.44:9782
+CGTN俄语,http://remote.jackye.site:8000/rtp/239.61.3.45:9788
+CETV-1综合教育,http://remote.jackye.site:8000/rtp/239.61.2.167:8990
+CETV-2空中课堂,http://remote.jackye.site:8000/rtp/239.61.3.6:9554
+CETV-4职业教育,http://remote.jackye.site:8000/rtp/239.61.3.15:9608
+CHC动作电影,http://remote.jackye.site:8000/rtp/239.61.3.16:9616
+中国天气,http://remote.jackye.site:8000/rtp/239.61.2.64:8378
+爱上4K,http://remote.jackye.site:8000/rtp/239.61.5.164:1025
 北京卡酷少儿,http://remote.jackye.site:8000/rtp/239.61.2.222:9320
+上海多彩文体4K,http://remote.jackye.site:8000/rtp/239.61.4.145:1025
+上海纪实人文,http://remote.jackye.site:8000/rtp/239.61.2.165:8978
+河南武术世界,http://remote.jackye.site:8000/rtp/239.61.3.22:9652
+河南文物宝库,http://remote.jackye.site:8000/rtp/239.61.3.21:9646
 湖南茶频道,http://remote.jackye.site:8000/rtp/239.61.3.59:9872
 湖南金鹰纪实,http://remote.jackye.site:8000/rtp/239.61.3.7:9560
 湖南金鹰卡通,http://remote.jackye.site:8000/rtp/239.61.2.221:9314
-河南梨园频道,http://remote.jackye.site:8000/rtp/239.61.3.19:9634
-河南武术世界,http://remote.jackye.site:8000/rtp/239.61.3.22:9652
-河南文物宝库,http://remote.jackye.site:8000/rtp/239.61.3.21:9646
-上海纪实人文,http://remote.jackye.site:8000/rtp/239.61.2.165:8978
 广东嘉佳卡通,http://remote.jackye.site:8000/rtp/239.61.2.72:8426
-中国天气,http://remote.jackye.site:8000/rtp/239.61.2.64:8378
-欢笑剧场SDR,http://remote.jackye.site:8000/rtp/239.61.4.145:1025
-爱上4K,http://remote.jackye.site:8000/rtp/239.61.5.164:1025
 
 福州新闻,http://remote.jackye.site:8000/rtp/239.61.5.97:1025
 厦门1,http://remote.jackye.site:8000/rtp/239.61.4.139:1025
@@ -73,5 +86,6 @@
 南平新闻,http://remote.jackye.site:8000/rtp/239.61.5.92:1025
 龙岩新闻,http://remote.jackye.site:8000/rtp/239.61.5.95:1025
 宁德新闻,http://remote.jackye.site:8000/rtp/239.61.5.96:1025
+河南梨园频道,http://remote.jackye.site:8000/rtp/239.61.3.19:9634
 
 平潭新闻,http://remote.jackye.site:8000/rtp/239.61.5.117:1025
