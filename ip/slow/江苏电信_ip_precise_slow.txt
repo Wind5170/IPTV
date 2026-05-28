@@ -1,18 +1,12 @@
-# 20260528_1355_precise_slow
+# 20260528_2318_precise_slow
 # 服务器地址	速度
-nas3.bycza.top:8100	279.38 KB/s
-nas2.bycza.top:9000	276.71 KB/s
-www.foreveryyl.top:8001	263.36 KB/s
-jw318.synology.me:888	260.44 KB/s
-121.237.245.48:8888	244.64 KB/s
-www.sclvip.top:8787	230.50 KB/s
-121.237.245.72:8888	225.93 KB/s
-istoreos.sclvip.top:5566	221.85 KB/s
-kouki.pro:8888	213.26 KB/s
-ikuai-v4.17271201.xyz:4000	198.84 KB/s
-www.wxzmz.com:8800	197.67 KB/s
-49.79.83.221:58888	160.51 KB/s
-114.226.212.140:8787	142.96 KB/s
-114.226.212.138:8787	141.47 KB/s
-home.amucn.net:8800	140.13 KB/s
-121.232.71.87:8888	37.23 KB/s
+121.237.245.48:8888	254.74 KB/s
+121.237.245.72:8888	234.89 KB/s
+kouki.pro:8888	208.99 KB/s
+www.sclvip.top:8787	88.35 KB/s
+istoreos.sclvip.top:5566	79.60 KB/s
+114.226.212.140:8787	75.26 KB/s
+114.226.212.138:8787	62.42 KB/s
+home.amucn.net:8800	56.80 KB/s
+ikuai-v4.17271201.xyz:4000	41.38 KB/s
+121.232.71.87:8888	27.47 KB/s

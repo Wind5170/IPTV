@@ -1,17 +1,16 @@
-# 20260528_1400_precise_slow
+# 20260528_2321_precise_slow
 # 服务器地址	速度
-wxk.x3322.net:8188	298.04 KB/s
-www.yanbingg.com:18888	297.90 KB/s
-jgw.ddns.seak.bid:9999	229.03 KB/s
-wan1.tangwudi.cc:47859	203.56 KB/s
-hhska.3322.org:18097	140.17 KB/s
-171.213.148.199:8188	125.73 KB/s
-ch3829.myds.me:4022	119.21 KB/s
-nas2.roxette119.cn:5555	117.16 KB/s
-171.213.215.194:4022	114.30 KB/s
-hhska.3322.org:8096	110.55 KB/s
-www.160638.xyz:8888	107.52 KB/s
-171.213.243.52:8188	98.59 KB/s
-171.213.147.35:4022	46.99 KB/s
-xmzj.f3322.net:8188	46.65 KB/s
-171.213.158.178:4022	31.83 KB/s
+www.yanbingg.com:18888	138.51 KB/s
+www.yanbingg.com:1888	138.11 KB/s
+171.213.154.245:8188	129.76 KB/s
+171.213.142.172:8188	127.57 KB/s
+171.213.215.194:4022	127.36 KB/s
+ch3829.myds.me:4022	124.75 KB/s
+nas2.roxette119.cn:5555	124.05 KB/s
+www.160638.xyz:8888	123.87 KB/s
+171.213.243.52:8188	122.05 KB/s
+wxk.x3322.net:8188	121.49 KB/s
+171.213.158.178:4022	103.23 KB/s
+jgw.ddns.seak.bid:9999	56.64 KB/s
+hhska.3322.org:8096	5.91 KB/s
+hhska.3322.org:18097	5.90 KB/s

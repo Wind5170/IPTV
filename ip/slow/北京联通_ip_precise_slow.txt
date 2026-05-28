@@ -1,13 +1,3 @@
-# 20260528_1344_precise_slow
+# 20260528_2310_precise_slow
 # 服务器地址	速度
-aecm6mg6ilmqybhl.nexusedgeio.com:5588	279.26 KB/s
-home.hexuntong.net:8188	190.22 KB/s
-www.irisxxd.cn:8888	172.46 KB/s
-www.irisxxd.cn:8000	168.54 KB/s
-happylive.asuscomm.com:8888	149.89 KB/s
-superpostmail.3322.org:1193	143.85 KB/s
-trulyliu.vicp.net:8622	132.76 KB/s
-triq.cc:8012	98.43 KB/s
-111.196.135.156:20000	90.87 KB/s
-tnv.asuscomm.com:8012	77.32 KB/s
-www.ikuai.me:4022	34.25 KB/s
+rt.tunan.tech:7070	43.40 KB/s

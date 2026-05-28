@@ -1,9 +1,10 @@
-# 20260528_1402_precise
+# 20260528_2324_precise
 # 服务器地址	速度
-36.24.116.110:8888	504.81 KB/s
-maymoon.asuscomm.com:7777	489.17 KB/s
-125.115.205.131:4023	447.92 KB/s
-60.185.249.86:4022	439.09 KB/s
-9.lexlong.top:8001	413.68 KB/s
-rhfwily.synology.me:4022	409.91 KB/s
-www.negative.top:50000	397.26 KB/s
+36.24.116.110:8888	521.25 KB/s
+60.185.249.86:4022	502.83 KB/s
+125.115.205.131:4023	496.95 KB/s
+maymoon.asuscomm.com:7777	494.38 KB/s
+rhfwily.synology.me:4022	477.92 KB/s
+9.lexlong.top:8001	475.64 KB/s
+www.liangcl.top:8686	473.83 KB/s
+60.183.109.150:8000	466.70 KB/s

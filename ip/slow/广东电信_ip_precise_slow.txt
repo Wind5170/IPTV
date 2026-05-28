@@ -1,5 +1,5 @@
-# 20260528_1347_precise_slow
+# 20260528_2312_precise_slow
 # 服务器地址	速度
-www.ruoshui.uno:554	111.06 KB/s
-www.ruoshui.uno:30001	102.59 KB/s
-nas.xxika.net:8188	1.54 KB/s
+183.236.43.98:4013	278.85 KB/s
+www.ruoshui.uno:554	51.75 KB/s
+www.ruoshui.uno:30001	40.54 KB/s

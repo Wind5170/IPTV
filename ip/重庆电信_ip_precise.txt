@@ -1,3 +1,4 @@
-# 20260528_1345_precise
+# 20260528_2310_precise
 # 服务器地址	速度
-ipv4.v1.msen.site:8000	419.07 KB/s
+ipv4.v1.msen.site:8000	456.72 KB/s
+17782331118.top:8188	454.73 KB/s
