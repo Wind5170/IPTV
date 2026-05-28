@@ -1,13 +1,13 @@
-# 20260527_2312_precise_slow
+# 20260528_1344_precise_slow
 # 服务器地址	速度
-unicom3.swjms.com:4022	287.97 KB/s
-happylive.asuscomm.com:8888	282.28 KB/s
-awnjnmctlaxqsapgzjjsvvfsp.xyz:4022	274.24 KB/s
-aikuai.natnum.top:8099	225.18 KB/s
-trulyliu.vicp.net:8622	197.66 KB/s
-tnv.asuscomm.com:8012	60.16 KB/s
-triq.cc:8012	34.90 KB/s
-superpostmail.3322.org:1193	17.71 KB/s
-n2.192372.xyz:8888	13.11 KB/s
-www.irisxxd.cn:8000	12.65 KB/s
-www.irisxxd.cn:8888	12.64 KB/s
+aecm6mg6ilmqybhl.nexusedgeio.com:5588	279.26 KB/s
+home.hexuntong.net:8188	190.22 KB/s
+www.irisxxd.cn:8888	172.46 KB/s
+www.irisxxd.cn:8000	168.54 KB/s
+happylive.asuscomm.com:8888	149.89 KB/s
+superpostmail.3322.org:1193	143.85 KB/s
+trulyliu.vicp.net:8622	132.76 KB/s
+triq.cc:8012	98.43 KB/s
+111.196.135.156:20000	90.87 KB/s
+tnv.asuscomm.com:8012	77.32 KB/s
+www.ikuai.me:4022	34.25 KB/s

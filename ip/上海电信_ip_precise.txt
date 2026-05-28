@@ -1,11 +1,10 @@
-# 20260527_2326_precise
+# 20260528_1359_precise
 # 服务器地址	速度
-wsc2007123.myds.me:30100	507.22 KB/s
-shenhua.asuscomm.com:8888	468.36 KB/s
-rongrong.synology.me:14022	467.91 KB/s
-180.165.28.145:4022	460.10 KB/s
-223.167.230.73:4022	442.08 KB/s
-www.rogerxlj.top:9998	429.59 KB/s
-cx.shscxzx.cn:8899	424.08 KB/s
-home888.uttcare.com:8889	418.01 KB/s
-116.234.78.45:4022	417.04 KB/s
+223.167.230.73:4022	451.31 KB/s
+116.237.68.208:4022	444.92 KB/s
+home888.uttcare.com:8889	419.91 KB/s
+116.234.78.45:4022	419.18 KB/s
+wsc2007123.myds.me:30100	416.38 KB/s
+cx.shscxzx.cn:8899	394.23 KB/s
+rongrong.synology.me:14022	361.26 KB/s
+shenhua.asuscomm.com:8888	359.57 KB/s

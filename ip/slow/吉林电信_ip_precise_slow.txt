@@ -1,0 +1,3 @@
+# 20260528_1353_precise_slow
+# 服务器地址	速度
+tv.yzzdxc.cn:16666	273.92 KB/s

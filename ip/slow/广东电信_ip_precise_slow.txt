@@ -1,5 +1,5 @@
-# 20260527_2315_precise_slow
+# 20260528_1347_precise_slow
 # 服务器地址	速度
-www.ruoshui.uno:554	162.93 KB/s
-www.ruoshui.uno:30001	147.14 KB/s
-www.tyio.cc:8188	34.25 KB/s
+www.ruoshui.uno:554	111.06 KB/s
+www.ruoshui.uno:30001	102.59 KB/s
+nas.xxika.net:8188	1.54 KB/s

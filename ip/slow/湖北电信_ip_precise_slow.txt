@@ -1,0 +1,7 @@
+# 20260528_1353_precise_slow
+# 服务器地址	速度
+hiliu.myds.me:18088	282.82 KB/s
+p365z34227.oicp.vip:60002	230.88 KB/s
+gonas.xyz:38128	220.90 KB/s
+59.174.163.201:4022	72.30 KB/s
+qnapxuan.mycloudnas.com:10001	65.36 KB/s
