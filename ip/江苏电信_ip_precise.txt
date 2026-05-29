@@ -1,24 +1,12 @@
-# 20260528_2318_precise
+# 20260529_1257_precise
 # 服务器地址	速度
-y1nf0x.myds.me:5888	519.35 KB/s
-980413.xyz:6000	516.84 KB/s
-dx.joygala.cn:8118	514.63 KB/s
-121.226.105.44:6888	513.84 KB/s
-121.230.33.64:8000	484.23 KB/s
-nas3.bycza.top:8100	482.30 KB/s
-h.vanshun.com:8802	479.71 KB/s
-106.111.244.24:58099	477.32 KB/s
-106.111.244.23:58099	476.97 KB/s
-gcyp.mycloudnas.com:4000	476.04 KB/s
-49.79.83.221:58888	461.45 KB/s
-iptv.feng.js.cn:58099	459.39 KB/s
-njbobo.mycloudnas.com:4022	453.46 KB/s
-49.77.104.95:8554	439.61 KB/s
-nas2.bycza.top:9000	438.12 KB/s
-www.yzddy.top:8800	430.15 KB/s
-www.foreveryyl.top:8001	426.26 KB/s
-vs.heylc.com:4022	423.40 KB/s
-zp.zshwx.cn:8888	420.78 KB/s
-j1900.silicaite.top:58888	348.21 KB/s
-jw318.synology.me:888	345.17 KB/s
-t.7ze.top:4022	319.17 KB/s
+lygzou.asuscomm.com:19999	417.95 KB/s
+121.226.105.44:6888	415.60 KB/s
+gcyp.mycloudnas.com:4000	412.13 KB/s
+dx.joygala.cn:8118	391.24 KB/s
+jw318.synology.me:888	362.98 KB/s
+www.foreveryyl.top:8001	362.25 KB/s
+t.7ze.top:4022	355.64 KB/s
+vs.heylc.com:4022	347.49 KB/s
+njbobo.mycloudnas.com:4022	326.81 KB/s
+202.8090pc.cn:58888	321.30 KB/s

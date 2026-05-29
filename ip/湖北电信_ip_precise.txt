@@ -1,10 +1,6 @@
-# 20260528_2316_precise
+# 20260529_1254_precise
 # 服务器地址	速度
-www.661130.xyz:8188	501.74 KB/s
-gonas.xyz:38128	466.54 KB/s
-wlei.myds.me:52057	462.52 KB/s
-59.174.163.201:4022	454.73 KB/s
-p365z34227.oicp.vip:60002	454.03 KB/s
-qnapxuan.mycloudnas.com:10001	442.89 KB/s
-bk.myds.me:8899	437.47 KB/s
-zhangkx717.cn:9999	387.09 KB/s
+bk.myds.me:8899	397.23 KB/s
+wlei.myds.me:52057	376.58 KB/s
+gonas.xyz:38128	348.93 KB/s
+p365z34227.oicp.vip:60002	341.34 KB/s
