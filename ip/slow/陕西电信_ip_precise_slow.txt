@@ -1,3 +1,0 @@
-# 20260529_1300_precise_slow
-# 服务器地址	速度
-ddns.xryo.cn:8888	156.88 KB/s

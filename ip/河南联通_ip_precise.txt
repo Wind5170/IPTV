@@ -1,6 +1,6 @@
-# 20260529_1252_precise
+# 20260529_2313_precise
 # 服务器地址	速度
-xz.78057805.xyz:4002	434.72 KB/s
-123.13.245.78:4002	426.64 KB/s
-www.flyju.top:8899	415.95 KB/s
-www.siyao.xin:4000	341.45 KB/s
+xz.78057805.xyz:4002	391.38 KB/s
+123.13.245.78:4002	385.65 KB/s
+www.flyju.top:8899	350.01 KB/s
+www.siyao.xin:4000	341.29 KB/s

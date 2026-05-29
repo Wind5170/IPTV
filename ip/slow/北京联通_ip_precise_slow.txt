@@ -1,16 +1,18 @@
-# 20260529_1245_precise_slow
+# 20260529_2307_precise_slow
 # 服务器地址	速度
-114.254.83.7:4022	299.52 KB/s
-laiboy.myds.me:58686	280.40 KB/s
-owvpn.famcloud.top:9878	279.92 KB/s
-unicom3.swjms.com:4022	270.59 KB/s
-aecm6mg6ilmqybhl.nexusedgeio.com:5588	263.56 KB/s
-trulyliu.vicp.net:8622	168.76 KB/s
-superpostmail.3322.org:1193	126.15 KB/s
-home.hexuntong.net:8188	66.19 KB/s
-happylive.asuscomm.com:8888	27.26 KB/s
-tnv.asuscomm.com:8012	13.74 KB/s
-www.irisxxd.cn:8000	5.21 KB/s
-www.irisxxd.cn:8888	5.19 KB/s
-happy2015.synology.me:4000	2.11 KB/s
-triq.cc:8012	1.67 KB/s
+laiboy.myds.me:58686	266.08 KB/s
+aecm6mg6ilmqybhl.nexusedgeio.com:5588	245.30 KB/s
+zola8888.i234.me:23234	216.37 KB/s
+trulyliu.vicp.net:8622	157.15 KB/s
+unicom3.swjms.com:4022	110.08 KB/s
+happylive.asuscomm.com:8888	80.33 KB/s
+tnv.asuscomm.com:8012	37.26 KB/s
+aikuai.natnum.top:8099	36.18 KB/s
+www.ikuai.me:4022	35.41 KB/s
+www.irisxxd.cn:8000	20.74 KB/s
+www.irisxxd.cn:8888	20.68 KB/s
+home.hexuntong.net:8188	5.78 KB/s
+111.196.135.156:20000	2.29 KB/s
+www.xiongnas.top:8888	2.26 KB/s
+triq.cc:8012	1.65 KB/s
+owvpn.famcloud.top:9878	1.58 KB/s
