@@ -1,3 +1,5 @@
-# 20260529_2314_precise_slow
+# 20260530_1126_precise_slow
 # 服务器地址	速度
-eyfs.vicp.net:8888	178.44 KB/s
+eyfs.vicp.net:8888	99.11 KB/s
+hyxy26.top:4022	80.16 KB/s
+58.46.31.195:8188	0.40 KB/s
