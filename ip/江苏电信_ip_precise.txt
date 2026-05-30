@@ -1,17 +1,19 @@
-# 20260530_1128_precise
+# 20260530_2313_precise
 # 服务器地址	速度
-lygzou.asuscomm.com:19999	466.37 KB/s
-y1nf0x.myds.me:5888	459.93 KB/s
-njbobo.mycloudnas.com:4022	459.80 KB/s
-h.vanshun.com:8802	442.96 KB/s
-www.foreveryyl.top:8001	412.86 KB/s
-dx.joygala.cn:8118	401.48 KB/s
-106.111.244.8:58099	397.07 KB/s
-106.111.244.12:58099	383.94 KB/s
-121.226.105.44:6888	373.49 KB/s
-zp.zshwx.cn:8888	369.80 KB/s
-istoreos.sclvip.top:5566	335.58 KB/s
-jw318.synology.me:888	312.60 KB/s
-gcyp.mycloudnas.com:4000	308.68 KB/s
-iptv.feng.js.cn:58099	308.13 KB/s
-j1900.silicaite.top:58888	303.68 KB/s
+114.226.212.138:8787	413.04 KB/s
+114.226.212.140:8787	410.27 KB/s
+y1nf0x.myds.me:5888	400.25 KB/s
+njbobo.mycloudnas.com:4022	366.53 KB/s
+49.79.83.81:58888	365.57 KB/s
+49.77.104.95:8554	360.78 KB/s
+www.sclvip.top:8787	360.73 KB/s
+j1900.silicaite.top:58888	360.00 KB/s
+121.226.105.44:6888	359.46 KB/s
+gcyp.mycloudnas.com:4000	358.45 KB/s
+dx.joygala.cn:8118	350.37 KB/s
+istoreos.sclvip.top:5566	343.49 KB/s
+ikuai-v4.17271201.xyz:4000	340.88 KB/s
+vs.heylc.com:4022	339.44 KB/s
+www.foreveryyl.top:8001	339.25 KB/s
+jw318.synology.me:888	337.99 KB/s
+h.vanshun.com:8802	319.13 KB/s

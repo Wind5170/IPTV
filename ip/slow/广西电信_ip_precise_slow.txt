@@ -1,3 +1,0 @@
-# 20260530_1121_precise_slow
-# 服务器地址	速度
-www.vvlcc.cn:8188	78.91 KB/s
