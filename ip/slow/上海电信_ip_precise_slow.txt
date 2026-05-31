@@ -1,7 +1,8 @@
-# 20260530_2320_precise_slow
+# 20260531_1149_precise_slow
 # 服务器地址	速度
-rongrong.synology.me:14022	211.26 KB/s
-yyf1991.top:9999	195.93 KB/s
-180.159.68.231:4022	152.65 KB/s
-youngx.top:4022	18.02 KB/s
-123.60.75.150:540	0.04 KB/s
+yyf1991.top:9999	212.22 KB/s
+116.237.68.208:4022	166.61 KB/s
+rongrong.synology.me:14022	122.25 KB/s
+180.159.68.231:4022	48.49 KB/s
+home888.uttcare.com:8889	8.55 KB/s
+123.60.75.150:540	0.20 KB/s
