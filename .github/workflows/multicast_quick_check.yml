@@ -2,8 +2,8 @@ name: Multicast Quick Check
 
 on:
   schedule:
-    # 每天凌晨 2:00 执行
-    - cron: '0 2 * * *'
+    # 每天凌晨 4:00 执行
+    - cron: '0 12 * * *'
   workflow_dispatch:
 
 jobs:
