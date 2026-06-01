@@ -41,13 +41,13 @@ jobs:
          python multicast_source_probe.py --test-mode full --auto --city 四川电信 
 
          # 全量模式 + 指定城市
-         python multicast_source_probe.py --test-mode full --city 江苏电信
+         # python multicast_source_probe.py --test-mode full --city 江苏电信
 
          # 全量模式 + 自动模式（处理全部城市）
-         python multicast_source_probe.py --test-mode full --auto
+         # python multicast_source_probe.py --test-mode full --auto
 
          # 全量模式 + 精确测试源
-         python multicast_source_probe.py --test-mode full --source precise
+         # python multicast_source_probe.py --test-mode full --source precise
       
       - name: Commit and push changes
         run: |
