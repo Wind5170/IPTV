@@ -2,7 +2,8 @@ name: udpxy_Scanner
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    # 每天 23:00 执行
+    - cron: '0 15 * * *'
   workflow_dispatch:
 
 jobs:
