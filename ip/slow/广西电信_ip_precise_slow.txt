@@ -1,3 +1,3 @@
 # 20260601_1608_precise_slow
 # 服务器地址	速度
-www.hongzhijiaoyu.net:8188	178.07 KB/s
+www.vvlcc.cn:8188	130.57 KB/s
