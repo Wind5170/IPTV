@@ -861,16 +861,20 @@ def main():
         print(f"请确保 {config['rtp_dir']} 目录下有组播源文件（如：北京电信.txt）")
         return
     
-    if not auto_mode:
+    if not auto_mode and not args.city:
         print(f"\n找到 {len(source_files)} 个组播源文件:")
         print(print_city_list(source_files))
     
     # 选择城市
     if args.city:
+        # 指定城市模式
         selected_cities = [args.city]
         if not any(city == args.city for city, _ in source_files):
             print(f"错误: 未找到城市 '{args.city}'")
             return
+        # 如果指定了 auto_mode，在指定城市模式下也启用自动模式的特性（不显示进度条）
+        if auto_mode:
+            print(f"\n自动模式: 处理指定城市 {args.city}")
     elif auto_mode:
         # 自动模式：处理全部城市
         selected_cities = [city for city, _ in source_files]
