@@ -2,8 +2,8 @@ name: Multicast Source Probe
 
 on:
   schedule:
-    # 每天凌晨 3:00 执行
-    - cron: '0 3 * * *'
+    # 每天凌晨 6:00 执行
+    - cron: '0 14 * * *'
   workflow_dispatch:
 
 jobs:
