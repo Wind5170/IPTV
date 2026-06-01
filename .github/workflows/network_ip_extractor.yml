@@ -2,7 +2,8 @@ name: Network_IP_Extractor
 
 on:
   schedule:
-    - cron: '0 4 * * *'  # 每天凌晨4点
+    # 每天凌晨 1:00 执行
+    - cron: '0 9 * * *'
   workflow_dispatch:
 
 jobs:
