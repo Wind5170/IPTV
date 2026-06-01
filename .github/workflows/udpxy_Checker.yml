@@ -2,7 +2,8 @@ name: udpxy_Checker
 
 on:
   schedule:
-    - cron: '0 22,10 * * *'
+    # 每天凌晨 2:00 执行
+    - cron: '0 10 * * *'
   workflow_dispatch:
 
 jobs:
