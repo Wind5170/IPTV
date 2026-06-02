@@ -216,24 +216,33 @@ def is_valid_multicast_addr(addr):
     """判断是否为有效的组播地址"""
     if not addr:
         return False
-    if addr.startswith('#'):
+    # 去掉协议前缀后检查
+    check_addr = addr
+    if check_addr.startswith('rtp://'):
+        check_addr = check_addr[6:]
+    elif check_addr.startswith('udp://'):
+        check_addr = check_addr[6:]
+    if check_addr.startswith('#'):
         return False
-    if addr.startswith(('rtp://', 'udp://')):
-        return True
-    if ':' in addr and addr.count('.') >= 2:
+    if ':' in check_addr and check_addr.count('.') >= 2:
         return True
     return False
 
 
 def normalize_addr(addr):
-    """规范化组播地址，确保统一格式"""
+    """规范化组播地址，统一去掉协议前缀，只保留 IP:端口"""
     if not addr:
         return addr
     addr = addr.strip()
-    if addr.startswith(('rtp://', 'udp://')):
-        return addr
+    # 去掉 rtp:// 前缀
+    if addr.startswith('rtp://'):
+        addr = addr[6:]
+    # 去掉 udp:// 前缀
+    elif addr.startswith('udp://'):
+        addr = addr[6:]
+    # 已经是 IP:端口 格式，直接返回
     if ':' in addr and addr.count('.') >= 2:
-        return 'rtp://' + addr
+        return addr
     return addr
 
 
@@ -307,11 +316,10 @@ def parse_multicast_file(file_path, default_region=None):
 
             addr = normalize_addr(addr)
 
-            if addr.startswith(('rtp://', 'udp://')):
-                if tag == "无效":
-                    items[category_part]["failed"].append({"name": name, "addr": addr})
-                else:
-                    items[category_part]["active"].append({"name": name, "addr": addr})
+            if tag == "无效":
+                items[category_part]["failed"].append({"name": name, "addr": addr})
+            else:
+                items[category_part]["active"].append({"name": name, "addr": addr})
         elif is_valid_multicast_addr(stripped):
             category_part = default_region if default_region else "未分类"
             if category_part not in items:
@@ -568,9 +576,11 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
     # 确定需要测试的项
     all_test_items = []
     new_data_items = []
+    match_count = 0
 
     if retest_mode == 'invalid_only':
         invalid_addrs = {item["addr"] for item in invalid_existing}
+        
         for category, data in items.items():
             for item in data["active"]:
                 if item["addr"] not in all_checked_addrs:
@@ -580,12 +590,17 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
                 elif item["addr"] in invalid_addrs:
                     item["category"] = category
                     all_test_items.append(item)
+                else:
+                    match_count += 1
             for item in data["failed"]:
                 if item["addr"] not in all_checked_addrs:
                     new_data_items.append(item)
                 item["category"] = category
                 all_test_items.append(item)
+        
         if not auto_mode:
+            print(f"  已有结果: {len(all_checked_addrs)} 条")
+            print(f"  匹配成功: {match_count} 个, 新增源: {len(new_data_items)} 个, 重测无效: {len(all_test_items) - len(new_data_items)} 个")
             if new_data_items:
                 print(f"  新增测试: {len(new_data_items)} 个")
             if len(all_test_items) > len(new_data_items):
@@ -679,7 +694,11 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
                 break
             addr = item["addr"]
             name = item.get("name", "")
-            result = test_multicast_url(addr, server, CONFIG['retry_count'])
+            # 测试时需要有协议前缀的地址
+            test_addr = addr
+            if not test_addr.startswith(('rtp://', 'udp://')):
+                test_addr = 'rtp://' + test_addr
+            result = test_multicast_url(test_addr, server, CONFIG['retry_count'])
             _, is_valid, status, _ = result
             display_name = name if name else addr
             with print_lock:
@@ -736,11 +755,13 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
     # 写入结果文件
     try:
         with open(checked_file, 'w', encoding='utf-8') as f:
-            f.write(f"# {time.strftime('%Y%m%d_%H%M%S')}_quick\n")
+            timestamp = time.strftime('%Y%m%d_%H%M%S')
+            f.write(f"# {timestamp}_quick\n")
             if should_exit:
                 f.write("# 注意: 测试被中断，结果不完整\n")
             for category, data in items.items():
                 for item in data["active"]:
+                    # 保存时不带协议前缀
                     addr = item["addr"].replace('rtp://', '').replace('udp://', '')
                     status = "有效" if item["addr"] in all_valid_addrs else "无效"
                     f.write(f"{item['name']}\t{addr}\t{status}\n")
