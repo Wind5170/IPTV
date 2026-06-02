@@ -1,3 +1,5 @@
-# 20260601_1622_precise_slow
+# 20260602_1429_precise_slow
 # 服务器地址	速度
-9.lexlong.top:8001	271.50 KB/s
+www.negative.top:50000	297.05 KB/s
+rhfwily.synology.me:4022	208.09 KB/s
+www.slq888.cn:9999	44.86 KB/s

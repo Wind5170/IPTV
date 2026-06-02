@@ -1,15 +1,14 @@
-# 20260601_1616_precise
+# 20260602_1423_precise
 # 服务器地址	速度
-121.226.105.44:6888	412.11 KB/s
-114.226.212.140:8787	410.87 KB/s
-fengwei888888.myds.me:58099	406.60 KB/s
-y1nf0x.myds.me:5888	399.78 KB/s
-49.77.104.95:8554	397.43 KB/s
-njbobo.mycloudnas.com:4022	384.48 KB/s
-vs.heylc.com:4022	384.08 KB/s
-istoreos.sclvip.top:5566	377.16 KB/s
-gcyp.mycloudnas.com:4000	361.60 KB/s
-iptv.feng.js.cn:58099	333.55 KB/s
-zp.zshwx.cn:8888	327.96 KB/s
-114.226.212.138:8787	307.96 KB/s
-www.yzddy.top:8800	303.26 KB/s
+114.226.212.140:8787	479.00 KB/s
+121.226.105.44:6888	466.16 KB/s
+www.sclvip.top:8787	438.28 KB/s
+h.vanshun.com:8802	436.54 KB/s
+49.77.104.95:8554	425.40 KB/s
+t.7ze.top:4022	417.89 KB/s
+istoreos.sclvip.top:5566	400.63 KB/s
+49.79.83.81:58888	400.15 KB/s
+vs.heylc.com:4022	386.50 KB/s
+www.yzddy.top:8800	381.99 KB/s
+y1nf0x.myds.me:5888	366.18 KB/s
+jw318.synology.me:888	323.62 KB/s

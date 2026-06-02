@@ -1,7 +1,4 @@
-# 20260601_1619_precise_slow
+# 20260602_1425_precise_slow
 # 服务器地址	速度
-shenhua.asuscomm.com:8888	299.13 KB/s
-yyf1991.top:9999	290.52 KB/s
-home888.uttcare.com:8889	232.11 KB/s
-youngx.top:4022	19.20 KB/s
-123.60.75.150:540	5.01 KB/s
+180.159.68.231:4022	112.86 KB/s
+123.60.75.150:540	2.52 KB/s

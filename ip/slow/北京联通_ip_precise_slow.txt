@@ -1,9 +1,6 @@
-# 20260601_1601_precise_slow
+# 20260602_1409_precise_slow
 # 服务器地址	速度
-laiboy.myds.me:58686	281.27 KB/s
-sphinger.f3322.net:11012	279.13 KB/s
-aecm6mg6ilmqybhl.nexusedgeio.com:5588	216.58 KB/s
-owvpn.famcloud.top:9878	134.04 KB/s
-tonsir.oicp.net:15893	92.92 KB/s
-unicom3.swjms.com:4022	21.95 KB/s
-rt.tunan.tech:7070	11.92 KB/s
+aecm6mg6ilmqybhl.nexusedgeio.com:5588	295.52 KB/s
+owvpn.famcloud.top:9878	235.66 KB/s
+sphinger.f3322.net:11012	141.30 KB/s
+unicom3.swjms.com:4022	55.99 KB/s
