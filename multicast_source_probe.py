@@ -262,14 +262,29 @@ def parse_server_file(city, ip_dir='ip', server_source='quick', max_servers=10, 
 
 
 def normalize_multicast_addr(addr):
-    """规范化组播地址格式为 rtp/ip:port"""
+    """
+    规范化组播地址格式为 rtp/ip:port（统一使用 rtp 协议）
+    支持输入格式：
+    - rtp/ip:port
+    - udp/ip:port
+    - rtp://ip:port
+    - udp://ip:port
+    - ip:port
+    """
     addr = addr.strip()
-    if addr.startswith('rtp/') or addr.startswith('udp/'):
+    # 已经是 rtp/ 格式
+    if addr.startswith('rtp/'):
         return addr
+    # udp/ 格式转为 rtp/
+    if addr.startswith('udp/'):
+        return 'rtp/' + addr[4:]
+    # rtp:// 格式
     if addr.startswith('rtp://'):
-        return addr.replace('rtp://', 'rtp/')
+        return 'rtp/' + addr[6:]
+    # udp:// 格式转为 rtp/
     if addr.startswith('udp://'):
-        return addr.replace('udp://', 'udp/')
+        return 'rtp/' + addr[6:]
+    # 纯 IP:端口 格式
     if ':' in addr:
         parts = addr.split(':')[0]
         if parts.count('.') == 3:
@@ -315,7 +330,17 @@ def parse_source_file(file_path):
 
 def test_with_ffprobe(server, multicast_addr, timeout=15):
     """使用 ffprobe 测试组播源，获取详细信息"""
-    video_url = f"http://{server}/{multicast_addr}"
+    # 构建 URL：需要将 rtp/ 格式转换为 rtp:// 格式
+    # 例如：rtp/239.49.8.19:9614 -> http://server/rtp/239.49.8.19:9614
+    # 或者直接使用地址（如果已经是正确格式）
+    if multicast_addr.startswith('rtp/'):
+        url_path = multicast_addr
+    elif multicast_addr.startswith('udp/'):
+        url_path = multicast_addr
+    else:
+        url_path = f"rtp/{multicast_addr}"
+    
+    video_url = f"http://{server}/{url_path}"
     
     try:
         cmd = [
@@ -412,7 +437,15 @@ def test_with_ffprobe(server, multicast_addr, timeout=15):
 
 def test_with_opencv(server, multicast_addr, timeout=15):
     """使用 OpenCV 测试组播源，获取分辨率信息"""
-    video_url = f"http://{server}/{multicast_addr}"
+    # 构建 URL
+    if multicast_addr.startswith('rtp/'):
+        url_path = multicast_addr
+    elif multicast_addr.startswith('udp/'):
+        url_path = multicast_addr
+    else:
+        url_path = f"rtp/{multicast_addr}"
+    
+    video_url = f"http://{server}/{url_path}"
     
     try:
         start_time = time.time()
@@ -505,11 +538,20 @@ def process_city(city, source_file, config, auto_mode=False):
     # 两种模式都读取已有结果
     if os.path.exists(result_file):
         try:
-            with open(result_file, 'r', encoding='utf-8') as f:
+            with open(result_file, 'r', encoding='utf-8-sig') as f:  # 使用 utf-8-sig 自动去除 BOM
                 for line in f:
                     line = line.strip()
-                    if not line or line.startswith('#'):
+                    if not line:
                         continue
+                    
+                    # 跳过正常的注释行（以 # 开头且不包含有效数据）
+                    if line.startswith('#'):
+                        # 检查是否是格式错误的注释行（包含数据）
+                        # 格式错误的注释行特征：包含无效/有效关键字，或者包含制表符
+                        if '有效' not in line and '无效' not in line:
+                            continue
+                        # 如果包含有效/无效，说明是格式错误的数据行，继续解析
+                    
                     parts = line.split('\t')
                     if len(parts) >= 3:
                         name = parts[0].strip()
@@ -519,6 +561,10 @@ def process_city(city, source_file, config, auto_mode=False):
                         resolution = parts[3].strip() if len(parts) > 3 else ""
                         codec = parts[4].strip() if len(parts) > 4 else ""
                         response = parts[5].strip() if len(parts) > 5 else "0"
+                        
+                        # 验证地址格式
+                        if ':' not in addr:
+                            continue
                         
                         existing_results[addr] = {
                             "name": name,
@@ -536,11 +582,23 @@ def process_city(city, source_file, config, auto_mode=False):
     # 根据测试模式决定需要测试的源
     if config.get('test_mode') == 'incremental':
         # 增量模式：只测试无效或新增的组播源
+        added_count = 0
+        invalid_count = 0
+        match_count = 0
+        
         for name, addr, cat in sources:
             if addr not in existing_results:
                 sources_to_test.append((name, addr, cat))
+                added_count += 1
             elif existing_results[addr]["status"] != "有效":
                 sources_to_test.append((name, addr, cat))
+                invalid_count += 1
+            else:
+                match_count += 1
+        
+        if not auto_mode:
+            print(f"  已有结果: {len(existing_results)} 条")
+            print(f"  匹配成功: {match_count} 个, 新增源: {added_count} 个, 无效源: {invalid_count} 个")
         
         if auto_mode:
             print(f"[{city}] 接续模式: 需测试 {len(sources_to_test)}/{num_sources}", flush=True)
@@ -643,7 +701,7 @@ def process_city(city, source_file, config, auto_mode=False):
             local_results.append({
                 "name": name,
                 "addr": addr,
-                "addr_raw": addr.replace('rtp/', '').replace('udp/', ''),
+                "addr_raw": addr.replace('rtp/', ''),  # 统一去掉 rtp/ 前缀保存
                 "status": "有效" if is_valid else "无效",
                 "resolution": resolution,
                 "codec": codec,
@@ -707,7 +765,7 @@ def process_city(city, source_file, config, auto_mode=False):
             final_results.append({
                 "name": name,
                 "addr": addr,
-                "addr_raw": addr.replace('rtp/', '').replace('udp/', ''),
+                "addr_raw": addr.replace('rtp/', ''),
                 "status": "未知",
                 "resolution": "",
                 "codec": "",
