@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="2026/06/02 14:15精选更新",浙江卫视
+#EXTINF:-1 group-title="2026/06/02 17:03精选更新",浙江卫视
 http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 #EXTINF:-1 group-title="四川电信-组播1",四川卫视4K
 http://171.88.107.244:8118/udp/239.94.0.115:5140
@@ -12285,6 +12285,478 @@ http://120.234.187.66:10086/rtp/239.20.0.128:2054
 http://120.234.187.66:10086/rtp/239.21.0.148:3936
 #EXTINF:-1 group-title="广东移动-组播1",现代教育
 http://120.234.187.66:10086/rtp/239.10.0.138:1025
+#EXTINF:-1 group-title="广东移动-组播2",广东卫视
+http://gaoxing.dns.army:10086/rtp/239.20.0.101:2000
+#EXTINF:-1 group-title="广东移动-组播2",广东卫视
+http://gaoxing.dns.army:10086/rtp/239.20.0.99:3004
+#EXTINF:-1 group-title="广东移动-组播2",广东卫视
+http://gaoxing.dns.army:10086/rtp/239.10.0.111:1025
+#EXTINF:-1 group-title="广东移动-组播2",广东卫视
+http://gaoxing.dns.army:10086/rtp/239.20.0.131:2060
+#EXTINF:-1 group-title="广东移动-组播2",广东卫视
+http://gaoxing.dns.army:10086/rtp/239.10.0.45:1025
+#EXTINF:-1 group-title="广东移动-组播2",广东大湾区卫视
+http://gaoxing.dns.army:10086/rtp/239.21.0.84:3676
+#EXTINF:-1 group-title="广东移动-组播2",大湾区卫视
+http://gaoxing.dns.army:10086/rtp/239.11.0.78:1025
+#EXTINF:-1 group-title="广东移动-组播2",大湾区卫视
+http://gaoxing.dns.army:10086/rtp/239.20.0.125:2048
+#EXTINF:-1 group-title="广东移动-组播2",大湾区卫视
+http://gaoxing.dns.army:10086/rtp/239.10.0.135:1025
+#EXTINF:-1 group-title="广东移动-组播2",广东4K超高清
+http://gaoxing.dns.army:10086/rtp/239.20.0.60:3160
+#EXTINF:-1 group-title="广东移动-组播2",广东IPTV影视推荐
+http://gaoxing.dns.army:10086/rtp/239.20.0.50:3200
+#EXTINF:-1 group-title="广东移动-组播2",广东体育
+http://gaoxing.dns.army:10086/rtp/239.10.0.113:1025
+#EXTINF:-1 group-title="广东移动-组播2",广东体育
+http://gaoxing.dns.army:10086/rtp/239.20.0.114:2026
+#EXTINF:-1 group-title="广东移动-组播2",广东体育频道
+http://gaoxing.dns.army:10086/rtp/239.20.0.103:2004
+#EXTINF:-1 group-title="广东移动-组播2",广东体育频道
+http://gaoxing.dns.army:10086/rtp/239.20.0.97:3012
+#EXTINF:-1 group-title="广东移动-组播2",广东嘉佳卡通
+http://gaoxing.dns.army:10086/rtp/239.21.0.94:3716
+#EXTINF:-1 group-title="广东移动-组播2",广东嘉佳卡通
+http://gaoxing.dns.army:10086/rtp/239.10.0.200:1025
+#EXTINF:-1 group-title="广东移动-组播2",广东嘉佳卡通
+http://gaoxing.dns.army:10086/rtp/239.20.0.119:2036
+#EXTINF:-1 group-title="广东移动-组播2",广东嘉佳卡通
+http://gaoxing.dns.army:10086/rtp/239.10.0.129:1025
+#EXTINF:-1 group-title="广东移动-组播2",广东少儿
+http://gaoxing.dns.army:10086/rtp/239.11.0.81:1025
+#EXTINF:-1 group-title="广东移动-组播2",广东少儿
+http://gaoxing.dns.army:10086/rtp/239.20.0.118:2034
+#EXTINF:-1 group-title="广东移动-组播2",广东少儿
+http://gaoxing.dns.army:10086/rtp/239.10.0.128:1025
+#EXTINF:-1 group-title="广东移动-组播2",广东少儿频道
+http://gaoxing.dns.army:10086/rtp/239.21.0.87:3688
+#EXTINF:-1 group-title="广东移动-组播2",广东影视
+http://gaoxing.dns.army:10086/rtp/239.20.0.117:2032
+#EXTINF:-1 group-title="广东移动-组播2",广东影视频道
+http://gaoxing.dns.army:10086/rtp/239.21.0.85:3680
+#EXTINF:-1 group-title="广东移动-组播2",广东新闻
+http://gaoxing.dns.army:10086/rtp/239.20.0.112:2022
+#EXTINF:-1 group-title="广东移动-组播2",广东新闻频道
+http://gaoxing.dns.army:10086/rtp/239.21.0.93:3712
+#EXTINF:-1 group-title="广东移动-组播2",广东民生
+http://gaoxing.dns.army:10086/rtp/239.20.0.113:2024
+#EXTINF:-1 group-title="广东移动-组播2",广东民生频道
+http://gaoxing.dns.army:10086/rtp/239.21.0.86:3684
+#EXTINF:-1 group-title="广东移动-组播2",广东珠江
+http://gaoxing.dns.army:10086/rtp/239.20.0.111:2020
+#EXTINF:-1 group-title="广东移动-组播2",广东珠江频道
+http://gaoxing.dns.army:10086/rtp/239.20.0.64:3144
+#EXTINF:-1 group-title="广东移动-组播2",广东珠江频道
+http://gaoxing.dns.army:10086/rtp/239.20.0.63:3148
+#EXTINF:-1 group-title="广东移动-组播2",广东经济科教
+http://gaoxing.dns.army:10086/rtp/239.20.0.102:2002
+#EXTINF:-1 group-title="广东移动-组播2",广东经济科教
+http://gaoxing.dns.army:10086/rtp/239.20.0.98:3008
+#EXTINF:-1 group-title="广东移动-组播2",广东经济科教
+http://gaoxing.dns.army:10086/rtp/239.20.0.191:2180
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-卫生健康
+http://gaoxing.dns.army:10086/rtp/239.11.0.185:1025
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-风云足球
+http://gaoxing.dns.army:10086/rtp/239.21.0.70:3620
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-风云足球
+http://gaoxing.dns.army:10086/rtp/239.11.0.59:1025
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-央视文化精品
+http://gaoxing.dns.army:10086/rtp/239.21.0.77:3648
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-风云音乐
+http://gaoxing.dns.army:10086/rtp/239.21.0.79:3656
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-风云音乐
+http://gaoxing.dns.army:10086/rtp/239.11.0.68:1025
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-第一剧场
+http://gaoxing.dns.army:10086/rtp/239.21.0.78:3652
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-第一剧场
+http://gaoxing.dns.army:10086/rtp/239.11.0.67:1025
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-怀旧剧场
+http://gaoxing.dns.army:10086/rtp/239.21.0.75:3640
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-怀旧剧场
+http://gaoxing.dns.army:10086/rtp/239.11.0.64:1025
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-风云剧场
+http://gaoxing.dns.army:10086/rtp/239.21.0.76:3644
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-风云剧场
+http://gaoxing.dns.army:10086/rtp/239.11.0.65:1025
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-世界地理
+http://gaoxing.dns.army:10086/rtp/239.21.0.74:3636
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-世界地理
+http://gaoxing.dns.army:10086/rtp/239.11.0.63:1025
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-电视指南
+http://gaoxing.dns.army:10086/rtp/239.21.0.81:3664
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-电视指南
+http://gaoxing.dns.army:10086/rtp/239.11.0.58:1025
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-兵器科技
+http://gaoxing.dns.army:10086/rtp/239.21.0.80:3660
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-兵器科技
+http://gaoxing.dns.army:10086/rtp/239.11.0.57:1025
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-女性时尚
+http://gaoxing.dns.army:10086/rtp/239.21.0.73:3632
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-女性时尚
+http://gaoxing.dns.army:10086/rtp/239.11.0.62:1025
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-央视台球
+http://gaoxing.dns.army:10086/rtp/239.21.0.71:3624
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-央视台球
+http://gaoxing.dns.army:10086/rtp/239.11.0.60:1025
+#EXTINF:-1 group-title="广东移动-组播2",CGTN英语
+http://gaoxing.dns.army:10086/rtp/239.11.0.103:1025
+#EXTINF:-1 group-title="广东移动-组播2",CGTN英语
+http://gaoxing.dns.army:10086/rtp/239.21.0.109:3776
+#EXTINF:-1 group-title="广东移动-组播2",CGTN西班牙语
+http://gaoxing.dns.army:10086/rtp/239.11.0.105:1025
+#EXTINF:-1 group-title="广东移动-组播2",CGTN西班牙语
+http://gaoxing.dns.army:10086/rtp/239.21.0.111:3800
+#EXTINF:-1 group-title="广东移动-组播2",CGTN法语
+http://gaoxing.dns.army:10086/rtp/239.21.0.112:3788
+#EXTINF:-1 group-title="广东移动-组播2",CGTN法语
+http://gaoxing.dns.army:10086/rtp/239.11.0.106:1025
+#EXTINF:-1 group-title="广东移动-组播2",CGTN阿拉伯语
+http://gaoxing.dns.army:10086/rtp/239.11.0.107:1025
+#EXTINF:-1 group-title="广东移动-组播2",CGTN阿拉伯语
+http://gaoxing.dns.army:10086/rtp/239.21.0.113:3792
+#EXTINF:-1 group-title="广东移动-组播2",CGTN俄语
+http://gaoxing.dns.army:10086/rtp/239.11.0.108:1025
+#EXTINF:-1 group-title="广东移动-组播2",CGTN俄语
+http://gaoxing.dns.army:10086/rtp/239.21.0.114:3796
+#EXTINF:-1 group-title="广东移动-组播2",CETV-1综合教育
+http://gaoxing.dns.army:10086/rtp/239.20.0.213:2224
+#EXTINF:-1 group-title="广东移动-组播2",CETV-2空中课堂
+http://gaoxing.dns.army:10086/rtp/239.21.0.46:3524
+#EXTINF:-1 group-title="广东移动-组播2",CETV-4职业教育
+http://gaoxing.dns.army:10086/rtp/239.21.0.142:3912
+#EXTINF:-1 group-title="广东移动-组播2",CETV-4职业教育
+http://gaoxing.dns.army:10086/rtp/239.11.0.176:1025
+#EXTINF:-1 group-title="广东移动-组播2",CETV-4职业教育
+http://gaoxing.dns.army:10086/rtp/239.21.0.47:3528
+#EXTINF:-1 group-title="广东移动-组播2",CHC影迷电影
+http://gaoxing.dns.army:10086/rtp/239.21.0.119:3820
+#EXTINF:-1 group-title="广东移动-组播2",CHC影迷电影
+http://gaoxing.dns.army:10086/rtp/239.11.0.129:1025
+#EXTINF:-1 group-title="广东移动-组播2",环球奇观
+http://gaoxing.dns.army:10086/rtp/239.20.0.245:2288
+#EXTINF:-1 group-title="广东移动-组播2",环球奇观
+http://gaoxing.dns.army:10086/rtp/239.10.0.36:1025
+#EXTINF:-1 group-title="广东移动-组播2",中国交通
+http://gaoxing.dns.army:10086/rtp/239.10.0.72:1025
+#EXTINF:-1 group-title="广东移动-组播2",中国交通
+http://gaoxing.dns.army:10086/rtp/239.20.0.68:3128
+#EXTINF:-1 group-title="广东移动-组播2",老故事
+http://gaoxing.dns.army:10086/rtp/239.20.0.227:2252
+#EXTINF:-1 group-title="广东移动-组播2",老故事
+http://gaoxing.dns.army:10086/rtp/239.10.0.33:1025
+#EXTINF:-1 group-title="广东移动-组播2",中学生
+http://gaoxing.dns.army:10086/rtp/239.21.0.139:3900
+#EXTINF:-1 group-title="广东移动-组播2",中学生
+http://gaoxing.dns.army:10086/rtp/239.11.0.173:1025
+#EXTINF:-1 group-title="广东移动-组播2",发现之旅
+http://gaoxing.dns.army:10086/rtp/239.21.0.151:3948
+#EXTINF:-1 group-title="广东移动-组播2",发现之旅
+http://gaoxing.dns.army:10086/rtp/239.11.0.182:1025
+#EXTINF:-1 group-title="广东移动-组播2",发现之旅
+http://gaoxing.dns.army:10086/rtp/239.11.0.183:1025
+#EXTINF:-1 group-title="广东移动-组播2",早期教育
+http://gaoxing.dns.army:10086/rtp/239.11.0.100:1025
+#EXTINF:-1 group-title="广东移动-组播2",早期教育
+http://gaoxing.dns.army:10086/rtp/239.21.0.106:3764
+#EXTINF:-1 group-title="广东移动-组播2",华数经典电影
+http://gaoxing.dns.army:10086/rtp/239.20.0.233:2264
+#EXTINF:-1 group-title="广东移动-组播2",华数热播剧场
+http://gaoxing.dns.army:10086/rtp/239.20.0.235:2268
+#EXTINF:-1 group-title="广东移动-组播2",华数魅力时尚
+http://gaoxing.dns.army:10086/rtp/239.20.0.239:2276
+#EXTINF:-1 group-title="广东移动-组播2",华数少儿动画
+http://gaoxing.dns.army:10086/rtp/239.20.0.238:2274
+#EXTINF:-1 group-title="广东移动-组播2",华数谍战剧场
+http://gaoxing.dns.army:10086/rtp/239.20.0.228:2254
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事1
+http://gaoxing.dns.army:10086/rtp/239.20.0.45:3224
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事1
+http://gaoxing.dns.army:10086/udp/239.10.0.87:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事10
+http://gaoxing.dns.army:10086/rtp/239.21.0.10:3380
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事10
+http://gaoxing.dns.army:10086/udp/239.11.0.1:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事11
+http://gaoxing.dns.army:10086/rtp/239.21.0.11:3384
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事11
+http://gaoxing.dns.army:10086/udp/239.11.0.2:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事12
+http://gaoxing.dns.army:10086/rtp/239.21.0.12:3388
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事12
+http://gaoxing.dns.army:10086/udp/239.11.0.3:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事13
+http://gaoxing.dns.army:10086/rtp/239.21.0.13:3392
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事13
+http://gaoxing.dns.army:10086/udp/239.11.0.4:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事14
+http://gaoxing.dns.army:10086/rtp/239.21.0.14:3396
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事14
+http://gaoxing.dns.army:10086/udp/239.11.0.5:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事15
+http://gaoxing.dns.army:10086/rtp/239.21.0.15:3400
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事15
+http://gaoxing.dns.army:10086/udp/239.11.0.6:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事16
+http://gaoxing.dns.army:10086/rtp/239.21.0.16:3404
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事16
+http://gaoxing.dns.army:10086/udp/239.11.0.7:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事17
+http://gaoxing.dns.army:10086/rtp/239.21.0.17:3408
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事17
+http://gaoxing.dns.army:10086/udp/239.11.0.8:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事18
+http://gaoxing.dns.army:10086/rtp/239.21.0.18:3412
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事18
+http://gaoxing.dns.army:10086/udp/239.11.0.9:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事19
+http://gaoxing.dns.army:10086/rtp/239.21.0.19:3416
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事19
+http://gaoxing.dns.army:10086/udp/239.11.0.10:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事2
+http://gaoxing.dns.army:10086/rtp/239.20.0.44:3228
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事2
+http://gaoxing.dns.army:10086/udp/239.10.0.88:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事20
+http://gaoxing.dns.army:10086/rtp/239.21.0.20:3420
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事20
+http://gaoxing.dns.army:10086/udp/239.11.0.11:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事21
+http://gaoxing.dns.army:10086/rtp/239.21.0.21:3424
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事21
+http://gaoxing.dns.army:10086/udp/239.11.0.12:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事22
+http://gaoxing.dns.army:10086/rtp/239.21.0.22:3428
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事22
+http://gaoxing.dns.army:10086/udp/239.11.0.13:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事23
+http://gaoxing.dns.army:10086/rtp/239.21.0.23:3432
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事23
+http://gaoxing.dns.army:10086/udp/239.11.0.14:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事24
+http://gaoxing.dns.army:10086/udp/239.11.0.18:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事25
+http://gaoxing.dns.army:10086/rtp/239.21.0.29:3456
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事25
+http://gaoxing.dns.army:10086/udp/239.11.0.19:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事26
+http://gaoxing.dns.army:10086/rtp/239.21.0.30:3460
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事26
+http://gaoxing.dns.army:10086/udp/239.11.0.20:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事27
+http://gaoxing.dns.army:10086/rtp/239.21.0.31:3464
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事27
+http://gaoxing.dns.army:10086/udp/239.11.0.21:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事28
+http://gaoxing.dns.army:10086/rtp/239.21.0.32:3468
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事28
+http://gaoxing.dns.army:10086/udp/239.11.0.22:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事29
+http://gaoxing.dns.army:10086/rtp/239.21.0.33:3472
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事3
+http://gaoxing.dns.army:10086/rtp/239.20.0.43:3232
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事3
+http://gaoxing.dns.army:10086/udp/239.10.0.89:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事4
+http://gaoxing.dns.army:10086/rtp/239.20.0.14:3348
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事4
+http://gaoxing.dns.army:10086/udp/239.10.0.247:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事5
+http://gaoxing.dns.army:10086/rtp/239.20.0.13:3352
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事5
+http://gaoxing.dns.army:10086/udp/239.10.0.248:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事6
+http://gaoxing.dns.army:10086/rtp/239.20.0.12:3356
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事6
+http://gaoxing.dns.army:10086/udp/239.10.0.249:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事7
+http://gaoxing.dns.army:10086/rtp/239.20.0.11:3360
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事7
+http://gaoxing.dns.army:10086/udp/239.10.0.250:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事8
+http://gaoxing.dns.army:10086/rtp/239.20.0.10:3364
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事8
+http://gaoxing.dns.army:10086/udp/239.10.0.251:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事9
+http://gaoxing.dns.army:10086/rtp/239.20.0.09:3368
+#EXTINF:-1 group-title="广东移动-组播2",咪咕-赛事9
+http://gaoxing.dns.army:10086/udp/239.10.0.252:1025
+#EXTINF:-1 group-title="广东移动-组播2",咪咕4K
+http://gaoxing.dns.army:10086/rtp/239.20.0.66:3136
+#EXTINF:-1 group-title="广东移动-组播2",咪咕赛事4K
+http://gaoxing.dns.army:10086/rtp/239.10.0.68:1025
+#EXTINF:-1 group-title="广东移动-组播2",IPTV3+综艺
+http://gaoxing.dns.army:10086/rtp/239.20.0.236:2270
+#EXTINF:-1 group-title="广东移动-组播2",IPTV5+
+http://gaoxing.dns.army:10086/rtp/239.10.0.218:1025
+#EXTINF:-1 group-title="广东移动-组播2",IPTV5+
+http://gaoxing.dns.army:10086/rtp/239.20.0.237:2272
+#EXTINF:-1 group-title="广东移动-组播2",IPTV5+体育
+http://gaoxing.dns.army:10086/rtp/239.20.0.208:2214
+#EXTINF:-1 group-title="广东移动-组播2",IPTV收视指南
+http://gaoxing.dns.army:10086/rtp/239.20.0.240:2278
+#EXTINF:-1 group-title="广东移动-组播2",IPTV法治
+http://gaoxing.dns.army:10086/rtp/239.20.0.231:2260
+#EXTINF:-1 group-title="广东移动-组播2",IPTV相声小品
+http://gaoxing.dns.army:10086/rtp/239.20.0.229:2256
+#EXTINF:-1 group-title="广东移动-组播2",IPTV野外
+http://gaoxing.dns.army:10086/rtp/239.20.0.230:2258
+#EXTINF:-1 group-title="广东移动-组播2",北京卡酷少儿
+http://gaoxing.dns.army:10086/rtp/239.20.0.162:2122
+#EXTINF:-1 group-title="广东移动-组播2",山西书画频道
+http://gaoxing.dns.army:10086/rtp/239.21.0.140:3904
+#EXTINF:-1 group-title="广东移动-组播2",山西书画频道
+http://gaoxing.dns.army:10086/rtp/239.11.0.174:1025
+#EXTINF:-1 group-title="广东移动-组播2",上海哈哈炫动
+http://gaoxing.dns.army:10086/rtp/239.20.0.164:2126
+#EXTINF:-1 group-title="广东移动-组播2",上海纪实人文
+http://gaoxing.dns.army:10086/rtp/239.10.0.78:1025
+#EXTINF:-1 group-title="广东移动-组播2",上海纪实人文
+http://gaoxing.dns.army:10086/rtp/239.20.0.57:3172
+#EXTINF:-1 group-title="广东移动-组播2",江苏财富天下
+http://gaoxing.dns.army:10086/rtp/239.20.0.167:2132
+#EXTINF:-1 group-title="广东移动-组播2",杭州求索纪录
+http://gaoxing.dns.army:10086/rtp/239.21.0.118:3816
+#EXTINF:-1 group-title="广东移动-组播2",湖北快乐垂钓
+http://gaoxing.dns.army:10086/rtp/239.11.0.131:1025
+#EXTINF:-1 group-title="广东移动-组播2",湖南茶频道
+http://gaoxing.dns.army:10086/rtp/239.21.0.120:3824
+#EXTINF:-1 group-title="广东移动-组播2",湖南茶频道
+http://gaoxing.dns.army:10086/rtp/239.11.0.130:1025
+#EXTINF:-1 group-title="广东移动-组播2",湖南金鹰纪实
+http://gaoxing.dns.army:10086/rtp/239.20.0.196:2190
+#EXTINF:-1 group-title="广东移动-组播2",湖南金鹰纪实
+http://gaoxing.dns.army:10086/rtp/239.10.0.206:1025
+#EXTINF:-1 group-title="广东移动-组播2",湖南金鹰纪实
+http://gaoxing.dns.army:10086/rtp/239.20.0.85:3060
+#EXTINF:-1 group-title="广东移动-组播2",湖南金鹰卡通
+http://gaoxing.dns.army:10086/rtp/239.20.0.163:2124
+#EXTINF:-1 group-title="广东移动-组播2",湖南金鹰卡通
+http://gaoxing.dns.army:10086/rtp/239.11.0.125:1025
+#EXTINF:-1 group-title="广东移动-组播2",湖南金鹰卡通
+http://gaoxing.dns.army:10086/rtp/239.21.0.115:3804
+#EXTINF:-1 group-title="广东移动-组播2",广东岭南戏曲
+http://gaoxing.dns.army:10086/rtp/239.20.0.115:2028
+#EXTINF:-1 group-title="广东移动-组播2",广东岭南戏曲
+http://gaoxing.dns.army:10086/rtp/239.21.0.147:3932
+#EXTINF:-1 group-title="广东移动-组播2",广东岭南戏曲
+http://gaoxing.dns.army:10086/rtp/239.11.0.180:1025
+#EXTINF:-1 group-title="广东移动-组播2",广东岭南戏曲
+http://gaoxing.dns.army:10086/rtp/239.10.0.125:1025
+#EXTINF:-1 group-title="广东移动-组播2",重庆汽摩
+http://gaoxing.dns.army:10086/rtp/239.20.0.222:2242
+#EXTINF:-1 group-title="广东移动-组播2",重庆汽摩
+http://gaoxing.dns.army:10086/rtp/239.10.0.232:1025
+#EXTINF:-1 group-title="广东移动-组播2",陕西国学频道
+http://gaoxing.dns.army:10086/rtp/239.20.0.247:2292
+#EXTINF:-1 group-title="广东移动-组播2",陕西国学频道
+http://gaoxing.dns.army:10086/rtp/239.10.0.38:1025
+#EXTINF:-1 group-title="广东移动-组播2",广东南方购物
+http://gaoxing.dns.army:10086/rtp/239.20.0.116:2030
+#EXTINF:-1 group-title="广东移动-组播2",辽宁卫视超清
+http://gaoxing.dns.army:10086/rtp/239.20.0.86:3056
+#EXTINF:-1 group-title="广东移动-组播2",江苏卫视超清
+http://gaoxing.dns.army:10086/rtp/239.20.0.93:3028
+#EXTINF:-1 group-title="广东移动-组播2",浙江卫视超清
+http://gaoxing.dns.army:10086/rtp/239.20.0.94:3024
+#EXTINF:-1 group-title="广东移动-组播2",山东卫视超清
+http://gaoxing.dns.army:10086/rtp/239.20.0.88:3048
+#EXTINF:-1 group-title="广东移动-组播2",山东教育
+http://gaoxing.dns.army:10086/rtp/239.20.0.166:2130
+#EXTINF:-1 group-title="广东移动-组播2",湖南卫视超清
+http://gaoxing.dns.army:10086/rtp/239.20.0.95:3020
+#EXTINF:-1 group-title="广东移动-组播2",广州云课堂
+http://gaoxing.dns.army:10086/udp/239.11.0.150:1025
+#EXTINF:-1 group-title="广东移动-组播2",广州云课堂
+http://gaoxing.dns.army:10086/udp/239.11.0.151:1025
+#EXTINF:-1 group-title="广东移动-组播2",广州云课堂
+http://gaoxing.dns.army:10086/udp/239.11.0.152:1025
+#EXTINF:-1 group-title="广东移动-组播2",广州云课堂
+http://gaoxing.dns.army:10086/udp/239.11.0.153:1025
+#EXTINF:-1 group-title="广东移动-组播2",广州云课堂
+http://gaoxing.dns.army:10086/udp/239.11.0.154:1025
+#EXTINF:-1 group-title="广东移动-组播2",广州云课堂
+http://gaoxing.dns.army:10086/udp/239.11.0.155:1025
+#EXTINF:-1 group-title="广东移动-组播2",广州云课堂
+http://gaoxing.dns.army:10086/udp/239.11.0.156:1025
+#EXTINF:-1 group-title="广东移动-组播2",广州云课堂
+http://gaoxing.dns.army:10086/udp/239.11.0.157:1025
+#EXTINF:-1 group-title="广东移动-组播2",广州云课堂
+http://gaoxing.dns.army:10086/udp/239.11.0.158:1025
+#EXTINF:-1 group-title="广东移动-组播2",广州云课堂
+http://gaoxing.dns.army:10086/udp/239.11.0.159:1025
+#EXTINF:-1 group-title="广东移动-组播2",广州云课堂
+http://gaoxing.dns.army:10086/udp/239.11.0.160:1025
+#EXTINF:-1 group-title="广东移动-组播2",广州影视
+http://gaoxing.dns.army:10086/rtp/239.11.0.140:1025
+#EXTINF:-1 group-title="广东移动-组播2",广州竞赛
+http://gaoxing.dns.army:10086/rtp/239.11.0.142:1025
+#EXTINF:-1 group-title="广东移动-组播2",广州综合
+http://gaoxing.dns.army:10086/rtp/239.11.0.138:1025
+#EXTINF:-1 group-title="广东移动-组播2",汕头综合
+http://gaoxing.dns.army:10086/rtp/239.21.0.101:3744
+#EXTINF:-1 group-title="广东移动-组播2",惠州公共频道
+http://gaoxing.dns.army:10086/rtp/239.21.0.28:3452
+#EXTINF:-1 group-title="广东移动-组播2",惠州综合频道
+http://gaoxing.dns.army:10086/rtp/239.21.0.27:3448
+#EXTINF:-1 group-title="广东移动-组播2",汕尾文化生活
+http://gaoxing.dns.army:10086/rtp/239.21.0.90:3700
+#EXTINF:-1 group-title="广东移动-组播2",汕尾新闻综合
+http://gaoxing.dns.army:10086/rtp/239.21.0.89:3696
+#EXTINF:-1 group-title="广东移动-组播2",河源生活频道
+http://gaoxing.dns.army:10086/rtp/239.21.0.49:3536
+#EXTINF:-1 group-title="广东移动-组播2",河源综合频道
+http://gaoxing.dns.army:10086/rtp/239.21.0.48:3532
+#EXTINF:-1 group-title="广东移动-组播2",揭阳生活频道
+http://gaoxing.dns.army:10086/rtp/239.21.0.92:3708
+#EXTINF:-1 group-title="广东移动-组播2",揭阳综合频道
+http://gaoxing.dns.army:10086/rtp/239.21.0.91:3704
+#EXTINF:-1 group-title="广东移动-组播2",四川卫视超清
+http://gaoxing.dns.army:10086/rtp/239.20.0.82:3072
+#EXTINF:-1 group-title="广东移动-组播2",CBN幸福剧场
+http://gaoxing.dns.army:10086/udp/239.21.0.127:3852
+#EXTINF:-1 group-title="广东移动-组播2",CBN幸福剧场
+http://gaoxing.dns.army:10086/udp/239.11.0.165:1025
+#EXTINF:-1 group-title="广东移动-组播2",CBN幸福娱乐
+http://gaoxing.dns.army:10086/udp/239.21.0.128:3856
+#EXTINF:-1 group-title="广东移动-组播2",CBN幸福娱乐
+http://gaoxing.dns.army:10086/udp/239.11.0.166:1025
+#EXTINF:-1 group-title="广东移动-组播2",CBN每日影院
+http://gaoxing.dns.army:10086/udp/239.21.0.125:3844
+#EXTINF:-1 group-title="广东移动-组播2",CBN每日影院
+http://gaoxing.dns.army:10086/udp/239.11.0.163:1025
+#EXTINF:-1 group-title="广东移动-组播2",CBN风尚生活
+http://gaoxing.dns.army:10086/udp/239.21.0.126:3848
+#EXTINF:-1 group-title="广东移动-组播2",CBN风尚生活
+http://gaoxing.dns.army:10086/udp/239.11.0.164:1025
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-4k
+http://gaoxing.dns.army:10086/rtp/239.21.0.123:3836
+#EXTINF:-1 group-title="广东移动-组播2",CCTV-4k
+http://gaoxing.dns.army:10086/rtp/239.21.0.124:3840
+#EXTINF:-1 group-title="广东移动-组播2",CCTV央视网球
+http://gaoxing.dns.army:10086/rtp/239.11.0.61:1025
+#EXTINF:-1 group-title="广东移动-组播2",CCTV文化精品
+http://gaoxing.dns.army:10086/rtp/239.11.0.66:1025
+#EXTINF:-1 group-title="广东移动-组播2",CCTV高尔夫网球
+http://gaoxing.dns.army:10086/rtp/239.21.0.72:3628
+#EXTINF:-1 group-title="广东移动-组播2",CGTN纪录
+http://gaoxing.dns.army:10086/rtp/239.21.0.110:3780
+#EXTINF:-1 group-title="广东移动-组播2",CGTN纪录
+http://gaoxing.dns.army:10086/rtp/239.11.0.104:1025
+#EXTINF:-1 group-title="广东移动-组播2",GCTN
+http://gaoxing.dns.army:10086/rtp/239.20.0.186:2170
+#EXTINF:-1 group-title="广东移动-组播2",华数电影
+http://gaoxing.dns.army:10086/rtp/239.20.0.232:2262
+#EXTINF:-1 group-title="广东移动-组播2",华数电视剧
+http://gaoxing.dns.army:10086/rtp/239.20.0.234:2266
+#EXTINF:-1 group-title="广东移动-组播2",求索记录
+http://gaoxing.dns.army:10086/rtp/239.11.0.128:1025
+#EXTINF:-1 group-title="广东移动-组播2",现代教育
+http://gaoxing.dns.army:10086/rtp/239.20.0.128:2054
+#EXTINF:-1 group-title="广东移动-组播2",现代教育
+http://gaoxing.dns.army:10086/rtp/239.21.0.148:3936
+#EXTINF:-1 group-title="广东移动-组播2",现代教育
+http://gaoxing.dns.army:10086/rtp/239.10.0.138:1025
 #EXTINF:-1 group-title="浙江电信-组播1",浙江卫视
 http://125.115.205.131:4023/rtp/233.50.200.79:5140
 #EXTINF:-1 group-title="浙江电信-组播1",浙江卫视
@@ -16696,1397 +17168,1277 @@ http://bgs.cchui.fun:7911/rtp/233.50.201.248:5140
 #EXTINF:-1 group-title="浙江联通-组播3",钱江频道
 http://bgs.cchui.fun:7911/rtp/233.50.201.132:5140
 #EXTINF:-1 group-title="江苏电信-组播1",江苏卫视
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.16:9602
+http://﻿http://49.65.86.7:58888/udp/239.49.8.16:9602
 #EXTINF:-1 group-title="江苏电信-组播1",江苏卫视
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.138:6000
+http://﻿http://49.65.86.7:58888/udp/239.49.8.138:6000
 #EXTINF:-1 group-title="江苏电信-组播1",江苏卫视4K
-http://﻿http://49.65.86.7:58888/rtp/239.49.1.62:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.1.62:8000
 #EXTINF:-1 group-title="江苏电信-组播1",江苏卫视4K
-http://﻿http://49.65.86.7:58888/rtp/239.49.1.61:8000
-#EXTINF:-1 group-title="江苏电信-组播1",江苏优漫卡通
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.119:8000
-#EXTINF:-1 group-title="江苏电信-组播1",江苏体育休闲
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.117:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.1.61:8000
+#EXTINF:-1 group-title="江苏电信-组播1",江苏体育
+http://﻿http://49.65.86.7:58888/udp/239.49.8.117:8000
 #EXTINF:-1 group-title="江苏电信-组播1",江苏国际
-http://﻿http://49.65.86.7:58888/rtp/239.49.1.81:8000
-#EXTINF:-1 group-title="江苏电信-组播1",江苏城市频道
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.107:8000
-#EXTINF:-1 group-title="江苏电信-组播1",江苏影视频道
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.118:8000
-#EXTINF:-1 group-title="江苏电信-组播1",江苏教育频道
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.122:8000
-#EXTINF:-1 group-title="江苏电信-组播1",江苏新闻频道
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.120:8000
-#EXTINF:-1 group-title="江苏电信-组播1",江苏综艺频道
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.108:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.1.81:8000
+#EXTINF:-1 group-title="江苏电信-组播1",江苏城市
+http://﻿http://49.65.86.7:58888/udp/239.49.8.107:8000
+#EXTINF:-1 group-title="江苏电信-组播1",江苏影视
+http://﻿http://49.65.86.7:58888/udp/239.49.8.118:8000
+#EXTINF:-1 group-title="江苏电信-组播1",江苏教育
+http://﻿http://49.65.86.7:58888/udp/239.49.8.122:8000
+#EXTINF:-1 group-title="江苏电信-组播1",江苏新闻
+http://﻿http://49.65.86.7:58888/udp/239.49.8.120:8000
+#EXTINF:-1 group-title="江苏电信-组播1",江苏综艺
+http://﻿http://49.65.86.7:58888/udp/239.49.8.108:8000
 #EXTINF:-1 group-title="江苏电信-组播1",CGTN西班牙语
-http://﻿http://49.65.86.7:58888/rtp/239.49.1.30:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.1.30:8000
 #EXTINF:-1 group-title="江苏电信-组播1",CGTN法语
-http://﻿http://49.65.86.7:58888/rtp/239.49.1.31:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.1.31:8000
 #EXTINF:-1 group-title="江苏电信-组播1",CGTN俄语
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.111:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.111:8000
 #EXTINF:-1 group-title="江苏电信-组播1",CETV-1综合教育
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.115:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.8.115:8000
 #EXTINF:-1 group-title="江苏电信-组播1",CETV-4职业教育
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.125:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.125:8000
 #EXTINF:-1 group-title="江苏电信-组播1",中学生
-http://﻿http://49.65.86.7:58888/rtp/239.49.1.82:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.1.82:8000
 #EXTINF:-1 group-title="江苏电信-组播1",中国天气
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.94:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.94:8000
 #EXTINF:-1 group-title="江苏电信-组播1",睛彩竞技
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.39:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.8.39:8000
 #EXTINF:-1 group-title="江苏电信-组播1",睛彩广场舞
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.64:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.8.64:8000
 #EXTINF:-1 group-title="江苏电信-组播1",睛彩青少
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.46:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.8.46:8000
 #EXTINF:-1 group-title="江苏电信-组播1",睛彩篮球
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.42:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.8.42:8000
 #EXTINF:-1 group-title="江苏电信-组播1",江苏优漫卡通
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.21:8160
+http://﻿http://49.65.86.7:58888/udp/239.49.8.119:8000
 #EXTINF:-1 group-title="江苏电信-组播1",江苏优漫卡通
-http://﻿http://49.65.86.7:58888/rtp/239.49.1.21:6000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.21:8160
+#EXTINF:-1 group-title="江苏电信-组播1",江苏优漫卡通
+http://﻿http://49.65.86.7:58888/udp/239.49.1.21:6000
 #EXTINF:-1 group-title="江苏电信-组播1",北京四海钓鱼
-http://﻿http://49.65.86.7:58888/rtp/239.49.1.80:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.1.80:8000
 #EXTINF:-1 group-title="江苏电信-组播1",北京卡酷少儿
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.148:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.148:8000
 #EXTINF:-1 group-title="江苏电信-组播1",山西书画频道
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.123:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.123:8000
 #EXTINF:-1 group-title="江苏电信-组播1",上海东方财经
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.95:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.95:8000
 #EXTINF:-1 group-title="江苏电信-组播1",上海法治天地
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.96:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.96:8000
 #EXTINF:-1 group-title="江苏电信-组播1",上海都市剧场
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.99:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.99:8000
 #EXTINF:-1 group-title="江苏电信-组播1",上海生活时尚
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.97:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.97:8000
 #EXTINF:-1 group-title="江苏电信-组播1",上海第一财经
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.30:8232
+http://﻿http://49.65.86.7:58888/udp/239.49.8.37:8000
 #EXTINF:-1 group-title="江苏电信-组播1",上海第一财经
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.37:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.30:8232
 #EXTINF:-1 group-title="江苏电信-组播1",江苏财富天下
-http://﻿http://49.65.86.7:58888/rtp/239.49.1.76:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.1.76:8000
 #EXTINF:-1 group-title="江苏电信-组播1",河南武术世界
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.205:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.205:8000
 #EXTINF:-1 group-title="江苏电信-组播1",河南文物宝库
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.209:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.209:8000
 #EXTINF:-1 group-title="江苏电信-组播1",湖北快乐垂钓
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.114:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.114:8000
 #EXTINF:-1 group-title="江苏电信-组播1",湖南茶频道
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.146:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.146:8000
 #EXTINF:-1 group-title="江苏电信-组播1",湖南金鹰纪实
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.79:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.8.79:8000
 #EXTINF:-1 group-title="江苏电信-组播1",湖南金鹰卡通
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.33:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.8.33:8000
 #EXTINF:-1 group-title="江苏电信-组播1",贵州天元围棋
-http://﻿http://49.65.86.7:58888/rtp/239.49.1.79:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.1.79:8000
 #EXTINF:-1 group-title="江苏电信-组播1",精彩推荐
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.190:9458
+http://﻿http://49.65.86.7:58888/udp/239.49.0.190:9458
 #EXTINF:-1 group-title="江苏电信-组播1",精彩推荐
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.34:8612
+http://﻿http://49.65.86.7:58888/udp/239.49.8.34:8612
 #EXTINF:-1 group-title="江苏电信-组播1",好享购物
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.121:8000
-#EXTINF:-1 group-title="江苏电信-组播1",家有购物
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.112:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.8.121:8000
 #EXTINF:-1 group-title="江苏电信-组播1",南京少儿
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.45:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.45:8000
 #EXTINF:-1 group-title="江苏电信-组播1",南京影视
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.24:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.24:8000
 #EXTINF:-1 group-title="江苏电信-组播1",南京文旅纪录
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.38:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.38:8000
 #EXTINF:-1 group-title="江苏电信-组播1",南京新闻综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.25:8192
+http://﻿http://49.65.86.7:58888/udp/239.49.0.25:8192
 #EXTINF:-1 group-title="江苏电信-组播1",南京生活频道
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.26:8200
+http://﻿http://49.65.86.7:58888/udp/239.49.0.26:8200
 #EXTINF:-1 group-title="江苏电信-组播1",南京科教频道
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.183:9434
+http://﻿http://49.65.86.7:58888/udp/239.49.0.183:9434
 #EXTINF:-1 group-title="江苏电信-组播1",南京高淳新闻
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.74:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.74:8000
 #EXTINF:-1 group-title="江苏电信-组播1",无锡新闻综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.1.77:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.1.77:8000
 #EXTINF:-1 group-title="江苏电信-组播1",无锡都市资讯
-http://﻿http://49.65.86.7:58888/rtp/239.49.1.78:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.1.78:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州1
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.203:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.203:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州2
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.199:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.199:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州3
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.211:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.211:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州新沂1
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.238:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.238:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州沛县新闻综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.214:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.214:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州睢宁综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.239:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.239:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州贾汪新闻
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.248:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.248:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州邳州综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.182:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.182:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州铜山1
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.163:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.163:8000
 #EXTINF:-1 group-title="江苏电信-组播1",新沂生活
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.124:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.124:8000
 #EXTINF:-1 group-title="江苏电信-组播1",常州公共
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.218:9582
+http://﻿http://49.65.86.7:58888/udp/239.49.0.218:9582
 #EXTINF:-1 group-title="江苏电信-组播1",常州新闻综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.1.83:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.1.83:8000
 #EXTINF:-1 group-title="江苏电信-组播1",常州生活
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.219:9586
+http://﻿http://49.65.86.7:58888/udp/239.49.1.85:8000
 #EXTINF:-1 group-title="江苏电信-组播1",常州生活
-http://﻿http://49.65.86.7:58888/rtp/239.49.1.85:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.219:9586
 #EXTINF:-1 group-title="江苏电信-组播1",常州综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.221:9594
+http://﻿http://49.65.86.7:58888/udp/239.49.0.221:9594
 #EXTINF:-1 group-title="江苏电信-组播1",常州都市
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.220:9590
+http://﻿http://49.65.86.7:58888/udp/239.49.1.84:8000
 #EXTINF:-1 group-title="江苏电信-组播1",常州都市
-http://﻿http://49.65.86.7:58888/rtp/239.49.1.84:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.220:9590
 #EXTINF:-1 group-title="江苏电信-组播1",常州金坛电视台
-http://﻿http://49.65.86.7:58888/rtp/239.49.1.54:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.1.54:8000
 #EXTINF:-1 group-title="江苏电信-组播1",苏州生活资讯5
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.116:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.8.116:8000
 #EXTINF:-1 group-title="江苏电信-组播1",南通公共
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.197:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.197:8000
 #EXTINF:-1 group-title="江苏电信-组播1",南通新闻综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.223:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.223:8000
 #EXTINF:-1 group-title="江苏电信-组播1",南通社教
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.224:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.224:8000
 #EXTINF:-1 group-title="江苏电信-组播1",连云港东海综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.121:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.121:8000
 #EXTINF:-1 group-title="江苏电信-组播1",连云港新闻综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.225:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.225:8000
 #EXTINF:-1 group-title="江苏电信-组播1",连云港生活频道
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.229:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.229:8000
 #EXTINF:-1 group-title="江苏电信-组播1",连云港赣榆电视台
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.241:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.241:8000
 #EXTINF:-1 group-title="江苏电信-组播1",淮安公共
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.181:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.181:8000
 #EXTINF:-1 group-title="江苏电信-组播1",淮安影视娱乐
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.192:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.192:8000
 #EXTINF:-1 group-title="江苏电信-组播1",淮安新闻综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.204:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.204:8000
 #EXTINF:-1 group-title="江苏电信-组播1",淮安洪泽1
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.89:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.89:8000
 #EXTINF:-1 group-title="江苏电信-组播1",淮安淮阴综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.169:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.169:8000
 #EXTINF:-1 group-title="江苏电信-组播1",淮安盱眙综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.237:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.237:8000
 #EXTINF:-1 group-title="江苏电信-组播1",盐城1
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.30:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.8.30:8000
 #EXTINF:-1 group-title="江苏电信-组播1",盐城2
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.88:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.88:8000
 #EXTINF:-1 group-title="江苏电信-组播1",盐城响水综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.115:8912
+http://﻿http://49.65.86.7:58888/udp/239.49.0.115:8912
 #EXTINF:-1 group-title="江苏电信-组播1",镇江新闻综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.98:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.98:8000
 #EXTINF:-1 group-title="江苏电信-组播1",镇江民生教育
-http://﻿http://49.65.86.7:58888/rtp/239.49.1.73:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.1.73:8000
 #EXTINF:-1 group-title="江苏电信-组播1",泰州1
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.215:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.215:8000
 #EXTINF:-1 group-title="江苏电信-组播1",泰州2
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.217:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.217:8000
 #EXTINF:-1 group-title="江苏电信-组播1",泰州3
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.222:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.222:8000
 #EXTINF:-1 group-title="江苏电信-组播1",泰州兴化新闻综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.162:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.162:8000
 #EXTINF:-1 group-title="江苏电信-组播1",泰州泰兴综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.168:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.168:8000
 #EXTINF:-1 group-title="江苏电信-组播1",宿迁公共
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.236:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.236:8000
 #EXTINF:-1 group-title="江苏电信-组播1",宿迁宿豫综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.83:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.83:8000
 #EXTINF:-1 group-title="江苏电信-组播1",宿迁沭阳综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.189:8792
+http://﻿http://49.65.86.7:58888/udp/239.49.0.189:8792
 #EXTINF:-1 group-title="江苏电信-组播1",宿迁泗洪综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.195:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.195:8000
 #EXTINF:-1 group-title="江苏电信-组播1",宿迁综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.231:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.231:8000
 #EXTINF:-1 group-title="江苏电信-组播1",泗阳综合
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.249:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.0.249:8000
 #EXTINF:-1 group-title="江苏电信-组播1",4分屏
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.73:8000
-#EXTINF:-1 group-title="江苏电信-组播1",4分屏
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.125:8000
-#EXTINF:-1 group-title="江苏电信-组播1",CCTV16SDR
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.109:8000
-#EXTINF:-1 group-title="江苏电信-组播1",无信号
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.113:8000
-#EXTINF:-1 group-title="江苏电信-组播1",无信号
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.201:8000
-#EXTINF:-1 group-title="江苏电信-组播1",无信号
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.202:8000
-#EXTINF:-1 group-title="江苏电信-组播1",无信号
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.226:8000
-#EXTINF:-1 group-title="江苏电信-组播1",无信号
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.243:8000
-#EXTINF:-1 group-title="江苏电信-组播1",无信号
-http://﻿http://49.65.86.7:58888/rtp/239.49.0.247:8000
-#EXTINF:-1 group-title="江苏电信-组播1",无信号
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.127:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.8.73:8000
 #EXTINF:-1 group-title="江苏电信-组播1",梨园频道
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.193:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.8.193:8000
 #EXTINF:-1 group-title="江苏电信-组播1",苏超1
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.96:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.8.96:8000
 #EXTINF:-1 group-title="江苏电信-组播1",苏超2
-http://﻿http://49.65.86.7:58888/rtp/239.49.8.97:8000
+http://﻿http://49.65.86.7:58888/udp/239.49.8.97:8000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏卫视
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.16:9602
+http://﻿http://49.77.20.134:8118/udp/239.49.8.16:9602
 #EXTINF:-1 group-title="江苏电信-组播2",江苏卫视
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.138:6000
+http://﻿http://49.77.20.134:8118/udp/239.49.8.138:6000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏卫视4K
-http://﻿http://49.77.20.134:8118/rtp/239.49.1.62:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.1.62:8000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏卫视4K
-http://﻿http://49.77.20.134:8118/rtp/239.49.1.61:8000
-#EXTINF:-1 group-title="江苏电信-组播2",江苏优漫卡通
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.119:8000
-#EXTINF:-1 group-title="江苏电信-组播2",江苏体育休闲
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.117:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.1.61:8000
+#EXTINF:-1 group-title="江苏电信-组播2",江苏体育
+http://﻿http://49.77.20.134:8118/udp/239.49.8.117:8000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏国际
-http://﻿http://49.77.20.134:8118/rtp/239.49.1.81:8000
-#EXTINF:-1 group-title="江苏电信-组播2",江苏城市频道
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.107:8000
-#EXTINF:-1 group-title="江苏电信-组播2",江苏影视频道
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.118:8000
-#EXTINF:-1 group-title="江苏电信-组播2",江苏教育频道
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.122:8000
-#EXTINF:-1 group-title="江苏电信-组播2",江苏新闻频道
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.120:8000
-#EXTINF:-1 group-title="江苏电信-组播2",江苏综艺频道
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.108:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.1.81:8000
+#EXTINF:-1 group-title="江苏电信-组播2",江苏城市
+http://﻿http://49.77.20.134:8118/udp/239.49.8.107:8000
+#EXTINF:-1 group-title="江苏电信-组播2",江苏影视
+http://﻿http://49.77.20.134:8118/udp/239.49.8.118:8000
+#EXTINF:-1 group-title="江苏电信-组播2",江苏教育
+http://﻿http://49.77.20.134:8118/udp/239.49.8.122:8000
+#EXTINF:-1 group-title="江苏电信-组播2",江苏新闻
+http://﻿http://49.77.20.134:8118/udp/239.49.8.120:8000
+#EXTINF:-1 group-title="江苏电信-组播2",江苏综艺
+http://﻿http://49.77.20.134:8118/udp/239.49.8.108:8000
 #EXTINF:-1 group-title="江苏电信-组播2",CGTN西班牙语
-http://﻿http://49.77.20.134:8118/rtp/239.49.1.30:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.1.30:8000
 #EXTINF:-1 group-title="江苏电信-组播2",CGTN法语
-http://﻿http://49.77.20.134:8118/rtp/239.49.1.31:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.1.31:8000
 #EXTINF:-1 group-title="江苏电信-组播2",CGTN俄语
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.111:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.111:8000
 #EXTINF:-1 group-title="江苏电信-组播2",CETV-1综合教育
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.115:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.8.115:8000
 #EXTINF:-1 group-title="江苏电信-组播2",CETV-4职业教育
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.125:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.125:8000
 #EXTINF:-1 group-title="江苏电信-组播2",中学生
-http://﻿http://49.77.20.134:8118/rtp/239.49.1.82:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.1.82:8000
 #EXTINF:-1 group-title="江苏电信-组播2",中国天气
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.94:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.94:8000
 #EXTINF:-1 group-title="江苏电信-组播2",睛彩竞技
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.39:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.8.39:8000
 #EXTINF:-1 group-title="江苏电信-组播2",睛彩广场舞
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.64:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.8.64:8000
 #EXTINF:-1 group-title="江苏电信-组播2",睛彩青少
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.46:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.8.46:8000
 #EXTINF:-1 group-title="江苏电信-组播2",睛彩篮球
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.42:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.8.42:8000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏优漫卡通
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.21:8160
+http://﻿http://49.77.20.134:8118/udp/239.49.8.119:8000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏优漫卡通
-http://﻿http://49.77.20.134:8118/rtp/239.49.1.21:6000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.21:8160
+#EXTINF:-1 group-title="江苏电信-组播2",江苏优漫卡通
+http://﻿http://49.77.20.134:8118/udp/239.49.1.21:6000
 #EXTINF:-1 group-title="江苏电信-组播2",北京四海钓鱼
-http://﻿http://49.77.20.134:8118/rtp/239.49.1.80:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.1.80:8000
 #EXTINF:-1 group-title="江苏电信-组播2",北京卡酷少儿
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.148:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.148:8000
 #EXTINF:-1 group-title="江苏电信-组播2",山西书画频道
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.123:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.123:8000
 #EXTINF:-1 group-title="江苏电信-组播2",上海东方财经
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.95:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.95:8000
 #EXTINF:-1 group-title="江苏电信-组播2",上海法治天地
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.96:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.96:8000
 #EXTINF:-1 group-title="江苏电信-组播2",上海都市剧场
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.99:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.99:8000
 #EXTINF:-1 group-title="江苏电信-组播2",上海生活时尚
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.97:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.97:8000
 #EXTINF:-1 group-title="江苏电信-组播2",上海第一财经
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.30:8232
+http://﻿http://49.77.20.134:8118/udp/239.49.8.37:8000
 #EXTINF:-1 group-title="江苏电信-组播2",上海第一财经
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.37:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.30:8232
 #EXTINF:-1 group-title="江苏电信-组播2",江苏财富天下
-http://﻿http://49.77.20.134:8118/rtp/239.49.1.76:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.1.76:8000
 #EXTINF:-1 group-title="江苏电信-组播2",河南武术世界
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.205:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.205:8000
 #EXTINF:-1 group-title="江苏电信-组播2",河南文物宝库
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.209:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.209:8000
 #EXTINF:-1 group-title="江苏电信-组播2",湖北快乐垂钓
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.114:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.114:8000
 #EXTINF:-1 group-title="江苏电信-组播2",湖南茶频道
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.146:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.146:8000
 #EXTINF:-1 group-title="江苏电信-组播2",湖南金鹰纪实
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.79:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.8.79:8000
 #EXTINF:-1 group-title="江苏电信-组播2",湖南金鹰卡通
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.33:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.8.33:8000
 #EXTINF:-1 group-title="江苏电信-组播2",贵州天元围棋
-http://﻿http://49.77.20.134:8118/rtp/239.49.1.79:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.1.79:8000
 #EXTINF:-1 group-title="江苏电信-组播2",精彩推荐
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.190:9458
+http://﻿http://49.77.20.134:8118/udp/239.49.0.190:9458
 #EXTINF:-1 group-title="江苏电信-组播2",精彩推荐
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.34:8612
+http://﻿http://49.77.20.134:8118/udp/239.49.8.34:8612
 #EXTINF:-1 group-title="江苏电信-组播2",好享购物
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.121:8000
-#EXTINF:-1 group-title="江苏电信-组播2",家有购物
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.112:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.8.121:8000
 #EXTINF:-1 group-title="江苏电信-组播2",南京少儿
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.45:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.45:8000
 #EXTINF:-1 group-title="江苏电信-组播2",南京影视
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.24:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.24:8000
 #EXTINF:-1 group-title="江苏电信-组播2",南京文旅纪录
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.38:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.38:8000
 #EXTINF:-1 group-title="江苏电信-组播2",南京新闻综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.25:8192
+http://﻿http://49.77.20.134:8118/udp/239.49.0.25:8192
 #EXTINF:-1 group-title="江苏电信-组播2",南京生活频道
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.26:8200
+http://﻿http://49.77.20.134:8118/udp/239.49.0.26:8200
 #EXTINF:-1 group-title="江苏电信-组播2",南京科教频道
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.183:9434
+http://﻿http://49.77.20.134:8118/udp/239.49.0.183:9434
 #EXTINF:-1 group-title="江苏电信-组播2",南京高淳新闻
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.74:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.74:8000
 #EXTINF:-1 group-title="江苏电信-组播2",无锡新闻综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.1.77:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.1.77:8000
 #EXTINF:-1 group-title="江苏电信-组播2",无锡都市资讯
-http://﻿http://49.77.20.134:8118/rtp/239.49.1.78:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.1.78:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州1
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.203:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.203:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州2
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.199:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.199:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州3
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.211:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.211:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州新沂1
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.238:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.238:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州沛县新闻综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.214:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.214:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州睢宁综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.239:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.239:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州贾汪新闻
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.248:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.248:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州邳州综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.182:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.182:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州铜山1
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.163:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.163:8000
 #EXTINF:-1 group-title="江苏电信-组播2",新沂生活
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.124:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.124:8000
 #EXTINF:-1 group-title="江苏电信-组播2",常州公共
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.218:9582
+http://﻿http://49.77.20.134:8118/udp/239.49.0.218:9582
 #EXTINF:-1 group-title="江苏电信-组播2",常州新闻综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.1.83:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.1.83:8000
 #EXTINF:-1 group-title="江苏电信-组播2",常州生活
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.219:9586
+http://﻿http://49.77.20.134:8118/udp/239.49.1.85:8000
 #EXTINF:-1 group-title="江苏电信-组播2",常州生活
-http://﻿http://49.77.20.134:8118/rtp/239.49.1.85:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.219:9586
 #EXTINF:-1 group-title="江苏电信-组播2",常州综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.221:9594
+http://﻿http://49.77.20.134:8118/udp/239.49.0.221:9594
 #EXTINF:-1 group-title="江苏电信-组播2",常州都市
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.220:9590
+http://﻿http://49.77.20.134:8118/udp/239.49.1.84:8000
 #EXTINF:-1 group-title="江苏电信-组播2",常州都市
-http://﻿http://49.77.20.134:8118/rtp/239.49.1.84:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.220:9590
 #EXTINF:-1 group-title="江苏电信-组播2",常州金坛电视台
-http://﻿http://49.77.20.134:8118/rtp/239.49.1.54:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.1.54:8000
 #EXTINF:-1 group-title="江苏电信-组播2",苏州生活资讯5
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.116:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.8.116:8000
 #EXTINF:-1 group-title="江苏电信-组播2",南通公共
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.197:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.197:8000
 #EXTINF:-1 group-title="江苏电信-组播2",南通新闻综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.223:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.223:8000
 #EXTINF:-1 group-title="江苏电信-组播2",南通社教
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.224:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.224:8000
 #EXTINF:-1 group-title="江苏电信-组播2",连云港东海综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.121:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.121:8000
 #EXTINF:-1 group-title="江苏电信-组播2",连云港新闻综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.225:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.225:8000
 #EXTINF:-1 group-title="江苏电信-组播2",连云港生活频道
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.229:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.229:8000
 #EXTINF:-1 group-title="江苏电信-组播2",连云港赣榆电视台
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.241:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.241:8000
 #EXTINF:-1 group-title="江苏电信-组播2",淮安公共
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.181:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.181:8000
 #EXTINF:-1 group-title="江苏电信-组播2",淮安影视娱乐
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.192:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.192:8000
 #EXTINF:-1 group-title="江苏电信-组播2",淮安新闻综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.204:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.204:8000
 #EXTINF:-1 group-title="江苏电信-组播2",淮安洪泽1
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.89:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.89:8000
 #EXTINF:-1 group-title="江苏电信-组播2",淮安淮阴综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.169:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.169:8000
 #EXTINF:-1 group-title="江苏电信-组播2",淮安盱眙综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.237:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.237:8000
 #EXTINF:-1 group-title="江苏电信-组播2",盐城1
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.30:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.8.30:8000
 #EXTINF:-1 group-title="江苏电信-组播2",盐城2
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.88:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.88:8000
 #EXTINF:-1 group-title="江苏电信-组播2",盐城响水综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.115:8912
+http://﻿http://49.77.20.134:8118/udp/239.49.0.115:8912
 #EXTINF:-1 group-title="江苏电信-组播2",镇江新闻综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.98:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.98:8000
 #EXTINF:-1 group-title="江苏电信-组播2",镇江民生教育
-http://﻿http://49.77.20.134:8118/rtp/239.49.1.73:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.1.73:8000
 #EXTINF:-1 group-title="江苏电信-组播2",泰州1
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.215:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.215:8000
 #EXTINF:-1 group-title="江苏电信-组播2",泰州2
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.217:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.217:8000
 #EXTINF:-1 group-title="江苏电信-组播2",泰州3
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.222:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.222:8000
 #EXTINF:-1 group-title="江苏电信-组播2",泰州兴化新闻综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.162:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.162:8000
 #EXTINF:-1 group-title="江苏电信-组播2",泰州泰兴综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.168:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.168:8000
 #EXTINF:-1 group-title="江苏电信-组播2",宿迁公共
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.236:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.236:8000
 #EXTINF:-1 group-title="江苏电信-组播2",宿迁宿豫综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.83:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.83:8000
 #EXTINF:-1 group-title="江苏电信-组播2",宿迁沭阳综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.189:8792
+http://﻿http://49.77.20.134:8118/udp/239.49.0.189:8792
 #EXTINF:-1 group-title="江苏电信-组播2",宿迁泗洪综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.195:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.195:8000
 #EXTINF:-1 group-title="江苏电信-组播2",宿迁综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.231:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.231:8000
 #EXTINF:-1 group-title="江苏电信-组播2",泗阳综合
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.249:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.0.249:8000
 #EXTINF:-1 group-title="江苏电信-组播2",4分屏
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.73:8000
-#EXTINF:-1 group-title="江苏电信-组播2",4分屏
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.125:8000
-#EXTINF:-1 group-title="江苏电信-组播2",CCTV16SDR
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.109:8000
-#EXTINF:-1 group-title="江苏电信-组播2",无信号
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.113:8000
-#EXTINF:-1 group-title="江苏电信-组播2",无信号
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.201:8000
-#EXTINF:-1 group-title="江苏电信-组播2",无信号
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.202:8000
-#EXTINF:-1 group-title="江苏电信-组播2",无信号
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.226:8000
-#EXTINF:-1 group-title="江苏电信-组播2",无信号
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.243:8000
-#EXTINF:-1 group-title="江苏电信-组播2",无信号
-http://﻿http://49.77.20.134:8118/rtp/239.49.0.247:8000
-#EXTINF:-1 group-title="江苏电信-组播2",无信号
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.127:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.8.73:8000
 #EXTINF:-1 group-title="江苏电信-组播2",梨园频道
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.193:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.8.193:8000
 #EXTINF:-1 group-title="江苏电信-组播2",苏超1
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.96:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.8.96:8000
 #EXTINF:-1 group-title="江苏电信-组播2",苏超2
-http://﻿http://49.77.20.134:8118/rtp/239.49.8.97:8000
+http://﻿http://49.77.20.134:8118/udp/239.49.8.97:8000
 #EXTINF:-1 group-title="江苏电信-组播3",江苏卫视
-http://121.226.105.44:6888/rtp/239.49.8.16:9602
+http://121.226.105.44:6888/udp/239.49.8.16:9602
 #EXTINF:-1 group-title="江苏电信-组播3",江苏卫视
-http://121.226.105.44:6888/rtp/239.49.8.138:6000
+http://121.226.105.44:6888/udp/239.49.8.138:6000
 #EXTINF:-1 group-title="江苏电信-组播3",江苏卫视4K
-http://121.226.105.44:6888/rtp/239.49.1.62:8000
+http://121.226.105.44:6888/udp/239.49.1.62:8000
 #EXTINF:-1 group-title="江苏电信-组播3",江苏卫视4K
-http://121.226.105.44:6888/rtp/239.49.1.61:8000
-#EXTINF:-1 group-title="江苏电信-组播3",江苏优漫卡通
-http://121.226.105.44:6888/rtp/239.49.8.119:8000
-#EXTINF:-1 group-title="江苏电信-组播3",江苏体育休闲
-http://121.226.105.44:6888/rtp/239.49.8.117:8000
+http://121.226.105.44:6888/udp/239.49.1.61:8000
+#EXTINF:-1 group-title="江苏电信-组播3",江苏体育
+http://121.226.105.44:6888/udp/239.49.8.117:8000
 #EXTINF:-1 group-title="江苏电信-组播3",江苏国际
-http://121.226.105.44:6888/rtp/239.49.1.81:8000
-#EXTINF:-1 group-title="江苏电信-组播3",江苏城市频道
-http://121.226.105.44:6888/rtp/239.49.8.107:8000
-#EXTINF:-1 group-title="江苏电信-组播3",江苏影视频道
-http://121.226.105.44:6888/rtp/239.49.8.118:8000
-#EXTINF:-1 group-title="江苏电信-组播3",江苏教育频道
-http://121.226.105.44:6888/rtp/239.49.8.122:8000
-#EXTINF:-1 group-title="江苏电信-组播3",江苏新闻频道
-http://121.226.105.44:6888/rtp/239.49.8.120:8000
-#EXTINF:-1 group-title="江苏电信-组播3",江苏综艺频道
-http://121.226.105.44:6888/rtp/239.49.8.108:8000
+http://121.226.105.44:6888/udp/239.49.1.81:8000
+#EXTINF:-1 group-title="江苏电信-组播3",江苏城市
+http://121.226.105.44:6888/udp/239.49.8.107:8000
+#EXTINF:-1 group-title="江苏电信-组播3",江苏影视
+http://121.226.105.44:6888/udp/239.49.8.118:8000
+#EXTINF:-1 group-title="江苏电信-组播3",江苏教育
+http://121.226.105.44:6888/udp/239.49.8.122:8000
+#EXTINF:-1 group-title="江苏电信-组播3",江苏新闻
+http://121.226.105.44:6888/udp/239.49.8.120:8000
+#EXTINF:-1 group-title="江苏电信-组播3",江苏综艺
+http://121.226.105.44:6888/udp/239.49.8.108:8000
 #EXTINF:-1 group-title="江苏电信-组播3",CGTN西班牙语
-http://121.226.105.44:6888/rtp/239.49.1.30:8000
+http://121.226.105.44:6888/udp/239.49.1.30:8000
 #EXTINF:-1 group-title="江苏电信-组播3",CGTN法语
-http://121.226.105.44:6888/rtp/239.49.1.31:8000
+http://121.226.105.44:6888/udp/239.49.1.31:8000
 #EXTINF:-1 group-title="江苏电信-组播3",CGTN俄语
-http://121.226.105.44:6888/rtp/239.49.0.111:8000
+http://121.226.105.44:6888/udp/239.49.0.111:8000
 #EXTINF:-1 group-title="江苏电信-组播3",CETV-1综合教育
-http://121.226.105.44:6888/rtp/239.49.8.115:8000
+http://121.226.105.44:6888/udp/239.49.8.115:8000
 #EXTINF:-1 group-title="江苏电信-组播3",CETV-4职业教育
-http://121.226.105.44:6888/rtp/239.49.0.125:8000
+http://121.226.105.44:6888/udp/239.49.0.125:8000
 #EXTINF:-1 group-title="江苏电信-组播3",中学生
-http://121.226.105.44:6888/rtp/239.49.1.82:8000
+http://121.226.105.44:6888/udp/239.49.1.82:8000
 #EXTINF:-1 group-title="江苏电信-组播3",中国天气
-http://121.226.105.44:6888/rtp/239.49.0.94:8000
+http://121.226.105.44:6888/udp/239.49.0.94:8000
 #EXTINF:-1 group-title="江苏电信-组播3",睛彩竞技
-http://121.226.105.44:6888/rtp/239.49.8.39:8000
+http://121.226.105.44:6888/udp/239.49.8.39:8000
 #EXTINF:-1 group-title="江苏电信-组播3",睛彩广场舞
-http://121.226.105.44:6888/rtp/239.49.8.64:8000
+http://121.226.105.44:6888/udp/239.49.8.64:8000
 #EXTINF:-1 group-title="江苏电信-组播3",睛彩青少
-http://121.226.105.44:6888/rtp/239.49.8.46:8000
+http://121.226.105.44:6888/udp/239.49.8.46:8000
 #EXTINF:-1 group-title="江苏电信-组播3",睛彩篮球
-http://121.226.105.44:6888/rtp/239.49.8.42:8000
+http://121.226.105.44:6888/udp/239.49.8.42:8000
 #EXTINF:-1 group-title="江苏电信-组播3",江苏优漫卡通
-http://121.226.105.44:6888/rtp/239.49.0.21:8160
+http://121.226.105.44:6888/udp/239.49.8.119:8000
 #EXTINF:-1 group-title="江苏电信-组播3",江苏优漫卡通
-http://121.226.105.44:6888/rtp/239.49.1.21:6000
+http://121.226.105.44:6888/udp/239.49.0.21:8160
+#EXTINF:-1 group-title="江苏电信-组播3",江苏优漫卡通
+http://121.226.105.44:6888/udp/239.49.1.21:6000
 #EXTINF:-1 group-title="江苏电信-组播3",北京四海钓鱼
-http://121.226.105.44:6888/rtp/239.49.1.80:8000
+http://121.226.105.44:6888/udp/239.49.1.80:8000
 #EXTINF:-1 group-title="江苏电信-组播3",北京卡酷少儿
-http://121.226.105.44:6888/rtp/239.49.0.148:8000
+http://121.226.105.44:6888/udp/239.49.0.148:8000
 #EXTINF:-1 group-title="江苏电信-组播3",山西书画频道
-http://121.226.105.44:6888/rtp/239.49.0.123:8000
+http://121.226.105.44:6888/udp/239.49.0.123:8000
 #EXTINF:-1 group-title="江苏电信-组播3",上海东方财经
-http://121.226.105.44:6888/rtp/239.49.0.95:8000
+http://121.226.105.44:6888/udp/239.49.0.95:8000
 #EXTINF:-1 group-title="江苏电信-组播3",上海法治天地
-http://121.226.105.44:6888/rtp/239.49.0.96:8000
+http://121.226.105.44:6888/udp/239.49.0.96:8000
 #EXTINF:-1 group-title="江苏电信-组播3",上海都市剧场
-http://121.226.105.44:6888/rtp/239.49.0.99:8000
+http://121.226.105.44:6888/udp/239.49.0.99:8000
 #EXTINF:-1 group-title="江苏电信-组播3",上海生活时尚
-http://121.226.105.44:6888/rtp/239.49.0.97:8000
+http://121.226.105.44:6888/udp/239.49.0.97:8000
 #EXTINF:-1 group-title="江苏电信-组播3",上海第一财经
-http://121.226.105.44:6888/rtp/239.49.0.30:8232
+http://121.226.105.44:6888/udp/239.49.8.37:8000
 #EXTINF:-1 group-title="江苏电信-组播3",上海第一财经
-http://121.226.105.44:6888/rtp/239.49.8.37:8000
+http://121.226.105.44:6888/udp/239.49.0.30:8232
 #EXTINF:-1 group-title="江苏电信-组播3",江苏财富天下
-http://121.226.105.44:6888/rtp/239.49.1.76:8000
+http://121.226.105.44:6888/udp/239.49.1.76:8000
 #EXTINF:-1 group-title="江苏电信-组播3",河南武术世界
-http://121.226.105.44:6888/rtp/239.49.0.205:8000
+http://121.226.105.44:6888/udp/239.49.0.205:8000
 #EXTINF:-1 group-title="江苏电信-组播3",河南文物宝库
-http://121.226.105.44:6888/rtp/239.49.0.209:8000
+http://121.226.105.44:6888/udp/239.49.0.209:8000
 #EXTINF:-1 group-title="江苏电信-组播3",湖北快乐垂钓
-http://121.226.105.44:6888/rtp/239.49.0.114:8000
+http://121.226.105.44:6888/udp/239.49.0.114:8000
 #EXTINF:-1 group-title="江苏电信-组播3",湖南茶频道
-http://121.226.105.44:6888/rtp/239.49.0.146:8000
+http://121.226.105.44:6888/udp/239.49.0.146:8000
 #EXTINF:-1 group-title="江苏电信-组播3",湖南金鹰纪实
-http://121.226.105.44:6888/rtp/239.49.8.79:8000
+http://121.226.105.44:6888/udp/239.49.8.79:8000
 #EXTINF:-1 group-title="江苏电信-组播3",湖南金鹰卡通
-http://121.226.105.44:6888/rtp/239.49.8.33:8000
+http://121.226.105.44:6888/udp/239.49.8.33:8000
 #EXTINF:-1 group-title="江苏电信-组播3",贵州天元围棋
-http://121.226.105.44:6888/rtp/239.49.1.79:8000
+http://121.226.105.44:6888/udp/239.49.1.79:8000
 #EXTINF:-1 group-title="江苏电信-组播3",精彩推荐
-http://121.226.105.44:6888/rtp/239.49.0.190:9458
+http://121.226.105.44:6888/udp/239.49.0.190:9458
 #EXTINF:-1 group-title="江苏电信-组播3",精彩推荐
-http://121.226.105.44:6888/rtp/239.49.8.34:8612
+http://121.226.105.44:6888/udp/239.49.8.34:8612
 #EXTINF:-1 group-title="江苏电信-组播3",好享购物
-http://121.226.105.44:6888/rtp/239.49.8.121:8000
-#EXTINF:-1 group-title="江苏电信-组播3",家有购物
-http://121.226.105.44:6888/rtp/239.49.0.112:8000
+http://121.226.105.44:6888/udp/239.49.8.121:8000
 #EXTINF:-1 group-title="江苏电信-组播3",南京少儿
-http://121.226.105.44:6888/rtp/239.49.0.45:8000
+http://121.226.105.44:6888/udp/239.49.0.45:8000
 #EXTINF:-1 group-title="江苏电信-组播3",南京影视
-http://121.226.105.44:6888/rtp/239.49.0.24:8000
+http://121.226.105.44:6888/udp/239.49.0.24:8000
 #EXTINF:-1 group-title="江苏电信-组播3",南京文旅纪录
-http://121.226.105.44:6888/rtp/239.49.0.38:8000
+http://121.226.105.44:6888/udp/239.49.0.38:8000
 #EXTINF:-1 group-title="江苏电信-组播3",南京新闻综合
-http://121.226.105.44:6888/rtp/239.49.0.25:8192
+http://121.226.105.44:6888/udp/239.49.0.25:8192
 #EXTINF:-1 group-title="江苏电信-组播3",南京生活频道
-http://121.226.105.44:6888/rtp/239.49.0.26:8200
+http://121.226.105.44:6888/udp/239.49.0.26:8200
 #EXTINF:-1 group-title="江苏电信-组播3",南京科教频道
-http://121.226.105.44:6888/rtp/239.49.0.183:9434
+http://121.226.105.44:6888/udp/239.49.0.183:9434
 #EXTINF:-1 group-title="江苏电信-组播3",南京高淳新闻
-http://121.226.105.44:6888/rtp/239.49.0.74:8000
+http://121.226.105.44:6888/udp/239.49.0.74:8000
 #EXTINF:-1 group-title="江苏电信-组播3",无锡新闻综合
-http://121.226.105.44:6888/rtp/239.49.1.77:8000
+http://121.226.105.44:6888/udp/239.49.1.77:8000
 #EXTINF:-1 group-title="江苏电信-组播3",无锡都市资讯
-http://121.226.105.44:6888/rtp/239.49.1.78:8000
+http://121.226.105.44:6888/udp/239.49.1.78:8000
 #EXTINF:-1 group-title="江苏电信-组播3",徐州1
-http://121.226.105.44:6888/rtp/239.49.0.203:8000
+http://121.226.105.44:6888/udp/239.49.0.203:8000
 #EXTINF:-1 group-title="江苏电信-组播3",徐州2
-http://121.226.105.44:6888/rtp/239.49.0.199:8000
+http://121.226.105.44:6888/udp/239.49.0.199:8000
 #EXTINF:-1 group-title="江苏电信-组播3",徐州3
-http://121.226.105.44:6888/rtp/239.49.0.211:8000
+http://121.226.105.44:6888/udp/239.49.0.211:8000
 #EXTINF:-1 group-title="江苏电信-组播3",徐州新沂1
-http://121.226.105.44:6888/rtp/239.49.0.238:8000
+http://121.226.105.44:6888/udp/239.49.0.238:8000
 #EXTINF:-1 group-title="江苏电信-组播3",徐州沛县新闻综合
-http://121.226.105.44:6888/rtp/239.49.0.214:8000
+http://121.226.105.44:6888/udp/239.49.0.214:8000
 #EXTINF:-1 group-title="江苏电信-组播3",徐州睢宁综合
-http://121.226.105.44:6888/rtp/239.49.0.239:8000
+http://121.226.105.44:6888/udp/239.49.0.239:8000
 #EXTINF:-1 group-title="江苏电信-组播3",徐州贾汪新闻
-http://121.226.105.44:6888/rtp/239.49.0.248:8000
+http://121.226.105.44:6888/udp/239.49.0.248:8000
 #EXTINF:-1 group-title="江苏电信-组播3",徐州邳州综合
-http://121.226.105.44:6888/rtp/239.49.0.182:8000
+http://121.226.105.44:6888/udp/239.49.0.182:8000
 #EXTINF:-1 group-title="江苏电信-组播3",徐州铜山1
-http://121.226.105.44:6888/rtp/239.49.0.163:8000
+http://121.226.105.44:6888/udp/239.49.0.163:8000
 #EXTINF:-1 group-title="江苏电信-组播3",新沂生活
-http://121.226.105.44:6888/rtp/239.49.0.124:8000
+http://121.226.105.44:6888/udp/239.49.0.124:8000
 #EXTINF:-1 group-title="江苏电信-组播3",常州公共
-http://121.226.105.44:6888/rtp/239.49.0.218:9582
+http://121.226.105.44:6888/udp/239.49.0.218:9582
 #EXTINF:-1 group-title="江苏电信-组播3",常州新闻综合
-http://121.226.105.44:6888/rtp/239.49.1.83:8000
+http://121.226.105.44:6888/udp/239.49.1.83:8000
 #EXTINF:-1 group-title="江苏电信-组播3",常州生活
-http://121.226.105.44:6888/rtp/239.49.0.219:9586
+http://121.226.105.44:6888/udp/239.49.1.85:8000
 #EXTINF:-1 group-title="江苏电信-组播3",常州生活
-http://121.226.105.44:6888/rtp/239.49.1.85:8000
+http://121.226.105.44:6888/udp/239.49.0.219:9586
 #EXTINF:-1 group-title="江苏电信-组播3",常州综合
-http://121.226.105.44:6888/rtp/239.49.0.221:9594
+http://121.226.105.44:6888/udp/239.49.0.221:9594
 #EXTINF:-1 group-title="江苏电信-组播3",常州都市
-http://121.226.105.44:6888/rtp/239.49.0.220:9590
+http://121.226.105.44:6888/udp/239.49.1.84:8000
 #EXTINF:-1 group-title="江苏电信-组播3",常州都市
-http://121.226.105.44:6888/rtp/239.49.1.84:8000
+http://121.226.105.44:6888/udp/239.49.0.220:9590
 #EXTINF:-1 group-title="江苏电信-组播3",常州金坛电视台
-http://121.226.105.44:6888/rtp/239.49.1.54:8000
+http://121.226.105.44:6888/udp/239.49.1.54:8000
 #EXTINF:-1 group-title="江苏电信-组播3",苏州生活资讯5
-http://121.226.105.44:6888/rtp/239.49.8.116:8000
+http://121.226.105.44:6888/udp/239.49.8.116:8000
 #EXTINF:-1 group-title="江苏电信-组播3",南通公共
-http://121.226.105.44:6888/rtp/239.49.0.197:8000
+http://121.226.105.44:6888/udp/239.49.0.197:8000
 #EXTINF:-1 group-title="江苏电信-组播3",南通新闻综合
-http://121.226.105.44:6888/rtp/239.49.0.223:8000
+http://121.226.105.44:6888/udp/239.49.0.223:8000
 #EXTINF:-1 group-title="江苏电信-组播3",南通社教
-http://121.226.105.44:6888/rtp/239.49.0.224:8000
+http://121.226.105.44:6888/udp/239.49.0.224:8000
 #EXTINF:-1 group-title="江苏电信-组播3",连云港东海综合
-http://121.226.105.44:6888/rtp/239.49.0.121:8000
+http://121.226.105.44:6888/udp/239.49.0.121:8000
 #EXTINF:-1 group-title="江苏电信-组播3",连云港新闻综合
-http://121.226.105.44:6888/rtp/239.49.0.225:8000
+http://121.226.105.44:6888/udp/239.49.0.225:8000
 #EXTINF:-1 group-title="江苏电信-组播3",连云港生活频道
-http://121.226.105.44:6888/rtp/239.49.0.229:8000
+http://121.226.105.44:6888/udp/239.49.0.229:8000
 #EXTINF:-1 group-title="江苏电信-组播3",连云港赣榆电视台
-http://121.226.105.44:6888/rtp/239.49.0.241:8000
+http://121.226.105.44:6888/udp/239.49.0.241:8000
 #EXTINF:-1 group-title="江苏电信-组播3",淮安公共
-http://121.226.105.44:6888/rtp/239.49.0.181:8000
+http://121.226.105.44:6888/udp/239.49.0.181:8000
 #EXTINF:-1 group-title="江苏电信-组播3",淮安影视娱乐
-http://121.226.105.44:6888/rtp/239.49.0.192:8000
+http://121.226.105.44:6888/udp/239.49.0.192:8000
 #EXTINF:-1 group-title="江苏电信-组播3",淮安新闻综合
-http://121.226.105.44:6888/rtp/239.49.0.204:8000
+http://121.226.105.44:6888/udp/239.49.0.204:8000
 #EXTINF:-1 group-title="江苏电信-组播3",淮安洪泽1
-http://121.226.105.44:6888/rtp/239.49.0.89:8000
+http://121.226.105.44:6888/udp/239.49.0.89:8000
 #EXTINF:-1 group-title="江苏电信-组播3",淮安淮阴综合
-http://121.226.105.44:6888/rtp/239.49.0.169:8000
+http://121.226.105.44:6888/udp/239.49.0.169:8000
 #EXTINF:-1 group-title="江苏电信-组播3",淮安盱眙综合
-http://121.226.105.44:6888/rtp/239.49.0.237:8000
+http://121.226.105.44:6888/udp/239.49.0.237:8000
 #EXTINF:-1 group-title="江苏电信-组播3",盐城1
-http://121.226.105.44:6888/rtp/239.49.8.30:8000
+http://121.226.105.44:6888/udp/239.49.8.30:8000
 #EXTINF:-1 group-title="江苏电信-组播3",盐城2
-http://121.226.105.44:6888/rtp/239.49.0.88:8000
+http://121.226.105.44:6888/udp/239.49.0.88:8000
 #EXTINF:-1 group-title="江苏电信-组播3",盐城响水综合
-http://121.226.105.44:6888/rtp/239.49.0.115:8912
+http://121.226.105.44:6888/udp/239.49.0.115:8912
 #EXTINF:-1 group-title="江苏电信-组播3",镇江新闻综合
-http://121.226.105.44:6888/rtp/239.49.0.98:8000
+http://121.226.105.44:6888/udp/239.49.0.98:8000
 #EXTINF:-1 group-title="江苏电信-组播3",镇江民生教育
-http://121.226.105.44:6888/rtp/239.49.1.73:8000
+http://121.226.105.44:6888/udp/239.49.1.73:8000
 #EXTINF:-1 group-title="江苏电信-组播3",泰州1
-http://121.226.105.44:6888/rtp/239.49.0.215:8000
+http://121.226.105.44:6888/udp/239.49.0.215:8000
 #EXTINF:-1 group-title="江苏电信-组播3",泰州2
-http://121.226.105.44:6888/rtp/239.49.0.217:8000
+http://121.226.105.44:6888/udp/239.49.0.217:8000
 #EXTINF:-1 group-title="江苏电信-组播3",泰州3
-http://121.226.105.44:6888/rtp/239.49.0.222:8000
+http://121.226.105.44:6888/udp/239.49.0.222:8000
 #EXTINF:-1 group-title="江苏电信-组播3",泰州兴化新闻综合
-http://121.226.105.44:6888/rtp/239.49.0.162:8000
+http://121.226.105.44:6888/udp/239.49.0.162:8000
 #EXTINF:-1 group-title="江苏电信-组播3",泰州泰兴综合
-http://121.226.105.44:6888/rtp/239.49.0.168:8000
+http://121.226.105.44:6888/udp/239.49.0.168:8000
 #EXTINF:-1 group-title="江苏电信-组播3",宿迁公共
-http://121.226.105.44:6888/rtp/239.49.0.236:8000
+http://121.226.105.44:6888/udp/239.49.0.236:8000
 #EXTINF:-1 group-title="江苏电信-组播3",宿迁宿豫综合
-http://121.226.105.44:6888/rtp/239.49.0.83:8000
+http://121.226.105.44:6888/udp/239.49.0.83:8000
 #EXTINF:-1 group-title="江苏电信-组播3",宿迁沭阳综合
-http://121.226.105.44:6888/rtp/239.49.0.189:8792
+http://121.226.105.44:6888/udp/239.49.0.189:8792
 #EXTINF:-1 group-title="江苏电信-组播3",宿迁泗洪综合
-http://121.226.105.44:6888/rtp/239.49.0.195:8000
+http://121.226.105.44:6888/udp/239.49.0.195:8000
 #EXTINF:-1 group-title="江苏电信-组播3",宿迁综合
-http://121.226.105.44:6888/rtp/239.49.0.231:8000
+http://121.226.105.44:6888/udp/239.49.0.231:8000
 #EXTINF:-1 group-title="江苏电信-组播3",泗阳综合
-http://121.226.105.44:6888/rtp/239.49.0.249:8000
+http://121.226.105.44:6888/udp/239.49.0.249:8000
 #EXTINF:-1 group-title="江苏电信-组播3",4分屏
-http://121.226.105.44:6888/rtp/239.49.8.73:8000
-#EXTINF:-1 group-title="江苏电信-组播3",4分屏
-http://121.226.105.44:6888/rtp/239.49.8.125:8000
-#EXTINF:-1 group-title="江苏电信-组播3",CCTV16SDR
-http://121.226.105.44:6888/rtp/239.49.0.109:8000
-#EXTINF:-1 group-title="江苏电信-组播3",无信号
-http://121.226.105.44:6888/rtp/239.49.0.113:8000
-#EXTINF:-1 group-title="江苏电信-组播3",无信号
-http://121.226.105.44:6888/rtp/239.49.0.201:8000
-#EXTINF:-1 group-title="江苏电信-组播3",无信号
-http://121.226.105.44:6888/rtp/239.49.0.202:8000
-#EXTINF:-1 group-title="江苏电信-组播3",无信号
-http://121.226.105.44:6888/rtp/239.49.0.226:8000
-#EXTINF:-1 group-title="江苏电信-组播3",无信号
-http://121.226.105.44:6888/rtp/239.49.0.243:8000
-#EXTINF:-1 group-title="江苏电信-组播3",无信号
-http://121.226.105.44:6888/rtp/239.49.0.247:8000
-#EXTINF:-1 group-title="江苏电信-组播3",无信号
-http://121.226.105.44:6888/rtp/239.49.8.127:8000
+http://121.226.105.44:6888/udp/239.49.8.73:8000
 #EXTINF:-1 group-title="江苏电信-组播3",梨园频道
-http://121.226.105.44:6888/rtp/239.49.8.193:8000
+http://121.226.105.44:6888/udp/239.49.8.193:8000
 #EXTINF:-1 group-title="江苏电信-组播3",苏超1
-http://121.226.105.44:6888/rtp/239.49.8.96:8000
+http://121.226.105.44:6888/udp/239.49.8.96:8000
 #EXTINF:-1 group-title="江苏电信-组播3",苏超2
-http://121.226.105.44:6888/rtp/239.49.8.97:8000
+http://121.226.105.44:6888/udp/239.49.8.97:8000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏卫视
-http://114.226.212.140:8787/rtp/239.49.8.16:9602
+http://114.226.212.140:8787/udp/239.49.8.16:9602
 #EXTINF:-1 group-title="江苏电信-组播4",江苏卫视
-http://114.226.212.140:8787/rtp/239.49.8.138:6000
+http://114.226.212.140:8787/udp/239.49.8.138:6000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏卫视4K
-http://114.226.212.140:8787/rtp/239.49.1.62:8000
+http://114.226.212.140:8787/udp/239.49.1.62:8000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏卫视4K
-http://114.226.212.140:8787/rtp/239.49.1.61:8000
-#EXTINF:-1 group-title="江苏电信-组播4",江苏优漫卡通
-http://114.226.212.140:8787/rtp/239.49.8.119:8000
-#EXTINF:-1 group-title="江苏电信-组播4",江苏体育休闲
-http://114.226.212.140:8787/rtp/239.49.8.117:8000
+http://114.226.212.140:8787/udp/239.49.1.61:8000
+#EXTINF:-1 group-title="江苏电信-组播4",江苏体育
+http://114.226.212.140:8787/udp/239.49.8.117:8000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏国际
-http://114.226.212.140:8787/rtp/239.49.1.81:8000
-#EXTINF:-1 group-title="江苏电信-组播4",江苏城市频道
-http://114.226.212.140:8787/rtp/239.49.8.107:8000
-#EXTINF:-1 group-title="江苏电信-组播4",江苏影视频道
-http://114.226.212.140:8787/rtp/239.49.8.118:8000
-#EXTINF:-1 group-title="江苏电信-组播4",江苏教育频道
-http://114.226.212.140:8787/rtp/239.49.8.122:8000
-#EXTINF:-1 group-title="江苏电信-组播4",江苏新闻频道
-http://114.226.212.140:8787/rtp/239.49.8.120:8000
-#EXTINF:-1 group-title="江苏电信-组播4",江苏综艺频道
-http://114.226.212.140:8787/rtp/239.49.8.108:8000
+http://114.226.212.140:8787/udp/239.49.1.81:8000
+#EXTINF:-1 group-title="江苏电信-组播4",江苏城市
+http://114.226.212.140:8787/udp/239.49.8.107:8000
+#EXTINF:-1 group-title="江苏电信-组播4",江苏影视
+http://114.226.212.140:8787/udp/239.49.8.118:8000
+#EXTINF:-1 group-title="江苏电信-组播4",江苏教育
+http://114.226.212.140:8787/udp/239.49.8.122:8000
+#EXTINF:-1 group-title="江苏电信-组播4",江苏新闻
+http://114.226.212.140:8787/udp/239.49.8.120:8000
+#EXTINF:-1 group-title="江苏电信-组播4",江苏综艺
+http://114.226.212.140:8787/udp/239.49.8.108:8000
 #EXTINF:-1 group-title="江苏电信-组播4",CGTN西班牙语
-http://114.226.212.140:8787/rtp/239.49.1.30:8000
+http://114.226.212.140:8787/udp/239.49.1.30:8000
 #EXTINF:-1 group-title="江苏电信-组播4",CGTN法语
-http://114.226.212.140:8787/rtp/239.49.1.31:8000
+http://114.226.212.140:8787/udp/239.49.1.31:8000
 #EXTINF:-1 group-title="江苏电信-组播4",CGTN俄语
-http://114.226.212.140:8787/rtp/239.49.0.111:8000
+http://114.226.212.140:8787/udp/239.49.0.111:8000
 #EXTINF:-1 group-title="江苏电信-组播4",CETV-1综合教育
-http://114.226.212.140:8787/rtp/239.49.8.115:8000
+http://114.226.212.140:8787/udp/239.49.8.115:8000
 #EXTINF:-1 group-title="江苏电信-组播4",CETV-4职业教育
-http://114.226.212.140:8787/rtp/239.49.0.125:8000
+http://114.226.212.140:8787/udp/239.49.0.125:8000
 #EXTINF:-1 group-title="江苏电信-组播4",中学生
-http://114.226.212.140:8787/rtp/239.49.1.82:8000
+http://114.226.212.140:8787/udp/239.49.1.82:8000
 #EXTINF:-1 group-title="江苏电信-组播4",中国天气
-http://114.226.212.140:8787/rtp/239.49.0.94:8000
+http://114.226.212.140:8787/udp/239.49.0.94:8000
 #EXTINF:-1 group-title="江苏电信-组播4",睛彩竞技
-http://114.226.212.140:8787/rtp/239.49.8.39:8000
+http://114.226.212.140:8787/udp/239.49.8.39:8000
 #EXTINF:-1 group-title="江苏电信-组播4",睛彩广场舞
-http://114.226.212.140:8787/rtp/239.49.8.64:8000
+http://114.226.212.140:8787/udp/239.49.8.64:8000
 #EXTINF:-1 group-title="江苏电信-组播4",睛彩青少
-http://114.226.212.140:8787/rtp/239.49.8.46:8000
+http://114.226.212.140:8787/udp/239.49.8.46:8000
 #EXTINF:-1 group-title="江苏电信-组播4",睛彩篮球
-http://114.226.212.140:8787/rtp/239.49.8.42:8000
+http://114.226.212.140:8787/udp/239.49.8.42:8000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏优漫卡通
-http://114.226.212.140:8787/rtp/239.49.0.21:8160
+http://114.226.212.140:8787/udp/239.49.8.119:8000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏优漫卡通
-http://114.226.212.140:8787/rtp/239.49.1.21:6000
+http://114.226.212.140:8787/udp/239.49.0.21:8160
+#EXTINF:-1 group-title="江苏电信-组播4",江苏优漫卡通
+http://114.226.212.140:8787/udp/239.49.1.21:6000
 #EXTINF:-1 group-title="江苏电信-组播4",北京四海钓鱼
-http://114.226.212.140:8787/rtp/239.49.1.80:8000
+http://114.226.212.140:8787/udp/239.49.1.80:8000
 #EXTINF:-1 group-title="江苏电信-组播4",北京卡酷少儿
-http://114.226.212.140:8787/rtp/239.49.0.148:8000
+http://114.226.212.140:8787/udp/239.49.0.148:8000
 #EXTINF:-1 group-title="江苏电信-组播4",山西书画频道
-http://114.226.212.140:8787/rtp/239.49.0.123:8000
+http://114.226.212.140:8787/udp/239.49.0.123:8000
 #EXTINF:-1 group-title="江苏电信-组播4",上海东方财经
-http://114.226.212.140:8787/rtp/239.49.0.95:8000
+http://114.226.212.140:8787/udp/239.49.0.95:8000
 #EXTINF:-1 group-title="江苏电信-组播4",上海法治天地
-http://114.226.212.140:8787/rtp/239.49.0.96:8000
+http://114.226.212.140:8787/udp/239.49.0.96:8000
 #EXTINF:-1 group-title="江苏电信-组播4",上海都市剧场
-http://114.226.212.140:8787/rtp/239.49.0.99:8000
+http://114.226.212.140:8787/udp/239.49.0.99:8000
 #EXTINF:-1 group-title="江苏电信-组播4",上海生活时尚
-http://114.226.212.140:8787/rtp/239.49.0.97:8000
+http://114.226.212.140:8787/udp/239.49.0.97:8000
 #EXTINF:-1 group-title="江苏电信-组播4",上海第一财经
-http://114.226.212.140:8787/rtp/239.49.0.30:8232
+http://114.226.212.140:8787/udp/239.49.8.37:8000
 #EXTINF:-1 group-title="江苏电信-组播4",上海第一财经
-http://114.226.212.140:8787/rtp/239.49.8.37:8000
+http://114.226.212.140:8787/udp/239.49.0.30:8232
 #EXTINF:-1 group-title="江苏电信-组播4",江苏财富天下
-http://114.226.212.140:8787/rtp/239.49.1.76:8000
+http://114.226.212.140:8787/udp/239.49.1.76:8000
 #EXTINF:-1 group-title="江苏电信-组播4",河南武术世界
-http://114.226.212.140:8787/rtp/239.49.0.205:8000
+http://114.226.212.140:8787/udp/239.49.0.205:8000
 #EXTINF:-1 group-title="江苏电信-组播4",河南文物宝库
-http://114.226.212.140:8787/rtp/239.49.0.209:8000
+http://114.226.212.140:8787/udp/239.49.0.209:8000
 #EXTINF:-1 group-title="江苏电信-组播4",湖北快乐垂钓
-http://114.226.212.140:8787/rtp/239.49.0.114:8000
+http://114.226.212.140:8787/udp/239.49.0.114:8000
 #EXTINF:-1 group-title="江苏电信-组播4",湖南茶频道
-http://114.226.212.140:8787/rtp/239.49.0.146:8000
+http://114.226.212.140:8787/udp/239.49.0.146:8000
 #EXTINF:-1 group-title="江苏电信-组播4",湖南金鹰纪实
-http://114.226.212.140:8787/rtp/239.49.8.79:8000
+http://114.226.212.140:8787/udp/239.49.8.79:8000
 #EXTINF:-1 group-title="江苏电信-组播4",湖南金鹰卡通
-http://114.226.212.140:8787/rtp/239.49.8.33:8000
+http://114.226.212.140:8787/udp/239.49.8.33:8000
 #EXTINF:-1 group-title="江苏电信-组播4",贵州天元围棋
-http://114.226.212.140:8787/rtp/239.49.1.79:8000
+http://114.226.212.140:8787/udp/239.49.1.79:8000
 #EXTINF:-1 group-title="江苏电信-组播4",精彩推荐
-http://114.226.212.140:8787/rtp/239.49.0.190:9458
+http://114.226.212.140:8787/udp/239.49.0.190:9458
 #EXTINF:-1 group-title="江苏电信-组播4",精彩推荐
-http://114.226.212.140:8787/rtp/239.49.8.34:8612
+http://114.226.212.140:8787/udp/239.49.8.34:8612
 #EXTINF:-1 group-title="江苏电信-组播4",好享购物
-http://114.226.212.140:8787/rtp/239.49.8.121:8000
-#EXTINF:-1 group-title="江苏电信-组播4",家有购物
-http://114.226.212.140:8787/rtp/239.49.0.112:8000
+http://114.226.212.140:8787/udp/239.49.8.121:8000
 #EXTINF:-1 group-title="江苏电信-组播4",南京少儿
-http://114.226.212.140:8787/rtp/239.49.0.45:8000
+http://114.226.212.140:8787/udp/239.49.0.45:8000
 #EXTINF:-1 group-title="江苏电信-组播4",南京影视
-http://114.226.212.140:8787/rtp/239.49.0.24:8000
+http://114.226.212.140:8787/udp/239.49.0.24:8000
 #EXTINF:-1 group-title="江苏电信-组播4",南京文旅纪录
-http://114.226.212.140:8787/rtp/239.49.0.38:8000
+http://114.226.212.140:8787/udp/239.49.0.38:8000
 #EXTINF:-1 group-title="江苏电信-组播4",南京新闻综合
-http://114.226.212.140:8787/rtp/239.49.0.25:8192
+http://114.226.212.140:8787/udp/239.49.0.25:8192
 #EXTINF:-1 group-title="江苏电信-组播4",南京生活频道
-http://114.226.212.140:8787/rtp/239.49.0.26:8200
+http://114.226.212.140:8787/udp/239.49.0.26:8200
 #EXTINF:-1 group-title="江苏电信-组播4",南京科教频道
-http://114.226.212.140:8787/rtp/239.49.0.183:9434
+http://114.226.212.140:8787/udp/239.49.0.183:9434
 #EXTINF:-1 group-title="江苏电信-组播4",南京高淳新闻
-http://114.226.212.140:8787/rtp/239.49.0.74:8000
+http://114.226.212.140:8787/udp/239.49.0.74:8000
 #EXTINF:-1 group-title="江苏电信-组播4",无锡新闻综合
-http://114.226.212.140:8787/rtp/239.49.1.77:8000
+http://114.226.212.140:8787/udp/239.49.1.77:8000
 #EXTINF:-1 group-title="江苏电信-组播4",无锡都市资讯
-http://114.226.212.140:8787/rtp/239.49.1.78:8000
+http://114.226.212.140:8787/udp/239.49.1.78:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州1
-http://114.226.212.140:8787/rtp/239.49.0.203:8000
+http://114.226.212.140:8787/udp/239.49.0.203:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州2
-http://114.226.212.140:8787/rtp/239.49.0.199:8000
+http://114.226.212.140:8787/udp/239.49.0.199:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州3
-http://114.226.212.140:8787/rtp/239.49.0.211:8000
+http://114.226.212.140:8787/udp/239.49.0.211:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州新沂1
-http://114.226.212.140:8787/rtp/239.49.0.238:8000
+http://114.226.212.140:8787/udp/239.49.0.238:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州沛县新闻综合
-http://114.226.212.140:8787/rtp/239.49.0.214:8000
+http://114.226.212.140:8787/udp/239.49.0.214:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州睢宁综合
-http://114.226.212.140:8787/rtp/239.49.0.239:8000
+http://114.226.212.140:8787/udp/239.49.0.239:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州贾汪新闻
-http://114.226.212.140:8787/rtp/239.49.0.248:8000
+http://114.226.212.140:8787/udp/239.49.0.248:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州邳州综合
-http://114.226.212.140:8787/rtp/239.49.0.182:8000
+http://114.226.212.140:8787/udp/239.49.0.182:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州铜山1
-http://114.226.212.140:8787/rtp/239.49.0.163:8000
+http://114.226.212.140:8787/udp/239.49.0.163:8000
 #EXTINF:-1 group-title="江苏电信-组播4",新沂生活
-http://114.226.212.140:8787/rtp/239.49.0.124:8000
+http://114.226.212.140:8787/udp/239.49.0.124:8000
 #EXTINF:-1 group-title="江苏电信-组播4",常州公共
-http://114.226.212.140:8787/rtp/239.49.0.218:9582
+http://114.226.212.140:8787/udp/239.49.0.218:9582
 #EXTINF:-1 group-title="江苏电信-组播4",常州新闻综合
-http://114.226.212.140:8787/rtp/239.49.1.83:8000
+http://114.226.212.140:8787/udp/239.49.1.83:8000
 #EXTINF:-1 group-title="江苏电信-组播4",常州生活
-http://114.226.212.140:8787/rtp/239.49.0.219:9586
+http://114.226.212.140:8787/udp/239.49.1.85:8000
 #EXTINF:-1 group-title="江苏电信-组播4",常州生活
-http://114.226.212.140:8787/rtp/239.49.1.85:8000
+http://114.226.212.140:8787/udp/239.49.0.219:9586
 #EXTINF:-1 group-title="江苏电信-组播4",常州综合
-http://114.226.212.140:8787/rtp/239.49.0.221:9594
+http://114.226.212.140:8787/udp/239.49.0.221:9594
 #EXTINF:-1 group-title="江苏电信-组播4",常州都市
-http://114.226.212.140:8787/rtp/239.49.0.220:9590
+http://114.226.212.140:8787/udp/239.49.1.84:8000
 #EXTINF:-1 group-title="江苏电信-组播4",常州都市
-http://114.226.212.140:8787/rtp/239.49.1.84:8000
+http://114.226.212.140:8787/udp/239.49.0.220:9590
 #EXTINF:-1 group-title="江苏电信-组播4",常州金坛电视台
-http://114.226.212.140:8787/rtp/239.49.1.54:8000
+http://114.226.212.140:8787/udp/239.49.1.54:8000
 #EXTINF:-1 group-title="江苏电信-组播4",苏州生活资讯5
-http://114.226.212.140:8787/rtp/239.49.8.116:8000
+http://114.226.212.140:8787/udp/239.49.8.116:8000
 #EXTINF:-1 group-title="江苏电信-组播4",南通公共
-http://114.226.212.140:8787/rtp/239.49.0.197:8000
+http://114.226.212.140:8787/udp/239.49.0.197:8000
 #EXTINF:-1 group-title="江苏电信-组播4",南通新闻综合
-http://114.226.212.140:8787/rtp/239.49.0.223:8000
+http://114.226.212.140:8787/udp/239.49.0.223:8000
 #EXTINF:-1 group-title="江苏电信-组播4",南通社教
-http://114.226.212.140:8787/rtp/239.49.0.224:8000
+http://114.226.212.140:8787/udp/239.49.0.224:8000
 #EXTINF:-1 group-title="江苏电信-组播4",连云港东海综合
-http://114.226.212.140:8787/rtp/239.49.0.121:8000
+http://114.226.212.140:8787/udp/239.49.0.121:8000
 #EXTINF:-1 group-title="江苏电信-组播4",连云港新闻综合
-http://114.226.212.140:8787/rtp/239.49.0.225:8000
+http://114.226.212.140:8787/udp/239.49.0.225:8000
 #EXTINF:-1 group-title="江苏电信-组播4",连云港生活频道
-http://114.226.212.140:8787/rtp/239.49.0.229:8000
+http://114.226.212.140:8787/udp/239.49.0.229:8000
 #EXTINF:-1 group-title="江苏电信-组播4",连云港赣榆电视台
-http://114.226.212.140:8787/rtp/239.49.0.241:8000
+http://114.226.212.140:8787/udp/239.49.0.241:8000
 #EXTINF:-1 group-title="江苏电信-组播4",淮安公共
-http://114.226.212.140:8787/rtp/239.49.0.181:8000
+http://114.226.212.140:8787/udp/239.49.0.181:8000
 #EXTINF:-1 group-title="江苏电信-组播4",淮安影视娱乐
-http://114.226.212.140:8787/rtp/239.49.0.192:8000
+http://114.226.212.140:8787/udp/239.49.0.192:8000
 #EXTINF:-1 group-title="江苏电信-组播4",淮安新闻综合
-http://114.226.212.140:8787/rtp/239.49.0.204:8000
+http://114.226.212.140:8787/udp/239.49.0.204:8000
 #EXTINF:-1 group-title="江苏电信-组播4",淮安洪泽1
-http://114.226.212.140:8787/rtp/239.49.0.89:8000
+http://114.226.212.140:8787/udp/239.49.0.89:8000
 #EXTINF:-1 group-title="江苏电信-组播4",淮安淮阴综合
-http://114.226.212.140:8787/rtp/239.49.0.169:8000
+http://114.226.212.140:8787/udp/239.49.0.169:8000
 #EXTINF:-1 group-title="江苏电信-组播4",淮安盱眙综合
-http://114.226.212.140:8787/rtp/239.49.0.237:8000
+http://114.226.212.140:8787/udp/239.49.0.237:8000
 #EXTINF:-1 group-title="江苏电信-组播4",盐城1
-http://114.226.212.140:8787/rtp/239.49.8.30:8000
+http://114.226.212.140:8787/udp/239.49.8.30:8000
 #EXTINF:-1 group-title="江苏电信-组播4",盐城2
-http://114.226.212.140:8787/rtp/239.49.0.88:8000
+http://114.226.212.140:8787/udp/239.49.0.88:8000
 #EXTINF:-1 group-title="江苏电信-组播4",盐城响水综合
-http://114.226.212.140:8787/rtp/239.49.0.115:8912
+http://114.226.212.140:8787/udp/239.49.0.115:8912
 #EXTINF:-1 group-title="江苏电信-组播4",镇江新闻综合
-http://114.226.212.140:8787/rtp/239.49.0.98:8000
+http://114.226.212.140:8787/udp/239.49.0.98:8000
 #EXTINF:-1 group-title="江苏电信-组播4",镇江民生教育
-http://114.226.212.140:8787/rtp/239.49.1.73:8000
+http://114.226.212.140:8787/udp/239.49.1.73:8000
 #EXTINF:-1 group-title="江苏电信-组播4",泰州1
-http://114.226.212.140:8787/rtp/239.49.0.215:8000
+http://114.226.212.140:8787/udp/239.49.0.215:8000
 #EXTINF:-1 group-title="江苏电信-组播4",泰州2
-http://114.226.212.140:8787/rtp/239.49.0.217:8000
+http://114.226.212.140:8787/udp/239.49.0.217:8000
 #EXTINF:-1 group-title="江苏电信-组播4",泰州3
-http://114.226.212.140:8787/rtp/239.49.0.222:8000
+http://114.226.212.140:8787/udp/239.49.0.222:8000
 #EXTINF:-1 group-title="江苏电信-组播4",泰州兴化新闻综合
-http://114.226.212.140:8787/rtp/239.49.0.162:8000
+http://114.226.212.140:8787/udp/239.49.0.162:8000
 #EXTINF:-1 group-title="江苏电信-组播4",泰州泰兴综合
-http://114.226.212.140:8787/rtp/239.49.0.168:8000
+http://114.226.212.140:8787/udp/239.49.0.168:8000
 #EXTINF:-1 group-title="江苏电信-组播4",宿迁公共
-http://114.226.212.140:8787/rtp/239.49.0.236:8000
+http://114.226.212.140:8787/udp/239.49.0.236:8000
 #EXTINF:-1 group-title="江苏电信-组播4",宿迁宿豫综合
-http://114.226.212.140:8787/rtp/239.49.0.83:8000
+http://114.226.212.140:8787/udp/239.49.0.83:8000
 #EXTINF:-1 group-title="江苏电信-组播4",宿迁沭阳综合
-http://114.226.212.140:8787/rtp/239.49.0.189:8792
+http://114.226.212.140:8787/udp/239.49.0.189:8792
 #EXTINF:-1 group-title="江苏电信-组播4",宿迁泗洪综合
-http://114.226.212.140:8787/rtp/239.49.0.195:8000
+http://114.226.212.140:8787/udp/239.49.0.195:8000
 #EXTINF:-1 group-title="江苏电信-组播4",宿迁综合
-http://114.226.212.140:8787/rtp/239.49.0.231:8000
+http://114.226.212.140:8787/udp/239.49.0.231:8000
 #EXTINF:-1 group-title="江苏电信-组播4",泗阳综合
-http://114.226.212.140:8787/rtp/239.49.0.249:8000
+http://114.226.212.140:8787/udp/239.49.0.249:8000
 #EXTINF:-1 group-title="江苏电信-组播4",4分屏
-http://114.226.212.140:8787/rtp/239.49.8.73:8000
-#EXTINF:-1 group-title="江苏电信-组播4",4分屏
-http://114.226.212.140:8787/rtp/239.49.8.125:8000
-#EXTINF:-1 group-title="江苏电信-组播4",CCTV16SDR
-http://114.226.212.140:8787/rtp/239.49.0.109:8000
-#EXTINF:-1 group-title="江苏电信-组播4",无信号
-http://114.226.212.140:8787/rtp/239.49.0.113:8000
-#EXTINF:-1 group-title="江苏电信-组播4",无信号
-http://114.226.212.140:8787/rtp/239.49.0.201:8000
-#EXTINF:-1 group-title="江苏电信-组播4",无信号
-http://114.226.212.140:8787/rtp/239.49.0.202:8000
-#EXTINF:-1 group-title="江苏电信-组播4",无信号
-http://114.226.212.140:8787/rtp/239.49.0.226:8000
-#EXTINF:-1 group-title="江苏电信-组播4",无信号
-http://114.226.212.140:8787/rtp/239.49.0.243:8000
-#EXTINF:-1 group-title="江苏电信-组播4",无信号
-http://114.226.212.140:8787/rtp/239.49.0.247:8000
-#EXTINF:-1 group-title="江苏电信-组播4",无信号
-http://114.226.212.140:8787/rtp/239.49.8.127:8000
+http://114.226.212.140:8787/udp/239.49.8.73:8000
 #EXTINF:-1 group-title="江苏电信-组播4",梨园频道
-http://114.226.212.140:8787/rtp/239.49.8.193:8000
+http://114.226.212.140:8787/udp/239.49.8.193:8000
 #EXTINF:-1 group-title="江苏电信-组播4",苏超1
-http://114.226.212.140:8787/rtp/239.49.8.96:8000
+http://114.226.212.140:8787/udp/239.49.8.96:8000
 #EXTINF:-1 group-title="江苏电信-组播4",苏超2
-http://114.226.212.140:8787/rtp/239.49.8.97:8000
+http://114.226.212.140:8787/udp/239.49.8.97:8000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏卫视
-http://fengwei888888.myds.me:58099/rtp/239.49.8.16:9602
+http://fengwei888888.myds.me:58099/udp/239.49.8.16:9602
 #EXTINF:-1 group-title="江苏电信-组播5",江苏卫视
-http://fengwei888888.myds.me:58099/rtp/239.49.8.138:6000
+http://fengwei888888.myds.me:58099/udp/239.49.8.138:6000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏卫视4K
-http://fengwei888888.myds.me:58099/rtp/239.49.1.62:8000
+http://fengwei888888.myds.me:58099/udp/239.49.1.62:8000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏卫视4K
-http://fengwei888888.myds.me:58099/rtp/239.49.1.61:8000
-#EXTINF:-1 group-title="江苏电信-组播5",江苏优漫卡通
-http://fengwei888888.myds.me:58099/rtp/239.49.8.119:8000
-#EXTINF:-1 group-title="江苏电信-组播5",江苏体育休闲
-http://fengwei888888.myds.me:58099/rtp/239.49.8.117:8000
+http://fengwei888888.myds.me:58099/udp/239.49.1.61:8000
+#EXTINF:-1 group-title="江苏电信-组播5",江苏体育
+http://fengwei888888.myds.me:58099/udp/239.49.8.117:8000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏国际
-http://fengwei888888.myds.me:58099/rtp/239.49.1.81:8000
-#EXTINF:-1 group-title="江苏电信-组播5",江苏城市频道
-http://fengwei888888.myds.me:58099/rtp/239.49.8.107:8000
-#EXTINF:-1 group-title="江苏电信-组播5",江苏影视频道
-http://fengwei888888.myds.me:58099/rtp/239.49.8.118:8000
-#EXTINF:-1 group-title="江苏电信-组播5",江苏教育频道
-http://fengwei888888.myds.me:58099/rtp/239.49.8.122:8000
-#EXTINF:-1 group-title="江苏电信-组播5",江苏新闻频道
-http://fengwei888888.myds.me:58099/rtp/239.49.8.120:8000
-#EXTINF:-1 group-title="江苏电信-组播5",江苏综艺频道
-http://fengwei888888.myds.me:58099/rtp/239.49.8.108:8000
+http://fengwei888888.myds.me:58099/udp/239.49.1.81:8000
+#EXTINF:-1 group-title="江苏电信-组播5",江苏城市
+http://fengwei888888.myds.me:58099/udp/239.49.8.107:8000
+#EXTINF:-1 group-title="江苏电信-组播5",江苏影视
+http://fengwei888888.myds.me:58099/udp/239.49.8.118:8000
+#EXTINF:-1 group-title="江苏电信-组播5",江苏教育
+http://fengwei888888.myds.me:58099/udp/239.49.8.122:8000
+#EXTINF:-1 group-title="江苏电信-组播5",江苏新闻
+http://fengwei888888.myds.me:58099/udp/239.49.8.120:8000
+#EXTINF:-1 group-title="江苏电信-组播5",江苏综艺
+http://fengwei888888.myds.me:58099/udp/239.49.8.108:8000
 #EXTINF:-1 group-title="江苏电信-组播5",CGTN西班牙语
-http://fengwei888888.myds.me:58099/rtp/239.49.1.30:8000
+http://fengwei888888.myds.me:58099/udp/239.49.1.30:8000
 #EXTINF:-1 group-title="江苏电信-组播5",CGTN法语
-http://fengwei888888.myds.me:58099/rtp/239.49.1.31:8000
+http://fengwei888888.myds.me:58099/udp/239.49.1.31:8000
 #EXTINF:-1 group-title="江苏电信-组播5",CGTN俄语
-http://fengwei888888.myds.me:58099/rtp/239.49.0.111:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.111:8000
 #EXTINF:-1 group-title="江苏电信-组播5",CETV-1综合教育
-http://fengwei888888.myds.me:58099/rtp/239.49.8.115:8000
+http://fengwei888888.myds.me:58099/udp/239.49.8.115:8000
 #EXTINF:-1 group-title="江苏电信-组播5",CETV-4职业教育
-http://fengwei888888.myds.me:58099/rtp/239.49.0.125:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.125:8000
 #EXTINF:-1 group-title="江苏电信-组播5",中学生
-http://fengwei888888.myds.me:58099/rtp/239.49.1.82:8000
+http://fengwei888888.myds.me:58099/udp/239.49.1.82:8000
 #EXTINF:-1 group-title="江苏电信-组播5",中国天气
-http://fengwei888888.myds.me:58099/rtp/239.49.0.94:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.94:8000
 #EXTINF:-1 group-title="江苏电信-组播5",睛彩竞技
-http://fengwei888888.myds.me:58099/rtp/239.49.8.39:8000
+http://fengwei888888.myds.me:58099/udp/239.49.8.39:8000
 #EXTINF:-1 group-title="江苏电信-组播5",睛彩广场舞
-http://fengwei888888.myds.me:58099/rtp/239.49.8.64:8000
+http://fengwei888888.myds.me:58099/udp/239.49.8.64:8000
 #EXTINF:-1 group-title="江苏电信-组播5",睛彩青少
-http://fengwei888888.myds.me:58099/rtp/239.49.8.46:8000
+http://fengwei888888.myds.me:58099/udp/239.49.8.46:8000
 #EXTINF:-1 group-title="江苏电信-组播5",睛彩篮球
-http://fengwei888888.myds.me:58099/rtp/239.49.8.42:8000
+http://fengwei888888.myds.me:58099/udp/239.49.8.42:8000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏优漫卡通
-http://fengwei888888.myds.me:58099/rtp/239.49.0.21:8160
+http://fengwei888888.myds.me:58099/udp/239.49.8.119:8000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏优漫卡通
-http://fengwei888888.myds.me:58099/rtp/239.49.1.21:6000
+http://fengwei888888.myds.me:58099/udp/239.49.0.21:8160
+#EXTINF:-1 group-title="江苏电信-组播5",江苏优漫卡通
+http://fengwei888888.myds.me:58099/udp/239.49.1.21:6000
 #EXTINF:-1 group-title="江苏电信-组播5",北京四海钓鱼
-http://fengwei888888.myds.me:58099/rtp/239.49.1.80:8000
+http://fengwei888888.myds.me:58099/udp/239.49.1.80:8000
 #EXTINF:-1 group-title="江苏电信-组播5",北京卡酷少儿
-http://fengwei888888.myds.me:58099/rtp/239.49.0.148:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.148:8000
 #EXTINF:-1 group-title="江苏电信-组播5",山西书画频道
-http://fengwei888888.myds.me:58099/rtp/239.49.0.123:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.123:8000
 #EXTINF:-1 group-title="江苏电信-组播5",上海东方财经
-http://fengwei888888.myds.me:58099/rtp/239.49.0.95:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.95:8000
 #EXTINF:-1 group-title="江苏电信-组播5",上海法治天地
-http://fengwei888888.myds.me:58099/rtp/239.49.0.96:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.96:8000
 #EXTINF:-1 group-title="江苏电信-组播5",上海都市剧场
-http://fengwei888888.myds.me:58099/rtp/239.49.0.99:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.99:8000
 #EXTINF:-1 group-title="江苏电信-组播5",上海生活时尚
-http://fengwei888888.myds.me:58099/rtp/239.49.0.97:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.97:8000
 #EXTINF:-1 group-title="江苏电信-组播5",上海第一财经
-http://fengwei888888.myds.me:58099/rtp/239.49.0.30:8232
+http://fengwei888888.myds.me:58099/udp/239.49.8.37:8000
 #EXTINF:-1 group-title="江苏电信-组播5",上海第一财经
-http://fengwei888888.myds.me:58099/rtp/239.49.8.37:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.30:8232
 #EXTINF:-1 group-title="江苏电信-组播5",江苏财富天下
-http://fengwei888888.myds.me:58099/rtp/239.49.1.76:8000
+http://fengwei888888.myds.me:58099/udp/239.49.1.76:8000
 #EXTINF:-1 group-title="江苏电信-组播5",河南武术世界
-http://fengwei888888.myds.me:58099/rtp/239.49.0.205:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.205:8000
 #EXTINF:-1 group-title="江苏电信-组播5",河南文物宝库
-http://fengwei888888.myds.me:58099/rtp/239.49.0.209:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.209:8000
 #EXTINF:-1 group-title="江苏电信-组播5",湖北快乐垂钓
-http://fengwei888888.myds.me:58099/rtp/239.49.0.114:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.114:8000
 #EXTINF:-1 group-title="江苏电信-组播5",湖南茶频道
-http://fengwei888888.myds.me:58099/rtp/239.49.0.146:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.146:8000
 #EXTINF:-1 group-title="江苏电信-组播5",湖南金鹰纪实
-http://fengwei888888.myds.me:58099/rtp/239.49.8.79:8000
+http://fengwei888888.myds.me:58099/udp/239.49.8.79:8000
 #EXTINF:-1 group-title="江苏电信-组播5",湖南金鹰卡通
-http://fengwei888888.myds.me:58099/rtp/239.49.8.33:8000
+http://fengwei888888.myds.me:58099/udp/239.49.8.33:8000
 #EXTINF:-1 group-title="江苏电信-组播5",贵州天元围棋
-http://fengwei888888.myds.me:58099/rtp/239.49.1.79:8000
+http://fengwei888888.myds.me:58099/udp/239.49.1.79:8000
 #EXTINF:-1 group-title="江苏电信-组播5",精彩推荐
-http://fengwei888888.myds.me:58099/rtp/239.49.0.190:9458
+http://fengwei888888.myds.me:58099/udp/239.49.0.190:9458
 #EXTINF:-1 group-title="江苏电信-组播5",精彩推荐
-http://fengwei888888.myds.me:58099/rtp/239.49.8.34:8612
+http://fengwei888888.myds.me:58099/udp/239.49.8.34:8612
 #EXTINF:-1 group-title="江苏电信-组播5",好享购物
-http://fengwei888888.myds.me:58099/rtp/239.49.8.121:8000
-#EXTINF:-1 group-title="江苏电信-组播5",家有购物
-http://fengwei888888.myds.me:58099/rtp/239.49.0.112:8000
+http://fengwei888888.myds.me:58099/udp/239.49.8.121:8000
 #EXTINF:-1 group-title="江苏电信-组播5",南京少儿
-http://fengwei888888.myds.me:58099/rtp/239.49.0.45:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.45:8000
 #EXTINF:-1 group-title="江苏电信-组播5",南京影视
-http://fengwei888888.myds.me:58099/rtp/239.49.0.24:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.24:8000
 #EXTINF:-1 group-title="江苏电信-组播5",南京文旅纪录
-http://fengwei888888.myds.me:58099/rtp/239.49.0.38:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.38:8000
 #EXTINF:-1 group-title="江苏电信-组播5",南京新闻综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.25:8192
+http://fengwei888888.myds.me:58099/udp/239.49.0.25:8192
 #EXTINF:-1 group-title="江苏电信-组播5",南京生活频道
-http://fengwei888888.myds.me:58099/rtp/239.49.0.26:8200
+http://fengwei888888.myds.me:58099/udp/239.49.0.26:8200
 #EXTINF:-1 group-title="江苏电信-组播5",南京科教频道
-http://fengwei888888.myds.me:58099/rtp/239.49.0.183:9434
+http://fengwei888888.myds.me:58099/udp/239.49.0.183:9434
 #EXTINF:-1 group-title="江苏电信-组播5",南京高淳新闻
-http://fengwei888888.myds.me:58099/rtp/239.49.0.74:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.74:8000
 #EXTINF:-1 group-title="江苏电信-组播5",无锡新闻综合
-http://fengwei888888.myds.me:58099/rtp/239.49.1.77:8000
+http://fengwei888888.myds.me:58099/udp/239.49.1.77:8000
 #EXTINF:-1 group-title="江苏电信-组播5",无锡都市资讯
-http://fengwei888888.myds.me:58099/rtp/239.49.1.78:8000
+http://fengwei888888.myds.me:58099/udp/239.49.1.78:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州1
-http://fengwei888888.myds.me:58099/rtp/239.49.0.203:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.203:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州2
-http://fengwei888888.myds.me:58099/rtp/239.49.0.199:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.199:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州3
-http://fengwei888888.myds.me:58099/rtp/239.49.0.211:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.211:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州新沂1
-http://fengwei888888.myds.me:58099/rtp/239.49.0.238:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.238:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州沛县新闻综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.214:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.214:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州睢宁综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.239:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.239:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州贾汪新闻
-http://fengwei888888.myds.me:58099/rtp/239.49.0.248:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.248:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州邳州综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.182:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.182:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州铜山1
-http://fengwei888888.myds.me:58099/rtp/239.49.0.163:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.163:8000
 #EXTINF:-1 group-title="江苏电信-组播5",新沂生活
-http://fengwei888888.myds.me:58099/rtp/239.49.0.124:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.124:8000
 #EXTINF:-1 group-title="江苏电信-组播5",常州公共
-http://fengwei888888.myds.me:58099/rtp/239.49.0.218:9582
+http://fengwei888888.myds.me:58099/udp/239.49.0.218:9582
 #EXTINF:-1 group-title="江苏电信-组播5",常州新闻综合
-http://fengwei888888.myds.me:58099/rtp/239.49.1.83:8000
+http://fengwei888888.myds.me:58099/udp/239.49.1.83:8000
 #EXTINF:-1 group-title="江苏电信-组播5",常州生活
-http://fengwei888888.myds.me:58099/rtp/239.49.0.219:9586
+http://fengwei888888.myds.me:58099/udp/239.49.1.85:8000
 #EXTINF:-1 group-title="江苏电信-组播5",常州生活
-http://fengwei888888.myds.me:58099/rtp/239.49.1.85:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.219:9586
 #EXTINF:-1 group-title="江苏电信-组播5",常州综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.221:9594
+http://fengwei888888.myds.me:58099/udp/239.49.0.221:9594
 #EXTINF:-1 group-title="江苏电信-组播5",常州都市
-http://fengwei888888.myds.me:58099/rtp/239.49.0.220:9590
+http://fengwei888888.myds.me:58099/udp/239.49.1.84:8000
 #EXTINF:-1 group-title="江苏电信-组播5",常州都市
-http://fengwei888888.myds.me:58099/rtp/239.49.1.84:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.220:9590
 #EXTINF:-1 group-title="江苏电信-组播5",常州金坛电视台
-http://fengwei888888.myds.me:58099/rtp/239.49.1.54:8000
+http://fengwei888888.myds.me:58099/udp/239.49.1.54:8000
 #EXTINF:-1 group-title="江苏电信-组播5",苏州生活资讯5
-http://fengwei888888.myds.me:58099/rtp/239.49.8.116:8000
+http://fengwei888888.myds.me:58099/udp/239.49.8.116:8000
 #EXTINF:-1 group-title="江苏电信-组播5",南通公共
-http://fengwei888888.myds.me:58099/rtp/239.49.0.197:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.197:8000
 #EXTINF:-1 group-title="江苏电信-组播5",南通新闻综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.223:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.223:8000
 #EXTINF:-1 group-title="江苏电信-组播5",南通社教
-http://fengwei888888.myds.me:58099/rtp/239.49.0.224:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.224:8000
 #EXTINF:-1 group-title="江苏电信-组播5",连云港东海综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.121:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.121:8000
 #EXTINF:-1 group-title="江苏电信-组播5",连云港新闻综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.225:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.225:8000
 #EXTINF:-1 group-title="江苏电信-组播5",连云港生活频道
-http://fengwei888888.myds.me:58099/rtp/239.49.0.229:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.229:8000
 #EXTINF:-1 group-title="江苏电信-组播5",连云港赣榆电视台
-http://fengwei888888.myds.me:58099/rtp/239.49.0.241:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.241:8000
 #EXTINF:-1 group-title="江苏电信-组播5",淮安公共
-http://fengwei888888.myds.me:58099/rtp/239.49.0.181:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.181:8000
 #EXTINF:-1 group-title="江苏电信-组播5",淮安影视娱乐
-http://fengwei888888.myds.me:58099/rtp/239.49.0.192:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.192:8000
 #EXTINF:-1 group-title="江苏电信-组播5",淮安新闻综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.204:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.204:8000
 #EXTINF:-1 group-title="江苏电信-组播5",淮安洪泽1
-http://fengwei888888.myds.me:58099/rtp/239.49.0.89:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.89:8000
 #EXTINF:-1 group-title="江苏电信-组播5",淮安淮阴综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.169:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.169:8000
 #EXTINF:-1 group-title="江苏电信-组播5",淮安盱眙综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.237:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.237:8000
 #EXTINF:-1 group-title="江苏电信-组播5",盐城1
-http://fengwei888888.myds.me:58099/rtp/239.49.8.30:8000
+http://fengwei888888.myds.me:58099/udp/239.49.8.30:8000
 #EXTINF:-1 group-title="江苏电信-组播5",盐城2
-http://fengwei888888.myds.me:58099/rtp/239.49.0.88:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.88:8000
 #EXTINF:-1 group-title="江苏电信-组播5",盐城响水综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.115:8912
+http://fengwei888888.myds.me:58099/udp/239.49.0.115:8912
 #EXTINF:-1 group-title="江苏电信-组播5",镇江新闻综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.98:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.98:8000
 #EXTINF:-1 group-title="江苏电信-组播5",镇江民生教育
-http://fengwei888888.myds.me:58099/rtp/239.49.1.73:8000
+http://fengwei888888.myds.me:58099/udp/239.49.1.73:8000
 #EXTINF:-1 group-title="江苏电信-组播5",泰州1
-http://fengwei888888.myds.me:58099/rtp/239.49.0.215:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.215:8000
 #EXTINF:-1 group-title="江苏电信-组播5",泰州2
-http://fengwei888888.myds.me:58099/rtp/239.49.0.217:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.217:8000
 #EXTINF:-1 group-title="江苏电信-组播5",泰州3
-http://fengwei888888.myds.me:58099/rtp/239.49.0.222:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.222:8000
 #EXTINF:-1 group-title="江苏电信-组播5",泰州兴化新闻综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.162:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.162:8000
 #EXTINF:-1 group-title="江苏电信-组播5",泰州泰兴综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.168:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.168:8000
 #EXTINF:-1 group-title="江苏电信-组播5",宿迁公共
-http://fengwei888888.myds.me:58099/rtp/239.49.0.236:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.236:8000
 #EXTINF:-1 group-title="江苏电信-组播5",宿迁宿豫综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.83:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.83:8000
 #EXTINF:-1 group-title="江苏电信-组播5",宿迁沭阳综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.189:8792
+http://fengwei888888.myds.me:58099/udp/239.49.0.189:8792
 #EXTINF:-1 group-title="江苏电信-组播5",宿迁泗洪综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.195:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.195:8000
 #EXTINF:-1 group-title="江苏电信-组播5",宿迁综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.231:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.231:8000
 #EXTINF:-1 group-title="江苏电信-组播5",泗阳综合
-http://fengwei888888.myds.me:58099/rtp/239.49.0.249:8000
+http://fengwei888888.myds.me:58099/udp/239.49.0.249:8000
 #EXTINF:-1 group-title="江苏电信-组播5",4分屏
-http://fengwei888888.myds.me:58099/rtp/239.49.8.73:8000
-#EXTINF:-1 group-title="江苏电信-组播5",4分屏
-http://fengwei888888.myds.me:58099/rtp/239.49.8.125:8000
-#EXTINF:-1 group-title="江苏电信-组播5",CCTV16SDR
-http://fengwei888888.myds.me:58099/rtp/239.49.0.109:8000
-#EXTINF:-1 group-title="江苏电信-组播5",无信号
-http://fengwei888888.myds.me:58099/rtp/239.49.0.113:8000
-#EXTINF:-1 group-title="江苏电信-组播5",无信号
-http://fengwei888888.myds.me:58099/rtp/239.49.0.201:8000
-#EXTINF:-1 group-title="江苏电信-组播5",无信号
-http://fengwei888888.myds.me:58099/rtp/239.49.0.202:8000
-#EXTINF:-1 group-title="江苏电信-组播5",无信号
-http://fengwei888888.myds.me:58099/rtp/239.49.0.226:8000
-#EXTINF:-1 group-title="江苏电信-组播5",无信号
-http://fengwei888888.myds.me:58099/rtp/239.49.0.243:8000
-#EXTINF:-1 group-title="江苏电信-组播5",无信号
-http://fengwei888888.myds.me:58099/rtp/239.49.0.247:8000
-#EXTINF:-1 group-title="江苏电信-组播5",无信号
-http://fengwei888888.myds.me:58099/rtp/239.49.8.127:8000
+http://fengwei888888.myds.me:58099/udp/239.49.8.73:8000
 #EXTINF:-1 group-title="江苏电信-组播5",梨园频道
-http://fengwei888888.myds.me:58099/rtp/239.49.8.193:8000
+http://fengwei888888.myds.me:58099/udp/239.49.8.193:8000
 #EXTINF:-1 group-title="江苏电信-组播5",苏超1
-http://fengwei888888.myds.me:58099/rtp/239.49.8.96:8000
+http://fengwei888888.myds.me:58099/udp/239.49.8.96:8000
 #EXTINF:-1 group-title="江苏电信-组播5",苏超2
-http://fengwei888888.myds.me:58099/rtp/239.49.8.97:8000
+http://fengwei888888.myds.me:58099/udp/239.49.8.97:8000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏卫视
-http://y1nf0x.myds.me:5888/rtp/239.49.8.16:9602
+http://y1nf0x.myds.me:5888/udp/239.49.8.16:9602
 #EXTINF:-1 group-title="江苏电信-组播6",江苏卫视
-http://y1nf0x.myds.me:5888/rtp/239.49.8.138:6000
+http://y1nf0x.myds.me:5888/udp/239.49.8.138:6000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏卫视4K
-http://y1nf0x.myds.me:5888/rtp/239.49.1.62:8000
+http://y1nf0x.myds.me:5888/udp/239.49.1.62:8000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏卫视4K
-http://y1nf0x.myds.me:5888/rtp/239.49.1.61:8000
-#EXTINF:-1 group-title="江苏电信-组播6",江苏优漫卡通
-http://y1nf0x.myds.me:5888/rtp/239.49.8.119:8000
-#EXTINF:-1 group-title="江苏电信-组播6",江苏体育休闲
-http://y1nf0x.myds.me:5888/rtp/239.49.8.117:8000
+http://y1nf0x.myds.me:5888/udp/239.49.1.61:8000
+#EXTINF:-1 group-title="江苏电信-组播6",江苏体育
+http://y1nf0x.myds.me:5888/udp/239.49.8.117:8000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏国际
-http://y1nf0x.myds.me:5888/rtp/239.49.1.81:8000
-#EXTINF:-1 group-title="江苏电信-组播6",江苏城市频道
-http://y1nf0x.myds.me:5888/rtp/239.49.8.107:8000
-#EXTINF:-1 group-title="江苏电信-组播6",江苏影视频道
-http://y1nf0x.myds.me:5888/rtp/239.49.8.118:8000
-#EXTINF:-1 group-title="江苏电信-组播6",江苏教育频道
-http://y1nf0x.myds.me:5888/rtp/239.49.8.122:8000
-#EXTINF:-1 group-title="江苏电信-组播6",江苏新闻频道
-http://y1nf0x.myds.me:5888/rtp/239.49.8.120:8000
-#EXTINF:-1 group-title="江苏电信-组播6",江苏综艺频道
-http://y1nf0x.myds.me:5888/rtp/239.49.8.108:8000
+http://y1nf0x.myds.me:5888/udp/239.49.1.81:8000
+#EXTINF:-1 group-title="江苏电信-组播6",江苏城市
+http://y1nf0x.myds.me:5888/udp/239.49.8.107:8000
+#EXTINF:-1 group-title="江苏电信-组播6",江苏影视
+http://y1nf0x.myds.me:5888/udp/239.49.8.118:8000
+#EXTINF:-1 group-title="江苏电信-组播6",江苏教育
+http://y1nf0x.myds.me:5888/udp/239.49.8.122:8000
+#EXTINF:-1 group-title="江苏电信-组播6",江苏新闻
+http://y1nf0x.myds.me:5888/udp/239.49.8.120:8000
+#EXTINF:-1 group-title="江苏电信-组播6",江苏综艺
+http://y1nf0x.myds.me:5888/udp/239.49.8.108:8000
 #EXTINF:-1 group-title="江苏电信-组播6",CGTN西班牙语
-http://y1nf0x.myds.me:5888/rtp/239.49.1.30:8000
+http://y1nf0x.myds.me:5888/udp/239.49.1.30:8000
 #EXTINF:-1 group-title="江苏电信-组播6",CGTN法语
-http://y1nf0x.myds.me:5888/rtp/239.49.1.31:8000
+http://y1nf0x.myds.me:5888/udp/239.49.1.31:8000
 #EXTINF:-1 group-title="江苏电信-组播6",CGTN俄语
-http://y1nf0x.myds.me:5888/rtp/239.49.0.111:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.111:8000
 #EXTINF:-1 group-title="江苏电信-组播6",CETV-1综合教育
-http://y1nf0x.myds.me:5888/rtp/239.49.8.115:8000
+http://y1nf0x.myds.me:5888/udp/239.49.8.115:8000
 #EXTINF:-1 group-title="江苏电信-组播6",CETV-4职业教育
-http://y1nf0x.myds.me:5888/rtp/239.49.0.125:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.125:8000
 #EXTINF:-1 group-title="江苏电信-组播6",中学生
-http://y1nf0x.myds.me:5888/rtp/239.49.1.82:8000
+http://y1nf0x.myds.me:5888/udp/239.49.1.82:8000
 #EXTINF:-1 group-title="江苏电信-组播6",中国天气
-http://y1nf0x.myds.me:5888/rtp/239.49.0.94:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.94:8000
 #EXTINF:-1 group-title="江苏电信-组播6",睛彩竞技
-http://y1nf0x.myds.me:5888/rtp/239.49.8.39:8000
+http://y1nf0x.myds.me:5888/udp/239.49.8.39:8000
 #EXTINF:-1 group-title="江苏电信-组播6",睛彩广场舞
-http://y1nf0x.myds.me:5888/rtp/239.49.8.64:8000
+http://y1nf0x.myds.me:5888/udp/239.49.8.64:8000
 #EXTINF:-1 group-title="江苏电信-组播6",睛彩青少
-http://y1nf0x.myds.me:5888/rtp/239.49.8.46:8000
+http://y1nf0x.myds.me:5888/udp/239.49.8.46:8000
 #EXTINF:-1 group-title="江苏电信-组播6",睛彩篮球
-http://y1nf0x.myds.me:5888/rtp/239.49.8.42:8000
+http://y1nf0x.myds.me:5888/udp/239.49.8.42:8000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏优漫卡通
-http://y1nf0x.myds.me:5888/rtp/239.49.0.21:8160
+http://y1nf0x.myds.me:5888/udp/239.49.8.119:8000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏优漫卡通
-http://y1nf0x.myds.me:5888/rtp/239.49.1.21:6000
+http://y1nf0x.myds.me:5888/udp/239.49.0.21:8160
+#EXTINF:-1 group-title="江苏电信-组播6",江苏优漫卡通
+http://y1nf0x.myds.me:5888/udp/239.49.1.21:6000
 #EXTINF:-1 group-title="江苏电信-组播6",北京四海钓鱼
-http://y1nf0x.myds.me:5888/rtp/239.49.1.80:8000
+http://y1nf0x.myds.me:5888/udp/239.49.1.80:8000
 #EXTINF:-1 group-title="江苏电信-组播6",北京卡酷少儿
-http://y1nf0x.myds.me:5888/rtp/239.49.0.148:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.148:8000
 #EXTINF:-1 group-title="江苏电信-组播6",山西书画频道
-http://y1nf0x.myds.me:5888/rtp/239.49.0.123:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.123:8000
 #EXTINF:-1 group-title="江苏电信-组播6",上海东方财经
-http://y1nf0x.myds.me:5888/rtp/239.49.0.95:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.95:8000
 #EXTINF:-1 group-title="江苏电信-组播6",上海法治天地
-http://y1nf0x.myds.me:5888/rtp/239.49.0.96:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.96:8000
 #EXTINF:-1 group-title="江苏电信-组播6",上海都市剧场
-http://y1nf0x.myds.me:5888/rtp/239.49.0.99:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.99:8000
 #EXTINF:-1 group-title="江苏电信-组播6",上海生活时尚
-http://y1nf0x.myds.me:5888/rtp/239.49.0.97:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.97:8000
 #EXTINF:-1 group-title="江苏电信-组播6",上海第一财经
-http://y1nf0x.myds.me:5888/rtp/239.49.0.30:8232
+http://y1nf0x.myds.me:5888/udp/239.49.8.37:8000
 #EXTINF:-1 group-title="江苏电信-组播6",上海第一财经
-http://y1nf0x.myds.me:5888/rtp/239.49.8.37:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.30:8232
 #EXTINF:-1 group-title="江苏电信-组播6",江苏财富天下
-http://y1nf0x.myds.me:5888/rtp/239.49.1.76:8000
+http://y1nf0x.myds.me:5888/udp/239.49.1.76:8000
 #EXTINF:-1 group-title="江苏电信-组播6",河南武术世界
-http://y1nf0x.myds.me:5888/rtp/239.49.0.205:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.205:8000
 #EXTINF:-1 group-title="江苏电信-组播6",河南文物宝库
-http://y1nf0x.myds.me:5888/rtp/239.49.0.209:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.209:8000
 #EXTINF:-1 group-title="江苏电信-组播6",湖北快乐垂钓
-http://y1nf0x.myds.me:5888/rtp/239.49.0.114:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.114:8000
 #EXTINF:-1 group-title="江苏电信-组播6",湖南茶频道
-http://y1nf0x.myds.me:5888/rtp/239.49.0.146:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.146:8000
 #EXTINF:-1 group-title="江苏电信-组播6",湖南金鹰纪实
-http://y1nf0x.myds.me:5888/rtp/239.49.8.79:8000
+http://y1nf0x.myds.me:5888/udp/239.49.8.79:8000
 #EXTINF:-1 group-title="江苏电信-组播6",湖南金鹰卡通
-http://y1nf0x.myds.me:5888/rtp/239.49.8.33:8000
+http://y1nf0x.myds.me:5888/udp/239.49.8.33:8000
 #EXTINF:-1 group-title="江苏电信-组播6",贵州天元围棋
-http://y1nf0x.myds.me:5888/rtp/239.49.1.79:8000
+http://y1nf0x.myds.me:5888/udp/239.49.1.79:8000
 #EXTINF:-1 group-title="江苏电信-组播6",精彩推荐
-http://y1nf0x.myds.me:5888/rtp/239.49.0.190:9458
+http://y1nf0x.myds.me:5888/udp/239.49.0.190:9458
 #EXTINF:-1 group-title="江苏电信-组播6",精彩推荐
-http://y1nf0x.myds.me:5888/rtp/239.49.8.34:8612
+http://y1nf0x.myds.me:5888/udp/239.49.8.34:8612
 #EXTINF:-1 group-title="江苏电信-组播6",好享购物
-http://y1nf0x.myds.me:5888/rtp/239.49.8.121:8000
-#EXTINF:-1 group-title="江苏电信-组播6",家有购物
-http://y1nf0x.myds.me:5888/rtp/239.49.0.112:8000
+http://y1nf0x.myds.me:5888/udp/239.49.8.121:8000
 #EXTINF:-1 group-title="江苏电信-组播6",南京少儿
-http://y1nf0x.myds.me:5888/rtp/239.49.0.45:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.45:8000
 #EXTINF:-1 group-title="江苏电信-组播6",南京影视
-http://y1nf0x.myds.me:5888/rtp/239.49.0.24:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.24:8000
 #EXTINF:-1 group-title="江苏电信-组播6",南京文旅纪录
-http://y1nf0x.myds.me:5888/rtp/239.49.0.38:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.38:8000
 #EXTINF:-1 group-title="江苏电信-组播6",南京新闻综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.25:8192
+http://y1nf0x.myds.me:5888/udp/239.49.0.25:8192
 #EXTINF:-1 group-title="江苏电信-组播6",南京生活频道
-http://y1nf0x.myds.me:5888/rtp/239.49.0.26:8200
+http://y1nf0x.myds.me:5888/udp/239.49.0.26:8200
 #EXTINF:-1 group-title="江苏电信-组播6",南京科教频道
-http://y1nf0x.myds.me:5888/rtp/239.49.0.183:9434
+http://y1nf0x.myds.me:5888/udp/239.49.0.183:9434
 #EXTINF:-1 group-title="江苏电信-组播6",南京高淳新闻
-http://y1nf0x.myds.me:5888/rtp/239.49.0.74:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.74:8000
 #EXTINF:-1 group-title="江苏电信-组播6",无锡新闻综合
-http://y1nf0x.myds.me:5888/rtp/239.49.1.77:8000
+http://y1nf0x.myds.me:5888/udp/239.49.1.77:8000
 #EXTINF:-1 group-title="江苏电信-组播6",无锡都市资讯
-http://y1nf0x.myds.me:5888/rtp/239.49.1.78:8000
+http://y1nf0x.myds.me:5888/udp/239.49.1.78:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州1
-http://y1nf0x.myds.me:5888/rtp/239.49.0.203:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.203:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州2
-http://y1nf0x.myds.me:5888/rtp/239.49.0.199:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.199:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州3
-http://y1nf0x.myds.me:5888/rtp/239.49.0.211:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.211:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州新沂1
-http://y1nf0x.myds.me:5888/rtp/239.49.0.238:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.238:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州沛县新闻综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.214:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.214:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州睢宁综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.239:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.239:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州贾汪新闻
-http://y1nf0x.myds.me:5888/rtp/239.49.0.248:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.248:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州邳州综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.182:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.182:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州铜山1
-http://y1nf0x.myds.me:5888/rtp/239.49.0.163:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.163:8000
 #EXTINF:-1 group-title="江苏电信-组播6",新沂生活
-http://y1nf0x.myds.me:5888/rtp/239.49.0.124:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.124:8000
 #EXTINF:-1 group-title="江苏电信-组播6",常州公共
-http://y1nf0x.myds.me:5888/rtp/239.49.0.218:9582
+http://y1nf0x.myds.me:5888/udp/239.49.0.218:9582
 #EXTINF:-1 group-title="江苏电信-组播6",常州新闻综合
-http://y1nf0x.myds.me:5888/rtp/239.49.1.83:8000
+http://y1nf0x.myds.me:5888/udp/239.49.1.83:8000
 #EXTINF:-1 group-title="江苏电信-组播6",常州生活
-http://y1nf0x.myds.me:5888/rtp/239.49.0.219:9586
+http://y1nf0x.myds.me:5888/udp/239.49.1.85:8000
 #EXTINF:-1 group-title="江苏电信-组播6",常州生活
-http://y1nf0x.myds.me:5888/rtp/239.49.1.85:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.219:9586
 #EXTINF:-1 group-title="江苏电信-组播6",常州综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.221:9594
+http://y1nf0x.myds.me:5888/udp/239.49.0.221:9594
 #EXTINF:-1 group-title="江苏电信-组播6",常州都市
-http://y1nf0x.myds.me:5888/rtp/239.49.0.220:9590
+http://y1nf0x.myds.me:5888/udp/239.49.1.84:8000
 #EXTINF:-1 group-title="江苏电信-组播6",常州都市
-http://y1nf0x.myds.me:5888/rtp/239.49.1.84:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.220:9590
 #EXTINF:-1 group-title="江苏电信-组播6",常州金坛电视台
-http://y1nf0x.myds.me:5888/rtp/239.49.1.54:8000
+http://y1nf0x.myds.me:5888/udp/239.49.1.54:8000
 #EXTINF:-1 group-title="江苏电信-组播6",苏州生活资讯5
-http://y1nf0x.myds.me:5888/rtp/239.49.8.116:8000
+http://y1nf0x.myds.me:5888/udp/239.49.8.116:8000
 #EXTINF:-1 group-title="江苏电信-组播6",南通公共
-http://y1nf0x.myds.me:5888/rtp/239.49.0.197:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.197:8000
 #EXTINF:-1 group-title="江苏电信-组播6",南通新闻综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.223:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.223:8000
 #EXTINF:-1 group-title="江苏电信-组播6",南通社教
-http://y1nf0x.myds.me:5888/rtp/239.49.0.224:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.224:8000
 #EXTINF:-1 group-title="江苏电信-组播6",连云港东海综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.121:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.121:8000
 #EXTINF:-1 group-title="江苏电信-组播6",连云港新闻综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.225:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.225:8000
 #EXTINF:-1 group-title="江苏电信-组播6",连云港生活频道
-http://y1nf0x.myds.me:5888/rtp/239.49.0.229:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.229:8000
 #EXTINF:-1 group-title="江苏电信-组播6",连云港赣榆电视台
-http://y1nf0x.myds.me:5888/rtp/239.49.0.241:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.241:8000
 #EXTINF:-1 group-title="江苏电信-组播6",淮安公共
-http://y1nf0x.myds.me:5888/rtp/239.49.0.181:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.181:8000
 #EXTINF:-1 group-title="江苏电信-组播6",淮安影视娱乐
-http://y1nf0x.myds.me:5888/rtp/239.49.0.192:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.192:8000
 #EXTINF:-1 group-title="江苏电信-组播6",淮安新闻综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.204:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.204:8000
 #EXTINF:-1 group-title="江苏电信-组播6",淮安洪泽1
-http://y1nf0x.myds.me:5888/rtp/239.49.0.89:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.89:8000
 #EXTINF:-1 group-title="江苏电信-组播6",淮安淮阴综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.169:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.169:8000
 #EXTINF:-1 group-title="江苏电信-组播6",淮安盱眙综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.237:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.237:8000
 #EXTINF:-1 group-title="江苏电信-组播6",盐城1
-http://y1nf0x.myds.me:5888/rtp/239.49.8.30:8000
+http://y1nf0x.myds.me:5888/udp/239.49.8.30:8000
 #EXTINF:-1 group-title="江苏电信-组播6",盐城2
-http://y1nf0x.myds.me:5888/rtp/239.49.0.88:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.88:8000
 #EXTINF:-1 group-title="江苏电信-组播6",盐城响水综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.115:8912
+http://y1nf0x.myds.me:5888/udp/239.49.0.115:8912
 #EXTINF:-1 group-title="江苏电信-组播6",镇江新闻综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.98:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.98:8000
 #EXTINF:-1 group-title="江苏电信-组播6",镇江民生教育
-http://y1nf0x.myds.me:5888/rtp/239.49.1.73:8000
+http://y1nf0x.myds.me:5888/udp/239.49.1.73:8000
 #EXTINF:-1 group-title="江苏电信-组播6",泰州1
-http://y1nf0x.myds.me:5888/rtp/239.49.0.215:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.215:8000
 #EXTINF:-1 group-title="江苏电信-组播6",泰州2
-http://y1nf0x.myds.me:5888/rtp/239.49.0.217:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.217:8000
 #EXTINF:-1 group-title="江苏电信-组播6",泰州3
-http://y1nf0x.myds.me:5888/rtp/239.49.0.222:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.222:8000
 #EXTINF:-1 group-title="江苏电信-组播6",泰州兴化新闻综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.162:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.162:8000
 #EXTINF:-1 group-title="江苏电信-组播6",泰州泰兴综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.168:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.168:8000
 #EXTINF:-1 group-title="江苏电信-组播6",宿迁公共
-http://y1nf0x.myds.me:5888/rtp/239.49.0.236:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.236:8000
 #EXTINF:-1 group-title="江苏电信-组播6",宿迁宿豫综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.83:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.83:8000
 #EXTINF:-1 group-title="江苏电信-组播6",宿迁沭阳综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.189:8792
+http://y1nf0x.myds.me:5888/udp/239.49.0.189:8792
 #EXTINF:-1 group-title="江苏电信-组播6",宿迁泗洪综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.195:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.195:8000
 #EXTINF:-1 group-title="江苏电信-组播6",宿迁综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.231:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.231:8000
 #EXTINF:-1 group-title="江苏电信-组播6",泗阳综合
-http://y1nf0x.myds.me:5888/rtp/239.49.0.249:8000
+http://y1nf0x.myds.me:5888/udp/239.49.0.249:8000
 #EXTINF:-1 group-title="江苏电信-组播6",4分屏
-http://y1nf0x.myds.me:5888/rtp/239.49.8.73:8000
-#EXTINF:-1 group-title="江苏电信-组播6",4分屏
-http://y1nf0x.myds.me:5888/rtp/239.49.8.125:8000
-#EXTINF:-1 group-title="江苏电信-组播6",CCTV16SDR
-http://y1nf0x.myds.me:5888/rtp/239.49.0.109:8000
-#EXTINF:-1 group-title="江苏电信-组播6",无信号
-http://y1nf0x.myds.me:5888/rtp/239.49.0.113:8000
-#EXTINF:-1 group-title="江苏电信-组播6",无信号
-http://y1nf0x.myds.me:5888/rtp/239.49.0.201:8000
-#EXTINF:-1 group-title="江苏电信-组播6",无信号
-http://y1nf0x.myds.me:5888/rtp/239.49.0.202:8000
-#EXTINF:-1 group-title="江苏电信-组播6",无信号
-http://y1nf0x.myds.me:5888/rtp/239.49.0.226:8000
-#EXTINF:-1 group-title="江苏电信-组播6",无信号
-http://y1nf0x.myds.me:5888/rtp/239.49.0.243:8000
-#EXTINF:-1 group-title="江苏电信-组播6",无信号
-http://y1nf0x.myds.me:5888/rtp/239.49.0.247:8000
-#EXTINF:-1 group-title="江苏电信-组播6",无信号
-http://y1nf0x.myds.me:5888/rtp/239.49.8.127:8000
+http://y1nf0x.myds.me:5888/udp/239.49.8.73:8000
 #EXTINF:-1 group-title="江苏电信-组播6",梨园频道
-http://y1nf0x.myds.me:5888/rtp/239.49.8.193:8000
+http://y1nf0x.myds.me:5888/udp/239.49.8.193:8000
 #EXTINF:-1 group-title="江苏电信-组播6",苏超1
-http://y1nf0x.myds.me:5888/rtp/239.49.8.96:8000
+http://y1nf0x.myds.me:5888/udp/239.49.8.96:8000
 #EXTINF:-1 group-title="江苏电信-组播6",苏超2
-http://y1nf0x.myds.me:5888/rtp/239.49.8.97:8000
+http://y1nf0x.myds.me:5888/udp/239.49.8.97:8000
 #EXTINF:-1 group-title="重庆电信-组播1",重庆卫视
 http://msen.site:8000/rtp/235.254.196.249:1268
 #EXTINF:-1 group-title="重庆电信-组播1",重庆卫视
