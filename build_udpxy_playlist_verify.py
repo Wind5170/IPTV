@@ -12,6 +12,7 @@ udpxy 播放列表生成工具（带实时验证版）
 7. _ip_good.txt 中的服务器单独验证连通性，通过后优先使用
 8. 统一流程：获取所有优质服务器 -> 验证 -> 补充低速 -> 生成列表
 9. 支持关键字索引匹配（IPTV、百事通、广播等）
+10. 模板文件名支持附加信息（如：广东移动中兴、广东移动华为、广东移动_测试等），自动提取基础城市名匹配服务器文件
 """
 
 import os
@@ -20,7 +21,6 @@ import argparse
 import datetime
 import json
 import re
-import shutil
 import time
 import socket
 import requests
@@ -79,14 +79,95 @@ REGIONS = [
     "青海", "山东", "山西", "陕西", "云南", "西藏", "新疆", "台湾", "香港", "澳门"
 ]
 
-'''
-REGIONS = [
-    "北京", "上海", "广东", "浙江", "江苏", "四川", "重庆", "天津",
-    "安徽", "福建", "甘肃", "广西", "贵州", "海南", "河北", "河南",
-    "黑龙江", "湖北", "湖南", "吉林", "江西", "辽宁", "内蒙古", "宁夏",
-    "青海", "山东", "山西", "陕西", "云南", "西藏", "新疆", "台湾", "香港", "澳门"
-]
-'''
+
+# ==================== 核心修复函数：提取基础城市名 ====================
+def extract_base_city_name(city_name: str) -> str:
+    """
+    从模板文件名提取基础城市名（城市+运营商）
+    
+    规则：
+    - 提取第一个匹配的运营商（电信/移动/联通）及其前面的部分
+    - 忽略运营商后面的所有内容（品牌、测试、数字等）
+    
+    示例：
+    - 广东移动中兴 → 广东移动
+    - 广东移动华为 → 广东移动
+    - 广东移动_测试 → 广东移动
+    - 广东移动1 → 广东移动
+    - 广东移动_备份_2 → 广东移动
+    - 四川电信 → 四川电信
+    - 北京联通中兴 → 北京联通
+    - 广东电信_华为_测试 → 广东电信
+    - 广东移动_中兴_2024 → 广东移动
+    """
+    operators = ["电信", "移动", "联通"]
+    
+    for op in operators:
+        if op in city_name:
+            # 找到运营商的位置
+            op_index = city_name.find(op)
+            # 提取城市名+运营商（运营商名称本身）
+            base_name = city_name[:op_index + len(op)]
+            return base_name
+    
+    # 如果没有找到运营商，返回原名称
+    return city_name
+
+
+def get_server_files_for_city(base_city_name: str, ip_dir: str = "ip") -> Dict:
+    """
+    根据基础城市名获取相关的服务器文件路径
+    
+    支持文件名格式：
+    - {base_city_name}_ip_good.txt
+    - {base_city_name}_ip_precise.txt
+    - {base_city_name}_ip_quick.txt
+    - {base_city_name}_ip_precise_slow.txt
+    - {base_city_name}_ip_quick_slow.txt
+    
+    返回: {
+        'good': Path or None,
+        'precise': Path or None,
+        'quick': Path or None,
+        'precise_slow': Path or None,
+        'quick_slow': Path or None
+    }
+    """
+    result = {
+        'good': None,
+        'precise': None,
+        'quick': None,
+        'precise_slow': None,
+        'quick_slow': None
+    }
+    
+    ip_path = Path(ip_dir)
+    slow_dir = ip_path / "slow"
+    
+    # 主要文件
+    good_file = ip_path / f"{base_city_name}_ip_good.txt"
+    precise_file = ip_path / f"{base_city_name}_ip_precise.txt"
+    quick_file = ip_path / f"{base_city_name}_ip_quick.txt"
+    
+    if good_file.exists():
+        result['good'] = good_file
+    if precise_file.exists():
+        result['precise'] = precise_file
+    if quick_file.exists():
+        result['quick'] = quick_file
+    
+    # 低速文件
+    if slow_dir.exists():
+        precise_slow_file = slow_dir / f"{base_city_name}_ip_precise_slow.txt"
+        quick_slow_file = slow_dir / f"{base_city_name}_ip_quick_slow.txt"
+        
+        if precise_slow_file.exists():
+            result['precise_slow'] = precise_slow_file
+        if quick_slow_file.exists():
+            result['quick_slow'] = quick_slow_file
+    
+    return result
+
 
 # ==================== 服务器解析辅助函数 ====================
 def is_domain_format(server):
@@ -102,34 +183,25 @@ def is_domain_format(server):
 
 
 def resolve_server_to_ip(server):
-    """
-    将域名解析为IP地址（用于去重）
-    返回: IP:端口 或 None（解析失败时）
-    """
+    """将域名解析为IP地址（用于去重）"""
     if not server or ':' not in server:
         return server
     
     host, port = server.rsplit(':', 1)
     
-    # 如果已经是IP地址，直接返回
     ip_pattern = re.compile(r'^\d+\.\d+\.\d+\.\d+$')
     if ip_pattern.match(host):
         return server
     
-    # 域名，解析为IP
     try:
         ip = socket.gethostbyname(host)
-        result = f"{ip}:{port}"
-        return result
+        return f"{ip}:{port}"
     except (socket.gaierror, ValueError):
         return None
 
 
 def get_resolved_key(server):
-    """
-    获取解析后的IP作为去重键
-    返回: IP:端口（解析后的值），解析失败则返回原值
-    """
+    """获取解析后的IP作为去重键"""
     if is_domain_format(server):
         resolved = resolve_server_to_ip(server)
         return resolved if resolved else server
@@ -268,9 +340,8 @@ def print_city_list(sort_mode: str = "city_first") -> str:
         for j, city in enumerate(row):
             idx = i + j + 1
             template_file = get_template_file_path(city)
-            # 检查是否使用 export 目录模板
             export_dir = CONFIG.get("template_export_dir", "template/export")
-            is_export = export_dir in template_file
+            is_export = export_dir in template_file and os.path.exists(template_file)
             no_template = "*" if not os.path.exists(template_file) else " "
             marker = "📁" if is_export else " "
             row_text += f"{idx:2d}.{marker}{city}{no_template}\t"
@@ -286,6 +357,9 @@ def verify_server(server: str, stream: str, timeout: int = 3) -> bool:
     server 可以是 IP:端口 或 域名:端口
     直接使用域名请求，不预先解析（requests会自动解析）
     """
+    if not stream:
+        return True
+    
     url = f"http://{server}/rtp/{stream}"
     
     for attempt in range(CONFIG["verify_retry"] + 1):
@@ -339,13 +413,15 @@ def parse_speed_to_kbps(speed_str: str, mode: str = 'precise') -> float:
 
 
 # ==================== 服务器获取函数 ====================
-def get_good_servers(city: str, stream: str, verify: bool, verbose: bool = True) -> List[str]:
+def get_good_servers(base_city: str, stream: str, verify: bool, verbose: bool = True) -> List[str]:
     """
     获取并验证 _ip_good.txt 中的服务器
     返回验证通过的服务器列表
     """
-    good_file = Path(CONFIG["ip_dir"]) / f"{city}_ip_good.txt"
-    if not good_file.exists():
+    server_files = get_server_files_for_city(base_city, CONFIG["ip_dir"])
+    good_file = server_files.get('good')
+    
+    if not good_file or not good_file.exists():
         return []
     
     good_servers_raw = []
@@ -365,7 +441,7 @@ def get_good_servers(city: str, stream: str, verify: bool, verbose: bool = True)
         return []
     
     if verbose and CONFIG['verbose'] and not CONFIG['auto_mode']:
-        print(f"  读取优质服务器: {len(good_servers_raw)} 个")
+        print(f"  读取优质服务器: {good_file.name} ({len(good_servers_raw)} 个)")
     
     # 验证 good 服务器的连通性
     valid_good = []
@@ -387,17 +463,17 @@ def get_good_servers(city: str, stream: str, verify: bool, verbose: bool = True)
     return valid_good
 
 
-def get_test_servers(city: str, ip_dir: str = "ip", verbose: bool = True) -> List[Tuple[str, float]]:
+def get_test_servers(base_city: str, verbose: bool = True) -> List[Tuple[str, float]]:
     """
     获取测试达标服务器（precise/quick 测试结果）
     返回 [(原始服务器地址, 速度KB/s), ...] 按速度降序排序
     """
+    server_files = get_server_files_for_city(base_city, CONFIG["ip_dir"])
     servers_dict = {}
-    main_city_name = extract_main_city_name(city)
     
     # 读取精确测试结果
-    precise_file = Path(ip_dir) / f"{main_city_name}_ip_precise.txt"
-    if precise_file.exists():
+    precise_file = server_files.get('precise')
+    if precise_file and precise_file.exists():
         with open(precise_file, 'r', encoding='utf-8') as f:
             for line in f:
                 line = line.strip()
@@ -413,8 +489,8 @@ def get_test_servers(city: str, ip_dir: str = "ip", verbose: bool = True) -> Lis
                         servers_dict[resolved_key] = (server, speed_kbps)
     
     # 读取快速测试结果
-    quick_file = Path(ip_dir) / f"{main_city_name}_ip_quick.txt"
-    if quick_file.exists():
+    quick_file = server_files.get('quick')
+    if quick_file and quick_file.exists():
         with open(quick_file, 'r', encoding='utf-8') as f:
             for line in f:
                 line = line.strip()
@@ -441,19 +517,18 @@ def get_test_servers(city: str, ip_dir: str = "ip", verbose: bool = True) -> Lis
     return servers
 
 
-def get_slow_servers_for_city(city: str, ip_dir: str = "ip", verbose: bool = True) -> List[str]:
+def get_slow_servers_for_city(base_city: str, verbose: bool = True) -> List[str]:
     """
     获取城市的低速服务器列表（用于补充）
     从 slow 目录下的 _slow.txt 文件读取
     返回原始格式的服务器地址列表（按速度排序）
     """
+    server_files = get_server_files_for_city(base_city, CONFIG["ip_dir"])
     servers_dict = {}
-    slow_dir = Path(ip_dir) / "slow"
-    main_city_name = extract_main_city_name(city)
     
     # 读取精确测试低速结果
-    precise_slow_file = slow_dir / f"{main_city_name}_ip_precise_slow.txt"
-    if precise_slow_file.exists():
+    precise_slow_file = server_files.get('precise_slow')
+    if precise_slow_file and precise_slow_file.exists():
         with open(precise_slow_file, 'r', encoding='utf-8') as f:
             for line in f:
                 line = line.strip()
@@ -469,8 +544,8 @@ def get_slow_servers_for_city(city: str, ip_dir: str = "ip", verbose: bool = Tru
                         servers_dict[resolved_key] = (server, speed_kbps)
     
     # 读取快速测试低速结果
-    quick_slow_file = slow_dir / f"{main_city_name}_ip_quick_slow.txt"
-    if quick_slow_file.exists():
+    quick_slow_file = server_files.get('quick_slow')
+    if quick_slow_file and quick_slow_file.exists():
         with open(quick_slow_file, 'r', encoding='utf-8') as f:
             for line in f:
                 line = line.strip()
@@ -506,59 +581,62 @@ def get_valid_servers(city: str, stream: str, verify: bool, target_count: int, a
     """
     verbose = not auto_mode
     
+    # 提取基础城市名（用于匹配服务器文件）
+    base_city = extract_base_city_name(city)
+    
+    if verbose and CONFIG['verbose'] and not auto_mode:
+        print(f"  模板城市: {city}")
+        print(f"  基础城市: {base_city} (用于匹配服务器文件)")
+    
     # 1. 获取 good 服务器并验证
-    good_servers = get_good_servers(city, stream, verify, verbose=verbose)
+    good_servers = get_good_servers(base_city, stream, verify, verbose=verbose)
     
     # 2. 获取测试达标服务器（precise/quick）
-    test_servers_with_speed = get_test_servers(city, CONFIG["ip_dir"], verbose=verbose)
+    test_servers_with_speed = get_test_servers(base_city, verbose=verbose)
     test_servers = [server for server, _ in test_servers_with_speed]
     
-    if verbose and CONFIG['verbose']:
-        print(f"  测试达标服务器: {len(test_servers)} 个")
+    if verbose and CONFIG['verbose'] and not auto_mode:
+        print(f"  测试达标服务器原始: {len(test_servers)} 个")
     
     # 3. 验证测试达标服务器
     valid_test = []
     if verify and stream and test_servers:
-        if verbose and CONFIG['verbose']:
+        if verbose and CONFIG['verbose'] and not auto_mode:
             print(f"  正在验证 {len(test_servers)} 个测试达标服务器...")
         
         for server in test_servers:
             if verify_server(server, stream, CONFIG["verify_timeout"]):
                 valid_test.append(server)
-                if verbose and CONFIG['verbose']:
-                    print(f"    ✓ {server} 验证通过 ({len(valid_test)}/{len(test_servers)})")
+                if verbose and CONFIG['verbose'] and not auto_mode:
+                    print(f"    ✓ {server} 验证通过")
             else:
-                if verbose and CONFIG['verbose']:
+                if verbose and CONFIG['verbose'] and not auto_mode:
                     print(f"    ✗ {server} 验证失败")
         
-        if verbose and CONFIG['verbose']:
+        if verbose and CONFIG['verbose'] and not auto_mode:
             print(f"  测试达标服务器验证通过 {len(valid_test)}/{len(test_servers)} 个")
     else:
         valid_test = test_servers
-        if verbose and CONFIG['verbose']:
+        if verbose and CONFIG['verbose'] and not auto_mode:
             print(f"  跳过验证，使用全部 {len(valid_test)} 个测试达标服务器")
     
     # 4. 合并 good 服务器和测试达标服务器（去重）
-    # 使用解析后的IP作为去重键
     good_keys = {get_resolved_key(s) for s in good_servers}
-    
-    # 先添加 good 服务器
     all_servers = good_servers.copy()
     
-    # 再添加不在 good 中的测试达标服务器
     for server in valid_test:
         resolved_key = get_resolved_key(server)
         if resolved_key not in good_keys:
             all_servers.append(server)
             good_keys.add(resolved_key)
     
-    if verbose and CONFIG['verbose']:
+    if verbose and CONFIG['verbose'] and not auto_mode:
         print(f"  合并后共 {len(all_servers)} 个服务器 (优质: {len(good_servers)}, 测试达标: {len(valid_test)})")
     
     # 5. 如果服务器不足，从低速服务器补充（仅定制版需要）
     if len(all_servers) < target_count:
-        slow_servers = get_slow_servers_for_city(city, CONFIG["ip_dir"], verbose=verbose)
-        if slow_servers and verbose and CONFIG['verbose']:
+        slow_servers = get_slow_servers_for_city(base_city, verbose=verbose)
+        if slow_servers and verbose and CONFIG['verbose'] and not auto_mode:
             print(f"  服务器不足 ({len(all_servers)}/{target_count})，尝试补充低速服务器...")
         
         valid_slow = []
@@ -568,20 +646,22 @@ def get_valid_servers(city: str, stream: str, verify: bool, target_count: int, a
                     break
                 if verify_server(server, stream, CONFIG["verify_timeout"]):
                     valid_slow.append(server)
-                    if verbose and CONFIG['verbose']:
-                        print(f"    ✓ {server} 验证通过 (低速补充)")
+                    if verbose and CONFIG['verbose'] and not auto_mode:
+                        print(f"    ✓ {server} (低速补充) 验证通过")
                 else:
-                    if verbose and CONFIG['verbose']:
+                    if verbose and CONFIG['verbose'] and not auto_mode:
                         print(f"    ✗ {server} 验证失败")
         else:
             valid_slow = slow_servers[:target_count - len(all_servers)]
         
         if valid_slow:
             all_servers.extend(valid_slow)
-            if verbose and CONFIG['verbose']:
+            if verbose and CONFIG['verbose'] and not auto_mode:
                 print(f"  补充低速服务器 {len(valid_slow)} 个，总计 {len(all_servers)} 个")
     
     if not all_servers:
+        if verbose:
+            print(f"  ⚠️ 没有可用的服务器！")
         return [], []
     
     return all_servers, all_servers
@@ -1018,6 +1098,8 @@ def generate_city_playlist(city: str, channel_index: Dict, region_index: Dict, k
     如果传入 valid_servers 和 prioritized_servers，则跳过服务器获取验证步骤
     返回: (定制版是否成功, 完整版是否成功)
     """
+    verbose = not auto_mode
+    
     # 如果没有传入服务器列表，则获取并验证
     if valid_servers is None or prioritized_servers is None:
         # 获取流地址用于验证
@@ -1038,8 +1120,8 @@ def generate_city_playlist(city: str, channel_index: Dict, region_index: Dict, k
         valid_servers, prioritized_servers = get_valid_servers(city, stream, verify, max_servers, auto_mode)
         
         if not valid_servers:
-            if CONFIG['verbose'] and not auto_mode:
-                print(f"  {city}: 没有可用的服务器，跳过")
+            if verbose:
+                print(f"  {city}: ❌ 没有可用的服务器")
             return False, False
     
     # 定制版服务器：取前 max_servers 个
@@ -1050,15 +1132,22 @@ def generate_city_playlist(city: str, channel_index: Dict, region_index: Dict, k
     # 加载频道模板（优先使用 export 目录）
     template_file = get_template_file_path(city, CONFIG["template_dir"])
     if not os.path.exists(template_file):
-        if CONFIG['verbose'] and not auto_mode:
-            print(f"  {city}: 模板文件不存在，跳过")
+        if verbose:
+            print(f"  {city}: ❌ 模板文件不存在: {template_file}")
         return False, False
+    
+    if verbose:
+        print(f"  {city}: 模板文件 ✓ {os.path.basename(template_file)}")
     
     channels = load_template_channels(template_file)
     if not channels:
-        if CONFIG['verbose'] and not auto_mode:
-            print(f"  {city}: 没有找到组播地址")
+        if verbose:
+            print(f"  {city}: ❌ 模板文件无有效频道")
         return False, False
+    
+    if verbose:
+        print(f"  {city}: 加载频道 {len(channels)} 个")
+        print(f"  {city}: 可用服务器 {len(valid_servers)} 个")
     
     # ==================== 定制版（跳过排除频道） ====================
     exclude_prefixes, keep_unmatched, keep_keywords, enable_exclude, enable_keep = get_city_exclusion(city)
@@ -1161,48 +1250,40 @@ def generate_city_playlist(city: str, channel_index: Dict, region_index: Dict, k
             
             # 2. 判断是否启用本地其他频道置顶
             if CONFIG.get("local_other_top", False):
-                # 置顶模式：本地其他频道放在本地卫视之后
                 for ch in local_other_all:
                     f.write(f"{ch['display_name']},{ch['url'].replace('ipipip', ip)}\n")
                 if local_other_all and (categorized_all or region_based_all or unmatched_all):
                     f.write("\n")
-                # 3. 已分类频道
                 for ch in categorized_all:
                     f.write(f"{ch['display_name']},{ch['url'].replace('ipipip', ip)}\n")
                 if categorized_all and (region_based_all or unmatched_all):
                     f.write("\n")
-                # 4. 地区分类频道
                 for ch in region_based_all:
                     f.write(f"{ch['display_name']},{ch['url'].replace('ipipip', ip)}\n")
                 if region_based_all and unmatched_all:
                     f.write("\n")
-                # 5. 未匹配频道
                 for ch in unmatched_all:
                     f.write(f"{ch['display_name']},{ch['url'].replace('ipipip', ip)}\n")
             else:
-                # 非置顶模式：已分类频道在前，本地其他频道在后
-                # 3. 已分类频道
                 for ch in categorized_all:
                     f.write(f"{ch['display_name']},{ch['url'].replace('ipipip', ip)}\n")
                 if categorized_all and (region_based_all or local_other_all or unmatched_all):
                     f.write("\n")
-                # 4. 地区分类频道
                 for ch in region_based_all:
                     f.write(f"{ch['display_name']},{ch['url'].replace('ipipip', ip)}\n")
                 if region_based_all and (local_other_all or unmatched_all):
                     f.write("\n")
-                # 5. 本地其他频道（不置顶）
                 for ch in local_other_all:
                     f.write(f"{ch['display_name']},{ch['url'].replace('ipipip', ip)}\n")
                 if local_other_all and unmatched_all:
                     f.write("\n")
-                # 6. 未匹配频道
                 for ch in unmatched_all:
                     f.write(f"{ch['display_name']},{ch['url'].replace('ipipip', ip)}\n")
     
-    if CONFIG['verbose'] and not auto_mode:
-        print(f"  定制版: {len(limited_servers)} 个服务器")
-        print(f"  完整版: {len(all_servers)} 个服务器")
+    if verbose:
+        print(f"  {city}: ✅ 生成播放列表成功")
+        print(f"    定制版: {limited_file} ({len(limited_servers)}个服务器)")
+        print(f"    完整版: {all_file} ({len(all_servers)}个服务器)")
     
     return True, True
 
@@ -1287,6 +1368,7 @@ def txt_to_m3u(input_file: str, output_file: str) -> None:
                             f.write(f'{channel_url}\n')
 
 
+# ==================== 主函数 ====================
 def main():
     parser = argparse.ArgumentParser(description='udpxy 播放列表生成工具（带实时验证版）')
     parser.add_argument('city', type=int, nargs='?', default=None,
@@ -1453,8 +1535,8 @@ def main():
         valid_servers, prioritized_servers = get_valid_servers(city, stream, verify, args.num, auto_mode)
         
         if not valid_servers:
-            if CONFIG['verbose'] and not auto_mode:
-                print(f"  {city}: 没有可用的服务器，跳过")
+            if not auto_mode:
+                print(f"  {city}: ❌ 没有可用的服务器，跳过")
             continue
         
         # 生成播放列表
@@ -1471,8 +1553,8 @@ def main():
         # 单城市模式显示结果
         if is_single_mode and not auto_mode:
             print(f"\n✅ {city} 播放列表生成完成！")
-            print(f"  定制版: {CONFIG['output_dir_limited']}/{city}.txt ({len(prioritized_servers[:args.num])}个IP)")
-            print(f"  完整版: {CONFIG['output_dir_all']}/{city}.txt ({len(valid_servers)}个IP)")
+            print(f"  定制版: {CONFIG['output_dir_limited']}/{city}.txt")
+            print(f"  完整版: {CONFIG['output_dir_all']}/{city}.txt")
     
     # 多城市模式，汇总所有播放列表
     if len(selected_cities) > 1:
