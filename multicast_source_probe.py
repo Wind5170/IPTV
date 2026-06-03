@@ -7,6 +7,7 @@
 服务器读取策略：
 1. 优先读取达标服务器文件（_quick.txt 或 _precise.txt）
 2. 只有当没有达标服务器时，才从低速服务器中补充（slow/目录）
+3. 支持文件名前缀匹配：广东电信.txt、广东电信_补充.txt、广东电信补充.txt 都使用广东电信的IP服务器
 """
 
 import os
@@ -120,6 +121,23 @@ def extract_main_city_name(filename):
     return filename
 
 
+def extract_base_city_name(filename):
+    """
+    从文件名提取基础城市名（用于匹配IP服务器文件）
+    例如：
+        "江苏电信" -> "江苏电信"
+        "江苏电信_补充" -> "江苏电信"
+        "江苏电信补充" -> "江苏电信"
+        "广东电信_补充_测试" -> "广东电信"
+    规则：取运营商（电信/移动/联通）及其前面的部分
+    """
+    for op in ["电信", "移动", "联通"]:
+        if op in filename:
+            idx = filename.find(op) + len(op)
+            return filename[:idx]
+    return filename
+
+
 def get_source_files(rtp_dir='rtp'):
     """获取组播源文件列表"""
     source_files = []
@@ -155,16 +173,18 @@ def parse_server_file(city, ip_dir='ip', server_source='quick', max_servers=10, 
     """
     servers = []
     slow_servers = []
-    main_city_name = extract_main_city_name(city)
     
     source_name = "快速测试" if server_source == 'quick' else "精确测试"
     source_file_suffix = "quick" if server_source == 'quick' else "precise"
     
-    # 1. 读取达标服务器 - 尝试多种文件格式
+    # 使用基础城市名查找服务器文件
+    base_city_name = extract_base_city_name(city)
+    
+    # 尝试多种文件格式
     possible_files = [
-        os.path.join(ip_dir, f"{main_city_name}_ip_{source_file_suffix}.txt"),
-        os.path.join(ip_dir, f"{main_city_name}_ip.txt"),
-        os.path.join(ip_dir, f"{main_city_name}_ip_result.txt"),
+        os.path.join(ip_dir, f"{base_city_name}_ip_{source_file_suffix}.txt"),
+        os.path.join(ip_dir, f"{base_city_name}_ip.txt"),
+        os.path.join(ip_dir, f"{base_city_name}_ip_result.txt"),
     ]
     
     server_file = None
@@ -199,7 +219,7 @@ def parse_server_file(city, ip_dir='ip', server_source='quick', max_servers=10, 
                 print(f"  读取达标服务器文件失败: {e}")
     else:
         if verbose:
-            print(f"  未找到{source_name}达标服务器文件: {main_city_name}_ip_*.txt")
+            print(f"  未找到{source_name}达标服务器文件: {base_city_name}_ip_*.txt")
     
     # 记录达标服务器数量
     current_count = len(servers)
@@ -208,8 +228,8 @@ def parse_server_file(city, ip_dir='ip', server_source='quick', max_servers=10, 
     if use_slow_servers and current_count == 0:
         slow_dir = os.path.join(ip_dir, "slow")
         possible_slow_files = [
-            os.path.join(slow_dir, f"{main_city_name}_ip_{source_file_suffix}_slow.txt"),
-            os.path.join(slow_dir, f"{main_city_name}_ip_slow.txt"),
+            os.path.join(slow_dir, f"{base_city_name}_ip_{source_file_suffix}_slow.txt"),
+            os.path.join(slow_dir, f"{base_city_name}_ip_slow.txt"),
         ]
         
         slow_file = None
@@ -331,8 +351,6 @@ def parse_source_file(file_path):
 def test_with_ffprobe(server, multicast_addr, timeout=15):
     """使用 ffprobe 测试组播源，获取详细信息"""
     # 构建 URL：需要将 rtp/ 格式转换为 rtp:// 格式
-    # 例如：rtp/239.49.8.19:9614 -> http://server/rtp/239.49.8.19:9614
-    # 或者直接使用地址（如果已经是正确格式）
     if multicast_addr.startswith('rtp/'):
         url_path = multicast_addr
     elif multicast_addr.startswith('udp/'):
@@ -468,6 +486,39 @@ def test_with_opencv(server, multicast_addr, timeout=15):
         return False, "", "", 0, 99999
 
 
+def print_city_list(source_files):
+    """动态打印城市选择列表（多列对齐）"""
+    if not source_files:
+        return "未找到任何城市文件"
+    
+    ip_dir = CONFIG['ip_dir']
+    server_source = CONFIG['server_source']
+    source_file_suffix = "quick" if server_source == 'quick' else "precise"
+    
+    cities = [city for city, _ in source_files]
+    max_len = max(len(c) for c in cities) + 2
+    cols = 4
+    lines = []
+    
+    for i in range(0, len(cities), cols):
+        row = cities[i:i+cols]
+        row_text = ""
+        for j, city in enumerate(row):
+            idx = i + j + 1
+            # 检查是否有探测结果文件（新格式 _probe.txt）
+            result_file = os.path.join(CONFIG["rtp_dir"], f"{city}_probe.txt")
+            has_result = "✓" if os.path.exists(result_file) else " "
+            # 检查是否有对应的IP服务器文件
+            base_city = extract_base_city_name(city)
+            server_file = os.path.join(ip_dir, f"{base_city}_ip_{source_file_suffix}.txt")
+            has_server = "●" if os.path.exists(server_file) else "○"
+            row_text += f"{idx:2d}.{has_result}{has_server}{city:<{max_len}}"
+        lines.append(row_text)
+    
+    lines.append("  (标记 ✓ 表示已有探测结果，● 表示有服务器文件，○ 表示无服务器文件)")
+    return "\n".join(lines)
+
+
 def process_city(city, source_file, config, auto_mode=False):
     """处理单个城市的组播源探测 - 按总并发数分配任务"""
     global should_exit
@@ -477,15 +528,19 @@ def process_city(city, source_file, config, auto_mode=False):
     source_name = "快速测试" if config['server_source'] == 'quick' else "精确测试"
     source_file_suffix = "quick" if config['server_source'] == 'quick' else "precise"
     
+    # 提取基础城市名（用于查找服务器文件）
+    base_city_name = extract_base_city_name(city)
+    
     # auto 模式下也显示开始信息
     if auto_mode:
         print(f"\n[{city}] 开始处理...", flush=True)
     else:
         print(f"\n处理城市: {city}")
+        print(f"  基础城市: {base_city_name}")
     
-    # 读取服务器列表
+    # 读取服务器列表（使用基础城市名）
     servers = parse_server_file(
-        city, 
+        city,  # 传入原始城市名用于显示，但内部会使用 base_city_name
         config['ip_dir'], 
         config['server_source'], 
         config['max_concurrency'],
@@ -499,7 +554,7 @@ def process_city(city, source_file, config, auto_mode=False):
             print(f"[{city}] ✗ 跳过: 无{source_name}服务器", flush=True)
         else:
             print(f"  跳过: 没有可用的{source_name}服务器")
-            print(f"  提示: 请确保 {city}_ip_{source_file_suffix}.txt 文件存在")
+            print(f"  提示: 请确保 {base_city_name}_ip_{source_file_suffix}.txt 文件存在")
         return False
     
     # 读取组播源列表
@@ -538,7 +593,7 @@ def process_city(city, source_file, config, auto_mode=False):
     # 两种模式都读取已有结果
     if os.path.exists(result_file):
         try:
-            with open(result_file, 'r', encoding='utf-8-sig') as f:  # 使用 utf-8-sig 自动去除 BOM
+            with open(result_file, 'r', encoding='utf-8-sig') as f:
                 for line in f:
                     line = line.strip()
                     if not line:
@@ -546,11 +601,8 @@ def process_city(city, source_file, config, auto_mode=False):
                     
                     # 跳过正常的注释行（以 # 开头且不包含有效数据）
                     if line.startswith('#'):
-                        # 检查是否是格式错误的注释行（包含数据）
-                        # 格式错误的注释行特征：包含无效/有效关键字，或者包含制表符
                         if '有效' not in line and '无效' not in line:
                             continue
-                        # 如果包含有效/无效，说明是格式错误的数据行，继续解析
                     
                     parts = line.split('\t')
                     if len(parts) >= 3:
@@ -808,10 +860,14 @@ def process_city(city, source_file, config, auto_mode=False):
     return not should_exit
 
 
-def print_city_list(source_files):
-    """动态打印城市选择列表（多列对齐）"""
+def print_city_list_interactive(source_files):
+    """动态打印城市选择列表（多列对齐）用于交互模式"""
     if not source_files:
         return "未找到任何城市文件"
+    
+    ip_dir = CONFIG['ip_dir']
+    server_source = CONFIG['server_source']
+    source_file_suffix = "quick" if server_source == 'quick' else "precise"
     
     cities = [city for city, _ in source_files]
     max_len = max(len(c) for c in cities) + 2
@@ -826,11 +882,38 @@ def print_city_list(source_files):
             # 检查是否有探测结果文件（新格式 _probe.txt）
             result_file = os.path.join(CONFIG["rtp_dir"], f"{city}_probe.txt")
             has_result = "✓" if os.path.exists(result_file) else " "
-            row_text += f"{idx:2d}.{has_result}{city:<{max_len}}"
+            # 检查是否有对应的IP服务器文件
+            base_city = extract_base_city_name(city)
+            server_file = os.path.join(ip_dir, f"{base_city}_ip_{source_file_suffix}.txt")
+            has_server = "●" if os.path.exists(server_file) else "○"
+            row_text += f"{idx:2d}.{has_result}{has_server}{city:<{max_len}}"
         lines.append(row_text)
     
-    lines.append("  (标记 ✓ 表示已有探测结果)")
+    lines.append("  (标记 ✓ 表示已有探测结果，● 表示有服务器文件，○ 表示无服务器文件)")
     return "\n".join(lines)
+
+
+def get_source_files_interactive(rtp_dir='rtp'):
+    """获取组播源文件列表（用于交互模式）"""
+    source_files = []
+    if not os.path.exists(rtp_dir):
+        print(f"目录 {rtp_dir} 不存在")
+        return source_files
+    
+    for filename in os.listdir(rtp_dir):
+        if not filename.endswith('.txt'):
+            continue
+        # 跳过结果文件
+        skip_patterns = ['_result', '_precise', '_history', '_checked', '_source', '_quick', '_probe', 'ip_', 'template_']
+        if any(x in filename for x in skip_patterns):
+            continue
+        
+        file_path = os.path.join(rtp_dir, filename)
+        city_name = filename.replace('.txt', '')
+        source_files.append((city_name, file_path))
+    
+    source_files.sort(key=lambda x: locale.strxfrm(x[0]))
+    return source_files
 
 
 def main():
@@ -919,10 +1002,6 @@ def main():
         print(f"请确保 {config['rtp_dir']} 目录下有组播源文件（如：北京电信.txt）")
         return
     
-    if not auto_mode and not args.city:
-        print(f"\n找到 {len(source_files)} 个组播源文件:")
-        print(print_city_list(source_files))
-    
     # 选择城市
     if args.city:
         # 指定城市模式
@@ -930,7 +1009,6 @@ def main():
         if not any(city == args.city for city, _ in source_files):
             print(f"错误: 未找到城市 '{args.city}'")
             return
-        # 如果指定了 auto_mode，在指定城市模式下也启用自动模式的特性（不显示进度条）
         if auto_mode:
             print(f"\n自动模式: 处理指定城市 {args.city}")
     elif auto_mode:
@@ -938,6 +1016,9 @@ def main():
         selected_cities = [city for city, _ in source_files]
         print(f"\n自动模式: 处理全部 {len(selected_cities)} 个城市")
     elif len(source_files) > 1:
+        # 交互模式：显示城市列表并选择
+        print(f"\n找到 {len(source_files)} 个组播源文件:")
+        print(print_city_list_interactive(source_files))
         try:
             choice = input(f"\n请选择城市 (1-{len(source_files)}，回车全部): ").strip()
             if choice:
