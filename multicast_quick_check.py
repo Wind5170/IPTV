@@ -9,6 +9,7 @@
 服务器读取策略：
 1. 优先读取达标服务器文件（_quick.txt 或 _precise.txt）
 2. 只有当没有达标服务器时，才从低速服务器中补充（slow/目录）
+3. 支持文件名前缀匹配：广东电信.txt、广东电信_补充.txt、广东电信补充.txt 都使用广东电信的IP服务器
 """
 
 import requests
@@ -142,18 +143,22 @@ def extract_region_from_filename(file_path):
     return city_name, True
 
 
-def extract_main_city_name(filename):
+def extract_base_city_name(filename):
     """
-    从文件名提取主城市名（去除 _extracted、_source、_checked 等后缀）
+    从文件名提取基础城市名（用于匹配IP服务器文件）
     例如：
         "江苏电信" -> "江苏电信"
-        "江苏电信_extracted" -> "江苏电信"
-        "江苏电信_checked" -> "江苏电信"
+        "江苏电信_补充" -> "江苏电信"
+        "江苏电信补充" -> "江苏电信"
+        "广东电信_补充_测试" -> "广东电信"
+    规则：取运营商（电信/移动/联通）及其前面的部分
     """
-    suffixes = ['_extracted', '_source', '_checked', '_result', '_precise', '_history', '_quick', '_probe']
-    for suffix in suffixes:
-        if filename.endswith(suffix):
-            return filename[:-len(suffix)]
+    # 匹配运营商关键词
+    for op in ["电信", "移动", "联通"]:
+        if op in filename:
+            # 找到运营商的位置，取到运营商结尾
+            idx = filename.find(op) + len(op)
+            return filename[:idx]
     return filename
 
 
@@ -191,6 +196,7 @@ def print_city_list(multicast_files):
         return "未找到任何城市文件"
     
     rtp_dir = CONFIG['rtp_dir']
+    ip_dir = CONFIG['ip_dir']
     cities = [os.path.splitext(os.path.basename(f))[0] for f in multicast_files]
     
     max_len = max(len(c) for c in cities) + 2
@@ -205,10 +211,14 @@ def print_city_list(multicast_files):
             # 检查快速测试结果文件（rtp 目录下的 _quick.txt）
             result_file = os.path.join(rtp_dir, f"{city}_quick.txt")
             has_result = "✓" if os.path.exists(result_file) else " "
-            row_text += f"{idx:2d}.{has_result}{city:<{max_len}}"
+            # 检查是否有对应的IP服务器文件
+            base_city = extract_base_city_name(city)
+            server_file = os.path.join(ip_dir, f"{base_city}_ip_{CONFIG['server_source']}.txt")
+            has_server = "●" if os.path.exists(server_file) else "○"
+            row_text += f"{idx:2d}.{has_result}{has_server}{city:<{max_len}}"
         lines.append(row_text)
     
-    lines.append("  (标记 ✓ 表示已有快速测试结果)")
+    lines.append("  (标记 ✓ 表示已有快速测试结果，● 表示有服务器文件，○ 表示无服务器文件)")
     return "\n".join(lines)
 
 
@@ -330,8 +340,11 @@ def parse_multicast_file(file_path, default_region=None):
     return items, detected_encoding, False
 
 
-def parse_servers_by_region(ip_dir, main_city_name, server_source="quick", use_slow_servers=True, max_slow_servers=20, verbose=True):
-    """解析服务器列表"""
+def parse_servers_by_region(ip_dir, base_city_name, server_source="quick", use_slow_servers=True, max_slow_servers=20, verbose=True):
+    """
+    解析服务器列表
+    使用基础城市名（提取运营商后的部分）来查找服务器文件
+    """
     servers = []
     slow_servers = []
     
@@ -340,9 +353,9 @@ def parse_servers_by_region(ip_dir, main_city_name, server_source="quick", use_s
     
     # 尝试多种文件格式
     possible_files = [
-        os.path.join(ip_dir, f"{main_city_name}_ip_{source_file_suffix}.txt"),
-        os.path.join(ip_dir, f"{main_city_name}_ip.txt"),
-        os.path.join(ip_dir, f"{main_city_name}_ip_result.txt"),
+        os.path.join(ip_dir, f"{base_city_name}_ip_{source_file_suffix}.txt"),
+        os.path.join(ip_dir, f"{base_city_name}_ip.txt"),
+        os.path.join(ip_dir, f"{base_city_name}_ip_result.txt"),
     ]
     
     server_file = None
@@ -374,15 +387,15 @@ def parse_servers_by_region(ip_dir, main_city_name, server_source="quick", use_s
                 print(f"  读取达标服务器文件失败: {e}")
     else:
         if verbose:
-            print(f"  未找到{source_name}达标服务器文件: {main_city_name}_ip_*.txt")
+            print(f"  未找到{source_name}达标服务器文件: {base_city_name}_ip_*.txt")
     
     current_count = len(servers)
     
     if use_slow_servers and current_count == 0:
         slow_dir = os.path.join(ip_dir, "slow")
         possible_slow_files = [
-            os.path.join(slow_dir, f"{main_city_name}_ip_{source_file_suffix}_slow.txt"),
-            os.path.join(slow_dir, f"{main_city_name}_ip_slow.txt"),
+            os.path.join(slow_dir, f"{base_city_name}_ip_{source_file_suffix}_slow.txt"),
+            os.path.join(slow_dir, f"{base_city_name}_ip_slow.txt"),
         ]
         
         slow_file = None
@@ -489,7 +502,8 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
     full_basename = os.path.splitext(os.path.basename(multicast_file))[0]
     checked_file = os.path.join(rel_dir, f"{full_basename}_quick.txt")
 
-    main_city_name = extract_main_city_name(full_basename)
+    # 提取基础城市名（用于查找服务器文件）
+    base_city_name = extract_base_city_name(full_basename)
     city_name = full_basename
 
     if not city_name:
@@ -508,6 +522,7 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
     else:
         print(f"\n处理文件: {full_basename}")
         print(f"  城市: {city_name}")
+        print(f"  基础城市: {base_city_name}")
         print(f"  服务器来源: {source_name}")
         print(f"  输出模式: {'详细' if output_mode == 'detailed' else '简洁'}")
 
@@ -549,14 +564,15 @@ def process_single_file(multicast_file, ip_dir, max_servers, force_test_all,
             print(f"  [错误] {full_basename}: 没有找到组播地址")
         return False
 
-    region_servers = parse_servers_by_region(ip_dir, main_city_name, server_source, use_slow_servers, max_slow_servers, verbose=not auto_mode)
+    # 使用基础城市名查找服务器
+    region_servers = parse_servers_by_region(ip_dir, base_city_name, server_source, use_slow_servers, max_slow_servers, verbose=not auto_mode)
     
     if not region_servers:
         if auto_mode:
             print(f"[{full_basename}] ✗ 跳过: 无{source_name}服务器", flush=True)
         else:
             print(f"  [跳过] {full_basename}: 服务器列表为空")
-            print(f"  提示: 请确保 {main_city_name}_ip_{source_file_suffix}.txt 文件存在")
+            print(f"  提示: 请确保 {base_city_name}_ip_{source_file_suffix}.txt 文件存在")
         return True
 
     region_servers = region_servers[:max_servers]
