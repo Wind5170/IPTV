@@ -1,6 +1,6 @@
-# 20260602_1418_precise_slow
+# 20260603_1459_precise_slow
 # 服务器地址	速度
-hyxy26.top:4022	215.12 KB/s
-58.46.29.56:8188	176.23 KB/s
-www.zlizi.cn:4023	168.24 KB/s
-eyfs.vicp.net:8888	53.54 KB/s
+175.10.47.128:8177	280.09 KB/s
+www.zlizi.cn:4023	175.52 KB/s
+eyfs.vicp.net:8888	151.72 KB/s
+58.46.28.176:8188	126.11 KB/s

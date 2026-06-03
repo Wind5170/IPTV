@@ -1,7 +1,5 @@
-# 20260602_1429_precise
+# 20260603_1513_precise
 # 服务器地址	速度
-125.115.205.131:4023	514.76 KB/s
-maymoon.asuscomm.com:7777	479.09 KB/s
-gilbert0571.eu.org:8888	440.02 KB/s
-9.lexlong.top:8001	413.10 KB/s
-www.liangcl.top:8686	413.05 KB/s
+maymoon.asuscomm.com:7777	375.24 KB/s
+rhfwily.synology.me:4022	364.50 KB/s
+www.negative.top:50000	328.97 KB/s
