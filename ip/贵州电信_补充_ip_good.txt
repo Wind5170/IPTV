@@ -1,0 +1,3 @@
+# 20260522_2256_precise
+# 服务器地址	速度
+gycdn.liip.top:369	60.89 KB/s
