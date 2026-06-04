@@ -71,6 +71,7 @@ CCTV4K超高清,http://wanda01.e7q.com:18090/rtp/239.253.142.68:3000
 延边卫视,http://wanda01.e7q.com:18090/rtp/239.253.142.101:3000
 CCTV-风云足球,http://wanda01.e7q.com:18090/rtp/239.253.142.77:3000
 CCTV-高尔夫·网球,http://wanda01.e7q.com:18090/rtp/239.253.142.200:3000
+CCTV-央视文化精品,http://wanda01.e7q.com:18090/rtp/239.253.142.80:3000
 CCTV-风云音乐,http://wanda01.e7q.com:18090/rtp/239.253.142.78:3000
 CCTV-第一剧场,http://wanda01.e7q.com:18090/rtp/239.253.142.75:3000
 CCTV-怀旧剧场,http://wanda01.e7q.com:18090/rtp/239.253.142.79:3000
@@ -85,6 +86,7 @@ CGTN西班牙语,http://wanda01.e7q.com:18090/rtp/239.253.142.243:3000
 CGTN法语,http://wanda01.e7q.com:18090/rtp/239.253.142.244:3000
 CGTN阿拉伯语,http://wanda01.e7q.com:18090/rtp/239.253.142.245:3000
 CGTN俄语,http://wanda01.e7q.com:18090/rtp/239.253.142.246:3000
+CGTN纪录,http://wanda01.e7q.com:18090/rtp/239.253.142.242:3000
 CETV-1综合教育,http://wanda01.e7q.com:18090/rtp/239.253.142.14:3000
 CETV-2空中课堂,http://wanda01.e7q.com:18090/rtp/239.253.142.71:3000
 CETV-4职业教育,http://wanda01.e7q.com:18090/rtp/239.253.142.74:3000
@@ -143,7 +145,6 @@ CHC动作电影,http://wanda01.e7q.com:18090/rtp/239.253.142.188:3000
 延边1台,http://wanda01.e7q.com:18090/rtp/239.253.142.214:3000
 延边2台,http://wanda01.e7q.com:18090/rtp/239.253.142.215:3000
 
-CGTN纪录,http://wanda01.e7q.com:18090/rtp/239.253.142.242:3000
 东丰,http://wanda01.e7q.com:18090/rtp/239.253.142.150:3000
 东辽,http://wanda01.e7q.com:18090/rtp/239.253.142.149:3000
 临江,http://wanda01.e7q.com:18090/rtp/239.253.142.157:3000
@@ -160,7 +161,6 @@ CGTN纪录,http://wanda01.e7q.com:18090/rtp/239.253.142.242:3000
 扶余,http://wanda01.e7q.com:18090/rtp/239.253.142.151:3000
 抚松,http://wanda01.e7q.com:18090/rtp/239.253.142.158:3000
 敦化,http://wanda01.e7q.com:18090/rtp/239.253.142.89:3000
-文化精品,http://wanda01.e7q.com:18090/rtp/239.253.142.80:3000
 晴彩广场舞,http://wanda01.e7q.com:18090/rtp/239.253.142.184:3000
 晴彩竞技,http://wanda01.e7q.com:18090/rtp/239.253.142.181:3000
 晴彩篮球,http://wanda01.e7q.com:18090/rtp/239.253.142.182:3000

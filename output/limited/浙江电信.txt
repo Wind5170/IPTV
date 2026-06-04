@@ -228,6 +228,7 @@ CETV-1综合教育,http://maymoon.asuscomm.com:7777/rtp/233.50.201.75:5140
 CETV-4职业教育,http://maymoon.asuscomm.com:7777/rtp/233.50.200.141:5140
 CETV-4职业教育,http://maymoon.asuscomm.com:7777/rtp/233.50.200.174:5140
 CETV-4职业教育,http://maymoon.asuscomm.com:7777/rtp/233.50.201.172:5140
+聚鲨环球精选,http://maymoon.asuscomm.com:7777/rtp/233.50.201.91:5140
 百事通4K-1,http://maymoon.asuscomm.com:7777/rtp/233.50.200.182:5140
 百事通体育直播1,http://maymoon.asuscomm.com:7777/rtp/233.50.201.204:5140
 百事通体育直播2,http://maymoon.asuscomm.com:7777/rtp/233.50.201.206:5140
@@ -333,7 +334,6 @@ YMG新闻频道,http://maymoon.asuscomm.com:7777/rtp/233.50.201.159:5140
 直播,http://maymoon.asuscomm.com:7777/rtp/233.50.200.223:5140
 经济生活,http://maymoon.asuscomm.com:7777/rtp/233.50.201.29:5140
 综合HTV-,http://maymoon.asuscomm.com:7777/rtp/233.50.201.21:5140
-聚鲨精选,http://maymoon.asuscomm.com:7777/rtp/233.50.201.91:5140
 节目预告,http://maymoon.asuscomm.com:7777/rtp/233.50.201.20:5140
 订则夏,http://maymoon.asuscomm.com:7777/rtp/233.50.200.215:5140
 购物,http://maymoon.asuscomm.com:7777/rtp/233.50.200.34:5140
@@ -568,6 +568,7 @@ CETV-1综合教育,http://rhfwily.synology.me:4022/rtp/233.50.201.75:5140
 CETV-4职业教育,http://rhfwily.synology.me:4022/rtp/233.50.200.141:5140
 CETV-4职业教育,http://rhfwily.synology.me:4022/rtp/233.50.200.174:5140
 CETV-4职业教育,http://rhfwily.synology.me:4022/rtp/233.50.201.172:5140
+聚鲨环球精选,http://rhfwily.synology.me:4022/rtp/233.50.201.91:5140
 百事通4K-1,http://rhfwily.synology.me:4022/rtp/233.50.200.182:5140
 百事通体育直播1,http://rhfwily.synology.me:4022/rtp/233.50.201.204:5140
 百事通体育直播2,http://rhfwily.synology.me:4022/rtp/233.50.201.206:5140
@@ -673,7 +674,6 @@ YMG新闻频道,http://rhfwily.synology.me:4022/rtp/233.50.201.159:5140
 直播,http://rhfwily.synology.me:4022/rtp/233.50.200.223:5140
 经济生活,http://rhfwily.synology.me:4022/rtp/233.50.201.29:5140
 综合HTV-,http://rhfwily.synology.me:4022/rtp/233.50.201.21:5140
-聚鲨精选,http://rhfwily.synology.me:4022/rtp/233.50.201.91:5140
 节目预告,http://rhfwily.synology.me:4022/rtp/233.50.201.20:5140
 订则夏,http://rhfwily.synology.me:4022/rtp/233.50.200.215:5140
 购物,http://rhfwily.synology.me:4022/rtp/233.50.200.34:5140
@@ -908,6 +908,7 @@ CETV-1综合教育,http://www.negative.top:50000/rtp/233.50.201.75:5140
 CETV-4职业教育,http://www.negative.top:50000/rtp/233.50.200.141:5140
 CETV-4职业教育,http://www.negative.top:50000/rtp/233.50.200.174:5140
 CETV-4职业教育,http://www.negative.top:50000/rtp/233.50.201.172:5140
+聚鲨环球精选,http://www.negative.top:50000/rtp/233.50.201.91:5140
 百事通4K-1,http://www.negative.top:50000/rtp/233.50.200.182:5140
 百事通体育直播1,http://www.negative.top:50000/rtp/233.50.201.204:5140
 百事通体育直播2,http://www.negative.top:50000/rtp/233.50.201.206:5140
@@ -1013,7 +1014,6 @@ YMG新闻频道,http://www.negative.top:50000/rtp/233.50.201.159:5140
 直播,http://www.negative.top:50000/rtp/233.50.200.223:5140
 经济生活,http://www.negative.top:50000/rtp/233.50.201.29:5140
 综合HTV-,http://www.negative.top:50000/rtp/233.50.201.21:5140
-聚鲨精选,http://www.negative.top:50000/rtp/233.50.201.91:5140
 节目预告,http://www.negative.top:50000/rtp/233.50.201.20:5140
 订则夏,http://www.negative.top:50000/rtp/233.50.200.215:5140
 购物,http://www.negative.top:50000/rtp/233.50.200.34:5140
@@ -1248,6 +1248,7 @@ CETV-1综合教育,http://www.liangcl.top:8686/rtp/233.50.201.75:5140
 CETV-4职业教育,http://www.liangcl.top:8686/rtp/233.50.200.141:5140
 CETV-4职业教育,http://www.liangcl.top:8686/rtp/233.50.200.174:5140
 CETV-4职业教育,http://www.liangcl.top:8686/rtp/233.50.201.172:5140
+聚鲨环球精选,http://www.liangcl.top:8686/rtp/233.50.201.91:5140
 百事通4K-1,http://www.liangcl.top:8686/rtp/233.50.200.182:5140
 百事通体育直播1,http://www.liangcl.top:8686/rtp/233.50.201.204:5140
 百事通体育直播2,http://www.liangcl.top:8686/rtp/233.50.201.206:5140
@@ -1353,7 +1354,6 @@ YMG新闻频道,http://www.liangcl.top:8686/rtp/233.50.201.159:5140
 直播,http://www.liangcl.top:8686/rtp/233.50.200.223:5140
 经济生活,http://www.liangcl.top:8686/rtp/233.50.201.29:5140
 综合HTV-,http://www.liangcl.top:8686/rtp/233.50.201.21:5140
-聚鲨精选,http://www.liangcl.top:8686/rtp/233.50.201.91:5140
 节目预告,http://www.liangcl.top:8686/rtp/233.50.201.20:5140
 订则夏,http://www.liangcl.top:8686/rtp/233.50.200.215:5140
 购物,http://www.liangcl.top:8686/rtp/233.50.200.34:5140
@@ -1588,6 +1588,7 @@ CETV-1综合教育,http://9.lexlong.top:8001/rtp/233.50.201.75:5140
 CETV-4职业教育,http://9.lexlong.top:8001/rtp/233.50.200.141:5140
 CETV-4职业教育,http://9.lexlong.top:8001/rtp/233.50.200.174:5140
 CETV-4职业教育,http://9.lexlong.top:8001/rtp/233.50.201.172:5140
+聚鲨环球精选,http://9.lexlong.top:8001/rtp/233.50.201.91:5140
 百事通4K-1,http://9.lexlong.top:8001/rtp/233.50.200.182:5140
 百事通体育直播1,http://9.lexlong.top:8001/rtp/233.50.201.204:5140
 百事通体育直播2,http://9.lexlong.top:8001/rtp/233.50.201.206:5140
@@ -1693,7 +1694,6 @@ YMG新闻频道,http://9.lexlong.top:8001/rtp/233.50.201.159:5140
 直播,http://9.lexlong.top:8001/rtp/233.50.200.223:5140
 经济生活,http://9.lexlong.top:8001/rtp/233.50.201.29:5140
 综合HTV-,http://9.lexlong.top:8001/rtp/233.50.201.21:5140
-聚鲨精选,http://9.lexlong.top:8001/rtp/233.50.201.91:5140
 节目预告,http://9.lexlong.top:8001/rtp/233.50.201.20:5140
 订则夏,http://9.lexlong.top:8001/rtp/233.50.200.215:5140
 购物,http://9.lexlong.top:8001/rtp/233.50.200.34:5140
@@ -1928,6 +1928,7 @@ CETV-1综合教育,http://gilbert0571.eu.org:8888/rtp/233.50.201.75:5140
 CETV-4职业教育,http://gilbert0571.eu.org:8888/rtp/233.50.200.141:5140
 CETV-4职业教育,http://gilbert0571.eu.org:8888/rtp/233.50.200.174:5140
 CETV-4职业教育,http://gilbert0571.eu.org:8888/rtp/233.50.201.172:5140
+聚鲨环球精选,http://gilbert0571.eu.org:8888/rtp/233.50.201.91:5140
 百事通4K-1,http://gilbert0571.eu.org:8888/rtp/233.50.200.182:5140
 百事通体育直播1,http://gilbert0571.eu.org:8888/rtp/233.50.201.204:5140
 百事通体育直播2,http://gilbert0571.eu.org:8888/rtp/233.50.201.206:5140
@@ -2033,7 +2034,6 @@ YMG新闻频道,http://gilbert0571.eu.org:8888/rtp/233.50.201.159:5140
 直播,http://gilbert0571.eu.org:8888/rtp/233.50.200.223:5140
 经济生活,http://gilbert0571.eu.org:8888/rtp/233.50.201.29:5140
 综合HTV-,http://gilbert0571.eu.org:8888/rtp/233.50.201.21:5140
-聚鲨精选,http://gilbert0571.eu.org:8888/rtp/233.50.201.91:5140
 节目预告,http://gilbert0571.eu.org:8888/rtp/233.50.201.20:5140
 订则夏,http://gilbert0571.eu.org:8888/rtp/233.50.200.215:5140
 购物,http://gilbert0571.eu.org:8888/rtp/233.50.200.34:5140

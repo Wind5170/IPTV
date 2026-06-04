@@ -161,7 +161,9 @@ CCTV-17农业农村,http://gaoxing.dns.army:10086/rtp/239.10.0.244:1025
 CCTV-卫生健康,http://gaoxing.dns.army:10086/rtp/239.11.0.185:1025
 CCTV-风云足球,http://gaoxing.dns.army:10086/rtp/239.21.0.70:3620
 CCTV-风云足球,http://gaoxing.dns.army:10086/rtp/239.11.0.59:1025
+CCTV-高尔夫·网球,http://gaoxing.dns.army:10086/rtp/239.11.0.61:1025
 CCTV-央视文化精品,http://gaoxing.dns.army:10086/rtp/239.21.0.77:3648
+CCTV-央视文化精品,http://gaoxing.dns.army:10086/rtp/239.11.0.66:1025
 CCTV-风云音乐,http://gaoxing.dns.army:10086/rtp/239.21.0.79:3656
 CCTV-风云音乐,http://gaoxing.dns.army:10086/rtp/239.11.0.68:1025
 CCTV-第一剧场,http://gaoxing.dns.army:10086/rtp/239.21.0.78:3652
@@ -190,6 +192,10 @@ CGTN阿拉伯语,http://gaoxing.dns.army:10086/rtp/239.11.0.107:1025
 CGTN阿拉伯语,http://gaoxing.dns.army:10086/rtp/239.21.0.113:3792
 CGTN俄语,http://gaoxing.dns.army:10086/rtp/239.11.0.108:1025
 CGTN俄语,http://gaoxing.dns.army:10086/rtp/239.21.0.114:3796
+CGTN纪录,http://gaoxing.dns.army:10086/rtp/239.21.0.110:3780
+CGTN纪录,http://gaoxing.dns.army:10086/rtp/239.11.0.104:1025
+CETV早期教育,http://gaoxing.dns.army:10086/rtp/239.11.0.100:1025
+CETV早期教育,http://gaoxing.dns.army:10086/rtp/239.21.0.106:3764
 CETV-1综合教育,http://gaoxing.dns.army:10086/rtp/239.20.0.213:2224
 CETV-2空中课堂,http://gaoxing.dns.army:10086/rtp/239.21.0.46:3524
 CETV-4职业教育,http://gaoxing.dns.army:10086/rtp/239.21.0.142:3912
@@ -208,8 +214,6 @@ CHC影迷电影,http://gaoxing.dns.army:10086/rtp/239.11.0.129:1025
 发现之旅,http://gaoxing.dns.army:10086/rtp/239.21.0.151:3948
 发现之旅,http://gaoxing.dns.army:10086/rtp/239.11.0.182:1025
 发现之旅,http://gaoxing.dns.army:10086/rtp/239.11.0.183:1025
-早期教育,http://gaoxing.dns.army:10086/rtp/239.11.0.100:1025
-早期教育,http://gaoxing.dns.army:10086/rtp/239.21.0.106:3764
 华数经典电影,http://gaoxing.dns.army:10086/rtp/239.20.0.233:2264
 华数热播剧场,http://gaoxing.dns.army:10086/rtp/239.20.0.235:2268
 华数魅力时尚,http://gaoxing.dns.army:10086/rtp/239.20.0.239:2276
@@ -349,11 +353,7 @@ CBN风尚生活,http://gaoxing.dns.army:10086/udp/239.21.0.126:3848
 CBN风尚生活,http://gaoxing.dns.army:10086/udp/239.11.0.164:1025
 CCTV-4k,http://gaoxing.dns.army:10086/rtp/239.21.0.123:3836
 CCTV-4k,http://gaoxing.dns.army:10086/rtp/239.21.0.124:3840
-CCTV央视网球,http://gaoxing.dns.army:10086/rtp/239.11.0.61:1025
-CCTV文化精品,http://gaoxing.dns.army:10086/rtp/239.11.0.66:1025
 CCTV高尔夫网球,http://gaoxing.dns.army:10086/rtp/239.21.0.72:3628
-CGTN纪录,http://gaoxing.dns.army:10086/rtp/239.21.0.110:3780
-CGTN纪录,http://gaoxing.dns.army:10086/rtp/239.11.0.104:1025
 GCTN,http://gaoxing.dns.army:10086/rtp/239.20.0.186:2170
 华数电影,http://gaoxing.dns.army:10086/rtp/239.20.0.232:2262
 华数电视剧,http://gaoxing.dns.army:10086/rtp/239.20.0.234:2266

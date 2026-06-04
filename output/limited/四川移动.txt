@@ -14,6 +14,7 @@ CGTN西班牙语,http://183.222.15.202:4321/rtp/239.11.0.79:5140
 CGTN法语,http://183.222.15.202:4321/rtp/239.11.0.80:5140
 CGTN阿拉伯语,http://183.222.15.202:4321/rtp/239.11.0.81:5140
 CGTN俄语,http://183.222.15.202:4321/rtp/239.11.0.82:5140
+CGTN纪录,http://183.222.15.202:4321/rtp/239.11.0.138:5140
 CETV-1综合教育,http://183.222.15.202:4321/rtp/239.11.0.139:5140
 CETV-2空中课堂,http://183.222.15.202:4321/rtp/239.11.0.246:5140
 CETV-4职业教育,http://183.222.15.202:4321/rtp/239.11.0.248:5140
@@ -98,7 +99,6 @@ CDTV4影视,http://183.222.15.202:4321/rtp/239.10.0.14:5140
 CDTV5公共,http://183.222.15.202:4321/rtp/239.10.0.15:5140
 CDTV6少儿,http://183.222.15.202:4321/rtp/239.10.0.16:5140
 CDTV8购物,http://183.222.15.202:4321/rtp/239.10.0.33:5140
-CGTN纪录,http://183.222.15.202:4321/rtp/239.11.0.138:5140
 CHD爱电影,http://183.222.15.202:4321/rtp/239.10.0.191:5140
 ChannelV,http://183.222.15.202:4321/udp/239.11.0.155:5140
 NEWTV健康有约,http://183.222.15.202:4321/rtp/239.11.0.133:5140
@@ -221,6 +221,7 @@ CGTN西班牙语,http://223.86.170.98:4500/rtp/239.11.0.79:5140
 CGTN法语,http://223.86.170.98:4500/rtp/239.11.0.80:5140
 CGTN阿拉伯语,http://223.86.170.98:4500/rtp/239.11.0.81:5140
 CGTN俄语,http://223.86.170.98:4500/rtp/239.11.0.82:5140
+CGTN纪录,http://223.86.170.98:4500/rtp/239.11.0.138:5140
 CETV-1综合教育,http://223.86.170.98:4500/rtp/239.11.0.139:5140
 CETV-2空中课堂,http://223.86.170.98:4500/rtp/239.11.0.246:5140
 CETV-4职业教育,http://223.86.170.98:4500/rtp/239.11.0.248:5140
@@ -305,7 +306,6 @@ CDTV4影视,http://223.86.170.98:4500/rtp/239.10.0.14:5140
 CDTV5公共,http://223.86.170.98:4500/rtp/239.10.0.15:5140
 CDTV6少儿,http://223.86.170.98:4500/rtp/239.10.0.16:5140
 CDTV8购物,http://223.86.170.98:4500/rtp/239.10.0.33:5140
-CGTN纪录,http://223.86.170.98:4500/rtp/239.11.0.138:5140
 CHD爱电影,http://223.86.170.98:4500/rtp/239.10.0.191:5140
 ChannelV,http://223.86.170.98:4500/udp/239.11.0.155:5140
 NEWTV健康有约,http://223.86.170.98:4500/rtp/239.11.0.133:5140
@@ -428,6 +428,7 @@ CGTN西班牙语,http://aecop43ptvea6epk.0kkkkkt.com:4022/rtp/239.11.0.79:5140
 CGTN法语,http://aecop43ptvea6epk.0kkkkkt.com:4022/rtp/239.11.0.80:5140
 CGTN阿拉伯语,http://aecop43ptvea6epk.0kkkkkt.com:4022/rtp/239.11.0.81:5140
 CGTN俄语,http://aecop43ptvea6epk.0kkkkkt.com:4022/rtp/239.11.0.82:5140
+CGTN纪录,http://aecop43ptvea6epk.0kkkkkt.com:4022/rtp/239.11.0.138:5140
 CETV-1综合教育,http://aecop43ptvea6epk.0kkkkkt.com:4022/rtp/239.11.0.139:5140
 CETV-2空中课堂,http://aecop43ptvea6epk.0kkkkkt.com:4022/rtp/239.11.0.246:5140
 CETV-4职业教育,http://aecop43ptvea6epk.0kkkkkt.com:4022/rtp/239.11.0.248:5140
@@ -512,7 +513,6 @@ CDTV4影视,http://aecop43ptvea6epk.0kkkkkt.com:4022/rtp/239.10.0.14:5140
 CDTV5公共,http://aecop43ptvea6epk.0kkkkkt.com:4022/rtp/239.10.0.15:5140
 CDTV6少儿,http://aecop43ptvea6epk.0kkkkkt.com:4022/rtp/239.10.0.16:5140
 CDTV8购物,http://aecop43ptvea6epk.0kkkkkt.com:4022/rtp/239.10.0.33:5140
-CGTN纪录,http://aecop43ptvea6epk.0kkkkkt.com:4022/rtp/239.11.0.138:5140
 CHD爱电影,http://aecop43ptvea6epk.0kkkkkt.com:4022/rtp/239.10.0.191:5140
 ChannelV,http://aecop43ptvea6epk.0kkkkkt.com:4022/udp/239.11.0.155:5140
 NEWTV健康有约,http://aecop43ptvea6epk.0kkkkkt.com:4022/rtp/239.11.0.133:5140
@@ -635,6 +635,7 @@ CGTN西班牙语,http://www.sccckj.cn:8899/rtp/239.11.0.79:5140
 CGTN法语,http://www.sccckj.cn:8899/rtp/239.11.0.80:5140
 CGTN阿拉伯语,http://www.sccckj.cn:8899/rtp/239.11.0.81:5140
 CGTN俄语,http://www.sccckj.cn:8899/rtp/239.11.0.82:5140
+CGTN纪录,http://www.sccckj.cn:8899/rtp/239.11.0.138:5140
 CETV-1综合教育,http://www.sccckj.cn:8899/rtp/239.11.0.139:5140
 CETV-2空中课堂,http://www.sccckj.cn:8899/rtp/239.11.0.246:5140
 CETV-4职业教育,http://www.sccckj.cn:8899/rtp/239.11.0.248:5140
@@ -719,7 +720,6 @@ CDTV4影视,http://www.sccckj.cn:8899/rtp/239.10.0.14:5140
 CDTV5公共,http://www.sccckj.cn:8899/rtp/239.10.0.15:5140
 CDTV6少儿,http://www.sccckj.cn:8899/rtp/239.10.0.16:5140
 CDTV8购物,http://www.sccckj.cn:8899/rtp/239.10.0.33:5140
-CGTN纪录,http://www.sccckj.cn:8899/rtp/239.11.0.138:5140
 CHD爱电影,http://www.sccckj.cn:8899/rtp/239.10.0.191:5140
 ChannelV,http://www.sccckj.cn:8899/udp/239.11.0.155:5140
 NEWTV健康有约,http://www.sccckj.cn:8899/rtp/239.11.0.133:5140

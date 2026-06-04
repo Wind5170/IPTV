@@ -25,6 +25,7 @@ CCTV-高尔夫·网球,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.88:4120
 CGTN英语,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.215:4220
 CGTN法语,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.218:4220
 CGTN俄语,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.220:4220
+CGTN纪录,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.216:4220
 CETV-1综合教育,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.57:8152
 CETV-2空中课堂,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.54:4120
 CETV-3北京科教,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.55:4120
@@ -88,7 +89,6 @@ IPTV鉴赏,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.82:4120
 湖南快乐垂钓,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.164:8001
 
 4K测试,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.104:8001
-CGTN纪录,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.216:4220
 CGTN西班牙语,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.217:4220
 CGTN阿拉伯语,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.219:4220
 南方卫视,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.161:8001
@@ -127,6 +127,7 @@ CCTV-高尔夫·网球,http://x1x.bid:5146/rtp/239.3.1.88:4120
 CGTN英语,http://x1x.bid:5146/rtp/239.3.1.215:4220
 CGTN法语,http://x1x.bid:5146/rtp/239.3.1.218:4220
 CGTN俄语,http://x1x.bid:5146/rtp/239.3.1.220:4220
+CGTN纪录,http://x1x.bid:5146/rtp/239.3.1.216:4220
 CETV-1综合教育,http://x1x.bid:5146/rtp/239.3.1.57:8152
 CETV-2空中课堂,http://x1x.bid:5146/rtp/239.3.1.54:4120
 CETV-3北京科教,http://x1x.bid:5146/rtp/239.3.1.55:4120
@@ -190,7 +191,6 @@ IPTV鉴赏,http://x1x.bid:5146/rtp/239.3.1.82:4120
 湖南快乐垂钓,http://x1x.bid:5146/rtp/239.3.1.164:8001
 
 4K测试,http://x1x.bid:5146/rtp/239.3.1.104:8001
-CGTN纪录,http://x1x.bid:5146/rtp/239.3.1.216:4220
 CGTN西班牙语,http://x1x.bid:5146/rtp/239.3.1.217:4220
 CGTN阿拉伯语,http://x1x.bid:5146/rtp/239.3.1.219:4220
 南方卫视,http://x1x.bid:5146/rtp/239.3.1.161:8001
@@ -229,6 +229,7 @@ CCTV-高尔夫·网球,http://rt.096096.xyz:61612/rtp/239.3.1.88:4120
 CGTN英语,http://rt.096096.xyz:61612/rtp/239.3.1.215:4220
 CGTN法语,http://rt.096096.xyz:61612/rtp/239.3.1.218:4220
 CGTN俄语,http://rt.096096.xyz:61612/rtp/239.3.1.220:4220
+CGTN纪录,http://rt.096096.xyz:61612/rtp/239.3.1.216:4220
 CETV-1综合教育,http://rt.096096.xyz:61612/rtp/239.3.1.57:8152
 CETV-2空中课堂,http://rt.096096.xyz:61612/rtp/239.3.1.54:4120
 CETV-3北京科教,http://rt.096096.xyz:61612/rtp/239.3.1.55:4120
@@ -292,7 +293,6 @@ IPTV鉴赏,http://rt.096096.xyz:61612/rtp/239.3.1.82:4120
 湖南快乐垂钓,http://rt.096096.xyz:61612/rtp/239.3.1.164:8001
 
 4K测试,http://rt.096096.xyz:61612/rtp/239.3.1.104:8001
-CGTN纪录,http://rt.096096.xyz:61612/rtp/239.3.1.216:4220
 CGTN西班牙语,http://rt.096096.xyz:61612/rtp/239.3.1.217:4220
 CGTN阿拉伯语,http://rt.096096.xyz:61612/rtp/239.3.1.219:4220
 南方卫视,http://rt.096096.xyz:61612/rtp/239.3.1.161:8001
@@ -331,6 +331,7 @@ CCTV-高尔夫·网球,http://nas.alber2025.top:8188/rtp/239.3.1.88:4120
 CGTN英语,http://nas.alber2025.top:8188/rtp/239.3.1.215:4220
 CGTN法语,http://nas.alber2025.top:8188/rtp/239.3.1.218:4220
 CGTN俄语,http://nas.alber2025.top:8188/rtp/239.3.1.220:4220
+CGTN纪录,http://nas.alber2025.top:8188/rtp/239.3.1.216:4220
 CETV-1综合教育,http://nas.alber2025.top:8188/rtp/239.3.1.57:8152
 CETV-2空中课堂,http://nas.alber2025.top:8188/rtp/239.3.1.54:4120
 CETV-3北京科教,http://nas.alber2025.top:8188/rtp/239.3.1.55:4120
@@ -394,7 +395,6 @@ IPTV鉴赏,http://nas.alber2025.top:8188/rtp/239.3.1.82:4120
 湖南快乐垂钓,http://nas.alber2025.top:8188/rtp/239.3.1.164:8001
 
 4K测试,http://nas.alber2025.top:8188/rtp/239.3.1.104:8001
-CGTN纪录,http://nas.alber2025.top:8188/rtp/239.3.1.216:4220
 CGTN西班牙语,http://nas.alber2025.top:8188/rtp/239.3.1.217:4220
 CGTN阿拉伯语,http://nas.alber2025.top:8188/rtp/239.3.1.219:4220
 南方卫视,http://nas.alber2025.top:8188/rtp/239.3.1.161:8001
@@ -433,6 +433,7 @@ CCTV-高尔夫·网球,http://www.xiongnas.top:8888/rtp/239.3.1.88:4120
 CGTN英语,http://www.xiongnas.top:8888/rtp/239.3.1.215:4220
 CGTN法语,http://www.xiongnas.top:8888/rtp/239.3.1.218:4220
 CGTN俄语,http://www.xiongnas.top:8888/rtp/239.3.1.220:4220
+CGTN纪录,http://www.xiongnas.top:8888/rtp/239.3.1.216:4220
 CETV-1综合教育,http://www.xiongnas.top:8888/rtp/239.3.1.57:8152
 CETV-2空中课堂,http://www.xiongnas.top:8888/rtp/239.3.1.54:4120
 CETV-3北京科教,http://www.xiongnas.top:8888/rtp/239.3.1.55:4120
@@ -496,7 +497,6 @@ IPTV鉴赏,http://www.xiongnas.top:8888/rtp/239.3.1.82:4120
 湖南快乐垂钓,http://www.xiongnas.top:8888/rtp/239.3.1.164:8001
 
 4K测试,http://www.xiongnas.top:8888/rtp/239.3.1.104:8001
-CGTN纪录,http://www.xiongnas.top:8888/rtp/239.3.1.216:4220
 CGTN西班牙语,http://www.xiongnas.top:8888/rtp/239.3.1.217:4220
 CGTN阿拉伯语,http://www.xiongnas.top:8888/rtp/239.3.1.219:4220
 南方卫视,http://www.xiongnas.top:8888/rtp/239.3.1.161:8001
@@ -535,6 +535,7 @@ CCTV-高尔夫·网球,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.88:
 CGTN英语,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.215:4220
 CGTN法语,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.218:4220
 CGTN俄语,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.220:4220
+CGTN纪录,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.216:4220
 CETV-1综合教育,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.57:8152
 CETV-2空中课堂,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.54:4120
 CETV-3北京科教,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.55:4120
@@ -598,7 +599,6 @@ IPTV鉴赏,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.82:4120
 湖南快乐垂钓,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.164:8001
 
 4K测试,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.104:8001
-CGTN纪录,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.216:4220
 CGTN西班牙语,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.217:4220
 CGTN阿拉伯语,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.219:4220
 南方卫视,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.161:8001
