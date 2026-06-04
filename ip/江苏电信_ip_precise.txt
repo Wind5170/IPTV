@@ -1,14 +1,14 @@
-# 20260603_1501_precise
+# 20260604_1303_precise
 # 服务器地址	速度
-y1nf0x.myds.me:5888	395.61 KB/s
-114.226.212.138:8787	368.71 KB/s
-dx.joygala.cn:8118	366.58 KB/s
-121.226.105.44:6888	365.12 KB/s
-lygzou.asuscomm.com:19999	356.40 KB/s
-t.7ze.top:4022	356.26 KB/s
-istoreos.sclvip.top:5566	338.27 KB/s
-acp-cloud.asuscomm.com:4000	329.42 KB/s
-h.vanshun.com:8802	327.65 KB/s
-gcyp.mycloudnas.com:4000	323.57 KB/s
-j1900.silicaite.top:58888	316.82 KB/s
-114.226.212.140:8787	309.57 KB/s
+106.111.244.8:58099	444.54 KB/s
+y1nf0x.myds.me:5888	436.52 KB/s
+121.226.105.44:6888	434.00 KB/s
+dx.joygala.cn:8118	411.66 KB/s
+zp.zshwx.cn:8888	402.81 KB/s
+iptv.feng.js.cn:58099	365.66 KB/s
+gcyp.mycloudnas.com:4000	341.46 KB/s
+202.8090pc.cn:58888	339.79 KB/s
+106.111.244.12:58099	314.53 KB/s
+jw318.synology.me:888	308.90 KB/s
+vs.heylc.com:4022	303.97 KB/s
+980413.xyz:6000	303.13 KB/s

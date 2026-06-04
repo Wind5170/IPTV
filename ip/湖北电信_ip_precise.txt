@@ -1,7 +1,9 @@
-# 20260603_1458_precise
+# 20260604_1301_precise
 # 服务器地址	速度
-hiliu.myds.me:18088	375.59 KB/s
-59.173.120.178:4022	354.69 KB/s
-wlei.myds.me:52057	354.60 KB/s
-www.661130.xyz:8188	350.23 KB/s
-zhangkx717.cn:9999	336.62 KB/s
+wlei.myds.me:52057	443.33 KB/s
+hiliu.myds.me:18088	419.99 KB/s
+gonas.xyz:38128	400.34 KB/s
+www.661130.xyz:8188	392.01 KB/s
+cqknas.myqnapcloud.com:8808	356.95 KB/s
+p365z34227.oicp.vip:60002	346.68 KB/s
+zhangkx717.cn:9999	334.54 KB/s

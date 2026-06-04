@@ -1,6 +1,5 @@
-# 20260603_1513_precise_slow
+# 20260604_1312_precise_slow
 # 服务器地址	速度
-www.liangcl.top:8686	286.43 KB/s
-9.lexlong.top:8001	263.10 KB/s
-gilbert0571.eu.org:8888	256.97 KB/s
-www.slq888.cn:9999	107.30 KB/s
+www.liangcl.top:8686	299.35 KB/s
+gilbert0571.eu.org:8888	72.08 KB/s
+www.slq888.cn:9999	35.86 KB/s

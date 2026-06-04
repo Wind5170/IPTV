@@ -1,6 +1,4 @@
-# 20260603_1458_precise_slow
+# 20260604_1301_precise_slow
 # 服务器地址	速度
-gonas.xyz:38128	255.85 KB/s
-p365z34227.oicp.vip:60002	135.93 KB/s
-qnapxuan.mycloudnas.com:10001	120.88 KB/s
-cqknas.myqnapcloud.com:8808	41.82 KB/s
+59.174.161.220:4022	198.63 KB/s
+qnapxuan.mycloudnas.com:10001	140.58 KB/s

@@ -1,10 +1,6 @@
-# 20260603_1450_precise_slow
+# 20260604_1252_precise_slow
 # 服务器地址	速度
-triq.cc:8012	283.46 KB/s
-laiboy.myds.me:58686	272.37 KB/s
-aecm6mg6ilmqybhl.nexusedgeio.com:5588	207.62 KB/s
-owvpn.famcloud.top:9878	168.69 KB/s
-superpostmail.3322.org:1193	155.33 KB/s
-tnv.asuscomm.com:8012	141.44 KB/s
-sphinger.f3322.net:11012	140.80 KB/s
-unicom3.swjms.com:4022	36.69 KB/s
+aecm6mg6ilmqybhl.nexusedgeio.com:5588	283.62 KB/s
+superpostmail.3322.org:1193	231.27 KB/s
+www.irisxxd.cn:8888	213.46 KB/s
+unicom3.swjms.com:4022	35.47 KB/s

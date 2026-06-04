@@ -1,9 +1,9 @@
-# 20260603_1453_precise
+# 20260604_1257_precise
 # 服务器地址	速度
-wmh.wmh.ink:6633	402.48 KB/s
-183.236.43.98:4111	395.65 KB/s
-yanshifen.top:8889	374.68 KB/s
-liqn.mycloudnas.com:8188	371.48 KB/s
-www.hongzhijiaoyu.net:8188	364.54 KB/s
-vpn.jk960.cn:8686	345.28 KB/s
-unraid.cyruslee.top:8888	344.72 KB/s
+183.236.43.98:4111	485.40 KB/s
+www.tyio.cc:8188	461.36 KB/s
+www.hongzhijiaoyu.net:8188	435.52 KB/s
+nas218.i234.me:4333	434.84 KB/s
+113.83.248.19:4200	402.76 KB/s
+wmh.wmh.ink:6633	364.94 KB/s
+vpn.jk960.cn:8686	322.91 KB/s
