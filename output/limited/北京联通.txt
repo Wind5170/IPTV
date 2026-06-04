@@ -1,8 +1,8 @@
 北京联通-组播1,#genre#
 北京卫视,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.241:8000
-北京卫视4K,http://zhqax11000.asuscomm.com:4022/udp/239.3.1.22:8001
-北京卫视4K,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.140:8001
 北京卫视4K,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.139:8001
+北京卫视4K,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.140:8001
+北京卫视4K,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.22:8001
 北京卫视4K（HDR）,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.118:8001
 
 北京IPTV4K超清,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.249:8001
@@ -21,9 +21,10 @@
 北京纪实科教,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.115:8000
 北京财经频道,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.116:8000
 
-CCTV-高尔夫·网球,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.88:4120
 CGTN英语,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.215:4220
+CGTN西班牙语,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.217:4220
 CGTN法语,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.218:4220
+CGTN阿拉伯语,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.219:4220
 CGTN俄语,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.220:4220
 CGTN纪录,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.216:4220
 CETV-1综合教育,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.57:8152
@@ -55,8 +56,8 @@ IPTV11戏曲,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.78:4120
 IPTV14早教,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.79:4120
 IPTV15音乐现场,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.70:4120
 IPTV3＋,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.198:9004
-IPTV5＋,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.237:4120
 IPTV5＋,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.200:9008
+IPTV5＋,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.237:4120
 IPTV6＋,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.197:9016
 IPTV7军事,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.76:4120
 IPTV8＋,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.201:8072
@@ -72,8 +73,18 @@ IPTV美人,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.73:4120
 IPTV美妆,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.72:4120
 IPTV足球,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.89:4120
 IPTV鉴赏,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.82:4120
+上海动漫秀场,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.202:8001
+上海游戏风云,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.205:8001
+上海乐游,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.207:8001
+上海乐游,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.114:8001
+上海法治天地,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.204:8001
+上海都市剧场,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.203:8001
+上海金色学堂,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.208:8001
+上海生活时尚,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.206:8001
 上海纪实人文,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.212:8060
+上海魅力足球,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.201:8001
 江苏财富天下,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.53:9136
+湖北快乐垂钓,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.164:8001
 湖南茶频道,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.165:8001
 湖南金鹰纪实,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.58:8156
 湖南金鹰卡通,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.51:9252
@@ -81,30 +92,41 @@ IPTV鉴赏,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.82:4120
 光影,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.84:4120
 睛彩羽毛球,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.127:8001
 
+门头沟电视台,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.59:8001
 房山电视台,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.96:8001
 通州融媒,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.221:8001
+平谷融媒[高清],http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.23:8001
 密云电视台,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.154:8001
 延庆电视台,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.187:8001
 朝阳融媒,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.163:8001
-湖南快乐垂钓,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.164:8001
+广东卫视[超清HDR],http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.27:2000
+深圳卫视[超清HDR],http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.28:2000
 
 4K测试,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.104:8001
-CGTN西班牙语,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.217:4220
-CGTN阿拉伯语,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.219:4220
+BRTV 8K[8K],http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.252:8001
+BRTV卡酷少儿,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.120:8000
+BRTV卡酷少儿,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.121:8000
+BRTV生活,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.118:8000
+CCTV16SDR,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.183:8001
 南方卫视,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.161:8001
 总平台测试1,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.247:2000
 总平台测试2,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.248:2000
 测试,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.103:8001
+淘剧场,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.112:8001
+淘娱乐,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.113:8001
+淘电影,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.111:8001
 淘精彩,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.178:8001
 熊猫频道,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.66:8068
 聚鲨环球,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.160:8001
 轮播频道5,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.253:8001
+重温经典[高清],http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.25:8001
+高网频道,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.88:4120
 
 北京联通-组播2,#genre#
 北京卫视,http://x1x.bid:5146/rtp/239.3.1.241:8000
-北京卫视4K,http://x1x.bid:5146/udp/239.3.1.22:8001
-北京卫视4K,http://x1x.bid:5146/rtp/239.3.1.140:8001
 北京卫视4K,http://x1x.bid:5146/rtp/239.3.1.139:8001
+北京卫视4K,http://x1x.bid:5146/rtp/239.3.1.140:8001
+北京卫视4K,http://x1x.bid:5146/rtp/239.3.1.22:8001
 北京卫视4K（HDR）,http://x1x.bid:5146/rtp/239.3.1.118:8001
 
 北京IPTV4K超清,http://x1x.bid:5146/rtp/239.3.1.249:8001
@@ -123,9 +145,10 @@ CGTN阿拉伯语,http://zhqax11000.asuscomm.com:4022/rtp/239.3.1.219:4220
 北京纪实科教,http://x1x.bid:5146/rtp/239.3.1.115:8000
 北京财经频道,http://x1x.bid:5146/rtp/239.3.1.116:8000
 
-CCTV-高尔夫·网球,http://x1x.bid:5146/rtp/239.3.1.88:4120
 CGTN英语,http://x1x.bid:5146/rtp/239.3.1.215:4220
+CGTN西班牙语,http://x1x.bid:5146/rtp/239.3.1.217:4220
 CGTN法语,http://x1x.bid:5146/rtp/239.3.1.218:4220
+CGTN阿拉伯语,http://x1x.bid:5146/rtp/239.3.1.219:4220
 CGTN俄语,http://x1x.bid:5146/rtp/239.3.1.220:4220
 CGTN纪录,http://x1x.bid:5146/rtp/239.3.1.216:4220
 CETV-1综合教育,http://x1x.bid:5146/rtp/239.3.1.57:8152
@@ -157,8 +180,8 @@ IPTV11戏曲,http://x1x.bid:5146/rtp/239.3.1.78:4120
 IPTV14早教,http://x1x.bid:5146/rtp/239.3.1.79:4120
 IPTV15音乐现场,http://x1x.bid:5146/rtp/239.3.1.70:4120
 IPTV3＋,http://x1x.bid:5146/rtp/239.3.1.198:9004
-IPTV5＋,http://x1x.bid:5146/rtp/239.3.1.237:4120
 IPTV5＋,http://x1x.bid:5146/rtp/239.3.1.200:9008
+IPTV5＋,http://x1x.bid:5146/rtp/239.3.1.237:4120
 IPTV6＋,http://x1x.bid:5146/rtp/239.3.1.197:9016
 IPTV7军事,http://x1x.bid:5146/rtp/239.3.1.76:4120
 IPTV8＋,http://x1x.bid:5146/rtp/239.3.1.201:8072
@@ -174,8 +197,18 @@ IPTV美人,http://x1x.bid:5146/rtp/239.3.1.73:4120
 IPTV美妆,http://x1x.bid:5146/rtp/239.3.1.72:4120
 IPTV足球,http://x1x.bid:5146/rtp/239.3.1.89:4120
 IPTV鉴赏,http://x1x.bid:5146/rtp/239.3.1.82:4120
+上海动漫秀场,http://x1x.bid:5146/rtp/239.3.1.202:8001
+上海游戏风云,http://x1x.bid:5146/rtp/239.3.1.205:8001
+上海乐游,http://x1x.bid:5146/rtp/239.3.1.207:8001
+上海乐游,http://x1x.bid:5146/rtp/239.3.1.114:8001
+上海法治天地,http://x1x.bid:5146/rtp/239.3.1.204:8001
+上海都市剧场,http://x1x.bid:5146/rtp/239.3.1.203:8001
+上海金色学堂,http://x1x.bid:5146/rtp/239.3.1.208:8001
+上海生活时尚,http://x1x.bid:5146/rtp/239.3.1.206:8001
 上海纪实人文,http://x1x.bid:5146/rtp/239.3.1.212:8060
+上海魅力足球,http://x1x.bid:5146/rtp/239.3.1.201:8001
 江苏财富天下,http://x1x.bid:5146/rtp/239.3.1.53:9136
+湖北快乐垂钓,http://x1x.bid:5146/rtp/239.3.1.164:8001
 湖南茶频道,http://x1x.bid:5146/rtp/239.3.1.165:8001
 湖南金鹰纪实,http://x1x.bid:5146/rtp/239.3.1.58:8156
 湖南金鹰卡通,http://x1x.bid:5146/rtp/239.3.1.51:9252
@@ -183,30 +216,41 @@ IPTV鉴赏,http://x1x.bid:5146/rtp/239.3.1.82:4120
 光影,http://x1x.bid:5146/rtp/239.3.1.84:4120
 睛彩羽毛球,http://x1x.bid:5146/rtp/239.3.1.127:8001
 
+门头沟电视台,http://x1x.bid:5146/rtp/239.3.1.59:8001
 房山电视台,http://x1x.bid:5146/rtp/239.3.1.96:8001
 通州融媒,http://x1x.bid:5146/rtp/239.3.1.221:8001
+平谷融媒[高清],http://x1x.bid:5146/rtp/239.3.1.23:8001
 密云电视台,http://x1x.bid:5146/rtp/239.3.1.154:8001
 延庆电视台,http://x1x.bid:5146/rtp/239.3.1.187:8001
 朝阳融媒,http://x1x.bid:5146/rtp/239.3.1.163:8001
-湖南快乐垂钓,http://x1x.bid:5146/rtp/239.3.1.164:8001
+广东卫视[超清HDR],http://x1x.bid:5146/rtp/239.3.1.27:2000
+深圳卫视[超清HDR],http://x1x.bid:5146/rtp/239.3.1.28:2000
 
 4K测试,http://x1x.bid:5146/rtp/239.3.1.104:8001
-CGTN西班牙语,http://x1x.bid:5146/rtp/239.3.1.217:4220
-CGTN阿拉伯语,http://x1x.bid:5146/rtp/239.3.1.219:4220
+BRTV 8K[8K],http://x1x.bid:5146/rtp/239.3.1.252:8001
+BRTV卡酷少儿,http://x1x.bid:5146/rtp/239.3.1.120:8000
+BRTV卡酷少儿,http://x1x.bid:5146/rtp/239.3.1.121:8000
+BRTV生活,http://x1x.bid:5146/rtp/239.3.1.118:8000
+CCTV16SDR,http://x1x.bid:5146/rtp/239.3.1.183:8001
 南方卫视,http://x1x.bid:5146/rtp/239.3.1.161:8001
 总平台测试1,http://x1x.bid:5146/rtp/239.3.1.247:2000
 总平台测试2,http://x1x.bid:5146/rtp/239.3.1.248:2000
 测试,http://x1x.bid:5146/rtp/239.3.1.103:8001
+淘剧场,http://x1x.bid:5146/rtp/239.3.1.112:8001
+淘娱乐,http://x1x.bid:5146/rtp/239.3.1.113:8001
+淘电影,http://x1x.bid:5146/rtp/239.3.1.111:8001
 淘精彩,http://x1x.bid:5146/rtp/239.3.1.178:8001
 熊猫频道,http://x1x.bid:5146/rtp/239.3.1.66:8068
 聚鲨环球,http://x1x.bid:5146/rtp/239.3.1.160:8001
 轮播频道5,http://x1x.bid:5146/rtp/239.3.1.253:8001
+重温经典[高清],http://x1x.bid:5146/rtp/239.3.1.25:8001
+高网频道,http://x1x.bid:5146/rtp/239.3.1.88:4120
 
 北京联通-组播3,#genre#
 北京卫视,http://rt.096096.xyz:61612/rtp/239.3.1.241:8000
-北京卫视4K,http://rt.096096.xyz:61612/udp/239.3.1.22:8001
-北京卫视4K,http://rt.096096.xyz:61612/rtp/239.3.1.140:8001
 北京卫视4K,http://rt.096096.xyz:61612/rtp/239.3.1.139:8001
+北京卫视4K,http://rt.096096.xyz:61612/rtp/239.3.1.140:8001
+北京卫视4K,http://rt.096096.xyz:61612/rtp/239.3.1.22:8001
 北京卫视4K（HDR）,http://rt.096096.xyz:61612/rtp/239.3.1.118:8001
 
 北京IPTV4K超清,http://rt.096096.xyz:61612/rtp/239.3.1.249:8001
@@ -225,9 +269,10 @@ CGTN阿拉伯语,http://x1x.bid:5146/rtp/239.3.1.219:4220
 北京纪实科教,http://rt.096096.xyz:61612/rtp/239.3.1.115:8000
 北京财经频道,http://rt.096096.xyz:61612/rtp/239.3.1.116:8000
 
-CCTV-高尔夫·网球,http://rt.096096.xyz:61612/rtp/239.3.1.88:4120
 CGTN英语,http://rt.096096.xyz:61612/rtp/239.3.1.215:4220
+CGTN西班牙语,http://rt.096096.xyz:61612/rtp/239.3.1.217:4220
 CGTN法语,http://rt.096096.xyz:61612/rtp/239.3.1.218:4220
+CGTN阿拉伯语,http://rt.096096.xyz:61612/rtp/239.3.1.219:4220
 CGTN俄语,http://rt.096096.xyz:61612/rtp/239.3.1.220:4220
 CGTN纪录,http://rt.096096.xyz:61612/rtp/239.3.1.216:4220
 CETV-1综合教育,http://rt.096096.xyz:61612/rtp/239.3.1.57:8152
@@ -259,8 +304,8 @@ IPTV11戏曲,http://rt.096096.xyz:61612/rtp/239.3.1.78:4120
 IPTV14早教,http://rt.096096.xyz:61612/rtp/239.3.1.79:4120
 IPTV15音乐现场,http://rt.096096.xyz:61612/rtp/239.3.1.70:4120
 IPTV3＋,http://rt.096096.xyz:61612/rtp/239.3.1.198:9004
-IPTV5＋,http://rt.096096.xyz:61612/rtp/239.3.1.237:4120
 IPTV5＋,http://rt.096096.xyz:61612/rtp/239.3.1.200:9008
+IPTV5＋,http://rt.096096.xyz:61612/rtp/239.3.1.237:4120
 IPTV6＋,http://rt.096096.xyz:61612/rtp/239.3.1.197:9016
 IPTV7军事,http://rt.096096.xyz:61612/rtp/239.3.1.76:4120
 IPTV8＋,http://rt.096096.xyz:61612/rtp/239.3.1.201:8072
@@ -276,8 +321,18 @@ IPTV美人,http://rt.096096.xyz:61612/rtp/239.3.1.73:4120
 IPTV美妆,http://rt.096096.xyz:61612/rtp/239.3.1.72:4120
 IPTV足球,http://rt.096096.xyz:61612/rtp/239.3.1.89:4120
 IPTV鉴赏,http://rt.096096.xyz:61612/rtp/239.3.1.82:4120
+上海动漫秀场,http://rt.096096.xyz:61612/rtp/239.3.1.202:8001
+上海游戏风云,http://rt.096096.xyz:61612/rtp/239.3.1.205:8001
+上海乐游,http://rt.096096.xyz:61612/rtp/239.3.1.207:8001
+上海乐游,http://rt.096096.xyz:61612/rtp/239.3.1.114:8001
+上海法治天地,http://rt.096096.xyz:61612/rtp/239.3.1.204:8001
+上海都市剧场,http://rt.096096.xyz:61612/rtp/239.3.1.203:8001
+上海金色学堂,http://rt.096096.xyz:61612/rtp/239.3.1.208:8001
+上海生活时尚,http://rt.096096.xyz:61612/rtp/239.3.1.206:8001
 上海纪实人文,http://rt.096096.xyz:61612/rtp/239.3.1.212:8060
+上海魅力足球,http://rt.096096.xyz:61612/rtp/239.3.1.201:8001
 江苏财富天下,http://rt.096096.xyz:61612/rtp/239.3.1.53:9136
+湖北快乐垂钓,http://rt.096096.xyz:61612/rtp/239.3.1.164:8001
 湖南茶频道,http://rt.096096.xyz:61612/rtp/239.3.1.165:8001
 湖南金鹰纪实,http://rt.096096.xyz:61612/rtp/239.3.1.58:8156
 湖南金鹰卡通,http://rt.096096.xyz:61612/rtp/239.3.1.51:9252
@@ -285,30 +340,41 @@ IPTV鉴赏,http://rt.096096.xyz:61612/rtp/239.3.1.82:4120
 光影,http://rt.096096.xyz:61612/rtp/239.3.1.84:4120
 睛彩羽毛球,http://rt.096096.xyz:61612/rtp/239.3.1.127:8001
 
+门头沟电视台,http://rt.096096.xyz:61612/rtp/239.3.1.59:8001
 房山电视台,http://rt.096096.xyz:61612/rtp/239.3.1.96:8001
 通州融媒,http://rt.096096.xyz:61612/rtp/239.3.1.221:8001
+平谷融媒[高清],http://rt.096096.xyz:61612/rtp/239.3.1.23:8001
 密云电视台,http://rt.096096.xyz:61612/rtp/239.3.1.154:8001
 延庆电视台,http://rt.096096.xyz:61612/rtp/239.3.1.187:8001
 朝阳融媒,http://rt.096096.xyz:61612/rtp/239.3.1.163:8001
-湖南快乐垂钓,http://rt.096096.xyz:61612/rtp/239.3.1.164:8001
+广东卫视[超清HDR],http://rt.096096.xyz:61612/rtp/239.3.1.27:2000
+深圳卫视[超清HDR],http://rt.096096.xyz:61612/rtp/239.3.1.28:2000
 
 4K测试,http://rt.096096.xyz:61612/rtp/239.3.1.104:8001
-CGTN西班牙语,http://rt.096096.xyz:61612/rtp/239.3.1.217:4220
-CGTN阿拉伯语,http://rt.096096.xyz:61612/rtp/239.3.1.219:4220
+BRTV 8K[8K],http://rt.096096.xyz:61612/rtp/239.3.1.252:8001
+BRTV卡酷少儿,http://rt.096096.xyz:61612/rtp/239.3.1.120:8000
+BRTV卡酷少儿,http://rt.096096.xyz:61612/rtp/239.3.1.121:8000
+BRTV生活,http://rt.096096.xyz:61612/rtp/239.3.1.118:8000
+CCTV16SDR,http://rt.096096.xyz:61612/rtp/239.3.1.183:8001
 南方卫视,http://rt.096096.xyz:61612/rtp/239.3.1.161:8001
 总平台测试1,http://rt.096096.xyz:61612/rtp/239.3.1.247:2000
 总平台测试2,http://rt.096096.xyz:61612/rtp/239.3.1.248:2000
 测试,http://rt.096096.xyz:61612/rtp/239.3.1.103:8001
+淘剧场,http://rt.096096.xyz:61612/rtp/239.3.1.112:8001
+淘娱乐,http://rt.096096.xyz:61612/rtp/239.3.1.113:8001
+淘电影,http://rt.096096.xyz:61612/rtp/239.3.1.111:8001
 淘精彩,http://rt.096096.xyz:61612/rtp/239.3.1.178:8001
 熊猫频道,http://rt.096096.xyz:61612/rtp/239.3.1.66:8068
 聚鲨环球,http://rt.096096.xyz:61612/rtp/239.3.1.160:8001
 轮播频道5,http://rt.096096.xyz:61612/rtp/239.3.1.253:8001
+重温经典[高清],http://rt.096096.xyz:61612/rtp/239.3.1.25:8001
+高网频道,http://rt.096096.xyz:61612/rtp/239.3.1.88:4120
 
 北京联通-组播4,#genre#
 北京卫视,http://nas.alber2025.top:8188/rtp/239.3.1.241:8000
-北京卫视4K,http://nas.alber2025.top:8188/udp/239.3.1.22:8001
-北京卫视4K,http://nas.alber2025.top:8188/rtp/239.3.1.140:8001
 北京卫视4K,http://nas.alber2025.top:8188/rtp/239.3.1.139:8001
+北京卫视4K,http://nas.alber2025.top:8188/rtp/239.3.1.140:8001
+北京卫视4K,http://nas.alber2025.top:8188/rtp/239.3.1.22:8001
 北京卫视4K（HDR）,http://nas.alber2025.top:8188/rtp/239.3.1.118:8001
 
 北京IPTV4K超清,http://nas.alber2025.top:8188/rtp/239.3.1.249:8001
@@ -327,9 +393,10 @@ CGTN阿拉伯语,http://rt.096096.xyz:61612/rtp/239.3.1.219:4220
 北京纪实科教,http://nas.alber2025.top:8188/rtp/239.3.1.115:8000
 北京财经频道,http://nas.alber2025.top:8188/rtp/239.3.1.116:8000
 
-CCTV-高尔夫·网球,http://nas.alber2025.top:8188/rtp/239.3.1.88:4120
 CGTN英语,http://nas.alber2025.top:8188/rtp/239.3.1.215:4220
+CGTN西班牙语,http://nas.alber2025.top:8188/rtp/239.3.1.217:4220
 CGTN法语,http://nas.alber2025.top:8188/rtp/239.3.1.218:4220
+CGTN阿拉伯语,http://nas.alber2025.top:8188/rtp/239.3.1.219:4220
 CGTN俄语,http://nas.alber2025.top:8188/rtp/239.3.1.220:4220
 CGTN纪录,http://nas.alber2025.top:8188/rtp/239.3.1.216:4220
 CETV-1综合教育,http://nas.alber2025.top:8188/rtp/239.3.1.57:8152
@@ -361,8 +428,8 @@ IPTV11戏曲,http://nas.alber2025.top:8188/rtp/239.3.1.78:4120
 IPTV14早教,http://nas.alber2025.top:8188/rtp/239.3.1.79:4120
 IPTV15音乐现场,http://nas.alber2025.top:8188/rtp/239.3.1.70:4120
 IPTV3＋,http://nas.alber2025.top:8188/rtp/239.3.1.198:9004
-IPTV5＋,http://nas.alber2025.top:8188/rtp/239.3.1.237:4120
 IPTV5＋,http://nas.alber2025.top:8188/rtp/239.3.1.200:9008
+IPTV5＋,http://nas.alber2025.top:8188/rtp/239.3.1.237:4120
 IPTV6＋,http://nas.alber2025.top:8188/rtp/239.3.1.197:9016
 IPTV7军事,http://nas.alber2025.top:8188/rtp/239.3.1.76:4120
 IPTV8＋,http://nas.alber2025.top:8188/rtp/239.3.1.201:8072
@@ -378,8 +445,18 @@ IPTV美人,http://nas.alber2025.top:8188/rtp/239.3.1.73:4120
 IPTV美妆,http://nas.alber2025.top:8188/rtp/239.3.1.72:4120
 IPTV足球,http://nas.alber2025.top:8188/rtp/239.3.1.89:4120
 IPTV鉴赏,http://nas.alber2025.top:8188/rtp/239.3.1.82:4120
+上海动漫秀场,http://nas.alber2025.top:8188/rtp/239.3.1.202:8001
+上海游戏风云,http://nas.alber2025.top:8188/rtp/239.3.1.205:8001
+上海乐游,http://nas.alber2025.top:8188/rtp/239.3.1.207:8001
+上海乐游,http://nas.alber2025.top:8188/rtp/239.3.1.114:8001
+上海法治天地,http://nas.alber2025.top:8188/rtp/239.3.1.204:8001
+上海都市剧场,http://nas.alber2025.top:8188/rtp/239.3.1.203:8001
+上海金色学堂,http://nas.alber2025.top:8188/rtp/239.3.1.208:8001
+上海生活时尚,http://nas.alber2025.top:8188/rtp/239.3.1.206:8001
 上海纪实人文,http://nas.alber2025.top:8188/rtp/239.3.1.212:8060
+上海魅力足球,http://nas.alber2025.top:8188/rtp/239.3.1.201:8001
 江苏财富天下,http://nas.alber2025.top:8188/rtp/239.3.1.53:9136
+湖北快乐垂钓,http://nas.alber2025.top:8188/rtp/239.3.1.164:8001
 湖南茶频道,http://nas.alber2025.top:8188/rtp/239.3.1.165:8001
 湖南金鹰纪实,http://nas.alber2025.top:8188/rtp/239.3.1.58:8156
 湖南金鹰卡通,http://nas.alber2025.top:8188/rtp/239.3.1.51:9252
@@ -387,30 +464,41 @@ IPTV鉴赏,http://nas.alber2025.top:8188/rtp/239.3.1.82:4120
 光影,http://nas.alber2025.top:8188/rtp/239.3.1.84:4120
 睛彩羽毛球,http://nas.alber2025.top:8188/rtp/239.3.1.127:8001
 
+门头沟电视台,http://nas.alber2025.top:8188/rtp/239.3.1.59:8001
 房山电视台,http://nas.alber2025.top:8188/rtp/239.3.1.96:8001
 通州融媒,http://nas.alber2025.top:8188/rtp/239.3.1.221:8001
+平谷融媒[高清],http://nas.alber2025.top:8188/rtp/239.3.1.23:8001
 密云电视台,http://nas.alber2025.top:8188/rtp/239.3.1.154:8001
 延庆电视台,http://nas.alber2025.top:8188/rtp/239.3.1.187:8001
 朝阳融媒,http://nas.alber2025.top:8188/rtp/239.3.1.163:8001
-湖南快乐垂钓,http://nas.alber2025.top:8188/rtp/239.3.1.164:8001
+广东卫视[超清HDR],http://nas.alber2025.top:8188/rtp/239.3.1.27:2000
+深圳卫视[超清HDR],http://nas.alber2025.top:8188/rtp/239.3.1.28:2000
 
 4K测试,http://nas.alber2025.top:8188/rtp/239.3.1.104:8001
-CGTN西班牙语,http://nas.alber2025.top:8188/rtp/239.3.1.217:4220
-CGTN阿拉伯语,http://nas.alber2025.top:8188/rtp/239.3.1.219:4220
+BRTV 8K[8K],http://nas.alber2025.top:8188/rtp/239.3.1.252:8001
+BRTV卡酷少儿,http://nas.alber2025.top:8188/rtp/239.3.1.120:8000
+BRTV卡酷少儿,http://nas.alber2025.top:8188/rtp/239.3.1.121:8000
+BRTV生活,http://nas.alber2025.top:8188/rtp/239.3.1.118:8000
+CCTV16SDR,http://nas.alber2025.top:8188/rtp/239.3.1.183:8001
 南方卫视,http://nas.alber2025.top:8188/rtp/239.3.1.161:8001
 总平台测试1,http://nas.alber2025.top:8188/rtp/239.3.1.247:2000
 总平台测试2,http://nas.alber2025.top:8188/rtp/239.3.1.248:2000
 测试,http://nas.alber2025.top:8188/rtp/239.3.1.103:8001
+淘剧场,http://nas.alber2025.top:8188/rtp/239.3.1.112:8001
+淘娱乐,http://nas.alber2025.top:8188/rtp/239.3.1.113:8001
+淘电影,http://nas.alber2025.top:8188/rtp/239.3.1.111:8001
 淘精彩,http://nas.alber2025.top:8188/rtp/239.3.1.178:8001
 熊猫频道,http://nas.alber2025.top:8188/rtp/239.3.1.66:8068
 聚鲨环球,http://nas.alber2025.top:8188/rtp/239.3.1.160:8001
 轮播频道5,http://nas.alber2025.top:8188/rtp/239.3.1.253:8001
+重温经典[高清],http://nas.alber2025.top:8188/rtp/239.3.1.25:8001
+高网频道,http://nas.alber2025.top:8188/rtp/239.3.1.88:4120
 
 北京联通-组播5,#genre#
 北京卫视,http://www.xiongnas.top:8888/rtp/239.3.1.241:8000
-北京卫视4K,http://www.xiongnas.top:8888/udp/239.3.1.22:8001
-北京卫视4K,http://www.xiongnas.top:8888/rtp/239.3.1.140:8001
 北京卫视4K,http://www.xiongnas.top:8888/rtp/239.3.1.139:8001
+北京卫视4K,http://www.xiongnas.top:8888/rtp/239.3.1.140:8001
+北京卫视4K,http://www.xiongnas.top:8888/rtp/239.3.1.22:8001
 北京卫视4K（HDR）,http://www.xiongnas.top:8888/rtp/239.3.1.118:8001
 
 北京IPTV4K超清,http://www.xiongnas.top:8888/rtp/239.3.1.249:8001
@@ -429,9 +517,10 @@ CGTN阿拉伯语,http://nas.alber2025.top:8188/rtp/239.3.1.219:4220
 北京纪实科教,http://www.xiongnas.top:8888/rtp/239.3.1.115:8000
 北京财经频道,http://www.xiongnas.top:8888/rtp/239.3.1.116:8000
 
-CCTV-高尔夫·网球,http://www.xiongnas.top:8888/rtp/239.3.1.88:4120
 CGTN英语,http://www.xiongnas.top:8888/rtp/239.3.1.215:4220
+CGTN西班牙语,http://www.xiongnas.top:8888/rtp/239.3.1.217:4220
 CGTN法语,http://www.xiongnas.top:8888/rtp/239.3.1.218:4220
+CGTN阿拉伯语,http://www.xiongnas.top:8888/rtp/239.3.1.219:4220
 CGTN俄语,http://www.xiongnas.top:8888/rtp/239.3.1.220:4220
 CGTN纪录,http://www.xiongnas.top:8888/rtp/239.3.1.216:4220
 CETV-1综合教育,http://www.xiongnas.top:8888/rtp/239.3.1.57:8152
@@ -463,8 +552,8 @@ IPTV11戏曲,http://www.xiongnas.top:8888/rtp/239.3.1.78:4120
 IPTV14早教,http://www.xiongnas.top:8888/rtp/239.3.1.79:4120
 IPTV15音乐现场,http://www.xiongnas.top:8888/rtp/239.3.1.70:4120
 IPTV3＋,http://www.xiongnas.top:8888/rtp/239.3.1.198:9004
-IPTV5＋,http://www.xiongnas.top:8888/rtp/239.3.1.237:4120
 IPTV5＋,http://www.xiongnas.top:8888/rtp/239.3.1.200:9008
+IPTV5＋,http://www.xiongnas.top:8888/rtp/239.3.1.237:4120
 IPTV6＋,http://www.xiongnas.top:8888/rtp/239.3.1.197:9016
 IPTV7军事,http://www.xiongnas.top:8888/rtp/239.3.1.76:4120
 IPTV8＋,http://www.xiongnas.top:8888/rtp/239.3.1.201:8072
@@ -480,8 +569,18 @@ IPTV美人,http://www.xiongnas.top:8888/rtp/239.3.1.73:4120
 IPTV美妆,http://www.xiongnas.top:8888/rtp/239.3.1.72:4120
 IPTV足球,http://www.xiongnas.top:8888/rtp/239.3.1.89:4120
 IPTV鉴赏,http://www.xiongnas.top:8888/rtp/239.3.1.82:4120
+上海动漫秀场,http://www.xiongnas.top:8888/rtp/239.3.1.202:8001
+上海游戏风云,http://www.xiongnas.top:8888/rtp/239.3.1.205:8001
+上海乐游,http://www.xiongnas.top:8888/rtp/239.3.1.207:8001
+上海乐游,http://www.xiongnas.top:8888/rtp/239.3.1.114:8001
+上海法治天地,http://www.xiongnas.top:8888/rtp/239.3.1.204:8001
+上海都市剧场,http://www.xiongnas.top:8888/rtp/239.3.1.203:8001
+上海金色学堂,http://www.xiongnas.top:8888/rtp/239.3.1.208:8001
+上海生活时尚,http://www.xiongnas.top:8888/rtp/239.3.1.206:8001
 上海纪实人文,http://www.xiongnas.top:8888/rtp/239.3.1.212:8060
+上海魅力足球,http://www.xiongnas.top:8888/rtp/239.3.1.201:8001
 江苏财富天下,http://www.xiongnas.top:8888/rtp/239.3.1.53:9136
+湖北快乐垂钓,http://www.xiongnas.top:8888/rtp/239.3.1.164:8001
 湖南茶频道,http://www.xiongnas.top:8888/rtp/239.3.1.165:8001
 湖南金鹰纪实,http://www.xiongnas.top:8888/rtp/239.3.1.58:8156
 湖南金鹰卡通,http://www.xiongnas.top:8888/rtp/239.3.1.51:9252
@@ -489,30 +588,41 @@ IPTV鉴赏,http://www.xiongnas.top:8888/rtp/239.3.1.82:4120
 光影,http://www.xiongnas.top:8888/rtp/239.3.1.84:4120
 睛彩羽毛球,http://www.xiongnas.top:8888/rtp/239.3.1.127:8001
 
+门头沟电视台,http://www.xiongnas.top:8888/rtp/239.3.1.59:8001
 房山电视台,http://www.xiongnas.top:8888/rtp/239.3.1.96:8001
 通州融媒,http://www.xiongnas.top:8888/rtp/239.3.1.221:8001
+平谷融媒[高清],http://www.xiongnas.top:8888/rtp/239.3.1.23:8001
 密云电视台,http://www.xiongnas.top:8888/rtp/239.3.1.154:8001
 延庆电视台,http://www.xiongnas.top:8888/rtp/239.3.1.187:8001
 朝阳融媒,http://www.xiongnas.top:8888/rtp/239.3.1.163:8001
-湖南快乐垂钓,http://www.xiongnas.top:8888/rtp/239.3.1.164:8001
+广东卫视[超清HDR],http://www.xiongnas.top:8888/rtp/239.3.1.27:2000
+深圳卫视[超清HDR],http://www.xiongnas.top:8888/rtp/239.3.1.28:2000
 
 4K测试,http://www.xiongnas.top:8888/rtp/239.3.1.104:8001
-CGTN西班牙语,http://www.xiongnas.top:8888/rtp/239.3.1.217:4220
-CGTN阿拉伯语,http://www.xiongnas.top:8888/rtp/239.3.1.219:4220
+BRTV 8K[8K],http://www.xiongnas.top:8888/rtp/239.3.1.252:8001
+BRTV卡酷少儿,http://www.xiongnas.top:8888/rtp/239.3.1.120:8000
+BRTV卡酷少儿,http://www.xiongnas.top:8888/rtp/239.3.1.121:8000
+BRTV生活,http://www.xiongnas.top:8888/rtp/239.3.1.118:8000
+CCTV16SDR,http://www.xiongnas.top:8888/rtp/239.3.1.183:8001
 南方卫视,http://www.xiongnas.top:8888/rtp/239.3.1.161:8001
 总平台测试1,http://www.xiongnas.top:8888/rtp/239.3.1.247:2000
 总平台测试2,http://www.xiongnas.top:8888/rtp/239.3.1.248:2000
 测试,http://www.xiongnas.top:8888/rtp/239.3.1.103:8001
+淘剧场,http://www.xiongnas.top:8888/rtp/239.3.1.112:8001
+淘娱乐,http://www.xiongnas.top:8888/rtp/239.3.1.113:8001
+淘电影,http://www.xiongnas.top:8888/rtp/239.3.1.111:8001
 淘精彩,http://www.xiongnas.top:8888/rtp/239.3.1.178:8001
 熊猫频道,http://www.xiongnas.top:8888/rtp/239.3.1.66:8068
 聚鲨环球,http://www.xiongnas.top:8888/rtp/239.3.1.160:8001
 轮播频道5,http://www.xiongnas.top:8888/rtp/239.3.1.253:8001
+重温经典[高清],http://www.xiongnas.top:8888/rtp/239.3.1.25:8001
+高网频道,http://www.xiongnas.top:8888/rtp/239.3.1.88:4120
 
 北京联通-组播6,#genre#
 北京卫视,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.241:8000
-北京卫视4K,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/udp/239.3.1.22:8001
-北京卫视4K,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.140:8001
 北京卫视4K,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.139:8001
+北京卫视4K,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.140:8001
+北京卫视4K,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.22:8001
 北京卫视4K（HDR）,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.118:8001
 
 北京IPTV4K超清,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.249:8001
@@ -531,9 +641,10 @@ CGTN阿拉伯语,http://www.xiongnas.top:8888/rtp/239.3.1.219:4220
 北京纪实科教,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.115:8000
 北京财经频道,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.116:8000
 
-CCTV-高尔夫·网球,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.88:4120
 CGTN英语,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.215:4220
+CGTN西班牙语,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.217:4220
 CGTN法语,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.218:4220
+CGTN阿拉伯语,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.219:4220
 CGTN俄语,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.220:4220
 CGTN纪录,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.216:4220
 CETV-1综合教育,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.57:8152
@@ -565,8 +676,8 @@ IPTV11戏曲,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.78:4120
 IPTV14早教,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.79:4120
 IPTV15音乐现场,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.70:4120
 IPTV3＋,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.198:9004
-IPTV5＋,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.237:4120
 IPTV5＋,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.200:9008
+IPTV5＋,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.237:4120
 IPTV6＋,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.197:9016
 IPTV7军事,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.76:4120
 IPTV8＋,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.201:8072
@@ -582,8 +693,18 @@ IPTV美人,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.73:4120
 IPTV美妆,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.72:4120
 IPTV足球,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.89:4120
 IPTV鉴赏,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.82:4120
+上海动漫秀场,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.202:8001
+上海游戏风云,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.205:8001
+上海乐游,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.207:8001
+上海乐游,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.114:8001
+上海法治天地,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.204:8001
+上海都市剧场,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.203:8001
+上海金色学堂,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.208:8001
+上海生活时尚,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.206:8001
 上海纪实人文,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.212:8060
+上海魅力足球,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.201:8001
 江苏财富天下,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.53:9136
+湖北快乐垂钓,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.164:8001
 湖南茶频道,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.165:8001
 湖南金鹰纪实,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.58:8156
 湖南金鹰卡通,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.51:9252
@@ -591,21 +712,32 @@ IPTV鉴赏,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.82:4120
 光影,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.84:4120
 睛彩羽毛球,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.127:8001
 
+门头沟电视台,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.59:8001
 房山电视台,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.96:8001
 通州融媒,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.221:8001
+平谷融媒[高清],http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.23:8001
 密云电视台,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.154:8001
 延庆电视台,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.187:8001
 朝阳融媒,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.163:8001
-湖南快乐垂钓,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.164:8001
+广东卫视[超清HDR],http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.27:2000
+深圳卫视[超清HDR],http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.28:2000
 
 4K测试,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.104:8001
-CGTN西班牙语,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.217:4220
-CGTN阿拉伯语,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.219:4220
+BRTV 8K[8K],http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.252:8001
+BRTV卡酷少儿,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.120:8000
+BRTV卡酷少儿,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.121:8000
+BRTV生活,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.118:8000
+CCTV16SDR,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.183:8001
 南方卫视,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.161:8001
 总平台测试1,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.247:2000
 总平台测试2,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.248:2000
 测试,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.103:8001
+淘剧场,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.112:8001
+淘娱乐,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.113:8001
+淘电影,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.111:8001
 淘精彩,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.178:8001
 熊猫频道,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.66:8068
 聚鲨环球,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.160:8001
 轮播频道5,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.253:8001
+重温经典[高清],http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.25:8001
+高网频道,http://awnjnmctlaxqsapgzjjsvvfsp.xyz:4022/rtp/239.3.1.88:4120
