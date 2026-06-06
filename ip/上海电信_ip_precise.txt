@@ -1,10 +1,6 @@
-# 20260605_1300_precise
+# 20260606_1152_precise
 # 服务器地址	速度
-223.167.230.73:4022	401.10 KB/s
-wsc2007123.myds.me:30100	384.79 KB/s
-shenhua.asuscomm.com:8888	376.54 KB/s
-116.234.48.48:4022	373.16 KB/s
-youngx.top:4022	356.15 KB/s
-cx.shscxzx.cn:8899	343.81 KB/s
-yyf1991.top:9999	341.74 KB/s
-www.wqcjoy.xyz:8188	337.69 KB/s
+223.167.230.73:4022	398.26 KB/s
+cx.shscxzx.cn:8899	379.08 KB/s
+shenhua.asuscomm.com:8888	325.63 KB/s
+180.165.3.215:4022	317.53 KB/s

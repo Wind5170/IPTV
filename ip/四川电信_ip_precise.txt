@@ -1,5 +1,8 @@
-# 20260605_1301_precise
+# 20260606_1153_precise
 # 服务器地址	速度
-cnittcdoff-qh-1.cubeyaccess.com:8060	326.96 KB/s
-s.zssss.eu.org:888	324.41 KB/s
-wan1.tangwudi.cc:47859	303.56 KB/s
+wan1.tangwudi.cc:47859	364.97 KB/s
+s.zssss.eu.org:888	354.92 KB/s
+171.213.144.8:4022	326.53 KB/s
+171.213.241.134:8188	319.61 KB/s
+ddns.55682750.xyz:18888	312.28 KB/s
+ch3829.myds.me:4022	300.29 KB/s

@@ -1,14 +1,16 @@
-# 20260605_1245_precise_slow
+# 20260606_1134_precise_slow
 # 服务器地址	速度
-www.fjxzl.top:23234	294.14 KB/s
-laowang666.familyds.com:6300	211.84 KB/s
-happy2015.synology.me:4000	195.60 KB/s
-aecm6mg6ilmqybhl.nexusedgeio.com:5588	193.46 KB/s
-www.xiongnas.top:8888	129.79 KB/s
-laiboy.myds.me:58686	100.20 KB/s
-unicom3.swjms.com:4022	88.64 KB/s
-aikuai.natnum.top:8099	69.54 KB/s
-tnv.asuscomm.com:8012	54.29 KB/s
-owvpn.famcloud.top:9878	32.41 KB/s
-triq.cc:8012	24.38 KB/s
-111.196.135.156:20000	22.87 KB/s
+laiboy.myds.me:58686	253.13 KB/s
+aecm6mg6ilmqybhl.nexusedgeio.com:5588	247.17 KB/s
+x1x.bid:5146	231.51 KB/s
+www.photoby.us:28012	210.62 KB/s
+aikuai.natnum.top:8099	187.31 KB/s
+www.ikuai.me:4022	177.89 KB/s
+wuyanjiang.cn:8012	168.59 KB/s
+sphinger.f3322.net:11012	139.39 KB/s
+owvpn.famcloud.top:9878	64.36 KB/s
+home.hexuntong.net:8188	55.08 KB/s
+zola8888.i234.me:23234	51.12 KB/s
+unicom3.swjms.com:4022	49.88 KB/s
+rt.tunan.tech:7070	8.60 KB/s
+tnv.asuscomm.com:8012	6.36 KB/s

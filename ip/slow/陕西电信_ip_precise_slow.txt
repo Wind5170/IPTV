@@ -1,3 +1,5 @@
-# 20260605_1259_precise_slow
+# 20260606_1151_precise_slow
 # 服务器地址	速度
-ddns.xryo.cn:8888	64.17 KB/s
+tiger81.i234.me:8888	280.20 KB/s
+124.114.100.190:6789	269.29 KB/s
+www.gaolao.top:8008	250.31 KB/s
