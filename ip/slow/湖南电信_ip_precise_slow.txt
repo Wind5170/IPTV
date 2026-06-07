@@ -1,3 +1,4 @@
-# 20260606_1147_precise_slow
+# 20260607_1201_precise_slow
 # 服务器地址	速度
-www.zlizi.cn:4023	161.03 KB/s
+www.zlizi.cn:4023	149.97 KB/s
+eyfs.vicp.net:8888	80.61 KB/s

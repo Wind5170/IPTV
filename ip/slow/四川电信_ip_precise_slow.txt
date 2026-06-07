@@ -1,14 +1,15 @@
-# 20260606_1153_precise_slow
+# 20260607_1207_precise_slow
 # 服务器地址	速度
-171.88.107.244:8118	283.90 KB/s
-cnittcdoff-qh-1.cubeyaccess.com:8060	274.74 KB/s
-xmzj.f3322.net:8188	224.80 KB/s
-hhska.3322.org:8096	203.56 KB/s
-www.zhms.tk:5050	187.02 KB/s
-171.213.141.50:8188	123.54 KB/s
-171.213.151.200:8188	122.42 KB/s
-nas2.roxette119.cn:5555	117.99 KB/s
-www.160638.xyz:8888	116.93 KB/s
-vpn.ydcb.top:40000	104.00 KB/s
-bb.ydcb.top:40000	78.85 KB/s
-171.213.216.100:4022	72.72 KB/s
+wan1.tangwudi.cc:47859	275.05 KB/s
+s.zssss.eu.org:888	257.98 KB/s
+cnittcdoff-qh-1.cubeyaccess.com:8060	241.30 KB/s
+hhska.3322.org:8096	209.37 KB/s
+nas2.roxette119.cn:5555	121.01 KB/s
+171.213.151.200:8188	120.09 KB/s
+ch3829.myds.me:4022	113.85 KB/s
+171.213.239.165:8188	113.61 KB/s
+171.213.141.50:8188	109.80 KB/s
+bb.ydcb.top:40000	109.42 KB/s
+www.160638.xyz:8888	108.50 KB/s
+vpn.ydcb.top:40000	63.69 KB/s
+171.213.138.233:8188	19.85 KB/s

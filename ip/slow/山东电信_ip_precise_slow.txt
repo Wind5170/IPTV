@@ -1,3 +1,5 @@
-# 20260606_1149_precise_slow
+# 20260607_1204_precise_slow
 # 服务器地址	速度
-www.niuin.com:4022	299.23 KB/s
+sunny2017.xyz:7788	199.76 KB/s
+www.niuin.com:4022	155.36 KB/s
+144.255.31.141:6688	2.08 KB/s

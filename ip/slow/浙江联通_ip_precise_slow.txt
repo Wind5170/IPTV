@@ -1,4 +1,4 @@
-# 20260606_1157_precise_slow
+# 20260607_1209_precise_slow
 # 服务器地址	速度
-bgs.cchui.fun:7911	269.83 KB/s
-bgs.cchui.fun:7912	269.05 KB/s
+bgs.cchui.fun:7912	51.67 KB/s
+bgs.cchui.fun:7911	10.83 KB/s

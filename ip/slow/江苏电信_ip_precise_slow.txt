@@ -1,16 +1,14 @@
-# 20260606_1148_precise_slow
+# 20260607_1202_precise_slow
 # 服务器地址	速度
-jw318.synology.me:888	282.84 KB/s
-49.79.83.116:58888	273.41 KB/s
-iptv.feng.js.cn:58099	264.27 KB/s
-114.226.212.138:8787	246.36 KB/s
-121.237.245.48:8888	245.80 KB/s
-acp-cloud.asuscomm.com:4000	234.72 KB/s
-114.226.212.140:8787	206.76 KB/s
-www.wxzmz.com:8800	202.12 KB/s
-h.vanshun.com:8802	193.11 KB/s
-106.111.244.12:58099	183.73 KB/s
-www.sclvip.top:8787	44.43 KB/s
-www.foreveryyl.top:8001	24.48 KB/s
-kouki.pro:8888	23.15 KB/s
-home.amucn.net:8800	13.29 KB/s
+lygzou.asuscomm.com:19999	266.19 KB/s
+121.237.245.48:8888	215.73 KB/s
+jw318.synology.me:888	211.84 KB/s
+kouki.pro:8888	184.48 KB/s
+www.wxzmz.com:8800	167.59 KB/s
+njbobo.mycloudnas.com:4022	164.75 KB/s
+h.vanshun.com:8802	143.51 KB/s
+114.226.212.190:8787	142.53 KB/s
+114.226.212.191:8787	139.77 KB/s
+www.sclvip.top:8787	74.88 KB/s
+istoreos.sclvip.top:5566	46.93 KB/s
+home.amucn.net:8800	0.70 KB/s

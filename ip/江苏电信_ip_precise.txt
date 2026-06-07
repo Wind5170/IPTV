@@ -1,16 +1,17 @@
-# 20260606_1148_precise
+# 20260607_1202_precise
 # 服务器地址	速度
-121.226.105.44:6888	386.80 KB/s
-y1nf0x.myds.me:5888	383.53 KB/s
-lygzou.asuscomm.com:19999	377.07 KB/s
-njbobo.mycloudnas.com:4022	374.01 KB/s
-980413.xyz:6000	364.92 KB/s
-106.111.244.8:58099	359.96 KB/s
-istoreos.sclvip.top:5566	356.88 KB/s
-j1900.silicaite.top:58888	347.83 KB/s
-gcyp.mycloudnas.com:4000	345.06 KB/s
-dx.joygala.cn:8118	338.71 KB/s
-t.7ze.top:4022	337.37 KB/s
-zp.zshwx.cn:8888	331.11 KB/s
-vs.heylc.com:4022	326.99 KB/s
-www.yzddy.top:8800	322.54 KB/s
+121.226.105.44:6888	400.76 KB/s
+106.111.244.8:58099	399.33 KB/s
+106.111.244.12:58099	391.95 KB/s
+y1nf0x.myds.me:5888	388.01 KB/s
+zp.zshwx.cn:8888	377.69 KB/s
+iptv.feng.js.cn:58099	375.26 KB/s
+gcyp.mycloudnas.com:4000	373.99 KB/s
+dx.joygala.cn:8118	354.77 KB/s
+www.foreveryyl.top:8001	354.26 KB/s
+www.yzddy.top:8800	347.02 KB/s
+vs.heylc.com:4022	339.78 KB/s
+j1900.silicaite.top:58888	315.22 KB/s
+acp-cloud.asuscomm.com:4000	312.65 KB/s
+t.7ze.top:4022	309.66 KB/s
+980413.xyz:6000	300.21 KB/s
