@@ -1,17 +1,16 @@
-# 20260607_1150_precise_slow
+# 20260608_1413_precise_slow
 # 服务器地址	速度
-tnv.asuscomm.com:8012	297.47 KB/s
-114.254.89.220:8888	291.34 KB/s
-aecm6mg6ilmqybhl.nexusedgeio.com:5588	248.06 KB/s
-111.196.135.156:20000	245.08 KB/s
-www.xiongnas.top:8888	236.49 KB/s
-www.ikuai.me:4022	223.71 KB/s
-owvpn.famcloud.top:9878	218.55 KB/s
-home.hexuntong.net:8188	217.89 KB/s
-superpostmail.3322.org:1193	212.50 KB/s
-aikuai.natnum.top:8099	194.73 KB/s
-laiboy.myds.me:58686	108.64 KB/s
-fjxzl.top:23234	48.86 KB/s
-unicom3.swjms.com:4022	25.38 KB/s
-111.193.234.243:9999	20.45 KB/s
-rt.tunan.tech:7070	11.48 KB/s
+laiboy.myds.me:58686	274.60 KB/s
+aecm6mg6ilmqybhl.nexusedgeio.com:5588	265.21 KB/s
+fjxzl.top:23234	257.49 KB/s
+yaoleyaotou.com:4022	247.26 KB/s
+home.hexuntong.net:8188	212.59 KB/s
+111.193.239.11:9999	187.17 KB/s
+sphinger.f3322.net:11012	142.66 KB/s
+tnv.asuscomm.com:8012	48.16 KB/s
+owvpn.famcloud.top:9878	37.23 KB/s
+tonsir.oicp.net:15893	36.85 KB/s
+unicom3.swjms.com:4022	31.51 KB/s
+www.ikuai.me:4022	26.62 KB/s
+111.196.135.156:20000	2.51 KB/s
+x1x.bid:5146	1.71 KB/s

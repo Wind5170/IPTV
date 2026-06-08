@@ -1,14 +1,19 @@
-# 20260607_1202_precise_slow
+# 20260608_1423_precise_slow
 # 服务器地址	速度
-lygzou.asuscomm.com:19999	266.19 KB/s
-121.237.245.48:8888	215.73 KB/s
-jw318.synology.me:888	211.84 KB/s
-kouki.pro:8888	184.48 KB/s
-www.wxzmz.com:8800	167.59 KB/s
-njbobo.mycloudnas.com:4022	164.75 KB/s
-h.vanshun.com:8802	143.51 KB/s
-114.226.212.190:8787	142.53 KB/s
-114.226.212.191:8787	139.77 KB/s
-www.sclvip.top:8787	74.88 KB/s
-istoreos.sclvip.top:5566	46.93 KB/s
-home.amucn.net:8800	0.70 KB/s
+njbobo.mycloudnas.com:4022	294.42 KB/s
+106.111.244.12:58099	284.77 KB/s
+vs.heylc.com:4022	274.05 KB/s
+istoreos.sclvip.top:5566	264.70 KB/s
+nas3.bycza.top:8100	238.92 KB/s
+jw318.synology.me:888	238.26 KB/s
+202.8090pc.cn:58888	237.61 KB/s
+nas2.bycza.top:9000	227.34 KB/s
+fengwei888888.myds.me:58099	220.14 KB/s
+t.7ze.top:4022	219.03 KB/s
+lygzou.asuscomm.com:19999	204.18 KB/s
+kouki.pro:8888	199.68 KB/s
+www.wxzmz.com:8800	179.45 KB/s
+121.237.245.222:8888	174.33 KB/s
+gcyp.mycloudnas.com:4000	142.01 KB/s
+980413.xyz:6000	131.51 KB/s
+home.amucn.net:8800	67.23 KB/s
