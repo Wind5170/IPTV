@@ -1,3 +1,5 @@
-# 20260608_1418_precise_slow
+# 20260609_1248_precise_slow
 # 服务器地址	速度
-server.juzhijian.com:8822	202.86 KB/s
+cpanel.lwfz.fun:8800	278.64 KB/s
+1.193.63.96:8800	261.78 KB/s
+171.8.169.26:8800	18.03 KB/s

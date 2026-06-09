@@ -1,12 +1,13 @@
-# 20260608_1416_precise
+# 20260609_1245_precise
 # 服务器地址	速度
-183.236.43.98:4013	437.90 KB/s
-home.8v8.fun:4333	422.92 KB/s
-113.119.25.7:58888	403.27 KB/s
-www.tyio.cc:8188	393.28 KB/s
-www.yahao.host:4022	392.72 KB/s
-vpn.jk960.cn:8686	391.90 KB/s
-www.maomizi.cn:9530	389.95 KB/s
-unraid.cyruslee.top:8888	367.01 KB/s
-www.ruoshui.uno:30001	340.98 KB/s
-yanshifen.top:8889	307.84 KB/s
+183.236.43.98:4013	415.72 KB/s
+183.236.43.98:4111	402.15 KB/s
+113.104.239.108:7088	398.35 KB/s
+wmh.wmh.ink:6633	395.72 KB/s
+113.119.25.7:58888	392.64 KB/s
+www.tyio.cc:8188	383.83 KB/s
+home.8v8.fun:4333	383.38 KB/s
+www.yahao.host:4022	364.59 KB/s
+www.hongzhijiaoyu.net:8188	358.03 KB/s
+vpn.jk960.cn:8686	350.84 KB/s
+unraid.cyruslee.top:8888	329.04 KB/s

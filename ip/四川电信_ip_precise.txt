@@ -1,9 +1,10 @@
-# 20260608_1430_precise
+# 20260609_1259_precise
 # 服务器地址	速度
-171.88.107.244:8118	387.86 KB/s
-s.zssss.eu.org:888	382.84 KB/s
-cnittcdoff-qh-1.cubeyaccess.com:8060	341.35 KB/s
-171.213.220.56:4000	333.95 KB/s
-wan1.tangwudi.cc:47859	327.62 KB/s
-171.213.144.8:4022	326.72 KB/s
-xmzj.f3322.net:8188	319.18 KB/s
+171.213.240.180:8188	379.18 KB/s
+171.88.107.244:8118	371.23 KB/s
+s.zssss.eu.org:888	358.69 KB/s
+171.213.207.240:4022	355.19 KB/s
+www.zhms.tk:5050	352.31 KB/s
+171.213.144.8:4022	335.37 KB/s
+cnittcdoff-qh-1.cubeyaccess.com:8060	301.87 KB/s
+ddns.55682750.xyz:18888	300.49 KB/s

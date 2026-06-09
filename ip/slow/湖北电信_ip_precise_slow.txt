@@ -1,8 +1,8 @@
-# 20260608_1422_precise_slow
+# 20260609_1251_precise_slow
 # 服务器地址	速度
-www.661130.xyz:8188	284.71 KB/s
-59.174.162.239:4022	195.53 KB/s
-qnapxuan.mycloudnas.com:10001	137.37 KB/s
-cqknas.myqnapcloud.com:8808	116.76 KB/s
-zhangkx717.cn:9999	65.15 KB/s
-hiliu.myds.me:18088	47.34 KB/s
+wlei.myds.me:52057	296.14 KB/s
+zhangkx717.cn:9999	287.09 KB/s
+www.661130.xyz:8188	269.39 KB/s
+p365z34227.oicp.vip:60002	231.48 KB/s
+cqknas.myqnapcloud.com:8808	42.08 KB/s
+hiliu.myds.me:18088	34.79 KB/s

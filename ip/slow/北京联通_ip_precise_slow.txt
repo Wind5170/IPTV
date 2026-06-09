@@ -1,16 +1,6 @@
-# 20260608_1413_precise_slow
+# 20260609_1242_precise_slow
 # 服务器地址	速度
-laiboy.myds.me:58686	274.60 KB/s
-aecm6mg6ilmqybhl.nexusedgeio.com:5588	265.21 KB/s
-fjxzl.top:23234	257.49 KB/s
-yaoleyaotou.com:4022	247.26 KB/s
-home.hexuntong.net:8188	212.59 KB/s
-111.193.239.11:9999	187.17 KB/s
-sphinger.f3322.net:11012	142.66 KB/s
-tnv.asuscomm.com:8012	48.16 KB/s
-owvpn.famcloud.top:9878	37.23 KB/s
-tonsir.oicp.net:15893	36.85 KB/s
-unicom3.swjms.com:4022	31.51 KB/s
-www.ikuai.me:4022	26.62 KB/s
-111.196.135.156:20000	2.51 KB/s
-x1x.bid:5146	1.71 KB/s
+laiboy.myds.me:58686	271.18 KB/s
+aecm6mg6ilmqybhl.nexusedgeio.com:5588	252.60 KB/s
+unicom3.swjms.com:4022	74.00 KB/s
+fjxzl.top:23234	54.05 KB/s
