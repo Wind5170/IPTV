@@ -1,6 +1,8 @@
-# 20260609_1242_precise_slow
+# 20260610_1259_precise_slow
 # 服务器地址	速度
-laiboy.myds.me:58686	271.18 KB/s
-aecm6mg6ilmqybhl.nexusedgeio.com:5588	252.60 KB/s
-unicom3.swjms.com:4022	74.00 KB/s
-fjxzl.top:23234	54.05 KB/s
+123.118.63.153:8686	289.44 KB/s
+superpostmail.3322.org:1193	132.74 KB/s
+fjxzl.top:23234	88.48 KB/s
+unicom3.swjms.com:4022	67.54 KB/s
+111.196.135.156:20000	3.09 KB/s
+owvpn.famcloud.top:9878	1.89 KB/s

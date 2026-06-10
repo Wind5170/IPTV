@@ -1,3 +1,3 @@
-# 20260609_1256_precise_slow
+# 20260610_1314_precise_slow
 # 服务器地址	速度
-www.gaolao.top:8008	207.66 KB/s
+4712635.xyz:26000	241.42 KB/s

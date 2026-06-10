@@ -1,14 +1,18 @@
-# 20260609_1253_precise
+# 20260610_1311_precise
 # 服务器地址	速度
-121.226.105.44:6888	394.07 KB/s
-y1nf0x.myds.me:5888	388.72 KB/s
-fengwei888888.myds.me:58099	377.13 KB/s
-dx.joygala.cn:8118	374.16 KB/s
-www.yzddy.top:8800	369.66 KB/s
-zp.zshwx.cn:8888	369.65 KB/s
-istoreos.sclvip.top:5566	363.80 KB/s
-106.111.244.12:58099	360.34 KB/s
-vs.heylc.com:4022	350.35 KB/s
-iptv.feng.js.cn:58099	335.19 KB/s
-49.79.83.116:58888	332.30 KB/s
-t.7ze.top:4022	305.70 KB/s
+106.111.244.12:58099	507.41 KB/s
+iptv.feng.js.cn:58099	462.32 KB/s
+dx.joygala.cn:8118	423.98 KB/s
+www.foreveryyl.top:8001	422.71 KB/s
+istoreos.sclvip.top:5566	406.06 KB/s
+jw318.synology.me:888	400.49 KB/s
+121.226.105.44:6888	392.96 KB/s
+nas2.bycza.top:9000	376.59 KB/s
+vs.heylc.com:4022	373.39 KB/s
+49.79.83.116:58888	370.19 KB/s
+nas3.bycza.top:8100	353.38 KB/s
+acp-cloud.asuscomm.com:4000	350.74 KB/s
+zp.zshwx.cn:8888	340.13 KB/s
+www.yzddy.top:8800	325.03 KB/s
+h.vanshun.com:8802	312.54 KB/s
+t.7ze.top:4022	300.58 KB/s

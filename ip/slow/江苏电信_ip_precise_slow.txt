@@ -1,20 +1,15 @@
-# 20260609_1253_precise_slow
+# 20260610_1311_precise_slow
 # 服务器地址	速度
-nas3.bycza.top:8100	298.47 KB/s
-nas2.bycza.top:9000	295.06 KB/s
-acp-cloud.asuscomm.com:4000	294.49 KB/s
-njbobo.com:4022	266.52 KB/s
-gcyp.mycloudnas.com:4000	253.38 KB/s
-h.vanshun.com:8802	249.39 KB/s
-lygzou.asuscomm.com:19999	241.58 KB/s
-jw318.synology.me:888	217.33 KB/s
-kouki.pro:8888	200.93 KB/s
-121.237.245.222:8888	199.37 KB/s
-www.wxzmz.com:8800	185.25 KB/s
-www.foreveryyl.top:8001	110.23 KB/s
-114.226.212.191:8787	43.71 KB/s
-114.226.212.190:8787	40.60 KB/s
-www.sclvip.top:8787	34.66 KB/s
-980413.xyz:6000	13.57 KB/s
-home.amucn.net:8800	1.48 KB/s
-j1900.silicaite.top:58888	0.69 KB/s
+lygzou.asuscomm.com:19999	291.17 KB/s
+121.237.245.222:8888	244.13 KB/s
+114.226.212.191:8787	188.71 KB/s
+kouki.pro:8888	178.99 KB/s
+gcyp.mycloudnas.com:4000	162.82 KB/s
+njbobo.mycloudnas.com:4022	149.92 KB/s
+www.wxzmz.com:8800	142.68 KB/s
+www.sclvip.top:8787	106.74 KB/s
+y1nf0x.myds.me:5888	84.57 KB/s
+980413.xyz:6000	65.98 KB/s
+home.amucn.net:8800	9.91 KB/s
+114.226.212.190:8787	2.76 KB/s
+j1900.silicaite.top:58888	0.61 KB/s
