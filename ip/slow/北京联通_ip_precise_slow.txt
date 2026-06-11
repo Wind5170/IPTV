@@ -1,8 +1,12 @@
-# 20260610_1259_precise_slow
+# 20260611_1404_precise_slow
 # 服务器地址	速度
-123.118.63.153:8686	289.44 KB/s
-superpostmail.3322.org:1193	132.74 KB/s
-fjxzl.top:23234	88.48 KB/s
-unicom3.swjms.com:4022	67.54 KB/s
-111.196.135.156:20000	3.09 KB/s
-owvpn.famcloud.top:9878	1.89 KB/s
+sphinger.f3322.net:11012	286.14 KB/s
+aecm6mg6ilmqybhl.nexusedgeio.com:5588	241.00 KB/s
+114.254.36.246:8888	228.90 KB/s
+114.254.89.220:8888	184.40 KB/s
+fjxzl.top:23234	44.14 KB/s
+aikuai.natnum.top:8099	43.17 KB/s
+111.196.135.156:20000	36.75 KB/s
+unicom3.swjms.com:4022	22.49 KB/s
+www.ikuai.me:4022	19.27 KB/s
+owvpn.famcloud.top:9878	1.65 KB/s

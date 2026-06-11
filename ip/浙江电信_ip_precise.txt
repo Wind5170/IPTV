@@ -1,10 +1,7 @@
-# 20260610_1318_precise
+# 20260611_1423_precise
 # 服务器地址	速度
-rhfwily.synology.me:4022	514.29 KB/s
-125.118.73.3:4022	511.83 KB/s
-www.negative.top:50000	464.76 KB/s
-9.lexlong.top:8001	459.56 KB/s
-www.liangcl.top:8686	448.65 KB/s
-www.slq888.cn:9999	398.02 KB/s
-36.24.64.82:8888	352.49 KB/s
-125.115.205.76:4023	337.34 KB/s
+36.24.64.82:8888	371.88 KB/s
+rhfwily.synology.me:4022	360.15 KB/s
+125.118.73.3:4022	357.79 KB/s
+9.lexlong.top:8001	351.43 KB/s
+www.negative.top:50000	332.62 KB/s

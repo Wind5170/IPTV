@@ -1,3 +1,7 @@
-# 20260610_1318_precise_slow
+# 20260611_1423_precise_slow
 # 服务器地址	速度
-gilbert0571.eu.org:8888	61.46 KB/s
+60.183.107.135:8000	280.58 KB/s
+125.115.205.76:4023	214.20 KB/s
+www.liangcl.top:8686	99.17 KB/s
+www.slq888.cn:9999	42.11 KB/s
+gilbert0571.eu.org:8888	26.15 KB/s
