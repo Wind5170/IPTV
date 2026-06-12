@@ -1,7 +1,8 @@
-# 20260611_1423_precise_slow
+# 20260612_1317_precise_slow
 # 服务器地址	速度
-60.183.107.135:8000	280.58 KB/s
-125.115.205.76:4023	214.20 KB/s
-www.liangcl.top:8686	99.17 KB/s
-www.slq888.cn:9999	42.11 KB/s
-gilbert0571.eu.org:8888	26.15 KB/s
+rhfwily.synology.me:4022	298.04 KB/s
+www.liangcl.top:8686	288.48 KB/s
+gilbert0571.eu.org:8888	52.16 KB/s
+125.115.205.76:4023	32.08 KB/s
+www.slq888.cn:9999	23.59 KB/s
+36.24.64.82:8888	2.74 KB/s
