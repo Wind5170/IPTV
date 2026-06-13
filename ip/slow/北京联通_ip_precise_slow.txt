@@ -1,15 +1,18 @@
-# 20260612_1257_precise_slow
+# 20260613_1158_precise_slow
 # 服务器地址	速度
-www.xiongnas.top:8888	285.53 KB/s
-nas.alber2025.top:8188	264.30 KB/s
-www.ikuai.me:4022	147.69 KB/s
-123.118.63.153:8686	127.57 KB/s
-123.118.52.115:8686	126.67 KB/s
-laiboy.myds.me:58686	107.48 KB/s
-tnv.asuscomm.com:8012	96.36 KB/s
-wuyanjiang.cn:8012	78.74 KB/s
-owvpn.famcloud.top:9878	51.88 KB/s
-unicom3.swjms.com:4022	43.28 KB/s
-111.196.135.156:20000	24.64 KB/s
-home.hexuntong.net:8188	2.06 KB/s
-aikuai.natnum.top:8099	1.71 KB/s
+superpostmail.3322.org:1193	289.75 KB/s
+aecm6mg6ilmqybhl.nexusedgeio.com:5588	269.30 KB/s
+unicom3.swjms.com:4022	244.51 KB/s
+laowang666.familyds.com:6300	238.39 KB/s
+www.photoby.us:28012	224.16 KB/s
+home.hexuntong.net:8188	221.65 KB/s
+wuyanjiang.cn:8012	191.79 KB/s
+shunyi-home.wangbin.us:4022	174.29 KB/s
+111.196.135.156:20000	111.35 KB/s
+aikuai.natnum.top:8099	56.16 KB/s
+111.193.238.227:9999	44.44 KB/s
+fjxzl.top:23234	31.94 KB/s
+tnv.asuscomm.com:8012	30.34 KB/s
+owvpn.famcloud.top:9878	24.64 KB/s
+www.ikuai.me:4022	5.94 KB/s
+weixin.mfsz.cn:8888	1.15 KB/s

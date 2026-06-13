@@ -1,5 +1,5 @@
-# 20260612_1317_precise
+# 20260613_1222_precise
 # 服务器地址	速度
-z2m.eversouthhangzhou.com.cn:8188	487.19 KB/s
-bgs.cchui.fun:7912	480.72 KB/s
-bgs.cchui.fun:7911	448.20 KB/s
+z2m.eversouthhangzhou.com.cn:8188	396.80 KB/s
+bgs.cchui.fun:7911	380.61 KB/s
+bgs.cchui.fun:7912	369.82 KB/s
