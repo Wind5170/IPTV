@@ -1,15 +1,14 @@
-# 20260613_1209_precise_slow
+# 20260614_1210_precise_slow
 # 服务器地址	速度
-zp.zshwx.cn:8888	298.60 KB/s
-www.foreveryyl.top:8001	295.55 KB/s
-j1900.silicaite.top:58888	292.78 KB/s
-jw318.synology.me:888	274.36 KB/s
-49.79.83.116:58888	272.66 KB/s
-121.237.245.222:8888	248.62 KB/s
-kouki.pro:8888	204.14 KB/s
-njbobo.mycloudnas.com:4022	149.72 KB/s
-www.wxzmz.com:8800	148.97 KB/s
-nas2.bycza.top:9000	89.58 KB/s
-www.sclvip.top:8787	12.30 KB/s
-114.226.212.154:8787	4.90 KB/s
-home.amucn.net:8800	1.48 KB/s
+nas2.bycza.top:9000	295.55 KB/s
+nas3.bycza.top:8100	281.18 KB/s
+jw318.synology.me:888	265.11 KB/s
+t.7ze.top:4022	264.75 KB/s
+ikuai-v4.17271201.xyz:4000	253.43 KB/s
+www.foreveryyl.top:8001	246.62 KB/s
+121.237.245.222:8888	222.72 KB/s
+www.wxzmz.com:8800	176.22 KB/s
+kouki.pro:8888	168.99 KB/s
+njbobo.mycloudnas.com:4022	142.70 KB/s
+gcyp.mycloudnas.com:4000	138.25 KB/s
+home.amucn.net:8800	28.39 KB/s

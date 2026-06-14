@@ -1,8 +1,10 @@
-# 20260613_1219_precise
+# 20260614_1215_precise
 # 服务器地址	速度
-171.88.107.244:8118	401.11 KB/s
-www.zhms.tk:5050	344.60 KB/s
-171.213.141.163:8188	341.69 KB/s
-www.yanbingg.com:18888	339.14 KB/s
-ddns.55682750.xyz:18888	338.86 KB/s
-171.213.240.180:8188	324.86 KB/s
+171.88.107.244:8118	373.17 KB/s
+s.zssss.eu.org:888	340.47 KB/s
+wan1.tangwudi.cc:47859	327.14 KB/s
+www.yanbingg.com:18888	315.55 KB/s
+ddns.55682750.xyz:18888	314.36 KB/s
+171.213.240.180:8188	312.31 KB/s
+www.yanbingg.com:1888	306.50 KB/s
+xmzj.f3322.net:8188	301.54 KB/s
