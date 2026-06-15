@@ -1,8 +1,5 @@
-# 20260614_1218_precise_slow
+# 20260615_1609_precise_slow
 # 服务器地址	速度
-maymoon.asuscomm.com:7777	288.05 KB/s
-9.lexlong.top:8001	201.89 KB/s
-www.liangcl.top:8686	141.28 KB/s
-www.negative.top:50000	67.98 KB/s
-www.slq888.cn:9999	41.04 KB/s
-gilbert0571.eu.org:8888	18.55 KB/s
+www.negative.top:50000	276.06 KB/s
+www.slq888.cn:9999	40.84 KB/s
+125.115.205.76:4023	27.95 KB/s

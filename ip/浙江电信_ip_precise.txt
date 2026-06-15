@@ -1,7 +1,8 @@
-# 20260614_1218_precise
+# 20260615_1609_precise
 # 服务器地址	速度
-125.115.205.76:4023	401.55 KB/s
-60.183.111.118:8000	395.84 KB/s
-36.24.64.82:8888	384.25 KB/s
-rhfwily.synology.me:4022	359.80 KB/s
-hzmaidu.com:8090	328.42 KB/s
+maymoon.asuscomm.com:7777	479.13 KB/s
+rhfwily.synology.me:4022	452.84 KB/s
+www.liangcl.top:8686	418.53 KB/s
+9.lexlong.top:8001	416.73 KB/s
+gilbert0571.eu.org:8888	407.80 KB/s
+hzmaidu.com:8090	400.74 KB/s
