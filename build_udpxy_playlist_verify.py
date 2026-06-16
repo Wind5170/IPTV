@@ -13,6 +13,7 @@ udpxy 播放列表生成工具（带实时验证版）
 8. 统一流程：获取所有优质服务器 -> 验证 -> 补充低速 -> 生成列表
 9. 支持关键字索引匹配（IPTV、百事通、广播等）
 10. 模板文件名支持附加信息（如：广东移动中兴、广东移动华为、广东移动_测试等），自动提取基础城市名匹配服务器文件
+11. 支持同时生成 M3U 格式播放列表（默认启用）
 """
 
 import os
@@ -47,6 +48,7 @@ CONFIG = {
     "verify_retry": 1,
     "verify": True,                      # 默认启用实时验证
     "auto_mode": False,                  # 默认非自动模式
+    "generate_m3u": True,                # 是否同时生成 M3U 格式（默认启用）
     
     # ==================== 频道过滤规则开关 ====================
     "enable_exclude_prefixes": True,     # 是否启用排除索引前缀规则
@@ -78,6 +80,81 @@ REGIONS = [
     "黑龙江", "湖北", "湖南", "吉林", "江西", "辽宁", "内蒙古", "宁夏",
     "青海", "山东", "山西", "陕西", "云南", "西藏", "新疆", "台湾", "香港", "澳门"
 ]
+
+
+# ==================== M3U 转换函数 ====================
+def convert_txt_to_m3u(txt_file_path: str, m3u_file_path: str) -> bool:
+    """
+    将 TXT 格式的播放列表转换为 M3U 格式
+    TXT 格式：频道名,URL
+    M3U 格式：
+        #EXTM3U
+        #EXTINF:-1 group-title="分组名",频道名
+        URL
+    
+    返回: 是否成功
+    """
+    if not os.path.exists(txt_file_path):
+        return False
+    
+    try:
+        with open(txt_file_path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        
+        with open(m3u_file_path, 'w', encoding='utf-8') as f:
+            f.write('#EXTM3U\n')
+            current_genre = ''
+            
+            for line in lines:
+                line = line.strip()
+                if not line:
+                    continue
+                
+                # 处理分组标题行（格式：分组名,#genre#）
+                if line.endswith(',#genre#'):
+                    genre = line.replace(',#genre#', '').strip()
+                    if genre != current_genre:
+                        current_genre = genre
+                    continue
+                
+                # 处理频道行（格式：频道名,URL）
+                if ',' in line:
+                    parts = line.split(',', 1)
+                    if len(parts) == 2:
+                        channel_name = parts[0].strip()
+                        channel_url = parts[1].strip()
+                        
+                        # 写入 M3U 格式
+                        f.write(f'#EXTINF:-1 group-title="{current_genre}",{channel_name}\n')
+                        f.write(f'{channel_url}\n')
+        
+        return True
+    except Exception as e:
+        if CONFIG['verbose']:
+            print(f"  M3U 转换失败 {txt_file_path}: {e}")
+        return False
+
+
+def convert_directory_txt_to_m3u(txt_dir: str, m3u_dir: str = None) -> None:
+    """
+    将目录下所有 TXT 文件转换为 M3U 格式
+    如果 m3u_dir 为 None，则保存到同目录
+    """
+    if not os.path.exists(txt_dir):
+        return
+    
+    if m3u_dir is None:
+        m3u_dir = txt_dir
+    
+    os.makedirs(m3u_dir, exist_ok=True)
+    
+    for txt_file in Path(txt_dir).glob("*.txt"):
+        # 跳过以 zubo 开头的汇总文件（它们会被单独处理）
+        if txt_file.stem.startswith('zubo'):
+            continue
+        
+        m3u_file = Path(m3u_dir) / f"{txt_file.stem}.m3u"
+        convert_txt_to_m3u(str(txt_file), str(m3u_file))
 
 
 # ==================== 核心修复函数：提取基础城市名 ====================
@@ -1288,7 +1365,7 @@ def generate_city_playlist(city: str, channel_index: Dict, region_index: Dict, k
     return True, True
 
 
-def merge_all_playlists(cities: List[str], has_zubo_filter: bool, zubo_cities_set: Set[str], auto_mode: bool) -> None:
+def merge_all_playlists(cities: List[str], has_zubo_filter: bool, zubo_cities_set: Set[str], auto_mode: bool, generate_m3u: bool = True) -> None:
     """合并所有城市的播放列表"""
     if not auto_mode:
         print("\n" + "=" * 60)
@@ -1344,9 +1421,25 @@ def merge_all_playlists(cities: List[str], has_zubo_filter: bool, zubo_cities_se
     else:
         if not auto_mode:
             print("  ✗ 未生成 zubo_all.txt (无有效内容)")
+    
+    # ==================== 生成 M3U 格式（如果启用） ====================
+    if generate_m3u:
+        if not auto_mode:
+            print("\n📝 生成 M3U 格式播放列表")
+        
+        # 转换定制版目录
+        convert_directory_txt_to_m3u(CONFIG["output_dir_limited"])
+        if not auto_mode:
+            print(f"  ✓ 定制版 M3U: {CONFIG['output_dir_limited']}/*.m3u")
+        
+        # 转换完整版目录
+        convert_directory_txt_to_m3u(CONFIG["output_dir_all"])
+        if not auto_mode:
+            print(f"  ✓ 完整版 M3U: {CONFIG['output_dir_all']}/*.m3u")
 
 
 def txt_to_m3u(input_file: str, output_file: str) -> None:
+    """将单个 TXT 文件转换为 M3U 格式"""
     if not os.path.exists(input_file):
         return
     with open(input_file, 'r', encoding='utf-8') as f:
@@ -1366,6 +1459,28 @@ def txt_to_m3u(input_file: str, output_file: str) -> None:
                         else:
                             f.write(f'#EXTINF:-1 group-title="{genre}",{channel_name}\n')
                             f.write(f'{channel_url}\n')
+
+
+def convert_directory_txt_to_m3u(txt_dir: str, m3u_dir: str = None) -> None:
+    """
+    将目录下所有 TXT 文件转换为 M3U 格式
+    如果 m3u_dir 为 None，则保存到同目录
+    """
+    if not os.path.exists(txt_dir):
+        return
+    
+    if m3u_dir is None:
+        m3u_dir = txt_dir
+    
+    os.makedirs(m3u_dir, exist_ok=True)
+    
+    for txt_file in Path(txt_dir).glob("*.txt"):
+        # 跳过以 zubo 开头的汇总文件（它们会被单独处理）
+        if txt_file.stem.startswith('zubo'):
+            continue
+        
+        m3u_file = Path(m3u_dir) / f"{txt_file.stem}.m3u"
+        convert_txt_to_m3u(str(txt_file), str(m3u_file))
 
 
 # ==================== 主函数 ====================
@@ -1394,6 +1509,8 @@ def main():
                         help='禁用实时验证（默认启用）')
     parser.add_argument('--auto', action='store_true', default=False,
                         help='自动模式（用于CI/CD，不显示详细进度和交互）')
+    parser.add_argument('--no-m3u', action='store_true', default=False,
+                        help='不生成 M3U 格式播放列表（默认生成）')
     args = parser.parse_args()
     
     if args.verbose:
@@ -1410,6 +1527,9 @@ def main():
     else:
         verify = CONFIG.get('verify', True)
     
+    # M3U 生成开关
+    generate_m3u = not args.no_m3u
+    
     local_first = args.local_first
     name_style = args.name_style
     sort_mode = args.sort_mode
@@ -1425,6 +1545,7 @@ def main():
     print(f"排序模式: {sort_mode_name}")
     print(f"实时验证: {'启用' if verify else '禁用'}")
     print(f"自动模式: {'是' if auto_mode else '否'}")
+    print(f"生成 M3U: {'是' if generate_m3u else '否'}")
     
     source_names = []
     if 'good' in args.server_sources:
@@ -1555,10 +1676,22 @@ def main():
             print(f"\n✅ {city} 播放列表生成完成！")
             print(f"  定制版: {CONFIG['output_dir_limited']}/{city}.txt")
             print(f"  完整版: {CONFIG['output_dir_all']}/{city}.txt")
+            # 单城市也生成 M3U
+            if generate_m3u:
+                convert_txt_to_m3u(
+                    os.path.join(CONFIG['output_dir_limited'], f"{city}.txt"),
+                    os.path.join(CONFIG['output_dir_limited'], f"{city}.m3u")
+                )
+                convert_txt_to_m3u(
+                    os.path.join(CONFIG['output_dir_all'], f"{city}.txt"),
+                    os.path.join(CONFIG['output_dir_all'], f"{city}.m3u")
+                )
+                print(f"  M3U: {CONFIG['output_dir_limited']}/{city}.m3u")
+                print(f"  M3U: {CONFIG['output_dir_all']}/{city}.m3u")
     
     # 多城市模式，汇总所有播放列表
     if len(selected_cities) > 1:
-        merge_all_playlists(selected_cities, has_zubo_filter, zubo_cities_set, auto_mode)
+        merge_all_playlists(selected_cities, has_zubo_filter, zubo_cities_set, auto_mode, generate_m3u)
         
         if not auto_mode:
             print(f"\n✅ 批量处理完成！")
