@@ -1,0 +1,6 @@
+#EXTM3U url-tvg="https://gh.llkk.cc/https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc-desc.xml.gz" 
+
+#EXTM3U url-tvg="https://gh-proxy.org/https://raw.githubusercontent.com/sparkssssssssss/epg/main/pp.xml"
+#EXTM3U url-tvg="https://gh-proxy.org/https://raw.githubusercontent.com/sparkssssssssss/epg/main/pp.xml.gz"
+
+https://gh-proxy.org/https://raw.githubusercontent.com/sparkssssssssss/epg/logo/
