@@ -1,0 +1,359 @@
+#EXTM3U
+#EXTINF:-1 group-title="吉林联通-组播1",吉林卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.19:3000
+#EXTINF:-1 group-title="吉林联通-组播1",吉林乡村
+http://wanda01.e7q.com:18090/rtp/239.253.142.176:3000
+#EXTINF:-1 group-title="吉林联通-组播1",吉林市新闻
+http://wanda01.e7q.com:18090/rtp/239.253.142.211:3000
+#EXTINF:-1 group-title="吉林联通-组播1",吉林市生活
+http://wanda01.e7q.com:18090/rtp/239.253.142.213:3000
+#EXTINF:-1 group-title="吉林联通-组播1",吉林市科教
+http://wanda01.e7q.com:18090/rtp/239.253.142.212:3000
+#EXTINF:-1 group-title="吉林联通-组播1",吉林影视
+http://wanda01.e7q.com:18090/rtp/239.253.142.174:3000
+#EXTINF:-1 group-title="吉林联通-组播1",吉林教育
+http://wanda01.e7q.com:18090/rtp/239.253.142.104:3000
+#EXTINF:-1 group-title="吉林联通-组播1",吉林生活
+http://wanda01.e7q.com:18090/rtp/239.253.142.175:3000
+#EXTINF:-1 group-title="吉林联通-组播1",吉林综艺
+http://wanda01.e7q.com:18090/rtp/239.253.142.178:3000
+#EXTINF:-1 group-title="吉林联通-组播1",吉林都市
+http://wanda01.e7q.com:18090/rtp/239.253.142.92:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-1综合
+http://wanda01.e7q.com:18090/rtp/239.253.142.160:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-1综合
+http://wanda01.e7q.com:18090/rtp/239.253.142.195:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-2财经
+http://wanda01.e7q.com:18090/rtp/239.253.142.201:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-3综艺
+http://wanda01.e7q.com:18090/rtp/239.253.142.115:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-4中文国际
+http://wanda01.e7q.com:18090/rtp/239.253.142.251:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-4中文国际欧洲
+http://wanda01.e7q.com:18090/rtp/239.253.142.239:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-4中文国际美洲
+http://wanda01.e7q.com:18090/rtp/239.253.142.240:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-5体育
+http://wanda01.e7q.com:18090/rtp/239.253.142.116:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-6电影
+http://wanda01.e7q.com:18090/rtp/239.253.142.117:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-7国防军事
+http://wanda01.e7q.com:18090/rtp/239.253.142.247:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-8电视剧
+http://wanda01.e7q.com:18090/rtp/239.253.142.118:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-9纪录
+http://wanda01.e7q.com:18090/rtp/239.253.142.203:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-10科教
+http://wanda01.e7q.com:18090/rtp/239.253.142.204:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-11戏曲
+http://wanda01.e7q.com:18090/rtp/239.253.142.252:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-12社会与法
+http://wanda01.e7q.com:18090/rtp/239.253.142.205:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-13新闻
+http://wanda01.e7q.com:18090/rtp/239.253.142.253:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-14少儿
+http://wanda01.e7q.com:18090/rtp/239.253.142.206:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-15音乐
+http://wanda01.e7q.com:18090/rtp/239.253.142.88:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-16奥林匹克
+http://wanda01.e7q.com:18090/rtp/239.253.142.248:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-16奥林匹克
+http://wanda01.e7q.com:18090/rtp/239.253.142.249:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-17农业农村
+http://wanda01.e7q.com:18090/rtp/239.253.142.202:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV4K超高清
+http://wanda01.e7q.com:18090/rtp/239.253.142.68:3000
+#EXTINF:-1 group-title="吉林联通-组播1",湖南卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.162:3000
+#EXTINF:-1 group-title="吉林联通-组播1",浙江卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.125:3000
+#EXTINF:-1 group-title="吉林联通-组播1",江苏卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.163:3000
+#EXTINF:-1 group-title="吉林联通-组播1",北京卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.161:3000
+#EXTINF:-1 group-title="吉林联通-组播1",北京卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.47:3000
+#EXTINF:-1 group-title="吉林联通-组播1",东方卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.122:3000
+#EXTINF:-1 group-title="吉林联通-组播1",安徽卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.131:3000
+#EXTINF:-1 group-title="吉林联通-组播1",广东卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.164:3000
+#EXTINF:-1 group-title="吉林联通-组播1",深圳卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.166:3000
+#EXTINF:-1 group-title="吉林联通-组播1",辽宁卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.132:3000
+#EXTINF:-1 group-title="吉林联通-组播1",山东卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.167:3000
+#EXTINF:-1 group-title="吉林联通-组播1",天津卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.169:3000
+#EXTINF:-1 group-title="吉林联通-组播1",重庆卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.130:3000
+#EXTINF:-1 group-title="吉林联通-组播1",东南卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.121:3000
+#EXTINF:-1 group-title="吉林联通-组播1",河北卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.126:3000
+#EXTINF:-1 group-title="吉林联通-组播1",河南卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.127:3000
+#EXTINF:-1 group-title="吉林联通-组播1",湖北卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.168:3000
+#EXTINF:-1 group-title="吉林联通-组播1",陕西卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.34:3000
+#EXTINF:-1 group-title="吉林联通-组播1",陕西卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.41:3000
+#EXTINF:-1 group-title="吉林联通-组播1",四川卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.123:3000
+#EXTINF:-1 group-title="吉林联通-组播1",海南卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.31:3000
+#EXTINF:-1 group-title="吉林联通-组播1",甘肃卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.179:3000
+#EXTINF:-1 group-title="吉林联通-组播1",广西卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.106:3000
+#EXTINF:-1 group-title="吉林联通-组播1",贵州卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.129:3000
+#EXTINF:-1 group-title="吉林联通-组播1",黑龙江卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.165:3000
+#EXTINF:-1 group-title="吉林联通-组播1",江西卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.128:3000
+#EXTINF:-1 group-title="吉林联通-组播1",内蒙古卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.32:3000
+#EXTINF:-1 group-title="吉林联通-组播1",宁夏卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.63:3000
+#EXTINF:-1 group-title="吉林联通-组播1",山西卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.50:3000
+#EXTINF:-1 group-title="吉林联通-组播1",新疆卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.35:3000
+#EXTINF:-1 group-title="吉林联通-组播1",云南卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.86:3000
+#EXTINF:-1 group-title="吉林联通-组播1",青海卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.29:3000
+#EXTINF:-1 group-title="吉林联通-组播1",西藏卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.51:3000
+#EXTINF:-1 group-title="吉林联通-组播1",兵团卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.57:3000
+#EXTINF:-1 group-title="吉林联通-组播1",三沙卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.198:3000
+#EXTINF:-1 group-title="吉林联通-组播1",延边卫视
+http://wanda01.e7q.com:18090/rtp/239.253.142.101:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-风云足球
+http://wanda01.e7q.com:18090/rtp/239.253.142.77:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-高尔夫·网球
+http://wanda01.e7q.com:18090/rtp/239.253.142.200:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-央视文化精品
+http://wanda01.e7q.com:18090/rtp/239.253.142.80:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-风云音乐
+http://wanda01.e7q.com:18090/rtp/239.253.142.78:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-第一剧场
+http://wanda01.e7q.com:18090/rtp/239.253.142.75:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-怀旧剧场
+http://wanda01.e7q.com:18090/rtp/239.253.142.79:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-风云剧场
+http://wanda01.e7q.com:18090/rtp/239.253.142.99:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-世界地理
+http://wanda01.e7q.com:18090/rtp/239.253.142.76:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-电视指南
+http://wanda01.e7q.com:18090/rtp/239.253.142.100:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-兵器科技
+http://wanda01.e7q.com:18090/rtp/239.253.142.81:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-女性时尚
+http://wanda01.e7q.com:18090/rtp/239.253.142.66:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CCTV-央视台球
+http://wanda01.e7q.com:18090/rtp/239.253.142.65:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CGTN英语
+http://wanda01.e7q.com:18090/rtp/239.253.142.241:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CGTN西班牙语
+http://wanda01.e7q.com:18090/rtp/239.253.142.243:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CGTN法语
+http://wanda01.e7q.com:18090/rtp/239.253.142.244:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CGTN阿拉伯语
+http://wanda01.e7q.com:18090/rtp/239.253.142.245:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CGTN俄语
+http://wanda01.e7q.com:18090/rtp/239.253.142.246:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CGTN纪录
+http://wanda01.e7q.com:18090/rtp/239.253.142.242:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CETV-1综合教育
+http://wanda01.e7q.com:18090/rtp/239.253.142.14:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CETV-2空中课堂
+http://wanda01.e7q.com:18090/rtp/239.253.142.71:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CETV-4职业教育
+http://wanda01.e7q.com:18090/rtp/239.253.142.74:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CHC家庭影院
+http://wanda01.e7q.com:18090/rtp/239.253.142.190:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CHC影迷电影
+http://wanda01.e7q.com:18090/rtp/239.253.142.189:3000
+#EXTINF:-1 group-title="吉林联通-组播1",CHC动作电影
+http://wanda01.e7q.com:18090/rtp/239.253.142.188:3000
+#EXTINF:-1 group-title="吉林联通-组播1",环球奇观
+http://wanda01.e7q.com:18090/rtp/239.253.142.67:3000
+#EXTINF:-1 group-title="吉林联通-组播1",中国交通
+http://wanda01.e7q.com:18090/rtp/239.253.142.187:3000
+#EXTINF:-1 group-title="吉林联通-组播1",老故事
+http://wanda01.e7q.com:18090/rtp/239.253.142.98:3000
+#EXTINF:-1 group-title="吉林联通-组播1",中学生
+http://wanda01.e7q.com:18090/rtp/239.253.142.55:3000
+#EXTINF:-1 group-title="吉林联通-组播1",发现之旅
+http://wanda01.e7q.com:18090/rtp/239.253.142.30:3000
+#EXTINF:-1 group-title="吉林联通-组播1",北京优优宝贝
+http://wanda01.e7q.com:18090/rtp/239.253.142.192:3000
+#EXTINF:-1 group-title="吉林联通-组播1",北京卡酷少儿
+http://wanda01.e7q.com:18090/rtp/239.253.142.59:3000
+#EXTINF:-1 group-title="吉林联通-组播1",山西书画频道
+http://wanda01.e7q.com:18090/rtp/239.253.142.199:3000
+#EXTINF:-1 group-title="吉林联通-组播1",辽宁新动漫
+http://wanda01.e7q.com:18090/rtp/239.253.142.238:3000
+#EXTINF:-1 group-title="吉林联通-组播1",上海动漫秀场
+http://wanda01.e7q.com:18090/rtp/239.253.142.232:3000
+#EXTINF:-1 group-title="吉林联通-组播1",上海游戏风云
+http://wanda01.e7q.com:18090/rtp/239.253.142.233:3000
+#EXTINF:-1 group-title="吉林联通-组播1",上海乐游
+http://wanda01.e7q.com:18090/rtp/239.253.142.208:3000
+#EXTINF:-1 group-title="吉林联通-组播1",上海法治天地
+http://wanda01.e7q.com:18090/rtp/239.253.142.210:3000
+#EXTINF:-1 group-title="吉林联通-组播1",上海都市剧场
+http://wanda01.e7q.com:18090/rtp/239.253.142.231:3000
+#EXTINF:-1 group-title="吉林联通-组播1",上海金色学堂
+http://wanda01.e7q.com:18090/rtp/239.253.142.229:3000
+#EXTINF:-1 group-title="吉林联通-组播1",上海生活时尚
+http://wanda01.e7q.com:18090/rtp/239.253.142.230:3000
+#EXTINF:-1 group-title="吉林联通-组播1",上海哈哈炫动
+http://wanda01.e7q.com:18090/rtp/239.253.142.62:3000
+#EXTINF:-1 group-title="吉林联通-组播1",河南梨园
+http://wanda01.e7q.com:18090/rtp/239.253.142.43:3000
+#EXTINF:-1 group-title="吉林联通-组播1",河南武术世界
+http://wanda01.e7q.com:18090/rtp/239.253.142.48:3000
+#EXTINF:-1 group-title="吉林联通-组播1",河南文物宝库
+http://wanda01.e7q.com:18090/rtp/239.253.142.60:3000
+#EXTINF:-1 group-title="吉林联通-组播1",湖北快乐垂钓
+http://wanda01.e7q.com:18090/rtp/239.253.142.234:3000
+#EXTINF:-1 group-title="吉林联通-组播1",湖南茶频道
+http://wanda01.e7q.com:18090/rtp/239.253.142.235:3000
+#EXTINF:-1 group-title="吉林联通-组播1",湖南金鹰纪实
+http://wanda01.e7q.com:18090/rtp/239.253.142.133:3000
+#EXTINF:-1 group-title="吉林联通-组播1",湖南金鹰卡通
+http://wanda01.e7q.com:18090/rtp/239.253.142.250:3000
+#EXTINF:-1 group-title="吉林联通-组播1",广东嘉佳卡通
+http://wanda01.e7q.com:18090/rtp/239.253.142.64:3000
+#EXTINF:-1 group-title="吉林联通-组播1",重庆汽摩
+http://wanda01.e7q.com:18090/rtp/239.253.142.87:3000
+#EXTINF:-1 group-title="吉林联通-组播1",陕西国学频道
+http://wanda01.e7q.com:18090/rtp/239.253.142.90:3000
+#EXTINF:-1 group-title="吉林联通-组播1",好享购物
+http://wanda01.e7q.com:18090/rtp/239.253.142.113:3000
+#EXTINF:-1 group-title="吉林联通-组播1",央广购物
+http://wanda01.e7q.com:18090/rtp/239.253.142.56:3000
+#EXTINF:-1 group-title="吉林联通-组播1",优购物
+http://wanda01.e7q.com:18090/rtp/239.253.142.16:3000
+#EXTINF:-1 group-title="吉林联通-组播1",家有购物
+http://wanda01.e7q.com:18090/rtp/239.253.142.85:3000
+#EXTINF:-1 group-title="吉林联通-组播1",北京纪实
+http://wanda01.e7q.com:18090/rtp/239.253.142.37:3000
+#EXTINF:-1 group-title="吉林联通-组播1",长春市民
+http://wanda01.e7q.com:18090/rtp/239.253.142.95:3000
+#EXTINF:-1 group-title="吉林联通-组播1",长春文旅
+http://wanda01.e7q.com:18090/rtp/239.253.142.94:3000
+#EXTINF:-1 group-title="吉林联通-组播1",长春综合
+http://wanda01.e7q.com:18090/rtp/239.253.142.93:3000
+#EXTINF:-1 group-title="吉林联通-组播1",四平1台
+http://wanda01.e7q.com:18090/rtp/239.253.142.216:3000
+#EXTINF:-1 group-title="吉林联通-组播1",四平2台
+http://wanda01.e7q.com:18090/rtp/239.253.142.217:3000
+#EXTINF:-1 group-title="吉林联通-组播1",通化1台
+http://wanda01.e7q.com:18090/rtp/239.253.142.218:3000
+#EXTINF:-1 group-title="吉林联通-组播1",通化2台
+http://wanda01.e7q.com:18090/rtp/239.253.142.219:3000
+#EXTINF:-1 group-title="吉林联通-组播1",通化3台
+http://wanda01.e7q.com:18090/rtp/239.253.142.220:3000
+#EXTINF:-1 group-title="吉林联通-组播1",白山生活
+http://wanda01.e7q.com:18090/rtp/239.253.142.228:3000
+#EXTINF:-1 group-title="吉林联通-组播1",白山综合
+http://wanda01.e7q.com:18090/rtp/239.253.142.227:3000
+#EXTINF:-1 group-title="吉林联通-组播1",松原生活
+http://wanda01.e7q.com:18090/rtp/239.253.142.226:3000
+#EXTINF:-1 group-title="吉林联通-组播1",松原综合
+http://wanda01.e7q.com:18090/rtp/239.253.142.225:3000
+#EXTINF:-1 group-title="吉林联通-组播1",白城公共
+http://wanda01.e7q.com:18090/rtp/239.253.142.222:3000
+#EXTINF:-1 group-title="吉林联通-组播1",白城新闻
+http://wanda01.e7q.com:18090/rtp/239.253.142.223:3000
+#EXTINF:-1 group-title="吉林联通-组播1",白城民生
+http://wanda01.e7q.com:18090/rtp/239.253.142.224:3000
+#EXTINF:-1 group-title="吉林联通-组播1",白城综合
+http://wanda01.e7q.com:18090/rtp/239.253.142.221:3000
+#EXTINF:-1 group-title="吉林联通-组播1",延边1台
+http://wanda01.e7q.com:18090/rtp/239.253.142.214:3000
+#EXTINF:-1 group-title="吉林联通-组播1",延边2台
+http://wanda01.e7q.com:18090/rtp/239.253.142.215:3000
+#EXTINF:-1 group-title="吉林联通-组播1",东丰
+http://wanda01.e7q.com:18090/rtp/239.253.142.150:3000
+#EXTINF:-1 group-title="吉林联通-组播1",东辽
+http://wanda01.e7q.com:18090/rtp/239.253.142.149:3000
+#EXTINF:-1 group-title="吉林联通-组播1",临江
+http://wanda01.e7q.com:18090/rtp/239.253.142.157:3000
+#EXTINF:-1 group-title="吉林联通-组播1",乾安
+http://wanda01.e7q.com:18090/rtp/239.253.142.152:3000
+#EXTINF:-1 group-title="吉林联通-组播1",伊通
+http://wanda01.e7q.com:18090/rtp/239.253.142.142:3000
+#EXTINF:-1 group-title="吉林联通-组播1",公主岭
+http://wanda01.e7q.com:18090/rtp/239.253.142.141:3000
+#EXTINF:-1 group-title="吉林联通-组播1",农安
+http://wanda01.e7q.com:18090/rtp/239.253.142.107:3000
+#EXTINF:-1 group-title="吉林联通-组播1",前郭
+http://wanda01.e7q.com:18090/rtp/239.253.142.109:3000
+#EXTINF:-1 group-title="吉林联通-组播1",双辽
+http://wanda01.e7q.com:18090/rtp/239.253.142.140:3000
+#EXTINF:-1 group-title="吉林联通-组播1",双阳
+http://wanda01.e7q.com:18090/rtp/239.253.142.207:3000
+#EXTINF:-1 group-title="吉林联通-组播1",图们
+http://wanda01.e7q.com:18090/rtp/239.253.142.137:3000
+#EXTINF:-1 group-title="吉林联通-组播1",大安
+http://wanda01.e7q.com:18090/rtp/239.253.142.148:3000
+#EXTINF:-1 group-title="吉林联通-组播1",延吉
+http://wanda01.e7q.com:18090/rtp/239.253.142.138:3000
+#EXTINF:-1 group-title="吉林联通-组播1",扶余
+http://wanda01.e7q.com:18090/rtp/239.253.142.151:3000
+#EXTINF:-1 group-title="吉林联通-组播1",抚松
+http://wanda01.e7q.com:18090/rtp/239.253.142.158:3000
+#EXTINF:-1 group-title="吉林联通-组播1",敦化
+http://wanda01.e7q.com:18090/rtp/239.253.142.89:3000
+#EXTINF:-1 group-title="吉林联通-组播1",晴彩广场舞
+http://wanda01.e7q.com:18090/rtp/239.253.142.184:3000
+#EXTINF:-1 group-title="吉林联通-组播1",晴彩竞技
+http://wanda01.e7q.com:18090/rtp/239.253.142.181:3000
+#EXTINF:-1 group-title="吉林联通-组播1",晴彩篮球
+http://wanda01.e7q.com:18090/rtp/239.253.142.182:3000
+#EXTINF:-1 group-title="吉林联通-组播1",晴彩青少
+http://wanda01.e7q.com:18090/rtp/239.253.142.183:3000
+#EXTINF:-1 group-title="吉林联通-组播1",柳河
+http://wanda01.e7q.com:18090/rtp/239.253.142.143:3000
+#EXTINF:-1 group-title="吉林联通-组播1",桦甸
+http://wanda01.e7q.com:18090/rtp/239.253.142.8:3000
+#EXTINF:-1 group-title="吉林联通-组播1",梅河口
+http://wanda01.e7q.com:18090/rtp/239.253.142.144:3000
+#EXTINF:-1 group-title="吉林联通-组播1",梨树
+http://wanda01.e7q.com:18090/rtp/239.253.142.139:3000
+#EXTINF:-1 group-title="吉林联通-组播1",汪清
+http://wanda01.e7q.com:18090/rtp/239.253.142.136:3000
+#EXTINF:-1 group-title="吉林联通-组播1",洮南
+http://wanda01.e7q.com:18090/rtp/239.253.142.156:3000
+#EXTINF:-1 group-title="吉林联通-组播1",环球影视
+http://wanda01.e7q.com:18090/rtp/239.253.142.237:3000
+#EXTINF:-1 group-title="吉林联通-组播1",磐石
+http://wanda01.e7q.com:18090/rtp/239.253.142.135:3000
+#EXTINF:-1 group-title="吉林联通-组播1",聚鲨环球
+http://wanda01.e7q.com:18090/rtp/239.253.142.73:3000
+#EXTINF:-1 group-title="吉林联通-组播1",聚鲨环球
+http://wanda01.e7q.com:18090/rtp/239.253.142.103:3000
+#EXTINF:-1 group-title="吉林联通-组播1",舒兰
+http://wanda01.e7q.com:18090/rtp/239.253.142.155:3000
+#EXTINF:-1 group-title="吉林联通-组播1",蛟河
+http://wanda01.e7q.com:18090/rtp/239.253.142.236:3000
+#EXTINF:-1 group-title="吉林联通-组播1",辉南
+http://wanda01.e7q.com:18090/rtp/239.253.142.145:3000
+#EXTINF:-1 group-title="吉林联通-组播1",通榆
+http://wanda01.e7q.com:18090/rtp/239.253.142.147:3000
+#EXTINF:-1 group-title="吉林联通-组播1",镇赉
+http://wanda01.e7q.com:18090/rtp/239.253.142.146:3000
+#EXTINF:-1 group-title="吉林联通-组播1",长影频道
+http://wanda01.e7q.com:18090/rtp/239.253.142.105:3000
+#EXTINF:-1 group-title="吉林联通-组播1",集安
+http://wanda01.e7q.com:18090/rtp/239.253.142.108:3000

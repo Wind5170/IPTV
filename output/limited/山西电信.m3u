@@ -1,0 +1,239 @@
+#EXTM3U
+#EXTINF:-1 group-title="山西电信-组播1",山西卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.1:8001
+#EXTINF:-1 group-title="山西电信-组播1",山西影视
+http://cnhdok.9966.org:9079/udp/239.1.1.4:8004
+#EXTINF:-1 group-title="山西电信-组播1",山西文体生活
+http://cnhdok.9966.org:9079/udp/239.1.1.6:8006
+#EXTINF:-1 group-title="山西电信-组播1",山西社会与法治
+http://cnhdok.9966.org:9079/udp/239.1.1.5:8005
+#EXTINF:-1 group-title="山西电信-组播1",山西经济与科技
+http://cnhdok.9966.org:9079/udp/239.1.1.3:8003
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-1综合
+http://cnhdok.9966.org:9079/udp/239.1.1.7:8007
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-2财经
+http://cnhdok.9966.org:9079/udp/239.1.1.8:8008
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-3综艺
+http://cnhdok.9966.org:9079/udp/239.1.1.9:8009
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-4中文国际
+http://cnhdok.9966.org:9079/udp/239.1.1.10:8010
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-5体育
+http://cnhdok.9966.org:9079/udp/239.1.1.11:8011
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-5+体育赛事
+http://cnhdok.9966.org:9079/udp/239.1.1.12:8012
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-6电影
+http://cnhdok.9966.org:9079/udp/239.1.1.13:8013
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-7国防军事
+http://cnhdok.9966.org:9079/rtp/239.1.1.14:8014
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-8电视剧
+http://cnhdok.9966.org:9079/udp/239.1.1.15:8015
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-9纪录
+http://cnhdok.9966.org:9079/udp/239.1.1.16:8016
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-10科教
+http://cnhdok.9966.org:9079/udp/239.1.1.17:8017
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-11戏曲
+http://cnhdok.9966.org:9079/rtp/239.1.1.18:8018
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-12社会与法
+http://cnhdok.9966.org:9079/udp/239.1.1.19:8019
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-13新闻
+http://cnhdok.9966.org:9079/udp/239.1.1.20:8020
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-14少儿
+http://cnhdok.9966.org:9079/udp/239.1.1.21:8021
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-15音乐
+http://cnhdok.9966.org:9079/rtp/239.1.1.22:8022
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-16奥林匹克
+http://cnhdok.9966.org:9079/udp/239.1.1.122:8122
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-17农业农村
+http://cnhdok.9966.org:9079/udp/239.1.1.23:8023
+#EXTINF:-1 group-title="山西电信-组播1",湖南卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.28:8028
+#EXTINF:-1 group-title="山西电信-组播1",浙江卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.38:8038
+#EXTINF:-1 group-title="山西电信-组播1",江苏卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.35:8035
+#EXTINF:-1 group-title="山西电信-组播1",北京卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.41:8041
+#EXTINF:-1 group-title="山西电信-组播1",安徽卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.44:8044
+#EXTINF:-1 group-title="山西电信-组播1",广东卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.49:8049
+#EXTINF:-1 group-title="山西电信-组播1",深圳卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.39:8039
+#EXTINF:-1 group-title="山西电信-组播1",辽宁卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.42:8042
+#EXTINF:-1 group-title="山西电信-组播1",山东卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.47:8047
+#EXTINF:-1 group-title="山西电信-组播1",山东教育卫视
+http://cnhdok.9966.org:9079/rtp/239.1.1.74:8074
+#EXTINF:-1 group-title="山西电信-组播1",天津卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.46:8046
+#EXTINF:-1 group-title="山西电信-组播1",重庆卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.36:8036
+#EXTINF:-1 group-title="山西电信-组播1",东南卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.33:8033
+#EXTINF:-1 group-title="山西电信-组播1",河北卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.48:8048
+#EXTINF:-1 group-title="山西电信-组播1",河南卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.34:8034
+#EXTINF:-1 group-title="山西电信-组播1",湖北卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.32:8032
+#EXTINF:-1 group-title="山西电信-组播1",陕西卫视
+http://cnhdok.9966.org:9079/rtp/239.1.1.50:8050
+#EXTINF:-1 group-title="山西电信-组播1",四川卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.29:8029
+#EXTINF:-1 group-title="山西电信-组播1",海南卫视
+http://cnhdok.9966.org:9079/rtp/239.1.1.55:8055
+#EXTINF:-1 group-title="山西电信-组播1",甘肃卫视
+http://cnhdok.9966.org:9079/rtp/239.1.1.51:8051
+#EXTINF:-1 group-title="山西电信-组播1",广西卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.40:8040
+#EXTINF:-1 group-title="山西电信-组播1",贵州卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.43:8043
+#EXTINF:-1 group-title="山西电信-组播1",黑龙江卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.37:8037
+#EXTINF:-1 group-title="山西电信-组播1",江西卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.52:8052
+#EXTINF:-1 group-title="山西电信-组播1",吉林卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.30:8030
+#EXTINF:-1 group-title="山西电信-组播1",内蒙古卫视
+http://cnhdok.9966.org:9079/rtp/239.1.1.60:8060
+#EXTINF:-1 group-title="山西电信-组播1",宁夏卫视
+http://cnhdok.9966.org:9079/rtp/239.1.1.56:8056
+#EXTINF:-1 group-title="山西电信-组播1",新疆卫视
+http://cnhdok.9966.org:9079/rtp/239.1.1.59:8059
+#EXTINF:-1 group-title="山西电信-组播1",云南卫视
+http://cnhdok.9966.org:9079/rtp/239.1.1.54:8054
+#EXTINF:-1 group-title="山西电信-组播1",青海卫视
+http://cnhdok.9966.org:9079/rtp/239.1.1.53:8053
+#EXTINF:-1 group-title="山西电信-组播1",西藏卫视
+http://cnhdok.9966.org:9079/rtp/239.1.1.57:8057
+#EXTINF:-1 group-title="山西电信-组播1",兵团卫视
+http://cnhdok.9966.org:9079/rtp/239.1.1.58:8058
+#EXTINF:-1 group-title="山西电信-组播1",三沙卫视
+http://cnhdok.9966.org:9079/rtp/239.1.1.70:8070
+#EXTINF:-1 group-title="山西电信-组播1",大湾区卫视
+http://cnhdok.9966.org:9079/rtp/239.1.1.69:8069
+#EXTINF:-1 group-title="山西电信-组播1",厦门卫视
+http://cnhdok.9966.org:9079/rtp/239.1.1.71:8071
+#EXTINF:-1 group-title="山西电信-组播1",凤凰中文
+http://cnhdok.9966.org:9079/udp/239.1.1.126:8126
+#EXTINF:-1 group-title="山西电信-组播1",凤凰资讯
+http://cnhdok.9966.org:9079/udp/239.1.1.127:8127
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-风云足球
+http://cnhdok.9966.org:9079/udp/239.1.1.101:8101
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-央视文化精品
+http://cnhdok.9966.org:9079/udp/239.1.1.91:8091
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-风云音乐
+http://cnhdok.9966.org:9079/udp/239.1.1.96:8096
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-第一剧场
+http://cnhdok.9966.org:9079/udp/239.1.1.94:8094
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-怀旧剧场
+http://cnhdok.9966.org:9079/udp/239.1.1.95:8095
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-风云剧场
+http://cnhdok.9966.org:9079/udp/239.1.1.93:8093
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-世界地理
+http://cnhdok.9966.org:9079/udp/239.1.1.99:8099
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-电视指南
+http://cnhdok.9966.org:9079/udp/239.1.1.90:8090
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-兵器科技
+http://cnhdok.9966.org:9079/udp/239.1.1.97:8097
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-女性时尚
+http://cnhdok.9966.org:9079/udp/239.1.1.89:8089
+#EXTINF:-1 group-title="山西电信-组播1",CCTV-央视台球
+http://cnhdok.9966.org:9079/udp/239.1.1.100:8100
+#EXTINF:-1 group-title="山西电信-组播1",CETV-1综合教育
+http://cnhdok.9966.org:9079/rtp/239.1.1.65:8065
+#EXTINF:-1 group-title="山西电信-组播1",CETV-2空中课堂
+http://cnhdok.9966.org:9079/rtp/239.1.1.66:8066
+#EXTINF:-1 group-title="山西电信-组播1",CETV-4职业教育
+http://cnhdok.9966.org:9079/rtp/239.1.1.67:8067
+#EXTINF:-1 group-title="山西电信-组播1",环球奇观
+http://cnhdok.9966.org:9079/rtp/239.1.1.98:8098
+#EXTINF:-1 group-title="山西电信-组播1",老故事
+http://cnhdok.9966.org:9079/rtp/239.1.1.87:8087
+#EXTINF:-1 group-title="山西电信-组播1",中学生
+http://cnhdok.9966.org:9079/rtp/239.1.1.104:8104
+#EXTINF:-1 group-title="山西电信-组播1",发现之旅
+http://cnhdok.9966.org:9079/rtp/239.1.1.103:8103
+#EXTINF:-1 group-title="山西电信-组播1",中国天气
+http://cnhdok.9966.org:9079/rtp/239.1.1.107:8107
+#EXTINF:-1 group-title="山西电信-组播1",百姓健康
+http://cnhdok.9966.org:9079/rtp/239.1.1.105:8105
+#EXTINF:-1 group-title="山西电信-组播1",江苏优漫卡通
+http://cnhdok.9966.org:9079/rtp/239.1.1.72:8072
+#EXTINF:-1 group-title="山西电信-组播1",北京优优宝贝
+http://cnhdok.9966.org:9079/rtp/239.1.1.114:8114
+#EXTINF:-1 group-title="山西电信-组播1",北京中华特产
+http://cnhdok.9966.org:9079/rtp/239.1.1.106:8106
+#EXTINF:-1 group-title="山西电信-组播1",北京四海钓鱼
+http://cnhdok.9966.org:9079/rtp/239.1.1.111:8111
+#EXTINF:-1 group-title="山西电信-组播1",北京环球旅游
+http://cnhdok.9966.org:9079/rtp/239.1.1.116:8116
+#EXTINF:-1 group-title="山西电信-组播1",北京生态环境
+http://cnhdok.9966.org:9079/rtp/239.1.1.110:8110
+#EXTINF:-1 group-title="山西电信-组播1",北京车迷频道
+http://cnhdok.9966.org:9079/rtp/239.1.1.109:8109
+#EXTINF:-1 group-title="山西电信-组播1",北京卡酷少儿
+http://cnhdok.9966.org:9079/rtp/239.1.1.62:8062
+#EXTINF:-1 group-title="山西电信-组播1",山西书画频道
+http://cnhdok.9966.org:9079/rtp/239.1.1.88:8088
+#EXTINF:-1 group-title="山西电信-组播1",辽宁家庭理财
+http://cnhdok.9966.org:9079/rtp/239.1.1.112:8112
+#EXTINF:-1 group-title="山西电信-组播1",上海东方财经
+http://cnhdok.9966.org:9079/udp/239.1.1.85:8085
+#EXTINF:-1 group-title="山西电信-组播1",上海动漫秀场
+http://cnhdok.9966.org:9079/udp/239.1.1.80:8080
+#EXTINF:-1 group-title="山西电信-组播1",上海游戏风云
+http://cnhdok.9966.org:9079/udp/239.1.1.83:8083
+#EXTINF:-1 group-title="山西电信-组播1",上海法治天地
+http://cnhdok.9966.org:9079/udp/239.1.1.79:8079
+#EXTINF:-1 group-title="山西电信-组播1",上海都市剧场
+http://cnhdok.9966.org:9079/udp/239.1.1.81:8081
+#EXTINF:-1 group-title="山西电信-组播1",上海金色学堂
+http://cnhdok.9966.org:9079/udp/239.1.1.82:8082
+#EXTINF:-1 group-title="山西电信-组播1",上海生活时尚
+http://cnhdok.9966.org:9079/udp/239.1.1.76:8076
+#EXTINF:-1 group-title="山西电信-组播1",上海哈哈炫动
+http://cnhdok.9966.org:9079/rtp/239.1.1.64:8064
+#EXTINF:-1 group-title="山西电信-组播1",上海纪实人文
+http://cnhdok.9966.org:9079/udp/239.1.1.45:8045
+#EXTINF:-1 group-title="山西电信-组播1",上海魅力足球
+http://cnhdok.9966.org:9079/udp/239.1.1.75:8075
+#EXTINF:-1 group-title="山西电信-组播1",江苏财富天下
+http://cnhdok.9966.org:9079/rtp/239.1.1.113:8113
+#EXTINF:-1 group-title="山西电信-组播1",湖南茶频道
+http://cnhdok.9966.org:9079/udp/239.1.1.77:8077
+#EXTINF:-1 group-title="山西电信-组播1",湖南金鹰纪实
+http://cnhdok.9966.org:9079/udp/239.1.1.63:8063
+#EXTINF:-1 group-title="山西电信-组播1",湖南金鹰卡通
+http://cnhdok.9966.org:9079/rtp/239.1.1.61:8061
+#EXTINF:-1 group-title="山西电信-组播1",广东嘉佳卡通
+http://cnhdok.9966.org:9079/rtp/239.1.1.68:8068
+#EXTINF:-1 group-title="山西电信-组播1",重庆汽摩
+http://cnhdok.9966.org:9079/rtp/239.1.1.92:8092
+#EXTINF:-1 group-title="山西电信-组播1",甘肃证券服务
+http://cnhdok.9966.org:9079/rtp/239.1.1.108:8108
+#EXTINF:-1 group-title="山西电信-组播1",优购物
+http://cnhdok.9966.org:9079/rtp/239.1.1.115:8115
+#EXTINF:-1 group-title="山西电信-组播1",晋中公共频道
+http://cnhdok.9966.org:9079/udp/239.1.1.121:8121
+#EXTINF:-1 group-title="山西电信-组播1",晋中综合频道
+http://cnhdok.9966.org:9079/udp/239.1.1.120:8120
+#EXTINF:-1 group-title="山西电信-组播1",运城1台
+http://cnhdok.9966.org:9079/udp/239.1.1.123:8123
+#EXTINF:-1 group-title="山西电信-组播1",运城2台
+http://cnhdok.9966.org:9079/udp/239.1.1.124:8124
+#EXTINF:-1 group-title="山西电信-组播1",上海乐游纪实
+http://cnhdok.9966.org:9079/udp/239.1.1.84:8084
+#EXTINF:-1 group-title="山西电信-组播1",上海卫视
+http://cnhdok.9966.org:9079/udp/239.1.1.31:8031
+#EXTINF:-1 group-title="山西电信-组播1",湖南快乐垂钓
+http://cnhdok.9966.org:9079/udp/239.1.1.86:8086
+#EXTINF:-1 group-title="山西电信-组播1",CCTV高尔夫网球
+http://cnhdok.9966.org:9079/udp/239.1.1.102:8102
+#EXTINF:-1 group-title="山西电信-组播1",农林卫视
+http://cnhdok.9966.org:9079/rtp/239.1.1.73:8073
+#EXTINF:-1 group-title="山西电信-组播1",盐湖频道
+http://cnhdok.9966.org:9079/udp/239.1.1.125:8125
+#EXTINF:-1 group-title="山西电信-组播1",黄河电视台
+http://cnhdok.9966.org:9079/udp/239.1.1.2:8002

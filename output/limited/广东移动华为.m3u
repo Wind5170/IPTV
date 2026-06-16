@@ -1,0 +1,413 @@
+#EXTM3U
+#EXTINF:-1 group-title="广东移动华为-组播1",CCTV-卫生健康
+http://gaoxing.dns.army:10086/rtp/239.11.0.185:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CCTV-风云足球
+http://gaoxing.dns.army:10086/rtp/239.11.0.59:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CCTV-高尔夫·网球
+http://gaoxing.dns.army:10086/rtp/239.11.0.61:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CCTV-央视文化精品
+http://gaoxing.dns.army:10086/rtp/239.11.0.66:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CCTV-风云音乐
+http://gaoxing.dns.army:10086/rtp/239.11.0.68:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CCTV-第一剧场
+http://gaoxing.dns.army:10086/rtp/239.11.0.67:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CCTV-怀旧剧场
+http://gaoxing.dns.army:10086/rtp/239.11.0.64:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CCTV-风云剧场
+http://gaoxing.dns.army:10086/rtp/239.11.0.65:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CCTV-世界地理
+http://gaoxing.dns.army:10086/rtp/239.11.0.63:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CCTV-电视指南
+http://gaoxing.dns.army:10086/rtp/239.11.0.58:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CCTV-兵器科技
+http://gaoxing.dns.army:10086/rtp/239.11.0.57:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CCTV-女性时尚
+http://gaoxing.dns.army:10086/rtp/239.11.0.62:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CCTV-央视台球
+http://gaoxing.dns.army:10086/rtp/239.11.0.60:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CGTN英语
+http://gaoxing.dns.army:10086/rtp/239.10.0.196:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CGTN英语
+http://gaoxing.dns.army:10086/rtp/239.11.0.103:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CGTN西班牙语
+http://gaoxing.dns.army:10086/rtp/239.11.0.105:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CGTN法语
+http://gaoxing.dns.army:10086/rtp/239.11.0.106:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CGTN阿拉伯语
+http://gaoxing.dns.army:10086/rtp/239.11.0.107:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CGTN俄语
+http://gaoxing.dns.army:10086/rtp/239.11.0.108:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CGTN纪录
+http://gaoxing.dns.army:10086/rtp/239.11.0.104:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CGTN纪录
+http://gaoxing.dns.army:10086/rtp/239.11.0.178:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CETV早期教育
+http://gaoxing.dns.army:10086/rtp/239.11.0.100:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CETV-1综合教育
+http://gaoxing.dns.army:10086/rtp/239.10.0.223:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CETV-2空中课堂
+http://gaoxing.dns.army:10086/rtp/239.11.0.35:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CETV-4职业教育
+http://gaoxing.dns.army:10086/rtp/239.11.0.36:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CETV-4职业教育
+http://gaoxing.dns.army:10086/rtp/239.11.0.176:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CHC影迷电影
+http://gaoxing.dns.army:10086/rtp/239.11.0.129:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",环球奇观
+http://gaoxing.dns.army:10086/rtp/239.10.0.36:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",中国交通
+http://gaoxing.dns.army:10086/rtp/239.10.0.72:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",老故事
+http://gaoxing.dns.army:10086/rtp/239.10.0.33:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",中学生
+http://gaoxing.dns.army:10086/rtp/239.11.0.173:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",发现之旅
+http://gaoxing.dns.army:10086/rtp/239.11.0.182:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",发现之旅
+http://gaoxing.dns.army:10086/rtp/239.11.0.183:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",睛彩广场舞
+http://gaoxing.dns.army:10086/rtp/239.11.0.184:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事01
+http://gaoxing.dns.army:10086/rtp/239.10.0.87:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事02
+http://gaoxing.dns.army:10086/rtp/239.10.0.88:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事03
+http://gaoxing.dns.army:10086/rtp/239.10.0.89:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事04
+http://gaoxing.dns.army:10086/rtp/239.10.0.247:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事05
+http://gaoxing.dns.army:10086/rtp/239.10.0.248:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事06
+http://gaoxing.dns.army:10086/rtp/239.10.0.249:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事07
+http://gaoxing.dns.army:10086/rtp/239.10.0.250:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事08
+http://gaoxing.dns.army:10086/rtp/239.10.0.251:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事09
+http://gaoxing.dns.army:10086/rtp/239.10.0.252:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事10
+http://gaoxing.dns.army:10086/rtp/239.11.0.1:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事11
+http://gaoxing.dns.army:10086/rtp/239.11.0.2:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事12
+http://gaoxing.dns.army:10086/rtp/239.11.0.3:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事13
+http://gaoxing.dns.army:10086/rtp/239.11.0.4:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事14
+http://gaoxing.dns.army:10086/rtp/239.11.0.5:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事15
+http://gaoxing.dns.army:10086/rtp/239.11.0.6:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事16
+http://gaoxing.dns.army:10086/rtp/239.11.0.7:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事17
+http://gaoxing.dns.army:10086/rtp/239.11.0.8:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事18
+http://gaoxing.dns.army:10086/rtp/239.11.0.9:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事19
+http://gaoxing.dns.army:10086/rtp/239.11.0.10:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事20
+http://gaoxing.dns.army:10086/rtp/239.11.0.11:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事21
+http://gaoxing.dns.army:10086/rtp/239.11.0.12:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事22
+http://gaoxing.dns.army:10086/rtp/239.11.0.13:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事23
+http://gaoxing.dns.army:10086/rtp/239.11.0.14:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事24
+http://gaoxing.dns.army:10086/rtp/239.11.0.18:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事25
+http://gaoxing.dns.army:10086/rtp/239.11.0.19:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事26
+http://gaoxing.dns.army:10086/rtp/239.11.0.20:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事27
+http://gaoxing.dns.army:10086/rtp/239.11.0.21:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事28
+http://gaoxing.dns.army:10086/rtp/239.11.0.22:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",咪咕-赛事4K
+http://gaoxing.dns.army:10086/rtp/239.10.0.68:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",IPTV5+
+http://gaoxing.dns.army:10086/rtp/239.10.0.218:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",IPTV影视推荐
+http://gaoxing.dns.army:10086/rtp/239.10.0.84:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",IPTV影视推荐
+http://gaoxing.dns.army:10086/rtp/239.10.0.90:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",IPTV影视推荐
+http://gaoxing.dns.army:10086/rtp/239.10.0.91:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",IPTV影视推荐
+http://gaoxing.dns.army:10086/rtp/239.10.0.92:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",IPTV影视推荐
+http://gaoxing.dns.army:10086/rtp/239.10.0.93:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",IPTV影视推荐
+http://gaoxing.dns.army:10086/rtp/239.10.0.94:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",IPTV影视推荐
+http://gaoxing.dns.army:10086/rtp/239.10.0.95:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",IPTV影视推荐
+http://gaoxing.dns.army:10086/rtp/239.10.0.96:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",IPTV影视推荐
+http://gaoxing.dns.army:10086/rtp/239.10.0.97:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",IPTV影视推荐
+http://gaoxing.dns.army:10086/rtp/239.10.0.98:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",IPTV影视推荐
+http://gaoxing.dns.army:10086/rtp/239.10.0.99:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",IPTV影视推荐
+http://gaoxing.dns.army:10086/rtp/239.10.0.100:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",IPTV影视推荐
+http://gaoxing.dns.army:10086/rtp/239.11.0.15:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",IPTV影视推荐
+http://gaoxing.dns.army:10086/rtp/239.11.0.26:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",IPTV影视推荐
+http://gaoxing.dns.army:10086/rtp/239.11.0.187:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",IPTV影视推荐
+http://gaoxing.dns.army:10086/rtp/239.11.0.188:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",北京卡酷少儿
+http://gaoxing.dns.army:10086/rtp/239.10.0.172:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",山西书画频道
+http://gaoxing.dns.army:10086/rtp/239.11.0.174:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",上海纪实人文
+http://gaoxing.dns.army:10086/rtp/239.10.0.78:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",杭州求索纪录
+http://gaoxing.dns.army:10086/rtp/239.11.0.128:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",湖北快乐垂钓
+http://gaoxing.dns.army:10086/rtp/239.11.0.131:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",湖南茶频道
+http://gaoxing.dns.army:10086/rtp/239.11.0.130:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",湖南金鹰纪实
+http://gaoxing.dns.army:10086/rtp/239.10.0.206:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",湖南金鹰卡通
+http://gaoxing.dns.army:10086/rtp/239.10.0.173:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",湖南金鹰卡通
+http://gaoxing.dns.army:10086/rtp/239.11.0.125:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东岭南戏曲
+http://gaoxing.dns.army:10086/rtp/239.10.0.125:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东岭南戏曲
+http://gaoxing.dns.army:10086/rtp/239.11.0.180:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东嘉佳卡通
+http://gaoxing.dns.army:10086/rtp/239.10.0.200:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东嘉佳卡通
+http://gaoxing.dns.army:10086/rtp/239.10.0.129:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",重庆汽摩
+http://gaoxing.dns.army:10086/rtp/239.10.0.232:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",陕西国学频道
+http://gaoxing.dns.army:10086/rtp/239.10.0.38:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东南方购物
+http://gaoxing.dns.army:10086/rtp/239.10.0.126:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东南方购物
+http://gaoxing.dns.army:10086/rtp/239.11.0.95:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广播
+http://gaoxing.dns.army:10086/rtp/239.10.0.45:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广播
+http://gaoxing.dns.army:10086/rtp/239.10.0.49:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广播
+http://gaoxing.dns.army:10086/rtp/239.10.0.50:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广播
+http://gaoxing.dns.army:10086/rtp/239.10.0.51:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广播
+http://gaoxing.dns.army:10086/rtp/239.10.0.52:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广播
+http://gaoxing.dns.army:10086/rtp/239.10.0.56:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广播
+http://gaoxing.dns.army:10086/rtp/239.10.0.58:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广播
+http://gaoxing.dns.army:10086/rtp/239.10.0.59:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广播
+http://gaoxing.dns.army:10086/rtp/239.10.0.76:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",北京纪实
+http://gaoxing.dns.army:10086/rtp/239.10.0.184:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东4K
+http://gaoxing.dns.army:10086/rtp/239.10.0.75:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东体育
+http://gaoxing.dns.army:10086/rtp/239.10.0.47:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东体育
+http://gaoxing.dns.army:10086/rtp/239.10.0.113:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东体育
+http://gaoxing.dns.army:10086/rtp/239.10.0.124:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东少儿
+http://gaoxing.dns.army:10086/rtp/239.10.0.128:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东少儿
+http://gaoxing.dns.army:10086/rtp/239.11.0.81:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东影视
+http://gaoxing.dns.army:10086/rtp/239.10.0.127:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东影视
+http://gaoxing.dns.army:10086/rtp/239.11.0.79:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东新闻
+http://gaoxing.dns.army:10086/rtp/239.10.0.122:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东新闻
+http://gaoxing.dns.army:10086/rtp/239.10.0.199:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东民生
+http://gaoxing.dns.army:10086/rtp/239.10.0.123:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东民生
+http://gaoxing.dns.army:10086/rtp/239.11.0.80:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东珠江
+http://gaoxing.dns.army:10086/rtp/239.10.0.62:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东珠江
+http://gaoxing.dns.army:10086/rtp/239.10.0.63:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东珠江
+http://gaoxing.dns.army:10086/rtp/239.10.0.121:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东移动
+http://gaoxing.dns.army:10086/rtp/239.10.0.143:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东经济科教
+http://gaoxing.dns.army:10086/rtp/239.10.0.46:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东经济科教
+http://gaoxing.dns.army:10086/rtp/239.10.0.112:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东经济科教
+http://gaoxing.dns.army:10086/rtp/239.10.0.201:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广东综艺-4K
+http://gaoxing.dns.army:10086/rtp/239.10.0.64:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广州云课堂
+http://gaoxing.dns.army:10086/rtp/239.11.0.150:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广州云课堂
+http://gaoxing.dns.army:10086/rtp/239.11.0.151:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广州云课堂
+http://gaoxing.dns.army:10086/rtp/239.11.0.152:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广州云课堂
+http://gaoxing.dns.army:10086/rtp/239.11.0.153:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广州云课堂
+http://gaoxing.dns.army:10086/rtp/239.11.0.154:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广州云课堂
+http://gaoxing.dns.army:10086/rtp/239.11.0.155:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广州云课堂
+http://gaoxing.dns.army:10086/rtp/239.11.0.156:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广州云课堂
+http://gaoxing.dns.army:10086/rtp/239.11.0.157:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广州云课堂
+http://gaoxing.dns.army:10086/rtp/239.11.0.158:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广州云课堂
+http://gaoxing.dns.army:10086/rtp/239.11.0.159:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广州云课堂
+http://gaoxing.dns.army:10086/rtp/239.11.0.160:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广州影视
+http://gaoxing.dns.army:10086/rtp/239.11.0.140:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广州法治
+http://gaoxing.dns.army:10086/rtp/239.11.0.141:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广州竞赛
+http://gaoxing.dns.army:10086/rtp/239.11.0.142:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",广州综合
+http://gaoxing.dns.army:10086/rtp/239.11.0.138:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",韶关公共
+http://gaoxing.dns.army:10086/rtp/239.11.0.85:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",韶关新闻综合
+http://gaoxing.dns.army:10086/rtp/239.11.0.84:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",珠海
+http://gaoxing.dns.army:10086/rtp/239.10.0.242:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",珠海二套
+http://gaoxing.dns.army:10086/rtp/239.10.0.65:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",佛山南海
+http://gaoxing.dns.army:10086/rtp/239.11.0.110:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",佛山南海
+http://gaoxing.dns.army:10086/rtp/239.11.0.115:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",佛山城市生活
+http://gaoxing.dns.army:10086/rtp/239.11.0.109:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",佛山城市生活
+http://gaoxing.dns.army:10086/rtp/239.11.0.114:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",佛山影视
+http://gaoxing.dns.army:10086/rtp/239.11.0.117:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",佛山综合
+http://gaoxing.dns.army:10086/rtp/239.11.0.113:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",佛山综合
+http://gaoxing.dns.army:10086/rtp/239.11.0.118:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",佛山顺德
+http://gaoxing.dns.army:10086/rtp/239.11.0.111:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",佛山顺德
+http://gaoxing.dns.army:10086/rtp/239.11.0.116:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",江门公共
+http://gaoxing.dns.army:10086/rtp/239.10.0.139:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",江门教育
+http://gaoxing.dns.army:10086/rtp/239.10.0.152:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",江门综合
+http://gaoxing.dns.army:10086/rtp/239.10.0.219:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",江门综合
+http://gaoxing.dns.army:10086/rtp/239.11.0.69:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",茂名文化生活
+http://gaoxing.dns.army:10086/rtp/239.10.0.236:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",茂名综合
+http://gaoxing.dns.army:10086/rtp/239.10.0.238:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",茂名综合
+http://gaoxing.dns.army:10086/rtp/239.10.0.239:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",肇庆生活服务
+http://gaoxing.dns.army:10086/rtp/239.11.0.54:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",肇庆生活服务
+http://gaoxing.dns.army:10086/rtp/239.11.0.70:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",肇庆生活服务
+http://gaoxing.dns.army:10086/rtp/239.11.0.75:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",肇庆综合
+http://gaoxing.dns.army:10086/rtp/239.11.0.53:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",阳江
+http://gaoxing.dns.army:10086/rtp/239.11.0.189:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",清远综合
+http://gaoxing.dns.army:10086/rtp/239.11.0.74:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",中山公共
+http://gaoxing.dns.army:10086/rtp/239.11.0.123:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",中山教育
+http://gaoxing.dns.army:10086/rtp/239.11.0.124:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",中山综合
+http://gaoxing.dns.army:10086/rtp/239.11.0.16:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",中山综合
+http://gaoxing.dns.army:10086/rtp/239.11.0.119:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",中山综合
+http://gaoxing.dns.army:10086/rtp/239.11.0.122:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",云浮文旅
+http://gaoxing.dns.army:10086/rtp/239.11.0.77:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",云浮文旅
+http://gaoxing.dns.army:10086/rtp/239.11.0.97:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",云浮综合
+http://gaoxing.dns.army:10086/rtp/239.11.0.76:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",云浮综合
+http://gaoxing.dns.army:10086/rtp/239.11.0.96:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CBN幸福剧场
+http://gaoxing.dns.army:10086/rtp/239.11.0.165:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CBN幸福娱乐
+http://gaoxing.dns.army:10086/rtp/239.11.0.166:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CBN每日影院
+http://gaoxing.dns.army:10086/rtp/239.11.0.163:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",CBN风尚生活
+http://gaoxing.dns.army:10086/rtp/239.11.0.164:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",华数
+http://gaoxing.dns.army:10086/rtp/239.10.0.8:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",华数
+http://gaoxing.dns.army:10086/rtp/239.10.0.12:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",华数
+http://gaoxing.dns.army:10086/rtp/239.10.0.13:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",华数
+http://gaoxing.dns.army:10086/rtp/239.10.0.14:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",华数
+http://gaoxing.dns.army:10086/rtp/239.10.0.15:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",华数
+http://gaoxing.dns.army:10086/rtp/239.10.0.18:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",华数
+http://gaoxing.dns.army:10086/rtp/239.10.0.19:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",南国新闻
+http://gaoxing.dns.army:10086/rtp/239.11.0.139:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",南国都市-4K
+http://gaoxing.dns.army:10086/rtp/239.11.0.170:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",央视网CCTV3
+http://gaoxing.dns.army:10086/rtp/239.10.0.16:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",央视网CCTV3
+http://gaoxing.dns.army:10086/rtp/239.10.0.20:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",央视网CCTV5
+http://gaoxing.dns.army:10086/rtp/239.10.0.17:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",央视网CCTV10
+http://gaoxing.dns.army:10086/rtp/239.10.0.10:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",央视网CCTV11
+http://gaoxing.dns.army:10086/rtp/239.10.0.9:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",央视网CCTV12
+http://gaoxing.dns.army:10086/rtp/239.10.0.11:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",文化生活
+http://gaoxing.dns.army:10086/rtp/239.11.0.99:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",新闻综合
+http://gaoxing.dns.army:10086/rtp/239.10.0.253:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",暂无
+http://gaoxing.dns.army:10086/rtp/239.11.0.186:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",现代教育
+http://gaoxing.dns.army:10086/rtp/239.10.0.138:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",粤TV
+http://gaoxing.dns.army:10086/rtp/239.10.0.21:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",粤TV
+http://gaoxing.dns.army:10086/rtp/239.10.0.69:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",粤TV
+http://gaoxing.dns.army:10086/rtp/239.10.0.174:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",粤TV
+http://gaoxing.dns.army:10086/rtp/239.10.0.254:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",粤TV
+http://gaoxing.dns.army:10086/rtp/239.11.0.162:1025
+#EXTINF:-1 group-title="广东移动华为-组播1",粤TV
+http://gaoxing.dns.army:10086/rtp/239.11.0.168:1025
