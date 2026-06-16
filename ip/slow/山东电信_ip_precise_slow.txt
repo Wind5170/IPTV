@@ -1,3 +1,4 @@
-# 20260615_1603_precise_slow
+# 20260616_1526_precise_slow
 # 服务器地址	速度
-sunny2017.xyz:7788	212.09 KB/s
+113.120.171.27:4022	275.74 KB/s
+www.niuin.com:4022	17.08 KB/s
