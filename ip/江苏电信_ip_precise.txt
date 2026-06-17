@@ -1,15 +1,21 @@
-# 20260616_1523_precise
+# 20260617_1354_precise
 # 服务器地址	速度
-y1nf0x.myds.me:5888	401.62 KB/s
-121.226.105.6:6888	399.52 KB/s
-ikuai-v4.17271201.xyz:4000	384.88 KB/s
-h.vanshun.com:8802	368.96 KB/s
-dx.joygala.cn:8118	363.43 KB/s
-t.7ze.top:4022	363.29 KB/s
-jw318.synology.me:888	339.63 KB/s
-49.79.83.116:58888	336.69 KB/s
-istoreos.sclvip.top:5566	333.07 KB/s
-www.yzddy.top:8800	313.82 KB/s
-nas3.bycza.top:8100	312.26 KB/s
-vs.heylc.com:4022	310.87 KB/s
-j1900.silicaite.top:58888	301.01 KB/s
+114.226.212.155:8787	493.81 KB/s
+114.226.212.154:8787	482.65 KB/s
+y1nf0x.myds.me:5888	474.62 KB/s
+t.7ze.top:4022	457.71 KB/s
+www.sclvip.top:8787	448.13 KB/s
+gcyp.mycloudnas.com:4000	440.83 KB/s
+h.vanshun.com:8802	435.14 KB/s
+121.226.105.6:6888	427.72 KB/s
+j1900.silicaite.top:58888	423.65 KB/s
+49.79.83.116:58888	409.50 KB/s
+vs.heylc.com:4022	398.30 KB/s
+jw318.synology.me:888	387.93 KB/s
+dx.joygala.cn:8118	378.00 KB/s
+www.yzddy.top:8800	377.92 KB/s
+nas3.bycza.top:8100	365.05 KB/s
+acp-cloud.asuscomm.com:4000	360.98 KB/s
+istoreos.sclvip.top:5566	343.90 KB/s
+ikuai-v4.17271201.xyz:4000	341.82 KB/s
+zp.zshwx.cn:8888	306.16 KB/s

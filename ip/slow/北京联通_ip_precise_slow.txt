@@ -1,11 +1,10 @@
-# 20260616_1513_precise_slow
+# 20260617_1345_precise_slow
 # 服务器地址	速度
-www.ikuai.me:4022	299.06 KB/s
-laiboy.asuscomm.com:58686	289.31 KB/s
-aecm6mg6ilmqybhl.nexusedgeio.com:5588	253.17 KB/s
-aikuai.natnum.top:8099	162.50 KB/s
-triq.cc:8012	97.51 KB/s
-awnjnmctlaxqsapgzjjsvvfsp.xyz:4022	58.73 KB/s
-unicom3.swjms.com:4022	15.05 KB/s
-weixin.mfsz.cn:8888	4.82 KB/s
-owvpn.famcloud.top:9878	1.67 KB/s
+123.118.63.153:8686	299.98 KB/s
+weixin.mfsz.cn:8888	258.04 KB/s
+123.118.52.115:8686	244.58 KB/s
+unicom3.swjms.com:4022	163.42 KB/s
+sphinger.f3322.net:11012	140.39 KB/s
+owvpn.famcloud.top:9878	139.36 KB/s
+www.ikuai.me:4022	64.06 KB/s
+aikuai.natnum.top:8099	18.80 KB/s

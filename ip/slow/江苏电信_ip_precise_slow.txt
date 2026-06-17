@@ -1,14 +1,11 @@
-# 20260616_1523_precise_slow
+# 20260617_1354_precise_slow
 # 服务器地址	速度
-acp-cloud.asuscomm.com:4000	293.83 KB/s
-980413.xyz:6000	260.80 KB/s
-121.237.245.222:8888	240.01 KB/s
-kouki.pro:8888	207.41 KB/s
-zp.zshwx.cn:8888	185.28 KB/s
-gcyp.mycloudnas.com:4000	152.09 KB/s
-njbobo.mycloudnas.com:4022	142.09 KB/s
-www.sclvip.top:8787	115.21 KB/s
-nas2.bycza.top:9000	105.16 KB/s
-114.226.212.154:8787	66.51 KB/s
-114.226.212.155:8787	54.02 KB/s
-home.amucn.net:8800	0.41 KB/s
+njbobo.mycloudnas.com:4022	282.32 KB/s
+106.111.244.12:58099	242.08 KB/s
+121.237.245.222:8888	239.61 KB/s
+106.111.244.8:58099	236.22 KB/s
+iptv.feng.js.cn:58099	235.82 KB/s
+kouki.pro:8888	215.23 KB/s
+nas2.bycza.top:9000	90.93 KB/s
+980413.xyz:6000	19.88 KB/s
+home.amucn.net:8800	0.23 KB/s

@@ -1,6 +1,10 @@
-# 20260616_1531_precise
+# 20260617_1400_precise
 # 服务器地址	速度
-maymoon.asuscomm.com:7777	404.68 KB/s
-36.24.64.82:8888	398.98 KB/s
-www.liangcl.top:8686	369.02 KB/s
-www.slq888.cn:9999	330.50 KB/s
+gilbert0571.eu.org:8888	500.12 KB/s
+maymoon.asuscomm.com:7777	481.58 KB/s
+www.liangcl.top:8686	476.00 KB/s
+36.24.64.82:8888	457.85 KB/s
+hzmaidu.com:8090	454.80 KB/s
+www.slq888.cn:9999	442.24 KB/s
+9.lexlong.top:8001	433.79 KB/s
+www.negative.top:50000	426.84 KB/s
