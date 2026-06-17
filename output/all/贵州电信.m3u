@@ -1,629 +1,315 @@
 #EXTM3U
 #EXTINF:-1 group-title="贵州电信-组播1",贵州卫视
-http://122.9.151.210:887/rtp/238.255.2.1:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵州卫视
-http://122.9.151.210:887/rtp/238.255.2.147:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵州卫视2
-http://122.9.151.210:887/rtp/238.255.2.2:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵州卫视3
-http://122.9.151.210:887/rtp/238.255.2.3:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵州卫视4
-http://122.9.151.210:887/rtp/238.255.2.4:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵州卫视5
-http://122.9.151.210:887/rtp/238.255.2.5:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵州卫视6
-http://122.9.151.210:887/rtp/238.255.2.6:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵州卫视7
-http://122.9.151.210:887/rtp/238.255.2.9:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵州-3
-http://122.9.151.210:887/rtp/238.255.2.159:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵州-3
-http://122.9.151.210:887/rtp/238.255.2.183:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵州-3
-http://122.9.151.210:887/rtp/238.255.2.187:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵州-3
-http://122.9.151.210:887/rtp/238.255.2.200:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵州宣传片
-http://122.9.151.210:887/rtp/238.255.2.112:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵州宣传片
-http://122.9.151.210:887/rtp/238.255.2.141:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵州宣传片
-http://122.9.151.210:887/rtp/238.255.2.142:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵州直播频道
-http://122.9.151.210:887/rtp/238.255.2.206:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵州移动电视
-http://122.9.151.210:887/rtp/238.255.2.117:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-1综合
-http://122.9.151.210:887/rtp/238.255.2.91:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-2财经
-http://122.9.151.210:887/rtp/238.255.2.11:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-3综艺
-http://122.9.151.210:887/rtp/238.255.2.133:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-4中文国际
-http://122.9.151.210:887/rtp/238.255.2.92:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-4中文国际欧洲
-http://122.9.151.210:887/rtp/238.255.2.213:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-4中文国际美洲
-http://122.9.151.210:887/rtp/238.255.2.214:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-5体育
-http://122.9.151.210:887/rtp/238.255.2.134:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-5+体育赛事
-http://122.9.151.210:887/rtp/238.255.2.185:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-6电影
-http://122.9.151.210:887/rtp/238.255.2.135:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-7国防军事
-http://122.9.151.210:887/rtp/238.255.2.12:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-8电视剧
-http://122.9.151.210:887/rtp/238.255.2.136:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-9纪录
-http://122.9.151.210:887/rtp/238.255.2.155:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-10科教
-http://122.9.151.210:887/rtp/238.255.2.13:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-11戏曲
-http://122.9.151.210:887/rtp/238.255.2.14:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-12社会与法
-http://122.9.151.210:887/rtp/238.255.2.15:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-13新闻
-http://122.9.151.210:887/rtp/238.255.2.16:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-14少儿
-http://122.9.151.210:887/rtp/238.255.2.17:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-15音乐
-http://122.9.151.210:887/rtp/238.255.2.18:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-16奥林匹克
-http://122.9.151.210:887/rtp/238.255.2.52:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-17农业农村
-http://122.9.151.210:887/rtp/238.255.2.137:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV4K超高清
-http://122.9.151.210:887/rtp/238.255.2.139:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV16超高清
-http://122.9.151.210:887/rtp/238.255.2.47:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV16超高清
-http://122.9.151.210:887/rtp/238.255.2.145:5999
-#EXTINF:-1 group-title="贵州电信-组播1",湖南卫视
-http://122.9.151.210:887/rtp/238.255.2.93:5999
-#EXTINF:-1 group-title="贵州电信-组播1",浙江卫视
-http://122.9.151.210:887/rtp/238.255.2.100:5999
-#EXTINF:-1 group-title="贵州电信-组播1",江苏卫视
-http://122.9.151.210:887/rtp/238.255.2.104:5999
-#EXTINF:-1 group-title="贵州电信-组播1",北京卫视
-http://122.9.151.210:887/rtp/238.255.2.81:5999
-#EXTINF:-1 group-title="贵州电信-组播1",东方卫视
-http://122.9.151.210:887/rtp/238.255.2.98:5999
-#EXTINF:-1 group-title="贵州电信-组播1",安徽卫视
-http://122.9.151.210:887/rtp/238.255.2.101:5999
-#EXTINF:-1 group-title="贵州电信-组播1",广东卫视
-http://122.9.151.210:887/rtp/238.255.2.59:5999
-#EXTINF:-1 group-title="贵州电信-组播1",深圳卫视
-http://122.9.151.210:887/rtp/238.255.2.61:5999
-#EXTINF:-1 group-title="贵州电信-组播1",辽宁卫视
-http://122.9.151.210:887/rtp/238.255.2.69:5999
-#EXTINF:-1 group-title="贵州电信-组播1",山东卫视
-http://122.9.151.210:887/rtp/238.255.2.97:5999
-#EXTINF:-1 group-title="贵州电信-组播1",山东教育卫视
-http://122.9.151.210:887/rtp/238.255.2.79:5999
-#EXTINF:-1 group-title="贵州电信-组播1",天津卫视
-http://122.9.151.210:887/rtp/238.255.2.99:5999
-#EXTINF:-1 group-title="贵州电信-组播1",重庆卫视
-http://122.9.151.210:887/rtp/238.255.2.78:5999
-#EXTINF:-1 group-title="贵州电信-组播1",东南卫视
-http://122.9.151.210:887/rtp/238.255.2.103:5999
-#EXTINF:-1 group-title="贵州电信-组播1",河北卫视
-http://122.9.151.210:887/rtp/238.255.2.77:5999
-#EXTINF:-1 group-title="贵州电信-组播1",河南卫视
-http://122.9.151.210:887/rtp/238.255.2.74:5999
-#EXTINF:-1 group-title="贵州电信-组播1",湖北卫视
-http://122.9.151.210:887/rtp/238.255.2.102:5999
-#EXTINF:-1 group-title="贵州电信-组播1",陕西卫视
-http://122.9.151.210:887/rtp/238.255.2.72:5999
-#EXTINF:-1 group-title="贵州电信-组播1",四川卫视
-http://122.9.151.210:887/rtp/238.255.2.76:5999
-#EXTINF:-1 group-title="贵州电信-组播1",海南卫视
-http://122.9.151.210:887/rtp/238.255.2.58:5999
-#EXTINF:-1 group-title="贵州电信-组播1",甘肃卫视
-http://122.9.151.210:887/rtp/238.255.2.73:5999
-#EXTINF:-1 group-title="贵州电信-组播1",广西卫视
-http://122.9.151.210:887/rtp/238.255.2.64:5999
-#EXTINF:-1 group-title="贵州电信-组播1",黑龙江卫视
-http://122.9.151.210:887/rtp/238.255.2.96:5999
-#EXTINF:-1 group-title="贵州电信-组播1",江西卫视
-http://122.9.151.210:887/rtp/238.255.2.94:5999
-#EXTINF:-1 group-title="贵州电信-组播1",吉林卫视
-http://122.9.151.210:887/rtp/238.255.2.95:5999
-#EXTINF:-1 group-title="贵州电信-组播1",内蒙古卫视
-http://122.9.151.210:887/rtp/238.255.2.53:5999
-#EXTINF:-1 group-title="贵州电信-组播1",宁夏卫视
-http://122.9.151.210:887/rtp/238.255.2.75:5999
-#EXTINF:-1 group-title="贵州电信-组播1",山西卫视
-http://122.9.151.210:887/rtp/238.255.2.71:5999
-#EXTINF:-1 group-title="贵州电信-组播1",新疆卫视
-http://122.9.151.210:887/rtp/238.255.2.163:5999
-#EXTINF:-1 group-title="贵州电信-组播1",新疆卫视
-http://122.9.151.210:887/rtp/238.255.2.66:5999
-#EXTINF:-1 group-title="贵州电信-组播1",云南卫视
-http://122.9.151.210:887/rtp/238.255.2.63:5999
-#EXTINF:-1 group-title="贵州电信-组播1",青海卫视
-http://122.9.151.210:887/rtp/238.255.2.51:5999
-#EXTINF:-1 group-title="贵州电信-组播1",西藏卫视
-http://122.9.151.210:887/rtp/238.255.2.202:5999
-#EXTINF:-1 group-title="贵州电信-组播1",西藏卫视
-http://122.9.151.210:887/rtp/238.255.2.65:5999
-#EXTINF:-1 group-title="贵州电信-组播1",西藏卫视藏语
-http://122.9.151.210:887/rtp/238.255.2.23:5999
-#EXTINF:-1 group-title="贵州电信-组播1",兵团卫视
-http://122.9.151.210:887/rtp/238.255.2.67:5999
-#EXTINF:-1 group-title="贵州电信-组播1",康巴卫视
-http://122.9.151.210:887/rtp/238.255.2.140:5999
-#EXTINF:-1 group-title="贵州电信-组播1",三沙卫视
-http://122.9.151.210:887/rtp/238.255.2.203:5999
-#EXTINF:-1 group-title="贵州电信-组播1",厦门卫视
-http://122.9.151.210:887/rtp/238.255.2.205:5999
-#EXTINF:-1 group-title="贵州电信-组播1",延边卫视
-http://122.9.151.210:887/rtp/238.255.2.204:5999
-#EXTINF:-1 group-title="贵州电信-组播1",安多卫视
-http://122.9.151.210:887/rtp/238.255.2.189:5999
-#EXTINF:-1 group-title="贵州电信-组播1",湖南卫视4K
-http://122.9.151.210:887/rtp/238.255.2.113:5999
-#EXTINF:-1 group-title="贵州电信-组播1",湖南卫视4K
-http://122.9.151.210:887/rtp/238.255.2.114:5999
-#EXTINF:-1 group-title="贵州电信-组播1",浙江卫视4K
-http://122.9.151.210:887/rtp/238.255.2.121:5999
-#EXTINF:-1 group-title="贵州电信-组播1",浙江卫视4K
-http://122.9.151.210:887/rtp/238.255.2.122:5999
-#EXTINF:-1 group-title="贵州电信-组播1",江苏卫视4K
-http://122.9.151.210:887/rtp/238.255.2.118:5999
-#EXTINF:-1 group-title="贵州电信-组播1",江苏卫视4K
-http://122.9.151.210:887/rtp/238.255.2.119:5999
-#EXTINF:-1 group-title="贵州电信-组播1",北京卫视4K
-http://122.9.151.210:887/rtp/238.255.2.149:5999
-#EXTINF:-1 group-title="贵州电信-组播1",北京卫视4K
-http://122.9.151.210:887/rtp/238.255.2.160:5999
-#EXTINF:-1 group-title="贵州电信-组播1",东方卫视4K
-http://122.9.151.210:887/rtp/238.255.2.123:5999
-#EXTINF:-1 group-title="贵州电信-组播1",东方卫视4K
-http://122.9.151.210:887/rtp/238.255.2.124:5999
-#EXTINF:-1 group-title="贵州电信-组播1",广东卫视4K
-http://122.9.151.210:887/rtp/238.255.2.46:5999
-#EXTINF:-1 group-title="贵州电信-组播1",广东卫视4K
-http://122.9.151.210:887/rtp/238.255.2.109:5999
-#EXTINF:-1 group-title="贵州电信-组播1",深圳卫视4K
-http://122.9.151.210:887/rtp/238.255.2.45:5999
-#EXTINF:-1 group-title="贵州电信-组播1",深圳卫视4K
-http://122.9.151.210:887/rtp/238.255.2.110:5999
-#EXTINF:-1 group-title="贵州电信-组播1",山东卫视4K
-http://122.9.151.210:887/rtp/238.255.2.130:5999
-#EXTINF:-1 group-title="贵州电信-组播1",山东卫视4K
-http://122.9.151.210:887/rtp/238.255.2.138:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-卫生健康
-http://122.9.151.210:887/rtp/238.255.2.144:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-风云足球
-http://122.9.151.210:887/rtp/238.255.2.29:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-风云音乐
-http://122.9.151.210:887/rtp/238.255.2.24:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-第一剧场
-http://122.9.151.210:887/rtp/238.255.2.25:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-怀旧剧场
-http://122.9.151.210:887/rtp/238.255.2.33:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-风云剧场
-http://122.9.151.210:887/rtp/238.255.2.28:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-世界地理
-http://122.9.151.210:887/rtp/238.255.2.26:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-兵器科技
-http://122.9.151.210:887/rtp/238.255.2.34:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-女性时尚
-http://122.9.151.210:887/rtp/238.255.2.27:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CCTV-央视台球
-http://122.9.151.210:887/rtp/238.255.2.224:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CGTN英语
-http://122.9.151.210:887/rtp/238.255.2.178:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CGTN英语
-http://122.9.151.210:887/rtp/238.255.2.207:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CGTN英语
-http://122.9.151.210:887/rtp/238.255.2.146:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CGTN西班牙语
-http://122.9.151.210:887/rtp/238.255.2.209:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CGTN法语
-http://122.9.151.210:887/rtp/238.255.2.208:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CGTN法语
-http://122.9.151.210:887/rtp/238.255.2.83:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CGTN阿拉伯语
-http://122.9.151.210:887/rtp/238.255.2.211:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CGTN俄语
-http://122.9.151.210:887/rtp/238.255.2.210:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CGTN纪录
-http://122.9.151.210:887/rtp/238.255.2.172:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CETV早期教育
-http://122.9.151.210:887/rtp/238.255.2.143:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CETV-1综合教育
-http://122.9.151.210:887/rtp/238.255.2.105:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CETV-2空中课堂
-http://122.9.151.210:887/rtp/238.255.2.221:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CETV-4职业教育
-http://122.9.151.210:887/rtp/238.255.2.222:5999
-#EXTINF:-1 group-title="贵州电信-组播1",环球奇观
-http://122.9.151.210:887/rtp/238.255.2.43:5999
-#EXTINF:-1 group-title="贵州电信-组播1",中国交通
-http://122.9.151.210:887/rtp/238.255.2.220:5999
-#EXTINF:-1 group-title="贵州电信-组播1",老故事
-http://122.9.151.210:887/rtp/238.255.2.35:5999
-#EXTINF:-1 group-title="贵州电信-组播1",江苏优漫卡通
-http://122.9.151.210:887/rtp/238.255.2.57:5999
-#EXTINF:-1 group-title="贵州电信-组播1",北京纪实科教
-http://122.9.151.210:887/rtp/238.255.2.107:5999
-#EXTINF:-1 group-title="贵州电信-组播1",北京卡酷少儿
-http://122.9.151.210:887/rtp/238.255.2.106:5999
-#EXTINF:-1 group-title="贵州电信-组播1",北京卡酷少儿
-http://122.9.151.210:887/rtp/238.255.2.80:5999
-#EXTINF:-1 group-title="贵州电信-组播1",江苏财富天下
-http://122.9.151.210:887/rtp/238.255.2.54:5999
-#EXTINF:-1 group-title="贵州电信-组播1",湖南金鹰卡通
-http://122.9.151.210:887/rtp/238.255.2.55:5999
-#EXTINF:-1 group-title="贵州电信-组播1",广东嘉佳卡通
-http://122.9.151.210:887/rtp/238.255.2.62:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵州天元围棋
-http://122.9.151.210:887/rtp/238.255.2.7:5999
-#EXTINF:-1 group-title="贵州电信-组播1",陕西国学频道
-http://122.9.151.210:887/rtp/238.255.2.176:5999
-#EXTINF:-1 group-title="贵州电信-组播1",中视购物
-http://122.9.151.210:887/rtp/238.255.2.44:5999
-#EXTINF:-1 group-title="贵州电信-组播1",家有购物
-http://122.9.151.210:887/rtp/238.255.2.10:5999
-#EXTINF:-1 group-title="贵州电信-组播1",江苏靓妆频道
-http://122.9.151.210:887/rtp/238.255.2.177:5999
-#EXTINF:-1 group-title="贵州电信-组播1",贵阳-1
-http://122.9.151.210:887/rtp/238.255.2.19:5999
-#EXTINF:-1 group-title="贵州电信-组播1",六盘水-1
-http://122.9.151.210:887/rtp/238.255.2.115:5999
-#EXTINF:-1 group-title="贵州电信-组播1",遵义综合频道
-http://122.9.151.210:887/rtp/238.255.2.153:5999
-#EXTINF:-1 group-title="贵州电信-组播1",安顺新闻综合
-http://122.9.151.210:887/rtp/238.255.2.157:5999
-#EXTINF:-1 group-title="贵州电信-组播1",毕节-1
-http://122.9.151.210:887/rtp/238.255.2.131:5999
-#EXTINF:-1 group-title="贵州电信-组播1",铜仁-1
-http://122.9.151.210:887/rtp/238.255.2.31:5999
-#EXTINF:-1 group-title="贵州电信-组播1",黔西南综合频道
-http://122.9.151.210:887/rtp/238.255.2.126:5999
-#EXTINF:-1 group-title="贵州电信-组播1",黔东南综合频道
-http://122.9.151.210:887/rtp/238.255.2.179:5999
-#EXTINF:-1 group-title="贵州电信-组播1",黔南-1
-http://122.9.151.210:887/rtp/238.255.2.150:5999
-#EXTINF:-1 group-title="贵州电信-组播1",CGTN记录
-http://122.9.151.210:887/rtp/238.255.2.49:5999
-#EXTINF:-1 group-title="贵州电信-组播1",中央新影中学生
-http://122.9.151.210:887/rtp/238.255.2.181:5999
-#EXTINF:-1 group-title="贵州电信-组播1",中央新影发现之旅
-http://122.9.151.210:887/rtp/238.255.2.184:5999
-#EXTINF:-1 group-title="贵州电信-组播1",农林卫视
-http://122.9.151.210:887/rtp/238.255.2.120:5999
-#EXTINF:-1 group-title="贵州电信-组播1",凯里TV
-http://122.9.151.210:887/rtp/238.255.2.180:5999
-#EXTINF:-1 group-title="贵州电信-组播1",央视精品
-http://122.9.151.210:887/rtp/238.255.2.32:5999
-#EXTINF:-1 group-title="贵州电信-组播1",思南综合频道
-http://122.9.151.210:887/rtp/238.255.2.218:5999
-#EXTINF:-1 group-title="贵州电信-组播1",桐梓频道
-http://122.9.151.210:887/rtp/238.255.2.162:5999
-#EXTINF:-1 group-title="贵州电信-组播1",汽摩频道
-http://122.9.151.210:887/rtp/238.255.2.148:5999
-#EXTINF:-1 group-title="贵州电信-组播1",瓮安电视台
-http://122.9.151.210:887/rtp/238.255.2.216:5999
-#EXTINF:-1 group-title="贵州电信-组播1",雷山综合频道
-http://122.9.151.210:887/rtp/238.255.2.128:5999
-#EXTINF:-1 group-title="贵州电信-组播1",高网频道
-http://122.9.151.210:887/rtp/238.255.2.223:5999
-#EXTINF:-1 group-title="贵州电信-组播1",黔西-1
-http://122.9.151.210:887/rtp/238.255.2.161:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.1:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州卫视
+#EXTINF:-1 group-title="贵州电信-组播1",贵州卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.147:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州卫视2
+#EXTINF:-1 group-title="贵州电信-组播1",贵州卫视2
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.2:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州卫视3
+#EXTINF:-1 group-title="贵州电信-组播1",贵州卫视3
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.3:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州卫视4
+#EXTINF:-1 group-title="贵州电信-组播1",贵州卫视4
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.4:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州卫视5
+#EXTINF:-1 group-title="贵州电信-组播1",贵州卫视5
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.5:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州卫视6
+#EXTINF:-1 group-title="贵州电信-组播1",贵州卫视6
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.6:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州卫视7
+#EXTINF:-1 group-title="贵州电信-组播1",贵州卫视7
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.9:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州-3
+#EXTINF:-1 group-title="贵州电信-组播1",贵州-3
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.159:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州-3
+#EXTINF:-1 group-title="贵州电信-组播1",贵州-3
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.183:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州-3
+#EXTINF:-1 group-title="贵州电信-组播1",贵州-3
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.187:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州-3
+#EXTINF:-1 group-title="贵州电信-组播1",贵州-3
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.200:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州宣传片
+#EXTINF:-1 group-title="贵州电信-组播1",贵州宣传片
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.112:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州宣传片
+#EXTINF:-1 group-title="贵州电信-组播1",贵州宣传片
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.141:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州宣传片
+#EXTINF:-1 group-title="贵州电信-组播1",贵州宣传片
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.142:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州直播频道
+#EXTINF:-1 group-title="贵州电信-组播1",贵州直播频道
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.206:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州移动电视
+#EXTINF:-1 group-title="贵州电信-组播1",贵州移动电视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.117:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-1综合
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-1综合
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.91:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-2财经
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-2财经
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.11:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-3综艺
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-3综艺
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.133:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-4中文国际
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-4中文国际
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.92:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-4中文国际欧洲
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-4中文国际欧洲
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.213:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-4中文国际美洲
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-4中文国际美洲
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.214:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-5体育
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-5体育
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.134:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-5+体育赛事
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-5+体育赛事
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.185:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-6电影
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-6电影
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.135:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-7国防军事
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-7国防军事
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.12:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-8电视剧
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-8电视剧
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.136:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-9纪录
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-9纪录
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.155:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-10科教
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-10科教
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.13:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-11戏曲
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-11戏曲
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.14:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-12社会与法
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-12社会与法
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.15:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-13新闻
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-13新闻
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.16:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-14少儿
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-14少儿
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.17:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-15音乐
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-15音乐
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.18:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-16奥林匹克
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-16奥林匹克
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.52:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-17农业农村
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-17农业农村
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.137:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV4K超高清
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV4K超高清
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.139:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV16超高清
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV16超高清
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.47:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV16超高清
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV16超高清
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.145:5999
-#EXTINF:-1 group-title="贵州电信-组播2",湖南卫视
+#EXTINF:-1 group-title="贵州电信-组播1",湖南卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.93:5999
-#EXTINF:-1 group-title="贵州电信-组播2",浙江卫视
+#EXTINF:-1 group-title="贵州电信-组播1",浙江卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.100:5999
-#EXTINF:-1 group-title="贵州电信-组播2",江苏卫视
+#EXTINF:-1 group-title="贵州电信-组播1",江苏卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.104:5999
-#EXTINF:-1 group-title="贵州电信-组播2",北京卫视
+#EXTINF:-1 group-title="贵州电信-组播1",北京卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.81:5999
-#EXTINF:-1 group-title="贵州电信-组播2",东方卫视
+#EXTINF:-1 group-title="贵州电信-组播1",东方卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.98:5999
-#EXTINF:-1 group-title="贵州电信-组播2",安徽卫视
+#EXTINF:-1 group-title="贵州电信-组播1",安徽卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.101:5999
-#EXTINF:-1 group-title="贵州电信-组播2",广东卫视
+#EXTINF:-1 group-title="贵州电信-组播1",广东卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.59:5999
-#EXTINF:-1 group-title="贵州电信-组播2",深圳卫视
+#EXTINF:-1 group-title="贵州电信-组播1",深圳卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.61:5999
-#EXTINF:-1 group-title="贵州电信-组播2",辽宁卫视
+#EXTINF:-1 group-title="贵州电信-组播1",辽宁卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.69:5999
-#EXTINF:-1 group-title="贵州电信-组播2",山东卫视
+#EXTINF:-1 group-title="贵州电信-组播1",山东卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.97:5999
-#EXTINF:-1 group-title="贵州电信-组播2",山东教育卫视
+#EXTINF:-1 group-title="贵州电信-组播1",山东教育卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.79:5999
-#EXTINF:-1 group-title="贵州电信-组播2",天津卫视
+#EXTINF:-1 group-title="贵州电信-组播1",天津卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.99:5999
-#EXTINF:-1 group-title="贵州电信-组播2",重庆卫视
+#EXTINF:-1 group-title="贵州电信-组播1",重庆卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.78:5999
-#EXTINF:-1 group-title="贵州电信-组播2",东南卫视
+#EXTINF:-1 group-title="贵州电信-组播1",东南卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.103:5999
-#EXTINF:-1 group-title="贵州电信-组播2",河北卫视
+#EXTINF:-1 group-title="贵州电信-组播1",河北卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.77:5999
-#EXTINF:-1 group-title="贵州电信-组播2",河南卫视
+#EXTINF:-1 group-title="贵州电信-组播1",河南卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.74:5999
-#EXTINF:-1 group-title="贵州电信-组播2",湖北卫视
+#EXTINF:-1 group-title="贵州电信-组播1",湖北卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.102:5999
-#EXTINF:-1 group-title="贵州电信-组播2",陕西卫视
+#EXTINF:-1 group-title="贵州电信-组播1",陕西卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.72:5999
-#EXTINF:-1 group-title="贵州电信-组播2",四川卫视
+#EXTINF:-1 group-title="贵州电信-组播1",四川卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.76:5999
-#EXTINF:-1 group-title="贵州电信-组播2",海南卫视
+#EXTINF:-1 group-title="贵州电信-组播1",海南卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.58:5999
-#EXTINF:-1 group-title="贵州电信-组播2",甘肃卫视
+#EXTINF:-1 group-title="贵州电信-组播1",甘肃卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.73:5999
-#EXTINF:-1 group-title="贵州电信-组播2",广西卫视
+#EXTINF:-1 group-title="贵州电信-组播1",广西卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.64:5999
-#EXTINF:-1 group-title="贵州电信-组播2",黑龙江卫视
+#EXTINF:-1 group-title="贵州电信-组播1",黑龙江卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.96:5999
-#EXTINF:-1 group-title="贵州电信-组播2",江西卫视
+#EXTINF:-1 group-title="贵州电信-组播1",江西卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.94:5999
-#EXTINF:-1 group-title="贵州电信-组播2",吉林卫视
+#EXTINF:-1 group-title="贵州电信-组播1",吉林卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.95:5999
-#EXTINF:-1 group-title="贵州电信-组播2",内蒙古卫视
+#EXTINF:-1 group-title="贵州电信-组播1",内蒙古卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.53:5999
-#EXTINF:-1 group-title="贵州电信-组播2",宁夏卫视
+#EXTINF:-1 group-title="贵州电信-组播1",宁夏卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.75:5999
-#EXTINF:-1 group-title="贵州电信-组播2",山西卫视
+#EXTINF:-1 group-title="贵州电信-组播1",山西卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.71:5999
-#EXTINF:-1 group-title="贵州电信-组播2",新疆卫视
+#EXTINF:-1 group-title="贵州电信-组播1",新疆卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.163:5999
-#EXTINF:-1 group-title="贵州电信-组播2",新疆卫视
+#EXTINF:-1 group-title="贵州电信-组播1",新疆卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.66:5999
-#EXTINF:-1 group-title="贵州电信-组播2",云南卫视
+#EXTINF:-1 group-title="贵州电信-组播1",云南卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.63:5999
-#EXTINF:-1 group-title="贵州电信-组播2",青海卫视
+#EXTINF:-1 group-title="贵州电信-组播1",青海卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.51:5999
-#EXTINF:-1 group-title="贵州电信-组播2",西藏卫视
+#EXTINF:-1 group-title="贵州电信-组播1",西藏卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.202:5999
-#EXTINF:-1 group-title="贵州电信-组播2",西藏卫视
+#EXTINF:-1 group-title="贵州电信-组播1",西藏卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.65:5999
-#EXTINF:-1 group-title="贵州电信-组播2",西藏卫视藏语
+#EXTINF:-1 group-title="贵州电信-组播1",西藏卫视藏语
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.23:5999
-#EXTINF:-1 group-title="贵州电信-组播2",兵团卫视
+#EXTINF:-1 group-title="贵州电信-组播1",兵团卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.67:5999
-#EXTINF:-1 group-title="贵州电信-组播2",康巴卫视
+#EXTINF:-1 group-title="贵州电信-组播1",康巴卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.140:5999
-#EXTINF:-1 group-title="贵州电信-组播2",三沙卫视
+#EXTINF:-1 group-title="贵州电信-组播1",三沙卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.203:5999
-#EXTINF:-1 group-title="贵州电信-组播2",厦门卫视
+#EXTINF:-1 group-title="贵州电信-组播1",厦门卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.205:5999
-#EXTINF:-1 group-title="贵州电信-组播2",延边卫视
+#EXTINF:-1 group-title="贵州电信-组播1",延边卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.204:5999
-#EXTINF:-1 group-title="贵州电信-组播2",安多卫视
+#EXTINF:-1 group-title="贵州电信-组播1",安多卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.189:5999
-#EXTINF:-1 group-title="贵州电信-组播2",湖南卫视4K
+#EXTINF:-1 group-title="贵州电信-组播1",湖南卫视4K
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.113:5999
-#EXTINF:-1 group-title="贵州电信-组播2",湖南卫视4K
+#EXTINF:-1 group-title="贵州电信-组播1",湖南卫视4K
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.114:5999
-#EXTINF:-1 group-title="贵州电信-组播2",浙江卫视4K
+#EXTINF:-1 group-title="贵州电信-组播1",浙江卫视4K
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.121:5999
-#EXTINF:-1 group-title="贵州电信-组播2",浙江卫视4K
+#EXTINF:-1 group-title="贵州电信-组播1",浙江卫视4K
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.122:5999
-#EXTINF:-1 group-title="贵州电信-组播2",江苏卫视4K
+#EXTINF:-1 group-title="贵州电信-组播1",江苏卫视4K
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.118:5999
-#EXTINF:-1 group-title="贵州电信-组播2",江苏卫视4K
+#EXTINF:-1 group-title="贵州电信-组播1",江苏卫视4K
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.119:5999
-#EXTINF:-1 group-title="贵州电信-组播2",北京卫视4K
+#EXTINF:-1 group-title="贵州电信-组播1",北京卫视4K
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.149:5999
-#EXTINF:-1 group-title="贵州电信-组播2",北京卫视4K
+#EXTINF:-1 group-title="贵州电信-组播1",北京卫视4K
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.160:5999
-#EXTINF:-1 group-title="贵州电信-组播2",东方卫视4K
+#EXTINF:-1 group-title="贵州电信-组播1",东方卫视4K
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.123:5999
-#EXTINF:-1 group-title="贵州电信-组播2",东方卫视4K
+#EXTINF:-1 group-title="贵州电信-组播1",东方卫视4K
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.124:5999
-#EXTINF:-1 group-title="贵州电信-组播2",广东卫视4K
+#EXTINF:-1 group-title="贵州电信-组播1",广东卫视4K
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.46:5999
-#EXTINF:-1 group-title="贵州电信-组播2",广东卫视4K
+#EXTINF:-1 group-title="贵州电信-组播1",广东卫视4K
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.109:5999
-#EXTINF:-1 group-title="贵州电信-组播2",深圳卫视4K
+#EXTINF:-1 group-title="贵州电信-组播1",深圳卫视4K
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.45:5999
-#EXTINF:-1 group-title="贵州电信-组播2",深圳卫视4K
+#EXTINF:-1 group-title="贵州电信-组播1",深圳卫视4K
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.110:5999
-#EXTINF:-1 group-title="贵州电信-组播2",山东卫视4K
+#EXTINF:-1 group-title="贵州电信-组播1",山东卫视4K
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.130:5999
-#EXTINF:-1 group-title="贵州电信-组播2",山东卫视4K
+#EXTINF:-1 group-title="贵州电信-组播1",山东卫视4K
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.138:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-卫生健康
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-卫生健康
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.144:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-风云足球
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-风云足球
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.29:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-风云音乐
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-风云音乐
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.24:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-第一剧场
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-第一剧场
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.25:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-怀旧剧场
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-怀旧剧场
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.33:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-风云剧场
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-风云剧场
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.28:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-世界地理
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-世界地理
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.26:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-兵器科技
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-兵器科技
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.34:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-女性时尚
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-女性时尚
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.27:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-央视台球
+#EXTINF:-1 group-title="贵州电信-组播1",CCTV-央视台球
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.224:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN英语
+#EXTINF:-1 group-title="贵州电信-组播1",CGTN英语
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.178:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN英语
+#EXTINF:-1 group-title="贵州电信-组播1",CGTN英语
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.207:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN英语
+#EXTINF:-1 group-title="贵州电信-组播1",CGTN英语
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.146:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN西班牙语
+#EXTINF:-1 group-title="贵州电信-组播1",CGTN西班牙语
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.209:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN法语
+#EXTINF:-1 group-title="贵州电信-组播1",CGTN法语
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.208:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN法语
+#EXTINF:-1 group-title="贵州电信-组播1",CGTN法语
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.83:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN阿拉伯语
+#EXTINF:-1 group-title="贵州电信-组播1",CGTN阿拉伯语
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.211:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN俄语
+#EXTINF:-1 group-title="贵州电信-组播1",CGTN俄语
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.210:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN纪录
+#EXTINF:-1 group-title="贵州电信-组播1",CGTN纪录
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.172:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CETV早期教育
+#EXTINF:-1 group-title="贵州电信-组播1",CETV早期教育
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.143:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CETV-1综合教育
+#EXTINF:-1 group-title="贵州电信-组播1",CETV-1综合教育
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.105:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CETV-2空中课堂
+#EXTINF:-1 group-title="贵州电信-组播1",CETV-2空中课堂
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.221:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CETV-4职业教育
+#EXTINF:-1 group-title="贵州电信-组播1",CETV-4职业教育
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.222:5999
-#EXTINF:-1 group-title="贵州电信-组播2",环球奇观
+#EXTINF:-1 group-title="贵州电信-组播1",环球奇观
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.43:5999
-#EXTINF:-1 group-title="贵州电信-组播2",中国交通
+#EXTINF:-1 group-title="贵州电信-组播1",中国交通
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.220:5999
-#EXTINF:-1 group-title="贵州电信-组播2",老故事
+#EXTINF:-1 group-title="贵州电信-组播1",老故事
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.35:5999
-#EXTINF:-1 group-title="贵州电信-组播2",江苏优漫卡通
+#EXTINF:-1 group-title="贵州电信-组播1",江苏优漫卡通
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.57:5999
-#EXTINF:-1 group-title="贵州电信-组播2",北京纪实科教
+#EXTINF:-1 group-title="贵州电信-组播1",北京纪实科教
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.107:5999
-#EXTINF:-1 group-title="贵州电信-组播2",北京卡酷少儿
+#EXTINF:-1 group-title="贵州电信-组播1",北京卡酷少儿
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.106:5999
-#EXTINF:-1 group-title="贵州电信-组播2",北京卡酷少儿
+#EXTINF:-1 group-title="贵州电信-组播1",北京卡酷少儿
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.80:5999
-#EXTINF:-1 group-title="贵州电信-组播2",江苏财富天下
+#EXTINF:-1 group-title="贵州电信-组播1",江苏财富天下
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.54:5999
-#EXTINF:-1 group-title="贵州电信-组播2",湖南金鹰卡通
+#EXTINF:-1 group-title="贵州电信-组播1",湖南金鹰卡通
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.55:5999
-#EXTINF:-1 group-title="贵州电信-组播2",广东嘉佳卡通
+#EXTINF:-1 group-title="贵州电信-组播1",广东嘉佳卡通
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.62:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州天元围棋
+#EXTINF:-1 group-title="贵州电信-组播1",贵州天元围棋
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.7:5999
-#EXTINF:-1 group-title="贵州电信-组播2",陕西国学频道
+#EXTINF:-1 group-title="贵州电信-组播1",陕西国学频道
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.176:5999
-#EXTINF:-1 group-title="贵州电信-组播2",中视购物
+#EXTINF:-1 group-title="贵州电信-组播1",中视购物
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.44:5999
-#EXTINF:-1 group-title="贵州电信-组播2",家有购物
+#EXTINF:-1 group-title="贵州电信-组播1",家有购物
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.10:5999
-#EXTINF:-1 group-title="贵州电信-组播2",江苏靓妆频道
+#EXTINF:-1 group-title="贵州电信-组播1",江苏靓妆频道
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.177:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵阳-1
+#EXTINF:-1 group-title="贵州电信-组播1",贵阳-1
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.19:5999
-#EXTINF:-1 group-title="贵州电信-组播2",六盘水-1
+#EXTINF:-1 group-title="贵州电信-组播1",六盘水-1
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.115:5999
-#EXTINF:-1 group-title="贵州电信-组播2",遵义综合频道
+#EXTINF:-1 group-title="贵州电信-组播1",遵义综合频道
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.153:5999
-#EXTINF:-1 group-title="贵州电信-组播2",安顺新闻综合
+#EXTINF:-1 group-title="贵州电信-组播1",安顺新闻综合
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.157:5999
-#EXTINF:-1 group-title="贵州电信-组播2",毕节-1
+#EXTINF:-1 group-title="贵州电信-组播1",毕节-1
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.131:5999
-#EXTINF:-1 group-title="贵州电信-组播2",铜仁-1
+#EXTINF:-1 group-title="贵州电信-组播1",铜仁-1
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.31:5999
-#EXTINF:-1 group-title="贵州电信-组播2",黔西南综合频道
+#EXTINF:-1 group-title="贵州电信-组播1",黔西南综合频道
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.126:5999
-#EXTINF:-1 group-title="贵州电信-组播2",黔东南综合频道
+#EXTINF:-1 group-title="贵州电信-组播1",黔东南综合频道
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.179:5999
-#EXTINF:-1 group-title="贵州电信-组播2",黔南-1
+#EXTINF:-1 group-title="贵州电信-组播1",黔南-1
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.150:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN记录
+#EXTINF:-1 group-title="贵州电信-组播1",CGTN记录
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.49:5999
-#EXTINF:-1 group-title="贵州电信-组播2",中央新影中学生
+#EXTINF:-1 group-title="贵州电信-组播1",中央新影中学生
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.181:5999
-#EXTINF:-1 group-title="贵州电信-组播2",中央新影发现之旅
+#EXTINF:-1 group-title="贵州电信-组播1",中央新影发现之旅
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.184:5999
-#EXTINF:-1 group-title="贵州电信-组播2",农林卫视
+#EXTINF:-1 group-title="贵州电信-组播1",农林卫视
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.120:5999
-#EXTINF:-1 group-title="贵州电信-组播2",凯里TV
+#EXTINF:-1 group-title="贵州电信-组播1",凯里TV
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.180:5999
-#EXTINF:-1 group-title="贵州电信-组播2",央视精品
+#EXTINF:-1 group-title="贵州电信-组播1",央视精品
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.32:5999
-#EXTINF:-1 group-title="贵州电信-组播2",思南综合频道
+#EXTINF:-1 group-title="贵州电信-组播1",思南综合频道
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.218:5999
-#EXTINF:-1 group-title="贵州电信-组播2",桐梓频道
+#EXTINF:-1 group-title="贵州电信-组播1",桐梓频道
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.162:5999
-#EXTINF:-1 group-title="贵州电信-组播2",汽摩频道
+#EXTINF:-1 group-title="贵州电信-组播1",汽摩频道
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.148:5999
-#EXTINF:-1 group-title="贵州电信-组播2",瓮安电视台
+#EXTINF:-1 group-title="贵州电信-组播1",瓮安电视台
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.216:5999
-#EXTINF:-1 group-title="贵州电信-组播2",雷山综合频道
+#EXTINF:-1 group-title="贵州电信-组播1",雷山综合频道
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.128:5999
-#EXTINF:-1 group-title="贵州电信-组播2",高网频道
+#EXTINF:-1 group-title="贵州电信-组播1",高网频道
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.223:5999
-#EXTINF:-1 group-title="贵州电信-组播2",黔西-1
+#EXTINF:-1 group-title="贵州电信-组播1",黔西-1
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.161:5999
