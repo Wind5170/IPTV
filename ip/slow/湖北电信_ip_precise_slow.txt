@@ -1,7 +1,6 @@
-# 20260617_1352_precise_slow
+# 20260618_1309_precise_slow
 # 服务器地址	速度
-27.18.83.20:9100	100.48 KB/s
-cqknas.myqnapcloud.com:8808	84.87 KB/s
-59.174.162.239:4022	51.57 KB/s
-59.174.160.160:4022	36.52 KB/s
-hiliu.myds.me:18088	2.62 KB/s
+59.174.160.160:4022	276.19 KB/s
+qnapxuan.mycloudnas.com:10001	229.91 KB/s
+cqknas.myqnapcloud.com:8808	203.14 KB/s
+zhangkx717.cn:9999	70.76 KB/s

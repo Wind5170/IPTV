@@ -1,0 +1,4 @@
+# 20260618_1320_precise_slow
+# 服务器地址	速度
+9.lexlong.top:8001	248.09 KB/s
+maymoon.asuscomm.com:7777	70.93 KB/s

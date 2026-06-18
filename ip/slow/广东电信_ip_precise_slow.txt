@@ -1,7 +1,4 @@
-# 20260617_1348_precise_slow
+# 20260618_1304_precise_slow
 # 服务器地址	速度
-113.101.245.171:9988	293.57 KB/s
-yanshifen.top:8889	170.81 KB/s
-www.yahao.host:4022	128.15 KB/s
-183.236.43.98:4013	2.33 KB/s
-nas.xxika.net:8188	0.94 KB/s
+nas.xxika.net:8188	220.77 KB/s
+www.tyio.cc:8188	180.23 KB/s
