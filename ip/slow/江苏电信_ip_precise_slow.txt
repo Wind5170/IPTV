@@ -1,15 +1,11 @@
-# 20260618_1311_precise_slow
+# 20260619_1348_precise_slow
 # 服务器地址	速度
-www.yzddy.top:8800	283.17 KB/s
-vs.heylc.com:4022	268.53 KB/s
-fengwei888888.myds.me:58099	268.30 KB/s
-kouki.pro:8888	216.37 KB/s
-njbobo.mycloudnas.com:4022	139.23 KB/s
-dx.joygala.cn:8118	69.37 KB/s
-980413.xyz:6000	55.48 KB/s
-49.79.83.116:58888	17.97 KB/s
-www.sclvip.top:8787	1.93 KB/s
-114.226.212.154:8787	1.86 KB/s
-114.226.212.155:8787	1.86 KB/s
-home.amucn.net:8800	1.50 KB/s
-121.237.245.222:8888	0.58 KB/s
+t.7ze.top:4022	272.30 KB/s
+www.yzddy.top:8800	268.28 KB/s
+acp-cloud.asuscomm.com:4000	266.39 KB/s
+49.79.83.116:58888	229.57 KB/s
+121.237.245.222:8888	182.48 KB/s
+kouki.pro:8888	173.42 KB/s
+gcyp.mycloudnas.com:4000	145.70 KB/s
+nas2.bycza.top:9000	89.90 KB/s
+home.amucn.net:8800	48.27 KB/s

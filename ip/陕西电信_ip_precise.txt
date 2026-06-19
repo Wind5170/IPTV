@@ -1,7 +1,6 @@
-# 20260618_1313_precise
+# 20260619_1352_precise
 # 服务器地址	速度
-36.46.98.59:8025	477.07 KB/s
-4712635.xyz:26000	438.55 KB/s
-www.gaolao.top:8008	436.07 KB/s
-ddns.xryo.cn:8888	416.79 KB/s
-tiger81.i234.me:8888	330.12 KB/s
+36.46.98.59:8025	389.54 KB/s
+tiger81.i234.me:8888	370.98 KB/s
+www.gaolao.top:8008	342.00 KB/s
+ddns.xryo.cn:8888	320.87 KB/s

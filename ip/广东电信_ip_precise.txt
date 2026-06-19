@@ -1,14 +1,13 @@
-# 20260618_1304_precise
+# 20260619_1340_precise
 # 服务器地址	速度
-home.8v8.fun:4333	525.80 KB/s
-liqn.mycloudnas.com:8188	520.99 KB/s
-113.119.24.33:58888	517.44 KB/s
-183.236.43.98:4013	491.09 KB/s
-unraid.cyruslee.top:8888	485.18 KB/s
-www.guangyuan.site:8188	457.73 KB/s
-www.yahao.host:4022	452.09 KB/s
-wmh.wmh.ink:6633	438.22 KB/s
-yanshifen.top:8889	430.61 KB/s
-113.83.248.166:4200	424.99 KB/s
-vpn.jk960.cn:8686	313.43 KB/s
-113.101.245.171:9988	302.70 KB/s
+113.119.24.33:58888	436.70 KB/s
+yanshifen.top:8889	421.42 KB/s
+line1.huase.ltd:8888	411.75 KB/s
+183.236.43.98:4013	406.66 KB/s
+www.hongzhijiaoyu.net:8188	402.45 KB/s
+113.83.248.166:4200	398.76 KB/s
+wmh.wmh.ink:6633	375.84 KB/s
+www.yahao.host:4022	374.97 KB/s
+www.guangyuan.site:8188	357.46 KB/s
+www.tyio.cc:8188	352.81 KB/s
+113.104.238.23:7088	325.48 KB/s
