@@ -1,4 +1,3 @@
-# 20260619_1345_precise
+# 20260620_1215_precise
 # 服务器地址	速度
-www.661130.xyz:8188	465.33 KB/s
-gonas.xyz:38128	367.46 KB/s
+wlei.myds.me:52057	335.01 KB/s
