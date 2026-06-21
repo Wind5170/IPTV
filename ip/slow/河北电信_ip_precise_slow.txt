@@ -1,6 +1,4 @@
-# 20260620_1208_precise_slow
+# 20260621_1219_precise_slow
 # 服务器地址	速度
-960207.xyz:8188	294.25 KB/s
-111.226.211.55:8188	293.81 KB/s
-111.226.232.217:10010	65.43 KB/s
-yaching.xmtcenter.com:9999	36.94 KB/s
+111.226.232.217:10010	288.32 KB/s
+yaching.xmtcenter.com:9999	272.09 KB/s

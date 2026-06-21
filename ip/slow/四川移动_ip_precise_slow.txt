@@ -1,4 +1,4 @@
-# 20260620_1224_precise_slow
+# 20260621_1234_precise_slow
 # 服务器地址	速度
-183.220.20.17:4321	221.08 KB/s
-aecop43ptvea6epk.0kkkkkt.com:4022	69.95 KB/s
+aecop43ptvea6epk.0kkkkkt.com:4022	192.96 KB/s
+www.sccckj.cn:8899	74.98 KB/s

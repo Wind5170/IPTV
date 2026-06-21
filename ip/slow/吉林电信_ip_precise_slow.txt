@@ -1,3 +1,0 @@
-# 20260620_1215_precise_slow
-# 服务器地址	速度
-nas.yzzdxc.cn:16666	243.68 KB/s
