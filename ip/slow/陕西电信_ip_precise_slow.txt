@@ -1,0 +1,5 @@
+# 20260622_1544_precise_slow
+# 服务器地址	速度
+tiger81.i234.me:8888	271.69 KB/s
+4712635.xyz:26000	260.48 KB/s
+www.gaolao.top:8008	258.87 KB/s
