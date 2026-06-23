@@ -1,7 +1,9 @@
-# 20260622_1551_precise
+# 20260623_1255_precise
 # 服务器地址	速度
-183.151.29.131:4022	361.81 KB/s
-t.zjhuct.icu:8889	361.19 KB/s
-zjhuct.synology.me:8881	359.03 KB/s
-zjhuct.synology.me:8889	358.66 KB/s
-115.207.212.107:8889	338.35 KB/s
+zjhuct.synology.me:8889	587.09 KB/s
+maymoon.asuscomm.com:7777	531.69 KB/s
+183.151.29.131:4022	490.78 KB/s
+t.zjhuct.icu:8889	477.20 KB/s
+zjhuct.icu:8889	405.11 KB/s
+hzmaidu.com:8090	359.94 KB/s
+zjhuct.synology.me:8881	300.91 KB/s
