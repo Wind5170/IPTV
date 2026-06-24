@@ -1,19 +1,13 @@
-# 20260623_1246_precise_slow
+# 20260624_1234_precise_slow
 # 服务器地址	速度
-jw318.synology.me:888	289.94 KB/s
-t.7ze.top:4022	232.52 KB/s
-nas2.bycza.top:9000	230.56 KB/s
-kouki.pro:8888	215.90 KB/s
-nas3.bycza.top:8100	214.03 KB/s
-iptv.feng.js.cn:58099	197.98 KB/s
-980413.xyz:6000	104.84 KB/s
-114.226.212.155:8787	83.89 KB/s
-121.237.245.222:8888	78.77 KB/s
-njbobo.mycloudnas.com:4022	73.67 KB/s
-ikuai-v4.17271201.xyz:4000	63.80 KB/s
-114.226.212.154:8787	59.74 KB/s
-www.sclvip.top:8787	47.58 KB/s
-istoreos.sclvip.top:5566	20.42 KB/s
-www.wxzmz.com:8800	13.76 KB/s
-www.266999.xyz:55555	2.74 KB/s
-home.amucn.net:8800	1.48 KB/s
+121.237.245.222:8888	252.77 KB/s
+980413.xyz:6000	245.91 KB/s
+vs.heylc.com:4022	220.81 KB/s
+114.226.212.155:8787	197.12 KB/s
+njbobo.mycloudnas.com:4022	149.10 KB/s
+kouki.pro:8888	147.06 KB/s
+www.266999.xyz:55555	20.53 KB/s
+ikuai-v4.17271201.xyz:4000	12.21 KB/s
+www.wxzmz.com:8800	10.71 KB/s
+home.amucn.net:8800	8.43 KB/s
+dx.joygala.cn:8118	0.54 KB/s
