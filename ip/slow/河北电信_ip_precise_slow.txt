@@ -1,4 +1,5 @@
-# 20260624_1227_precise_slow
+# 20260625_1231_precise_slow
 # 服务器地址	速度
-share.xlangnan.cn:10316	214.03 KB/s
-960207.xyz:8188	126.79 KB/s
+share.xlangnan.cn:10316	282.48 KB/s
+111.226.211.55:8188	192.40 KB/s
+960207.xyz:8188	95.08 KB/s

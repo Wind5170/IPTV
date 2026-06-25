@@ -1,3 +1,6 @@
-# 20260624_1238_precise
+# 20260625_1242_precise
 # 服务器地址	速度
-4712635.xyz:26000	390.43 KB/s
+tiger81.i234.me:8888	445.03 KB/s
+4712635.xyz:26000	404.65 KB/s
+www.gaolao.top:8008	403.74 KB/s
+ddns.xryo.cn:8888	369.87 KB/s

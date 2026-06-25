@@ -1,5 +1,8 @@
-# 20260624_1226_precise_slow
+# 20260625_1230_precise_slow
 # 服务器地址	速度
-line1.huase.ltd:8888	297.70 KB/s
-vp.maomizi.cc:9527	284.49 KB/s
-liqn.mycloudnas.com:8188	122.30 KB/s
+wmh.wmh.ink:6633	286.04 KB/s
+home.8v8.fun:4333	267.52 KB/s
+vpn.jk960.cn:8686	250.32 KB/s
+113.119.25.4:58888	243.81 KB/s
+line1.huase.ltd:8888	212.47 KB/s
+liqn.mycloudnas.com:8188	153.91 KB/s

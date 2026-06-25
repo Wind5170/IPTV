@@ -1,8 +1,7 @@
-# 20260624_1244_precise_slow
+# 20260625_1246_precise_slow
 # 服务器地址	速度
-t.zjhuct.icu:8889	287.34 KB/s
-zjhuct.icu:8889	285.81 KB/s
-www.negative.top:50000	281.50 KB/s
-115.207.212.107:8888	274.59 KB/s
-zjhuct.synology.me:8881	220.98 KB/s
-zjhuct.synology.me:8889	170.66 KB/s
+115.207.212.107:8888	238.61 KB/s
+115.207.212.107:8889	229.34 KB/s
+www.slq888.cn:9999	140.21 KB/s
+gilbert0571.eu.org:8888	55.76 KB/s
+9.lexlong.top:8001	33.50 KB/s
