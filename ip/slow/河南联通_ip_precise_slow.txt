@@ -1,3 +1,3 @@
-# 20260625_1233_precise_slow
+# 20260626_1219_precise_slow
 # 服务器地址	速度
-ik.iptv8.net:8888	224.90 KB/s
+ik.iptv8.net:8888	226.76 KB/s
