@@ -1,5 +1,5 @@
-# 20260626_1232_precise_slow
+# 20260627_1154_precise_slow
 # 服务器地址	速度
-36.24.184.206:8888	49.32 KB/s
-www.slq888.cn:9999	43.16 KB/s
-9.lexlong.top:8001	8.47 KB/s
+36.24.184.206:8888	227.36 KB/s
+9.lexlong.top:8001	222.87 KB/s
+www.slq888.cn:9999	24.16 KB/s

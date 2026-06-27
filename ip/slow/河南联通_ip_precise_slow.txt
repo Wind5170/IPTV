@@ -1,3 +1,4 @@
-# 20260626_1219_precise_slow
+# 20260627_1139_precise_slow
 # 服务器地址	速度
-ik.iptv8.net:8888	226.76 KB/s
+ik.iptv8.net:8888	205.88 KB/s
+nas.zzxingjie.com:4000	6.28 KB/s

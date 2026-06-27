@@ -1,4 +1,10 @@
-# 20260626_1216_precise_slow
+# 20260627_1135_precise_slow
 # 服务器地址	速度
-113.101.245.171:9988	288.34 KB/s
-nas.xxika.net:8188	74.73 KB/s
+113.101.245.171:9988	289.34 KB/s
+wmh.wmh.ink:6633	201.95 KB/s
+www.yahao.host:4022	114.68 KB/s
+183.236.43.98:4111	63.01 KB/s
+www.hongzhijiaoyu.net:8188	1.56 KB/s
+nas.xxika.net:8188	1.55 KB/s
+vpn.jk960.cn:8686	1.44 KB/s
+unraid.cyruslee.top:8888	1.33 KB/s
