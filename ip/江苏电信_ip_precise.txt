@@ -1,18 +1,18 @@
-# 20260627_1144_precise
+# 20260628_1204_precise
 # 服务器地址	速度
-106.111.244.8:58099	403.33 KB/s
-121.226.105.6:6888	396.84 KB/s
-istoreos.sclvip.top:5566	391.84 KB/s
-lygzou.asuscomm.com:19999	391.03 KB/s
-h.vanshun.com:8802	390.66 KB/s
-y1nf0x.myds.me:5888	389.56 KB/s
-114.226.212.155:8787	387.82 KB/s
-114.226.212.154:8787	387.20 KB/s
-106.111.244.10:58099	383.74 KB/s
-ikuai-v4.17271201.xyz:4000	382.06 KB/s
-www.266999.xyz:55555	349.02 KB/s
-iptv.feng.js.cn:58099	333.34 KB/s
-dx.joygala.cn:8118	327.75 KB/s
-j1900.silicaite.top:58888	326.47 KB/s
-acp-cloud.asuscomm.com:4000	318.56 KB/s
-jw318.synology.me:888	303.57 KB/s
+106.111.244.8:58099	406.74 KB/s
+106.111.244.10:58099	386.95 KB/s
+114.226.212.154:8787	375.13 KB/s
+y1nf0x.myds.me:5888	367.09 KB/s
+114.226.212.155:8787	357.79 KB/s
+iptv.feng.js.cn:58099	354.93 KB/s
+www.sclvip.top:8787	353.67 KB/s
+49.79.83.116:58888	352.52 KB/s
+lygzou.asuscomm.com:19999	346.57 KB/s
+istoreos.sclvip.top:5566	339.04 KB/s
+jw318.synology.me:888	336.51 KB/s
+t.7ze.top:4022	335.93 KB/s
+j1900.silicaite.top:58888	324.84 KB/s
+nas2.bycza.top:9000	310.55 KB/s
+nas3.bycza.top:8100	305.61 KB/s
+121.226.105.6:6888	304.72 KB/s
