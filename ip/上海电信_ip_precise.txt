@@ -1,11 +1,9 @@
-# 20260630_1227_precise
+# 20260701_1251_precise
 # 服务器地址	速度
-116.237.68.208:4022	401.02 KB/s
-wsc2007123.myds.me:30100	399.33 KB/s
-116.234.77.109:4022	397.66 KB/s
-shenhua.asuscomm.com:8888	372.65 KB/s
-180.165.7.89:4022	369.51 KB/s
-youngx.top:4022	366.42 KB/s
-cloud.sunrisecom.wang:18888	363.63 KB/s
-cloud.sunrisecom.wang:8888	363.20 KB/s
-www.rogerxlj.top:9998	342.11 KB/s
+yyf1991.top:9999	399.44 KB/s
+cloud.sunrisecom.wang:8888	399.41 KB/s
+cloud.sunrisecom.wang:18888	385.17 KB/s
+shenhua.asuscomm.com:8888	383.34 KB/s
+116.237.68.208:4022	373.05 KB/s
+116.234.199.172:4022	347.52 KB/s
+180.165.7.89:4022	318.22 KB/s

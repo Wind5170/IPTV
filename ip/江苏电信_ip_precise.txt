@@ -1,21 +1,16 @@
-# 20260630_1224_precise
+# 20260701_1248_precise
 # 服务器地址	速度
-114.226.212.154:8787	414.30 KB/s
-114.226.212.155:8787	405.80 KB/s
-106.111.244.8:58099	383.37 KB/s
-gcyp.mycloudnas.com:4000	378.14 KB/s
-106.111.244.10:58099	376.81 KB/s
-acp-cloud.asuscomm.com:4000	372.93 KB/s
-y1nf0x.myds.me:5888	371.99 KB/s
-h.vanshun.com:8802	345.70 KB/s
-980413.xyz:6000	341.14 KB/s
-vs.heylc.com:4022	340.53 KB/s
-istoreos.sclvip.top:5566	333.95 KB/s
-49.79.83.116:58888	324.45 KB/s
-lygzou.asuscomm.com:19999	322.63 KB/s
-njbobo.mycloudnas.com:4022	316.59 KB/s
-www.sclvip.top:8787	315.91 KB/s
-www.yzddy.top:8800	315.14 KB/s
-j1900.silicaite.top:58888	314.16 KB/s
-nas3.bycza.top:8100	314.11 KB/s
-t.7ze.top:4022	312.78 KB/s
+fengwei888888.myds.me:58099	379.18 KB/s
+106.111.244.8:58099	376.09 KB/s
+acp-cloud.asuscomm.com:4000	372.41 KB/s
+vs.heylc.com:4022	364.93 KB/s
+iptv.feng.js.cn:58099	362.12 KB/s
+j1900.silicaite.top:58888	357.60 KB/s
+121.226.105.6:6888	354.94 KB/s
+gcyp.mycloudnas.com:4000	350.90 KB/s
+t.7ze.top:4022	343.95 KB/s
+lygzou.asuscomm.com:19999	334.79 KB/s
+202.8090pc.cn:58888	331.40 KB/s
+h.vanshun.com:8802	328.30 KB/s
+jw318.synology.me:888	323.29 KB/s
+y1nf0x.myds.me:5888	300.24 KB/s

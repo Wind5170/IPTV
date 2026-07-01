@@ -1,5 +1,5 @@
-# 20260630_1220_precise
+# 20260701_1244_precise
 # 服务器地址	速度
-gonas.xyz:38128	375.88 KB/s
-wlei.myds.me:52057	359.60 KB/s
-hiliu.myds.me:18088	319.27 KB/s
+wlei.myds.me:52057	353.13 KB/s
+zhangkx717.cn:9999	347.79 KB/s
+gonas.xyz:38128	329.47 KB/s
