@@ -1,9 +1,8 @@
-# 20260701_1251_precise
+# 20260702_1226_precise
 # 服务器地址	速度
-yyf1991.top:9999	399.44 KB/s
-cloud.sunrisecom.wang:8888	399.41 KB/s
-cloud.sunrisecom.wang:18888	385.17 KB/s
-shenhua.asuscomm.com:8888	383.34 KB/s
-116.237.68.208:4022	373.05 KB/s
-116.234.199.172:4022	347.52 KB/s
-180.165.7.89:4022	318.22 KB/s
+116.234.199.172:4022	401.87 KB/s
+shenhua.asuscomm.com:8888	367.72 KB/s
+180.165.8.10:4022	359.69 KB/s
+116.237.68.208:4022	357.16 KB/s
+www.rogerxlj.top:9998	346.88 KB/s
+youngx.top:4022	341.20 KB/s

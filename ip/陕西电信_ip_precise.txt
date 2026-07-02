@@ -1,5 +1,4 @@
-# 20260701_1250_precise
+# 20260702_1225_precise
 # 服务器地址	速度
-www.gaolao.top:8008	348.37 KB/s
-wddpmpc.sosos.run:4022	332.75 KB/s
-4712635.xyz:26000	311.84 KB/s
+tiger81.i234.me:8888	334.42 KB/s
+www.gaolao.top:8008	329.05 KB/s

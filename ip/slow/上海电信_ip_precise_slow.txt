@@ -1,7 +1,10 @@
-# 20260701_1251_precise_slow
+# 20260702_1226_precise_slow
 # 服务器地址	速度
-www.rogerxlj.top:9998	273.45 KB/s
-wsc2007123.myds.me:30100	212.43 KB/s
-youngx.top:4022	200.20 KB/s
-180.159.68.231:4022	62.16 KB/s
-123.60.75.150:540	0.03 KB/s
+rongrong.synology.me:14022	277.94 KB/s
+180.165.7.89:4022	261.40 KB/s
+cloud.sunrisecom.wang:8888	240.27 KB/s
+cloud.sunrisecom.wang:18888	218.75 KB/s
+180.159.68.231:4022	147.64 KB/s
+yyf1991.top:9999	143.12 KB/s
+wsc2007123.myds.me:30100	105.16 KB/s
+123.60.75.150:540	1.26 KB/s
