@@ -1,13 +1,16 @@
-# 20260702_1211_precise_slow
+# 20260703_1214_precise_slow
 # 服务器地址	速度
-trulyliu.vicp.net:8622	298.11 KB/s
-aecm6mg6ilmqybhl.nexusedgeio.com:5588	273.59 KB/s
-114.254.90.136:8888	265.37 KB/s
-unicom3.swjms.com:4022	258.21 KB/s
-superpostmail.3322.org:1193	133.47 KB/s
-123.118.54.216:8686	96.65 KB/s
-www.ikuai.me:4022	96.14 KB/s
-111.196.129.242:20000	83.85 KB/s
-owvpn.famcloud.top:9878	76.55 KB/s
-aikuai.natnum.top:8099	36.94 KB/s
-shunyi-home.wangbin.us:4022	27.74 KB/s
+laiboy.myds.me:58686	254.41 KB/s
+aecm6mg6ilmqybhl.nexusedgeio.com:5588	250.47 KB/s
+awnjnmctlaxqsapgzjjsvvfsp.xyz:4022	231.39 KB/s
+nas.alber2025.top:8188	226.89 KB/s
+111.194.236.74:4022	199.17 KB/s
+123.118.54.216:8686	174.96 KB/s
+trulyliu.vicp.net:8622	160.71 KB/s
+tnv.asuscomm.com:8012	150.04 KB/s
+superpostmail.3322.org:1193	139.88 KB/s
+unicom3.swjms.com:4022	113.60 KB/s
+www.xiongnas.top:8888	99.43 KB/s
+www.ikuai.me:4022	31.00 KB/s
+aikuai.natnum.top:8099	1.61 KB/s
+owvpn.famcloud.top:9878	1.60 KB/s

@@ -1,16 +1,16 @@
-# 20260702_1223_precise_slow
+# 20260703_1226_precise_slow
 # 服务器地址	速度
-121.226.105.6:6888	293.48 KB/s
-www.yzddy.top:8800	284.90 KB/s
-nas2.bycza.top:9000	273.32 KB/s
-t.7ze.top:4022	269.46 KB/s
-istoreos.sclvip.top:5566	268.53 KB/s
-nas3.bycza.top:8100	266.02 KB/s
-iptv.feng.js.cn:58099	244.22 KB/s
-49.79.83.116:58888	244.03 KB/s
-www.wxzmz.com:8800	209.75 KB/s
-j1900.silicaite.top:58888	192.64 KB/s
-home.amucn.net:8800	190.64 KB/s
-121.237.245.222:8888	176.53 KB/s
-kouki.pro:8888	162.16 KB/s
-ikuai-v4.17271201.xyz:4000	36.68 KB/s
+www.yzddy.top:8800	296.60 KB/s
+gcyp.mycloudnas.com:4000	279.66 KB/s
+nas3.bycza.top:8100	271.74 KB/s
+jw318.synology.me:888	266.48 KB/s
+www.266999.xyz:55555	234.07 KB/s
+121.237.245.222:8888	212.40 KB/s
+kouki.pro:8888	208.96 KB/s
+istoreos.sclvip.top:5566	197.80 KB/s
+www.wxzmz.com:8800	186.59 KB/s
+114.226.212.147:8787	116.64 KB/s
+www.sclvip.top:8787	110.05 KB/s
+home.amucn.net:8800	82.64 KB/s
+114.226.212.145:8787	69.81 KB/s
+980413.xyz:6000	29.82 KB/s

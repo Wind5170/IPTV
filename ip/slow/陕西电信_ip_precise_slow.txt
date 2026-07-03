@@ -1,5 +1,5 @@
-# 20260702_1225_precise_slow
+# 20260703_1228_precise_slow
 # 服务器地址	速度
-wddpmpc.sosos.run:4022	245.87 KB/s
-4712635.xyz:26000	244.27 KB/s
-ddns.xryo.cn:8888	57.12 KB/s
+www.gaolao.top:8008	251.18 KB/s
+ddns.xryo.cn:8888	44.48 KB/s
+db9114c9.tlivemcdn.com:9999	1.30 KB/s
