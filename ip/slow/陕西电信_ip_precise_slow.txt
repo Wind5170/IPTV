@@ -1,5 +1,4 @@
-# 20260703_1228_precise_slow
+# 20260704_1150_precise_slow
 # 服务器地址	速度
-www.gaolao.top:8008	251.18 KB/s
-ddns.xryo.cn:8888	44.48 KB/s
-db9114c9.tlivemcdn.com:9999	1.30 KB/s
+ddns.xryo.cn:8888	47.93 KB/s
+wddpmpc.sosos.run:4022	40.11 KB/s
