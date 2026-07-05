@@ -1,13 +1,21 @@
-# 20260704_1147_precise
+# 20260705_1150_precise
 # 服务器地址	速度
-y1nf0x.myds.me:5888	394.93 KB/s
-vs.heylc.com:4022	394.91 KB/s
-lygzou.asuscomm.com:19999	378.72 KB/s
-nas3.bycza.top:8100	374.02 KB/s
-nas2.bycza.top:9000	367.45 KB/s
-dx.joygala.cn:8118	363.85 KB/s
-j1900.silicaite.top:58888	346.21 KB/s
-ikuai-v4.17271201.xyz:4000	339.95 KB/s
-jw318.synology.me:888	336.19 KB/s
-t.7ze.top:4022	306.27 KB/s
-49.79.83.116:58888	301.24 KB/s
+106.111.244.10:58099	434.25 KB/s
+fengwei888888.myds.me:58099	413.22 KB/s
+h.vanshun.com:8802	382.89 KB/s
+www.266999.xyz:55555	381.57 KB/s
+njbobo.mycloudnas.com:4022	379.22 KB/s
+980413.xyz:6000	373.84 KB/s
+y1nf0x.myds.me:5888	372.50 KB/s
+j1900.silicaite.top:58888	369.17 KB/s
+lygzou.asuscomm.com:19999	368.84 KB/s
+121.226.105.6:6888	368.29 KB/s
+nas3.bycza.top:8100	367.70 KB/s
+t.7ze.top:4022	366.69 KB/s
+vs.heylc.com:4022	361.98 KB/s
+nas2.bycza.top:9000	361.51 KB/s
+gcyp.mycloudnas.com:4000	354.33 KB/s
+49.79.83.116:58888	353.68 KB/s
+ikuai-v4.17271201.xyz:4000	350.73 KB/s
+iptv.feng.js.cn:58099	349.60 KB/s
+dx.joygala.cn:8118	340.67 KB/s

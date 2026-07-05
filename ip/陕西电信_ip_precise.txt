@@ -1,5 +1,7 @@
-# 20260704_1150_precise
+# 20260705_1152_precise
 # 服务器地址	速度
-tiger81.i234.me:8888	375.92 KB/s
-4712635.xyz:26000	340.42 KB/s
-www.gaolao.top:8008	326.21 KB/s
+tiger81.i234.me:8888	383.31 KB/s
+wddpmpc.sosos.run:4022	376.60 KB/s
+www.gaolao.top:8008	369.36 KB/s
+ddns.xryo.cn:8888	357.60 KB/s
+4712635.xyz:26000	347.89 KB/s
