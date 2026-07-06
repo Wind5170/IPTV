@@ -1,21 +1,15 @@
-# 20260705_1150_precise
+# 20260706_1402_precise
 # 服务器地址	速度
-106.111.244.10:58099	434.25 KB/s
-fengwei888888.myds.me:58099	413.22 KB/s
-h.vanshun.com:8802	382.89 KB/s
-www.266999.xyz:55555	381.57 KB/s
-njbobo.mycloudnas.com:4022	379.22 KB/s
-980413.xyz:6000	373.84 KB/s
-y1nf0x.myds.me:5888	372.50 KB/s
-j1900.silicaite.top:58888	369.17 KB/s
-lygzou.asuscomm.com:19999	368.84 KB/s
-121.226.105.6:6888	368.29 KB/s
-nas3.bycza.top:8100	367.70 KB/s
-t.7ze.top:4022	366.69 KB/s
-vs.heylc.com:4022	361.98 KB/s
-nas2.bycza.top:9000	361.51 KB/s
-gcyp.mycloudnas.com:4000	354.33 KB/s
-49.79.83.116:58888	353.68 KB/s
-ikuai-v4.17271201.xyz:4000	350.73 KB/s
-iptv.feng.js.cn:58099	349.60 KB/s
-dx.joygala.cn:8118	340.67 KB/s
+121.226.105.6:6888	487.59 KB/s
+iptv.feng.js.cn:58099	465.18 KB/s
+y1nf0x.myds.me:5888	438.77 KB/s
+ikuai-v4.17271201.xyz:4000	438.18 KB/s
+h.vanshun.com:8802	437.61 KB/s
+dx.joygala.cn:8118	435.68 KB/s
+j1900.silicaite.top:58888	419.78 KB/s
+acp-cloud.asuscomm.com:4000	409.91 KB/s
+49.79.83.116:58888	403.13 KB/s
+vs.heylc.com:4022	398.71 KB/s
+istoreos.sclvip.top:5566	358.64 KB/s
+t.7ze.top:4022	324.69 KB/s
+106.111.244.8:58099	311.41 KB/s

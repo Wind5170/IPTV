@@ -1,13 +1,17 @@
-# 20260705_1150_precise_slow
+# 20260706_1402_precise_slow
 # 服务器地址	速度
-acp-cloud.asuscomm.com:4000	291.06 KB/s
-jw318.synology.me:888	258.71 KB/s
-www.yzddy.top:8800	223.94 KB/s
-121.237.245.222:8888	214.65 KB/s
-home.amucn.net:8800	171.47 KB/s
-istoreos.sclvip.top:5566	149.02 KB/s
-www.sclvip.top:8787	122.59 KB/s
-114.226.212.147:8787	118.03 KB/s
-114.226.212.145:8787	115.94 KB/s
-kouki.pro:8888	34.40 KB/s
-www.wxzmz.com:8800	12.41 KB/s
+gcyp.mycloudnas.com:4000	298.30 KB/s
+121.237.245.222:8888	220.95 KB/s
+980413.xyz:6000	213.42 KB/s
+www.266999.xyz:55555	212.25 KB/s
+huijie5421.cn:8800	209.65 KB/s
+114.226.212.145:8787	200.16 KB/s
+nas2.bycza.top:9000	187.11 KB/s
+nas3.bycza.top:8100	181.61 KB/s
+www.sclvip.top:8787	180.20 KB/s
+www.wxzmz.com:8800	170.16 KB/s
+114.226.212.147:8787	164.15 KB/s
+jw318.synology.me:888	94.06 KB/s
+home.amucn.net:8800	56.13 KB/s
+kouki.pro:8888	44.48 KB/s
+www.foreveryyl.top:8001	29.24 KB/s

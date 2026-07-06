@@ -1,5 +1,7 @@
-# 20260705_1141_precise_slow
+# 20260706_1353_precise_slow
 # 服务器地址	速度
-113.119.27.158:58888	297.56 KB/s
-113.101.245.171:9988	283.10 KB/s
-liqn.mycloudnas.com:8188	105.15 KB/s
+vp.maomizi.cc:9527	298.38 KB/s
+113.101.245.171:9988	251.50 KB/s
+liqn.mycloudnas.com:8188	118.58 KB/s
+183.236.43.98:4111	2.40 KB/s
+www.hongzhijiaoyu.net:8188	1.92 KB/s
