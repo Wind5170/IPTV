@@ -1,12 +1,6 @@
-# 20260706_1348_precise_slow
+# 20260707_1230_precise_slow
 # 服务器地址	速度
-111.194.236.74:4022	277.24 KB/s
-111.196.129.242:20000	241.86 KB/s
-superpostmail.3322.org:1193	165.14 KB/s
-trulyliu.vicp.net:8622	140.20 KB/s
-tnv.asuscomm.com:8012	107.30 KB/s
-aikuai.natnum.top:8099	84.09 KB/s
-www.ikuai.me:4022	44.28 KB/s
-tonsir.oicp.net:15893	42.13 KB/s
-owvpn.famcloud.top:9878	34.46 KB/s
-unicom.swjms.com:4022	33.46 KB/s
+aecm6mg6ilmqybhl.nexusedgeio.com:5588	231.41 KB/s
+superpostmail.3322.org:1193	148.60 KB/s
+tnv.asuscomm.com:8012	82.09 KB/s
+unicom.swjms.com:4022	39.05 KB/s

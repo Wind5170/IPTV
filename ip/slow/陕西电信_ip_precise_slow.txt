@@ -1,3 +1,4 @@
-# 20260706_1404_precise_slow
+# 20260707_1242_precise_slow
 # 服务器地址	速度
-1.85.229.13:8686	197.83 KB/s
+ddns.xryo.cn:8888	157.79 KB/s
+tiger81.i234.me:8888	134.44 KB/s
