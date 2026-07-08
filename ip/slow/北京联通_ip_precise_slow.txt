@@ -1,6 +1,11 @@
-# 20260707_1230_precise_slow
+# 20260708_1149_precise_slow
 # 服务器地址	速度
-aecm6mg6ilmqybhl.nexusedgeio.com:5588	231.41 KB/s
-superpostmail.3322.org:1193	148.60 KB/s
-tnv.asuscomm.com:8012	82.09 KB/s
-unicom.swjms.com:4022	39.05 KB/s
+superpostmail.3322.org:1193	294.59 KB/s
+114.254.86.238:4022	294.18 KB/s
+laiboy.myds.me:58686	272.92 KB/s
+aikuai.natnum.top:8099	271.46 KB/s
+unicom.swjms.com:4022	256.09 KB/s
+aecm6mg6ilmqybhl.nexusedgeio.com:5588	243.55 KB/s
+www.xiongnas.top:8888	187.75 KB/s
+111.196.129.242:20000	181.85 KB/s
+sphinger.f3322.net:11012	136.58 KB/s
