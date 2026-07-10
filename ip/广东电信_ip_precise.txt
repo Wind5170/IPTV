@@ -1,16 +1,21 @@
-# 20260708_1154_precise
+# 20260710_1228_precise
 # 服务器地址	速度
-113.77.240.147:6822	413.35 KB/s
-113.119.24.235:58888	409.77 KB/s
-113.104.236.161:7088	399.83 KB/s
-yanshifen.top:8889	379.01 KB/s
-www.tyio.cc:8188	377.54 KB/s
-wmh.wmh.ink:6633	376.82 KB/s
-www.hongzhijiaoyu.net:8188	374.43 KB/s
-line1.huase.ltd:8888	369.59 KB/s
-183.236.43.98:4111	365.82 KB/s
-liqn.mycloudnas.com:8188	365.09 KB/s
-unraid.cyruslee.top:8888	360.99 KB/s
-183.236.43.98:4013	359.15 KB/s
-vpn.jk960.cn:8686	345.30 KB/s
-www.yahao.host:4022	335.98 KB/s
+183.236.43.98:4111	518.78 KB/s
+113.77.240.84:6822	518.26 KB/s
+www.tyio.cc:8188	517.28 KB/s
+183.236.43.98:4013	511.26 KB/s
+113.119.24.235:58888	499.32 KB/s
+wmh.wmh.ink:6633	496.78 KB/s
+www.yahao.host:4022	487.51 KB/s
+113.104.236.161:7088	485.05 KB/s
+nas218.i234.me:4333	477.47 KB/s
+www.hongzhijiaoyu.net:8188	471.62 KB/s
+line1.huase.ltd:8888	447.35 KB/s
+nas.xxika.net:8188	428.94 KB/s
+vpn.jk960.cn:8686	408.31 KB/s
+unraid.cyruslee.top:8888	406.47 KB/s
+113.83.248.18:4200	398.92 KB/s
+liqn.mycloudnas.com:8188	398.65 KB/s
+www.guangyuan.site:8188	320.02 KB/s
+yanshifen.top:8889	316.04 KB/s
+113.101.245.171:9988	302.51 KB/s
