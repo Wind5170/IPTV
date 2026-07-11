@@ -1,19 +1,18 @@
-# 20260710_1236_precise_slow
+# 20260711_1121_precise_slow
 # 服务器地址	速度
-fengwei888888.myds.me:58099	296.66 KB/s
-106.111.244.10:58099	280.31 KB/s
-www.sclvip.top:8787	267.24 KB/s
-acp-cloud.asuscomm.com:4000	244.27 KB/s
-121.237.245.222:8888	241.72 KB/s
-114.226.212.147:8787	183.63 KB/s
-114.226.212.145:8787	180.58 KB/s
-h.vanshun.com:8802	165.24 KB/s
-iptv.feng.js.cn:58099	161.18 KB/s
-980413.xyz:6000	115.11 KB/s
-ikuai-v4.17271201.xyz:4000	113.50 KB/s
-istoreos.sclvip.top:5566	110.45 KB/s
-kouki.pro:8888	102.74 KB/s
-www.wxzmz.com:8800	101.26 KB/s
-home.amucn.net:8800	92.41 KB/s
-www.266999.xyz:55555	1.87 KB/s
-www.foreveryyl.top:8001	0.09 KB/s
+nas2.bycza.top:9000	297.47 KB/s
+106.111.244.10:58099	289.92 KB/s
+iptv.feng.js.cn:58099	270.67 KB/s
+lygzou.asuscomm.com:19999	268.04 KB/s
+acp-cloud.asuscomm.com:4000	225.40 KB/s
+www.yzddy.top:8800	220.83 KB/s
+nas3.bycza.top:8100	212.29 KB/s
+j1900.silicaite.top:58888	206.44 KB/s
+www.wxzmz.com:8800	197.22 KB/s
+121.237.245.222:8888	191.70 KB/s
+www.sclvip.top:8787	179.16 KB/s
+kouki.pro:8888	161.80 KB/s
+gcyp.mycloudnas.com:4000	156.16 KB/s
+njbobo.mycloudnas.com:4022	149.58 KB/s
+ikuai-v4.17271201.xyz:4000	92.32 KB/s
+home.amucn.net:8800	55.67 KB/s

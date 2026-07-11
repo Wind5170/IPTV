@@ -1,3 +1,3 @@
-# 20260710_1225_precise_slow
+# 20260711_1107_precise_slow
 # 服务器地址	速度
-nicolethree.top:8188	64.45 KB/s
+nicolethree.top:8188	14.11 KB/s

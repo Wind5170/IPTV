@@ -1,9 +1,12 @@
-# 20260710_1227_precise_slow
+# 20260711_1109_precise_slow
 # 服务器地址	速度
-unicom.swjms.com:4022	91.32 KB/s
-tnv.asuscomm.com:8012	17.93 KB/s
-111.196.129.242:20000	2.93 KB/s
-aikuai.natnum.top:8099	2.04 KB/s
-owvpn.famcloud.top:9878	1.84 KB/s
-sphinger.f3322.net:11012	1.51 KB/s
-happy2015.synology.me:4000	0.09 KB/s
+laiboy.myds.me:58686	269.87 KB/s
+tonsir.oicp.net:15893	122.80 KB/s
+aikuai.natnum.top:8099	55.06 KB/s
+tnv.asuscomm.com:8012	48.07 KB/s
+111.196.129.242:20000	44.88 KB/s
+www.49156116.xyz:23234	44.86 KB/s
+unicom.swjms.com:4022	29.88 KB/s
+rt.tunan.tech:7070	16.72 KB/s
+owvpn.famcloud.top:9878	4.96 KB/s
+sphinger.f3322.net:11012	0.94 KB/s
