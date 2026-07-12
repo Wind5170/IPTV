@@ -1,6 +1,6 @@
-# 20260711_1114_precise
+# 20260712_1121_precise
 # 服务器地址	速度
-111.226.211.184:8188	373.36 KB/s
-share.xlangnan.cn:10316	350.09 KB/s
-share.xlangnan.cn:8189	345.10 KB/s
-prozyt.top:4022	343.72 KB/s
+111.226.211.32:8188	386.38 KB/s
+prozyt.top:4022	368.91 KB/s
+share.xlangnan.cn:8189	354.13 KB/s
+111.226.211.224:8188	353.47 KB/s

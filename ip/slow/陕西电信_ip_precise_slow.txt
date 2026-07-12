@@ -1,4 +1,3 @@
-# 20260711_1123_precise_slow
+# 20260712_1130_precise_slow
 # 服务器地址	速度
-36.46.98.19:8025	232.87 KB/s
-wddpmpc.sosos.run:4022	176.22 KB/s
+wddpmpc.sosos.run:4022	255.62 KB/s
