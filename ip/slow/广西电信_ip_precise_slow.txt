@@ -1,0 +1,3 @@
+# 20260713_1237_precise_slow
+# 服务器地址	速度
+jiangxun.sendsmtp.com:40222	295.41 KB/s

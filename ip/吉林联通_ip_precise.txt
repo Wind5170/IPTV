@@ -1,3 +1,3 @@
-# 20260712_1127_precise
+# 20260713_1246_precise
 # 服务器地址	速度
-wanda01.e7q.com:18090	316.56 KB/s
+wanda01.e7q.com:18090	345.19 KB/s

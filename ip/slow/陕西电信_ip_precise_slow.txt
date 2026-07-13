@@ -1,3 +1,0 @@
-# 20260712_1130_precise_slow
-# 服务器地址	速度
-wddpmpc.sosos.run:4022	255.62 KB/s
