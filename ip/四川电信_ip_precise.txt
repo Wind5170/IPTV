@@ -1,6 +1,8 @@
-# 20260713_1252_precise
+# 20260714_1143_precise
 # 服务器地址	速度
-s.zssss.eu.org:888	379.22 KB/s
-ddns.55682750.xyz:18888	342.58 KB/s
-171.213.206.195:4022	330.46 KB/s
-wan1.tangwudi.cc:47859	303.29 KB/s
+www.998878.xyz:5050	444.98 KB/s
+wan1.tangwudi.cc:47859	371.33 KB/s
+ddns.55682750.xyz:18888	361.29 KB/s
+s.zssss.eu.org:888	358.12 KB/s
+171.213.144.79:8188	341.55 KB/s
+xmzj.f3322.net:8188	308.01 KB/s

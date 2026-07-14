@@ -1,9 +1,10 @@
-# 20260713_1233_precise_slow
+# 20260714_1128_precise_slow
 # 服务器地址	速度
-laiboy.myds.me:58686	289.27 KB/s
-happy2015.synology.me:4000	177.74 KB/s
-owvpn.famcloud.top:9878	83.20 KB/s
-123.118.54.216:8686	75.21 KB/s
-www.ikuai.me:4022	73.56 KB/s
-aikuai.natnum.top:8099	37.63 KB/s
-www.49156116.xyz:23234	19.65 KB/s
+123.118.54.216:8686	291.56 KB/s
+aikuai.natnum.top:8099	98.91 KB/s
+www.49156116.xyz:23234	83.05 KB/s
+111.196.129.242:20000	75.06 KB/s
+owvpn.famcloud.top:9878	41.99 KB/s
+rt.tunan.tech:7070	15.09 KB/s
+www.ikuai.me:4022	1.99 KB/s
+happy2015.synology.me:4000	1.96 KB/s

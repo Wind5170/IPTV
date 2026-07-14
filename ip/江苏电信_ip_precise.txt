@@ -1,17 +1,20 @@
-# 20260713_1247_precise
+# 20260714_1140_precise
 # 服务器地址	速度
-114.226.212.136:8787	429.84 KB/s
-114.226.212.140:8787	414.06 KB/s
-121.226.105.6:6888	404.25 KB/s
-106.111.244.8:58099	400.70 KB/s
-istoreos.sclvip.top:5566	370.12 KB/s
-fengwei888888.myds.me:58099	364.97 KB/s
-dx.joygala.cn:8118	364.24 KB/s
-t.7ze.top:4022	358.02 KB/s
-www.yzddy.top:8800	356.10 KB/s
-nas3.bycza.top:8100	355.60 KB/s
-980413.xyz:6000	350.53 KB/s
-www.sclvip.top:8787	347.49 KB/s
-49.79.83.211:58888	338.57 KB/s
-nas2.bycza.top:9000	334.64 KB/s
-acp-cloud.asuscomm.com:4000	333.18 KB/s
+106.111.244.8:58099	512.97 KB/s
+fengwei888888.myds.me:58099	511.20 KB/s
+y1nf0x.myds.me:5888	504.35 KB/s
+980413.xyz:6000	487.65 KB/s
+121.226.105.6:6888	475.28 KB/s
+iptv.feng.js.cn:58099	463.45 KB/s
+h.vanshun.com:8802	453.92 KB/s
+lygzou.asuscomm.com:19999	446.65 KB/s
+49.79.83.211:58888	428.62 KB/s
+njbobo.mycloudnas.com:4022	413.63 KB/s
+vs.heylc.com:4022	404.38 KB/s
+nas3.bycza.top:8100	392.29 KB/s
+nas2.bycza.top:9000	372.13 KB/s
+acp-cloud.asuscomm.com:4000	371.60 KB/s
+www.yzddy.top:8800	344.06 KB/s
+t.7ze.top:4022	326.30 KB/s
+istoreos.sclvip.top:5566	318.93 KB/s
+gcyp.mycloudnas.com:4000	315.74 KB/s
