@@ -1,512 +1,512 @@
 #EXTM3U
 #EXTINF:-1 group-title="安徽电信-组播1",安徽卫视
-http://114.100.195.159:4022/rtp/238.1.78.150:7072
-#EXTINF:-1 group-title="安徽电信-组播1",安徽卫视
-http://114.100.195.159:4022/rtp/238.1.79.27:4328
-#EXTINF:-1 group-title="安徽电信-组播1",安徽公共频道
-http://114.100.195.159:4022/rtp/238.1.79.43:4456
-#EXTINF:-1 group-title="安徽电信-组播1",安徽农业科教
-http://114.100.195.159:4022/rtp/238.1.79.40:4432
-#EXTINF:-1 group-title="安徽电信-组播1",安徽国际频道
-http://114.100.195.159:4022/rtp/238.1.78.61:6360
-#EXTINF:-1 group-title="安徽电信-组播1",安徽导视频道
-http://114.100.195.159:4022/rtp/238.1.79.66:4664
-#EXTINF:-1 group-title="安徽电信-组播1",安徽影视频道
-http://114.100.195.159:4022/rtp/238.1.79.42:4448
-#EXTINF:-1 group-title="安徽电信-组播1",安徽经济生活
-http://114.100.195.159:4022/rtp/238.1.79.44:4464
-#EXTINF:-1 group-title="安徽电信-组播1",安徽综艺体育
-http://114.100.195.159:4022/rtp/238.1.79.41:4440
-#EXTINF:-1 group-title="安徽电信-组播1",CCTV-风云足球
-http://114.100.195.159:4022/rtp/238.1.79.57:4592
-#EXTINF:-1 group-title="安徽电信-组播1",CCTV-风云音乐
-http://114.100.195.159:4022/rtp/238.1.79.64:4648
-#EXTINF:-1 group-title="安徽电信-组播1",CCTV-第一剧场
-http://114.100.195.159:4022/rtp/238.1.79.63:4640
-#EXTINF:-1 group-title="安徽电信-组播1",CCTV-怀旧剧场
-http://114.100.195.159:4022/rtp/238.1.79.61:4624
-#EXTINF:-1 group-title="安徽电信-组播1",CCTV-风云剧场
-http://114.100.195.159:4022/rtp/238.1.79.62:4632
-#EXTINF:-1 group-title="安徽电信-组播1",CCTV-世界地理
-http://114.100.195.159:4022/rtp/238.1.79.60:4616
-#EXTINF:-1 group-title="安徽电信-组播1",CCTV-电视指南
-http://114.100.195.159:4022/rtp/238.1.79.53:4560
-#EXTINF:-1 group-title="安徽电信-组播1",CCTV-兵器科技
-http://114.100.195.159:4022/rtp/238.1.79.56:4584
-#EXTINF:-1 group-title="安徽电信-组播1",CCTV-女性时尚
-http://114.100.195.159:4022/rtp/238.1.79.55:4576
-#EXTINF:-1 group-title="安徽电信-组播1",CCTV-央视台球
-http://114.100.195.159:4022/rtp/238.1.79.59:4608
-#EXTINF:-1 group-title="安徽电信-组播1",CGTN英语
-http://114.100.195.159:4022/rtp/238.1.78.50:6272
-#EXTINF:-1 group-title="安徽电信-组播1",CETV-1综合教育
-http://114.100.195.159:4022/rtp/238.1.78.158:7136
-#EXTINF:-1 group-title="安徽电信-组播1",CETV-2空中课堂
-http://114.100.195.159:4022/rtp/238.1.78.106:6720
-#EXTINF:-1 group-title="安徽电信-组播1",CETV-4职业教育
-http://114.100.195.159:4022/rtp/238.1.78.107:6728
-#EXTINF:-1 group-title="安徽电信-组播1",体育赛事
-http://114.100.195.159:4022/rtp/238.1.78.33:6192
-#EXTINF:-1 group-title="安徽电信-组播1",北京卡酷少儿
-http://114.100.195.159:4022/rtp/238.1.78.97:6648
-#EXTINF:-1 group-title="安徽电信-组播1",上海东方财经
-http://114.100.195.159:4022/rtp/238.1.78.73:6456
-#EXTINF:-1 group-title="安徽电信-组播1",上海动漫秀场
-http://114.100.195.159:4022/rtp/238.1.78.154:7104
-#EXTINF:-1 group-title="安徽电信-组播1",上海游戏风云
-http://114.100.195.159:4022/rtp/238.1.78.81:6520
-#EXTINF:-1 group-title="安徽电信-组播1",上海乐游
-http://114.100.195.159:4022/rtp/238.1.78.151:7080
-#EXTINF:-1 group-title="安徽电信-组播1",上海法治天地
-http://114.100.195.159:4022/rtp/238.1.78.84:6544
-#EXTINF:-1 group-title="安徽电信-组播1",上海都市剧场
-http://114.100.195.159:4022/rtp/238.1.78.74:6464
-#EXTINF:-1 group-title="安徽电信-组播1",上海金色学堂
-http://114.100.195.159:4022/rtp/238.1.78.76:6480
-#EXTINF:-1 group-title="安徽电信-组播1",上海生活时尚
-http://114.100.195.159:4022/rtp/238.1.78.155:7112
-#EXTINF:-1 group-title="安徽电信-组播1",上海哈哈炫动
-http://114.100.195.159:4022/rtp/238.1.78.82:6528
-#EXTINF:-1 group-title="安徽电信-组播1",上海纪实人文
-http://114.100.195.159:4022/rtp/238.1.78.153:7096
-#EXTINF:-1 group-title="安徽电信-组播1",江苏财富天下
-http://114.100.195.159:4022/rtp/238.1.78.25:6128
-#EXTINF:-1 group-title="安徽电信-组播1",江西陶瓷
-http://114.100.195.159:4022/rtp/238.1.78.157:7128
-#EXTINF:-1 group-title="安徽电信-组播1",湖北快乐垂钓
-http://114.100.195.159:4022/rtp/238.1.79.31:4360
-#EXTINF:-1 group-title="安徽电信-组播1",湖南茶频道
-http://114.100.195.159:4022/rtp/238.1.79.30:4352
-#EXTINF:-1 group-title="安徽电信-组播1",湖南金鹰纪实
-http://114.100.195.159:4022/rtp/238.1.79.9:4184
-#EXTINF:-1 group-title="安徽电信-组播1",湖南金鹰卡通
-http://114.100.195.159:4022/rtp/238.1.78.100:6672
-#EXTINF:-1 group-title="安徽电信-组播1",七彩戏剧
-http://114.100.195.159:4022/rtp/238.1.78.85:6552
-#EXTINF:-1 group-title="安徽电信-组播1",合肥新闻频道
-http://114.100.195.159:4022/rtp/238.1.78.111:6760
-#EXTINF:-1 group-title="安徽电信-组播1",芜湖教育频道
-http://114.100.195.159:4022/rtp/238.1.78.167:7208
-#EXTINF:-1 group-title="安徽电信-组播1",芜湖新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.112:6768
-#EXTINF:-1 group-title="安徽电信-组播1",芜湖生活频道
-http://114.100.195.159:4022/rtp/238.1.78.152:7088
-#EXTINF:-1 group-title="安徽电信-组播1",芜湖生活频道
-http://114.100.195.159:4022/rtp/238.1.78.80:6512
-#EXTINF:-1 group-title="安徽电信-组播1",蚌埠新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.180:7312
-#EXTINF:-1 group-title="安徽电信-组播1",蚌埠生活频道
-http://114.100.195.159:4022/rtp/238.1.78.181:7320
-#EXTINF:-1 group-title="安徽电信-组播1",淮南新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.113:6776
-#EXTINF:-1 group-title="安徽电信-组播1",淮南民生频道
-http://114.100.195.159:4022/rtp/238.1.78.114:6784
-#EXTINF:-1 group-title="安徽电信-组播1",马鞍山新闻综合
-http://114.100.195.159:4022/rtp/238.1.79.15:4232
-#EXTINF:-1 group-title="安徽电信-组播1",马鞍山科教生活
-http://114.100.195.159:4022/rtp/238.1.78.77:6488
-#EXTINF:-1 group-title="安徽电信-组播1",淮北新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.135:6952
-#EXTINF:-1 group-title="安徽电信-组播1",淮北经济生活
-http://114.100.195.159:4022/rtp/238.1.78.136:6960
-#EXTINF:-1 group-title="安徽电信-组播1",铜陵公共频道
-http://114.100.195.159:4022/rtp/238.1.78.140:6992
-#EXTINF:-1 group-title="安徽电信-组播1",铜陵教育科技
-http://114.100.195.159:4022/rtp/238.1.78.141:7000
-#EXTINF:-1 group-title="安徽电信-组播1",铜陵新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.139:6984
-#EXTINF:-1 group-title="安徽电信-组播1",安庆教育频道
-http://114.100.195.159:4022/rtp/238.1.78.120:6832
-#EXTINF:-1 group-title="安徽电信-组播1",安庆新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.117:6808
-#EXTINF:-1 group-title="安徽电信-组播1",安庆经济生活
-http://114.100.195.159:4022/rtp/238.1.78.118:6816
-#EXTINF:-1 group-title="安徽电信-组播1",黄山区融媒
-http://114.100.195.159:4022/rtp/238.1.78.199:7464
-#EXTINF:-1 group-title="安徽电信-组播1",黄山文旅频道
-http://114.100.195.159:4022/rtp/238.1.78.131:6920
-#EXTINF:-1 group-title="安徽电信-组播1",黄山新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.130:6912
-#EXTINF:-1 group-title="安徽电信-组播1",滁州公共频道
-http://114.100.195.159:4022/rtp/238.1.78.134:6944
-#EXTINF:-1 group-title="安徽电信-组播1",滁州新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.132:6928
-#EXTINF:-1 group-title="安徽电信-组播1",滁州科教频道
-http://114.100.195.159:4022/rtp/238.1.78.133:6936
-#EXTINF:-1 group-title="安徽电信-组播1",阜阳教育频道
-http://114.100.195.159:4022/rtp/238.1.78.126:6880
-#EXTINF:-1 group-title="安徽电信-组播1",阜阳新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.124:6864
-#EXTINF:-1 group-title="安徽电信-组播1",阜阳生活频道
-http://114.100.195.159:4022/rtp/238.1.78.125:6872
-#EXTINF:-1 group-title="安徽电信-组播1",阜阳都市文艺
-http://114.100.195.159:4022/rtp/238.1.78.127:6888
-#EXTINF:-1 group-title="安徽电信-组播1",宿州公共频道
-http://114.100.195.159:4022/rtp/238.1.78.122:6848
-#EXTINF:-1 group-title="安徽电信-组播1",宿州新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.121:6840
-#EXTINF:-1 group-title="安徽电信-组播1",宿州科教频道
-http://114.100.195.159:4022/rtp/238.1.78.123:6856
-#EXTINF:-1 group-title="安徽电信-组播1",六安社会生活
-http://114.100.195.159:4022/rtp/238.1.78.145:7032
-#EXTINF:-1 group-title="安徽电信-组播1",六安综合频道
-http://114.100.195.159:4022/rtp/238.1.78.144:7024
-#EXTINF:-1 group-title="安徽电信-组播1",亳州农村频道
-http://114.100.195.159:4022/rtp/238.1.78.129:6904
-#EXTINF:-1 group-title="安徽电信-组播1",亳州综合频道
-http://114.100.195.159:4022/rtp/238.1.78.128:6896
-#EXTINF:-1 group-title="安徽电信-组播1",池州文教生活
-http://114.100.195.159:4022/rtp/238.1.78.148:7056
-#EXTINF:-1 group-title="安徽电信-组播1",池州新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.147:7048
-#EXTINF:-1 group-title="安徽电信-组播1",宣城文旅生活
-http://114.100.195.159:4022/rtp/238.1.78.143:7016
-#EXTINF:-1 group-title="安徽电信-组播1",宣城综合频道
-http://114.100.195.159:4022/rtp/238.1.78.142:7008
-#EXTINF:-1 group-title="安徽电信-组播1",山东教育
-http://114.100.195.159:4022/rtp/238.1.78.254:7904
-#EXTINF:-1 group-title="安徽电信-组播1",东至综合频道
-http://114.100.195.159:4022/rtp/238.1.79.13:4216
-#EXTINF:-1 group-title="安徽电信-组播1",临泉新闻频道
-http://114.100.195.159:4022/rtp/238.1.78.29:6160
-#EXTINF:-1 group-title="安徽电信-组播1",义安新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.211:7560
-#EXTINF:-1 group-title="安徽电信-组播1",五河新闻综合
-http://114.100.195.159:4022/rtp/238.1.79.52:4528
-#EXTINF:-1 group-title="安徽电信-组播1",休宁新闻综合
-http://114.100.195.159:4022/rtp/238.1.79.20:4272
-#EXTINF:-1 group-title="安徽电信-组播1",全椒综合频道
-http://114.100.195.159:4022/rtp/238.1.78.203:7496
-#EXTINF:-1 group-title="安徽电信-组播1",凤阳新闻频道
-http://114.100.195.159:4022/rtp/238.1.78.207:7528
-#EXTINF:-1 group-title="安徽电信-组播1",利辛新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.196:7440
-#EXTINF:-1 group-title="安徽电信-组播1",南陵新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.189:7384
-#EXTINF:-1 group-title="安徽电信-组播1",固镇新闻综合
-http://114.100.195.159:4022/rtp/238.1.79.47:4488
-#EXTINF:-1 group-title="安徽电信-组播1",太湖新闻综合
-http://114.100.195.159:4022/rtp/238.1.79.12:4208
-#EXTINF:-1 group-title="安徽电信-组播1",宁国新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.216:7600
-#EXTINF:-1 group-title="安徽电信-组播1",定远新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.205:7512
-#EXTINF:-1 group-title="安徽电信-组播1",寿县新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.146:7040
-#EXTINF:-1 group-title="安徽电信-组播1",广德新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.212:7568
-#EXTINF:-1 group-title="安徽电信-组播1",徽州新闻频道
-http://114.100.195.159:4022/rtp/238.1.78.138:6976
-#EXTINF:-1 group-title="安徽电信-组播1",旌德新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.215:7592
-#EXTINF:-1 group-title="安徽电信-组播1",无为新闻频道
-http://114.100.195.159:4022/rtp/238.1.78.188:7376
-#EXTINF:-1 group-title="安徽电信-组播1",明光综合频道
-http://114.100.195.159:4022/rtp/238.1.78.208:7536
-#EXTINF:-1 group-title="安徽电信-组播1",来安新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.204:7504
-#EXTINF:-1 group-title="安徽电信-组播1",桐城综合频道
-http://114.100.195.159:4022/rtp/238.1.78.28:6152
-#EXTINF:-1 group-title="安徽电信-组播1",歙县综合频道
-http://114.100.195.159:4022/rtp/238.1.78.200:7472
-#EXTINF:-1 group-title="安徽电信-组播1",泗县新闻频道
-http://114.100.195.159:4022/rtp/238.1.78.193:7416
-#EXTINF:-1 group-title="安徽电信-组播1",海豚影视HD
-http://114.100.195.159:4022/rtp/238.1.79.34:4384
-#EXTINF:-1 group-title="安徽电信-组播1",涡阳新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.197:7448
-#EXTINF:-1 group-title="安徽电信-组播1",湾沚综合频道
-http://114.100.195.159:4022/rtp/238.1.78.187:7368
-#EXTINF:-1 group-title="安徽电信-组播1",潜山综合频道
-http://114.100.195.159:4022/rtp/238.1.78.192:7408
-#EXTINF:-1 group-title="安徽电信-组播1",濉溪新闻频道
-http://114.100.195.159:4022/rtp/238.1.78.209:7544
-#EXTINF:-1 group-title="安徽电信-组播1",界首综合频道
-http://114.100.195.159:4022/rtp/238.1.78.195:7432
-#EXTINF:-1 group-title="安徽电信-组播1",石台综合频道
-http://114.100.195.159:4022/rtp/238.1.78.221:7640
-#EXTINF:-1 group-title="安徽电信-组播1",祁门综合频道
-http://114.100.195.159:4022/rtp/238.1.79.14:4224
-#EXTINF:-1 group-title="安徽电信-组播1",繁昌新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.190:7392
-#EXTINF:-1 group-title="安徽电信-组播1",绩溪新闻频道
-http://114.100.195.159:4022/rtp/238.1.78.218:7616
-#EXTINF:-1 group-title="安徽电信-组播1",肥东新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.183:7336
-#EXTINF:-1 group-title="安徽电信-组播1",肥西新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.185:7352
-#EXTINF:-1 group-title="安徽电信-组播1",萧县新闻综合
-http://114.100.195.159:4022/rtp/238.1.79.46:4480
-#EXTINF:-1 group-title="安徽电信-组播1",蒙城新闻频道
-http://114.100.195.159:4022/rtp/238.1.79.19:4264
-#EXTINF:-1 group-title="安徽电信-组播1",郎溪新闻频道
-http://114.100.195.159:4022/rtp/238.1.78.214:7584
-#EXTINF:-1 group-title="安徽电信-组播1",金寨综合频道
-http://114.100.195.159:4022/rtp/238.1.79.21:4280
-#EXTINF:-1 group-title="安徽电信-组播1",阜南新闻综合
-http://114.100.195.159:4022/rtp/238.1.79.11:4200
-#EXTINF:-1 group-title="安徽电信-组播1",霍山综合频道
-http://114.100.195.159:4022/rtp/238.1.78.220:7632
-#EXTINF:-1 group-title="安徽电信-组播1",霍邱新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.119:6824
-#EXTINF:-1 group-title="安徽电信-组播1",颍上新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.194:7424
-#EXTINF:-1 group-title="安徽电信-组播1",黟县新闻综合
-http://114.100.195.159:4022/rtp/238.1.78.149:7064
-#EXTINF:-1 group-title="安徽电信-组播2",安徽卫视
 http://www.191919.xyz:8888/rtp/238.1.78.150:7072
-#EXTINF:-1 group-title="安徽电信-组播2",安徽卫视
+#EXTINF:-1 group-title="安徽电信-组播1",安徽卫视
 http://www.191919.xyz:8888/rtp/238.1.79.27:4328
-#EXTINF:-1 group-title="安徽电信-组播2",安徽公共频道
+#EXTINF:-1 group-title="安徽电信-组播1",安徽公共频道
 http://www.191919.xyz:8888/rtp/238.1.79.43:4456
-#EXTINF:-1 group-title="安徽电信-组播2",安徽农业科教
+#EXTINF:-1 group-title="安徽电信-组播1",安徽农业科教
 http://www.191919.xyz:8888/rtp/238.1.79.40:4432
-#EXTINF:-1 group-title="安徽电信-组播2",安徽国际频道
+#EXTINF:-1 group-title="安徽电信-组播1",安徽国际频道
 http://www.191919.xyz:8888/rtp/238.1.78.61:6360
-#EXTINF:-1 group-title="安徽电信-组播2",安徽导视频道
+#EXTINF:-1 group-title="安徽电信-组播1",安徽导视频道
 http://www.191919.xyz:8888/rtp/238.1.79.66:4664
-#EXTINF:-1 group-title="安徽电信-组播2",安徽影视频道
+#EXTINF:-1 group-title="安徽电信-组播1",安徽影视频道
 http://www.191919.xyz:8888/rtp/238.1.79.42:4448
-#EXTINF:-1 group-title="安徽电信-组播2",安徽经济生活
+#EXTINF:-1 group-title="安徽电信-组播1",安徽经济生活
 http://www.191919.xyz:8888/rtp/238.1.79.44:4464
-#EXTINF:-1 group-title="安徽电信-组播2",安徽综艺体育
+#EXTINF:-1 group-title="安徽电信-组播1",安徽综艺体育
 http://www.191919.xyz:8888/rtp/238.1.79.41:4440
-#EXTINF:-1 group-title="安徽电信-组播2",CCTV-风云足球
+#EXTINF:-1 group-title="安徽电信-组播1",CCTV-风云足球
 http://www.191919.xyz:8888/rtp/238.1.79.57:4592
-#EXTINF:-1 group-title="安徽电信-组播2",CCTV-风云音乐
+#EXTINF:-1 group-title="安徽电信-组播1",CCTV-风云音乐
 http://www.191919.xyz:8888/rtp/238.1.79.64:4648
-#EXTINF:-1 group-title="安徽电信-组播2",CCTV-第一剧场
+#EXTINF:-1 group-title="安徽电信-组播1",CCTV-第一剧场
 http://www.191919.xyz:8888/rtp/238.1.79.63:4640
-#EXTINF:-1 group-title="安徽电信-组播2",CCTV-怀旧剧场
+#EXTINF:-1 group-title="安徽电信-组播1",CCTV-怀旧剧场
 http://www.191919.xyz:8888/rtp/238.1.79.61:4624
-#EXTINF:-1 group-title="安徽电信-组播2",CCTV-风云剧场
+#EXTINF:-1 group-title="安徽电信-组播1",CCTV-风云剧场
 http://www.191919.xyz:8888/rtp/238.1.79.62:4632
-#EXTINF:-1 group-title="安徽电信-组播2",CCTV-世界地理
+#EXTINF:-1 group-title="安徽电信-组播1",CCTV-世界地理
 http://www.191919.xyz:8888/rtp/238.1.79.60:4616
-#EXTINF:-1 group-title="安徽电信-组播2",CCTV-电视指南
+#EXTINF:-1 group-title="安徽电信-组播1",CCTV-电视指南
 http://www.191919.xyz:8888/rtp/238.1.79.53:4560
-#EXTINF:-1 group-title="安徽电信-组播2",CCTV-兵器科技
+#EXTINF:-1 group-title="安徽电信-组播1",CCTV-兵器科技
 http://www.191919.xyz:8888/rtp/238.1.79.56:4584
-#EXTINF:-1 group-title="安徽电信-组播2",CCTV-女性时尚
+#EXTINF:-1 group-title="安徽电信-组播1",CCTV-女性时尚
 http://www.191919.xyz:8888/rtp/238.1.79.55:4576
-#EXTINF:-1 group-title="安徽电信-组播2",CCTV-央视台球
+#EXTINF:-1 group-title="安徽电信-组播1",CCTV-央视台球
 http://www.191919.xyz:8888/rtp/238.1.79.59:4608
-#EXTINF:-1 group-title="安徽电信-组播2",CGTN英语
+#EXTINF:-1 group-title="安徽电信-组播1",CGTN英语
 http://www.191919.xyz:8888/rtp/238.1.78.50:6272
-#EXTINF:-1 group-title="安徽电信-组播2",CETV-1综合教育
+#EXTINF:-1 group-title="安徽电信-组播1",CETV-1综合教育
 http://www.191919.xyz:8888/rtp/238.1.78.158:7136
-#EXTINF:-1 group-title="安徽电信-组播2",CETV-2空中课堂
+#EXTINF:-1 group-title="安徽电信-组播1",CETV-2空中课堂
 http://www.191919.xyz:8888/rtp/238.1.78.106:6720
-#EXTINF:-1 group-title="安徽电信-组播2",CETV-4职业教育
+#EXTINF:-1 group-title="安徽电信-组播1",CETV-4职业教育
 http://www.191919.xyz:8888/rtp/238.1.78.107:6728
-#EXTINF:-1 group-title="安徽电信-组播2",体育赛事
+#EXTINF:-1 group-title="安徽电信-组播1",体育赛事
 http://www.191919.xyz:8888/rtp/238.1.78.33:6192
-#EXTINF:-1 group-title="安徽电信-组播2",北京卡酷少儿
+#EXTINF:-1 group-title="安徽电信-组播1",北京卡酷少儿
 http://www.191919.xyz:8888/rtp/238.1.78.97:6648
-#EXTINF:-1 group-title="安徽电信-组播2",上海东方财经
+#EXTINF:-1 group-title="安徽电信-组播1",上海东方财经
 http://www.191919.xyz:8888/rtp/238.1.78.73:6456
-#EXTINF:-1 group-title="安徽电信-组播2",上海动漫秀场
+#EXTINF:-1 group-title="安徽电信-组播1",上海动漫秀场
 http://www.191919.xyz:8888/rtp/238.1.78.154:7104
-#EXTINF:-1 group-title="安徽电信-组播2",上海游戏风云
+#EXTINF:-1 group-title="安徽电信-组播1",上海游戏风云
 http://www.191919.xyz:8888/rtp/238.1.78.81:6520
-#EXTINF:-1 group-title="安徽电信-组播2",上海乐游
+#EXTINF:-1 group-title="安徽电信-组播1",上海乐游
 http://www.191919.xyz:8888/rtp/238.1.78.151:7080
-#EXTINF:-1 group-title="安徽电信-组播2",上海法治天地
+#EXTINF:-1 group-title="安徽电信-组播1",上海法治天地
 http://www.191919.xyz:8888/rtp/238.1.78.84:6544
-#EXTINF:-1 group-title="安徽电信-组播2",上海都市剧场
+#EXTINF:-1 group-title="安徽电信-组播1",上海都市剧场
 http://www.191919.xyz:8888/rtp/238.1.78.74:6464
-#EXTINF:-1 group-title="安徽电信-组播2",上海金色学堂
+#EXTINF:-1 group-title="安徽电信-组播1",上海金色学堂
 http://www.191919.xyz:8888/rtp/238.1.78.76:6480
-#EXTINF:-1 group-title="安徽电信-组播2",上海生活时尚
+#EXTINF:-1 group-title="安徽电信-组播1",上海生活时尚
 http://www.191919.xyz:8888/rtp/238.1.78.155:7112
-#EXTINF:-1 group-title="安徽电信-组播2",上海哈哈炫动
+#EXTINF:-1 group-title="安徽电信-组播1",上海哈哈炫动
 http://www.191919.xyz:8888/rtp/238.1.78.82:6528
-#EXTINF:-1 group-title="安徽电信-组播2",上海纪实人文
+#EXTINF:-1 group-title="安徽电信-组播1",上海纪实人文
 http://www.191919.xyz:8888/rtp/238.1.78.153:7096
-#EXTINF:-1 group-title="安徽电信-组播2",江苏财富天下
+#EXTINF:-1 group-title="安徽电信-组播1",江苏财富天下
 http://www.191919.xyz:8888/rtp/238.1.78.25:6128
-#EXTINF:-1 group-title="安徽电信-组播2",江西陶瓷
+#EXTINF:-1 group-title="安徽电信-组播1",江西陶瓷
 http://www.191919.xyz:8888/rtp/238.1.78.157:7128
-#EXTINF:-1 group-title="安徽电信-组播2",湖北快乐垂钓
+#EXTINF:-1 group-title="安徽电信-组播1",湖北快乐垂钓
 http://www.191919.xyz:8888/rtp/238.1.79.31:4360
-#EXTINF:-1 group-title="安徽电信-组播2",湖南茶频道
+#EXTINF:-1 group-title="安徽电信-组播1",湖南茶频道
 http://www.191919.xyz:8888/rtp/238.1.79.30:4352
-#EXTINF:-1 group-title="安徽电信-组播2",湖南金鹰纪实
+#EXTINF:-1 group-title="安徽电信-组播1",湖南金鹰纪实
 http://www.191919.xyz:8888/rtp/238.1.79.9:4184
-#EXTINF:-1 group-title="安徽电信-组播2",湖南金鹰卡通
+#EXTINF:-1 group-title="安徽电信-组播1",湖南金鹰卡通
 http://www.191919.xyz:8888/rtp/238.1.78.100:6672
-#EXTINF:-1 group-title="安徽电信-组播2",七彩戏剧
+#EXTINF:-1 group-title="安徽电信-组播1",七彩戏剧
 http://www.191919.xyz:8888/rtp/238.1.78.85:6552
-#EXTINF:-1 group-title="安徽电信-组播2",合肥新闻频道
+#EXTINF:-1 group-title="安徽电信-组播1",合肥新闻频道
 http://www.191919.xyz:8888/rtp/238.1.78.111:6760
-#EXTINF:-1 group-title="安徽电信-组播2",芜湖教育频道
+#EXTINF:-1 group-title="安徽电信-组播1",芜湖教育频道
 http://www.191919.xyz:8888/rtp/238.1.78.167:7208
-#EXTINF:-1 group-title="安徽电信-组播2",芜湖新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",芜湖新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.112:6768
-#EXTINF:-1 group-title="安徽电信-组播2",芜湖生活频道
+#EXTINF:-1 group-title="安徽电信-组播1",芜湖生活频道
 http://www.191919.xyz:8888/rtp/238.1.78.152:7088
-#EXTINF:-1 group-title="安徽电信-组播2",芜湖生活频道
+#EXTINF:-1 group-title="安徽电信-组播1",芜湖生活频道
 http://www.191919.xyz:8888/rtp/238.1.78.80:6512
-#EXTINF:-1 group-title="安徽电信-组播2",蚌埠新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",蚌埠新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.180:7312
-#EXTINF:-1 group-title="安徽电信-组播2",蚌埠生活频道
+#EXTINF:-1 group-title="安徽电信-组播1",蚌埠生活频道
 http://www.191919.xyz:8888/rtp/238.1.78.181:7320
-#EXTINF:-1 group-title="安徽电信-组播2",淮南新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",淮南新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.113:6776
-#EXTINF:-1 group-title="安徽电信-组播2",淮南民生频道
+#EXTINF:-1 group-title="安徽电信-组播1",淮南民生频道
 http://www.191919.xyz:8888/rtp/238.1.78.114:6784
-#EXTINF:-1 group-title="安徽电信-组播2",马鞍山新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",马鞍山新闻综合
 http://www.191919.xyz:8888/rtp/238.1.79.15:4232
-#EXTINF:-1 group-title="安徽电信-组播2",马鞍山科教生活
+#EXTINF:-1 group-title="安徽电信-组播1",马鞍山科教生活
 http://www.191919.xyz:8888/rtp/238.1.78.77:6488
-#EXTINF:-1 group-title="安徽电信-组播2",淮北新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",淮北新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.135:6952
-#EXTINF:-1 group-title="安徽电信-组播2",淮北经济生活
+#EXTINF:-1 group-title="安徽电信-组播1",淮北经济生活
 http://www.191919.xyz:8888/rtp/238.1.78.136:6960
-#EXTINF:-1 group-title="安徽电信-组播2",铜陵公共频道
+#EXTINF:-1 group-title="安徽电信-组播1",铜陵公共频道
 http://www.191919.xyz:8888/rtp/238.1.78.140:6992
-#EXTINF:-1 group-title="安徽电信-组播2",铜陵教育科技
+#EXTINF:-1 group-title="安徽电信-组播1",铜陵教育科技
 http://www.191919.xyz:8888/rtp/238.1.78.141:7000
-#EXTINF:-1 group-title="安徽电信-组播2",铜陵新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",铜陵新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.139:6984
-#EXTINF:-1 group-title="安徽电信-组播2",安庆教育频道
+#EXTINF:-1 group-title="安徽电信-组播1",安庆教育频道
 http://www.191919.xyz:8888/rtp/238.1.78.120:6832
-#EXTINF:-1 group-title="安徽电信-组播2",安庆新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",安庆新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.117:6808
-#EXTINF:-1 group-title="安徽电信-组播2",安庆经济生活
+#EXTINF:-1 group-title="安徽电信-组播1",安庆经济生活
 http://www.191919.xyz:8888/rtp/238.1.78.118:6816
-#EXTINF:-1 group-title="安徽电信-组播2",黄山区融媒
+#EXTINF:-1 group-title="安徽电信-组播1",黄山区融媒
 http://www.191919.xyz:8888/rtp/238.1.78.199:7464
-#EXTINF:-1 group-title="安徽电信-组播2",黄山文旅频道
+#EXTINF:-1 group-title="安徽电信-组播1",黄山文旅频道
 http://www.191919.xyz:8888/rtp/238.1.78.131:6920
-#EXTINF:-1 group-title="安徽电信-组播2",黄山新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",黄山新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.130:6912
-#EXTINF:-1 group-title="安徽电信-组播2",滁州公共频道
+#EXTINF:-1 group-title="安徽电信-组播1",滁州公共频道
 http://www.191919.xyz:8888/rtp/238.1.78.134:6944
-#EXTINF:-1 group-title="安徽电信-组播2",滁州新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",滁州新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.132:6928
-#EXTINF:-1 group-title="安徽电信-组播2",滁州科教频道
+#EXTINF:-1 group-title="安徽电信-组播1",滁州科教频道
 http://www.191919.xyz:8888/rtp/238.1.78.133:6936
-#EXTINF:-1 group-title="安徽电信-组播2",阜阳教育频道
+#EXTINF:-1 group-title="安徽电信-组播1",阜阳教育频道
 http://www.191919.xyz:8888/rtp/238.1.78.126:6880
-#EXTINF:-1 group-title="安徽电信-组播2",阜阳新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",阜阳新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.124:6864
-#EXTINF:-1 group-title="安徽电信-组播2",阜阳生活频道
+#EXTINF:-1 group-title="安徽电信-组播1",阜阳生活频道
 http://www.191919.xyz:8888/rtp/238.1.78.125:6872
-#EXTINF:-1 group-title="安徽电信-组播2",阜阳都市文艺
+#EXTINF:-1 group-title="安徽电信-组播1",阜阳都市文艺
 http://www.191919.xyz:8888/rtp/238.1.78.127:6888
-#EXTINF:-1 group-title="安徽电信-组播2",宿州公共频道
+#EXTINF:-1 group-title="安徽电信-组播1",宿州公共频道
 http://www.191919.xyz:8888/rtp/238.1.78.122:6848
-#EXTINF:-1 group-title="安徽电信-组播2",宿州新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",宿州新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.121:6840
-#EXTINF:-1 group-title="安徽电信-组播2",宿州科教频道
+#EXTINF:-1 group-title="安徽电信-组播1",宿州科教频道
 http://www.191919.xyz:8888/rtp/238.1.78.123:6856
-#EXTINF:-1 group-title="安徽电信-组播2",六安社会生活
+#EXTINF:-1 group-title="安徽电信-组播1",六安社会生活
 http://www.191919.xyz:8888/rtp/238.1.78.145:7032
-#EXTINF:-1 group-title="安徽电信-组播2",六安综合频道
+#EXTINF:-1 group-title="安徽电信-组播1",六安综合频道
 http://www.191919.xyz:8888/rtp/238.1.78.144:7024
-#EXTINF:-1 group-title="安徽电信-组播2",亳州农村频道
+#EXTINF:-1 group-title="安徽电信-组播1",亳州农村频道
 http://www.191919.xyz:8888/rtp/238.1.78.129:6904
-#EXTINF:-1 group-title="安徽电信-组播2",亳州综合频道
+#EXTINF:-1 group-title="安徽电信-组播1",亳州综合频道
 http://www.191919.xyz:8888/rtp/238.1.78.128:6896
-#EXTINF:-1 group-title="安徽电信-组播2",池州文教生活
+#EXTINF:-1 group-title="安徽电信-组播1",池州文教生活
 http://www.191919.xyz:8888/rtp/238.1.78.148:7056
-#EXTINF:-1 group-title="安徽电信-组播2",池州新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",池州新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.147:7048
-#EXTINF:-1 group-title="安徽电信-组播2",宣城文旅生活
+#EXTINF:-1 group-title="安徽电信-组播1",宣城文旅生活
 http://www.191919.xyz:8888/rtp/238.1.78.143:7016
-#EXTINF:-1 group-title="安徽电信-组播2",宣城综合频道
+#EXTINF:-1 group-title="安徽电信-组播1",宣城综合频道
 http://www.191919.xyz:8888/rtp/238.1.78.142:7008
-#EXTINF:-1 group-title="安徽电信-组播2",山东教育
+#EXTINF:-1 group-title="安徽电信-组播1",山东教育
 http://www.191919.xyz:8888/rtp/238.1.78.254:7904
-#EXTINF:-1 group-title="安徽电信-组播2",东至综合频道
+#EXTINF:-1 group-title="安徽电信-组播1",东至综合频道
 http://www.191919.xyz:8888/rtp/238.1.79.13:4216
-#EXTINF:-1 group-title="安徽电信-组播2",临泉新闻频道
+#EXTINF:-1 group-title="安徽电信-组播1",临泉新闻频道
 http://www.191919.xyz:8888/rtp/238.1.78.29:6160
-#EXTINF:-1 group-title="安徽电信-组播2",义安新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",义安新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.211:7560
-#EXTINF:-1 group-title="安徽电信-组播2",五河新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",五河新闻综合
 http://www.191919.xyz:8888/rtp/238.1.79.52:4528
-#EXTINF:-1 group-title="安徽电信-组播2",休宁新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",休宁新闻综合
 http://www.191919.xyz:8888/rtp/238.1.79.20:4272
-#EXTINF:-1 group-title="安徽电信-组播2",全椒综合频道
+#EXTINF:-1 group-title="安徽电信-组播1",全椒综合频道
 http://www.191919.xyz:8888/rtp/238.1.78.203:7496
-#EXTINF:-1 group-title="安徽电信-组播2",凤阳新闻频道
+#EXTINF:-1 group-title="安徽电信-组播1",凤阳新闻频道
 http://www.191919.xyz:8888/rtp/238.1.78.207:7528
-#EXTINF:-1 group-title="安徽电信-组播2",利辛新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",利辛新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.196:7440
-#EXTINF:-1 group-title="安徽电信-组播2",南陵新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",南陵新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.189:7384
-#EXTINF:-1 group-title="安徽电信-组播2",固镇新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",固镇新闻综合
 http://www.191919.xyz:8888/rtp/238.1.79.47:4488
-#EXTINF:-1 group-title="安徽电信-组播2",太湖新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",太湖新闻综合
 http://www.191919.xyz:8888/rtp/238.1.79.12:4208
-#EXTINF:-1 group-title="安徽电信-组播2",宁国新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",宁国新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.216:7600
-#EXTINF:-1 group-title="安徽电信-组播2",定远新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",定远新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.205:7512
-#EXTINF:-1 group-title="安徽电信-组播2",寿县新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",寿县新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.146:7040
-#EXTINF:-1 group-title="安徽电信-组播2",广德新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",广德新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.212:7568
-#EXTINF:-1 group-title="安徽电信-组播2",徽州新闻频道
+#EXTINF:-1 group-title="安徽电信-组播1",徽州新闻频道
 http://www.191919.xyz:8888/rtp/238.1.78.138:6976
-#EXTINF:-1 group-title="安徽电信-组播2",旌德新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",旌德新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.215:7592
-#EXTINF:-1 group-title="安徽电信-组播2",无为新闻频道
+#EXTINF:-1 group-title="安徽电信-组播1",无为新闻频道
 http://www.191919.xyz:8888/rtp/238.1.78.188:7376
-#EXTINF:-1 group-title="安徽电信-组播2",明光综合频道
+#EXTINF:-1 group-title="安徽电信-组播1",明光综合频道
 http://www.191919.xyz:8888/rtp/238.1.78.208:7536
-#EXTINF:-1 group-title="安徽电信-组播2",来安新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",来安新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.204:7504
-#EXTINF:-1 group-title="安徽电信-组播2",桐城综合频道
+#EXTINF:-1 group-title="安徽电信-组播1",桐城综合频道
 http://www.191919.xyz:8888/rtp/238.1.78.28:6152
-#EXTINF:-1 group-title="安徽电信-组播2",歙县综合频道
+#EXTINF:-1 group-title="安徽电信-组播1",歙县综合频道
 http://www.191919.xyz:8888/rtp/238.1.78.200:7472
-#EXTINF:-1 group-title="安徽电信-组播2",泗县新闻频道
+#EXTINF:-1 group-title="安徽电信-组播1",泗县新闻频道
 http://www.191919.xyz:8888/rtp/238.1.78.193:7416
-#EXTINF:-1 group-title="安徽电信-组播2",海豚影视HD
+#EXTINF:-1 group-title="安徽电信-组播1",海豚影视HD
 http://www.191919.xyz:8888/rtp/238.1.79.34:4384
-#EXTINF:-1 group-title="安徽电信-组播2",涡阳新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",涡阳新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.197:7448
-#EXTINF:-1 group-title="安徽电信-组播2",湾沚综合频道
+#EXTINF:-1 group-title="安徽电信-组播1",湾沚综合频道
 http://www.191919.xyz:8888/rtp/238.1.78.187:7368
-#EXTINF:-1 group-title="安徽电信-组播2",潜山综合频道
+#EXTINF:-1 group-title="安徽电信-组播1",潜山综合频道
 http://www.191919.xyz:8888/rtp/238.1.78.192:7408
-#EXTINF:-1 group-title="安徽电信-组播2",濉溪新闻频道
+#EXTINF:-1 group-title="安徽电信-组播1",濉溪新闻频道
 http://www.191919.xyz:8888/rtp/238.1.78.209:7544
-#EXTINF:-1 group-title="安徽电信-组播2",界首综合频道
+#EXTINF:-1 group-title="安徽电信-组播1",界首综合频道
 http://www.191919.xyz:8888/rtp/238.1.78.195:7432
-#EXTINF:-1 group-title="安徽电信-组播2",石台综合频道
+#EXTINF:-1 group-title="安徽电信-组播1",石台综合频道
 http://www.191919.xyz:8888/rtp/238.1.78.221:7640
-#EXTINF:-1 group-title="安徽电信-组播2",祁门综合频道
+#EXTINF:-1 group-title="安徽电信-组播1",祁门综合频道
 http://www.191919.xyz:8888/rtp/238.1.79.14:4224
-#EXTINF:-1 group-title="安徽电信-组播2",繁昌新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",繁昌新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.190:7392
-#EXTINF:-1 group-title="安徽电信-组播2",绩溪新闻频道
+#EXTINF:-1 group-title="安徽电信-组播1",绩溪新闻频道
 http://www.191919.xyz:8888/rtp/238.1.78.218:7616
-#EXTINF:-1 group-title="安徽电信-组播2",肥东新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",肥东新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.183:7336
-#EXTINF:-1 group-title="安徽电信-组播2",肥西新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",肥西新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.185:7352
-#EXTINF:-1 group-title="安徽电信-组播2",萧县新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",萧县新闻综合
 http://www.191919.xyz:8888/rtp/238.1.79.46:4480
-#EXTINF:-1 group-title="安徽电信-组播2",蒙城新闻频道
+#EXTINF:-1 group-title="安徽电信-组播1",蒙城新闻频道
 http://www.191919.xyz:8888/rtp/238.1.79.19:4264
-#EXTINF:-1 group-title="安徽电信-组播2",郎溪新闻频道
+#EXTINF:-1 group-title="安徽电信-组播1",郎溪新闻频道
 http://www.191919.xyz:8888/rtp/238.1.78.214:7584
-#EXTINF:-1 group-title="安徽电信-组播2",金寨综合频道
+#EXTINF:-1 group-title="安徽电信-组播1",金寨综合频道
 http://www.191919.xyz:8888/rtp/238.1.79.21:4280
-#EXTINF:-1 group-title="安徽电信-组播2",阜南新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",阜南新闻综合
 http://www.191919.xyz:8888/rtp/238.1.79.11:4200
-#EXTINF:-1 group-title="安徽电信-组播2",霍山综合频道
+#EXTINF:-1 group-title="安徽电信-组播1",霍山综合频道
 http://www.191919.xyz:8888/rtp/238.1.78.220:7632
-#EXTINF:-1 group-title="安徽电信-组播2",霍邱新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",霍邱新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.119:6824
-#EXTINF:-1 group-title="安徽电信-组播2",颍上新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",颍上新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.194:7424
-#EXTINF:-1 group-title="安徽电信-组播2",黟县新闻综合
+#EXTINF:-1 group-title="安徽电信-组播1",黟县新闻综合
 http://www.191919.xyz:8888/rtp/238.1.78.149:7064
+#EXTINF:-1 group-title="安徽电信-组播2",安徽卫视
+http://117.57.34.87:4022/rtp/238.1.78.150:7072
+#EXTINF:-1 group-title="安徽电信-组播2",安徽卫视
+http://117.57.34.87:4022/rtp/238.1.79.27:4328
+#EXTINF:-1 group-title="安徽电信-组播2",安徽公共频道
+http://117.57.34.87:4022/rtp/238.1.79.43:4456
+#EXTINF:-1 group-title="安徽电信-组播2",安徽农业科教
+http://117.57.34.87:4022/rtp/238.1.79.40:4432
+#EXTINF:-1 group-title="安徽电信-组播2",安徽国际频道
+http://117.57.34.87:4022/rtp/238.1.78.61:6360
+#EXTINF:-1 group-title="安徽电信-组播2",安徽导视频道
+http://117.57.34.87:4022/rtp/238.1.79.66:4664
+#EXTINF:-1 group-title="安徽电信-组播2",安徽影视频道
+http://117.57.34.87:4022/rtp/238.1.79.42:4448
+#EXTINF:-1 group-title="安徽电信-组播2",安徽经济生活
+http://117.57.34.87:4022/rtp/238.1.79.44:4464
+#EXTINF:-1 group-title="安徽电信-组播2",安徽综艺体育
+http://117.57.34.87:4022/rtp/238.1.79.41:4440
+#EXTINF:-1 group-title="安徽电信-组播2",CCTV-风云足球
+http://117.57.34.87:4022/rtp/238.1.79.57:4592
+#EXTINF:-1 group-title="安徽电信-组播2",CCTV-风云音乐
+http://117.57.34.87:4022/rtp/238.1.79.64:4648
+#EXTINF:-1 group-title="安徽电信-组播2",CCTV-第一剧场
+http://117.57.34.87:4022/rtp/238.1.79.63:4640
+#EXTINF:-1 group-title="安徽电信-组播2",CCTV-怀旧剧场
+http://117.57.34.87:4022/rtp/238.1.79.61:4624
+#EXTINF:-1 group-title="安徽电信-组播2",CCTV-风云剧场
+http://117.57.34.87:4022/rtp/238.1.79.62:4632
+#EXTINF:-1 group-title="安徽电信-组播2",CCTV-世界地理
+http://117.57.34.87:4022/rtp/238.1.79.60:4616
+#EXTINF:-1 group-title="安徽电信-组播2",CCTV-电视指南
+http://117.57.34.87:4022/rtp/238.1.79.53:4560
+#EXTINF:-1 group-title="安徽电信-组播2",CCTV-兵器科技
+http://117.57.34.87:4022/rtp/238.1.79.56:4584
+#EXTINF:-1 group-title="安徽电信-组播2",CCTV-女性时尚
+http://117.57.34.87:4022/rtp/238.1.79.55:4576
+#EXTINF:-1 group-title="安徽电信-组播2",CCTV-央视台球
+http://117.57.34.87:4022/rtp/238.1.79.59:4608
+#EXTINF:-1 group-title="安徽电信-组播2",CGTN英语
+http://117.57.34.87:4022/rtp/238.1.78.50:6272
+#EXTINF:-1 group-title="安徽电信-组播2",CETV-1综合教育
+http://117.57.34.87:4022/rtp/238.1.78.158:7136
+#EXTINF:-1 group-title="安徽电信-组播2",CETV-2空中课堂
+http://117.57.34.87:4022/rtp/238.1.78.106:6720
+#EXTINF:-1 group-title="安徽电信-组播2",CETV-4职业教育
+http://117.57.34.87:4022/rtp/238.1.78.107:6728
+#EXTINF:-1 group-title="安徽电信-组播2",体育赛事
+http://117.57.34.87:4022/rtp/238.1.78.33:6192
+#EXTINF:-1 group-title="安徽电信-组播2",北京卡酷少儿
+http://117.57.34.87:4022/rtp/238.1.78.97:6648
+#EXTINF:-1 group-title="安徽电信-组播2",上海东方财经
+http://117.57.34.87:4022/rtp/238.1.78.73:6456
+#EXTINF:-1 group-title="安徽电信-组播2",上海动漫秀场
+http://117.57.34.87:4022/rtp/238.1.78.154:7104
+#EXTINF:-1 group-title="安徽电信-组播2",上海游戏风云
+http://117.57.34.87:4022/rtp/238.1.78.81:6520
+#EXTINF:-1 group-title="安徽电信-组播2",上海乐游
+http://117.57.34.87:4022/rtp/238.1.78.151:7080
+#EXTINF:-1 group-title="安徽电信-组播2",上海法治天地
+http://117.57.34.87:4022/rtp/238.1.78.84:6544
+#EXTINF:-1 group-title="安徽电信-组播2",上海都市剧场
+http://117.57.34.87:4022/rtp/238.1.78.74:6464
+#EXTINF:-1 group-title="安徽电信-组播2",上海金色学堂
+http://117.57.34.87:4022/rtp/238.1.78.76:6480
+#EXTINF:-1 group-title="安徽电信-组播2",上海生活时尚
+http://117.57.34.87:4022/rtp/238.1.78.155:7112
+#EXTINF:-1 group-title="安徽电信-组播2",上海哈哈炫动
+http://117.57.34.87:4022/rtp/238.1.78.82:6528
+#EXTINF:-1 group-title="安徽电信-组播2",上海纪实人文
+http://117.57.34.87:4022/rtp/238.1.78.153:7096
+#EXTINF:-1 group-title="安徽电信-组播2",江苏财富天下
+http://117.57.34.87:4022/rtp/238.1.78.25:6128
+#EXTINF:-1 group-title="安徽电信-组播2",江西陶瓷
+http://117.57.34.87:4022/rtp/238.1.78.157:7128
+#EXTINF:-1 group-title="安徽电信-组播2",湖北快乐垂钓
+http://117.57.34.87:4022/rtp/238.1.79.31:4360
+#EXTINF:-1 group-title="安徽电信-组播2",湖南茶频道
+http://117.57.34.87:4022/rtp/238.1.79.30:4352
+#EXTINF:-1 group-title="安徽电信-组播2",湖南金鹰纪实
+http://117.57.34.87:4022/rtp/238.1.79.9:4184
+#EXTINF:-1 group-title="安徽电信-组播2",湖南金鹰卡通
+http://117.57.34.87:4022/rtp/238.1.78.100:6672
+#EXTINF:-1 group-title="安徽电信-组播2",七彩戏剧
+http://117.57.34.87:4022/rtp/238.1.78.85:6552
+#EXTINF:-1 group-title="安徽电信-组播2",合肥新闻频道
+http://117.57.34.87:4022/rtp/238.1.78.111:6760
+#EXTINF:-1 group-title="安徽电信-组播2",芜湖教育频道
+http://117.57.34.87:4022/rtp/238.1.78.167:7208
+#EXTINF:-1 group-title="安徽电信-组播2",芜湖新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.112:6768
+#EXTINF:-1 group-title="安徽电信-组播2",芜湖生活频道
+http://117.57.34.87:4022/rtp/238.1.78.152:7088
+#EXTINF:-1 group-title="安徽电信-组播2",芜湖生活频道
+http://117.57.34.87:4022/rtp/238.1.78.80:6512
+#EXTINF:-1 group-title="安徽电信-组播2",蚌埠新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.180:7312
+#EXTINF:-1 group-title="安徽电信-组播2",蚌埠生活频道
+http://117.57.34.87:4022/rtp/238.1.78.181:7320
+#EXTINF:-1 group-title="安徽电信-组播2",淮南新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.113:6776
+#EXTINF:-1 group-title="安徽电信-组播2",淮南民生频道
+http://117.57.34.87:4022/rtp/238.1.78.114:6784
+#EXTINF:-1 group-title="安徽电信-组播2",马鞍山新闻综合
+http://117.57.34.87:4022/rtp/238.1.79.15:4232
+#EXTINF:-1 group-title="安徽电信-组播2",马鞍山科教生活
+http://117.57.34.87:4022/rtp/238.1.78.77:6488
+#EXTINF:-1 group-title="安徽电信-组播2",淮北新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.135:6952
+#EXTINF:-1 group-title="安徽电信-组播2",淮北经济生活
+http://117.57.34.87:4022/rtp/238.1.78.136:6960
+#EXTINF:-1 group-title="安徽电信-组播2",铜陵公共频道
+http://117.57.34.87:4022/rtp/238.1.78.140:6992
+#EXTINF:-1 group-title="安徽电信-组播2",铜陵教育科技
+http://117.57.34.87:4022/rtp/238.1.78.141:7000
+#EXTINF:-1 group-title="安徽电信-组播2",铜陵新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.139:6984
+#EXTINF:-1 group-title="安徽电信-组播2",安庆教育频道
+http://117.57.34.87:4022/rtp/238.1.78.120:6832
+#EXTINF:-1 group-title="安徽电信-组播2",安庆新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.117:6808
+#EXTINF:-1 group-title="安徽电信-组播2",安庆经济生活
+http://117.57.34.87:4022/rtp/238.1.78.118:6816
+#EXTINF:-1 group-title="安徽电信-组播2",黄山区融媒
+http://117.57.34.87:4022/rtp/238.1.78.199:7464
+#EXTINF:-1 group-title="安徽电信-组播2",黄山文旅频道
+http://117.57.34.87:4022/rtp/238.1.78.131:6920
+#EXTINF:-1 group-title="安徽电信-组播2",黄山新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.130:6912
+#EXTINF:-1 group-title="安徽电信-组播2",滁州公共频道
+http://117.57.34.87:4022/rtp/238.1.78.134:6944
+#EXTINF:-1 group-title="安徽电信-组播2",滁州新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.132:6928
+#EXTINF:-1 group-title="安徽电信-组播2",滁州科教频道
+http://117.57.34.87:4022/rtp/238.1.78.133:6936
+#EXTINF:-1 group-title="安徽电信-组播2",阜阳教育频道
+http://117.57.34.87:4022/rtp/238.1.78.126:6880
+#EXTINF:-1 group-title="安徽电信-组播2",阜阳新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.124:6864
+#EXTINF:-1 group-title="安徽电信-组播2",阜阳生活频道
+http://117.57.34.87:4022/rtp/238.1.78.125:6872
+#EXTINF:-1 group-title="安徽电信-组播2",阜阳都市文艺
+http://117.57.34.87:4022/rtp/238.1.78.127:6888
+#EXTINF:-1 group-title="安徽电信-组播2",宿州公共频道
+http://117.57.34.87:4022/rtp/238.1.78.122:6848
+#EXTINF:-1 group-title="安徽电信-组播2",宿州新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.121:6840
+#EXTINF:-1 group-title="安徽电信-组播2",宿州科教频道
+http://117.57.34.87:4022/rtp/238.1.78.123:6856
+#EXTINF:-1 group-title="安徽电信-组播2",六安社会生活
+http://117.57.34.87:4022/rtp/238.1.78.145:7032
+#EXTINF:-1 group-title="安徽电信-组播2",六安综合频道
+http://117.57.34.87:4022/rtp/238.1.78.144:7024
+#EXTINF:-1 group-title="安徽电信-组播2",亳州农村频道
+http://117.57.34.87:4022/rtp/238.1.78.129:6904
+#EXTINF:-1 group-title="安徽电信-组播2",亳州综合频道
+http://117.57.34.87:4022/rtp/238.1.78.128:6896
+#EXTINF:-1 group-title="安徽电信-组播2",池州文教生活
+http://117.57.34.87:4022/rtp/238.1.78.148:7056
+#EXTINF:-1 group-title="安徽电信-组播2",池州新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.147:7048
+#EXTINF:-1 group-title="安徽电信-组播2",宣城文旅生活
+http://117.57.34.87:4022/rtp/238.1.78.143:7016
+#EXTINF:-1 group-title="安徽电信-组播2",宣城综合频道
+http://117.57.34.87:4022/rtp/238.1.78.142:7008
+#EXTINF:-1 group-title="安徽电信-组播2",山东教育
+http://117.57.34.87:4022/rtp/238.1.78.254:7904
+#EXTINF:-1 group-title="安徽电信-组播2",东至综合频道
+http://117.57.34.87:4022/rtp/238.1.79.13:4216
+#EXTINF:-1 group-title="安徽电信-组播2",临泉新闻频道
+http://117.57.34.87:4022/rtp/238.1.78.29:6160
+#EXTINF:-1 group-title="安徽电信-组播2",义安新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.211:7560
+#EXTINF:-1 group-title="安徽电信-组播2",五河新闻综合
+http://117.57.34.87:4022/rtp/238.1.79.52:4528
+#EXTINF:-1 group-title="安徽电信-组播2",休宁新闻综合
+http://117.57.34.87:4022/rtp/238.1.79.20:4272
+#EXTINF:-1 group-title="安徽电信-组播2",全椒综合频道
+http://117.57.34.87:4022/rtp/238.1.78.203:7496
+#EXTINF:-1 group-title="安徽电信-组播2",凤阳新闻频道
+http://117.57.34.87:4022/rtp/238.1.78.207:7528
+#EXTINF:-1 group-title="安徽电信-组播2",利辛新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.196:7440
+#EXTINF:-1 group-title="安徽电信-组播2",南陵新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.189:7384
+#EXTINF:-1 group-title="安徽电信-组播2",固镇新闻综合
+http://117.57.34.87:4022/rtp/238.1.79.47:4488
+#EXTINF:-1 group-title="安徽电信-组播2",太湖新闻综合
+http://117.57.34.87:4022/rtp/238.1.79.12:4208
+#EXTINF:-1 group-title="安徽电信-组播2",宁国新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.216:7600
+#EXTINF:-1 group-title="安徽电信-组播2",定远新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.205:7512
+#EXTINF:-1 group-title="安徽电信-组播2",寿县新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.146:7040
+#EXTINF:-1 group-title="安徽电信-组播2",广德新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.212:7568
+#EXTINF:-1 group-title="安徽电信-组播2",徽州新闻频道
+http://117.57.34.87:4022/rtp/238.1.78.138:6976
+#EXTINF:-1 group-title="安徽电信-组播2",旌德新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.215:7592
+#EXTINF:-1 group-title="安徽电信-组播2",无为新闻频道
+http://117.57.34.87:4022/rtp/238.1.78.188:7376
+#EXTINF:-1 group-title="安徽电信-组播2",明光综合频道
+http://117.57.34.87:4022/rtp/238.1.78.208:7536
+#EXTINF:-1 group-title="安徽电信-组播2",来安新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.204:7504
+#EXTINF:-1 group-title="安徽电信-组播2",桐城综合频道
+http://117.57.34.87:4022/rtp/238.1.78.28:6152
+#EXTINF:-1 group-title="安徽电信-组播2",歙县综合频道
+http://117.57.34.87:4022/rtp/238.1.78.200:7472
+#EXTINF:-1 group-title="安徽电信-组播2",泗县新闻频道
+http://117.57.34.87:4022/rtp/238.1.78.193:7416
+#EXTINF:-1 group-title="安徽电信-组播2",海豚影视HD
+http://117.57.34.87:4022/rtp/238.1.79.34:4384
+#EXTINF:-1 group-title="安徽电信-组播2",涡阳新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.197:7448
+#EXTINF:-1 group-title="安徽电信-组播2",湾沚综合频道
+http://117.57.34.87:4022/rtp/238.1.78.187:7368
+#EXTINF:-1 group-title="安徽电信-组播2",潜山综合频道
+http://117.57.34.87:4022/rtp/238.1.78.192:7408
+#EXTINF:-1 group-title="安徽电信-组播2",濉溪新闻频道
+http://117.57.34.87:4022/rtp/238.1.78.209:7544
+#EXTINF:-1 group-title="安徽电信-组播2",界首综合频道
+http://117.57.34.87:4022/rtp/238.1.78.195:7432
+#EXTINF:-1 group-title="安徽电信-组播2",石台综合频道
+http://117.57.34.87:4022/rtp/238.1.78.221:7640
+#EXTINF:-1 group-title="安徽电信-组播2",祁门综合频道
+http://117.57.34.87:4022/rtp/238.1.79.14:4224
+#EXTINF:-1 group-title="安徽电信-组播2",繁昌新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.190:7392
+#EXTINF:-1 group-title="安徽电信-组播2",绩溪新闻频道
+http://117.57.34.87:4022/rtp/238.1.78.218:7616
+#EXTINF:-1 group-title="安徽电信-组播2",肥东新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.183:7336
+#EXTINF:-1 group-title="安徽电信-组播2",肥西新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.185:7352
+#EXTINF:-1 group-title="安徽电信-组播2",萧县新闻综合
+http://117.57.34.87:4022/rtp/238.1.79.46:4480
+#EXTINF:-1 group-title="安徽电信-组播2",蒙城新闻频道
+http://117.57.34.87:4022/rtp/238.1.79.19:4264
+#EXTINF:-1 group-title="安徽电信-组播2",郎溪新闻频道
+http://117.57.34.87:4022/rtp/238.1.78.214:7584
+#EXTINF:-1 group-title="安徽电信-组播2",金寨综合频道
+http://117.57.34.87:4022/rtp/238.1.79.21:4280
+#EXTINF:-1 group-title="安徽电信-组播2",阜南新闻综合
+http://117.57.34.87:4022/rtp/238.1.79.11:4200
+#EXTINF:-1 group-title="安徽电信-组播2",霍山综合频道
+http://117.57.34.87:4022/rtp/238.1.78.220:7632
+#EXTINF:-1 group-title="安徽电信-组播2",霍邱新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.119:6824
+#EXTINF:-1 group-title="安徽电信-组播2",颍上新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.194:7424
+#EXTINF:-1 group-title="安徽电信-组播2",黟县新闻综合
+http://117.57.34.87:4022/rtp/238.1.78.149:7064
 #EXTINF:-1 group-title="安徽电信-组播3",安徽卫视
 http://183.164.55.118:5000/rtp/238.1.78.150:7072
 #EXTINF:-1 group-title="安徽电信-组播3",安徽卫视
