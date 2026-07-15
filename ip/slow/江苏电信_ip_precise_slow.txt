@@ -1,12 +1,13 @@
-# 20260714_1140_precise_slow
+# 20260715_1154_precise_slow
 # 服务器地址	速度
-121.237.245.222:8888	244.13 KB/s
-www.wxzmz.com:8800	172.89 KB/s
-www.sclvip.top:8787	170.94 KB/s
-www.foreveryyl.top:8001	81.38 KB/s
-114.226.212.136:8787	54.06 KB/s
-kouki.pro:8888	49.16 KB/s
-114.226.212.140:8787	33.21 KB/s
-www.angel147.cf:9570	1.93 KB/s
-ikuai-v4.17271201.xyz:4000	0.90 KB/s
-dx.joygala.cn:8118	0.77 KB/s
+acp-cloud.asuscomm.com:4000	295.92 KB/s
+t.7ze.top:4022	267.94 KB/s
+980413.xyz:6000	264.02 KB/s
+lygzou.asuscomm.com:19999	262.34 KB/s
+home.amucn.net:8800	229.70 KB/s
+www.wxzmz.com:8800	196.86 KB/s
+njbobo.mycloudnas.com:4022	173.16 KB/s
+kouki.pro:8888	64.11 KB/s
+ikuai-v4.17271201.xyz:4000	37.53 KB/s
+www.266999.xyz:55555	18.29 KB/s
+j1900.silicaite.top:58888	0.71 KB/s
