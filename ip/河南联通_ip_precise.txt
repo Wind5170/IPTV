@@ -1,7 +1,7 @@
-# 20260717_1131_precise
+# 20260718_1111_precise
 # 服务器地址	速度
-xz.78057805.xyz:4002	478.14 KB/s
-115.58.143.87:4000	467.90 KB/s
-wx.cquuu.cn:4000	460.42 KB/s
-ik.iptv8.net:8888	431.55 KB/s
-www.flyju.top:8899	425.17 KB/s
+115.58.143.87:4000	503.58 KB/s
+ik.iptv8.net:8888	500.10 KB/s
+xz.78057805.xyz:4002	492.97 KB/s
+wx.cquuu.cn:4000	484.48 KB/s
+www.flyju.top:8899	459.23 KB/s

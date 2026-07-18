@@ -1,5 +1,5 @@
-# 20260717_1144_precise
+# 20260718_1126_precise
 # 服务器地址	速度
-gilbert0571.eu.org:8888	389.88 KB/s
-maymoon.asuscomm.com:7777	371.37 KB/s
-www.liangcl.top:8686	342.34 KB/s
+zjhuct.icu:8889	489.02 KB/s
+maymoon.asuscomm.com:7777	483.20 KB/s
+www.liangcl.top:8686	412.51 KB/s
