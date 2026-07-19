@@ -9072,2270 +9072,1892 @@ http://x1x.bid:5146/rtp/239.3.1.25:8001
 #EXTINF:-1 group-title="北京联通-组播24",高网频道
 http://x1x.bid:5146/rtp/239.3.1.88:4120
 #EXTINF:-1 group-title="北京联通-组播25",北京卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.241:8000
-#EXTINF:-1 group-title="北京联通-组播25",北京卫视4K
-http://www.fjxzl.top:23234/rtp/239.3.1.139:8001
-#EXTINF:-1 group-title="北京联通-组播25",北京卫视4K
-http://www.fjxzl.top:23234/rtp/239.3.1.140:8001
-#EXTINF:-1 group-title="北京联通-组播25",北京卫视4K
-http://www.fjxzl.top:23234/rtp/239.3.1.22:8001
-#EXTINF:-1 group-title="北京联通-组播25",北京卫视4K（HDR）
-http://www.fjxzl.top:23234/rtp/239.3.1.118:8001
-#EXTINF:-1 group-title="北京联通-组播25",北京IPTV4K超清
-http://www.fjxzl.top:23234/rtp/239.3.1.249:8001
-#EXTINF:-1 group-title="北京联通-组播25",北京IPTV淘BABY
-http://www.fjxzl.top:23234/rtp/239.3.1.238:8001
-#EXTINF:-1 group-title="北京联通-组播25",北京IPTV淘剧场
-http://www.fjxzl.top:23234/rtp/239.3.1.95:8001
-#EXTINF:-1 group-title="北京联通-组播25",北京IPTV淘娱乐
-http://www.fjxzl.top:23234/rtp/239.3.1.100:8001
-#EXTINF:-1 group-title="北京联通-组播25",北京IPTV淘电影
-http://www.fjxzl.top:23234/rtp/239.3.1.250:8001
-#EXTINF:-1 group-title="北京联通-组播25",北京IPTV萌宠TV
-http://www.fjxzl.top:23234/rtp/239.3.1.102:8001
-#EXTINF:-1 group-title="北京联通-组播25",北京体育休闲
-http://www.fjxzl.top:23234/rtp/239.3.1.243:8000
-#EXTINF:-1 group-title="北京联通-组播25",北京卡酷少儿
-http://www.fjxzl.top:23234/rtp/239.3.1.189:8000
-#EXTINF:-1 group-title="北京联通-组播25",北京国际频道
-http://www.fjxzl.top:23234/rtp/239.3.1.235:8000
-#EXTINF:-1 group-title="北京联通-组播25",北京影视频道
-http://www.fjxzl.top:23234/rtp/239.3.1.158:8000
-#EXTINF:-1 group-title="北京联通-组播25",北京文艺频道
-http://www.fjxzl.top:23234/rtp/239.3.1.242:8000
-#EXTINF:-1 group-title="北京联通-组播25",北京新闻频道
-http://www.fjxzl.top:23234/rtp/239.3.1.159:8000
-#EXTINF:-1 group-title="北京联通-组播25",北京生活频道
-http://www.fjxzl.top:23234/rtp/239.3.1.117:8000
-#EXTINF:-1 group-title="北京联通-组播25",北京纪实科教
-http://www.fjxzl.top:23234/rtp/239.3.1.115:8000
-#EXTINF:-1 group-title="北京联通-组播25",北京财经频道
-http://www.fjxzl.top:23234/rtp/239.3.1.116:8000
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-1综合
-http://www.fjxzl.top:23234/rtp/239.3.1.129:8008
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-2财经
-http://www.fjxzl.top:23234/rtp/239.3.1.60:8084
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-3综艺
-http://www.fjxzl.top:23234/rtp/239.3.1.172:8001
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-4中文国际
-http://www.fjxzl.top:23234/rtp/239.3.1.105:8092
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-4中文国际欧洲
-http://www.fjxzl.top:23234/rtp/239.3.1.213:4220
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-4中文国际美洲
-http://www.fjxzl.top:23234/rtp/239.3.1.214:4220
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-5体育
-http://www.fjxzl.top:23234/rtp/239.3.1.173:8001
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-5+体育赛事
-http://www.fjxzl.top:23234/rtp/239.3.1.130:8004
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-6电影
-http://www.fjxzl.top:23234/rtp/239.3.1.174:8001
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-7国防军事
-http://www.fjxzl.top:23234/rtp/239.3.1.61:8104
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-8电视剧
-http://www.fjxzl.top:23234/rtp/239.3.1.175:8001
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-9纪录
-http://www.fjxzl.top:23234/rtp/239.3.1.62:8112
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-10科教
-http://www.fjxzl.top:23234/rtp/239.3.1.63:8116
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-11戏曲
-http://www.fjxzl.top:23234/rtp/239.3.1.152:8120
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-12社会与法
-http://www.fjxzl.top:23234/rtp/239.3.1.64:8124
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-13新闻
-http://www.fjxzl.top:23234/rtp/239.3.1.124:8128
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-14少儿
-http://www.fjxzl.top:23234/rtp/239.3.1.65:8132
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-15音乐
-http://www.fjxzl.top:23234/rtp/239.3.1.153:8136
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-16奥林匹克
-http://www.fjxzl.top:23234/rtp/239.3.1.184:8001
-#EXTINF:-1 group-title="北京联通-组播25",CCTV-17农业农村
-http://www.fjxzl.top:23234/rtp/239.3.1.151:8144
-#EXTINF:-1 group-title="北京联通-组播25",CCTV4K(SDR)
-http://www.fjxzl.top:23234/rtp/239.3.1.244:2000
-#EXTINF:-1 group-title="北京联通-组播25",CCTV4K(SDR)
-http://www.fjxzl.top:23234/rtp/239.3.1.245:2000
-#EXTINF:-1 group-title="北京联通-组播25",湖南卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.132:8012
-#EXTINF:-1 group-title="北京联通-组播25",浙江卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.137:8036
-#EXTINF:-1 group-title="北京联通-组播25",江苏卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.135:8028
-#EXTINF:-1 group-title="北京联通-组播25",东方卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.136:8032
-#EXTINF:-1 group-title="北京联通-组播25",安徽卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.211:8064
-#EXTINF:-1 group-title="北京联通-组播25",广东卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.142:8048
-#EXTINF:-1 group-title="北京联通-组播25",深圳卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.134:8020
-#EXTINF:-1 group-title="北京联通-组播25",辽宁卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.210:8056
-#EXTINF:-1 group-title="北京联通-组播25",山东卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.209:8052
-#EXTINF:-1 group-title="北京联通-组播25",山东教育卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.52:4120
-#EXTINF:-1 group-title="北京联通-组播25",天津卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.141:1234
-#EXTINF:-1 group-title="北京联通-组播25",重庆卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.122:8160
-#EXTINF:-1 group-title="北京联通-组播25",东南卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.156:8148
-#EXTINF:-1 group-title="北京联通-组播25",河北卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.148:8072
-#EXTINF:-1 group-title="北京联通-组播25",河南卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.27:8128
-#EXTINF:-1 group-title="北京联通-组播25",河南卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.50:8184
-#EXTINF:-1 group-title="北京联通-组播25",湖北卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.138:8044
-#EXTINF:-1 group-title="北京联通-组播25",陕西卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.41:8140
-#EXTINF:-1 group-title="北京联通-组播25",四川卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.29:8288
-#EXTINF:-1 group-title="北京联通-组播25",海南卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.45:8304
-#EXTINF:-1 group-title="北京联通-组播25",甘肃卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.201:8180
-#EXTINF:-1 group-title="北京联通-组播25",甘肃卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.49:8188
-#EXTINF:-1 group-title="北京联通-组播25",广西卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.39:8300
-#EXTINF:-1 group-title="北京联通-组播25",贵州卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.149:8076
-#EXTINF:-1 group-title="北京联通-组播25",黑龙江卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.133:8016
-#EXTINF:-1 group-title="北京联通-组播25",江西卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.123:8164
-#EXTINF:-1 group-title="北京联通-组播25",吉林卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.240:8172
-#EXTINF:-1 group-title="北京联通-组播25",内蒙古卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.43:8176
-#EXTINF:-1 group-title="北京联通-组播25",宁夏卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.169:8212
-#EXTINF:-1 group-title="北京联通-组播25",宁夏卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.46:8124
-#EXTINF:-1 group-title="北京联通-组播25",山西卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.42:8172
-#EXTINF:-1 group-title="北京联通-组播25",新疆卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.167:8192
-#EXTINF:-1 group-title="北京联通-组播25",新疆卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.48:8160
-#EXTINF:-1 group-title="北京联通-组播25",云南卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.26:8108
-#EXTINF:-1 group-title="北京联通-组播25",青海卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.44:8184
-#EXTINF:-1 group-title="北京联通-组播25",西藏卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.166:8188
-#EXTINF:-1 group-title="北京联通-组播25",西藏卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.47:8164
-#EXTINF:-1 group-title="北京联通-组播25",兵团卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.144:4120
-#EXTINF:-1 group-title="北京联通-组播25",兵团卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.168:8196
-#EXTINF:-1 group-title="北京联通-组播25",三沙卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.155:4120
-#EXTINF:-1 group-title="北京联通-组播25",厦门卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.143:4120
-#EXTINF:-1 group-title="北京联通-组播25",湖南卫视4K
-http://www.fjxzl.top:23234/rtp/239.3.1.112:3002
-#EXTINF:-1 group-title="北京联通-组播25",浙江卫视4K
-http://www.fjxzl.top:23234/rtp/239.3.1.114:3004
-#EXTINF:-1 group-title="北京联通-组播25",江苏卫视4K
-http://www.fjxzl.top:23234/rtp/239.3.1.113:3003
-#EXTINF:-1 group-title="北京联通-组播25",东方卫视4K
-http://www.fjxzl.top:23234/rtp/239.3.1.119:3006
-#EXTINF:-1 group-title="北京联通-组播25",广东卫视4K
-http://www.fjxzl.top:23234/rtp/239.3.1.203:2000
-#EXTINF:-1 group-title="北京联通-组播25",深圳卫视4K
-http://www.fjxzl.top:23234/rtp/239.3.1.202:2000
-#EXTINF:-1 group-title="北京联通-组播25",山东卫视4K
-http://www.fjxzl.top:23234/rtp/239.3.1.144:3005
-#EXTINF:-1 group-title="北京联通-组播25",四川卫视4K
-http://www.fjxzl.top:23234/rtp/239.3.1.131:3001
-#EXTINF:-1 group-title="北京联通-组播25",CGTN英语
-http://www.fjxzl.top:23234/rtp/239.3.1.215:4220
-#EXTINF:-1 group-title="北京联通-组播25",CGTN西班牙语
-http://www.fjxzl.top:23234/rtp/239.3.1.217:4220
-#EXTINF:-1 group-title="北京联通-组播25",CGTN法语
-http://www.fjxzl.top:23234/rtp/239.3.1.218:4220
-#EXTINF:-1 group-title="北京联通-组播25",CGTN阿拉伯语
-http://www.fjxzl.top:23234/rtp/239.3.1.219:4220
-#EXTINF:-1 group-title="北京联通-组播25",CGTN俄语
-http://www.fjxzl.top:23234/rtp/239.3.1.220:4220
-#EXTINF:-1 group-title="北京联通-组播25",CGTN纪录
-http://www.fjxzl.top:23234/rtp/239.3.1.216:4220
-#EXTINF:-1 group-title="北京联通-组播25",CETV-1综合教育
-http://www.fjxzl.top:23234/rtp/239.3.1.57:8152
-#EXTINF:-1 group-title="北京联通-组播25",CETV-2空中课堂
-http://www.fjxzl.top:23234/rtp/239.3.1.54:4120
-#EXTINF:-1 group-title="北京联通-组播25",CETV-3北京科教
-http://www.fjxzl.top:23234/rtp/239.3.1.55:4120
-#EXTINF:-1 group-title="北京联通-组播25",CETV-4职业教育
-http://www.fjxzl.top:23234/rtp/239.3.1.56:4120
-#EXTINF:-1 group-title="北京联通-组播25",中国交通
-http://www.fjxzl.top:23234/rtp/239.3.1.188:8001
-#EXTINF:-1 group-title="北京联通-组播25",体育赛事
-http://www.fjxzl.top:23234/rtp/239.3.1.157:8176
-#EXTINF:-1 group-title="北京联通-组播25",睛彩竞技
-http://www.fjxzl.top:23234/rtp/239.3.1.125:8001
-#EXTINF:-1 group-title="北京联通-组播25",睛彩广场舞
-http://www.fjxzl.top:23234/rtp/239.3.1.128:8001
-#EXTINF:-1 group-title="北京联通-组播25",睛彩篮球
-http://www.fjxzl.top:23234/rtp/239.3.1.126:8001
-#EXTINF:-1 group-title="北京联通-组播25",华数爱上4K电影
-http://www.fjxzl.top:23234/rtp/239.3.1.236:2000
-#EXTINF:-1 group-title="北京联通-组播25",华数经典电影
-http://www.fjxzl.top:23234/rtp/239.3.1.195:9024
-#EXTINF:-1 group-title="北京联通-组播25",华数动作影院
-http://www.fjxzl.top:23234/rtp/239.3.1.92:4120
-#EXTINF:-1 group-title="北京联通-组播25",华数喜剧影院
-http://www.fjxzl.top:23234/rtp/239.3.1.91:4120
-#EXTINF:-1 group-title="北京联通-组播25",华数家庭影院
-http://www.fjxzl.top:23234/rtp/239.3.1.93:4120
-#EXTINF:-1 group-title="北京联通-组播25",华数星影
-http://www.fjxzl.top:23234/rtp/239.3.1.94:4120
-#EXTINF:-1 group-title="北京联通-组播25",华数热播剧场
-http://www.fjxzl.top:23234/rtp/239.3.1.194:9020
-#EXTINF:-1 group-title="北京联通-组播25",华数古装剧场
-http://www.fjxzl.top:23234/rtp/239.3.1.69:4120
-#EXTINF:-1 group-title="北京联通-组播25",华数城市剧场
-http://www.fjxzl.top:23234/rtp/239.3.1.67:4120
-#EXTINF:-1 group-title="北京联通-组播25",华数军旅剧场
-http://www.fjxzl.top:23234/rtp/239.3.1.68:4120
-#EXTINF:-1 group-title="北京联通-组播25",华数魅力时尚
-http://www.fjxzl.top:23234/rtp/239.3.1.196:9012
-#EXTINF:-1 group-title="北京联通-组播25",华数少儿动画
-http://www.fjxzl.top:23234/rtp/239.3.1.199:9000
-#EXTINF:-1 group-title="北京联通-组播25",华数动画
-http://www.fjxzl.top:23234/rtp/239.3.1.80:4120
-#EXTINF:-1 group-title="北京联通-组播25",华数精选
-http://www.fjxzl.top:23234/rtp/239.3.1.74:4120
-#EXTINF:-1 group-title="北京联通-组播25",华数武侠剧场
-http://www.fjxzl.top:23234/rtp/239.3.1.90:4120
-#EXTINF:-1 group-title="北京联通-组播25",IPTV10解密
-http://www.fjxzl.top:23234/rtp/239.3.1.75:4120
-#EXTINF:-1 group-title="北京联通-组播25",IPTV11戏曲
-http://www.fjxzl.top:23234/rtp/239.3.1.78:4120
-#EXTINF:-1 group-title="北京联通-组播25",IPTV14早教
-http://www.fjxzl.top:23234/rtp/239.3.1.79:4120
-#EXTINF:-1 group-title="北京联通-组播25",IPTV15音乐现场
-http://www.fjxzl.top:23234/rtp/239.3.1.70:4120
-#EXTINF:-1 group-title="北京联通-组播25",IPTV3＋
-http://www.fjxzl.top:23234/rtp/239.3.1.198:9004
-#EXTINF:-1 group-title="北京联通-组播25",IPTV5＋
-http://www.fjxzl.top:23234/rtp/239.3.1.200:9008
-#EXTINF:-1 group-title="北京联通-组播25",IPTV5＋
-http://www.fjxzl.top:23234/rtp/239.3.1.237:4120
-#EXTINF:-1 group-title="北京联通-组播25",IPTV6＋
-http://www.fjxzl.top:23234/rtp/239.3.1.197:9016
-#EXTINF:-1 group-title="北京联通-组播25",IPTV7军事
-http://www.fjxzl.top:23234/rtp/239.3.1.76:4120
-#EXTINF:-1 group-title="北京联通-组播25",IPTV8＋
-http://www.fjxzl.top:23234/rtp/239.3.1.201:8072
-#EXTINF:-1 group-title="北京联通-组播25",IPTV台球
-http://www.fjxzl.top:23234/rtp/239.3.1.85:4120
-#EXTINF:-1 group-title="北京联通-组播25",IPTV国学
-http://www.fjxzl.top:23234/rtp/239.3.1.77:4120
-#EXTINF:-1 group-title="北京联通-组播25",IPTV地理
-http://www.fjxzl.top:23234/rtp/239.3.1.71:4120
-#EXTINF:-1 group-title="北京联通-组播25",IPTV墨宝
-http://www.fjxzl.top:23234/rtp/239.3.1.83:4120
-#EXTINF:-1 group-title="北京联通-组播25",IPTV好学生
-http://www.fjxzl.top:23234/rtp/239.3.1.81:4120
-#EXTINF:-1 group-title="北京联通-组播25",IPTV收视指南
-http://www.fjxzl.top:23234/rtp/239.3.1.193:8012
-#EXTINF:-1 group-title="北京联通-组播25",IPTV武术
-http://www.fjxzl.top:23234/rtp/239.3.1.87:4120
-#EXTINF:-1 group-title="北京联通-组播25",IPTV爱生活
-http://www.fjxzl.top:23234/rtp/239.3.1.86:4120
-#EXTINF:-1 group-title="北京联通-组播25",IPTV美人
-http://www.fjxzl.top:23234/rtp/239.3.1.73:4120
-#EXTINF:-1 group-title="北京联通-组播25",IPTV美妆
-http://www.fjxzl.top:23234/rtp/239.3.1.72:4120
-#EXTINF:-1 group-title="北京联通-组播25",IPTV足球
-http://www.fjxzl.top:23234/rtp/239.3.1.89:4120
-#EXTINF:-1 group-title="北京联通-组播25",IPTV鉴赏
-http://www.fjxzl.top:23234/rtp/239.3.1.82:4120
-#EXTINF:-1 group-title="北京联通-组播25",上海动漫秀场
-http://www.fjxzl.top:23234/rtp/239.3.1.202:8001
-#EXTINF:-1 group-title="北京联通-组播25",上海游戏风云
-http://www.fjxzl.top:23234/rtp/239.3.1.205:8001
-#EXTINF:-1 group-title="北京联通-组播25",上海乐游
-http://www.fjxzl.top:23234/rtp/239.3.1.207:8001
-#EXTINF:-1 group-title="北京联通-组播25",上海乐游
-http://www.fjxzl.top:23234/rtp/239.3.1.114:8001
-#EXTINF:-1 group-title="北京联通-组播25",上海法治天地
-http://www.fjxzl.top:23234/rtp/239.3.1.204:8001
-#EXTINF:-1 group-title="北京联通-组播25",上海都市剧场
-http://www.fjxzl.top:23234/rtp/239.3.1.203:8001
-#EXTINF:-1 group-title="北京联通-组播25",上海金色学堂
-http://www.fjxzl.top:23234/rtp/239.3.1.208:8001
-#EXTINF:-1 group-title="北京联通-组播25",上海生活时尚
-http://www.fjxzl.top:23234/rtp/239.3.1.206:8001
-#EXTINF:-1 group-title="北京联通-组播25",上海纪实人文
-http://www.fjxzl.top:23234/rtp/239.3.1.212:8060
-#EXTINF:-1 group-title="北京联通-组播25",上海魅力足球
-http://www.fjxzl.top:23234/rtp/239.3.1.201:8001
-#EXTINF:-1 group-title="北京联通-组播25",江苏财富天下
-http://www.fjxzl.top:23234/rtp/239.3.1.53:9136
-#EXTINF:-1 group-title="北京联通-组播25",湖北快乐垂钓
-http://www.fjxzl.top:23234/rtp/239.3.1.164:8001
-#EXTINF:-1 group-title="北京联通-组播25",湖南茶频道
-http://www.fjxzl.top:23234/rtp/239.3.1.165:8001
-#EXTINF:-1 group-title="北京联通-组播25",湖南金鹰纪实
-http://www.fjxzl.top:23234/rtp/239.3.1.58:8156
-#EXTINF:-1 group-title="北京联通-组播25",湖南金鹰卡通
-http://www.fjxzl.top:23234/rtp/239.3.1.51:9252
-#EXTINF:-1 group-title="北京联通-组播25",广东嘉佳卡通
-http://www.fjxzl.top:23234/rtp/239.3.1.147:9268
-#EXTINF:-1 group-title="北京联通-组播25",光影
-http://www.fjxzl.top:23234/rtp/239.3.1.84:4120
-#EXTINF:-1 group-title="北京联通-组播25",睛彩羽毛球
-http://www.fjxzl.top:23234/rtp/239.3.1.127:8001
-#EXTINF:-1 group-title="北京联通-组播25",门头沟电视台
-http://www.fjxzl.top:23234/rtp/239.3.1.59:8001
-#EXTINF:-1 group-title="北京联通-组播25",房山电视台
-http://www.fjxzl.top:23234/rtp/239.3.1.96:8001
-#EXTINF:-1 group-title="北京联通-组播25",通州融媒
-http://www.fjxzl.top:23234/rtp/239.3.1.221:8001
-#EXTINF:-1 group-title="北京联通-组播25",平谷融媒[高清]
-http://www.fjxzl.top:23234/rtp/239.3.1.23:8001
-#EXTINF:-1 group-title="北京联通-组播25",密云电视台
-http://www.fjxzl.top:23234/rtp/239.3.1.154:8001
-#EXTINF:-1 group-title="北京联通-组播25",延庆电视台
-http://www.fjxzl.top:23234/rtp/239.3.1.187:8001
-#EXTINF:-1 group-title="北京联通-组播25",朝阳融媒
-http://www.fjxzl.top:23234/rtp/239.3.1.163:8001
-#EXTINF:-1 group-title="北京联通-组播25",广东卫视[超清HDR]
-http://www.fjxzl.top:23234/rtp/239.3.1.27:2000
-#EXTINF:-1 group-title="北京联通-组播25",深圳卫视[超清HDR]
-http://www.fjxzl.top:23234/rtp/239.3.1.28:2000
-#EXTINF:-1 group-title="北京联通-组播25",4K测试
-http://www.fjxzl.top:23234/rtp/239.3.1.104:8001
-#EXTINF:-1 group-title="北京联通-组播25",BRTV 8K[8K]
-http://www.fjxzl.top:23234/rtp/239.3.1.252:8001
-#EXTINF:-1 group-title="北京联通-组播25",BRTV卡酷少儿
-http://www.fjxzl.top:23234/rtp/239.3.1.120:8000
-#EXTINF:-1 group-title="北京联通-组播25",BRTV卡酷少儿
-http://www.fjxzl.top:23234/rtp/239.3.1.121:8000
-#EXTINF:-1 group-title="北京联通-组播25",BRTV生活
-http://www.fjxzl.top:23234/rtp/239.3.1.118:8000
-#EXTINF:-1 group-title="北京联通-组播25",CCTV16SDR
-http://www.fjxzl.top:23234/rtp/239.3.1.183:8001
-#EXTINF:-1 group-title="北京联通-组播25",南方卫视
-http://www.fjxzl.top:23234/rtp/239.3.1.161:8001
-#EXTINF:-1 group-title="北京联通-组播25",总平台测试1
-http://www.fjxzl.top:23234/rtp/239.3.1.247:2000
-#EXTINF:-1 group-title="北京联通-组播25",总平台测试2
-http://www.fjxzl.top:23234/rtp/239.3.1.248:2000
-#EXTINF:-1 group-title="北京联通-组播25",测试
-http://www.fjxzl.top:23234/rtp/239.3.1.103:8001
-#EXTINF:-1 group-title="北京联通-组播25",淘剧场
-http://www.fjxzl.top:23234/rtp/239.3.1.112:8001
-#EXTINF:-1 group-title="北京联通-组播25",淘娱乐
-http://www.fjxzl.top:23234/rtp/239.3.1.113:8001
-#EXTINF:-1 group-title="北京联通-组播25",淘电影
-http://www.fjxzl.top:23234/rtp/239.3.1.111:8001
-#EXTINF:-1 group-title="北京联通-组播25",淘精彩
-http://www.fjxzl.top:23234/rtp/239.3.1.178:8001
-#EXTINF:-1 group-title="北京联通-组播25",熊猫频道
-http://www.fjxzl.top:23234/rtp/239.3.1.66:8068
-#EXTINF:-1 group-title="北京联通-组播25",聚鲨环球
-http://www.fjxzl.top:23234/rtp/239.3.1.160:8001
-#EXTINF:-1 group-title="北京联通-组播25",轮播频道5
-http://www.fjxzl.top:23234/rtp/239.3.1.253:8001
-#EXTINF:-1 group-title="北京联通-组播25",重温经典[高清]
-http://www.fjxzl.top:23234/rtp/239.3.1.25:8001
-#EXTINF:-1 group-title="北京联通-组播25",高网频道
-http://www.fjxzl.top:23234/rtp/239.3.1.88:4120
-#EXTINF:-1 group-title="北京联通-组播26",北京卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.241:8000
-#EXTINF:-1 group-title="北京联通-组播26",北京卫视4K
+#EXTINF:-1 group-title="北京联通-组播25",北京卫视4K
 http://www.irisxxd.cn:8000/rtp/239.3.1.139:8001
-#EXTINF:-1 group-title="北京联通-组播26",北京卫视4K
+#EXTINF:-1 group-title="北京联通-组播25",北京卫视4K
 http://www.irisxxd.cn:8000/rtp/239.3.1.140:8001
-#EXTINF:-1 group-title="北京联通-组播26",北京卫视4K
+#EXTINF:-1 group-title="北京联通-组播25",北京卫视4K
 http://www.irisxxd.cn:8000/rtp/239.3.1.22:8001
-#EXTINF:-1 group-title="北京联通-组播26",北京卫视4K（HDR）
+#EXTINF:-1 group-title="北京联通-组播25",北京卫视4K（HDR）
 http://www.irisxxd.cn:8000/rtp/239.3.1.118:8001
-#EXTINF:-1 group-title="北京联通-组播26",北京IPTV4K超清
+#EXTINF:-1 group-title="北京联通-组播25",北京IPTV4K超清
 http://www.irisxxd.cn:8000/rtp/239.3.1.249:8001
-#EXTINF:-1 group-title="北京联通-组播26",北京IPTV淘BABY
+#EXTINF:-1 group-title="北京联通-组播25",北京IPTV淘BABY
 http://www.irisxxd.cn:8000/rtp/239.3.1.238:8001
-#EXTINF:-1 group-title="北京联通-组播26",北京IPTV淘剧场
+#EXTINF:-1 group-title="北京联通-组播25",北京IPTV淘剧场
 http://www.irisxxd.cn:8000/rtp/239.3.1.95:8001
-#EXTINF:-1 group-title="北京联通-组播26",北京IPTV淘娱乐
+#EXTINF:-1 group-title="北京联通-组播25",北京IPTV淘娱乐
 http://www.irisxxd.cn:8000/rtp/239.3.1.100:8001
-#EXTINF:-1 group-title="北京联通-组播26",北京IPTV淘电影
+#EXTINF:-1 group-title="北京联通-组播25",北京IPTV淘电影
 http://www.irisxxd.cn:8000/rtp/239.3.1.250:8001
-#EXTINF:-1 group-title="北京联通-组播26",北京IPTV萌宠TV
+#EXTINF:-1 group-title="北京联通-组播25",北京IPTV萌宠TV
 http://www.irisxxd.cn:8000/rtp/239.3.1.102:8001
-#EXTINF:-1 group-title="北京联通-组播26",北京体育休闲
+#EXTINF:-1 group-title="北京联通-组播25",北京体育休闲
 http://www.irisxxd.cn:8000/rtp/239.3.1.243:8000
-#EXTINF:-1 group-title="北京联通-组播26",北京卡酷少儿
+#EXTINF:-1 group-title="北京联通-组播25",北京卡酷少儿
 http://www.irisxxd.cn:8000/rtp/239.3.1.189:8000
-#EXTINF:-1 group-title="北京联通-组播26",北京国际频道
+#EXTINF:-1 group-title="北京联通-组播25",北京国际频道
 http://www.irisxxd.cn:8000/rtp/239.3.1.235:8000
-#EXTINF:-1 group-title="北京联通-组播26",北京影视频道
+#EXTINF:-1 group-title="北京联通-组播25",北京影视频道
 http://www.irisxxd.cn:8000/rtp/239.3.1.158:8000
-#EXTINF:-1 group-title="北京联通-组播26",北京文艺频道
+#EXTINF:-1 group-title="北京联通-组播25",北京文艺频道
 http://www.irisxxd.cn:8000/rtp/239.3.1.242:8000
-#EXTINF:-1 group-title="北京联通-组播26",北京新闻频道
+#EXTINF:-1 group-title="北京联通-组播25",北京新闻频道
 http://www.irisxxd.cn:8000/rtp/239.3.1.159:8000
-#EXTINF:-1 group-title="北京联通-组播26",北京生活频道
+#EXTINF:-1 group-title="北京联通-组播25",北京生活频道
 http://www.irisxxd.cn:8000/rtp/239.3.1.117:8000
-#EXTINF:-1 group-title="北京联通-组播26",北京纪实科教
+#EXTINF:-1 group-title="北京联通-组播25",北京纪实科教
 http://www.irisxxd.cn:8000/rtp/239.3.1.115:8000
-#EXTINF:-1 group-title="北京联通-组播26",北京财经频道
+#EXTINF:-1 group-title="北京联通-组播25",北京财经频道
 http://www.irisxxd.cn:8000/rtp/239.3.1.116:8000
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-1综合
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-1综合
 http://www.irisxxd.cn:8000/rtp/239.3.1.129:8008
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-2财经
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-2财经
 http://www.irisxxd.cn:8000/rtp/239.3.1.60:8084
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-3综艺
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-3综艺
 http://www.irisxxd.cn:8000/rtp/239.3.1.172:8001
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-4中文国际
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-4中文国际
 http://www.irisxxd.cn:8000/rtp/239.3.1.105:8092
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-4中文国际欧洲
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-4中文国际欧洲
 http://www.irisxxd.cn:8000/rtp/239.3.1.213:4220
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-4中文国际美洲
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-4中文国际美洲
 http://www.irisxxd.cn:8000/rtp/239.3.1.214:4220
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-5体育
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-5体育
 http://www.irisxxd.cn:8000/rtp/239.3.1.173:8001
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-5+体育赛事
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-5+体育赛事
 http://www.irisxxd.cn:8000/rtp/239.3.1.130:8004
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-6电影
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-6电影
 http://www.irisxxd.cn:8000/rtp/239.3.1.174:8001
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-7国防军事
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-7国防军事
 http://www.irisxxd.cn:8000/rtp/239.3.1.61:8104
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-8电视剧
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-8电视剧
 http://www.irisxxd.cn:8000/rtp/239.3.1.175:8001
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-9纪录
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-9纪录
 http://www.irisxxd.cn:8000/rtp/239.3.1.62:8112
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-10科教
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-10科教
 http://www.irisxxd.cn:8000/rtp/239.3.1.63:8116
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-11戏曲
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-11戏曲
 http://www.irisxxd.cn:8000/rtp/239.3.1.152:8120
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-12社会与法
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-12社会与法
 http://www.irisxxd.cn:8000/rtp/239.3.1.64:8124
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-13新闻
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-13新闻
 http://www.irisxxd.cn:8000/rtp/239.3.1.124:8128
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-14少儿
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-14少儿
 http://www.irisxxd.cn:8000/rtp/239.3.1.65:8132
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-15音乐
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-15音乐
 http://www.irisxxd.cn:8000/rtp/239.3.1.153:8136
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-16奥林匹克
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-16奥林匹克
 http://www.irisxxd.cn:8000/rtp/239.3.1.184:8001
-#EXTINF:-1 group-title="北京联通-组播26",CCTV-17农业农村
+#EXTINF:-1 group-title="北京联通-组播25",CCTV-17农业农村
 http://www.irisxxd.cn:8000/rtp/239.3.1.151:8144
-#EXTINF:-1 group-title="北京联通-组播26",CCTV4K(SDR)
+#EXTINF:-1 group-title="北京联通-组播25",CCTV4K(SDR)
 http://www.irisxxd.cn:8000/rtp/239.3.1.244:2000
-#EXTINF:-1 group-title="北京联通-组播26",CCTV4K(SDR)
+#EXTINF:-1 group-title="北京联通-组播25",CCTV4K(SDR)
 http://www.irisxxd.cn:8000/rtp/239.3.1.245:2000
-#EXTINF:-1 group-title="北京联通-组播26",湖南卫视
+#EXTINF:-1 group-title="北京联通-组播25",湖南卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.132:8012
-#EXTINF:-1 group-title="北京联通-组播26",浙江卫视
+#EXTINF:-1 group-title="北京联通-组播25",浙江卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.137:8036
-#EXTINF:-1 group-title="北京联通-组播26",江苏卫视
+#EXTINF:-1 group-title="北京联通-组播25",江苏卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.135:8028
-#EXTINF:-1 group-title="北京联通-组播26",东方卫视
+#EXTINF:-1 group-title="北京联通-组播25",东方卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.136:8032
-#EXTINF:-1 group-title="北京联通-组播26",安徽卫视
+#EXTINF:-1 group-title="北京联通-组播25",安徽卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.211:8064
-#EXTINF:-1 group-title="北京联通-组播26",广东卫视
+#EXTINF:-1 group-title="北京联通-组播25",广东卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.142:8048
-#EXTINF:-1 group-title="北京联通-组播26",深圳卫视
+#EXTINF:-1 group-title="北京联通-组播25",深圳卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.134:8020
-#EXTINF:-1 group-title="北京联通-组播26",辽宁卫视
+#EXTINF:-1 group-title="北京联通-组播25",辽宁卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.210:8056
-#EXTINF:-1 group-title="北京联通-组播26",山东卫视
+#EXTINF:-1 group-title="北京联通-组播25",山东卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.209:8052
-#EXTINF:-1 group-title="北京联通-组播26",山东教育卫视
+#EXTINF:-1 group-title="北京联通-组播25",山东教育卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.52:4120
-#EXTINF:-1 group-title="北京联通-组播26",天津卫视
+#EXTINF:-1 group-title="北京联通-组播25",天津卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.141:1234
-#EXTINF:-1 group-title="北京联通-组播26",重庆卫视
+#EXTINF:-1 group-title="北京联通-组播25",重庆卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.122:8160
-#EXTINF:-1 group-title="北京联通-组播26",东南卫视
+#EXTINF:-1 group-title="北京联通-组播25",东南卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.156:8148
-#EXTINF:-1 group-title="北京联通-组播26",河北卫视
+#EXTINF:-1 group-title="北京联通-组播25",河北卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.148:8072
-#EXTINF:-1 group-title="北京联通-组播26",河南卫视
+#EXTINF:-1 group-title="北京联通-组播25",河南卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.27:8128
-#EXTINF:-1 group-title="北京联通-组播26",河南卫视
+#EXTINF:-1 group-title="北京联通-组播25",河南卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.50:8184
-#EXTINF:-1 group-title="北京联通-组播26",湖北卫视
+#EXTINF:-1 group-title="北京联通-组播25",湖北卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.138:8044
-#EXTINF:-1 group-title="北京联通-组播26",陕西卫视
+#EXTINF:-1 group-title="北京联通-组播25",陕西卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.41:8140
-#EXTINF:-1 group-title="北京联通-组播26",四川卫视
+#EXTINF:-1 group-title="北京联通-组播25",四川卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.29:8288
-#EXTINF:-1 group-title="北京联通-组播26",海南卫视
+#EXTINF:-1 group-title="北京联通-组播25",海南卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.45:8304
-#EXTINF:-1 group-title="北京联通-组播26",甘肃卫视
+#EXTINF:-1 group-title="北京联通-组播25",甘肃卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.201:8180
-#EXTINF:-1 group-title="北京联通-组播26",甘肃卫视
+#EXTINF:-1 group-title="北京联通-组播25",甘肃卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.49:8188
-#EXTINF:-1 group-title="北京联通-组播26",广西卫视
+#EXTINF:-1 group-title="北京联通-组播25",广西卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.39:8300
-#EXTINF:-1 group-title="北京联通-组播26",贵州卫视
+#EXTINF:-1 group-title="北京联通-组播25",贵州卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.149:8076
-#EXTINF:-1 group-title="北京联通-组播26",黑龙江卫视
+#EXTINF:-1 group-title="北京联通-组播25",黑龙江卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.133:8016
-#EXTINF:-1 group-title="北京联通-组播26",江西卫视
+#EXTINF:-1 group-title="北京联通-组播25",江西卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.123:8164
-#EXTINF:-1 group-title="北京联通-组播26",吉林卫视
+#EXTINF:-1 group-title="北京联通-组播25",吉林卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.240:8172
-#EXTINF:-1 group-title="北京联通-组播26",内蒙古卫视
+#EXTINF:-1 group-title="北京联通-组播25",内蒙古卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.43:8176
-#EXTINF:-1 group-title="北京联通-组播26",宁夏卫视
+#EXTINF:-1 group-title="北京联通-组播25",宁夏卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.169:8212
-#EXTINF:-1 group-title="北京联通-组播26",宁夏卫视
+#EXTINF:-1 group-title="北京联通-组播25",宁夏卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.46:8124
-#EXTINF:-1 group-title="北京联通-组播26",山西卫视
+#EXTINF:-1 group-title="北京联通-组播25",山西卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.42:8172
-#EXTINF:-1 group-title="北京联通-组播26",新疆卫视
+#EXTINF:-1 group-title="北京联通-组播25",新疆卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.167:8192
-#EXTINF:-1 group-title="北京联通-组播26",新疆卫视
+#EXTINF:-1 group-title="北京联通-组播25",新疆卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.48:8160
-#EXTINF:-1 group-title="北京联通-组播26",云南卫视
+#EXTINF:-1 group-title="北京联通-组播25",云南卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.26:8108
-#EXTINF:-1 group-title="北京联通-组播26",青海卫视
+#EXTINF:-1 group-title="北京联通-组播25",青海卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.44:8184
-#EXTINF:-1 group-title="北京联通-组播26",西藏卫视
+#EXTINF:-1 group-title="北京联通-组播25",西藏卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.166:8188
-#EXTINF:-1 group-title="北京联通-组播26",西藏卫视
+#EXTINF:-1 group-title="北京联通-组播25",西藏卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.47:8164
-#EXTINF:-1 group-title="北京联通-组播26",兵团卫视
+#EXTINF:-1 group-title="北京联通-组播25",兵团卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.144:4120
-#EXTINF:-1 group-title="北京联通-组播26",兵团卫视
+#EXTINF:-1 group-title="北京联通-组播25",兵团卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.168:8196
-#EXTINF:-1 group-title="北京联通-组播26",三沙卫视
+#EXTINF:-1 group-title="北京联通-组播25",三沙卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.155:4120
-#EXTINF:-1 group-title="北京联通-组播26",厦门卫视
+#EXTINF:-1 group-title="北京联通-组播25",厦门卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.143:4120
-#EXTINF:-1 group-title="北京联通-组播26",湖南卫视4K
+#EXTINF:-1 group-title="北京联通-组播25",湖南卫视4K
 http://www.irisxxd.cn:8000/rtp/239.3.1.112:3002
-#EXTINF:-1 group-title="北京联通-组播26",浙江卫视4K
+#EXTINF:-1 group-title="北京联通-组播25",浙江卫视4K
 http://www.irisxxd.cn:8000/rtp/239.3.1.114:3004
-#EXTINF:-1 group-title="北京联通-组播26",江苏卫视4K
+#EXTINF:-1 group-title="北京联通-组播25",江苏卫视4K
 http://www.irisxxd.cn:8000/rtp/239.3.1.113:3003
-#EXTINF:-1 group-title="北京联通-组播26",东方卫视4K
+#EXTINF:-1 group-title="北京联通-组播25",东方卫视4K
 http://www.irisxxd.cn:8000/rtp/239.3.1.119:3006
-#EXTINF:-1 group-title="北京联通-组播26",广东卫视4K
+#EXTINF:-1 group-title="北京联通-组播25",广东卫视4K
 http://www.irisxxd.cn:8000/rtp/239.3.1.203:2000
-#EXTINF:-1 group-title="北京联通-组播26",深圳卫视4K
+#EXTINF:-1 group-title="北京联通-组播25",深圳卫视4K
 http://www.irisxxd.cn:8000/rtp/239.3.1.202:2000
-#EXTINF:-1 group-title="北京联通-组播26",山东卫视4K
+#EXTINF:-1 group-title="北京联通-组播25",山东卫视4K
 http://www.irisxxd.cn:8000/rtp/239.3.1.144:3005
-#EXTINF:-1 group-title="北京联通-组播26",四川卫视4K
+#EXTINF:-1 group-title="北京联通-组播25",四川卫视4K
 http://www.irisxxd.cn:8000/rtp/239.3.1.131:3001
-#EXTINF:-1 group-title="北京联通-组播26",CGTN英语
+#EXTINF:-1 group-title="北京联通-组播25",CGTN英语
 http://www.irisxxd.cn:8000/rtp/239.3.1.215:4220
-#EXTINF:-1 group-title="北京联通-组播26",CGTN西班牙语
+#EXTINF:-1 group-title="北京联通-组播25",CGTN西班牙语
 http://www.irisxxd.cn:8000/rtp/239.3.1.217:4220
-#EXTINF:-1 group-title="北京联通-组播26",CGTN法语
+#EXTINF:-1 group-title="北京联通-组播25",CGTN法语
 http://www.irisxxd.cn:8000/rtp/239.3.1.218:4220
-#EXTINF:-1 group-title="北京联通-组播26",CGTN阿拉伯语
+#EXTINF:-1 group-title="北京联通-组播25",CGTN阿拉伯语
 http://www.irisxxd.cn:8000/rtp/239.3.1.219:4220
-#EXTINF:-1 group-title="北京联通-组播26",CGTN俄语
+#EXTINF:-1 group-title="北京联通-组播25",CGTN俄语
 http://www.irisxxd.cn:8000/rtp/239.3.1.220:4220
-#EXTINF:-1 group-title="北京联通-组播26",CGTN纪录
+#EXTINF:-1 group-title="北京联通-组播25",CGTN纪录
 http://www.irisxxd.cn:8000/rtp/239.3.1.216:4220
-#EXTINF:-1 group-title="北京联通-组播26",CETV-1综合教育
+#EXTINF:-1 group-title="北京联通-组播25",CETV-1综合教育
 http://www.irisxxd.cn:8000/rtp/239.3.1.57:8152
-#EXTINF:-1 group-title="北京联通-组播26",CETV-2空中课堂
+#EXTINF:-1 group-title="北京联通-组播25",CETV-2空中课堂
 http://www.irisxxd.cn:8000/rtp/239.3.1.54:4120
-#EXTINF:-1 group-title="北京联通-组播26",CETV-3北京科教
+#EXTINF:-1 group-title="北京联通-组播25",CETV-3北京科教
 http://www.irisxxd.cn:8000/rtp/239.3.1.55:4120
-#EXTINF:-1 group-title="北京联通-组播26",CETV-4职业教育
+#EXTINF:-1 group-title="北京联通-组播25",CETV-4职业教育
 http://www.irisxxd.cn:8000/rtp/239.3.1.56:4120
-#EXTINF:-1 group-title="北京联通-组播26",中国交通
+#EXTINF:-1 group-title="北京联通-组播25",中国交通
 http://www.irisxxd.cn:8000/rtp/239.3.1.188:8001
-#EXTINF:-1 group-title="北京联通-组播26",体育赛事
+#EXTINF:-1 group-title="北京联通-组播25",体育赛事
 http://www.irisxxd.cn:8000/rtp/239.3.1.157:8176
-#EXTINF:-1 group-title="北京联通-组播26",睛彩竞技
+#EXTINF:-1 group-title="北京联通-组播25",睛彩竞技
 http://www.irisxxd.cn:8000/rtp/239.3.1.125:8001
-#EXTINF:-1 group-title="北京联通-组播26",睛彩广场舞
+#EXTINF:-1 group-title="北京联通-组播25",睛彩广场舞
 http://www.irisxxd.cn:8000/rtp/239.3.1.128:8001
-#EXTINF:-1 group-title="北京联通-组播26",睛彩篮球
+#EXTINF:-1 group-title="北京联通-组播25",睛彩篮球
 http://www.irisxxd.cn:8000/rtp/239.3.1.126:8001
-#EXTINF:-1 group-title="北京联通-组播26",华数爱上4K电影
+#EXTINF:-1 group-title="北京联通-组播25",华数爱上4K电影
 http://www.irisxxd.cn:8000/rtp/239.3.1.236:2000
-#EXTINF:-1 group-title="北京联通-组播26",华数经典电影
+#EXTINF:-1 group-title="北京联通-组播25",华数经典电影
 http://www.irisxxd.cn:8000/rtp/239.3.1.195:9024
-#EXTINF:-1 group-title="北京联通-组播26",华数动作影院
+#EXTINF:-1 group-title="北京联通-组播25",华数动作影院
 http://www.irisxxd.cn:8000/rtp/239.3.1.92:4120
-#EXTINF:-1 group-title="北京联通-组播26",华数喜剧影院
+#EXTINF:-1 group-title="北京联通-组播25",华数喜剧影院
 http://www.irisxxd.cn:8000/rtp/239.3.1.91:4120
-#EXTINF:-1 group-title="北京联通-组播26",华数家庭影院
+#EXTINF:-1 group-title="北京联通-组播25",华数家庭影院
 http://www.irisxxd.cn:8000/rtp/239.3.1.93:4120
-#EXTINF:-1 group-title="北京联通-组播26",华数星影
+#EXTINF:-1 group-title="北京联通-组播25",华数星影
 http://www.irisxxd.cn:8000/rtp/239.3.1.94:4120
-#EXTINF:-1 group-title="北京联通-组播26",华数热播剧场
+#EXTINF:-1 group-title="北京联通-组播25",华数热播剧场
 http://www.irisxxd.cn:8000/rtp/239.3.1.194:9020
-#EXTINF:-1 group-title="北京联通-组播26",华数古装剧场
+#EXTINF:-1 group-title="北京联通-组播25",华数古装剧场
 http://www.irisxxd.cn:8000/rtp/239.3.1.69:4120
-#EXTINF:-1 group-title="北京联通-组播26",华数城市剧场
+#EXTINF:-1 group-title="北京联通-组播25",华数城市剧场
 http://www.irisxxd.cn:8000/rtp/239.3.1.67:4120
-#EXTINF:-1 group-title="北京联通-组播26",华数军旅剧场
+#EXTINF:-1 group-title="北京联通-组播25",华数军旅剧场
 http://www.irisxxd.cn:8000/rtp/239.3.1.68:4120
-#EXTINF:-1 group-title="北京联通-组播26",华数魅力时尚
+#EXTINF:-1 group-title="北京联通-组播25",华数魅力时尚
 http://www.irisxxd.cn:8000/rtp/239.3.1.196:9012
-#EXTINF:-1 group-title="北京联通-组播26",华数少儿动画
+#EXTINF:-1 group-title="北京联通-组播25",华数少儿动画
 http://www.irisxxd.cn:8000/rtp/239.3.1.199:9000
-#EXTINF:-1 group-title="北京联通-组播26",华数动画
+#EXTINF:-1 group-title="北京联通-组播25",华数动画
 http://www.irisxxd.cn:8000/rtp/239.3.1.80:4120
-#EXTINF:-1 group-title="北京联通-组播26",华数精选
+#EXTINF:-1 group-title="北京联通-组播25",华数精选
 http://www.irisxxd.cn:8000/rtp/239.3.1.74:4120
-#EXTINF:-1 group-title="北京联通-组播26",华数武侠剧场
+#EXTINF:-1 group-title="北京联通-组播25",华数武侠剧场
 http://www.irisxxd.cn:8000/rtp/239.3.1.90:4120
-#EXTINF:-1 group-title="北京联通-组播26",IPTV10解密
+#EXTINF:-1 group-title="北京联通-组播25",IPTV10解密
 http://www.irisxxd.cn:8000/rtp/239.3.1.75:4120
-#EXTINF:-1 group-title="北京联通-组播26",IPTV11戏曲
+#EXTINF:-1 group-title="北京联通-组播25",IPTV11戏曲
 http://www.irisxxd.cn:8000/rtp/239.3.1.78:4120
-#EXTINF:-1 group-title="北京联通-组播26",IPTV14早教
+#EXTINF:-1 group-title="北京联通-组播25",IPTV14早教
 http://www.irisxxd.cn:8000/rtp/239.3.1.79:4120
-#EXTINF:-1 group-title="北京联通-组播26",IPTV15音乐现场
+#EXTINF:-1 group-title="北京联通-组播25",IPTV15音乐现场
 http://www.irisxxd.cn:8000/rtp/239.3.1.70:4120
-#EXTINF:-1 group-title="北京联通-组播26",IPTV3＋
+#EXTINF:-1 group-title="北京联通-组播25",IPTV3＋
 http://www.irisxxd.cn:8000/rtp/239.3.1.198:9004
-#EXTINF:-1 group-title="北京联通-组播26",IPTV5＋
+#EXTINF:-1 group-title="北京联通-组播25",IPTV5＋
 http://www.irisxxd.cn:8000/rtp/239.3.1.200:9008
-#EXTINF:-1 group-title="北京联通-组播26",IPTV5＋
+#EXTINF:-1 group-title="北京联通-组播25",IPTV5＋
 http://www.irisxxd.cn:8000/rtp/239.3.1.237:4120
-#EXTINF:-1 group-title="北京联通-组播26",IPTV6＋
+#EXTINF:-1 group-title="北京联通-组播25",IPTV6＋
 http://www.irisxxd.cn:8000/rtp/239.3.1.197:9016
-#EXTINF:-1 group-title="北京联通-组播26",IPTV7军事
+#EXTINF:-1 group-title="北京联通-组播25",IPTV7军事
 http://www.irisxxd.cn:8000/rtp/239.3.1.76:4120
-#EXTINF:-1 group-title="北京联通-组播26",IPTV8＋
+#EXTINF:-1 group-title="北京联通-组播25",IPTV8＋
 http://www.irisxxd.cn:8000/rtp/239.3.1.201:8072
-#EXTINF:-1 group-title="北京联通-组播26",IPTV台球
+#EXTINF:-1 group-title="北京联通-组播25",IPTV台球
 http://www.irisxxd.cn:8000/rtp/239.3.1.85:4120
-#EXTINF:-1 group-title="北京联通-组播26",IPTV国学
+#EXTINF:-1 group-title="北京联通-组播25",IPTV国学
 http://www.irisxxd.cn:8000/rtp/239.3.1.77:4120
-#EXTINF:-1 group-title="北京联通-组播26",IPTV地理
+#EXTINF:-1 group-title="北京联通-组播25",IPTV地理
 http://www.irisxxd.cn:8000/rtp/239.3.1.71:4120
-#EXTINF:-1 group-title="北京联通-组播26",IPTV墨宝
+#EXTINF:-1 group-title="北京联通-组播25",IPTV墨宝
 http://www.irisxxd.cn:8000/rtp/239.3.1.83:4120
-#EXTINF:-1 group-title="北京联通-组播26",IPTV好学生
+#EXTINF:-1 group-title="北京联通-组播25",IPTV好学生
 http://www.irisxxd.cn:8000/rtp/239.3.1.81:4120
-#EXTINF:-1 group-title="北京联通-组播26",IPTV收视指南
+#EXTINF:-1 group-title="北京联通-组播25",IPTV收视指南
 http://www.irisxxd.cn:8000/rtp/239.3.1.193:8012
-#EXTINF:-1 group-title="北京联通-组播26",IPTV武术
+#EXTINF:-1 group-title="北京联通-组播25",IPTV武术
 http://www.irisxxd.cn:8000/rtp/239.3.1.87:4120
-#EXTINF:-1 group-title="北京联通-组播26",IPTV爱生活
+#EXTINF:-1 group-title="北京联通-组播25",IPTV爱生活
 http://www.irisxxd.cn:8000/rtp/239.3.1.86:4120
-#EXTINF:-1 group-title="北京联通-组播26",IPTV美人
+#EXTINF:-1 group-title="北京联通-组播25",IPTV美人
 http://www.irisxxd.cn:8000/rtp/239.3.1.73:4120
-#EXTINF:-1 group-title="北京联通-组播26",IPTV美妆
+#EXTINF:-1 group-title="北京联通-组播25",IPTV美妆
 http://www.irisxxd.cn:8000/rtp/239.3.1.72:4120
-#EXTINF:-1 group-title="北京联通-组播26",IPTV足球
+#EXTINF:-1 group-title="北京联通-组播25",IPTV足球
 http://www.irisxxd.cn:8000/rtp/239.3.1.89:4120
-#EXTINF:-1 group-title="北京联通-组播26",IPTV鉴赏
+#EXTINF:-1 group-title="北京联通-组播25",IPTV鉴赏
 http://www.irisxxd.cn:8000/rtp/239.3.1.82:4120
-#EXTINF:-1 group-title="北京联通-组播26",上海动漫秀场
+#EXTINF:-1 group-title="北京联通-组播25",上海动漫秀场
 http://www.irisxxd.cn:8000/rtp/239.3.1.202:8001
-#EXTINF:-1 group-title="北京联通-组播26",上海游戏风云
+#EXTINF:-1 group-title="北京联通-组播25",上海游戏风云
 http://www.irisxxd.cn:8000/rtp/239.3.1.205:8001
-#EXTINF:-1 group-title="北京联通-组播26",上海乐游
+#EXTINF:-1 group-title="北京联通-组播25",上海乐游
 http://www.irisxxd.cn:8000/rtp/239.3.1.207:8001
-#EXTINF:-1 group-title="北京联通-组播26",上海乐游
+#EXTINF:-1 group-title="北京联通-组播25",上海乐游
 http://www.irisxxd.cn:8000/rtp/239.3.1.114:8001
-#EXTINF:-1 group-title="北京联通-组播26",上海法治天地
+#EXTINF:-1 group-title="北京联通-组播25",上海法治天地
 http://www.irisxxd.cn:8000/rtp/239.3.1.204:8001
-#EXTINF:-1 group-title="北京联通-组播26",上海都市剧场
+#EXTINF:-1 group-title="北京联通-组播25",上海都市剧场
 http://www.irisxxd.cn:8000/rtp/239.3.1.203:8001
-#EXTINF:-1 group-title="北京联通-组播26",上海金色学堂
+#EXTINF:-1 group-title="北京联通-组播25",上海金色学堂
 http://www.irisxxd.cn:8000/rtp/239.3.1.208:8001
-#EXTINF:-1 group-title="北京联通-组播26",上海生活时尚
+#EXTINF:-1 group-title="北京联通-组播25",上海生活时尚
 http://www.irisxxd.cn:8000/rtp/239.3.1.206:8001
-#EXTINF:-1 group-title="北京联通-组播26",上海纪实人文
+#EXTINF:-1 group-title="北京联通-组播25",上海纪实人文
 http://www.irisxxd.cn:8000/rtp/239.3.1.212:8060
-#EXTINF:-1 group-title="北京联通-组播26",上海魅力足球
+#EXTINF:-1 group-title="北京联通-组播25",上海魅力足球
 http://www.irisxxd.cn:8000/rtp/239.3.1.201:8001
-#EXTINF:-1 group-title="北京联通-组播26",江苏财富天下
+#EXTINF:-1 group-title="北京联通-组播25",江苏财富天下
 http://www.irisxxd.cn:8000/rtp/239.3.1.53:9136
-#EXTINF:-1 group-title="北京联通-组播26",湖北快乐垂钓
+#EXTINF:-1 group-title="北京联通-组播25",湖北快乐垂钓
 http://www.irisxxd.cn:8000/rtp/239.3.1.164:8001
-#EXTINF:-1 group-title="北京联通-组播26",湖南茶频道
+#EXTINF:-1 group-title="北京联通-组播25",湖南茶频道
 http://www.irisxxd.cn:8000/rtp/239.3.1.165:8001
-#EXTINF:-1 group-title="北京联通-组播26",湖南金鹰纪实
+#EXTINF:-1 group-title="北京联通-组播25",湖南金鹰纪实
 http://www.irisxxd.cn:8000/rtp/239.3.1.58:8156
-#EXTINF:-1 group-title="北京联通-组播26",湖南金鹰卡通
+#EXTINF:-1 group-title="北京联通-组播25",湖南金鹰卡通
 http://www.irisxxd.cn:8000/rtp/239.3.1.51:9252
-#EXTINF:-1 group-title="北京联通-组播26",广东嘉佳卡通
+#EXTINF:-1 group-title="北京联通-组播25",广东嘉佳卡通
 http://www.irisxxd.cn:8000/rtp/239.3.1.147:9268
-#EXTINF:-1 group-title="北京联通-组播26",光影
+#EXTINF:-1 group-title="北京联通-组播25",光影
 http://www.irisxxd.cn:8000/rtp/239.3.1.84:4120
-#EXTINF:-1 group-title="北京联通-组播26",睛彩羽毛球
+#EXTINF:-1 group-title="北京联通-组播25",睛彩羽毛球
 http://www.irisxxd.cn:8000/rtp/239.3.1.127:8001
-#EXTINF:-1 group-title="北京联通-组播26",门头沟电视台
+#EXTINF:-1 group-title="北京联通-组播25",门头沟电视台
 http://www.irisxxd.cn:8000/rtp/239.3.1.59:8001
-#EXTINF:-1 group-title="北京联通-组播26",房山电视台
+#EXTINF:-1 group-title="北京联通-组播25",房山电视台
 http://www.irisxxd.cn:8000/rtp/239.3.1.96:8001
-#EXTINF:-1 group-title="北京联通-组播26",通州融媒
+#EXTINF:-1 group-title="北京联通-组播25",通州融媒
 http://www.irisxxd.cn:8000/rtp/239.3.1.221:8001
-#EXTINF:-1 group-title="北京联通-组播26",平谷融媒[高清]
+#EXTINF:-1 group-title="北京联通-组播25",平谷融媒[高清]
 http://www.irisxxd.cn:8000/rtp/239.3.1.23:8001
-#EXTINF:-1 group-title="北京联通-组播26",密云电视台
+#EXTINF:-1 group-title="北京联通-组播25",密云电视台
 http://www.irisxxd.cn:8000/rtp/239.3.1.154:8001
-#EXTINF:-1 group-title="北京联通-组播26",延庆电视台
+#EXTINF:-1 group-title="北京联通-组播25",延庆电视台
 http://www.irisxxd.cn:8000/rtp/239.3.1.187:8001
-#EXTINF:-1 group-title="北京联通-组播26",朝阳融媒
+#EXTINF:-1 group-title="北京联通-组播25",朝阳融媒
 http://www.irisxxd.cn:8000/rtp/239.3.1.163:8001
-#EXTINF:-1 group-title="北京联通-组播26",广东卫视[超清HDR]
+#EXTINF:-1 group-title="北京联通-组播25",广东卫视[超清HDR]
 http://www.irisxxd.cn:8000/rtp/239.3.1.27:2000
-#EXTINF:-1 group-title="北京联通-组播26",深圳卫视[超清HDR]
+#EXTINF:-1 group-title="北京联通-组播25",深圳卫视[超清HDR]
 http://www.irisxxd.cn:8000/rtp/239.3.1.28:2000
-#EXTINF:-1 group-title="北京联通-组播26",4K测试
+#EXTINF:-1 group-title="北京联通-组播25",4K测试
 http://www.irisxxd.cn:8000/rtp/239.3.1.104:8001
-#EXTINF:-1 group-title="北京联通-组播26",BRTV 8K[8K]
+#EXTINF:-1 group-title="北京联通-组播25",BRTV 8K[8K]
 http://www.irisxxd.cn:8000/rtp/239.3.1.252:8001
-#EXTINF:-1 group-title="北京联通-组播26",BRTV卡酷少儿
+#EXTINF:-1 group-title="北京联通-组播25",BRTV卡酷少儿
 http://www.irisxxd.cn:8000/rtp/239.3.1.120:8000
-#EXTINF:-1 group-title="北京联通-组播26",BRTV卡酷少儿
+#EXTINF:-1 group-title="北京联通-组播25",BRTV卡酷少儿
 http://www.irisxxd.cn:8000/rtp/239.3.1.121:8000
-#EXTINF:-1 group-title="北京联通-组播26",BRTV生活
+#EXTINF:-1 group-title="北京联通-组播25",BRTV生活
 http://www.irisxxd.cn:8000/rtp/239.3.1.118:8000
-#EXTINF:-1 group-title="北京联通-组播26",CCTV16SDR
+#EXTINF:-1 group-title="北京联通-组播25",CCTV16SDR
 http://www.irisxxd.cn:8000/rtp/239.3.1.183:8001
-#EXTINF:-1 group-title="北京联通-组播26",南方卫视
+#EXTINF:-1 group-title="北京联通-组播25",南方卫视
 http://www.irisxxd.cn:8000/rtp/239.3.1.161:8001
-#EXTINF:-1 group-title="北京联通-组播26",总平台测试1
+#EXTINF:-1 group-title="北京联通-组播25",总平台测试1
 http://www.irisxxd.cn:8000/rtp/239.3.1.247:2000
-#EXTINF:-1 group-title="北京联通-组播26",总平台测试2
+#EXTINF:-1 group-title="北京联通-组播25",总平台测试2
 http://www.irisxxd.cn:8000/rtp/239.3.1.248:2000
-#EXTINF:-1 group-title="北京联通-组播26",测试
+#EXTINF:-1 group-title="北京联通-组播25",测试
 http://www.irisxxd.cn:8000/rtp/239.3.1.103:8001
-#EXTINF:-1 group-title="北京联通-组播26",淘剧场
+#EXTINF:-1 group-title="北京联通-组播25",淘剧场
 http://www.irisxxd.cn:8000/rtp/239.3.1.112:8001
-#EXTINF:-1 group-title="北京联通-组播26",淘娱乐
+#EXTINF:-1 group-title="北京联通-组播25",淘娱乐
 http://www.irisxxd.cn:8000/rtp/239.3.1.113:8001
-#EXTINF:-1 group-title="北京联通-组播26",淘电影
+#EXTINF:-1 group-title="北京联通-组播25",淘电影
 http://www.irisxxd.cn:8000/rtp/239.3.1.111:8001
-#EXTINF:-1 group-title="北京联通-组播26",淘精彩
+#EXTINF:-1 group-title="北京联通-组播25",淘精彩
 http://www.irisxxd.cn:8000/rtp/239.3.1.178:8001
-#EXTINF:-1 group-title="北京联通-组播26",熊猫频道
+#EXTINF:-1 group-title="北京联通-组播25",熊猫频道
 http://www.irisxxd.cn:8000/rtp/239.3.1.66:8068
-#EXTINF:-1 group-title="北京联通-组播26",聚鲨环球
+#EXTINF:-1 group-title="北京联通-组播25",聚鲨环球
 http://www.irisxxd.cn:8000/rtp/239.3.1.160:8001
-#EXTINF:-1 group-title="北京联通-组播26",轮播频道5
+#EXTINF:-1 group-title="北京联通-组播25",轮播频道5
 http://www.irisxxd.cn:8000/rtp/239.3.1.253:8001
-#EXTINF:-1 group-title="北京联通-组播26",重温经典[高清]
+#EXTINF:-1 group-title="北京联通-组播25",重温经典[高清]
 http://www.irisxxd.cn:8000/rtp/239.3.1.25:8001
-#EXTINF:-1 group-title="北京联通-组播26",高网频道
+#EXTINF:-1 group-title="北京联通-组播25",高网频道
 http://www.irisxxd.cn:8000/rtp/239.3.1.88:4120
-#EXTINF:-1 group-title="北京联通-组播27",北京卫视
+#EXTINF:-1 group-title="北京联通-组播26",北京卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.241:8000
-#EXTINF:-1 group-title="北京联通-组播27",北京卫视4K
+#EXTINF:-1 group-title="北京联通-组播26",北京卫视4K
 http://www.irisxxd.cn:8888/rtp/239.3.1.139:8001
-#EXTINF:-1 group-title="北京联通-组播27",北京卫视4K
+#EXTINF:-1 group-title="北京联通-组播26",北京卫视4K
 http://www.irisxxd.cn:8888/rtp/239.3.1.140:8001
-#EXTINF:-1 group-title="北京联通-组播27",北京卫视4K
+#EXTINF:-1 group-title="北京联通-组播26",北京卫视4K
 http://www.irisxxd.cn:8888/rtp/239.3.1.22:8001
-#EXTINF:-1 group-title="北京联通-组播27",北京卫视4K（HDR）
+#EXTINF:-1 group-title="北京联通-组播26",北京卫视4K（HDR）
 http://www.irisxxd.cn:8888/rtp/239.3.1.118:8001
-#EXTINF:-1 group-title="北京联通-组播27",北京IPTV4K超清
+#EXTINF:-1 group-title="北京联通-组播26",北京IPTV4K超清
 http://www.irisxxd.cn:8888/rtp/239.3.1.249:8001
-#EXTINF:-1 group-title="北京联通-组播27",北京IPTV淘BABY
+#EXTINF:-1 group-title="北京联通-组播26",北京IPTV淘BABY
 http://www.irisxxd.cn:8888/rtp/239.3.1.238:8001
-#EXTINF:-1 group-title="北京联通-组播27",北京IPTV淘剧场
+#EXTINF:-1 group-title="北京联通-组播26",北京IPTV淘剧场
 http://www.irisxxd.cn:8888/rtp/239.3.1.95:8001
-#EXTINF:-1 group-title="北京联通-组播27",北京IPTV淘娱乐
+#EXTINF:-1 group-title="北京联通-组播26",北京IPTV淘娱乐
 http://www.irisxxd.cn:8888/rtp/239.3.1.100:8001
-#EXTINF:-1 group-title="北京联通-组播27",北京IPTV淘电影
+#EXTINF:-1 group-title="北京联通-组播26",北京IPTV淘电影
 http://www.irisxxd.cn:8888/rtp/239.3.1.250:8001
-#EXTINF:-1 group-title="北京联通-组播27",北京IPTV萌宠TV
+#EXTINF:-1 group-title="北京联通-组播26",北京IPTV萌宠TV
 http://www.irisxxd.cn:8888/rtp/239.3.1.102:8001
-#EXTINF:-1 group-title="北京联通-组播27",北京体育休闲
+#EXTINF:-1 group-title="北京联通-组播26",北京体育休闲
 http://www.irisxxd.cn:8888/rtp/239.3.1.243:8000
-#EXTINF:-1 group-title="北京联通-组播27",北京卡酷少儿
+#EXTINF:-1 group-title="北京联通-组播26",北京卡酷少儿
 http://www.irisxxd.cn:8888/rtp/239.3.1.189:8000
-#EXTINF:-1 group-title="北京联通-组播27",北京国际频道
+#EXTINF:-1 group-title="北京联通-组播26",北京国际频道
 http://www.irisxxd.cn:8888/rtp/239.3.1.235:8000
-#EXTINF:-1 group-title="北京联通-组播27",北京影视频道
+#EXTINF:-1 group-title="北京联通-组播26",北京影视频道
 http://www.irisxxd.cn:8888/rtp/239.3.1.158:8000
-#EXTINF:-1 group-title="北京联通-组播27",北京文艺频道
+#EXTINF:-1 group-title="北京联通-组播26",北京文艺频道
 http://www.irisxxd.cn:8888/rtp/239.3.1.242:8000
-#EXTINF:-1 group-title="北京联通-组播27",北京新闻频道
+#EXTINF:-1 group-title="北京联通-组播26",北京新闻频道
 http://www.irisxxd.cn:8888/rtp/239.3.1.159:8000
-#EXTINF:-1 group-title="北京联通-组播27",北京生活频道
+#EXTINF:-1 group-title="北京联通-组播26",北京生活频道
 http://www.irisxxd.cn:8888/rtp/239.3.1.117:8000
-#EXTINF:-1 group-title="北京联通-组播27",北京纪实科教
+#EXTINF:-1 group-title="北京联通-组播26",北京纪实科教
 http://www.irisxxd.cn:8888/rtp/239.3.1.115:8000
-#EXTINF:-1 group-title="北京联通-组播27",北京财经频道
+#EXTINF:-1 group-title="北京联通-组播26",北京财经频道
 http://www.irisxxd.cn:8888/rtp/239.3.1.116:8000
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-1综合
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-1综合
 http://www.irisxxd.cn:8888/rtp/239.3.1.129:8008
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-2财经
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-2财经
 http://www.irisxxd.cn:8888/rtp/239.3.1.60:8084
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-3综艺
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-3综艺
 http://www.irisxxd.cn:8888/rtp/239.3.1.172:8001
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-4中文国际
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-4中文国际
 http://www.irisxxd.cn:8888/rtp/239.3.1.105:8092
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-4中文国际欧洲
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-4中文国际欧洲
 http://www.irisxxd.cn:8888/rtp/239.3.1.213:4220
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-4中文国际美洲
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-4中文国际美洲
 http://www.irisxxd.cn:8888/rtp/239.3.1.214:4220
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-5体育
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-5体育
 http://www.irisxxd.cn:8888/rtp/239.3.1.173:8001
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-5+体育赛事
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-5+体育赛事
 http://www.irisxxd.cn:8888/rtp/239.3.1.130:8004
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-6电影
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-6电影
 http://www.irisxxd.cn:8888/rtp/239.3.1.174:8001
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-7国防军事
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-7国防军事
 http://www.irisxxd.cn:8888/rtp/239.3.1.61:8104
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-8电视剧
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-8电视剧
 http://www.irisxxd.cn:8888/rtp/239.3.1.175:8001
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-9纪录
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-9纪录
 http://www.irisxxd.cn:8888/rtp/239.3.1.62:8112
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-10科教
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-10科教
 http://www.irisxxd.cn:8888/rtp/239.3.1.63:8116
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-11戏曲
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-11戏曲
 http://www.irisxxd.cn:8888/rtp/239.3.1.152:8120
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-12社会与法
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-12社会与法
 http://www.irisxxd.cn:8888/rtp/239.3.1.64:8124
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-13新闻
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-13新闻
 http://www.irisxxd.cn:8888/rtp/239.3.1.124:8128
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-14少儿
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-14少儿
 http://www.irisxxd.cn:8888/rtp/239.3.1.65:8132
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-15音乐
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-15音乐
 http://www.irisxxd.cn:8888/rtp/239.3.1.153:8136
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-16奥林匹克
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-16奥林匹克
 http://www.irisxxd.cn:8888/rtp/239.3.1.184:8001
-#EXTINF:-1 group-title="北京联通-组播27",CCTV-17农业农村
+#EXTINF:-1 group-title="北京联通-组播26",CCTV-17农业农村
 http://www.irisxxd.cn:8888/rtp/239.3.1.151:8144
-#EXTINF:-1 group-title="北京联通-组播27",CCTV4K(SDR)
+#EXTINF:-1 group-title="北京联通-组播26",CCTV4K(SDR)
 http://www.irisxxd.cn:8888/rtp/239.3.1.244:2000
-#EXTINF:-1 group-title="北京联通-组播27",CCTV4K(SDR)
+#EXTINF:-1 group-title="北京联通-组播26",CCTV4K(SDR)
 http://www.irisxxd.cn:8888/rtp/239.3.1.245:2000
-#EXTINF:-1 group-title="北京联通-组播27",湖南卫视
+#EXTINF:-1 group-title="北京联通-组播26",湖南卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.132:8012
-#EXTINF:-1 group-title="北京联通-组播27",浙江卫视
+#EXTINF:-1 group-title="北京联通-组播26",浙江卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.137:8036
-#EXTINF:-1 group-title="北京联通-组播27",江苏卫视
+#EXTINF:-1 group-title="北京联通-组播26",江苏卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.135:8028
-#EXTINF:-1 group-title="北京联通-组播27",东方卫视
+#EXTINF:-1 group-title="北京联通-组播26",东方卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.136:8032
-#EXTINF:-1 group-title="北京联通-组播27",安徽卫视
+#EXTINF:-1 group-title="北京联通-组播26",安徽卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.211:8064
-#EXTINF:-1 group-title="北京联通-组播27",广东卫视
+#EXTINF:-1 group-title="北京联通-组播26",广东卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.142:8048
-#EXTINF:-1 group-title="北京联通-组播27",深圳卫视
+#EXTINF:-1 group-title="北京联通-组播26",深圳卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.134:8020
-#EXTINF:-1 group-title="北京联通-组播27",辽宁卫视
+#EXTINF:-1 group-title="北京联通-组播26",辽宁卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.210:8056
-#EXTINF:-1 group-title="北京联通-组播27",山东卫视
+#EXTINF:-1 group-title="北京联通-组播26",山东卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.209:8052
-#EXTINF:-1 group-title="北京联通-组播27",山东教育卫视
+#EXTINF:-1 group-title="北京联通-组播26",山东教育卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.52:4120
-#EXTINF:-1 group-title="北京联通-组播27",天津卫视
+#EXTINF:-1 group-title="北京联通-组播26",天津卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.141:1234
-#EXTINF:-1 group-title="北京联通-组播27",重庆卫视
+#EXTINF:-1 group-title="北京联通-组播26",重庆卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.122:8160
-#EXTINF:-1 group-title="北京联通-组播27",东南卫视
+#EXTINF:-1 group-title="北京联通-组播26",东南卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.156:8148
-#EXTINF:-1 group-title="北京联通-组播27",河北卫视
+#EXTINF:-1 group-title="北京联通-组播26",河北卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.148:8072
-#EXTINF:-1 group-title="北京联通-组播27",河南卫视
+#EXTINF:-1 group-title="北京联通-组播26",河南卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.27:8128
-#EXTINF:-1 group-title="北京联通-组播27",河南卫视
+#EXTINF:-1 group-title="北京联通-组播26",河南卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.50:8184
-#EXTINF:-1 group-title="北京联通-组播27",湖北卫视
+#EXTINF:-1 group-title="北京联通-组播26",湖北卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.138:8044
-#EXTINF:-1 group-title="北京联通-组播27",陕西卫视
+#EXTINF:-1 group-title="北京联通-组播26",陕西卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.41:8140
-#EXTINF:-1 group-title="北京联通-组播27",四川卫视
+#EXTINF:-1 group-title="北京联通-组播26",四川卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.29:8288
-#EXTINF:-1 group-title="北京联通-组播27",海南卫视
+#EXTINF:-1 group-title="北京联通-组播26",海南卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.45:8304
-#EXTINF:-1 group-title="北京联通-组播27",甘肃卫视
+#EXTINF:-1 group-title="北京联通-组播26",甘肃卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.201:8180
-#EXTINF:-1 group-title="北京联通-组播27",甘肃卫视
+#EXTINF:-1 group-title="北京联通-组播26",甘肃卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.49:8188
-#EXTINF:-1 group-title="北京联通-组播27",广西卫视
+#EXTINF:-1 group-title="北京联通-组播26",广西卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.39:8300
-#EXTINF:-1 group-title="北京联通-组播27",贵州卫视
+#EXTINF:-1 group-title="北京联通-组播26",贵州卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.149:8076
-#EXTINF:-1 group-title="北京联通-组播27",黑龙江卫视
+#EXTINF:-1 group-title="北京联通-组播26",黑龙江卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.133:8016
-#EXTINF:-1 group-title="北京联通-组播27",江西卫视
+#EXTINF:-1 group-title="北京联通-组播26",江西卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.123:8164
-#EXTINF:-1 group-title="北京联通-组播27",吉林卫视
+#EXTINF:-1 group-title="北京联通-组播26",吉林卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.240:8172
-#EXTINF:-1 group-title="北京联通-组播27",内蒙古卫视
+#EXTINF:-1 group-title="北京联通-组播26",内蒙古卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.43:8176
-#EXTINF:-1 group-title="北京联通-组播27",宁夏卫视
+#EXTINF:-1 group-title="北京联通-组播26",宁夏卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.169:8212
-#EXTINF:-1 group-title="北京联通-组播27",宁夏卫视
+#EXTINF:-1 group-title="北京联通-组播26",宁夏卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.46:8124
-#EXTINF:-1 group-title="北京联通-组播27",山西卫视
+#EXTINF:-1 group-title="北京联通-组播26",山西卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.42:8172
-#EXTINF:-1 group-title="北京联通-组播27",新疆卫视
+#EXTINF:-1 group-title="北京联通-组播26",新疆卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.167:8192
-#EXTINF:-1 group-title="北京联通-组播27",新疆卫视
+#EXTINF:-1 group-title="北京联通-组播26",新疆卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.48:8160
-#EXTINF:-1 group-title="北京联通-组播27",云南卫视
+#EXTINF:-1 group-title="北京联通-组播26",云南卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.26:8108
-#EXTINF:-1 group-title="北京联通-组播27",青海卫视
+#EXTINF:-1 group-title="北京联通-组播26",青海卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.44:8184
-#EXTINF:-1 group-title="北京联通-组播27",西藏卫视
+#EXTINF:-1 group-title="北京联通-组播26",西藏卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.166:8188
-#EXTINF:-1 group-title="北京联通-组播27",西藏卫视
+#EXTINF:-1 group-title="北京联通-组播26",西藏卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.47:8164
-#EXTINF:-1 group-title="北京联通-组播27",兵团卫视
+#EXTINF:-1 group-title="北京联通-组播26",兵团卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.144:4120
-#EXTINF:-1 group-title="北京联通-组播27",兵团卫视
+#EXTINF:-1 group-title="北京联通-组播26",兵团卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.168:8196
-#EXTINF:-1 group-title="北京联通-组播27",三沙卫视
+#EXTINF:-1 group-title="北京联通-组播26",三沙卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.155:4120
-#EXTINF:-1 group-title="北京联通-组播27",厦门卫视
+#EXTINF:-1 group-title="北京联通-组播26",厦门卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.143:4120
-#EXTINF:-1 group-title="北京联通-组播27",湖南卫视4K
+#EXTINF:-1 group-title="北京联通-组播26",湖南卫视4K
 http://www.irisxxd.cn:8888/rtp/239.3.1.112:3002
-#EXTINF:-1 group-title="北京联通-组播27",浙江卫视4K
+#EXTINF:-1 group-title="北京联通-组播26",浙江卫视4K
 http://www.irisxxd.cn:8888/rtp/239.3.1.114:3004
-#EXTINF:-1 group-title="北京联通-组播27",江苏卫视4K
+#EXTINF:-1 group-title="北京联通-组播26",江苏卫视4K
 http://www.irisxxd.cn:8888/rtp/239.3.1.113:3003
-#EXTINF:-1 group-title="北京联通-组播27",东方卫视4K
+#EXTINF:-1 group-title="北京联通-组播26",东方卫视4K
 http://www.irisxxd.cn:8888/rtp/239.3.1.119:3006
-#EXTINF:-1 group-title="北京联通-组播27",广东卫视4K
+#EXTINF:-1 group-title="北京联通-组播26",广东卫视4K
 http://www.irisxxd.cn:8888/rtp/239.3.1.203:2000
-#EXTINF:-1 group-title="北京联通-组播27",深圳卫视4K
+#EXTINF:-1 group-title="北京联通-组播26",深圳卫视4K
 http://www.irisxxd.cn:8888/rtp/239.3.1.202:2000
-#EXTINF:-1 group-title="北京联通-组播27",山东卫视4K
+#EXTINF:-1 group-title="北京联通-组播26",山东卫视4K
 http://www.irisxxd.cn:8888/rtp/239.3.1.144:3005
-#EXTINF:-1 group-title="北京联通-组播27",四川卫视4K
+#EXTINF:-1 group-title="北京联通-组播26",四川卫视4K
 http://www.irisxxd.cn:8888/rtp/239.3.1.131:3001
-#EXTINF:-1 group-title="北京联通-组播27",CGTN英语
+#EXTINF:-1 group-title="北京联通-组播26",CGTN英语
 http://www.irisxxd.cn:8888/rtp/239.3.1.215:4220
-#EXTINF:-1 group-title="北京联通-组播27",CGTN西班牙语
+#EXTINF:-1 group-title="北京联通-组播26",CGTN西班牙语
 http://www.irisxxd.cn:8888/rtp/239.3.1.217:4220
-#EXTINF:-1 group-title="北京联通-组播27",CGTN法语
+#EXTINF:-1 group-title="北京联通-组播26",CGTN法语
 http://www.irisxxd.cn:8888/rtp/239.3.1.218:4220
-#EXTINF:-1 group-title="北京联通-组播27",CGTN阿拉伯语
+#EXTINF:-1 group-title="北京联通-组播26",CGTN阿拉伯语
 http://www.irisxxd.cn:8888/rtp/239.3.1.219:4220
-#EXTINF:-1 group-title="北京联通-组播27",CGTN俄语
+#EXTINF:-1 group-title="北京联通-组播26",CGTN俄语
 http://www.irisxxd.cn:8888/rtp/239.3.1.220:4220
-#EXTINF:-1 group-title="北京联通-组播27",CGTN纪录
+#EXTINF:-1 group-title="北京联通-组播26",CGTN纪录
 http://www.irisxxd.cn:8888/rtp/239.3.1.216:4220
-#EXTINF:-1 group-title="北京联通-组播27",CETV-1综合教育
+#EXTINF:-1 group-title="北京联通-组播26",CETV-1综合教育
 http://www.irisxxd.cn:8888/rtp/239.3.1.57:8152
-#EXTINF:-1 group-title="北京联通-组播27",CETV-2空中课堂
+#EXTINF:-1 group-title="北京联通-组播26",CETV-2空中课堂
 http://www.irisxxd.cn:8888/rtp/239.3.1.54:4120
-#EXTINF:-1 group-title="北京联通-组播27",CETV-3北京科教
+#EXTINF:-1 group-title="北京联通-组播26",CETV-3北京科教
 http://www.irisxxd.cn:8888/rtp/239.3.1.55:4120
-#EXTINF:-1 group-title="北京联通-组播27",CETV-4职业教育
+#EXTINF:-1 group-title="北京联通-组播26",CETV-4职业教育
 http://www.irisxxd.cn:8888/rtp/239.3.1.56:4120
-#EXTINF:-1 group-title="北京联通-组播27",中国交通
+#EXTINF:-1 group-title="北京联通-组播26",中国交通
 http://www.irisxxd.cn:8888/rtp/239.3.1.188:8001
-#EXTINF:-1 group-title="北京联通-组播27",体育赛事
+#EXTINF:-1 group-title="北京联通-组播26",体育赛事
 http://www.irisxxd.cn:8888/rtp/239.3.1.157:8176
-#EXTINF:-1 group-title="北京联通-组播27",睛彩竞技
+#EXTINF:-1 group-title="北京联通-组播26",睛彩竞技
 http://www.irisxxd.cn:8888/rtp/239.3.1.125:8001
-#EXTINF:-1 group-title="北京联通-组播27",睛彩广场舞
+#EXTINF:-1 group-title="北京联通-组播26",睛彩广场舞
 http://www.irisxxd.cn:8888/rtp/239.3.1.128:8001
-#EXTINF:-1 group-title="北京联通-组播27",睛彩篮球
+#EXTINF:-1 group-title="北京联通-组播26",睛彩篮球
 http://www.irisxxd.cn:8888/rtp/239.3.1.126:8001
-#EXTINF:-1 group-title="北京联通-组播27",华数爱上4K电影
+#EXTINF:-1 group-title="北京联通-组播26",华数爱上4K电影
 http://www.irisxxd.cn:8888/rtp/239.3.1.236:2000
-#EXTINF:-1 group-title="北京联通-组播27",华数经典电影
+#EXTINF:-1 group-title="北京联通-组播26",华数经典电影
 http://www.irisxxd.cn:8888/rtp/239.3.1.195:9024
-#EXTINF:-1 group-title="北京联通-组播27",华数动作影院
+#EXTINF:-1 group-title="北京联通-组播26",华数动作影院
 http://www.irisxxd.cn:8888/rtp/239.3.1.92:4120
-#EXTINF:-1 group-title="北京联通-组播27",华数喜剧影院
+#EXTINF:-1 group-title="北京联通-组播26",华数喜剧影院
 http://www.irisxxd.cn:8888/rtp/239.3.1.91:4120
-#EXTINF:-1 group-title="北京联通-组播27",华数家庭影院
+#EXTINF:-1 group-title="北京联通-组播26",华数家庭影院
 http://www.irisxxd.cn:8888/rtp/239.3.1.93:4120
-#EXTINF:-1 group-title="北京联通-组播27",华数星影
+#EXTINF:-1 group-title="北京联通-组播26",华数星影
 http://www.irisxxd.cn:8888/rtp/239.3.1.94:4120
-#EXTINF:-1 group-title="北京联通-组播27",华数热播剧场
+#EXTINF:-1 group-title="北京联通-组播26",华数热播剧场
 http://www.irisxxd.cn:8888/rtp/239.3.1.194:9020
-#EXTINF:-1 group-title="北京联通-组播27",华数古装剧场
+#EXTINF:-1 group-title="北京联通-组播26",华数古装剧场
 http://www.irisxxd.cn:8888/rtp/239.3.1.69:4120
-#EXTINF:-1 group-title="北京联通-组播27",华数城市剧场
+#EXTINF:-1 group-title="北京联通-组播26",华数城市剧场
 http://www.irisxxd.cn:8888/rtp/239.3.1.67:4120
-#EXTINF:-1 group-title="北京联通-组播27",华数军旅剧场
+#EXTINF:-1 group-title="北京联通-组播26",华数军旅剧场
 http://www.irisxxd.cn:8888/rtp/239.3.1.68:4120
-#EXTINF:-1 group-title="北京联通-组播27",华数魅力时尚
+#EXTINF:-1 group-title="北京联通-组播26",华数魅力时尚
 http://www.irisxxd.cn:8888/rtp/239.3.1.196:9012
-#EXTINF:-1 group-title="北京联通-组播27",华数少儿动画
+#EXTINF:-1 group-title="北京联通-组播26",华数少儿动画
 http://www.irisxxd.cn:8888/rtp/239.3.1.199:9000
-#EXTINF:-1 group-title="北京联通-组播27",华数动画
+#EXTINF:-1 group-title="北京联通-组播26",华数动画
 http://www.irisxxd.cn:8888/rtp/239.3.1.80:4120
-#EXTINF:-1 group-title="北京联通-组播27",华数精选
+#EXTINF:-1 group-title="北京联通-组播26",华数精选
 http://www.irisxxd.cn:8888/rtp/239.3.1.74:4120
-#EXTINF:-1 group-title="北京联通-组播27",华数武侠剧场
+#EXTINF:-1 group-title="北京联通-组播26",华数武侠剧场
 http://www.irisxxd.cn:8888/rtp/239.3.1.90:4120
-#EXTINF:-1 group-title="北京联通-组播27",IPTV10解密
+#EXTINF:-1 group-title="北京联通-组播26",IPTV10解密
 http://www.irisxxd.cn:8888/rtp/239.3.1.75:4120
-#EXTINF:-1 group-title="北京联通-组播27",IPTV11戏曲
+#EXTINF:-1 group-title="北京联通-组播26",IPTV11戏曲
 http://www.irisxxd.cn:8888/rtp/239.3.1.78:4120
-#EXTINF:-1 group-title="北京联通-组播27",IPTV14早教
+#EXTINF:-1 group-title="北京联通-组播26",IPTV14早教
 http://www.irisxxd.cn:8888/rtp/239.3.1.79:4120
-#EXTINF:-1 group-title="北京联通-组播27",IPTV15音乐现场
+#EXTINF:-1 group-title="北京联通-组播26",IPTV15音乐现场
 http://www.irisxxd.cn:8888/rtp/239.3.1.70:4120
-#EXTINF:-1 group-title="北京联通-组播27",IPTV3＋
+#EXTINF:-1 group-title="北京联通-组播26",IPTV3＋
 http://www.irisxxd.cn:8888/rtp/239.3.1.198:9004
-#EXTINF:-1 group-title="北京联通-组播27",IPTV5＋
+#EXTINF:-1 group-title="北京联通-组播26",IPTV5＋
 http://www.irisxxd.cn:8888/rtp/239.3.1.200:9008
-#EXTINF:-1 group-title="北京联通-组播27",IPTV5＋
+#EXTINF:-1 group-title="北京联通-组播26",IPTV5＋
 http://www.irisxxd.cn:8888/rtp/239.3.1.237:4120
-#EXTINF:-1 group-title="北京联通-组播27",IPTV6＋
+#EXTINF:-1 group-title="北京联通-组播26",IPTV6＋
 http://www.irisxxd.cn:8888/rtp/239.3.1.197:9016
-#EXTINF:-1 group-title="北京联通-组播27",IPTV7军事
+#EXTINF:-1 group-title="北京联通-组播26",IPTV7军事
 http://www.irisxxd.cn:8888/rtp/239.3.1.76:4120
-#EXTINF:-1 group-title="北京联通-组播27",IPTV8＋
+#EXTINF:-1 group-title="北京联通-组播26",IPTV8＋
 http://www.irisxxd.cn:8888/rtp/239.3.1.201:8072
-#EXTINF:-1 group-title="北京联通-组播27",IPTV台球
+#EXTINF:-1 group-title="北京联通-组播26",IPTV台球
 http://www.irisxxd.cn:8888/rtp/239.3.1.85:4120
-#EXTINF:-1 group-title="北京联通-组播27",IPTV国学
+#EXTINF:-1 group-title="北京联通-组播26",IPTV国学
 http://www.irisxxd.cn:8888/rtp/239.3.1.77:4120
-#EXTINF:-1 group-title="北京联通-组播27",IPTV地理
+#EXTINF:-1 group-title="北京联通-组播26",IPTV地理
 http://www.irisxxd.cn:8888/rtp/239.3.1.71:4120
-#EXTINF:-1 group-title="北京联通-组播27",IPTV墨宝
+#EXTINF:-1 group-title="北京联通-组播26",IPTV墨宝
 http://www.irisxxd.cn:8888/rtp/239.3.1.83:4120
-#EXTINF:-1 group-title="北京联通-组播27",IPTV好学生
+#EXTINF:-1 group-title="北京联通-组播26",IPTV好学生
 http://www.irisxxd.cn:8888/rtp/239.3.1.81:4120
-#EXTINF:-1 group-title="北京联通-组播27",IPTV收视指南
+#EXTINF:-1 group-title="北京联通-组播26",IPTV收视指南
 http://www.irisxxd.cn:8888/rtp/239.3.1.193:8012
-#EXTINF:-1 group-title="北京联通-组播27",IPTV武术
+#EXTINF:-1 group-title="北京联通-组播26",IPTV武术
 http://www.irisxxd.cn:8888/rtp/239.3.1.87:4120
-#EXTINF:-1 group-title="北京联通-组播27",IPTV爱生活
+#EXTINF:-1 group-title="北京联通-组播26",IPTV爱生活
 http://www.irisxxd.cn:8888/rtp/239.3.1.86:4120
-#EXTINF:-1 group-title="北京联通-组播27",IPTV美人
+#EXTINF:-1 group-title="北京联通-组播26",IPTV美人
 http://www.irisxxd.cn:8888/rtp/239.3.1.73:4120
-#EXTINF:-1 group-title="北京联通-组播27",IPTV美妆
+#EXTINF:-1 group-title="北京联通-组播26",IPTV美妆
 http://www.irisxxd.cn:8888/rtp/239.3.1.72:4120
-#EXTINF:-1 group-title="北京联通-组播27",IPTV足球
+#EXTINF:-1 group-title="北京联通-组播26",IPTV足球
 http://www.irisxxd.cn:8888/rtp/239.3.1.89:4120
-#EXTINF:-1 group-title="北京联通-组播27",IPTV鉴赏
+#EXTINF:-1 group-title="北京联通-组播26",IPTV鉴赏
 http://www.irisxxd.cn:8888/rtp/239.3.1.82:4120
-#EXTINF:-1 group-title="北京联通-组播27",上海动漫秀场
+#EXTINF:-1 group-title="北京联通-组播26",上海动漫秀场
 http://www.irisxxd.cn:8888/rtp/239.3.1.202:8001
-#EXTINF:-1 group-title="北京联通-组播27",上海游戏风云
+#EXTINF:-1 group-title="北京联通-组播26",上海游戏风云
 http://www.irisxxd.cn:8888/rtp/239.3.1.205:8001
-#EXTINF:-1 group-title="北京联通-组播27",上海乐游
+#EXTINF:-1 group-title="北京联通-组播26",上海乐游
 http://www.irisxxd.cn:8888/rtp/239.3.1.207:8001
-#EXTINF:-1 group-title="北京联通-组播27",上海乐游
+#EXTINF:-1 group-title="北京联通-组播26",上海乐游
 http://www.irisxxd.cn:8888/rtp/239.3.1.114:8001
-#EXTINF:-1 group-title="北京联通-组播27",上海法治天地
+#EXTINF:-1 group-title="北京联通-组播26",上海法治天地
 http://www.irisxxd.cn:8888/rtp/239.3.1.204:8001
-#EXTINF:-1 group-title="北京联通-组播27",上海都市剧场
+#EXTINF:-1 group-title="北京联通-组播26",上海都市剧场
 http://www.irisxxd.cn:8888/rtp/239.3.1.203:8001
-#EXTINF:-1 group-title="北京联通-组播27",上海金色学堂
+#EXTINF:-1 group-title="北京联通-组播26",上海金色学堂
 http://www.irisxxd.cn:8888/rtp/239.3.1.208:8001
-#EXTINF:-1 group-title="北京联通-组播27",上海生活时尚
+#EXTINF:-1 group-title="北京联通-组播26",上海生活时尚
 http://www.irisxxd.cn:8888/rtp/239.3.1.206:8001
-#EXTINF:-1 group-title="北京联通-组播27",上海纪实人文
+#EXTINF:-1 group-title="北京联通-组播26",上海纪实人文
 http://www.irisxxd.cn:8888/rtp/239.3.1.212:8060
-#EXTINF:-1 group-title="北京联通-组播27",上海魅力足球
+#EXTINF:-1 group-title="北京联通-组播26",上海魅力足球
 http://www.irisxxd.cn:8888/rtp/239.3.1.201:8001
-#EXTINF:-1 group-title="北京联通-组播27",江苏财富天下
+#EXTINF:-1 group-title="北京联通-组播26",江苏财富天下
 http://www.irisxxd.cn:8888/rtp/239.3.1.53:9136
-#EXTINF:-1 group-title="北京联通-组播27",湖北快乐垂钓
+#EXTINF:-1 group-title="北京联通-组播26",湖北快乐垂钓
 http://www.irisxxd.cn:8888/rtp/239.3.1.164:8001
-#EXTINF:-1 group-title="北京联通-组播27",湖南茶频道
+#EXTINF:-1 group-title="北京联通-组播26",湖南茶频道
 http://www.irisxxd.cn:8888/rtp/239.3.1.165:8001
-#EXTINF:-1 group-title="北京联通-组播27",湖南金鹰纪实
+#EXTINF:-1 group-title="北京联通-组播26",湖南金鹰纪实
 http://www.irisxxd.cn:8888/rtp/239.3.1.58:8156
-#EXTINF:-1 group-title="北京联通-组播27",湖南金鹰卡通
+#EXTINF:-1 group-title="北京联通-组播26",湖南金鹰卡通
 http://www.irisxxd.cn:8888/rtp/239.3.1.51:9252
-#EXTINF:-1 group-title="北京联通-组播27",广东嘉佳卡通
+#EXTINF:-1 group-title="北京联通-组播26",广东嘉佳卡通
 http://www.irisxxd.cn:8888/rtp/239.3.1.147:9268
-#EXTINF:-1 group-title="北京联通-组播27",光影
+#EXTINF:-1 group-title="北京联通-组播26",光影
 http://www.irisxxd.cn:8888/rtp/239.3.1.84:4120
-#EXTINF:-1 group-title="北京联通-组播27",睛彩羽毛球
+#EXTINF:-1 group-title="北京联通-组播26",睛彩羽毛球
 http://www.irisxxd.cn:8888/rtp/239.3.1.127:8001
-#EXTINF:-1 group-title="北京联通-组播27",门头沟电视台
+#EXTINF:-1 group-title="北京联通-组播26",门头沟电视台
 http://www.irisxxd.cn:8888/rtp/239.3.1.59:8001
-#EXTINF:-1 group-title="北京联通-组播27",房山电视台
+#EXTINF:-1 group-title="北京联通-组播26",房山电视台
 http://www.irisxxd.cn:8888/rtp/239.3.1.96:8001
-#EXTINF:-1 group-title="北京联通-组播27",通州融媒
+#EXTINF:-1 group-title="北京联通-组播26",通州融媒
 http://www.irisxxd.cn:8888/rtp/239.3.1.221:8001
-#EXTINF:-1 group-title="北京联通-组播27",平谷融媒[高清]
+#EXTINF:-1 group-title="北京联通-组播26",平谷融媒[高清]
 http://www.irisxxd.cn:8888/rtp/239.3.1.23:8001
-#EXTINF:-1 group-title="北京联通-组播27",密云电视台
+#EXTINF:-1 group-title="北京联通-组播26",密云电视台
 http://www.irisxxd.cn:8888/rtp/239.3.1.154:8001
-#EXTINF:-1 group-title="北京联通-组播27",延庆电视台
+#EXTINF:-1 group-title="北京联通-组播26",延庆电视台
 http://www.irisxxd.cn:8888/rtp/239.3.1.187:8001
-#EXTINF:-1 group-title="北京联通-组播27",朝阳融媒
+#EXTINF:-1 group-title="北京联通-组播26",朝阳融媒
 http://www.irisxxd.cn:8888/rtp/239.3.1.163:8001
-#EXTINF:-1 group-title="北京联通-组播27",广东卫视[超清HDR]
+#EXTINF:-1 group-title="北京联通-组播26",广东卫视[超清HDR]
 http://www.irisxxd.cn:8888/rtp/239.3.1.27:2000
-#EXTINF:-1 group-title="北京联通-组播27",深圳卫视[超清HDR]
+#EXTINF:-1 group-title="北京联通-组播26",深圳卫视[超清HDR]
 http://www.irisxxd.cn:8888/rtp/239.3.1.28:2000
-#EXTINF:-1 group-title="北京联通-组播27",4K测试
+#EXTINF:-1 group-title="北京联通-组播26",4K测试
 http://www.irisxxd.cn:8888/rtp/239.3.1.104:8001
-#EXTINF:-1 group-title="北京联通-组播27",BRTV 8K[8K]
+#EXTINF:-1 group-title="北京联通-组播26",BRTV 8K[8K]
 http://www.irisxxd.cn:8888/rtp/239.3.1.252:8001
-#EXTINF:-1 group-title="北京联通-组播27",BRTV卡酷少儿
+#EXTINF:-1 group-title="北京联通-组播26",BRTV卡酷少儿
 http://www.irisxxd.cn:8888/rtp/239.3.1.120:8000
-#EXTINF:-1 group-title="北京联通-组播27",BRTV卡酷少儿
+#EXTINF:-1 group-title="北京联通-组播26",BRTV卡酷少儿
 http://www.irisxxd.cn:8888/rtp/239.3.1.121:8000
-#EXTINF:-1 group-title="北京联通-组播27",BRTV生活
+#EXTINF:-1 group-title="北京联通-组播26",BRTV生活
 http://www.irisxxd.cn:8888/rtp/239.3.1.118:8000
-#EXTINF:-1 group-title="北京联通-组播27",CCTV16SDR
+#EXTINF:-1 group-title="北京联通-组播26",CCTV16SDR
 http://www.irisxxd.cn:8888/rtp/239.3.1.183:8001
-#EXTINF:-1 group-title="北京联通-组播27",南方卫视
+#EXTINF:-1 group-title="北京联通-组播26",南方卫视
 http://www.irisxxd.cn:8888/rtp/239.3.1.161:8001
-#EXTINF:-1 group-title="北京联通-组播27",总平台测试1
+#EXTINF:-1 group-title="北京联通-组播26",总平台测试1
 http://www.irisxxd.cn:8888/rtp/239.3.1.247:2000
-#EXTINF:-1 group-title="北京联通-组播27",总平台测试2
+#EXTINF:-1 group-title="北京联通-组播26",总平台测试2
 http://www.irisxxd.cn:8888/rtp/239.3.1.248:2000
-#EXTINF:-1 group-title="北京联通-组播27",测试
+#EXTINF:-1 group-title="北京联通-组播26",测试
 http://www.irisxxd.cn:8888/rtp/239.3.1.103:8001
-#EXTINF:-1 group-title="北京联通-组播27",淘剧场
+#EXTINF:-1 group-title="北京联通-组播26",淘剧场
 http://www.irisxxd.cn:8888/rtp/239.3.1.112:8001
-#EXTINF:-1 group-title="北京联通-组播27",淘娱乐
+#EXTINF:-1 group-title="北京联通-组播26",淘娱乐
 http://www.irisxxd.cn:8888/rtp/239.3.1.113:8001
-#EXTINF:-1 group-title="北京联通-组播27",淘电影
+#EXTINF:-1 group-title="北京联通-组播26",淘电影
 http://www.irisxxd.cn:8888/rtp/239.3.1.111:8001
-#EXTINF:-1 group-title="北京联通-组播27",淘精彩
+#EXTINF:-1 group-title="北京联通-组播26",淘精彩
 http://www.irisxxd.cn:8888/rtp/239.3.1.178:8001
-#EXTINF:-1 group-title="北京联通-组播27",熊猫频道
+#EXTINF:-1 group-title="北京联通-组播26",熊猫频道
 http://www.irisxxd.cn:8888/rtp/239.3.1.66:8068
-#EXTINF:-1 group-title="北京联通-组播27",聚鲨环球
+#EXTINF:-1 group-title="北京联通-组播26",聚鲨环球
 http://www.irisxxd.cn:8888/rtp/239.3.1.160:8001
-#EXTINF:-1 group-title="北京联通-组播27",轮播频道5
+#EXTINF:-1 group-title="北京联通-组播26",轮播频道5
 http://www.irisxxd.cn:8888/rtp/239.3.1.253:8001
-#EXTINF:-1 group-title="北京联通-组播27",重温经典[高清]
+#EXTINF:-1 group-title="北京联通-组播26",重温经典[高清]
 http://www.irisxxd.cn:8888/rtp/239.3.1.25:8001
-#EXTINF:-1 group-title="北京联通-组播27",高网频道
+#EXTINF:-1 group-title="北京联通-组播26",高网频道
 http://www.irisxxd.cn:8888/rtp/239.3.1.88:4120
-#EXTINF:-1 group-title="北京联通-组播28",北京卫视
+#EXTINF:-1 group-title="北京联通-组播27",北京卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.241:8000
-#EXTINF:-1 group-title="北京联通-组播28",北京卫视4K
+#EXTINF:-1 group-title="北京联通-组播27",北京卫视4K
 http://aikuai.natnum.top:8099/rtp/239.3.1.139:8001
-#EXTINF:-1 group-title="北京联通-组播28",北京卫视4K
+#EXTINF:-1 group-title="北京联通-组播27",北京卫视4K
 http://aikuai.natnum.top:8099/rtp/239.3.1.140:8001
-#EXTINF:-1 group-title="北京联通-组播28",北京卫视4K
+#EXTINF:-1 group-title="北京联通-组播27",北京卫视4K
 http://aikuai.natnum.top:8099/rtp/239.3.1.22:8001
-#EXTINF:-1 group-title="北京联通-组播28",北京卫视4K（HDR）
+#EXTINF:-1 group-title="北京联通-组播27",北京卫视4K（HDR）
 http://aikuai.natnum.top:8099/rtp/239.3.1.118:8001
-#EXTINF:-1 group-title="北京联通-组播28",北京IPTV4K超清
+#EXTINF:-1 group-title="北京联通-组播27",北京IPTV4K超清
 http://aikuai.natnum.top:8099/rtp/239.3.1.249:8001
-#EXTINF:-1 group-title="北京联通-组播28",北京IPTV淘BABY
+#EXTINF:-1 group-title="北京联通-组播27",北京IPTV淘BABY
 http://aikuai.natnum.top:8099/rtp/239.3.1.238:8001
-#EXTINF:-1 group-title="北京联通-组播28",北京IPTV淘剧场
+#EXTINF:-1 group-title="北京联通-组播27",北京IPTV淘剧场
 http://aikuai.natnum.top:8099/rtp/239.3.1.95:8001
-#EXTINF:-1 group-title="北京联通-组播28",北京IPTV淘娱乐
+#EXTINF:-1 group-title="北京联通-组播27",北京IPTV淘娱乐
 http://aikuai.natnum.top:8099/rtp/239.3.1.100:8001
-#EXTINF:-1 group-title="北京联通-组播28",北京IPTV淘电影
+#EXTINF:-1 group-title="北京联通-组播27",北京IPTV淘电影
 http://aikuai.natnum.top:8099/rtp/239.3.1.250:8001
-#EXTINF:-1 group-title="北京联通-组播28",北京IPTV萌宠TV
+#EXTINF:-1 group-title="北京联通-组播27",北京IPTV萌宠TV
 http://aikuai.natnum.top:8099/rtp/239.3.1.102:8001
-#EXTINF:-1 group-title="北京联通-组播28",北京体育休闲
+#EXTINF:-1 group-title="北京联通-组播27",北京体育休闲
 http://aikuai.natnum.top:8099/rtp/239.3.1.243:8000
-#EXTINF:-1 group-title="北京联通-组播28",北京卡酷少儿
+#EXTINF:-1 group-title="北京联通-组播27",北京卡酷少儿
 http://aikuai.natnum.top:8099/rtp/239.3.1.189:8000
-#EXTINF:-1 group-title="北京联通-组播28",北京国际频道
+#EXTINF:-1 group-title="北京联通-组播27",北京国际频道
 http://aikuai.natnum.top:8099/rtp/239.3.1.235:8000
-#EXTINF:-1 group-title="北京联通-组播28",北京影视频道
+#EXTINF:-1 group-title="北京联通-组播27",北京影视频道
 http://aikuai.natnum.top:8099/rtp/239.3.1.158:8000
-#EXTINF:-1 group-title="北京联通-组播28",北京文艺频道
+#EXTINF:-1 group-title="北京联通-组播27",北京文艺频道
 http://aikuai.natnum.top:8099/rtp/239.3.1.242:8000
-#EXTINF:-1 group-title="北京联通-组播28",北京新闻频道
+#EXTINF:-1 group-title="北京联通-组播27",北京新闻频道
 http://aikuai.natnum.top:8099/rtp/239.3.1.159:8000
-#EXTINF:-1 group-title="北京联通-组播28",北京生活频道
+#EXTINF:-1 group-title="北京联通-组播27",北京生活频道
 http://aikuai.natnum.top:8099/rtp/239.3.1.117:8000
-#EXTINF:-1 group-title="北京联通-组播28",北京纪实科教
+#EXTINF:-1 group-title="北京联通-组播27",北京纪实科教
 http://aikuai.natnum.top:8099/rtp/239.3.1.115:8000
-#EXTINF:-1 group-title="北京联通-组播28",北京财经频道
+#EXTINF:-1 group-title="北京联通-组播27",北京财经频道
 http://aikuai.natnum.top:8099/rtp/239.3.1.116:8000
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-1综合
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-1综合
 http://aikuai.natnum.top:8099/rtp/239.3.1.129:8008
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-2财经
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-2财经
 http://aikuai.natnum.top:8099/rtp/239.3.1.60:8084
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-3综艺
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-3综艺
 http://aikuai.natnum.top:8099/rtp/239.3.1.172:8001
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-4中文国际
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-4中文国际
 http://aikuai.natnum.top:8099/rtp/239.3.1.105:8092
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-4中文国际欧洲
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-4中文国际欧洲
 http://aikuai.natnum.top:8099/rtp/239.3.1.213:4220
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-4中文国际美洲
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-4中文国际美洲
 http://aikuai.natnum.top:8099/rtp/239.3.1.214:4220
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-5体育
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-5体育
 http://aikuai.natnum.top:8099/rtp/239.3.1.173:8001
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-5+体育赛事
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-5+体育赛事
 http://aikuai.natnum.top:8099/rtp/239.3.1.130:8004
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-6电影
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-6电影
 http://aikuai.natnum.top:8099/rtp/239.3.1.174:8001
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-7国防军事
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-7国防军事
 http://aikuai.natnum.top:8099/rtp/239.3.1.61:8104
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-8电视剧
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-8电视剧
 http://aikuai.natnum.top:8099/rtp/239.3.1.175:8001
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-9纪录
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-9纪录
 http://aikuai.natnum.top:8099/rtp/239.3.1.62:8112
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-10科教
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-10科教
 http://aikuai.natnum.top:8099/rtp/239.3.1.63:8116
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-11戏曲
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-11戏曲
 http://aikuai.natnum.top:8099/rtp/239.3.1.152:8120
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-12社会与法
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-12社会与法
 http://aikuai.natnum.top:8099/rtp/239.3.1.64:8124
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-13新闻
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-13新闻
 http://aikuai.natnum.top:8099/rtp/239.3.1.124:8128
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-14少儿
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-14少儿
 http://aikuai.natnum.top:8099/rtp/239.3.1.65:8132
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-15音乐
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-15音乐
 http://aikuai.natnum.top:8099/rtp/239.3.1.153:8136
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-16奥林匹克
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-16奥林匹克
 http://aikuai.natnum.top:8099/rtp/239.3.1.184:8001
-#EXTINF:-1 group-title="北京联通-组播28",CCTV-17农业农村
+#EXTINF:-1 group-title="北京联通-组播27",CCTV-17农业农村
 http://aikuai.natnum.top:8099/rtp/239.3.1.151:8144
-#EXTINF:-1 group-title="北京联通-组播28",CCTV4K(SDR)
+#EXTINF:-1 group-title="北京联通-组播27",CCTV4K(SDR)
 http://aikuai.natnum.top:8099/rtp/239.3.1.244:2000
-#EXTINF:-1 group-title="北京联通-组播28",CCTV4K(SDR)
+#EXTINF:-1 group-title="北京联通-组播27",CCTV4K(SDR)
 http://aikuai.natnum.top:8099/rtp/239.3.1.245:2000
-#EXTINF:-1 group-title="北京联通-组播28",湖南卫视
+#EXTINF:-1 group-title="北京联通-组播27",湖南卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.132:8012
-#EXTINF:-1 group-title="北京联通-组播28",浙江卫视
+#EXTINF:-1 group-title="北京联通-组播27",浙江卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.137:8036
-#EXTINF:-1 group-title="北京联通-组播28",江苏卫视
+#EXTINF:-1 group-title="北京联通-组播27",江苏卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.135:8028
-#EXTINF:-1 group-title="北京联通-组播28",东方卫视
+#EXTINF:-1 group-title="北京联通-组播27",东方卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.136:8032
-#EXTINF:-1 group-title="北京联通-组播28",安徽卫视
+#EXTINF:-1 group-title="北京联通-组播27",安徽卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.211:8064
-#EXTINF:-1 group-title="北京联通-组播28",广东卫视
+#EXTINF:-1 group-title="北京联通-组播27",广东卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.142:8048
-#EXTINF:-1 group-title="北京联通-组播28",深圳卫视
+#EXTINF:-1 group-title="北京联通-组播27",深圳卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.134:8020
-#EXTINF:-1 group-title="北京联通-组播28",辽宁卫视
+#EXTINF:-1 group-title="北京联通-组播27",辽宁卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.210:8056
-#EXTINF:-1 group-title="北京联通-组播28",山东卫视
+#EXTINF:-1 group-title="北京联通-组播27",山东卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.209:8052
-#EXTINF:-1 group-title="北京联通-组播28",山东教育卫视
+#EXTINF:-1 group-title="北京联通-组播27",山东教育卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.52:4120
-#EXTINF:-1 group-title="北京联通-组播28",天津卫视
+#EXTINF:-1 group-title="北京联通-组播27",天津卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.141:1234
-#EXTINF:-1 group-title="北京联通-组播28",重庆卫视
+#EXTINF:-1 group-title="北京联通-组播27",重庆卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.122:8160
-#EXTINF:-1 group-title="北京联通-组播28",东南卫视
+#EXTINF:-1 group-title="北京联通-组播27",东南卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.156:8148
-#EXTINF:-1 group-title="北京联通-组播28",河北卫视
+#EXTINF:-1 group-title="北京联通-组播27",河北卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.148:8072
-#EXTINF:-1 group-title="北京联通-组播28",河南卫视
+#EXTINF:-1 group-title="北京联通-组播27",河南卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.27:8128
-#EXTINF:-1 group-title="北京联通-组播28",河南卫视
+#EXTINF:-1 group-title="北京联通-组播27",河南卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.50:8184
-#EXTINF:-1 group-title="北京联通-组播28",湖北卫视
+#EXTINF:-1 group-title="北京联通-组播27",湖北卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.138:8044
-#EXTINF:-1 group-title="北京联通-组播28",陕西卫视
+#EXTINF:-1 group-title="北京联通-组播27",陕西卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.41:8140
-#EXTINF:-1 group-title="北京联通-组播28",四川卫视
+#EXTINF:-1 group-title="北京联通-组播27",四川卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.29:8288
-#EXTINF:-1 group-title="北京联通-组播28",海南卫视
+#EXTINF:-1 group-title="北京联通-组播27",海南卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.45:8304
-#EXTINF:-1 group-title="北京联通-组播28",甘肃卫视
+#EXTINF:-1 group-title="北京联通-组播27",甘肃卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.201:8180
-#EXTINF:-1 group-title="北京联通-组播28",甘肃卫视
+#EXTINF:-1 group-title="北京联通-组播27",甘肃卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.49:8188
-#EXTINF:-1 group-title="北京联通-组播28",广西卫视
+#EXTINF:-1 group-title="北京联通-组播27",广西卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.39:8300
-#EXTINF:-1 group-title="北京联通-组播28",贵州卫视
+#EXTINF:-1 group-title="北京联通-组播27",贵州卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.149:8076
-#EXTINF:-1 group-title="北京联通-组播28",黑龙江卫视
+#EXTINF:-1 group-title="北京联通-组播27",黑龙江卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.133:8016
-#EXTINF:-1 group-title="北京联通-组播28",江西卫视
+#EXTINF:-1 group-title="北京联通-组播27",江西卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.123:8164
-#EXTINF:-1 group-title="北京联通-组播28",吉林卫视
+#EXTINF:-1 group-title="北京联通-组播27",吉林卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.240:8172
-#EXTINF:-1 group-title="北京联通-组播28",内蒙古卫视
+#EXTINF:-1 group-title="北京联通-组播27",内蒙古卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.43:8176
-#EXTINF:-1 group-title="北京联通-组播28",宁夏卫视
+#EXTINF:-1 group-title="北京联通-组播27",宁夏卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.169:8212
-#EXTINF:-1 group-title="北京联通-组播28",宁夏卫视
+#EXTINF:-1 group-title="北京联通-组播27",宁夏卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.46:8124
-#EXTINF:-1 group-title="北京联通-组播28",山西卫视
+#EXTINF:-1 group-title="北京联通-组播27",山西卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.42:8172
-#EXTINF:-1 group-title="北京联通-组播28",新疆卫视
+#EXTINF:-1 group-title="北京联通-组播27",新疆卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.167:8192
-#EXTINF:-1 group-title="北京联通-组播28",新疆卫视
+#EXTINF:-1 group-title="北京联通-组播27",新疆卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.48:8160
-#EXTINF:-1 group-title="北京联通-组播28",云南卫视
+#EXTINF:-1 group-title="北京联通-组播27",云南卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.26:8108
-#EXTINF:-1 group-title="北京联通-组播28",青海卫视
+#EXTINF:-1 group-title="北京联通-组播27",青海卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.44:8184
-#EXTINF:-1 group-title="北京联通-组播28",西藏卫视
+#EXTINF:-1 group-title="北京联通-组播27",西藏卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.166:8188
-#EXTINF:-1 group-title="北京联通-组播28",西藏卫视
+#EXTINF:-1 group-title="北京联通-组播27",西藏卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.47:8164
-#EXTINF:-1 group-title="北京联通-组播28",兵团卫视
+#EXTINF:-1 group-title="北京联通-组播27",兵团卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.144:4120
-#EXTINF:-1 group-title="北京联通-组播28",兵团卫视
+#EXTINF:-1 group-title="北京联通-组播27",兵团卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.168:8196
-#EXTINF:-1 group-title="北京联通-组播28",三沙卫视
+#EXTINF:-1 group-title="北京联通-组播27",三沙卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.155:4120
-#EXTINF:-1 group-title="北京联通-组播28",厦门卫视
+#EXTINF:-1 group-title="北京联通-组播27",厦门卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.143:4120
-#EXTINF:-1 group-title="北京联通-组播28",湖南卫视4K
+#EXTINF:-1 group-title="北京联通-组播27",湖南卫视4K
 http://aikuai.natnum.top:8099/rtp/239.3.1.112:3002
-#EXTINF:-1 group-title="北京联通-组播28",浙江卫视4K
+#EXTINF:-1 group-title="北京联通-组播27",浙江卫视4K
 http://aikuai.natnum.top:8099/rtp/239.3.1.114:3004
-#EXTINF:-1 group-title="北京联通-组播28",江苏卫视4K
+#EXTINF:-1 group-title="北京联通-组播27",江苏卫视4K
 http://aikuai.natnum.top:8099/rtp/239.3.1.113:3003
-#EXTINF:-1 group-title="北京联通-组播28",东方卫视4K
+#EXTINF:-1 group-title="北京联通-组播27",东方卫视4K
 http://aikuai.natnum.top:8099/rtp/239.3.1.119:3006
-#EXTINF:-1 group-title="北京联通-组播28",广东卫视4K
+#EXTINF:-1 group-title="北京联通-组播27",广东卫视4K
 http://aikuai.natnum.top:8099/rtp/239.3.1.203:2000
-#EXTINF:-1 group-title="北京联通-组播28",深圳卫视4K
+#EXTINF:-1 group-title="北京联通-组播27",深圳卫视4K
 http://aikuai.natnum.top:8099/rtp/239.3.1.202:2000
-#EXTINF:-1 group-title="北京联通-组播28",山东卫视4K
+#EXTINF:-1 group-title="北京联通-组播27",山东卫视4K
 http://aikuai.natnum.top:8099/rtp/239.3.1.144:3005
-#EXTINF:-1 group-title="北京联通-组播28",四川卫视4K
+#EXTINF:-1 group-title="北京联通-组播27",四川卫视4K
 http://aikuai.natnum.top:8099/rtp/239.3.1.131:3001
-#EXTINF:-1 group-title="北京联通-组播28",CGTN英语
+#EXTINF:-1 group-title="北京联通-组播27",CGTN英语
 http://aikuai.natnum.top:8099/rtp/239.3.1.215:4220
-#EXTINF:-1 group-title="北京联通-组播28",CGTN西班牙语
+#EXTINF:-1 group-title="北京联通-组播27",CGTN西班牙语
 http://aikuai.natnum.top:8099/rtp/239.3.1.217:4220
-#EXTINF:-1 group-title="北京联通-组播28",CGTN法语
+#EXTINF:-1 group-title="北京联通-组播27",CGTN法语
 http://aikuai.natnum.top:8099/rtp/239.3.1.218:4220
-#EXTINF:-1 group-title="北京联通-组播28",CGTN阿拉伯语
+#EXTINF:-1 group-title="北京联通-组播27",CGTN阿拉伯语
 http://aikuai.natnum.top:8099/rtp/239.3.1.219:4220
-#EXTINF:-1 group-title="北京联通-组播28",CGTN俄语
+#EXTINF:-1 group-title="北京联通-组播27",CGTN俄语
 http://aikuai.natnum.top:8099/rtp/239.3.1.220:4220
-#EXTINF:-1 group-title="北京联通-组播28",CGTN纪录
+#EXTINF:-1 group-title="北京联通-组播27",CGTN纪录
 http://aikuai.natnum.top:8099/rtp/239.3.1.216:4220
-#EXTINF:-1 group-title="北京联通-组播28",CETV-1综合教育
+#EXTINF:-1 group-title="北京联通-组播27",CETV-1综合教育
 http://aikuai.natnum.top:8099/rtp/239.3.1.57:8152
-#EXTINF:-1 group-title="北京联通-组播28",CETV-2空中课堂
+#EXTINF:-1 group-title="北京联通-组播27",CETV-2空中课堂
 http://aikuai.natnum.top:8099/rtp/239.3.1.54:4120
-#EXTINF:-1 group-title="北京联通-组播28",CETV-3北京科教
+#EXTINF:-1 group-title="北京联通-组播27",CETV-3北京科教
 http://aikuai.natnum.top:8099/rtp/239.3.1.55:4120
-#EXTINF:-1 group-title="北京联通-组播28",CETV-4职业教育
+#EXTINF:-1 group-title="北京联通-组播27",CETV-4职业教育
 http://aikuai.natnum.top:8099/rtp/239.3.1.56:4120
-#EXTINF:-1 group-title="北京联通-组播28",中国交通
+#EXTINF:-1 group-title="北京联通-组播27",中国交通
 http://aikuai.natnum.top:8099/rtp/239.3.1.188:8001
-#EXTINF:-1 group-title="北京联通-组播28",体育赛事
+#EXTINF:-1 group-title="北京联通-组播27",体育赛事
 http://aikuai.natnum.top:8099/rtp/239.3.1.157:8176
-#EXTINF:-1 group-title="北京联通-组播28",睛彩竞技
+#EXTINF:-1 group-title="北京联通-组播27",睛彩竞技
 http://aikuai.natnum.top:8099/rtp/239.3.1.125:8001
-#EXTINF:-1 group-title="北京联通-组播28",睛彩广场舞
+#EXTINF:-1 group-title="北京联通-组播27",睛彩广场舞
 http://aikuai.natnum.top:8099/rtp/239.3.1.128:8001
-#EXTINF:-1 group-title="北京联通-组播28",睛彩篮球
+#EXTINF:-1 group-title="北京联通-组播27",睛彩篮球
 http://aikuai.natnum.top:8099/rtp/239.3.1.126:8001
-#EXTINF:-1 group-title="北京联通-组播28",华数爱上4K电影
+#EXTINF:-1 group-title="北京联通-组播27",华数爱上4K电影
 http://aikuai.natnum.top:8099/rtp/239.3.1.236:2000
-#EXTINF:-1 group-title="北京联通-组播28",华数经典电影
+#EXTINF:-1 group-title="北京联通-组播27",华数经典电影
 http://aikuai.natnum.top:8099/rtp/239.3.1.195:9024
-#EXTINF:-1 group-title="北京联通-组播28",华数动作影院
+#EXTINF:-1 group-title="北京联通-组播27",华数动作影院
 http://aikuai.natnum.top:8099/rtp/239.3.1.92:4120
-#EXTINF:-1 group-title="北京联通-组播28",华数喜剧影院
+#EXTINF:-1 group-title="北京联通-组播27",华数喜剧影院
 http://aikuai.natnum.top:8099/rtp/239.3.1.91:4120
-#EXTINF:-1 group-title="北京联通-组播28",华数家庭影院
+#EXTINF:-1 group-title="北京联通-组播27",华数家庭影院
 http://aikuai.natnum.top:8099/rtp/239.3.1.93:4120
-#EXTINF:-1 group-title="北京联通-组播28",华数星影
+#EXTINF:-1 group-title="北京联通-组播27",华数星影
 http://aikuai.natnum.top:8099/rtp/239.3.1.94:4120
-#EXTINF:-1 group-title="北京联通-组播28",华数热播剧场
+#EXTINF:-1 group-title="北京联通-组播27",华数热播剧场
 http://aikuai.natnum.top:8099/rtp/239.3.1.194:9020
-#EXTINF:-1 group-title="北京联通-组播28",华数古装剧场
+#EXTINF:-1 group-title="北京联通-组播27",华数古装剧场
 http://aikuai.natnum.top:8099/rtp/239.3.1.69:4120
-#EXTINF:-1 group-title="北京联通-组播28",华数城市剧场
+#EXTINF:-1 group-title="北京联通-组播27",华数城市剧场
 http://aikuai.natnum.top:8099/rtp/239.3.1.67:4120
-#EXTINF:-1 group-title="北京联通-组播28",华数军旅剧场
+#EXTINF:-1 group-title="北京联通-组播27",华数军旅剧场
 http://aikuai.natnum.top:8099/rtp/239.3.1.68:4120
-#EXTINF:-1 group-title="北京联通-组播28",华数魅力时尚
+#EXTINF:-1 group-title="北京联通-组播27",华数魅力时尚
 http://aikuai.natnum.top:8099/rtp/239.3.1.196:9012
-#EXTINF:-1 group-title="北京联通-组播28",华数少儿动画
+#EXTINF:-1 group-title="北京联通-组播27",华数少儿动画
 http://aikuai.natnum.top:8099/rtp/239.3.1.199:9000
-#EXTINF:-1 group-title="北京联通-组播28",华数动画
+#EXTINF:-1 group-title="北京联通-组播27",华数动画
 http://aikuai.natnum.top:8099/rtp/239.3.1.80:4120
-#EXTINF:-1 group-title="北京联通-组播28",华数精选
+#EXTINF:-1 group-title="北京联通-组播27",华数精选
 http://aikuai.natnum.top:8099/rtp/239.3.1.74:4120
-#EXTINF:-1 group-title="北京联通-组播28",华数武侠剧场
+#EXTINF:-1 group-title="北京联通-组播27",华数武侠剧场
 http://aikuai.natnum.top:8099/rtp/239.3.1.90:4120
-#EXTINF:-1 group-title="北京联通-组播28",IPTV10解密
+#EXTINF:-1 group-title="北京联通-组播27",IPTV10解密
 http://aikuai.natnum.top:8099/rtp/239.3.1.75:4120
-#EXTINF:-1 group-title="北京联通-组播28",IPTV11戏曲
+#EXTINF:-1 group-title="北京联通-组播27",IPTV11戏曲
 http://aikuai.natnum.top:8099/rtp/239.3.1.78:4120
-#EXTINF:-1 group-title="北京联通-组播28",IPTV14早教
+#EXTINF:-1 group-title="北京联通-组播27",IPTV14早教
 http://aikuai.natnum.top:8099/rtp/239.3.1.79:4120
-#EXTINF:-1 group-title="北京联通-组播28",IPTV15音乐现场
+#EXTINF:-1 group-title="北京联通-组播27",IPTV15音乐现场
 http://aikuai.natnum.top:8099/rtp/239.3.1.70:4120
-#EXTINF:-1 group-title="北京联通-组播28",IPTV3＋
+#EXTINF:-1 group-title="北京联通-组播27",IPTV3＋
 http://aikuai.natnum.top:8099/rtp/239.3.1.198:9004
-#EXTINF:-1 group-title="北京联通-组播28",IPTV5＋
+#EXTINF:-1 group-title="北京联通-组播27",IPTV5＋
 http://aikuai.natnum.top:8099/rtp/239.3.1.200:9008
-#EXTINF:-1 group-title="北京联通-组播28",IPTV5＋
+#EXTINF:-1 group-title="北京联通-组播27",IPTV5＋
 http://aikuai.natnum.top:8099/rtp/239.3.1.237:4120
-#EXTINF:-1 group-title="北京联通-组播28",IPTV6＋
+#EXTINF:-1 group-title="北京联通-组播27",IPTV6＋
 http://aikuai.natnum.top:8099/rtp/239.3.1.197:9016
-#EXTINF:-1 group-title="北京联通-组播28",IPTV7军事
+#EXTINF:-1 group-title="北京联通-组播27",IPTV7军事
 http://aikuai.natnum.top:8099/rtp/239.3.1.76:4120
-#EXTINF:-1 group-title="北京联通-组播28",IPTV8＋
+#EXTINF:-1 group-title="北京联通-组播27",IPTV8＋
 http://aikuai.natnum.top:8099/rtp/239.3.1.201:8072
-#EXTINF:-1 group-title="北京联通-组播28",IPTV台球
+#EXTINF:-1 group-title="北京联通-组播27",IPTV台球
 http://aikuai.natnum.top:8099/rtp/239.3.1.85:4120
-#EXTINF:-1 group-title="北京联通-组播28",IPTV国学
+#EXTINF:-1 group-title="北京联通-组播27",IPTV国学
 http://aikuai.natnum.top:8099/rtp/239.3.1.77:4120
-#EXTINF:-1 group-title="北京联通-组播28",IPTV地理
+#EXTINF:-1 group-title="北京联通-组播27",IPTV地理
 http://aikuai.natnum.top:8099/rtp/239.3.1.71:4120
-#EXTINF:-1 group-title="北京联通-组播28",IPTV墨宝
+#EXTINF:-1 group-title="北京联通-组播27",IPTV墨宝
 http://aikuai.natnum.top:8099/rtp/239.3.1.83:4120
-#EXTINF:-1 group-title="北京联通-组播28",IPTV好学生
+#EXTINF:-1 group-title="北京联通-组播27",IPTV好学生
 http://aikuai.natnum.top:8099/rtp/239.3.1.81:4120
-#EXTINF:-1 group-title="北京联通-组播28",IPTV收视指南
+#EXTINF:-1 group-title="北京联通-组播27",IPTV收视指南
 http://aikuai.natnum.top:8099/rtp/239.3.1.193:8012
-#EXTINF:-1 group-title="北京联通-组播28",IPTV武术
+#EXTINF:-1 group-title="北京联通-组播27",IPTV武术
 http://aikuai.natnum.top:8099/rtp/239.3.1.87:4120
-#EXTINF:-1 group-title="北京联通-组播28",IPTV爱生活
+#EXTINF:-1 group-title="北京联通-组播27",IPTV爱生活
 http://aikuai.natnum.top:8099/rtp/239.3.1.86:4120
-#EXTINF:-1 group-title="北京联通-组播28",IPTV美人
+#EXTINF:-1 group-title="北京联通-组播27",IPTV美人
 http://aikuai.natnum.top:8099/rtp/239.3.1.73:4120
-#EXTINF:-1 group-title="北京联通-组播28",IPTV美妆
+#EXTINF:-1 group-title="北京联通-组播27",IPTV美妆
 http://aikuai.natnum.top:8099/rtp/239.3.1.72:4120
-#EXTINF:-1 group-title="北京联通-组播28",IPTV足球
+#EXTINF:-1 group-title="北京联通-组播27",IPTV足球
 http://aikuai.natnum.top:8099/rtp/239.3.1.89:4120
-#EXTINF:-1 group-title="北京联通-组播28",IPTV鉴赏
+#EXTINF:-1 group-title="北京联通-组播27",IPTV鉴赏
 http://aikuai.natnum.top:8099/rtp/239.3.1.82:4120
-#EXTINF:-1 group-title="北京联通-组播28",上海动漫秀场
+#EXTINF:-1 group-title="北京联通-组播27",上海动漫秀场
 http://aikuai.natnum.top:8099/rtp/239.3.1.202:8001
-#EXTINF:-1 group-title="北京联通-组播28",上海游戏风云
+#EXTINF:-1 group-title="北京联通-组播27",上海游戏风云
 http://aikuai.natnum.top:8099/rtp/239.3.1.205:8001
-#EXTINF:-1 group-title="北京联通-组播28",上海乐游
+#EXTINF:-1 group-title="北京联通-组播27",上海乐游
 http://aikuai.natnum.top:8099/rtp/239.3.1.207:8001
-#EXTINF:-1 group-title="北京联通-组播28",上海乐游
+#EXTINF:-1 group-title="北京联通-组播27",上海乐游
 http://aikuai.natnum.top:8099/rtp/239.3.1.114:8001
-#EXTINF:-1 group-title="北京联通-组播28",上海法治天地
+#EXTINF:-1 group-title="北京联通-组播27",上海法治天地
 http://aikuai.natnum.top:8099/rtp/239.3.1.204:8001
-#EXTINF:-1 group-title="北京联通-组播28",上海都市剧场
+#EXTINF:-1 group-title="北京联通-组播27",上海都市剧场
 http://aikuai.natnum.top:8099/rtp/239.3.1.203:8001
-#EXTINF:-1 group-title="北京联通-组播28",上海金色学堂
+#EXTINF:-1 group-title="北京联通-组播27",上海金色学堂
 http://aikuai.natnum.top:8099/rtp/239.3.1.208:8001
-#EXTINF:-1 group-title="北京联通-组播28",上海生活时尚
+#EXTINF:-1 group-title="北京联通-组播27",上海生活时尚
 http://aikuai.natnum.top:8099/rtp/239.3.1.206:8001
-#EXTINF:-1 group-title="北京联通-组播28",上海纪实人文
+#EXTINF:-1 group-title="北京联通-组播27",上海纪实人文
 http://aikuai.natnum.top:8099/rtp/239.3.1.212:8060
-#EXTINF:-1 group-title="北京联通-组播28",上海魅力足球
+#EXTINF:-1 group-title="北京联通-组播27",上海魅力足球
 http://aikuai.natnum.top:8099/rtp/239.3.1.201:8001
-#EXTINF:-1 group-title="北京联通-组播28",江苏财富天下
+#EXTINF:-1 group-title="北京联通-组播27",江苏财富天下
 http://aikuai.natnum.top:8099/rtp/239.3.1.53:9136
-#EXTINF:-1 group-title="北京联通-组播28",湖北快乐垂钓
+#EXTINF:-1 group-title="北京联通-组播27",湖北快乐垂钓
 http://aikuai.natnum.top:8099/rtp/239.3.1.164:8001
-#EXTINF:-1 group-title="北京联通-组播28",湖南茶频道
+#EXTINF:-1 group-title="北京联通-组播27",湖南茶频道
 http://aikuai.natnum.top:8099/rtp/239.3.1.165:8001
-#EXTINF:-1 group-title="北京联通-组播28",湖南金鹰纪实
+#EXTINF:-1 group-title="北京联通-组播27",湖南金鹰纪实
 http://aikuai.natnum.top:8099/rtp/239.3.1.58:8156
-#EXTINF:-1 group-title="北京联通-组播28",湖南金鹰卡通
+#EXTINF:-1 group-title="北京联通-组播27",湖南金鹰卡通
 http://aikuai.natnum.top:8099/rtp/239.3.1.51:9252
-#EXTINF:-1 group-title="北京联通-组播28",广东嘉佳卡通
+#EXTINF:-1 group-title="北京联通-组播27",广东嘉佳卡通
 http://aikuai.natnum.top:8099/rtp/239.3.1.147:9268
-#EXTINF:-1 group-title="北京联通-组播28",光影
+#EXTINF:-1 group-title="北京联通-组播27",光影
 http://aikuai.natnum.top:8099/rtp/239.3.1.84:4120
-#EXTINF:-1 group-title="北京联通-组播28",睛彩羽毛球
+#EXTINF:-1 group-title="北京联通-组播27",睛彩羽毛球
 http://aikuai.natnum.top:8099/rtp/239.3.1.127:8001
-#EXTINF:-1 group-title="北京联通-组播28",门头沟电视台
+#EXTINF:-1 group-title="北京联通-组播27",门头沟电视台
 http://aikuai.natnum.top:8099/rtp/239.3.1.59:8001
-#EXTINF:-1 group-title="北京联通-组播28",房山电视台
+#EXTINF:-1 group-title="北京联通-组播27",房山电视台
 http://aikuai.natnum.top:8099/rtp/239.3.1.96:8001
-#EXTINF:-1 group-title="北京联通-组播28",通州融媒
+#EXTINF:-1 group-title="北京联通-组播27",通州融媒
 http://aikuai.natnum.top:8099/rtp/239.3.1.221:8001
-#EXTINF:-1 group-title="北京联通-组播28",平谷融媒[高清]
+#EXTINF:-1 group-title="北京联通-组播27",平谷融媒[高清]
 http://aikuai.natnum.top:8099/rtp/239.3.1.23:8001
-#EXTINF:-1 group-title="北京联通-组播28",密云电视台
+#EXTINF:-1 group-title="北京联通-组播27",密云电视台
 http://aikuai.natnum.top:8099/rtp/239.3.1.154:8001
-#EXTINF:-1 group-title="北京联通-组播28",延庆电视台
+#EXTINF:-1 group-title="北京联通-组播27",延庆电视台
 http://aikuai.natnum.top:8099/rtp/239.3.1.187:8001
-#EXTINF:-1 group-title="北京联通-组播28",朝阳融媒
+#EXTINF:-1 group-title="北京联通-组播27",朝阳融媒
 http://aikuai.natnum.top:8099/rtp/239.3.1.163:8001
-#EXTINF:-1 group-title="北京联通-组播28",广东卫视[超清HDR]
+#EXTINF:-1 group-title="北京联通-组播27",广东卫视[超清HDR]
 http://aikuai.natnum.top:8099/rtp/239.3.1.27:2000
-#EXTINF:-1 group-title="北京联通-组播28",深圳卫视[超清HDR]
+#EXTINF:-1 group-title="北京联通-组播27",深圳卫视[超清HDR]
 http://aikuai.natnum.top:8099/rtp/239.3.1.28:2000
-#EXTINF:-1 group-title="北京联通-组播28",4K测试
+#EXTINF:-1 group-title="北京联通-组播27",4K测试
 http://aikuai.natnum.top:8099/rtp/239.3.1.104:8001
-#EXTINF:-1 group-title="北京联通-组播28",BRTV 8K[8K]
+#EXTINF:-1 group-title="北京联通-组播27",BRTV 8K[8K]
 http://aikuai.natnum.top:8099/rtp/239.3.1.252:8001
-#EXTINF:-1 group-title="北京联通-组播28",BRTV卡酷少儿
+#EXTINF:-1 group-title="北京联通-组播27",BRTV卡酷少儿
 http://aikuai.natnum.top:8099/rtp/239.3.1.120:8000
-#EXTINF:-1 group-title="北京联通-组播28",BRTV卡酷少儿
+#EXTINF:-1 group-title="北京联通-组播27",BRTV卡酷少儿
 http://aikuai.natnum.top:8099/rtp/239.3.1.121:8000
-#EXTINF:-1 group-title="北京联通-组播28",BRTV生活
+#EXTINF:-1 group-title="北京联通-组播27",BRTV生活
 http://aikuai.natnum.top:8099/rtp/239.3.1.118:8000
-#EXTINF:-1 group-title="北京联通-组播28",CCTV16SDR
+#EXTINF:-1 group-title="北京联通-组播27",CCTV16SDR
 http://aikuai.natnum.top:8099/rtp/239.3.1.183:8001
-#EXTINF:-1 group-title="北京联通-组播28",南方卫视
+#EXTINF:-1 group-title="北京联通-组播27",南方卫视
 http://aikuai.natnum.top:8099/rtp/239.3.1.161:8001
-#EXTINF:-1 group-title="北京联通-组播28",总平台测试1
+#EXTINF:-1 group-title="北京联通-组播27",总平台测试1
 http://aikuai.natnum.top:8099/rtp/239.3.1.247:2000
-#EXTINF:-1 group-title="北京联通-组播28",总平台测试2
+#EXTINF:-1 group-title="北京联通-组播27",总平台测试2
 http://aikuai.natnum.top:8099/rtp/239.3.1.248:2000
-#EXTINF:-1 group-title="北京联通-组播28",测试
+#EXTINF:-1 group-title="北京联通-组播27",测试
 http://aikuai.natnum.top:8099/rtp/239.3.1.103:8001
-#EXTINF:-1 group-title="北京联通-组播28",淘剧场
+#EXTINF:-1 group-title="北京联通-组播27",淘剧场
 http://aikuai.natnum.top:8099/rtp/239.3.1.112:8001
-#EXTINF:-1 group-title="北京联通-组播28",淘娱乐
+#EXTINF:-1 group-title="北京联通-组播27",淘娱乐
 http://aikuai.natnum.top:8099/rtp/239.3.1.113:8001
-#EXTINF:-1 group-title="北京联通-组播28",淘电影
+#EXTINF:-1 group-title="北京联通-组播27",淘电影
 http://aikuai.natnum.top:8099/rtp/239.3.1.111:8001
-#EXTINF:-1 group-title="北京联通-组播28",淘精彩
+#EXTINF:-1 group-title="北京联通-组播27",淘精彩
 http://aikuai.natnum.top:8099/rtp/239.3.1.178:8001
-#EXTINF:-1 group-title="北京联通-组播28",熊猫频道
+#EXTINF:-1 group-title="北京联通-组播27",熊猫频道
 http://aikuai.natnum.top:8099/rtp/239.3.1.66:8068
-#EXTINF:-1 group-title="北京联通-组播28",聚鲨环球
+#EXTINF:-1 group-title="北京联通-组播27",聚鲨环球
 http://aikuai.natnum.top:8099/rtp/239.3.1.160:8001
-#EXTINF:-1 group-title="北京联通-组播28",轮播频道5
+#EXTINF:-1 group-title="北京联通-组播27",轮播频道5
 http://aikuai.natnum.top:8099/rtp/239.3.1.253:8001
-#EXTINF:-1 group-title="北京联通-组播28",重温经典[高清]
+#EXTINF:-1 group-title="北京联通-组播27",重温经典[高清]
 http://aikuai.natnum.top:8099/rtp/239.3.1.25:8001
-#EXTINF:-1 group-title="北京联通-组播28",高网频道
+#EXTINF:-1 group-title="北京联通-组播27",高网频道
 http://aikuai.natnum.top:8099/rtp/239.3.1.88:4120
-#EXTINF:-1 group-title="北京联通-组播29",北京卫视
+#EXTINF:-1 group-title="北京联通-组播28",北京卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.241:8000
-#EXTINF:-1 group-title="北京联通-组播29",北京卫视4K
+#EXTINF:-1 group-title="北京联通-组播28",北京卫视4K
 http://happy2015.synology.me:4000/rtp/239.3.1.139:8001
-#EXTINF:-1 group-title="北京联通-组播29",北京卫视4K
+#EXTINF:-1 group-title="北京联通-组播28",北京卫视4K
 http://happy2015.synology.me:4000/rtp/239.3.1.140:8001
-#EXTINF:-1 group-title="北京联通-组播29",北京卫视4K
+#EXTINF:-1 group-title="北京联通-组播28",北京卫视4K
 http://happy2015.synology.me:4000/rtp/239.3.1.22:8001
-#EXTINF:-1 group-title="北京联通-组播29",北京卫视4K（HDR）
+#EXTINF:-1 group-title="北京联通-组播28",北京卫视4K（HDR）
 http://happy2015.synology.me:4000/rtp/239.3.1.118:8001
-#EXTINF:-1 group-title="北京联通-组播29",北京IPTV4K超清
+#EXTINF:-1 group-title="北京联通-组播28",北京IPTV4K超清
 http://happy2015.synology.me:4000/rtp/239.3.1.249:8001
-#EXTINF:-1 group-title="北京联通-组播29",北京IPTV淘BABY
+#EXTINF:-1 group-title="北京联通-组播28",北京IPTV淘BABY
 http://happy2015.synology.me:4000/rtp/239.3.1.238:8001
-#EXTINF:-1 group-title="北京联通-组播29",北京IPTV淘剧场
+#EXTINF:-1 group-title="北京联通-组播28",北京IPTV淘剧场
 http://happy2015.synology.me:4000/rtp/239.3.1.95:8001
-#EXTINF:-1 group-title="北京联通-组播29",北京IPTV淘娱乐
+#EXTINF:-1 group-title="北京联通-组播28",北京IPTV淘娱乐
 http://happy2015.synology.me:4000/rtp/239.3.1.100:8001
-#EXTINF:-1 group-title="北京联通-组播29",北京IPTV淘电影
+#EXTINF:-1 group-title="北京联通-组播28",北京IPTV淘电影
 http://happy2015.synology.me:4000/rtp/239.3.1.250:8001
-#EXTINF:-1 group-title="北京联通-组播29",北京IPTV萌宠TV
+#EXTINF:-1 group-title="北京联通-组播28",北京IPTV萌宠TV
 http://happy2015.synology.me:4000/rtp/239.3.1.102:8001
-#EXTINF:-1 group-title="北京联通-组播29",北京体育休闲
+#EXTINF:-1 group-title="北京联通-组播28",北京体育休闲
 http://happy2015.synology.me:4000/rtp/239.3.1.243:8000
-#EXTINF:-1 group-title="北京联通-组播29",北京卡酷少儿
+#EXTINF:-1 group-title="北京联通-组播28",北京卡酷少儿
 http://happy2015.synology.me:4000/rtp/239.3.1.189:8000
-#EXTINF:-1 group-title="北京联通-组播29",北京国际频道
+#EXTINF:-1 group-title="北京联通-组播28",北京国际频道
 http://happy2015.synology.me:4000/rtp/239.3.1.235:8000
-#EXTINF:-1 group-title="北京联通-组播29",北京影视频道
+#EXTINF:-1 group-title="北京联通-组播28",北京影视频道
 http://happy2015.synology.me:4000/rtp/239.3.1.158:8000
-#EXTINF:-1 group-title="北京联通-组播29",北京文艺频道
+#EXTINF:-1 group-title="北京联通-组播28",北京文艺频道
 http://happy2015.synology.me:4000/rtp/239.3.1.242:8000
-#EXTINF:-1 group-title="北京联通-组播29",北京新闻频道
+#EXTINF:-1 group-title="北京联通-组播28",北京新闻频道
 http://happy2015.synology.me:4000/rtp/239.3.1.159:8000
-#EXTINF:-1 group-title="北京联通-组播29",北京生活频道
+#EXTINF:-1 group-title="北京联通-组播28",北京生活频道
 http://happy2015.synology.me:4000/rtp/239.3.1.117:8000
-#EXTINF:-1 group-title="北京联通-组播29",北京纪实科教
+#EXTINF:-1 group-title="北京联通-组播28",北京纪实科教
 http://happy2015.synology.me:4000/rtp/239.3.1.115:8000
-#EXTINF:-1 group-title="北京联通-组播29",北京财经频道
+#EXTINF:-1 group-title="北京联通-组播28",北京财经频道
 http://happy2015.synology.me:4000/rtp/239.3.1.116:8000
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-1综合
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-1综合
 http://happy2015.synology.me:4000/rtp/239.3.1.129:8008
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-2财经
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-2财经
 http://happy2015.synology.me:4000/rtp/239.3.1.60:8084
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-3综艺
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-3综艺
 http://happy2015.synology.me:4000/rtp/239.3.1.172:8001
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-4中文国际
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-4中文国际
 http://happy2015.synology.me:4000/rtp/239.3.1.105:8092
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-4中文国际欧洲
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-4中文国际欧洲
 http://happy2015.synology.me:4000/rtp/239.3.1.213:4220
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-4中文国际美洲
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-4中文国际美洲
 http://happy2015.synology.me:4000/rtp/239.3.1.214:4220
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-5体育
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-5体育
 http://happy2015.synology.me:4000/rtp/239.3.1.173:8001
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-5+体育赛事
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-5+体育赛事
 http://happy2015.synology.me:4000/rtp/239.3.1.130:8004
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-6电影
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-6电影
 http://happy2015.synology.me:4000/rtp/239.3.1.174:8001
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-7国防军事
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-7国防军事
 http://happy2015.synology.me:4000/rtp/239.3.1.61:8104
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-8电视剧
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-8电视剧
 http://happy2015.synology.me:4000/rtp/239.3.1.175:8001
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-9纪录
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-9纪录
 http://happy2015.synology.me:4000/rtp/239.3.1.62:8112
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-10科教
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-10科教
 http://happy2015.synology.me:4000/rtp/239.3.1.63:8116
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-11戏曲
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-11戏曲
 http://happy2015.synology.me:4000/rtp/239.3.1.152:8120
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-12社会与法
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-12社会与法
 http://happy2015.synology.me:4000/rtp/239.3.1.64:8124
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-13新闻
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-13新闻
 http://happy2015.synology.me:4000/rtp/239.3.1.124:8128
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-14少儿
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-14少儿
 http://happy2015.synology.me:4000/rtp/239.3.1.65:8132
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-15音乐
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-15音乐
 http://happy2015.synology.me:4000/rtp/239.3.1.153:8136
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-16奥林匹克
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-16奥林匹克
 http://happy2015.synology.me:4000/rtp/239.3.1.184:8001
-#EXTINF:-1 group-title="北京联通-组播29",CCTV-17农业农村
+#EXTINF:-1 group-title="北京联通-组播28",CCTV-17农业农村
 http://happy2015.synology.me:4000/rtp/239.3.1.151:8144
-#EXTINF:-1 group-title="北京联通-组播29",CCTV4K(SDR)
+#EXTINF:-1 group-title="北京联通-组播28",CCTV4K(SDR)
 http://happy2015.synology.me:4000/rtp/239.3.1.244:2000
-#EXTINF:-1 group-title="北京联通-组播29",CCTV4K(SDR)
+#EXTINF:-1 group-title="北京联通-组播28",CCTV4K(SDR)
 http://happy2015.synology.me:4000/rtp/239.3.1.245:2000
-#EXTINF:-1 group-title="北京联通-组播29",湖南卫视
+#EXTINF:-1 group-title="北京联通-组播28",湖南卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.132:8012
-#EXTINF:-1 group-title="北京联通-组播29",浙江卫视
+#EXTINF:-1 group-title="北京联通-组播28",浙江卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.137:8036
-#EXTINF:-1 group-title="北京联通-组播29",江苏卫视
+#EXTINF:-1 group-title="北京联通-组播28",江苏卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.135:8028
-#EXTINF:-1 group-title="北京联通-组播29",东方卫视
+#EXTINF:-1 group-title="北京联通-组播28",东方卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.136:8032
-#EXTINF:-1 group-title="北京联通-组播29",安徽卫视
+#EXTINF:-1 group-title="北京联通-组播28",安徽卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.211:8064
-#EXTINF:-1 group-title="北京联通-组播29",广东卫视
+#EXTINF:-1 group-title="北京联通-组播28",广东卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.142:8048
-#EXTINF:-1 group-title="北京联通-组播29",深圳卫视
+#EXTINF:-1 group-title="北京联通-组播28",深圳卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.134:8020
-#EXTINF:-1 group-title="北京联通-组播29",辽宁卫视
+#EXTINF:-1 group-title="北京联通-组播28",辽宁卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.210:8056
-#EXTINF:-1 group-title="北京联通-组播29",山东卫视
+#EXTINF:-1 group-title="北京联通-组播28",山东卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.209:8052
-#EXTINF:-1 group-title="北京联通-组播29",山东教育卫视
+#EXTINF:-1 group-title="北京联通-组播28",山东教育卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.52:4120
-#EXTINF:-1 group-title="北京联通-组播29",天津卫视
+#EXTINF:-1 group-title="北京联通-组播28",天津卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.141:1234
-#EXTINF:-1 group-title="北京联通-组播29",重庆卫视
+#EXTINF:-1 group-title="北京联通-组播28",重庆卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.122:8160
-#EXTINF:-1 group-title="北京联通-组播29",东南卫视
+#EXTINF:-1 group-title="北京联通-组播28",东南卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.156:8148
-#EXTINF:-1 group-title="北京联通-组播29",河北卫视
+#EXTINF:-1 group-title="北京联通-组播28",河北卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.148:8072
-#EXTINF:-1 group-title="北京联通-组播29",河南卫视
+#EXTINF:-1 group-title="北京联通-组播28",河南卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.27:8128
-#EXTINF:-1 group-title="北京联通-组播29",河南卫视
+#EXTINF:-1 group-title="北京联通-组播28",河南卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.50:8184
-#EXTINF:-1 group-title="北京联通-组播29",湖北卫视
+#EXTINF:-1 group-title="北京联通-组播28",湖北卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.138:8044
-#EXTINF:-1 group-title="北京联通-组播29",陕西卫视
+#EXTINF:-1 group-title="北京联通-组播28",陕西卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.41:8140
-#EXTINF:-1 group-title="北京联通-组播29",四川卫视
+#EXTINF:-1 group-title="北京联通-组播28",四川卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.29:8288
-#EXTINF:-1 group-title="北京联通-组播29",海南卫视
+#EXTINF:-1 group-title="北京联通-组播28",海南卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.45:8304
-#EXTINF:-1 group-title="北京联通-组播29",甘肃卫视
+#EXTINF:-1 group-title="北京联通-组播28",甘肃卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.201:8180
-#EXTINF:-1 group-title="北京联通-组播29",甘肃卫视
+#EXTINF:-1 group-title="北京联通-组播28",甘肃卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.49:8188
-#EXTINF:-1 group-title="北京联通-组播29",广西卫视
+#EXTINF:-1 group-title="北京联通-组播28",广西卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.39:8300
-#EXTINF:-1 group-title="北京联通-组播29",贵州卫视
+#EXTINF:-1 group-title="北京联通-组播28",贵州卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.149:8076
-#EXTINF:-1 group-title="北京联通-组播29",黑龙江卫视
+#EXTINF:-1 group-title="北京联通-组播28",黑龙江卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.133:8016
-#EXTINF:-1 group-title="北京联通-组播29",江西卫视
+#EXTINF:-1 group-title="北京联通-组播28",江西卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.123:8164
-#EXTINF:-1 group-title="北京联通-组播29",吉林卫视
+#EXTINF:-1 group-title="北京联通-组播28",吉林卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.240:8172
-#EXTINF:-1 group-title="北京联通-组播29",内蒙古卫视
+#EXTINF:-1 group-title="北京联通-组播28",内蒙古卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.43:8176
-#EXTINF:-1 group-title="北京联通-组播29",宁夏卫视
+#EXTINF:-1 group-title="北京联通-组播28",宁夏卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.169:8212
-#EXTINF:-1 group-title="北京联通-组播29",宁夏卫视
+#EXTINF:-1 group-title="北京联通-组播28",宁夏卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.46:8124
-#EXTINF:-1 group-title="北京联通-组播29",山西卫视
+#EXTINF:-1 group-title="北京联通-组播28",山西卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.42:8172
-#EXTINF:-1 group-title="北京联通-组播29",新疆卫视
+#EXTINF:-1 group-title="北京联通-组播28",新疆卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.167:8192
-#EXTINF:-1 group-title="北京联通-组播29",新疆卫视
+#EXTINF:-1 group-title="北京联通-组播28",新疆卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.48:8160
-#EXTINF:-1 group-title="北京联通-组播29",云南卫视
+#EXTINF:-1 group-title="北京联通-组播28",云南卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.26:8108
-#EXTINF:-1 group-title="北京联通-组播29",青海卫视
+#EXTINF:-1 group-title="北京联通-组播28",青海卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.44:8184
-#EXTINF:-1 group-title="北京联通-组播29",西藏卫视
+#EXTINF:-1 group-title="北京联通-组播28",西藏卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.166:8188
-#EXTINF:-1 group-title="北京联通-组播29",西藏卫视
+#EXTINF:-1 group-title="北京联通-组播28",西藏卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.47:8164
-#EXTINF:-1 group-title="北京联通-组播29",兵团卫视
+#EXTINF:-1 group-title="北京联通-组播28",兵团卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.144:4120
-#EXTINF:-1 group-title="北京联通-组播29",兵团卫视
+#EXTINF:-1 group-title="北京联通-组播28",兵团卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.168:8196
-#EXTINF:-1 group-title="北京联通-组播29",三沙卫视
+#EXTINF:-1 group-title="北京联通-组播28",三沙卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.155:4120
-#EXTINF:-1 group-title="北京联通-组播29",厦门卫视
+#EXTINF:-1 group-title="北京联通-组播28",厦门卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.143:4120
-#EXTINF:-1 group-title="北京联通-组播29",湖南卫视4K
+#EXTINF:-1 group-title="北京联通-组播28",湖南卫视4K
 http://happy2015.synology.me:4000/rtp/239.3.1.112:3002
-#EXTINF:-1 group-title="北京联通-组播29",浙江卫视4K
+#EXTINF:-1 group-title="北京联通-组播28",浙江卫视4K
 http://happy2015.synology.me:4000/rtp/239.3.1.114:3004
-#EXTINF:-1 group-title="北京联通-组播29",江苏卫视4K
+#EXTINF:-1 group-title="北京联通-组播28",江苏卫视4K
 http://happy2015.synology.me:4000/rtp/239.3.1.113:3003
-#EXTINF:-1 group-title="北京联通-组播29",东方卫视4K
+#EXTINF:-1 group-title="北京联通-组播28",东方卫视4K
 http://happy2015.synology.me:4000/rtp/239.3.1.119:3006
-#EXTINF:-1 group-title="北京联通-组播29",广东卫视4K
+#EXTINF:-1 group-title="北京联通-组播28",广东卫视4K
 http://happy2015.synology.me:4000/rtp/239.3.1.203:2000
-#EXTINF:-1 group-title="北京联通-组播29",深圳卫视4K
+#EXTINF:-1 group-title="北京联通-组播28",深圳卫视4K
 http://happy2015.synology.me:4000/rtp/239.3.1.202:2000
-#EXTINF:-1 group-title="北京联通-组播29",山东卫视4K
+#EXTINF:-1 group-title="北京联通-组播28",山东卫视4K
 http://happy2015.synology.me:4000/rtp/239.3.1.144:3005
-#EXTINF:-1 group-title="北京联通-组播29",四川卫视4K
+#EXTINF:-1 group-title="北京联通-组播28",四川卫视4K
 http://happy2015.synology.me:4000/rtp/239.3.1.131:3001
-#EXTINF:-1 group-title="北京联通-组播29",CGTN英语
+#EXTINF:-1 group-title="北京联通-组播28",CGTN英语
 http://happy2015.synology.me:4000/rtp/239.3.1.215:4220
-#EXTINF:-1 group-title="北京联通-组播29",CGTN西班牙语
+#EXTINF:-1 group-title="北京联通-组播28",CGTN西班牙语
 http://happy2015.synology.me:4000/rtp/239.3.1.217:4220
-#EXTINF:-1 group-title="北京联通-组播29",CGTN法语
+#EXTINF:-1 group-title="北京联通-组播28",CGTN法语
 http://happy2015.synology.me:4000/rtp/239.3.1.218:4220
-#EXTINF:-1 group-title="北京联通-组播29",CGTN阿拉伯语
+#EXTINF:-1 group-title="北京联通-组播28",CGTN阿拉伯语
 http://happy2015.synology.me:4000/rtp/239.3.1.219:4220
-#EXTINF:-1 group-title="北京联通-组播29",CGTN俄语
+#EXTINF:-1 group-title="北京联通-组播28",CGTN俄语
 http://happy2015.synology.me:4000/rtp/239.3.1.220:4220
-#EXTINF:-1 group-title="北京联通-组播29",CGTN纪录
+#EXTINF:-1 group-title="北京联通-组播28",CGTN纪录
 http://happy2015.synology.me:4000/rtp/239.3.1.216:4220
-#EXTINF:-1 group-title="北京联通-组播29",CETV-1综合教育
+#EXTINF:-1 group-title="北京联通-组播28",CETV-1综合教育
 http://happy2015.synology.me:4000/rtp/239.3.1.57:8152
-#EXTINF:-1 group-title="北京联通-组播29",CETV-2空中课堂
+#EXTINF:-1 group-title="北京联通-组播28",CETV-2空中课堂
 http://happy2015.synology.me:4000/rtp/239.3.1.54:4120
-#EXTINF:-1 group-title="北京联通-组播29",CETV-3北京科教
+#EXTINF:-1 group-title="北京联通-组播28",CETV-3北京科教
 http://happy2015.synology.me:4000/rtp/239.3.1.55:4120
-#EXTINF:-1 group-title="北京联通-组播29",CETV-4职业教育
+#EXTINF:-1 group-title="北京联通-组播28",CETV-4职业教育
 http://happy2015.synology.me:4000/rtp/239.3.1.56:4120
-#EXTINF:-1 group-title="北京联通-组播29",中国交通
+#EXTINF:-1 group-title="北京联通-组播28",中国交通
 http://happy2015.synology.me:4000/rtp/239.3.1.188:8001
-#EXTINF:-1 group-title="北京联通-组播29",体育赛事
+#EXTINF:-1 group-title="北京联通-组播28",体育赛事
 http://happy2015.synology.me:4000/rtp/239.3.1.157:8176
-#EXTINF:-1 group-title="北京联通-组播29",睛彩竞技
+#EXTINF:-1 group-title="北京联通-组播28",睛彩竞技
 http://happy2015.synology.me:4000/rtp/239.3.1.125:8001
-#EXTINF:-1 group-title="北京联通-组播29",睛彩广场舞
+#EXTINF:-1 group-title="北京联通-组播28",睛彩广场舞
 http://happy2015.synology.me:4000/rtp/239.3.1.128:8001
-#EXTINF:-1 group-title="北京联通-组播29",睛彩篮球
+#EXTINF:-1 group-title="北京联通-组播28",睛彩篮球
 http://happy2015.synology.me:4000/rtp/239.3.1.126:8001
-#EXTINF:-1 group-title="北京联通-组播29",华数爱上4K电影
+#EXTINF:-1 group-title="北京联通-组播28",华数爱上4K电影
 http://happy2015.synology.me:4000/rtp/239.3.1.236:2000
-#EXTINF:-1 group-title="北京联通-组播29",华数经典电影
+#EXTINF:-1 group-title="北京联通-组播28",华数经典电影
 http://happy2015.synology.me:4000/rtp/239.3.1.195:9024
-#EXTINF:-1 group-title="北京联通-组播29",华数动作影院
+#EXTINF:-1 group-title="北京联通-组播28",华数动作影院
 http://happy2015.synology.me:4000/rtp/239.3.1.92:4120
-#EXTINF:-1 group-title="北京联通-组播29",华数喜剧影院
+#EXTINF:-1 group-title="北京联通-组播28",华数喜剧影院
 http://happy2015.synology.me:4000/rtp/239.3.1.91:4120
-#EXTINF:-1 group-title="北京联通-组播29",华数家庭影院
+#EXTINF:-1 group-title="北京联通-组播28",华数家庭影院
 http://happy2015.synology.me:4000/rtp/239.3.1.93:4120
-#EXTINF:-1 group-title="北京联通-组播29",华数星影
+#EXTINF:-1 group-title="北京联通-组播28",华数星影
 http://happy2015.synology.me:4000/rtp/239.3.1.94:4120
-#EXTINF:-1 group-title="北京联通-组播29",华数热播剧场
+#EXTINF:-1 group-title="北京联通-组播28",华数热播剧场
 http://happy2015.synology.me:4000/rtp/239.3.1.194:9020
-#EXTINF:-1 group-title="北京联通-组播29",华数古装剧场
+#EXTINF:-1 group-title="北京联通-组播28",华数古装剧场
 http://happy2015.synology.me:4000/rtp/239.3.1.69:4120
-#EXTINF:-1 group-title="北京联通-组播29",华数城市剧场
+#EXTINF:-1 group-title="北京联通-组播28",华数城市剧场
 http://happy2015.synology.me:4000/rtp/239.3.1.67:4120
-#EXTINF:-1 group-title="北京联通-组播29",华数军旅剧场
+#EXTINF:-1 group-title="北京联通-组播28",华数军旅剧场
 http://happy2015.synology.me:4000/rtp/239.3.1.68:4120
-#EXTINF:-1 group-title="北京联通-组播29",华数魅力时尚
+#EXTINF:-1 group-title="北京联通-组播28",华数魅力时尚
 http://happy2015.synology.me:4000/rtp/239.3.1.196:9012
-#EXTINF:-1 group-title="北京联通-组播29",华数少儿动画
+#EXTINF:-1 group-title="北京联通-组播28",华数少儿动画
 http://happy2015.synology.me:4000/rtp/239.3.1.199:9000
-#EXTINF:-1 group-title="北京联通-组播29",华数动画
+#EXTINF:-1 group-title="北京联通-组播28",华数动画
 http://happy2015.synology.me:4000/rtp/239.3.1.80:4120
-#EXTINF:-1 group-title="北京联通-组播29",华数精选
+#EXTINF:-1 group-title="北京联通-组播28",华数精选
 http://happy2015.synology.me:4000/rtp/239.3.1.74:4120
-#EXTINF:-1 group-title="北京联通-组播29",华数武侠剧场
+#EXTINF:-1 group-title="北京联通-组播28",华数武侠剧场
 http://happy2015.synology.me:4000/rtp/239.3.1.90:4120
-#EXTINF:-1 group-title="北京联通-组播29",IPTV10解密
+#EXTINF:-1 group-title="北京联通-组播28",IPTV10解密
 http://happy2015.synology.me:4000/rtp/239.3.1.75:4120
-#EXTINF:-1 group-title="北京联通-组播29",IPTV11戏曲
+#EXTINF:-1 group-title="北京联通-组播28",IPTV11戏曲
 http://happy2015.synology.me:4000/rtp/239.3.1.78:4120
-#EXTINF:-1 group-title="北京联通-组播29",IPTV14早教
+#EXTINF:-1 group-title="北京联通-组播28",IPTV14早教
 http://happy2015.synology.me:4000/rtp/239.3.1.79:4120
-#EXTINF:-1 group-title="北京联通-组播29",IPTV15音乐现场
+#EXTINF:-1 group-title="北京联通-组播28",IPTV15音乐现场
 http://happy2015.synology.me:4000/rtp/239.3.1.70:4120
-#EXTINF:-1 group-title="北京联通-组播29",IPTV3＋
+#EXTINF:-1 group-title="北京联通-组播28",IPTV3＋
 http://happy2015.synology.me:4000/rtp/239.3.1.198:9004
-#EXTINF:-1 group-title="北京联通-组播29",IPTV5＋
+#EXTINF:-1 group-title="北京联通-组播28",IPTV5＋
 http://happy2015.synology.me:4000/rtp/239.3.1.200:9008
-#EXTINF:-1 group-title="北京联通-组播29",IPTV5＋
+#EXTINF:-1 group-title="北京联通-组播28",IPTV5＋
 http://happy2015.synology.me:4000/rtp/239.3.1.237:4120
-#EXTINF:-1 group-title="北京联通-组播29",IPTV6＋
+#EXTINF:-1 group-title="北京联通-组播28",IPTV6＋
 http://happy2015.synology.me:4000/rtp/239.3.1.197:9016
-#EXTINF:-1 group-title="北京联通-组播29",IPTV7军事
+#EXTINF:-1 group-title="北京联通-组播28",IPTV7军事
 http://happy2015.synology.me:4000/rtp/239.3.1.76:4120
-#EXTINF:-1 group-title="北京联通-组播29",IPTV8＋
+#EXTINF:-1 group-title="北京联通-组播28",IPTV8＋
 http://happy2015.synology.me:4000/rtp/239.3.1.201:8072
-#EXTINF:-1 group-title="北京联通-组播29",IPTV台球
+#EXTINF:-1 group-title="北京联通-组播28",IPTV台球
 http://happy2015.synology.me:4000/rtp/239.3.1.85:4120
-#EXTINF:-1 group-title="北京联通-组播29",IPTV国学
+#EXTINF:-1 group-title="北京联通-组播28",IPTV国学
 http://happy2015.synology.me:4000/rtp/239.3.1.77:4120
-#EXTINF:-1 group-title="北京联通-组播29",IPTV地理
+#EXTINF:-1 group-title="北京联通-组播28",IPTV地理
 http://happy2015.synology.me:4000/rtp/239.3.1.71:4120
-#EXTINF:-1 group-title="北京联通-组播29",IPTV墨宝
+#EXTINF:-1 group-title="北京联通-组播28",IPTV墨宝
 http://happy2015.synology.me:4000/rtp/239.3.1.83:4120
-#EXTINF:-1 group-title="北京联通-组播29",IPTV好学生
+#EXTINF:-1 group-title="北京联通-组播28",IPTV好学生
 http://happy2015.synology.me:4000/rtp/239.3.1.81:4120
-#EXTINF:-1 group-title="北京联通-组播29",IPTV收视指南
+#EXTINF:-1 group-title="北京联通-组播28",IPTV收视指南
 http://happy2015.synology.me:4000/rtp/239.3.1.193:8012
-#EXTINF:-1 group-title="北京联通-组播29",IPTV武术
+#EXTINF:-1 group-title="北京联通-组播28",IPTV武术
 http://happy2015.synology.me:4000/rtp/239.3.1.87:4120
-#EXTINF:-1 group-title="北京联通-组播29",IPTV爱生活
+#EXTINF:-1 group-title="北京联通-组播28",IPTV爱生活
 http://happy2015.synology.me:4000/rtp/239.3.1.86:4120
-#EXTINF:-1 group-title="北京联通-组播29",IPTV美人
+#EXTINF:-1 group-title="北京联通-组播28",IPTV美人
 http://happy2015.synology.me:4000/rtp/239.3.1.73:4120
-#EXTINF:-1 group-title="北京联通-组播29",IPTV美妆
+#EXTINF:-1 group-title="北京联通-组播28",IPTV美妆
 http://happy2015.synology.me:4000/rtp/239.3.1.72:4120
-#EXTINF:-1 group-title="北京联通-组播29",IPTV足球
+#EXTINF:-1 group-title="北京联通-组播28",IPTV足球
 http://happy2015.synology.me:4000/rtp/239.3.1.89:4120
-#EXTINF:-1 group-title="北京联通-组播29",IPTV鉴赏
+#EXTINF:-1 group-title="北京联通-组播28",IPTV鉴赏
 http://happy2015.synology.me:4000/rtp/239.3.1.82:4120
-#EXTINF:-1 group-title="北京联通-组播29",上海动漫秀场
+#EXTINF:-1 group-title="北京联通-组播28",上海动漫秀场
 http://happy2015.synology.me:4000/rtp/239.3.1.202:8001
-#EXTINF:-1 group-title="北京联通-组播29",上海游戏风云
+#EXTINF:-1 group-title="北京联通-组播28",上海游戏风云
 http://happy2015.synology.me:4000/rtp/239.3.1.205:8001
-#EXTINF:-1 group-title="北京联通-组播29",上海乐游
+#EXTINF:-1 group-title="北京联通-组播28",上海乐游
 http://happy2015.synology.me:4000/rtp/239.3.1.207:8001
-#EXTINF:-1 group-title="北京联通-组播29",上海乐游
+#EXTINF:-1 group-title="北京联通-组播28",上海乐游
 http://happy2015.synology.me:4000/rtp/239.3.1.114:8001
-#EXTINF:-1 group-title="北京联通-组播29",上海法治天地
+#EXTINF:-1 group-title="北京联通-组播28",上海法治天地
 http://happy2015.synology.me:4000/rtp/239.3.1.204:8001
-#EXTINF:-1 group-title="北京联通-组播29",上海都市剧场
+#EXTINF:-1 group-title="北京联通-组播28",上海都市剧场
 http://happy2015.synology.me:4000/rtp/239.3.1.203:8001
-#EXTINF:-1 group-title="北京联通-组播29",上海金色学堂
+#EXTINF:-1 group-title="北京联通-组播28",上海金色学堂
 http://happy2015.synology.me:4000/rtp/239.3.1.208:8001
-#EXTINF:-1 group-title="北京联通-组播29",上海生活时尚
+#EXTINF:-1 group-title="北京联通-组播28",上海生活时尚
 http://happy2015.synology.me:4000/rtp/239.3.1.206:8001
-#EXTINF:-1 group-title="北京联通-组播29",上海纪实人文
+#EXTINF:-1 group-title="北京联通-组播28",上海纪实人文
 http://happy2015.synology.me:4000/rtp/239.3.1.212:8060
-#EXTINF:-1 group-title="北京联通-组播29",上海魅力足球
+#EXTINF:-1 group-title="北京联通-组播28",上海魅力足球
 http://happy2015.synology.me:4000/rtp/239.3.1.201:8001
-#EXTINF:-1 group-title="北京联通-组播29",江苏财富天下
+#EXTINF:-1 group-title="北京联通-组播28",江苏财富天下
 http://happy2015.synology.me:4000/rtp/239.3.1.53:9136
-#EXTINF:-1 group-title="北京联通-组播29",湖北快乐垂钓
+#EXTINF:-1 group-title="北京联通-组播28",湖北快乐垂钓
 http://happy2015.synology.me:4000/rtp/239.3.1.164:8001
-#EXTINF:-1 group-title="北京联通-组播29",湖南茶频道
+#EXTINF:-1 group-title="北京联通-组播28",湖南茶频道
 http://happy2015.synology.me:4000/rtp/239.3.1.165:8001
-#EXTINF:-1 group-title="北京联通-组播29",湖南金鹰纪实
+#EXTINF:-1 group-title="北京联通-组播28",湖南金鹰纪实
 http://happy2015.synology.me:4000/rtp/239.3.1.58:8156
-#EXTINF:-1 group-title="北京联通-组播29",湖南金鹰卡通
+#EXTINF:-1 group-title="北京联通-组播28",湖南金鹰卡通
 http://happy2015.synology.me:4000/rtp/239.3.1.51:9252
-#EXTINF:-1 group-title="北京联通-组播29",广东嘉佳卡通
+#EXTINF:-1 group-title="北京联通-组播28",广东嘉佳卡通
 http://happy2015.synology.me:4000/rtp/239.3.1.147:9268
-#EXTINF:-1 group-title="北京联通-组播29",光影
+#EXTINF:-1 group-title="北京联通-组播28",光影
 http://happy2015.synology.me:4000/rtp/239.3.1.84:4120
-#EXTINF:-1 group-title="北京联通-组播29",睛彩羽毛球
+#EXTINF:-1 group-title="北京联通-组播28",睛彩羽毛球
 http://happy2015.synology.me:4000/rtp/239.3.1.127:8001
-#EXTINF:-1 group-title="北京联通-组播29",门头沟电视台
+#EXTINF:-1 group-title="北京联通-组播28",门头沟电视台
 http://happy2015.synology.me:4000/rtp/239.3.1.59:8001
-#EXTINF:-1 group-title="北京联通-组播29",房山电视台
+#EXTINF:-1 group-title="北京联通-组播28",房山电视台
 http://happy2015.synology.me:4000/rtp/239.3.1.96:8001
-#EXTINF:-1 group-title="北京联通-组播29",通州融媒
+#EXTINF:-1 group-title="北京联通-组播28",通州融媒
 http://happy2015.synology.me:4000/rtp/239.3.1.221:8001
-#EXTINF:-1 group-title="北京联通-组播29",平谷融媒[高清]
+#EXTINF:-1 group-title="北京联通-组播28",平谷融媒[高清]
 http://happy2015.synology.me:4000/rtp/239.3.1.23:8001
-#EXTINF:-1 group-title="北京联通-组播29",密云电视台
+#EXTINF:-1 group-title="北京联通-组播28",密云电视台
 http://happy2015.synology.me:4000/rtp/239.3.1.154:8001
-#EXTINF:-1 group-title="北京联通-组播29",延庆电视台
+#EXTINF:-1 group-title="北京联通-组播28",延庆电视台
 http://happy2015.synology.me:4000/rtp/239.3.1.187:8001
-#EXTINF:-1 group-title="北京联通-组播29",朝阳融媒
+#EXTINF:-1 group-title="北京联通-组播28",朝阳融媒
 http://happy2015.synology.me:4000/rtp/239.3.1.163:8001
-#EXTINF:-1 group-title="北京联通-组播29",广东卫视[超清HDR]
+#EXTINF:-1 group-title="北京联通-组播28",广东卫视[超清HDR]
 http://happy2015.synology.me:4000/rtp/239.3.1.27:2000
-#EXTINF:-1 group-title="北京联通-组播29",深圳卫视[超清HDR]
+#EXTINF:-1 group-title="北京联通-组播28",深圳卫视[超清HDR]
 http://happy2015.synology.me:4000/rtp/239.3.1.28:2000
-#EXTINF:-1 group-title="北京联通-组播29",4K测试
+#EXTINF:-1 group-title="北京联通-组播28",4K测试
 http://happy2015.synology.me:4000/rtp/239.3.1.104:8001
-#EXTINF:-1 group-title="北京联通-组播29",BRTV 8K[8K]
+#EXTINF:-1 group-title="北京联通-组播28",BRTV 8K[8K]
 http://happy2015.synology.me:4000/rtp/239.3.1.252:8001
-#EXTINF:-1 group-title="北京联通-组播29",BRTV卡酷少儿
+#EXTINF:-1 group-title="北京联通-组播28",BRTV卡酷少儿
 http://happy2015.synology.me:4000/rtp/239.3.1.120:8000
-#EXTINF:-1 group-title="北京联通-组播29",BRTV卡酷少儿
+#EXTINF:-1 group-title="北京联通-组播28",BRTV卡酷少儿
 http://happy2015.synology.me:4000/rtp/239.3.1.121:8000
-#EXTINF:-1 group-title="北京联通-组播29",BRTV生活
+#EXTINF:-1 group-title="北京联通-组播28",BRTV生活
 http://happy2015.synology.me:4000/rtp/239.3.1.118:8000
-#EXTINF:-1 group-title="北京联通-组播29",CCTV16SDR
+#EXTINF:-1 group-title="北京联通-组播28",CCTV16SDR
 http://happy2015.synology.me:4000/rtp/239.3.1.183:8001
-#EXTINF:-1 group-title="北京联通-组播29",南方卫视
+#EXTINF:-1 group-title="北京联通-组播28",南方卫视
 http://happy2015.synology.me:4000/rtp/239.3.1.161:8001
-#EXTINF:-1 group-title="北京联通-组播29",总平台测试1
+#EXTINF:-1 group-title="北京联通-组播28",总平台测试1
 http://happy2015.synology.me:4000/rtp/239.3.1.247:2000
-#EXTINF:-1 group-title="北京联通-组播29",总平台测试2
+#EXTINF:-1 group-title="北京联通-组播28",总平台测试2
 http://happy2015.synology.me:4000/rtp/239.3.1.248:2000
-#EXTINF:-1 group-title="北京联通-组播29",测试
+#EXTINF:-1 group-title="北京联通-组播28",测试
 http://happy2015.synology.me:4000/rtp/239.3.1.103:8001
-#EXTINF:-1 group-title="北京联通-组播29",淘剧场
+#EXTINF:-1 group-title="北京联通-组播28",淘剧场
 http://happy2015.synology.me:4000/rtp/239.3.1.112:8001
-#EXTINF:-1 group-title="北京联通-组播29",淘娱乐
+#EXTINF:-1 group-title="北京联通-组播28",淘娱乐
 http://happy2015.synology.me:4000/rtp/239.3.1.113:8001
-#EXTINF:-1 group-title="北京联通-组播29",淘电影
+#EXTINF:-1 group-title="北京联通-组播28",淘电影
 http://happy2015.synology.me:4000/rtp/239.3.1.111:8001
-#EXTINF:-1 group-title="北京联通-组播29",淘精彩
+#EXTINF:-1 group-title="北京联通-组播28",淘精彩
 http://happy2015.synology.me:4000/rtp/239.3.1.178:8001
-#EXTINF:-1 group-title="北京联通-组播29",熊猫频道
+#EXTINF:-1 group-title="北京联通-组播28",熊猫频道
 http://happy2015.synology.me:4000/rtp/239.3.1.66:8068
-#EXTINF:-1 group-title="北京联通-组播29",聚鲨环球
+#EXTINF:-1 group-title="北京联通-组播28",聚鲨环球
 http://happy2015.synology.me:4000/rtp/239.3.1.160:8001
-#EXTINF:-1 group-title="北京联通-组播29",轮播频道5
+#EXTINF:-1 group-title="北京联通-组播28",轮播频道5
 http://happy2015.synology.me:4000/rtp/239.3.1.253:8001
-#EXTINF:-1 group-title="北京联通-组播29",重温经典[高清]
+#EXTINF:-1 group-title="北京联通-组播28",重温经典[高清]
 http://happy2015.synology.me:4000/rtp/239.3.1.25:8001
-#EXTINF:-1 group-title="北京联通-组播29",高网频道
+#EXTINF:-1 group-title="北京联通-组播28",高网频道
 http://happy2015.synology.me:4000/rtp/239.3.1.88:4120
-#EXTINF:-1 group-title="北京联通-组播30",北京卫视
+#EXTINF:-1 group-title="北京联通-组播29",北京卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.241:8000
-#EXTINF:-1 group-title="北京联通-组播30",北京卫视4K
+#EXTINF:-1 group-title="北京联通-组播29",北京卫视4K
 http://laiboy.myds.me:58686/rtp/239.3.1.139:8001
-#EXTINF:-1 group-title="北京联通-组播30",北京卫视4K
+#EXTINF:-1 group-title="北京联通-组播29",北京卫视4K
 http://laiboy.myds.me:58686/rtp/239.3.1.140:8001
-#EXTINF:-1 group-title="北京联通-组播30",北京卫视4K
+#EXTINF:-1 group-title="北京联通-组播29",北京卫视4K
 http://laiboy.myds.me:58686/rtp/239.3.1.22:8001
-#EXTINF:-1 group-title="北京联通-组播30",北京卫视4K（HDR）
+#EXTINF:-1 group-title="北京联通-组播29",北京卫视4K（HDR）
 http://laiboy.myds.me:58686/rtp/239.3.1.118:8001
-#EXTINF:-1 group-title="北京联通-组播30",北京IPTV4K超清
+#EXTINF:-1 group-title="北京联通-组播29",北京IPTV4K超清
 http://laiboy.myds.me:58686/rtp/239.3.1.249:8001
-#EXTINF:-1 group-title="北京联通-组播30",北京IPTV淘BABY
+#EXTINF:-1 group-title="北京联通-组播29",北京IPTV淘BABY
 http://laiboy.myds.me:58686/rtp/239.3.1.238:8001
-#EXTINF:-1 group-title="北京联通-组播30",北京IPTV淘剧场
+#EXTINF:-1 group-title="北京联通-组播29",北京IPTV淘剧场
 http://laiboy.myds.me:58686/rtp/239.3.1.95:8001
-#EXTINF:-1 group-title="北京联通-组播30",北京IPTV淘娱乐
+#EXTINF:-1 group-title="北京联通-组播29",北京IPTV淘娱乐
 http://laiboy.myds.me:58686/rtp/239.3.1.100:8001
-#EXTINF:-1 group-title="北京联通-组播30",北京IPTV淘电影
+#EXTINF:-1 group-title="北京联通-组播29",北京IPTV淘电影
 http://laiboy.myds.me:58686/rtp/239.3.1.250:8001
-#EXTINF:-1 group-title="北京联通-组播30",北京IPTV萌宠TV
+#EXTINF:-1 group-title="北京联通-组播29",北京IPTV萌宠TV
 http://laiboy.myds.me:58686/rtp/239.3.1.102:8001
-#EXTINF:-1 group-title="北京联通-组播30",北京体育休闲
+#EXTINF:-1 group-title="北京联通-组播29",北京体育休闲
 http://laiboy.myds.me:58686/rtp/239.3.1.243:8000
-#EXTINF:-1 group-title="北京联通-组播30",北京卡酷少儿
+#EXTINF:-1 group-title="北京联通-组播29",北京卡酷少儿
 http://laiboy.myds.me:58686/rtp/239.3.1.189:8000
-#EXTINF:-1 group-title="北京联通-组播30",北京国际频道
+#EXTINF:-1 group-title="北京联通-组播29",北京国际频道
 http://laiboy.myds.me:58686/rtp/239.3.1.235:8000
-#EXTINF:-1 group-title="北京联通-组播30",北京影视频道
+#EXTINF:-1 group-title="北京联通-组播29",北京影视频道
 http://laiboy.myds.me:58686/rtp/239.3.1.158:8000
-#EXTINF:-1 group-title="北京联通-组播30",北京文艺频道
+#EXTINF:-1 group-title="北京联通-组播29",北京文艺频道
 http://laiboy.myds.me:58686/rtp/239.3.1.242:8000
-#EXTINF:-1 group-title="北京联通-组播30",北京新闻频道
+#EXTINF:-1 group-title="北京联通-组播29",北京新闻频道
 http://laiboy.myds.me:58686/rtp/239.3.1.159:8000
-#EXTINF:-1 group-title="北京联通-组播30",北京生活频道
+#EXTINF:-1 group-title="北京联通-组播29",北京生活频道
 http://laiboy.myds.me:58686/rtp/239.3.1.117:8000
-#EXTINF:-1 group-title="北京联通-组播30",北京纪实科教
+#EXTINF:-1 group-title="北京联通-组播29",北京纪实科教
 http://laiboy.myds.me:58686/rtp/239.3.1.115:8000
-#EXTINF:-1 group-title="北京联通-组播30",北京财经频道
+#EXTINF:-1 group-title="北京联通-组播29",北京财经频道
 http://laiboy.myds.me:58686/rtp/239.3.1.116:8000
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-1综合
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-1综合
 http://laiboy.myds.me:58686/rtp/239.3.1.129:8008
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-2财经
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-2财经
 http://laiboy.myds.me:58686/rtp/239.3.1.60:8084
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-3综艺
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-3综艺
 http://laiboy.myds.me:58686/rtp/239.3.1.172:8001
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-4中文国际
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-4中文国际
 http://laiboy.myds.me:58686/rtp/239.3.1.105:8092
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-4中文国际欧洲
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-4中文国际欧洲
 http://laiboy.myds.me:58686/rtp/239.3.1.213:4220
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-4中文国际美洲
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-4中文国际美洲
 http://laiboy.myds.me:58686/rtp/239.3.1.214:4220
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-5体育
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-5体育
 http://laiboy.myds.me:58686/rtp/239.3.1.173:8001
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-5+体育赛事
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-5+体育赛事
 http://laiboy.myds.me:58686/rtp/239.3.1.130:8004
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-6电影
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-6电影
 http://laiboy.myds.me:58686/rtp/239.3.1.174:8001
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-7国防军事
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-7国防军事
 http://laiboy.myds.me:58686/rtp/239.3.1.61:8104
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-8电视剧
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-8电视剧
 http://laiboy.myds.me:58686/rtp/239.3.1.175:8001
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-9纪录
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-9纪录
 http://laiboy.myds.me:58686/rtp/239.3.1.62:8112
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-10科教
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-10科教
 http://laiboy.myds.me:58686/rtp/239.3.1.63:8116
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-11戏曲
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-11戏曲
 http://laiboy.myds.me:58686/rtp/239.3.1.152:8120
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-12社会与法
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-12社会与法
 http://laiboy.myds.me:58686/rtp/239.3.1.64:8124
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-13新闻
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-13新闻
 http://laiboy.myds.me:58686/rtp/239.3.1.124:8128
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-14少儿
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-14少儿
 http://laiboy.myds.me:58686/rtp/239.3.1.65:8132
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-15音乐
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-15音乐
 http://laiboy.myds.me:58686/rtp/239.3.1.153:8136
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-16奥林匹克
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-16奥林匹克
 http://laiboy.myds.me:58686/rtp/239.3.1.184:8001
-#EXTINF:-1 group-title="北京联通-组播30",CCTV-17农业农村
+#EXTINF:-1 group-title="北京联通-组播29",CCTV-17农业农村
 http://laiboy.myds.me:58686/rtp/239.3.1.151:8144
-#EXTINF:-1 group-title="北京联通-组播30",CCTV4K(SDR)
+#EXTINF:-1 group-title="北京联通-组播29",CCTV4K(SDR)
 http://laiboy.myds.me:58686/rtp/239.3.1.244:2000
-#EXTINF:-1 group-title="北京联通-组播30",CCTV4K(SDR)
+#EXTINF:-1 group-title="北京联通-组播29",CCTV4K(SDR)
 http://laiboy.myds.me:58686/rtp/239.3.1.245:2000
-#EXTINF:-1 group-title="北京联通-组播30",湖南卫视
+#EXTINF:-1 group-title="北京联通-组播29",湖南卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.132:8012
-#EXTINF:-1 group-title="北京联通-组播30",浙江卫视
+#EXTINF:-1 group-title="北京联通-组播29",浙江卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.137:8036
-#EXTINF:-1 group-title="北京联通-组播30",江苏卫视
+#EXTINF:-1 group-title="北京联通-组播29",江苏卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.135:8028
-#EXTINF:-1 group-title="北京联通-组播30",东方卫视
+#EXTINF:-1 group-title="北京联通-组播29",东方卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.136:8032
-#EXTINF:-1 group-title="北京联通-组播30",安徽卫视
+#EXTINF:-1 group-title="北京联通-组播29",安徽卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.211:8064
-#EXTINF:-1 group-title="北京联通-组播30",广东卫视
+#EXTINF:-1 group-title="北京联通-组播29",广东卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.142:8048
-#EXTINF:-1 group-title="北京联通-组播30",深圳卫视
+#EXTINF:-1 group-title="北京联通-组播29",深圳卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.134:8020
-#EXTINF:-1 group-title="北京联通-组播30",辽宁卫视
+#EXTINF:-1 group-title="北京联通-组播29",辽宁卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.210:8056
-#EXTINF:-1 group-title="北京联通-组播30",山东卫视
+#EXTINF:-1 group-title="北京联通-组播29",山东卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.209:8052
-#EXTINF:-1 group-title="北京联通-组播30",山东教育卫视
+#EXTINF:-1 group-title="北京联通-组播29",山东教育卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.52:4120
-#EXTINF:-1 group-title="北京联通-组播30",天津卫视
+#EXTINF:-1 group-title="北京联通-组播29",天津卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.141:1234
-#EXTINF:-1 group-title="北京联通-组播30",重庆卫视
+#EXTINF:-1 group-title="北京联通-组播29",重庆卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.122:8160
-#EXTINF:-1 group-title="北京联通-组播30",东南卫视
+#EXTINF:-1 group-title="北京联通-组播29",东南卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.156:8148
-#EXTINF:-1 group-title="北京联通-组播30",河北卫视
+#EXTINF:-1 group-title="北京联通-组播29",河北卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.148:8072
-#EXTINF:-1 group-title="北京联通-组播30",河南卫视
+#EXTINF:-1 group-title="北京联通-组播29",河南卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.27:8128
-#EXTINF:-1 group-title="北京联通-组播30",河南卫视
+#EXTINF:-1 group-title="北京联通-组播29",河南卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.50:8184
-#EXTINF:-1 group-title="北京联通-组播30",湖北卫视
+#EXTINF:-1 group-title="北京联通-组播29",湖北卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.138:8044
-#EXTINF:-1 group-title="北京联通-组播30",陕西卫视
+#EXTINF:-1 group-title="北京联通-组播29",陕西卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.41:8140
-#EXTINF:-1 group-title="北京联通-组播30",四川卫视
+#EXTINF:-1 group-title="北京联通-组播29",四川卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.29:8288
-#EXTINF:-1 group-title="北京联通-组播30",海南卫视
+#EXTINF:-1 group-title="北京联通-组播29",海南卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.45:8304
-#EXTINF:-1 group-title="北京联通-组播30",甘肃卫视
+#EXTINF:-1 group-title="北京联通-组播29",甘肃卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.201:8180
-#EXTINF:-1 group-title="北京联通-组播30",甘肃卫视
+#EXTINF:-1 group-title="北京联通-组播29",甘肃卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.49:8188
-#EXTINF:-1 group-title="北京联通-组播30",广西卫视
+#EXTINF:-1 group-title="北京联通-组播29",广西卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.39:8300
-#EXTINF:-1 group-title="北京联通-组播30",贵州卫视
+#EXTINF:-1 group-title="北京联通-组播29",贵州卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.149:8076
-#EXTINF:-1 group-title="北京联通-组播30",黑龙江卫视
+#EXTINF:-1 group-title="北京联通-组播29",黑龙江卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.133:8016
-#EXTINF:-1 group-title="北京联通-组播30",江西卫视
+#EXTINF:-1 group-title="北京联通-组播29",江西卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.123:8164
-#EXTINF:-1 group-title="北京联通-组播30",吉林卫视
+#EXTINF:-1 group-title="北京联通-组播29",吉林卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.240:8172
-#EXTINF:-1 group-title="北京联通-组播30",内蒙古卫视
+#EXTINF:-1 group-title="北京联通-组播29",内蒙古卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.43:8176
-#EXTINF:-1 group-title="北京联通-组播30",宁夏卫视
+#EXTINF:-1 group-title="北京联通-组播29",宁夏卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.169:8212
-#EXTINF:-1 group-title="北京联通-组播30",宁夏卫视
+#EXTINF:-1 group-title="北京联通-组播29",宁夏卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.46:8124
-#EXTINF:-1 group-title="北京联通-组播30",山西卫视
+#EXTINF:-1 group-title="北京联通-组播29",山西卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.42:8172
-#EXTINF:-1 group-title="北京联通-组播30",新疆卫视
+#EXTINF:-1 group-title="北京联通-组播29",新疆卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.167:8192
-#EXTINF:-1 group-title="北京联通-组播30",新疆卫视
+#EXTINF:-1 group-title="北京联通-组播29",新疆卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.48:8160
-#EXTINF:-1 group-title="北京联通-组播30",云南卫视
+#EXTINF:-1 group-title="北京联通-组播29",云南卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.26:8108
-#EXTINF:-1 group-title="北京联通-组播30",青海卫视
+#EXTINF:-1 group-title="北京联通-组播29",青海卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.44:8184
-#EXTINF:-1 group-title="北京联通-组播30",西藏卫视
+#EXTINF:-1 group-title="北京联通-组播29",西藏卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.166:8188
-#EXTINF:-1 group-title="北京联通-组播30",西藏卫视
+#EXTINF:-1 group-title="北京联通-组播29",西藏卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.47:8164
-#EXTINF:-1 group-title="北京联通-组播30",兵团卫视
+#EXTINF:-1 group-title="北京联通-组播29",兵团卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.144:4120
-#EXTINF:-1 group-title="北京联通-组播30",兵团卫视
+#EXTINF:-1 group-title="北京联通-组播29",兵团卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.168:8196
-#EXTINF:-1 group-title="北京联通-组播30",三沙卫视
+#EXTINF:-1 group-title="北京联通-组播29",三沙卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.155:4120
-#EXTINF:-1 group-title="北京联通-组播30",厦门卫视
+#EXTINF:-1 group-title="北京联通-组播29",厦门卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.143:4120
-#EXTINF:-1 group-title="北京联通-组播30",湖南卫视4K
+#EXTINF:-1 group-title="北京联通-组播29",湖南卫视4K
 http://laiboy.myds.me:58686/rtp/239.3.1.112:3002
-#EXTINF:-1 group-title="北京联通-组播30",浙江卫视4K
+#EXTINF:-1 group-title="北京联通-组播29",浙江卫视4K
 http://laiboy.myds.me:58686/rtp/239.3.1.114:3004
-#EXTINF:-1 group-title="北京联通-组播30",江苏卫视4K
+#EXTINF:-1 group-title="北京联通-组播29",江苏卫视4K
 http://laiboy.myds.me:58686/rtp/239.3.1.113:3003
-#EXTINF:-1 group-title="北京联通-组播30",东方卫视4K
+#EXTINF:-1 group-title="北京联通-组播29",东方卫视4K
 http://laiboy.myds.me:58686/rtp/239.3.1.119:3006
-#EXTINF:-1 group-title="北京联通-组播30",广东卫视4K
+#EXTINF:-1 group-title="北京联通-组播29",广东卫视4K
 http://laiboy.myds.me:58686/rtp/239.3.1.203:2000
-#EXTINF:-1 group-title="北京联通-组播30",深圳卫视4K
+#EXTINF:-1 group-title="北京联通-组播29",深圳卫视4K
 http://laiboy.myds.me:58686/rtp/239.3.1.202:2000
-#EXTINF:-1 group-title="北京联通-组播30",山东卫视4K
+#EXTINF:-1 group-title="北京联通-组播29",山东卫视4K
 http://laiboy.myds.me:58686/rtp/239.3.1.144:3005
-#EXTINF:-1 group-title="北京联通-组播30",四川卫视4K
+#EXTINF:-1 group-title="北京联通-组播29",四川卫视4K
 http://laiboy.myds.me:58686/rtp/239.3.1.131:3001
-#EXTINF:-1 group-title="北京联通-组播30",CGTN英语
+#EXTINF:-1 group-title="北京联通-组播29",CGTN英语
 http://laiboy.myds.me:58686/rtp/239.3.1.215:4220
-#EXTINF:-1 group-title="北京联通-组播30",CGTN西班牙语
+#EXTINF:-1 group-title="北京联通-组播29",CGTN西班牙语
 http://laiboy.myds.me:58686/rtp/239.3.1.217:4220
-#EXTINF:-1 group-title="北京联通-组播30",CGTN法语
+#EXTINF:-1 group-title="北京联通-组播29",CGTN法语
 http://laiboy.myds.me:58686/rtp/239.3.1.218:4220
-#EXTINF:-1 group-title="北京联通-组播30",CGTN阿拉伯语
+#EXTINF:-1 group-title="北京联通-组播29",CGTN阿拉伯语
 http://laiboy.myds.me:58686/rtp/239.3.1.219:4220
-#EXTINF:-1 group-title="北京联通-组播30",CGTN俄语
+#EXTINF:-1 group-title="北京联通-组播29",CGTN俄语
 http://laiboy.myds.me:58686/rtp/239.3.1.220:4220
-#EXTINF:-1 group-title="北京联通-组播30",CGTN纪录
+#EXTINF:-1 group-title="北京联通-组播29",CGTN纪录
 http://laiboy.myds.me:58686/rtp/239.3.1.216:4220
-#EXTINF:-1 group-title="北京联通-组播30",CETV-1综合教育
+#EXTINF:-1 group-title="北京联通-组播29",CETV-1综合教育
 http://laiboy.myds.me:58686/rtp/239.3.1.57:8152
-#EXTINF:-1 group-title="北京联通-组播30",CETV-2空中课堂
+#EXTINF:-1 group-title="北京联通-组播29",CETV-2空中课堂
 http://laiboy.myds.me:58686/rtp/239.3.1.54:4120
-#EXTINF:-1 group-title="北京联通-组播30",CETV-3北京科教
+#EXTINF:-1 group-title="北京联通-组播29",CETV-3北京科教
 http://laiboy.myds.me:58686/rtp/239.3.1.55:4120
-#EXTINF:-1 group-title="北京联通-组播30",CETV-4职业教育
+#EXTINF:-1 group-title="北京联通-组播29",CETV-4职业教育
 http://laiboy.myds.me:58686/rtp/239.3.1.56:4120
-#EXTINF:-1 group-title="北京联通-组播30",中国交通
+#EXTINF:-1 group-title="北京联通-组播29",中国交通
 http://laiboy.myds.me:58686/rtp/239.3.1.188:8001
-#EXTINF:-1 group-title="北京联通-组播30",体育赛事
+#EXTINF:-1 group-title="北京联通-组播29",体育赛事
 http://laiboy.myds.me:58686/rtp/239.3.1.157:8176
-#EXTINF:-1 group-title="北京联通-组播30",睛彩竞技
+#EXTINF:-1 group-title="北京联通-组播29",睛彩竞技
 http://laiboy.myds.me:58686/rtp/239.3.1.125:8001
-#EXTINF:-1 group-title="北京联通-组播30",睛彩广场舞
+#EXTINF:-1 group-title="北京联通-组播29",睛彩广场舞
 http://laiboy.myds.me:58686/rtp/239.3.1.128:8001
-#EXTINF:-1 group-title="北京联通-组播30",睛彩篮球
+#EXTINF:-1 group-title="北京联通-组播29",睛彩篮球
 http://laiboy.myds.me:58686/rtp/239.3.1.126:8001
-#EXTINF:-1 group-title="北京联通-组播30",华数爱上4K电影
+#EXTINF:-1 group-title="北京联通-组播29",华数爱上4K电影
 http://laiboy.myds.me:58686/rtp/239.3.1.236:2000
-#EXTINF:-1 group-title="北京联通-组播30",华数经典电影
+#EXTINF:-1 group-title="北京联通-组播29",华数经典电影
 http://laiboy.myds.me:58686/rtp/239.3.1.195:9024
-#EXTINF:-1 group-title="北京联通-组播30",华数动作影院
+#EXTINF:-1 group-title="北京联通-组播29",华数动作影院
 http://laiboy.myds.me:58686/rtp/239.3.1.92:4120
-#EXTINF:-1 group-title="北京联通-组播30",华数喜剧影院
+#EXTINF:-1 group-title="北京联通-组播29",华数喜剧影院
 http://laiboy.myds.me:58686/rtp/239.3.1.91:4120
-#EXTINF:-1 group-title="北京联通-组播30",华数家庭影院
+#EXTINF:-1 group-title="北京联通-组播29",华数家庭影院
 http://laiboy.myds.me:58686/rtp/239.3.1.93:4120
-#EXTINF:-1 group-title="北京联通-组播30",华数星影
+#EXTINF:-1 group-title="北京联通-组播29",华数星影
 http://laiboy.myds.me:58686/rtp/239.3.1.94:4120
-#EXTINF:-1 group-title="北京联通-组播30",华数热播剧场
+#EXTINF:-1 group-title="北京联通-组播29",华数热播剧场
 http://laiboy.myds.me:58686/rtp/239.3.1.194:9020
-#EXTINF:-1 group-title="北京联通-组播30",华数古装剧场
+#EXTINF:-1 group-title="北京联通-组播29",华数古装剧场
 http://laiboy.myds.me:58686/rtp/239.3.1.69:4120
-#EXTINF:-1 group-title="北京联通-组播30",华数城市剧场
+#EXTINF:-1 group-title="北京联通-组播29",华数城市剧场
 http://laiboy.myds.me:58686/rtp/239.3.1.67:4120
-#EXTINF:-1 group-title="北京联通-组播30",华数军旅剧场
+#EXTINF:-1 group-title="北京联通-组播29",华数军旅剧场
 http://laiboy.myds.me:58686/rtp/239.3.1.68:4120
-#EXTINF:-1 group-title="北京联通-组播30",华数魅力时尚
+#EXTINF:-1 group-title="北京联通-组播29",华数魅力时尚
 http://laiboy.myds.me:58686/rtp/239.3.1.196:9012
-#EXTINF:-1 group-title="北京联通-组播30",华数少儿动画
+#EXTINF:-1 group-title="北京联通-组播29",华数少儿动画
 http://laiboy.myds.me:58686/rtp/239.3.1.199:9000
-#EXTINF:-1 group-title="北京联通-组播30",华数动画
+#EXTINF:-1 group-title="北京联通-组播29",华数动画
 http://laiboy.myds.me:58686/rtp/239.3.1.80:4120
-#EXTINF:-1 group-title="北京联通-组播30",华数精选
+#EXTINF:-1 group-title="北京联通-组播29",华数精选
 http://laiboy.myds.me:58686/rtp/239.3.1.74:4120
-#EXTINF:-1 group-title="北京联通-组播30",华数武侠剧场
+#EXTINF:-1 group-title="北京联通-组播29",华数武侠剧场
 http://laiboy.myds.me:58686/rtp/239.3.1.90:4120
-#EXTINF:-1 group-title="北京联通-组播30",IPTV10解密
+#EXTINF:-1 group-title="北京联通-组播29",IPTV10解密
 http://laiboy.myds.me:58686/rtp/239.3.1.75:4120
-#EXTINF:-1 group-title="北京联通-组播30",IPTV11戏曲
+#EXTINF:-1 group-title="北京联通-组播29",IPTV11戏曲
 http://laiboy.myds.me:58686/rtp/239.3.1.78:4120
-#EXTINF:-1 group-title="北京联通-组播30",IPTV14早教
+#EXTINF:-1 group-title="北京联通-组播29",IPTV14早教
 http://laiboy.myds.me:58686/rtp/239.3.1.79:4120
-#EXTINF:-1 group-title="北京联通-组播30",IPTV15音乐现场
+#EXTINF:-1 group-title="北京联通-组播29",IPTV15音乐现场
 http://laiboy.myds.me:58686/rtp/239.3.1.70:4120
-#EXTINF:-1 group-title="北京联通-组播30",IPTV3＋
+#EXTINF:-1 group-title="北京联通-组播29",IPTV3＋
 http://laiboy.myds.me:58686/rtp/239.3.1.198:9004
-#EXTINF:-1 group-title="北京联通-组播30",IPTV5＋
+#EXTINF:-1 group-title="北京联通-组播29",IPTV5＋
 http://laiboy.myds.me:58686/rtp/239.3.1.200:9008
-#EXTINF:-1 group-title="北京联通-组播30",IPTV5＋
+#EXTINF:-1 group-title="北京联通-组播29",IPTV5＋
 http://laiboy.myds.me:58686/rtp/239.3.1.237:4120
-#EXTINF:-1 group-title="北京联通-组播30",IPTV6＋
+#EXTINF:-1 group-title="北京联通-组播29",IPTV6＋
 http://laiboy.myds.me:58686/rtp/239.3.1.197:9016
-#EXTINF:-1 group-title="北京联通-组播30",IPTV7军事
+#EXTINF:-1 group-title="北京联通-组播29",IPTV7军事
 http://laiboy.myds.me:58686/rtp/239.3.1.76:4120
-#EXTINF:-1 group-title="北京联通-组播30",IPTV8＋
+#EXTINF:-1 group-title="北京联通-组播29",IPTV8＋
 http://laiboy.myds.me:58686/rtp/239.3.1.201:8072
-#EXTINF:-1 group-title="北京联通-组播30",IPTV台球
+#EXTINF:-1 group-title="北京联通-组播29",IPTV台球
 http://laiboy.myds.me:58686/rtp/239.3.1.85:4120
-#EXTINF:-1 group-title="北京联通-组播30",IPTV国学
+#EXTINF:-1 group-title="北京联通-组播29",IPTV国学
 http://laiboy.myds.me:58686/rtp/239.3.1.77:4120
-#EXTINF:-1 group-title="北京联通-组播30",IPTV地理
+#EXTINF:-1 group-title="北京联通-组播29",IPTV地理
 http://laiboy.myds.me:58686/rtp/239.3.1.71:4120
-#EXTINF:-1 group-title="北京联通-组播30",IPTV墨宝
+#EXTINF:-1 group-title="北京联通-组播29",IPTV墨宝
 http://laiboy.myds.me:58686/rtp/239.3.1.83:4120
-#EXTINF:-1 group-title="北京联通-组播30",IPTV好学生
+#EXTINF:-1 group-title="北京联通-组播29",IPTV好学生
 http://laiboy.myds.me:58686/rtp/239.3.1.81:4120
-#EXTINF:-1 group-title="北京联通-组播30",IPTV收视指南
+#EXTINF:-1 group-title="北京联通-组播29",IPTV收视指南
 http://laiboy.myds.me:58686/rtp/239.3.1.193:8012
-#EXTINF:-1 group-title="北京联通-组播30",IPTV武术
+#EXTINF:-1 group-title="北京联通-组播29",IPTV武术
 http://laiboy.myds.me:58686/rtp/239.3.1.87:4120
-#EXTINF:-1 group-title="北京联通-组播30",IPTV爱生活
+#EXTINF:-1 group-title="北京联通-组播29",IPTV爱生活
 http://laiboy.myds.me:58686/rtp/239.3.1.86:4120
-#EXTINF:-1 group-title="北京联通-组播30",IPTV美人
+#EXTINF:-1 group-title="北京联通-组播29",IPTV美人
 http://laiboy.myds.me:58686/rtp/239.3.1.73:4120
-#EXTINF:-1 group-title="北京联通-组播30",IPTV美妆
+#EXTINF:-1 group-title="北京联通-组播29",IPTV美妆
 http://laiboy.myds.me:58686/rtp/239.3.1.72:4120
-#EXTINF:-1 group-title="北京联通-组播30",IPTV足球
+#EXTINF:-1 group-title="北京联通-组播29",IPTV足球
 http://laiboy.myds.me:58686/rtp/239.3.1.89:4120
-#EXTINF:-1 group-title="北京联通-组播30",IPTV鉴赏
+#EXTINF:-1 group-title="北京联通-组播29",IPTV鉴赏
 http://laiboy.myds.me:58686/rtp/239.3.1.82:4120
-#EXTINF:-1 group-title="北京联通-组播30",上海动漫秀场
+#EXTINF:-1 group-title="北京联通-组播29",上海动漫秀场
 http://laiboy.myds.me:58686/rtp/239.3.1.202:8001
-#EXTINF:-1 group-title="北京联通-组播30",上海游戏风云
+#EXTINF:-1 group-title="北京联通-组播29",上海游戏风云
 http://laiboy.myds.me:58686/rtp/239.3.1.205:8001
-#EXTINF:-1 group-title="北京联通-组播30",上海乐游
+#EXTINF:-1 group-title="北京联通-组播29",上海乐游
 http://laiboy.myds.me:58686/rtp/239.3.1.207:8001
-#EXTINF:-1 group-title="北京联通-组播30",上海乐游
+#EXTINF:-1 group-title="北京联通-组播29",上海乐游
 http://laiboy.myds.me:58686/rtp/239.3.1.114:8001
-#EXTINF:-1 group-title="北京联通-组播30",上海法治天地
+#EXTINF:-1 group-title="北京联通-组播29",上海法治天地
 http://laiboy.myds.me:58686/rtp/239.3.1.204:8001
-#EXTINF:-1 group-title="北京联通-组播30",上海都市剧场
+#EXTINF:-1 group-title="北京联通-组播29",上海都市剧场
 http://laiboy.myds.me:58686/rtp/239.3.1.203:8001
-#EXTINF:-1 group-title="北京联通-组播30",上海金色学堂
+#EXTINF:-1 group-title="北京联通-组播29",上海金色学堂
 http://laiboy.myds.me:58686/rtp/239.3.1.208:8001
-#EXTINF:-1 group-title="北京联通-组播30",上海生活时尚
+#EXTINF:-1 group-title="北京联通-组播29",上海生活时尚
 http://laiboy.myds.me:58686/rtp/239.3.1.206:8001
-#EXTINF:-1 group-title="北京联通-组播30",上海纪实人文
+#EXTINF:-1 group-title="北京联通-组播29",上海纪实人文
 http://laiboy.myds.me:58686/rtp/239.3.1.212:8060
-#EXTINF:-1 group-title="北京联通-组播30",上海魅力足球
+#EXTINF:-1 group-title="北京联通-组播29",上海魅力足球
 http://laiboy.myds.me:58686/rtp/239.3.1.201:8001
-#EXTINF:-1 group-title="北京联通-组播30",江苏财富天下
+#EXTINF:-1 group-title="北京联通-组播29",江苏财富天下
 http://laiboy.myds.me:58686/rtp/239.3.1.53:9136
-#EXTINF:-1 group-title="北京联通-组播30",湖北快乐垂钓
+#EXTINF:-1 group-title="北京联通-组播29",湖北快乐垂钓
 http://laiboy.myds.me:58686/rtp/239.3.1.164:8001
-#EXTINF:-1 group-title="北京联通-组播30",湖南茶频道
+#EXTINF:-1 group-title="北京联通-组播29",湖南茶频道
 http://laiboy.myds.me:58686/rtp/239.3.1.165:8001
-#EXTINF:-1 group-title="北京联通-组播30",湖南金鹰纪实
+#EXTINF:-1 group-title="北京联通-组播29",湖南金鹰纪实
 http://laiboy.myds.me:58686/rtp/239.3.1.58:8156
-#EXTINF:-1 group-title="北京联通-组播30",湖南金鹰卡通
+#EXTINF:-1 group-title="北京联通-组播29",湖南金鹰卡通
 http://laiboy.myds.me:58686/rtp/239.3.1.51:9252
-#EXTINF:-1 group-title="北京联通-组播30",广东嘉佳卡通
+#EXTINF:-1 group-title="北京联通-组播29",广东嘉佳卡通
 http://laiboy.myds.me:58686/rtp/239.3.1.147:9268
-#EXTINF:-1 group-title="北京联通-组播30",光影
+#EXTINF:-1 group-title="北京联通-组播29",光影
 http://laiboy.myds.me:58686/rtp/239.3.1.84:4120
-#EXTINF:-1 group-title="北京联通-组播30",睛彩羽毛球
+#EXTINF:-1 group-title="北京联通-组播29",睛彩羽毛球
 http://laiboy.myds.me:58686/rtp/239.3.1.127:8001
-#EXTINF:-1 group-title="北京联通-组播30",门头沟电视台
+#EXTINF:-1 group-title="北京联通-组播29",门头沟电视台
 http://laiboy.myds.me:58686/rtp/239.3.1.59:8001
-#EXTINF:-1 group-title="北京联通-组播30",房山电视台
+#EXTINF:-1 group-title="北京联通-组播29",房山电视台
 http://laiboy.myds.me:58686/rtp/239.3.1.96:8001
-#EXTINF:-1 group-title="北京联通-组播30",通州融媒
+#EXTINF:-1 group-title="北京联通-组播29",通州融媒
 http://laiboy.myds.me:58686/rtp/239.3.1.221:8001
-#EXTINF:-1 group-title="北京联通-组播30",平谷融媒[高清]
+#EXTINF:-1 group-title="北京联通-组播29",平谷融媒[高清]
 http://laiboy.myds.me:58686/rtp/239.3.1.23:8001
-#EXTINF:-1 group-title="北京联通-组播30",密云电视台
+#EXTINF:-1 group-title="北京联通-组播29",密云电视台
 http://laiboy.myds.me:58686/rtp/239.3.1.154:8001
-#EXTINF:-1 group-title="北京联通-组播30",延庆电视台
+#EXTINF:-1 group-title="北京联通-组播29",延庆电视台
 http://laiboy.myds.me:58686/rtp/239.3.1.187:8001
-#EXTINF:-1 group-title="北京联通-组播30",朝阳融媒
+#EXTINF:-1 group-title="北京联通-组播29",朝阳融媒
 http://laiboy.myds.me:58686/rtp/239.3.1.163:8001
-#EXTINF:-1 group-title="北京联通-组播30",广东卫视[超清HDR]
+#EXTINF:-1 group-title="北京联通-组播29",广东卫视[超清HDR]
 http://laiboy.myds.me:58686/rtp/239.3.1.27:2000
-#EXTINF:-1 group-title="北京联通-组播30",深圳卫视[超清HDR]
+#EXTINF:-1 group-title="北京联通-组播29",深圳卫视[超清HDR]
 http://laiboy.myds.me:58686/rtp/239.3.1.28:2000
-#EXTINF:-1 group-title="北京联通-组播30",4K测试
+#EXTINF:-1 group-title="北京联通-组播29",4K测试
 http://laiboy.myds.me:58686/rtp/239.3.1.104:8001
-#EXTINF:-1 group-title="北京联通-组播30",BRTV 8K[8K]
+#EXTINF:-1 group-title="北京联通-组播29",BRTV 8K[8K]
 http://laiboy.myds.me:58686/rtp/239.3.1.252:8001
-#EXTINF:-1 group-title="北京联通-组播30",BRTV卡酷少儿
+#EXTINF:-1 group-title="北京联通-组播29",BRTV卡酷少儿
 http://laiboy.myds.me:58686/rtp/239.3.1.120:8000
-#EXTINF:-1 group-title="北京联通-组播30",BRTV卡酷少儿
+#EXTINF:-1 group-title="北京联通-组播29",BRTV卡酷少儿
 http://laiboy.myds.me:58686/rtp/239.3.1.121:8000
-#EXTINF:-1 group-title="北京联通-组播30",BRTV生活
+#EXTINF:-1 group-title="北京联通-组播29",BRTV生活
 http://laiboy.myds.me:58686/rtp/239.3.1.118:8000
-#EXTINF:-1 group-title="北京联通-组播30",CCTV16SDR
+#EXTINF:-1 group-title="北京联通-组播29",CCTV16SDR
 http://laiboy.myds.me:58686/rtp/239.3.1.183:8001
-#EXTINF:-1 group-title="北京联通-组播30",南方卫视
+#EXTINF:-1 group-title="北京联通-组播29",南方卫视
 http://laiboy.myds.me:58686/rtp/239.3.1.161:8001
-#EXTINF:-1 group-title="北京联通-组播30",总平台测试1
+#EXTINF:-1 group-title="北京联通-组播29",总平台测试1
 http://laiboy.myds.me:58686/rtp/239.3.1.247:2000
-#EXTINF:-1 group-title="北京联通-组播30",总平台测试2
+#EXTINF:-1 group-title="北京联通-组播29",总平台测试2
 http://laiboy.myds.me:58686/rtp/239.3.1.248:2000
-#EXTINF:-1 group-title="北京联通-组播30",测试
+#EXTINF:-1 group-title="北京联通-组播29",测试
 http://laiboy.myds.me:58686/rtp/239.3.1.103:8001
-#EXTINF:-1 group-title="北京联通-组播30",淘剧场
+#EXTINF:-1 group-title="北京联通-组播29",淘剧场
 http://laiboy.myds.me:58686/rtp/239.3.1.112:8001
-#EXTINF:-1 group-title="北京联通-组播30",淘娱乐
+#EXTINF:-1 group-title="北京联通-组播29",淘娱乐
 http://laiboy.myds.me:58686/rtp/239.3.1.113:8001
-#EXTINF:-1 group-title="北京联通-组播30",淘电影
+#EXTINF:-1 group-title="北京联通-组播29",淘电影
 http://laiboy.myds.me:58686/rtp/239.3.1.111:8001
-#EXTINF:-1 group-title="北京联通-组播30",淘精彩
+#EXTINF:-1 group-title="北京联通-组播29",淘精彩
 http://laiboy.myds.me:58686/rtp/239.3.1.178:8001
-#EXTINF:-1 group-title="北京联通-组播30",熊猫频道
+#EXTINF:-1 group-title="北京联通-组播29",熊猫频道
 http://laiboy.myds.me:58686/rtp/239.3.1.66:8068
-#EXTINF:-1 group-title="北京联通-组播30",聚鲨环球
+#EXTINF:-1 group-title="北京联通-组播29",聚鲨环球
 http://laiboy.myds.me:58686/rtp/239.3.1.160:8001
-#EXTINF:-1 group-title="北京联通-组播30",轮播频道5
+#EXTINF:-1 group-title="北京联通-组播29",轮播频道5
 http://laiboy.myds.me:58686/rtp/239.3.1.253:8001
-#EXTINF:-1 group-title="北京联通-组播30",重温经典[高清]
+#EXTINF:-1 group-title="北京联通-组播29",重温经典[高清]
 http://laiboy.myds.me:58686/rtp/239.3.1.25:8001
-#EXTINF:-1 group-title="北京联通-组播30",高网频道
+#EXTINF:-1 group-title="北京联通-组播29",高网频道
 http://laiboy.myds.me:58686/rtp/239.3.1.88:4120
