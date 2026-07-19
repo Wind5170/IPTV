@@ -1,4 +1,3 @@
-# 20260718_1109_precise
+# 20260719_1119_precise
 # 服务器地址	速度
-1.192.240.185:8188	450.11 KB/s
-server.juzhijian.com:8822	419.80 KB/s
+server.juzhijian.com:8822	338.97 KB/s

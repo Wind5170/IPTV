@@ -1,20 +1,14 @@
-# 20260718_1116_precise
+# 20260719_1131_precise
 # 服务器地址	速度
-114.226.212.140:8787	523.27 KB/s
-fengwei888888.myds.me:58099	493.65 KB/s
-ikuai-v4.17271201.xyz:4000	483.18 KB/s
-114.226.212.136:8787	478.28 KB/s
-121.226.105.6:6888	463.35 KB/s
-y1nf0x.myds.me:5888	458.76 KB/s
-www.foreveryyl.top:8001	446.57 KB/s
-h.vanshun.com:8802	439.20 KB/s
-nas2.bycza.top:9000	434.95 KB/s
-iptv.feng.js.cn:58099	433.35 KB/s
-nas3.bycza.top:8100	427.27 KB/s
-vs.heylc.com:4022	425.50 KB/s
-www.sclvip.top:8787	422.17 KB/s
-dx.joygala.cn:8118	420.25 KB/s
-njbobo.mycloudnas.com:4022	412.93 KB/s
-t.7ze.top:4022	355.70 KB/s
-www.angel147.cf:9570	311.30 KB/s
-acp-cloud.asuscomm.com:4000	308.66 KB/s
+121.226.105.6:6888	363.96 KB/s
+istoreos.sclvip.top:5566	360.85 KB/s
+dx.joygala.cn:8118	359.67 KB/s
+h.vanshun.com:8802	358.79 KB/s
+y1nf0x.myds.me:5888	357.69 KB/s
+vs.heylc.com:4022	352.40 KB/s
+www.yzddy.top:8800	344.95 KB/s
+njbobo.mycloudnas.com:4022	343.68 KB/s
+49.79.83.211:58888	339.88 KB/s
+www.foreveryyl.top:8001	336.11 KB/s
+www.nijingjing.site:8888	311.08 KB/s
+t.7ze.top:4022	303.16 KB/s

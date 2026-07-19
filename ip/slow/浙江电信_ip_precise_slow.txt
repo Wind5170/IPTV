@@ -1,5 +1,7 @@
-# 20260718_1126_precise_slow
+# 20260719_1139_precise_slow
 # 服务器地址	速度
-www.negative.top:50000	288.84 KB/s
-9.lexlong.top:8001	89.63 KB/s
-www.slq888.cn:9999	12.01 KB/s
+www.liangcl.top:8686	299.49 KB/s
+9.lexlong.top:8001	272.71 KB/s
+www.negative.top:50000	207.15 KB/s
+gilbert0571.eu.org:8888	13.05 KB/s
+www.slq888.cn:9999	6.65 KB/s
