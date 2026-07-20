@@ -1,961 +1,801 @@
 #EXTM3U
 #EXTINF:-1 group-title="河南联通-组播1",河南卫视
-http://219.156.34.120:4022/rtp/225.1.4.98:1127
-#EXTINF:-1 group-title="河南联通-组播1",河南卫视
-http://219.156.34.120:4022/rtp/225.1.4.254:1300
-#EXTINF:-1 group-title="河南联通-组播1",河南IPTV导视
-http://219.156.34.120:4022/rtp/225.1.4.194:1244
-#EXTINF:-1 group-title="河南联通-组播1",河南中华功夫
-http://219.156.34.120:4022/rtp/225.1.4.101:1130
-#EXTINF:-1 group-title="河南联通-组播1",河南乡村频道
-http://219.156.34.120:4022/rtp/225.1.4.120:1149
-#EXTINF:-1 group-title="河南联通-组播1",河南公共频道
-http://219.156.34.120:4022/rtp/225.1.4.58:1087
-#EXTINF:-1 group-title="河南联通-组播1",河南国际频道
-http://219.156.34.120:4022/rtp/225.1.4.102:1131
-#EXTINF:-1 group-title="河南联通-组播1",河南戏曲频道
-http://219.156.34.120:4022/rtp/225.1.4.99:1128
-#EXTINF:-1 group-title="河南联通-组播1",河南收藏天下
-http://219.156.34.120:4022/rtp/225.1.4.100:1129
-#EXTINF:-1 group-title="河南联通-组播1",河南新闻频道
-http://219.156.34.120:4022/rtp/225.1.4.56:1085
-#EXTINF:-1 group-title="河南联通-组播1",河南欢腾购物
-http://219.156.34.120:4022/rtp/225.1.4.57:1086
-#EXTINF:-1 group-title="河南联通-组播1",河南民生频道
-http://219.156.34.120:4022/rtp/225.1.4.53:1082
-#EXTINF:-1 group-title="河南联通-组播1",河南法治频道
-http://219.156.34.120:4022/rtp/225.1.4.54:1083
-#EXTINF:-1 group-title="河南联通-组播1",河南电视剧频道
-http://219.156.34.120:4022/rtp/225.1.4.55:1084
-#EXTINF:-1 group-title="河南联通-组播1",河南移动电视
-http://219.156.34.120:4022/rtp/225.1.5.40:1350
-#EXTINF:-1 group-title="河南联通-组播1",河南都市频道
-http://219.156.34.120:4022/rtp/225.1.4.52:1081
-#EXTINF:-1 group-title="河南联通-组播1",CCTV-高尔夫·网球
-http://219.156.34.120:4022/rtp/225.1.4.180:1229
-#EXTINF:-1 group-title="河南联通-组播1",CGTN英语
-http://219.156.34.120:4022/rtp/225.1.4.16:1045
-#EXTINF:-1 group-title="河南联通-组播1",CGTN英语
-http://219.156.34.120:4022/rtp/225.1.5.34:1344
-#EXTINF:-1 group-title="河南联通-组播1",CGTN法语
-http://219.156.34.120:4022/rtp/225.1.5.37:1347
-#EXTINF:-1 group-title="河南联通-组播1",CGTN俄语
-http://219.156.34.120:4022/rtp/225.1.5.39:1349
-#EXTINF:-1 group-title="河南联通-组播1",CGTN纪录
-http://219.156.34.120:4022/rtp/225.1.5.35:1345
-#EXTINF:-1 group-title="河南联通-组播1",CETV-1综合教育
-http://219.156.34.120:4022/rtp/225.1.4.173:1712
-#EXTINF:-1 group-title="河南联通-组播1",CETV-2空中课堂
-http://219.156.34.120:4022/rtp/225.1.4.165:1206
-#EXTINF:-1 group-title="河南联通-组播1",CETV-4职业教育
-http://219.156.34.120:4022/rtp/225.1.4.171:1710
-#EXTINF:-1 group-title="河南联通-组播1",CHC家庭影院
-http://219.156.34.120:4022/rtp/225.1.4.209:1262
-#EXTINF:-1 group-title="河南联通-组播1",CHC影迷电影
-http://219.156.34.120:4022/rtp/225.1.4.207:1260
-#EXTINF:-1 group-title="河南联通-组播1",CHC动作电影
-http://219.156.34.120:4022/rtp/225.1.4.208:1261
-#EXTINF:-1 group-title="河南联通-组播1",华数爱上4K电影
-http://219.156.34.120:4022/rtp/225.1.4.6:1035
-#EXTINF:-1 group-title="河南联通-组播1",华数经典电影
-http://219.156.34.120:4022/rtp/225.1.4.175:1233
-#EXTINF:-1 group-title="河南联通-组播1",华数热播剧场
-http://219.156.34.120:4022/rtp/225.1.4.190:1239
-#EXTINF:-1 group-title="河南联通-组播1",华数魅力时尚
-http://219.156.34.120:4022/rtp/225.1.4.205:1253
-#EXTINF:-1 group-title="河南联通-组播1",华数少儿动画
-http://219.156.34.120:4022/rtp/225.1.4.189:1238
-#EXTINF:-1 group-title="河南联通-组播1",华数精选
-http://219.156.34.120:4022/rtp/225.1.4.253:1299
-#EXTINF:-1 group-title="河南联通-组播1",华数谍战剧场
-http://219.156.34.120:4022/rtp/225.1.4.185:1240
-#EXTINF:-1 group-title="河南联通-组播1",爱大剧
-http://219.156.34.120:4022/rtp/225.1.4.8:1037
-#EXTINF:-1 group-title="河南联通-组播1",爱上4K
-http://219.156.34.120:4022/rtp/225.1.4.162:1204
-#EXTINF:-1 group-title="河南联通-组播1",IPTV体育
-http://219.156.34.120:4022/rtp/225.1.4.168:1220
-#EXTINF:-1 group-title="河南联通-组播1",IPTV军事
-http://219.156.34.120:4022/rtp/225.1.4.181:1230
-#EXTINF:-1 group-title="河南联通-组播1",IPTV国学
-http://219.156.34.120:4022/rtp/225.1.4.178:1227
-#EXTINF:-1 group-title="河南联通-组播1",IPTV地理
-http://219.156.34.120:4022/rtp/225.1.4.183:1232
-#EXTINF:-1 group-title="河南联通-组播1",IPTV好学生
-http://219.156.34.120:4022/rtp/225.1.4.177:1226
-#EXTINF:-1 group-title="河南联通-组播1",IPTV收视指南
-http://219.156.34.120:4022/rtp/225.1.4.50:1079
-#EXTINF:-1 group-title="河南联通-组播1",IPTV早教
-http://219.156.34.120:4022/rtp/225.1.4.179:1228
-#EXTINF:-1 group-title="河南联通-组播1",IPTV法治
-http://219.156.34.120:4022/rtp/225.1.4.188:1237
-#EXTINF:-1 group-title="河南联通-组播1",IPTV生活
-http://219.156.34.120:4022/rtp/225.1.4.176:1225
-#EXTINF:-1 group-title="河南联通-组播1",IPTV相声小品
-http://219.156.34.120:4022/rtp/225.1.4.186:1235
-#EXTINF:-1 group-title="河南联通-组播1",IPTV综艺
-http://219.156.34.120:4022/rtp/225.1.4.204:1252
-#EXTINF:-1 group-title="河南联通-组播1",IPTV美妆
-http://219.156.34.120:4022/rtp/225.1.4.182:1231
-#EXTINF:-1 group-title="河南联通-组播1",IPTV足球
-http://219.156.34.120:4022/rtp/225.1.4.200:1250
-#EXTINF:-1 group-title="河南联通-组播1",IPTV野外
-http://219.156.34.120:4022/rtp/225.1.4.187:1236
-#EXTINF:-1 group-title="河南联通-组播1",IPTV音乐
-http://219.156.34.120:4022/rtp/225.1.4.184:1224
-#EXTINF:-1 group-title="河南联通-组播1",北京卡酷少儿
-http://219.156.34.120:4022/rtp/225.1.4.48:1077
-#EXTINF:-1 group-title="河南联通-组播1",辽宁新动漫
-http://219.156.34.120:4022/rtp/225.1.4.212:1265
-#EXTINF:-1 group-title="河南联通-组播1",湖南金鹰纪实
-http://219.156.34.120:4022/rtp/225.1.4.172:1711
-#EXTINF:-1 group-title="河南联通-组播1",湖南金鹰卡通
-http://219.156.34.120:4022/rtp/225.1.4.49:1078
-#EXTINF:-1 group-title="河南联通-组播1",广东嘉佳卡通
-http://219.156.34.120:4022/rtp/225.1.4.92:1121
-#EXTINF:-1 group-title="河南联通-组播1",陕西国学频道
-http://219.156.34.120:4022/rtp/225.1.4.196:1311
-#EXTINF:-1 group-title="河南联通-组播1",好享购物
-http://219.156.34.120:4022/rtp/225.1.4.232:1278
-#EXTINF:-1 group-title="河南联通-组播1",央广购物
-http://219.156.34.120:4022/rtp/225.1.4.230:1276
-#EXTINF:-1 group-title="河南联通-组播1",家有购物
-http://219.156.34.120:4022/rtp/225.1.4.223:1273
-#EXTINF:-1 group-title="河南联通-组播1",驻马店公共频道
-http://219.156.34.120:4022/rtp/225.1.4.136:1172
-#EXTINF:-1 group-title="河南联通-组播1",驻马店新闻综合
-http://219.156.34.120:4022/rtp/225.1.4.132:1168
-#EXTINF:-1 group-title="河南联通-组播1",驻马店科教频道
-http://219.156.34.120:4022/rtp/225.1.4.133:1169
-#EXTINF:-1 group-title="河南联通-组播1",CGTN西班牙语
-http://219.156.34.120:4022/rtp/225.1.5.36:1346
-#EXTINF:-1 group-title="河南联通-组播1",CGTN阿拉伯语
-http://219.156.34.120:4022/rtp/225.1.5.38:1348
-#EXTINF:-1 group-title="河南联通-组播1",乒羽频道
-http://219.156.34.120:4022/rtp/225.1.4.210:1263
-#EXTINF:-1 group-title="河南联通-组播1",体育竞技
-http://219.156.34.120:4022/rtp/225.1.4.235:1281
-#EXTINF:-1 group-title="河南联通-组播1",大象新闻
-http://219.156.34.120:4022/rtp/225.1.5.45:1355
-#EXTINF:-1 group-title="河南联通-组播1",快乐购
-http://219.156.34.120:4022/rtp/225.1.4.231:1277
-#EXTINF:-1 group-title="河南联通-组播1",新蔡电视台
-http://219.156.34.120:4022/rtp/225.1.5.29:1341
-#EXTINF:-1 group-title="河南联通-组播1",欢腾购物
-http://219.156.34.120:4022/rtp/225.1.4.236:1282
-#EXTINF:-1 group-title="河南联通-组播1",环球购物
-http://219.156.34.120:4022/rtp/225.1.4.229:1275
-#EXTINF:-1 group-title="河南联通-组播1",现场直播
-http://219.156.34.120:4022/rtp/225.1.5.42:1352
-#EXTINF:-1 group-title="河南联通-组播1",睛彩中原
-http://219.156.34.120:4022/rtp/225.1.4.163:1203
-#EXTINF:-1 group-title="河南联通-组播1",移动戏曲
-http://219.156.34.120:4022/rtp/225.1.4.206:1254
-#EXTINF:-1 group-title="河南联通-组播1",篮球
-http://219.156.34.120:4022/rtp/225.1.4.237:1283
-#EXTINF:-1 group-title="河南联通-组播1",网络棋牌
-http://219.156.34.120:4022/rtp/225.1.4.211:1264
-#EXTINF:-1 group-title="河南联通-组播1",西平电视台
-http://219.156.34.120:4022/rtp/225.1.5.28:1340
-#EXTINF:-1 group-title="河南联通-组播1",风尚购物
-http://219.156.34.120:4022/rtp/225.1.4.233:1279
-#EXTINF:-1 group-title="河南联通-组播2",河南卫视
 http://xz.78057805.xyz:4002/rtp/225.1.4.98:1127
-#EXTINF:-1 group-title="河南联通-组播2",河南卫视
+#EXTINF:-1 group-title="河南联通-组播1",河南卫视
 http://xz.78057805.xyz:4002/rtp/225.1.4.254:1300
-#EXTINF:-1 group-title="河南联通-组播2",河南IPTV导视
+#EXTINF:-1 group-title="河南联通-组播1",河南IPTV导视
 http://xz.78057805.xyz:4002/rtp/225.1.4.194:1244
-#EXTINF:-1 group-title="河南联通-组播2",河南中华功夫
+#EXTINF:-1 group-title="河南联通-组播1",河南中华功夫
 http://xz.78057805.xyz:4002/rtp/225.1.4.101:1130
-#EXTINF:-1 group-title="河南联通-组播2",河南乡村频道
+#EXTINF:-1 group-title="河南联通-组播1",河南乡村频道
 http://xz.78057805.xyz:4002/rtp/225.1.4.120:1149
-#EXTINF:-1 group-title="河南联通-组播2",河南公共频道
+#EXTINF:-1 group-title="河南联通-组播1",河南公共频道
 http://xz.78057805.xyz:4002/rtp/225.1.4.58:1087
-#EXTINF:-1 group-title="河南联通-组播2",河南国际频道
+#EXTINF:-1 group-title="河南联通-组播1",河南国际频道
 http://xz.78057805.xyz:4002/rtp/225.1.4.102:1131
-#EXTINF:-1 group-title="河南联通-组播2",河南戏曲频道
+#EXTINF:-1 group-title="河南联通-组播1",河南戏曲频道
 http://xz.78057805.xyz:4002/rtp/225.1.4.99:1128
-#EXTINF:-1 group-title="河南联通-组播2",河南收藏天下
+#EXTINF:-1 group-title="河南联通-组播1",河南收藏天下
 http://xz.78057805.xyz:4002/rtp/225.1.4.100:1129
-#EXTINF:-1 group-title="河南联通-组播2",河南新闻频道
+#EXTINF:-1 group-title="河南联通-组播1",河南新闻频道
 http://xz.78057805.xyz:4002/rtp/225.1.4.56:1085
-#EXTINF:-1 group-title="河南联通-组播2",河南欢腾购物
+#EXTINF:-1 group-title="河南联通-组播1",河南欢腾购物
 http://xz.78057805.xyz:4002/rtp/225.1.4.57:1086
-#EXTINF:-1 group-title="河南联通-组播2",河南民生频道
+#EXTINF:-1 group-title="河南联通-组播1",河南民生频道
 http://xz.78057805.xyz:4002/rtp/225.1.4.53:1082
-#EXTINF:-1 group-title="河南联通-组播2",河南法治频道
+#EXTINF:-1 group-title="河南联通-组播1",河南法治频道
 http://xz.78057805.xyz:4002/rtp/225.1.4.54:1083
-#EXTINF:-1 group-title="河南联通-组播2",河南电视剧频道
+#EXTINF:-1 group-title="河南联通-组播1",河南电视剧频道
 http://xz.78057805.xyz:4002/rtp/225.1.4.55:1084
-#EXTINF:-1 group-title="河南联通-组播2",河南移动电视
+#EXTINF:-1 group-title="河南联通-组播1",河南移动电视
 http://xz.78057805.xyz:4002/rtp/225.1.5.40:1350
-#EXTINF:-1 group-title="河南联通-组播2",河南都市频道
+#EXTINF:-1 group-title="河南联通-组播1",河南都市频道
 http://xz.78057805.xyz:4002/rtp/225.1.4.52:1081
-#EXTINF:-1 group-title="河南联通-组播2",CCTV-高尔夫·网球
+#EXTINF:-1 group-title="河南联通-组播1",CCTV-高尔夫·网球
 http://xz.78057805.xyz:4002/rtp/225.1.4.180:1229
-#EXTINF:-1 group-title="河南联通-组播2",CGTN英语
+#EXTINF:-1 group-title="河南联通-组播1",CGTN英语
 http://xz.78057805.xyz:4002/rtp/225.1.4.16:1045
-#EXTINF:-1 group-title="河南联通-组播2",CGTN英语
+#EXTINF:-1 group-title="河南联通-组播1",CGTN英语
 http://xz.78057805.xyz:4002/rtp/225.1.5.34:1344
-#EXTINF:-1 group-title="河南联通-组播2",CGTN法语
+#EXTINF:-1 group-title="河南联通-组播1",CGTN法语
 http://xz.78057805.xyz:4002/rtp/225.1.5.37:1347
-#EXTINF:-1 group-title="河南联通-组播2",CGTN俄语
+#EXTINF:-1 group-title="河南联通-组播1",CGTN俄语
 http://xz.78057805.xyz:4002/rtp/225.1.5.39:1349
-#EXTINF:-1 group-title="河南联通-组播2",CGTN纪录
+#EXTINF:-1 group-title="河南联通-组播1",CGTN纪录
 http://xz.78057805.xyz:4002/rtp/225.1.5.35:1345
-#EXTINF:-1 group-title="河南联通-组播2",CETV-1综合教育
+#EXTINF:-1 group-title="河南联通-组播1",CETV-1综合教育
 http://xz.78057805.xyz:4002/rtp/225.1.4.173:1712
-#EXTINF:-1 group-title="河南联通-组播2",CETV-2空中课堂
+#EXTINF:-1 group-title="河南联通-组播1",CETV-2空中课堂
 http://xz.78057805.xyz:4002/rtp/225.1.4.165:1206
-#EXTINF:-1 group-title="河南联通-组播2",CETV-4职业教育
+#EXTINF:-1 group-title="河南联通-组播1",CETV-4职业教育
 http://xz.78057805.xyz:4002/rtp/225.1.4.171:1710
-#EXTINF:-1 group-title="河南联通-组播2",CHC家庭影院
+#EXTINF:-1 group-title="河南联通-组播1",CHC家庭影院
 http://xz.78057805.xyz:4002/rtp/225.1.4.209:1262
-#EXTINF:-1 group-title="河南联通-组播2",CHC影迷电影
+#EXTINF:-1 group-title="河南联通-组播1",CHC影迷电影
 http://xz.78057805.xyz:4002/rtp/225.1.4.207:1260
-#EXTINF:-1 group-title="河南联通-组播2",CHC动作电影
+#EXTINF:-1 group-title="河南联通-组播1",CHC动作电影
 http://xz.78057805.xyz:4002/rtp/225.1.4.208:1261
-#EXTINF:-1 group-title="河南联通-组播2",华数爱上4K电影
+#EXTINF:-1 group-title="河南联通-组播1",华数爱上4K电影
 http://xz.78057805.xyz:4002/rtp/225.1.4.6:1035
-#EXTINF:-1 group-title="河南联通-组播2",华数经典电影
+#EXTINF:-1 group-title="河南联通-组播1",华数经典电影
 http://xz.78057805.xyz:4002/rtp/225.1.4.175:1233
-#EXTINF:-1 group-title="河南联通-组播2",华数热播剧场
+#EXTINF:-1 group-title="河南联通-组播1",华数热播剧场
 http://xz.78057805.xyz:4002/rtp/225.1.4.190:1239
-#EXTINF:-1 group-title="河南联通-组播2",华数魅力时尚
+#EXTINF:-1 group-title="河南联通-组播1",华数魅力时尚
 http://xz.78057805.xyz:4002/rtp/225.1.4.205:1253
-#EXTINF:-1 group-title="河南联通-组播2",华数少儿动画
+#EXTINF:-1 group-title="河南联通-组播1",华数少儿动画
 http://xz.78057805.xyz:4002/rtp/225.1.4.189:1238
-#EXTINF:-1 group-title="河南联通-组播2",华数精选
+#EXTINF:-1 group-title="河南联通-组播1",华数精选
 http://xz.78057805.xyz:4002/rtp/225.1.4.253:1299
-#EXTINF:-1 group-title="河南联通-组播2",华数谍战剧场
+#EXTINF:-1 group-title="河南联通-组播1",华数谍战剧场
 http://xz.78057805.xyz:4002/rtp/225.1.4.185:1240
-#EXTINF:-1 group-title="河南联通-组播2",爱大剧
+#EXTINF:-1 group-title="河南联通-组播1",爱大剧
 http://xz.78057805.xyz:4002/rtp/225.1.4.8:1037
-#EXTINF:-1 group-title="河南联通-组播2",爱上4K
+#EXTINF:-1 group-title="河南联通-组播1",爱上4K
 http://xz.78057805.xyz:4002/rtp/225.1.4.162:1204
-#EXTINF:-1 group-title="河南联通-组播2",IPTV体育
+#EXTINF:-1 group-title="河南联通-组播1",IPTV体育
 http://xz.78057805.xyz:4002/rtp/225.1.4.168:1220
-#EXTINF:-1 group-title="河南联通-组播2",IPTV军事
+#EXTINF:-1 group-title="河南联通-组播1",IPTV军事
 http://xz.78057805.xyz:4002/rtp/225.1.4.181:1230
-#EXTINF:-1 group-title="河南联通-组播2",IPTV国学
+#EXTINF:-1 group-title="河南联通-组播1",IPTV国学
 http://xz.78057805.xyz:4002/rtp/225.1.4.178:1227
-#EXTINF:-1 group-title="河南联通-组播2",IPTV地理
+#EXTINF:-1 group-title="河南联通-组播1",IPTV地理
 http://xz.78057805.xyz:4002/rtp/225.1.4.183:1232
-#EXTINF:-1 group-title="河南联通-组播2",IPTV好学生
+#EXTINF:-1 group-title="河南联通-组播1",IPTV好学生
 http://xz.78057805.xyz:4002/rtp/225.1.4.177:1226
-#EXTINF:-1 group-title="河南联通-组播2",IPTV收视指南
+#EXTINF:-1 group-title="河南联通-组播1",IPTV收视指南
 http://xz.78057805.xyz:4002/rtp/225.1.4.50:1079
-#EXTINF:-1 group-title="河南联通-组播2",IPTV早教
+#EXTINF:-1 group-title="河南联通-组播1",IPTV早教
 http://xz.78057805.xyz:4002/rtp/225.1.4.179:1228
-#EXTINF:-1 group-title="河南联通-组播2",IPTV法治
+#EXTINF:-1 group-title="河南联通-组播1",IPTV法治
 http://xz.78057805.xyz:4002/rtp/225.1.4.188:1237
-#EXTINF:-1 group-title="河南联通-组播2",IPTV生活
+#EXTINF:-1 group-title="河南联通-组播1",IPTV生活
 http://xz.78057805.xyz:4002/rtp/225.1.4.176:1225
-#EXTINF:-1 group-title="河南联通-组播2",IPTV相声小品
+#EXTINF:-1 group-title="河南联通-组播1",IPTV相声小品
 http://xz.78057805.xyz:4002/rtp/225.1.4.186:1235
-#EXTINF:-1 group-title="河南联通-组播2",IPTV综艺
+#EXTINF:-1 group-title="河南联通-组播1",IPTV综艺
 http://xz.78057805.xyz:4002/rtp/225.1.4.204:1252
-#EXTINF:-1 group-title="河南联通-组播2",IPTV美妆
+#EXTINF:-1 group-title="河南联通-组播1",IPTV美妆
 http://xz.78057805.xyz:4002/rtp/225.1.4.182:1231
-#EXTINF:-1 group-title="河南联通-组播2",IPTV足球
+#EXTINF:-1 group-title="河南联通-组播1",IPTV足球
 http://xz.78057805.xyz:4002/rtp/225.1.4.200:1250
-#EXTINF:-1 group-title="河南联通-组播2",IPTV野外
+#EXTINF:-1 group-title="河南联通-组播1",IPTV野外
 http://xz.78057805.xyz:4002/rtp/225.1.4.187:1236
-#EXTINF:-1 group-title="河南联通-组播2",IPTV音乐
+#EXTINF:-1 group-title="河南联通-组播1",IPTV音乐
 http://xz.78057805.xyz:4002/rtp/225.1.4.184:1224
-#EXTINF:-1 group-title="河南联通-组播2",北京卡酷少儿
+#EXTINF:-1 group-title="河南联通-组播1",北京卡酷少儿
 http://xz.78057805.xyz:4002/rtp/225.1.4.48:1077
-#EXTINF:-1 group-title="河南联通-组播2",辽宁新动漫
+#EXTINF:-1 group-title="河南联通-组播1",辽宁新动漫
 http://xz.78057805.xyz:4002/rtp/225.1.4.212:1265
-#EXTINF:-1 group-title="河南联通-组播2",湖南金鹰纪实
+#EXTINF:-1 group-title="河南联通-组播1",湖南金鹰纪实
 http://xz.78057805.xyz:4002/rtp/225.1.4.172:1711
-#EXTINF:-1 group-title="河南联通-组播2",湖南金鹰卡通
+#EXTINF:-1 group-title="河南联通-组播1",湖南金鹰卡通
 http://xz.78057805.xyz:4002/rtp/225.1.4.49:1078
-#EXTINF:-1 group-title="河南联通-组播2",广东嘉佳卡通
+#EXTINF:-1 group-title="河南联通-组播1",广东嘉佳卡通
 http://xz.78057805.xyz:4002/rtp/225.1.4.92:1121
-#EXTINF:-1 group-title="河南联通-组播2",陕西国学频道
+#EXTINF:-1 group-title="河南联通-组播1",陕西国学频道
 http://xz.78057805.xyz:4002/rtp/225.1.4.196:1311
-#EXTINF:-1 group-title="河南联通-组播2",好享购物
+#EXTINF:-1 group-title="河南联通-组播1",好享购物
 http://xz.78057805.xyz:4002/rtp/225.1.4.232:1278
-#EXTINF:-1 group-title="河南联通-组播2",央广购物
+#EXTINF:-1 group-title="河南联通-组播1",央广购物
 http://xz.78057805.xyz:4002/rtp/225.1.4.230:1276
-#EXTINF:-1 group-title="河南联通-组播2",家有购物
+#EXTINF:-1 group-title="河南联通-组播1",家有购物
 http://xz.78057805.xyz:4002/rtp/225.1.4.223:1273
-#EXTINF:-1 group-title="河南联通-组播2",驻马店公共频道
+#EXTINF:-1 group-title="河南联通-组播1",驻马店公共频道
 http://xz.78057805.xyz:4002/rtp/225.1.4.136:1172
-#EXTINF:-1 group-title="河南联通-组播2",驻马店新闻综合
+#EXTINF:-1 group-title="河南联通-组播1",驻马店新闻综合
 http://xz.78057805.xyz:4002/rtp/225.1.4.132:1168
-#EXTINF:-1 group-title="河南联通-组播2",驻马店科教频道
+#EXTINF:-1 group-title="河南联通-组播1",驻马店科教频道
 http://xz.78057805.xyz:4002/rtp/225.1.4.133:1169
-#EXTINF:-1 group-title="河南联通-组播2",CGTN西班牙语
+#EXTINF:-1 group-title="河南联通-组播1",CGTN西班牙语
 http://xz.78057805.xyz:4002/rtp/225.1.5.36:1346
-#EXTINF:-1 group-title="河南联通-组播2",CGTN阿拉伯语
+#EXTINF:-1 group-title="河南联通-组播1",CGTN阿拉伯语
 http://xz.78057805.xyz:4002/rtp/225.1.5.38:1348
-#EXTINF:-1 group-title="河南联通-组播2",乒羽频道
+#EXTINF:-1 group-title="河南联通-组播1",乒羽频道
 http://xz.78057805.xyz:4002/rtp/225.1.4.210:1263
-#EXTINF:-1 group-title="河南联通-组播2",体育竞技
+#EXTINF:-1 group-title="河南联通-组播1",体育竞技
 http://xz.78057805.xyz:4002/rtp/225.1.4.235:1281
-#EXTINF:-1 group-title="河南联通-组播2",大象新闻
+#EXTINF:-1 group-title="河南联通-组播1",大象新闻
 http://xz.78057805.xyz:4002/rtp/225.1.5.45:1355
-#EXTINF:-1 group-title="河南联通-组播2",快乐购
+#EXTINF:-1 group-title="河南联通-组播1",快乐购
 http://xz.78057805.xyz:4002/rtp/225.1.4.231:1277
-#EXTINF:-1 group-title="河南联通-组播2",新蔡电视台
+#EXTINF:-1 group-title="河南联通-组播1",新蔡电视台
 http://xz.78057805.xyz:4002/rtp/225.1.5.29:1341
-#EXTINF:-1 group-title="河南联通-组播2",欢腾购物
+#EXTINF:-1 group-title="河南联通-组播1",欢腾购物
 http://xz.78057805.xyz:4002/rtp/225.1.4.236:1282
-#EXTINF:-1 group-title="河南联通-组播2",环球购物
+#EXTINF:-1 group-title="河南联通-组播1",环球购物
 http://xz.78057805.xyz:4002/rtp/225.1.4.229:1275
-#EXTINF:-1 group-title="河南联通-组播2",现场直播
+#EXTINF:-1 group-title="河南联通-组播1",现场直播
 http://xz.78057805.xyz:4002/rtp/225.1.5.42:1352
-#EXTINF:-1 group-title="河南联通-组播2",睛彩中原
+#EXTINF:-1 group-title="河南联通-组播1",睛彩中原
 http://xz.78057805.xyz:4002/rtp/225.1.4.163:1203
-#EXTINF:-1 group-title="河南联通-组播2",移动戏曲
+#EXTINF:-1 group-title="河南联通-组播1",移动戏曲
 http://xz.78057805.xyz:4002/rtp/225.1.4.206:1254
-#EXTINF:-1 group-title="河南联通-组播2",篮球
+#EXTINF:-1 group-title="河南联通-组播1",篮球
 http://xz.78057805.xyz:4002/rtp/225.1.4.237:1283
-#EXTINF:-1 group-title="河南联通-组播2",网络棋牌
+#EXTINF:-1 group-title="河南联通-组播1",网络棋牌
 http://xz.78057805.xyz:4002/rtp/225.1.4.211:1264
-#EXTINF:-1 group-title="河南联通-组播2",西平电视台
+#EXTINF:-1 group-title="河南联通-组播1",西平电视台
 http://xz.78057805.xyz:4002/rtp/225.1.5.28:1340
-#EXTINF:-1 group-title="河南联通-组播2",风尚购物
+#EXTINF:-1 group-title="河南联通-组播1",风尚购物
 http://xz.78057805.xyz:4002/rtp/225.1.4.233:1279
-#EXTINF:-1 group-title="河南联通-组播3",河南卫视
+#EXTINF:-1 group-title="河南联通-组播2",河南卫视
 http://www.flyju.top:8899/rtp/225.1.4.98:1127
-#EXTINF:-1 group-title="河南联通-组播3",河南卫视
+#EXTINF:-1 group-title="河南联通-组播2",河南卫视
 http://www.flyju.top:8899/rtp/225.1.4.254:1300
-#EXTINF:-1 group-title="河南联通-组播3",河南IPTV导视
+#EXTINF:-1 group-title="河南联通-组播2",河南IPTV导视
 http://www.flyju.top:8899/rtp/225.1.4.194:1244
-#EXTINF:-1 group-title="河南联通-组播3",河南中华功夫
+#EXTINF:-1 group-title="河南联通-组播2",河南中华功夫
 http://www.flyju.top:8899/rtp/225.1.4.101:1130
-#EXTINF:-1 group-title="河南联通-组播3",河南乡村频道
+#EXTINF:-1 group-title="河南联通-组播2",河南乡村频道
 http://www.flyju.top:8899/rtp/225.1.4.120:1149
-#EXTINF:-1 group-title="河南联通-组播3",河南公共频道
+#EXTINF:-1 group-title="河南联通-组播2",河南公共频道
 http://www.flyju.top:8899/rtp/225.1.4.58:1087
-#EXTINF:-1 group-title="河南联通-组播3",河南国际频道
+#EXTINF:-1 group-title="河南联通-组播2",河南国际频道
 http://www.flyju.top:8899/rtp/225.1.4.102:1131
-#EXTINF:-1 group-title="河南联通-组播3",河南戏曲频道
+#EXTINF:-1 group-title="河南联通-组播2",河南戏曲频道
 http://www.flyju.top:8899/rtp/225.1.4.99:1128
-#EXTINF:-1 group-title="河南联通-组播3",河南收藏天下
+#EXTINF:-1 group-title="河南联通-组播2",河南收藏天下
 http://www.flyju.top:8899/rtp/225.1.4.100:1129
-#EXTINF:-1 group-title="河南联通-组播3",河南新闻频道
+#EXTINF:-1 group-title="河南联通-组播2",河南新闻频道
 http://www.flyju.top:8899/rtp/225.1.4.56:1085
-#EXTINF:-1 group-title="河南联通-组播3",河南欢腾购物
+#EXTINF:-1 group-title="河南联通-组播2",河南欢腾购物
 http://www.flyju.top:8899/rtp/225.1.4.57:1086
-#EXTINF:-1 group-title="河南联通-组播3",河南民生频道
+#EXTINF:-1 group-title="河南联通-组播2",河南民生频道
 http://www.flyju.top:8899/rtp/225.1.4.53:1082
-#EXTINF:-1 group-title="河南联通-组播3",河南法治频道
+#EXTINF:-1 group-title="河南联通-组播2",河南法治频道
 http://www.flyju.top:8899/rtp/225.1.4.54:1083
-#EXTINF:-1 group-title="河南联通-组播3",河南电视剧频道
+#EXTINF:-1 group-title="河南联通-组播2",河南电视剧频道
 http://www.flyju.top:8899/rtp/225.1.4.55:1084
-#EXTINF:-1 group-title="河南联通-组播3",河南移动电视
+#EXTINF:-1 group-title="河南联通-组播2",河南移动电视
 http://www.flyju.top:8899/rtp/225.1.5.40:1350
-#EXTINF:-1 group-title="河南联通-组播3",河南都市频道
+#EXTINF:-1 group-title="河南联通-组播2",河南都市频道
 http://www.flyju.top:8899/rtp/225.1.4.52:1081
-#EXTINF:-1 group-title="河南联通-组播3",CCTV-高尔夫·网球
+#EXTINF:-1 group-title="河南联通-组播2",CCTV-高尔夫·网球
 http://www.flyju.top:8899/rtp/225.1.4.180:1229
-#EXTINF:-1 group-title="河南联通-组播3",CGTN英语
+#EXTINF:-1 group-title="河南联通-组播2",CGTN英语
 http://www.flyju.top:8899/rtp/225.1.4.16:1045
-#EXTINF:-1 group-title="河南联通-组播3",CGTN英语
+#EXTINF:-1 group-title="河南联通-组播2",CGTN英语
 http://www.flyju.top:8899/rtp/225.1.5.34:1344
-#EXTINF:-1 group-title="河南联通-组播3",CGTN法语
+#EXTINF:-1 group-title="河南联通-组播2",CGTN法语
 http://www.flyju.top:8899/rtp/225.1.5.37:1347
-#EXTINF:-1 group-title="河南联通-组播3",CGTN俄语
+#EXTINF:-1 group-title="河南联通-组播2",CGTN俄语
 http://www.flyju.top:8899/rtp/225.1.5.39:1349
-#EXTINF:-1 group-title="河南联通-组播3",CGTN纪录
+#EXTINF:-1 group-title="河南联通-组播2",CGTN纪录
 http://www.flyju.top:8899/rtp/225.1.5.35:1345
-#EXTINF:-1 group-title="河南联通-组播3",CETV-1综合教育
+#EXTINF:-1 group-title="河南联通-组播2",CETV-1综合教育
 http://www.flyju.top:8899/rtp/225.1.4.173:1712
-#EXTINF:-1 group-title="河南联通-组播3",CETV-2空中课堂
+#EXTINF:-1 group-title="河南联通-组播2",CETV-2空中课堂
 http://www.flyju.top:8899/rtp/225.1.4.165:1206
-#EXTINF:-1 group-title="河南联通-组播3",CETV-4职业教育
+#EXTINF:-1 group-title="河南联通-组播2",CETV-4职业教育
 http://www.flyju.top:8899/rtp/225.1.4.171:1710
-#EXTINF:-1 group-title="河南联通-组播3",CHC家庭影院
+#EXTINF:-1 group-title="河南联通-组播2",CHC家庭影院
 http://www.flyju.top:8899/rtp/225.1.4.209:1262
-#EXTINF:-1 group-title="河南联通-组播3",CHC影迷电影
+#EXTINF:-1 group-title="河南联通-组播2",CHC影迷电影
 http://www.flyju.top:8899/rtp/225.1.4.207:1260
-#EXTINF:-1 group-title="河南联通-组播3",CHC动作电影
+#EXTINF:-1 group-title="河南联通-组播2",CHC动作电影
 http://www.flyju.top:8899/rtp/225.1.4.208:1261
-#EXTINF:-1 group-title="河南联通-组播3",华数爱上4K电影
+#EXTINF:-1 group-title="河南联通-组播2",华数爱上4K电影
 http://www.flyju.top:8899/rtp/225.1.4.6:1035
-#EXTINF:-1 group-title="河南联通-组播3",华数经典电影
+#EXTINF:-1 group-title="河南联通-组播2",华数经典电影
 http://www.flyju.top:8899/rtp/225.1.4.175:1233
-#EXTINF:-1 group-title="河南联通-组播3",华数热播剧场
+#EXTINF:-1 group-title="河南联通-组播2",华数热播剧场
 http://www.flyju.top:8899/rtp/225.1.4.190:1239
-#EXTINF:-1 group-title="河南联通-组播3",华数魅力时尚
+#EXTINF:-1 group-title="河南联通-组播2",华数魅力时尚
 http://www.flyju.top:8899/rtp/225.1.4.205:1253
-#EXTINF:-1 group-title="河南联通-组播3",华数少儿动画
+#EXTINF:-1 group-title="河南联通-组播2",华数少儿动画
 http://www.flyju.top:8899/rtp/225.1.4.189:1238
-#EXTINF:-1 group-title="河南联通-组播3",华数精选
+#EXTINF:-1 group-title="河南联通-组播2",华数精选
 http://www.flyju.top:8899/rtp/225.1.4.253:1299
-#EXTINF:-1 group-title="河南联通-组播3",华数谍战剧场
+#EXTINF:-1 group-title="河南联通-组播2",华数谍战剧场
 http://www.flyju.top:8899/rtp/225.1.4.185:1240
-#EXTINF:-1 group-title="河南联通-组播3",爱大剧
+#EXTINF:-1 group-title="河南联通-组播2",爱大剧
 http://www.flyju.top:8899/rtp/225.1.4.8:1037
-#EXTINF:-1 group-title="河南联通-组播3",爱上4K
+#EXTINF:-1 group-title="河南联通-组播2",爱上4K
 http://www.flyju.top:8899/rtp/225.1.4.162:1204
-#EXTINF:-1 group-title="河南联通-组播3",IPTV体育
+#EXTINF:-1 group-title="河南联通-组播2",IPTV体育
 http://www.flyju.top:8899/rtp/225.1.4.168:1220
-#EXTINF:-1 group-title="河南联通-组播3",IPTV军事
+#EXTINF:-1 group-title="河南联通-组播2",IPTV军事
 http://www.flyju.top:8899/rtp/225.1.4.181:1230
-#EXTINF:-1 group-title="河南联通-组播3",IPTV国学
+#EXTINF:-1 group-title="河南联通-组播2",IPTV国学
 http://www.flyju.top:8899/rtp/225.1.4.178:1227
-#EXTINF:-1 group-title="河南联通-组播3",IPTV地理
+#EXTINF:-1 group-title="河南联通-组播2",IPTV地理
 http://www.flyju.top:8899/rtp/225.1.4.183:1232
-#EXTINF:-1 group-title="河南联通-组播3",IPTV好学生
+#EXTINF:-1 group-title="河南联通-组播2",IPTV好学生
 http://www.flyju.top:8899/rtp/225.1.4.177:1226
-#EXTINF:-1 group-title="河南联通-组播3",IPTV收视指南
+#EXTINF:-1 group-title="河南联通-组播2",IPTV收视指南
 http://www.flyju.top:8899/rtp/225.1.4.50:1079
-#EXTINF:-1 group-title="河南联通-组播3",IPTV早教
+#EXTINF:-1 group-title="河南联通-组播2",IPTV早教
 http://www.flyju.top:8899/rtp/225.1.4.179:1228
-#EXTINF:-1 group-title="河南联通-组播3",IPTV法治
+#EXTINF:-1 group-title="河南联通-组播2",IPTV法治
 http://www.flyju.top:8899/rtp/225.1.4.188:1237
-#EXTINF:-1 group-title="河南联通-组播3",IPTV生活
+#EXTINF:-1 group-title="河南联通-组播2",IPTV生活
 http://www.flyju.top:8899/rtp/225.1.4.176:1225
-#EXTINF:-1 group-title="河南联通-组播3",IPTV相声小品
+#EXTINF:-1 group-title="河南联通-组播2",IPTV相声小品
 http://www.flyju.top:8899/rtp/225.1.4.186:1235
-#EXTINF:-1 group-title="河南联通-组播3",IPTV综艺
+#EXTINF:-1 group-title="河南联通-组播2",IPTV综艺
 http://www.flyju.top:8899/rtp/225.1.4.204:1252
-#EXTINF:-1 group-title="河南联通-组播3",IPTV美妆
+#EXTINF:-1 group-title="河南联通-组播2",IPTV美妆
 http://www.flyju.top:8899/rtp/225.1.4.182:1231
-#EXTINF:-1 group-title="河南联通-组播3",IPTV足球
+#EXTINF:-1 group-title="河南联通-组播2",IPTV足球
 http://www.flyju.top:8899/rtp/225.1.4.200:1250
-#EXTINF:-1 group-title="河南联通-组播3",IPTV野外
+#EXTINF:-1 group-title="河南联通-组播2",IPTV野外
 http://www.flyju.top:8899/rtp/225.1.4.187:1236
-#EXTINF:-1 group-title="河南联通-组播3",IPTV音乐
+#EXTINF:-1 group-title="河南联通-组播2",IPTV音乐
 http://www.flyju.top:8899/rtp/225.1.4.184:1224
-#EXTINF:-1 group-title="河南联通-组播3",北京卡酷少儿
+#EXTINF:-1 group-title="河南联通-组播2",北京卡酷少儿
 http://www.flyju.top:8899/rtp/225.1.4.48:1077
-#EXTINF:-1 group-title="河南联通-组播3",辽宁新动漫
+#EXTINF:-1 group-title="河南联通-组播2",辽宁新动漫
 http://www.flyju.top:8899/rtp/225.1.4.212:1265
-#EXTINF:-1 group-title="河南联通-组播3",湖南金鹰纪实
+#EXTINF:-1 group-title="河南联通-组播2",湖南金鹰纪实
 http://www.flyju.top:8899/rtp/225.1.4.172:1711
-#EXTINF:-1 group-title="河南联通-组播3",湖南金鹰卡通
+#EXTINF:-1 group-title="河南联通-组播2",湖南金鹰卡通
 http://www.flyju.top:8899/rtp/225.1.4.49:1078
-#EXTINF:-1 group-title="河南联通-组播3",广东嘉佳卡通
+#EXTINF:-1 group-title="河南联通-组播2",广东嘉佳卡通
 http://www.flyju.top:8899/rtp/225.1.4.92:1121
-#EXTINF:-1 group-title="河南联通-组播3",陕西国学频道
+#EXTINF:-1 group-title="河南联通-组播2",陕西国学频道
 http://www.flyju.top:8899/rtp/225.1.4.196:1311
-#EXTINF:-1 group-title="河南联通-组播3",好享购物
+#EXTINF:-1 group-title="河南联通-组播2",好享购物
 http://www.flyju.top:8899/rtp/225.1.4.232:1278
-#EXTINF:-1 group-title="河南联通-组播3",央广购物
+#EXTINF:-1 group-title="河南联通-组播2",央广购物
 http://www.flyju.top:8899/rtp/225.1.4.230:1276
-#EXTINF:-1 group-title="河南联通-组播3",家有购物
+#EXTINF:-1 group-title="河南联通-组播2",家有购物
 http://www.flyju.top:8899/rtp/225.1.4.223:1273
-#EXTINF:-1 group-title="河南联通-组播3",驻马店公共频道
+#EXTINF:-1 group-title="河南联通-组播2",驻马店公共频道
 http://www.flyju.top:8899/rtp/225.1.4.136:1172
-#EXTINF:-1 group-title="河南联通-组播3",驻马店新闻综合
+#EXTINF:-1 group-title="河南联通-组播2",驻马店新闻综合
 http://www.flyju.top:8899/rtp/225.1.4.132:1168
-#EXTINF:-1 group-title="河南联通-组播3",驻马店科教频道
+#EXTINF:-1 group-title="河南联通-组播2",驻马店科教频道
 http://www.flyju.top:8899/rtp/225.1.4.133:1169
-#EXTINF:-1 group-title="河南联通-组播3",CGTN西班牙语
+#EXTINF:-1 group-title="河南联通-组播2",CGTN西班牙语
 http://www.flyju.top:8899/rtp/225.1.5.36:1346
-#EXTINF:-1 group-title="河南联通-组播3",CGTN阿拉伯语
+#EXTINF:-1 group-title="河南联通-组播2",CGTN阿拉伯语
 http://www.flyju.top:8899/rtp/225.1.5.38:1348
-#EXTINF:-1 group-title="河南联通-组播3",乒羽频道
+#EXTINF:-1 group-title="河南联通-组播2",乒羽频道
 http://www.flyju.top:8899/rtp/225.1.4.210:1263
-#EXTINF:-1 group-title="河南联通-组播3",体育竞技
+#EXTINF:-1 group-title="河南联通-组播2",体育竞技
 http://www.flyju.top:8899/rtp/225.1.4.235:1281
-#EXTINF:-1 group-title="河南联通-组播3",大象新闻
+#EXTINF:-1 group-title="河南联通-组播2",大象新闻
 http://www.flyju.top:8899/rtp/225.1.5.45:1355
-#EXTINF:-1 group-title="河南联通-组播3",快乐购
+#EXTINF:-1 group-title="河南联通-组播2",快乐购
 http://www.flyju.top:8899/rtp/225.1.4.231:1277
-#EXTINF:-1 group-title="河南联通-组播3",新蔡电视台
+#EXTINF:-1 group-title="河南联通-组播2",新蔡电视台
 http://www.flyju.top:8899/rtp/225.1.5.29:1341
-#EXTINF:-1 group-title="河南联通-组播3",欢腾购物
+#EXTINF:-1 group-title="河南联通-组播2",欢腾购物
 http://www.flyju.top:8899/rtp/225.1.4.236:1282
-#EXTINF:-1 group-title="河南联通-组播3",环球购物
+#EXTINF:-1 group-title="河南联通-组播2",环球购物
 http://www.flyju.top:8899/rtp/225.1.4.229:1275
-#EXTINF:-1 group-title="河南联通-组播3",现场直播
+#EXTINF:-1 group-title="河南联通-组播2",现场直播
 http://www.flyju.top:8899/rtp/225.1.5.42:1352
-#EXTINF:-1 group-title="河南联通-组播3",睛彩中原
+#EXTINF:-1 group-title="河南联通-组播2",睛彩中原
 http://www.flyju.top:8899/rtp/225.1.4.163:1203
-#EXTINF:-1 group-title="河南联通-组播3",移动戏曲
+#EXTINF:-1 group-title="河南联通-组播2",移动戏曲
 http://www.flyju.top:8899/rtp/225.1.4.206:1254
-#EXTINF:-1 group-title="河南联通-组播3",篮球
+#EXTINF:-1 group-title="河南联通-组播2",篮球
 http://www.flyju.top:8899/rtp/225.1.4.237:1283
-#EXTINF:-1 group-title="河南联通-组播3",网络棋牌
+#EXTINF:-1 group-title="河南联通-组播2",网络棋牌
 http://www.flyju.top:8899/rtp/225.1.4.211:1264
-#EXTINF:-1 group-title="河南联通-组播3",西平电视台
+#EXTINF:-1 group-title="河南联通-组播2",西平电视台
 http://www.flyju.top:8899/rtp/225.1.5.28:1340
-#EXTINF:-1 group-title="河南联通-组播3",风尚购物
+#EXTINF:-1 group-title="河南联通-组播2",风尚购物
 http://www.flyju.top:8899/rtp/225.1.4.233:1279
-#EXTINF:-1 group-title="河南联通-组播4",河南卫视
+#EXTINF:-1 group-title="河南联通-组播3",河南卫视
 http://42.238.251.112:8012/rtp/225.1.4.98:1127
-#EXTINF:-1 group-title="河南联通-组播4",河南卫视
+#EXTINF:-1 group-title="河南联通-组播3",河南卫视
 http://42.238.251.112:8012/rtp/225.1.4.254:1300
-#EXTINF:-1 group-title="河南联通-组播4",河南IPTV导视
+#EXTINF:-1 group-title="河南联通-组播3",河南IPTV导视
 http://42.238.251.112:8012/rtp/225.1.4.194:1244
-#EXTINF:-1 group-title="河南联通-组播4",河南中华功夫
+#EXTINF:-1 group-title="河南联通-组播3",河南中华功夫
 http://42.238.251.112:8012/rtp/225.1.4.101:1130
-#EXTINF:-1 group-title="河南联通-组播4",河南乡村频道
+#EXTINF:-1 group-title="河南联通-组播3",河南乡村频道
 http://42.238.251.112:8012/rtp/225.1.4.120:1149
-#EXTINF:-1 group-title="河南联通-组播4",河南公共频道
+#EXTINF:-1 group-title="河南联通-组播3",河南公共频道
 http://42.238.251.112:8012/rtp/225.1.4.58:1087
-#EXTINF:-1 group-title="河南联通-组播4",河南国际频道
+#EXTINF:-1 group-title="河南联通-组播3",河南国际频道
 http://42.238.251.112:8012/rtp/225.1.4.102:1131
-#EXTINF:-1 group-title="河南联通-组播4",河南戏曲频道
+#EXTINF:-1 group-title="河南联通-组播3",河南戏曲频道
 http://42.238.251.112:8012/rtp/225.1.4.99:1128
-#EXTINF:-1 group-title="河南联通-组播4",河南收藏天下
+#EXTINF:-1 group-title="河南联通-组播3",河南收藏天下
 http://42.238.251.112:8012/rtp/225.1.4.100:1129
-#EXTINF:-1 group-title="河南联通-组播4",河南新闻频道
+#EXTINF:-1 group-title="河南联通-组播3",河南新闻频道
 http://42.238.251.112:8012/rtp/225.1.4.56:1085
-#EXTINF:-1 group-title="河南联通-组播4",河南欢腾购物
+#EXTINF:-1 group-title="河南联通-组播3",河南欢腾购物
 http://42.238.251.112:8012/rtp/225.1.4.57:1086
-#EXTINF:-1 group-title="河南联通-组播4",河南民生频道
+#EXTINF:-1 group-title="河南联通-组播3",河南民生频道
 http://42.238.251.112:8012/rtp/225.1.4.53:1082
-#EXTINF:-1 group-title="河南联通-组播4",河南法治频道
+#EXTINF:-1 group-title="河南联通-组播3",河南法治频道
 http://42.238.251.112:8012/rtp/225.1.4.54:1083
-#EXTINF:-1 group-title="河南联通-组播4",河南电视剧频道
+#EXTINF:-1 group-title="河南联通-组播3",河南电视剧频道
 http://42.238.251.112:8012/rtp/225.1.4.55:1084
-#EXTINF:-1 group-title="河南联通-组播4",河南移动电视
+#EXTINF:-1 group-title="河南联通-组播3",河南移动电视
 http://42.238.251.112:8012/rtp/225.1.5.40:1350
-#EXTINF:-1 group-title="河南联通-组播4",河南都市频道
+#EXTINF:-1 group-title="河南联通-组播3",河南都市频道
 http://42.238.251.112:8012/rtp/225.1.4.52:1081
-#EXTINF:-1 group-title="河南联通-组播4",CCTV-高尔夫·网球
+#EXTINF:-1 group-title="河南联通-组播3",CCTV-高尔夫·网球
 http://42.238.251.112:8012/rtp/225.1.4.180:1229
-#EXTINF:-1 group-title="河南联通-组播4",CGTN英语
+#EXTINF:-1 group-title="河南联通-组播3",CGTN英语
 http://42.238.251.112:8012/rtp/225.1.4.16:1045
-#EXTINF:-1 group-title="河南联通-组播4",CGTN英语
+#EXTINF:-1 group-title="河南联通-组播3",CGTN英语
 http://42.238.251.112:8012/rtp/225.1.5.34:1344
-#EXTINF:-1 group-title="河南联通-组播4",CGTN法语
+#EXTINF:-1 group-title="河南联通-组播3",CGTN法语
 http://42.238.251.112:8012/rtp/225.1.5.37:1347
-#EXTINF:-1 group-title="河南联通-组播4",CGTN俄语
+#EXTINF:-1 group-title="河南联通-组播3",CGTN俄语
 http://42.238.251.112:8012/rtp/225.1.5.39:1349
-#EXTINF:-1 group-title="河南联通-组播4",CGTN纪录
+#EXTINF:-1 group-title="河南联通-组播3",CGTN纪录
 http://42.238.251.112:8012/rtp/225.1.5.35:1345
-#EXTINF:-1 group-title="河南联通-组播4",CETV-1综合教育
+#EXTINF:-1 group-title="河南联通-组播3",CETV-1综合教育
 http://42.238.251.112:8012/rtp/225.1.4.173:1712
-#EXTINF:-1 group-title="河南联通-组播4",CETV-2空中课堂
+#EXTINF:-1 group-title="河南联通-组播3",CETV-2空中课堂
 http://42.238.251.112:8012/rtp/225.1.4.165:1206
-#EXTINF:-1 group-title="河南联通-组播4",CETV-4职业教育
+#EXTINF:-1 group-title="河南联通-组播3",CETV-4职业教育
 http://42.238.251.112:8012/rtp/225.1.4.171:1710
-#EXTINF:-1 group-title="河南联通-组播4",CHC家庭影院
+#EXTINF:-1 group-title="河南联通-组播3",CHC家庭影院
 http://42.238.251.112:8012/rtp/225.1.4.209:1262
-#EXTINF:-1 group-title="河南联通-组播4",CHC影迷电影
+#EXTINF:-1 group-title="河南联通-组播3",CHC影迷电影
 http://42.238.251.112:8012/rtp/225.1.4.207:1260
-#EXTINF:-1 group-title="河南联通-组播4",CHC动作电影
+#EXTINF:-1 group-title="河南联通-组播3",CHC动作电影
 http://42.238.251.112:8012/rtp/225.1.4.208:1261
-#EXTINF:-1 group-title="河南联通-组播4",华数爱上4K电影
+#EXTINF:-1 group-title="河南联通-组播3",华数爱上4K电影
 http://42.238.251.112:8012/rtp/225.1.4.6:1035
-#EXTINF:-1 group-title="河南联通-组播4",华数经典电影
+#EXTINF:-1 group-title="河南联通-组播3",华数经典电影
 http://42.238.251.112:8012/rtp/225.1.4.175:1233
-#EXTINF:-1 group-title="河南联通-组播4",华数热播剧场
+#EXTINF:-1 group-title="河南联通-组播3",华数热播剧场
 http://42.238.251.112:8012/rtp/225.1.4.190:1239
-#EXTINF:-1 group-title="河南联通-组播4",华数魅力时尚
+#EXTINF:-1 group-title="河南联通-组播3",华数魅力时尚
 http://42.238.251.112:8012/rtp/225.1.4.205:1253
-#EXTINF:-1 group-title="河南联通-组播4",华数少儿动画
+#EXTINF:-1 group-title="河南联通-组播3",华数少儿动画
 http://42.238.251.112:8012/rtp/225.1.4.189:1238
-#EXTINF:-1 group-title="河南联通-组播4",华数精选
+#EXTINF:-1 group-title="河南联通-组播3",华数精选
 http://42.238.251.112:8012/rtp/225.1.4.253:1299
-#EXTINF:-1 group-title="河南联通-组播4",华数谍战剧场
+#EXTINF:-1 group-title="河南联通-组播3",华数谍战剧场
 http://42.238.251.112:8012/rtp/225.1.4.185:1240
-#EXTINF:-1 group-title="河南联通-组播4",爱大剧
+#EXTINF:-1 group-title="河南联通-组播3",爱大剧
 http://42.238.251.112:8012/rtp/225.1.4.8:1037
-#EXTINF:-1 group-title="河南联通-组播4",爱上4K
+#EXTINF:-1 group-title="河南联通-组播3",爱上4K
 http://42.238.251.112:8012/rtp/225.1.4.162:1204
-#EXTINF:-1 group-title="河南联通-组播4",IPTV体育
+#EXTINF:-1 group-title="河南联通-组播3",IPTV体育
 http://42.238.251.112:8012/rtp/225.1.4.168:1220
-#EXTINF:-1 group-title="河南联通-组播4",IPTV军事
+#EXTINF:-1 group-title="河南联通-组播3",IPTV军事
 http://42.238.251.112:8012/rtp/225.1.4.181:1230
-#EXTINF:-1 group-title="河南联通-组播4",IPTV国学
+#EXTINF:-1 group-title="河南联通-组播3",IPTV国学
 http://42.238.251.112:8012/rtp/225.1.4.178:1227
-#EXTINF:-1 group-title="河南联通-组播4",IPTV地理
+#EXTINF:-1 group-title="河南联通-组播3",IPTV地理
 http://42.238.251.112:8012/rtp/225.1.4.183:1232
-#EXTINF:-1 group-title="河南联通-组播4",IPTV好学生
+#EXTINF:-1 group-title="河南联通-组播3",IPTV好学生
 http://42.238.251.112:8012/rtp/225.1.4.177:1226
-#EXTINF:-1 group-title="河南联通-组播4",IPTV收视指南
+#EXTINF:-1 group-title="河南联通-组播3",IPTV收视指南
 http://42.238.251.112:8012/rtp/225.1.4.50:1079
-#EXTINF:-1 group-title="河南联通-组播4",IPTV早教
+#EXTINF:-1 group-title="河南联通-组播3",IPTV早教
 http://42.238.251.112:8012/rtp/225.1.4.179:1228
-#EXTINF:-1 group-title="河南联通-组播4",IPTV法治
+#EXTINF:-1 group-title="河南联通-组播3",IPTV法治
 http://42.238.251.112:8012/rtp/225.1.4.188:1237
-#EXTINF:-1 group-title="河南联通-组播4",IPTV生活
+#EXTINF:-1 group-title="河南联通-组播3",IPTV生活
 http://42.238.251.112:8012/rtp/225.1.4.176:1225
-#EXTINF:-1 group-title="河南联通-组播4",IPTV相声小品
+#EXTINF:-1 group-title="河南联通-组播3",IPTV相声小品
 http://42.238.251.112:8012/rtp/225.1.4.186:1235
-#EXTINF:-1 group-title="河南联通-组播4",IPTV综艺
+#EXTINF:-1 group-title="河南联通-组播3",IPTV综艺
 http://42.238.251.112:8012/rtp/225.1.4.204:1252
-#EXTINF:-1 group-title="河南联通-组播4",IPTV美妆
+#EXTINF:-1 group-title="河南联通-组播3",IPTV美妆
 http://42.238.251.112:8012/rtp/225.1.4.182:1231
-#EXTINF:-1 group-title="河南联通-组播4",IPTV足球
+#EXTINF:-1 group-title="河南联通-组播3",IPTV足球
 http://42.238.251.112:8012/rtp/225.1.4.200:1250
-#EXTINF:-1 group-title="河南联通-组播4",IPTV野外
+#EXTINF:-1 group-title="河南联通-组播3",IPTV野外
 http://42.238.251.112:8012/rtp/225.1.4.187:1236
-#EXTINF:-1 group-title="河南联通-组播4",IPTV音乐
+#EXTINF:-1 group-title="河南联通-组播3",IPTV音乐
 http://42.238.251.112:8012/rtp/225.1.4.184:1224
-#EXTINF:-1 group-title="河南联通-组播4",北京卡酷少儿
+#EXTINF:-1 group-title="河南联通-组播3",北京卡酷少儿
 http://42.238.251.112:8012/rtp/225.1.4.48:1077
-#EXTINF:-1 group-title="河南联通-组播4",辽宁新动漫
+#EXTINF:-1 group-title="河南联通-组播3",辽宁新动漫
 http://42.238.251.112:8012/rtp/225.1.4.212:1265
-#EXTINF:-1 group-title="河南联通-组播4",湖南金鹰纪实
+#EXTINF:-1 group-title="河南联通-组播3",湖南金鹰纪实
 http://42.238.251.112:8012/rtp/225.1.4.172:1711
-#EXTINF:-1 group-title="河南联通-组播4",湖南金鹰卡通
+#EXTINF:-1 group-title="河南联通-组播3",湖南金鹰卡通
 http://42.238.251.112:8012/rtp/225.1.4.49:1078
-#EXTINF:-1 group-title="河南联通-组播4",广东嘉佳卡通
+#EXTINF:-1 group-title="河南联通-组播3",广东嘉佳卡通
 http://42.238.251.112:8012/rtp/225.1.4.92:1121
-#EXTINF:-1 group-title="河南联通-组播4",陕西国学频道
+#EXTINF:-1 group-title="河南联通-组播3",陕西国学频道
 http://42.238.251.112:8012/rtp/225.1.4.196:1311
-#EXTINF:-1 group-title="河南联通-组播4",好享购物
+#EXTINF:-1 group-title="河南联通-组播3",好享购物
 http://42.238.251.112:8012/rtp/225.1.4.232:1278
-#EXTINF:-1 group-title="河南联通-组播4",央广购物
+#EXTINF:-1 group-title="河南联通-组播3",央广购物
 http://42.238.251.112:8012/rtp/225.1.4.230:1276
-#EXTINF:-1 group-title="河南联通-组播4",家有购物
+#EXTINF:-1 group-title="河南联通-组播3",家有购物
 http://42.238.251.112:8012/rtp/225.1.4.223:1273
-#EXTINF:-1 group-title="河南联通-组播4",驻马店公共频道
+#EXTINF:-1 group-title="河南联通-组播3",驻马店公共频道
 http://42.238.251.112:8012/rtp/225.1.4.136:1172
-#EXTINF:-1 group-title="河南联通-组播4",驻马店新闻综合
+#EXTINF:-1 group-title="河南联通-组播3",驻马店新闻综合
 http://42.238.251.112:8012/rtp/225.1.4.132:1168
-#EXTINF:-1 group-title="河南联通-组播4",驻马店科教频道
+#EXTINF:-1 group-title="河南联通-组播3",驻马店科教频道
 http://42.238.251.112:8012/rtp/225.1.4.133:1169
-#EXTINF:-1 group-title="河南联通-组播4",CGTN西班牙语
+#EXTINF:-1 group-title="河南联通-组播3",CGTN西班牙语
 http://42.238.251.112:8012/rtp/225.1.5.36:1346
-#EXTINF:-1 group-title="河南联通-组播4",CGTN阿拉伯语
+#EXTINF:-1 group-title="河南联通-组播3",CGTN阿拉伯语
 http://42.238.251.112:8012/rtp/225.1.5.38:1348
-#EXTINF:-1 group-title="河南联通-组播4",乒羽频道
+#EXTINF:-1 group-title="河南联通-组播3",乒羽频道
 http://42.238.251.112:8012/rtp/225.1.4.210:1263
-#EXTINF:-1 group-title="河南联通-组播4",体育竞技
+#EXTINF:-1 group-title="河南联通-组播3",体育竞技
 http://42.238.251.112:8012/rtp/225.1.4.235:1281
-#EXTINF:-1 group-title="河南联通-组播4",大象新闻
+#EXTINF:-1 group-title="河南联通-组播3",大象新闻
 http://42.238.251.112:8012/rtp/225.1.5.45:1355
-#EXTINF:-1 group-title="河南联通-组播4",快乐购
+#EXTINF:-1 group-title="河南联通-组播3",快乐购
 http://42.238.251.112:8012/rtp/225.1.4.231:1277
-#EXTINF:-1 group-title="河南联通-组播4",新蔡电视台
+#EXTINF:-1 group-title="河南联通-组播3",新蔡电视台
 http://42.238.251.112:8012/rtp/225.1.5.29:1341
-#EXTINF:-1 group-title="河南联通-组播4",欢腾购物
+#EXTINF:-1 group-title="河南联通-组播3",欢腾购物
 http://42.238.251.112:8012/rtp/225.1.4.236:1282
-#EXTINF:-1 group-title="河南联通-组播4",环球购物
+#EXTINF:-1 group-title="河南联通-组播3",环球购物
 http://42.238.251.112:8012/rtp/225.1.4.229:1275
-#EXTINF:-1 group-title="河南联通-组播4",现场直播
+#EXTINF:-1 group-title="河南联通-组播3",现场直播
 http://42.238.251.112:8012/rtp/225.1.5.42:1352
-#EXTINF:-1 group-title="河南联通-组播4",睛彩中原
+#EXTINF:-1 group-title="河南联通-组播3",睛彩中原
 http://42.238.251.112:8012/rtp/225.1.4.163:1203
-#EXTINF:-1 group-title="河南联通-组播4",移动戏曲
+#EXTINF:-1 group-title="河南联通-组播3",移动戏曲
 http://42.238.251.112:8012/rtp/225.1.4.206:1254
-#EXTINF:-1 group-title="河南联通-组播4",篮球
+#EXTINF:-1 group-title="河南联通-组播3",篮球
 http://42.238.251.112:8012/rtp/225.1.4.237:1283
-#EXTINF:-1 group-title="河南联通-组播4",网络棋牌
+#EXTINF:-1 group-title="河南联通-组播3",网络棋牌
 http://42.238.251.112:8012/rtp/225.1.4.211:1264
-#EXTINF:-1 group-title="河南联通-组播4",西平电视台
+#EXTINF:-1 group-title="河南联通-组播3",西平电视台
 http://42.238.251.112:8012/rtp/225.1.5.28:1340
-#EXTINF:-1 group-title="河南联通-组播4",风尚购物
+#EXTINF:-1 group-title="河南联通-组播3",风尚购物
 http://42.238.251.112:8012/rtp/225.1.4.233:1279
-#EXTINF:-1 group-title="河南联通-组播5",河南卫视
+#EXTINF:-1 group-title="河南联通-组播4",河南卫视
 http://ik.iptv8.net:8888/rtp/225.1.4.98:1127
-#EXTINF:-1 group-title="河南联通-组播5",河南卫视
+#EXTINF:-1 group-title="河南联通-组播4",河南卫视
 http://ik.iptv8.net:8888/rtp/225.1.4.254:1300
-#EXTINF:-1 group-title="河南联通-组播5",河南IPTV导视
+#EXTINF:-1 group-title="河南联通-组播4",河南IPTV导视
 http://ik.iptv8.net:8888/rtp/225.1.4.194:1244
-#EXTINF:-1 group-title="河南联通-组播5",河南中华功夫
+#EXTINF:-1 group-title="河南联通-组播4",河南中华功夫
 http://ik.iptv8.net:8888/rtp/225.1.4.101:1130
-#EXTINF:-1 group-title="河南联通-组播5",河南乡村频道
+#EXTINF:-1 group-title="河南联通-组播4",河南乡村频道
 http://ik.iptv8.net:8888/rtp/225.1.4.120:1149
-#EXTINF:-1 group-title="河南联通-组播5",河南公共频道
+#EXTINF:-1 group-title="河南联通-组播4",河南公共频道
 http://ik.iptv8.net:8888/rtp/225.1.4.58:1087
-#EXTINF:-1 group-title="河南联通-组播5",河南国际频道
+#EXTINF:-1 group-title="河南联通-组播4",河南国际频道
 http://ik.iptv8.net:8888/rtp/225.1.4.102:1131
-#EXTINF:-1 group-title="河南联通-组播5",河南戏曲频道
+#EXTINF:-1 group-title="河南联通-组播4",河南戏曲频道
 http://ik.iptv8.net:8888/rtp/225.1.4.99:1128
-#EXTINF:-1 group-title="河南联通-组播5",河南收藏天下
+#EXTINF:-1 group-title="河南联通-组播4",河南收藏天下
 http://ik.iptv8.net:8888/rtp/225.1.4.100:1129
-#EXTINF:-1 group-title="河南联通-组播5",河南新闻频道
+#EXTINF:-1 group-title="河南联通-组播4",河南新闻频道
 http://ik.iptv8.net:8888/rtp/225.1.4.56:1085
-#EXTINF:-1 group-title="河南联通-组播5",河南欢腾购物
+#EXTINF:-1 group-title="河南联通-组播4",河南欢腾购物
 http://ik.iptv8.net:8888/rtp/225.1.4.57:1086
-#EXTINF:-1 group-title="河南联通-组播5",河南民生频道
+#EXTINF:-1 group-title="河南联通-组播4",河南民生频道
 http://ik.iptv8.net:8888/rtp/225.1.4.53:1082
-#EXTINF:-1 group-title="河南联通-组播5",河南法治频道
+#EXTINF:-1 group-title="河南联通-组播4",河南法治频道
 http://ik.iptv8.net:8888/rtp/225.1.4.54:1083
-#EXTINF:-1 group-title="河南联通-组播5",河南电视剧频道
+#EXTINF:-1 group-title="河南联通-组播4",河南电视剧频道
 http://ik.iptv8.net:8888/rtp/225.1.4.55:1084
-#EXTINF:-1 group-title="河南联通-组播5",河南移动电视
+#EXTINF:-1 group-title="河南联通-组播4",河南移动电视
 http://ik.iptv8.net:8888/rtp/225.1.5.40:1350
-#EXTINF:-1 group-title="河南联通-组播5",河南都市频道
+#EXTINF:-1 group-title="河南联通-组播4",河南都市频道
 http://ik.iptv8.net:8888/rtp/225.1.4.52:1081
-#EXTINF:-1 group-title="河南联通-组播5",CCTV-高尔夫·网球
+#EXTINF:-1 group-title="河南联通-组播4",CCTV-高尔夫·网球
 http://ik.iptv8.net:8888/rtp/225.1.4.180:1229
-#EXTINF:-1 group-title="河南联通-组播5",CGTN英语
+#EXTINF:-1 group-title="河南联通-组播4",CGTN英语
 http://ik.iptv8.net:8888/rtp/225.1.4.16:1045
-#EXTINF:-1 group-title="河南联通-组播5",CGTN英语
+#EXTINF:-1 group-title="河南联通-组播4",CGTN英语
 http://ik.iptv8.net:8888/rtp/225.1.5.34:1344
-#EXTINF:-1 group-title="河南联通-组播5",CGTN法语
+#EXTINF:-1 group-title="河南联通-组播4",CGTN法语
 http://ik.iptv8.net:8888/rtp/225.1.5.37:1347
-#EXTINF:-1 group-title="河南联通-组播5",CGTN俄语
+#EXTINF:-1 group-title="河南联通-组播4",CGTN俄语
 http://ik.iptv8.net:8888/rtp/225.1.5.39:1349
-#EXTINF:-1 group-title="河南联通-组播5",CGTN纪录
+#EXTINF:-1 group-title="河南联通-组播4",CGTN纪录
 http://ik.iptv8.net:8888/rtp/225.1.5.35:1345
-#EXTINF:-1 group-title="河南联通-组播5",CETV-1综合教育
+#EXTINF:-1 group-title="河南联通-组播4",CETV-1综合教育
 http://ik.iptv8.net:8888/rtp/225.1.4.173:1712
-#EXTINF:-1 group-title="河南联通-组播5",CETV-2空中课堂
+#EXTINF:-1 group-title="河南联通-组播4",CETV-2空中课堂
 http://ik.iptv8.net:8888/rtp/225.1.4.165:1206
-#EXTINF:-1 group-title="河南联通-组播5",CETV-4职业教育
+#EXTINF:-1 group-title="河南联通-组播4",CETV-4职业教育
 http://ik.iptv8.net:8888/rtp/225.1.4.171:1710
-#EXTINF:-1 group-title="河南联通-组播5",CHC家庭影院
+#EXTINF:-1 group-title="河南联通-组播4",CHC家庭影院
 http://ik.iptv8.net:8888/rtp/225.1.4.209:1262
-#EXTINF:-1 group-title="河南联通-组播5",CHC影迷电影
+#EXTINF:-1 group-title="河南联通-组播4",CHC影迷电影
 http://ik.iptv8.net:8888/rtp/225.1.4.207:1260
-#EXTINF:-1 group-title="河南联通-组播5",CHC动作电影
+#EXTINF:-1 group-title="河南联通-组播4",CHC动作电影
 http://ik.iptv8.net:8888/rtp/225.1.4.208:1261
-#EXTINF:-1 group-title="河南联通-组播5",华数爱上4K电影
+#EXTINF:-1 group-title="河南联通-组播4",华数爱上4K电影
 http://ik.iptv8.net:8888/rtp/225.1.4.6:1035
-#EXTINF:-1 group-title="河南联通-组播5",华数经典电影
+#EXTINF:-1 group-title="河南联通-组播4",华数经典电影
 http://ik.iptv8.net:8888/rtp/225.1.4.175:1233
-#EXTINF:-1 group-title="河南联通-组播5",华数热播剧场
+#EXTINF:-1 group-title="河南联通-组播4",华数热播剧场
 http://ik.iptv8.net:8888/rtp/225.1.4.190:1239
-#EXTINF:-1 group-title="河南联通-组播5",华数魅力时尚
+#EXTINF:-1 group-title="河南联通-组播4",华数魅力时尚
 http://ik.iptv8.net:8888/rtp/225.1.4.205:1253
-#EXTINF:-1 group-title="河南联通-组播5",华数少儿动画
+#EXTINF:-1 group-title="河南联通-组播4",华数少儿动画
 http://ik.iptv8.net:8888/rtp/225.1.4.189:1238
-#EXTINF:-1 group-title="河南联通-组播5",华数精选
+#EXTINF:-1 group-title="河南联通-组播4",华数精选
 http://ik.iptv8.net:8888/rtp/225.1.4.253:1299
-#EXTINF:-1 group-title="河南联通-组播5",华数谍战剧场
+#EXTINF:-1 group-title="河南联通-组播4",华数谍战剧场
 http://ik.iptv8.net:8888/rtp/225.1.4.185:1240
-#EXTINF:-1 group-title="河南联通-组播5",爱大剧
+#EXTINF:-1 group-title="河南联通-组播4",爱大剧
 http://ik.iptv8.net:8888/rtp/225.1.4.8:1037
-#EXTINF:-1 group-title="河南联通-组播5",爱上4K
+#EXTINF:-1 group-title="河南联通-组播4",爱上4K
 http://ik.iptv8.net:8888/rtp/225.1.4.162:1204
-#EXTINF:-1 group-title="河南联通-组播5",IPTV体育
+#EXTINF:-1 group-title="河南联通-组播4",IPTV体育
 http://ik.iptv8.net:8888/rtp/225.1.4.168:1220
-#EXTINF:-1 group-title="河南联通-组播5",IPTV军事
+#EXTINF:-1 group-title="河南联通-组播4",IPTV军事
 http://ik.iptv8.net:8888/rtp/225.1.4.181:1230
-#EXTINF:-1 group-title="河南联通-组播5",IPTV国学
+#EXTINF:-1 group-title="河南联通-组播4",IPTV国学
 http://ik.iptv8.net:8888/rtp/225.1.4.178:1227
-#EXTINF:-1 group-title="河南联通-组播5",IPTV地理
+#EXTINF:-1 group-title="河南联通-组播4",IPTV地理
 http://ik.iptv8.net:8888/rtp/225.1.4.183:1232
-#EXTINF:-1 group-title="河南联通-组播5",IPTV好学生
+#EXTINF:-1 group-title="河南联通-组播4",IPTV好学生
 http://ik.iptv8.net:8888/rtp/225.1.4.177:1226
-#EXTINF:-1 group-title="河南联通-组播5",IPTV收视指南
+#EXTINF:-1 group-title="河南联通-组播4",IPTV收视指南
 http://ik.iptv8.net:8888/rtp/225.1.4.50:1079
-#EXTINF:-1 group-title="河南联通-组播5",IPTV早教
+#EXTINF:-1 group-title="河南联通-组播4",IPTV早教
 http://ik.iptv8.net:8888/rtp/225.1.4.179:1228
-#EXTINF:-1 group-title="河南联通-组播5",IPTV法治
+#EXTINF:-1 group-title="河南联通-组播4",IPTV法治
 http://ik.iptv8.net:8888/rtp/225.1.4.188:1237
-#EXTINF:-1 group-title="河南联通-组播5",IPTV生活
+#EXTINF:-1 group-title="河南联通-组播4",IPTV生活
 http://ik.iptv8.net:8888/rtp/225.1.4.176:1225
-#EXTINF:-1 group-title="河南联通-组播5",IPTV相声小品
+#EXTINF:-1 group-title="河南联通-组播4",IPTV相声小品
 http://ik.iptv8.net:8888/rtp/225.1.4.186:1235
-#EXTINF:-1 group-title="河南联通-组播5",IPTV综艺
+#EXTINF:-1 group-title="河南联通-组播4",IPTV综艺
 http://ik.iptv8.net:8888/rtp/225.1.4.204:1252
-#EXTINF:-1 group-title="河南联通-组播5",IPTV美妆
+#EXTINF:-1 group-title="河南联通-组播4",IPTV美妆
 http://ik.iptv8.net:8888/rtp/225.1.4.182:1231
-#EXTINF:-1 group-title="河南联通-组播5",IPTV足球
+#EXTINF:-1 group-title="河南联通-组播4",IPTV足球
 http://ik.iptv8.net:8888/rtp/225.1.4.200:1250
-#EXTINF:-1 group-title="河南联通-组播5",IPTV野外
+#EXTINF:-1 group-title="河南联通-组播4",IPTV野外
 http://ik.iptv8.net:8888/rtp/225.1.4.187:1236
-#EXTINF:-1 group-title="河南联通-组播5",IPTV音乐
+#EXTINF:-1 group-title="河南联通-组播4",IPTV音乐
 http://ik.iptv8.net:8888/rtp/225.1.4.184:1224
-#EXTINF:-1 group-title="河南联通-组播5",北京卡酷少儿
+#EXTINF:-1 group-title="河南联通-组播4",北京卡酷少儿
 http://ik.iptv8.net:8888/rtp/225.1.4.48:1077
-#EXTINF:-1 group-title="河南联通-组播5",辽宁新动漫
+#EXTINF:-1 group-title="河南联通-组播4",辽宁新动漫
 http://ik.iptv8.net:8888/rtp/225.1.4.212:1265
-#EXTINF:-1 group-title="河南联通-组播5",湖南金鹰纪实
+#EXTINF:-1 group-title="河南联通-组播4",湖南金鹰纪实
 http://ik.iptv8.net:8888/rtp/225.1.4.172:1711
-#EXTINF:-1 group-title="河南联通-组播5",湖南金鹰卡通
+#EXTINF:-1 group-title="河南联通-组播4",湖南金鹰卡通
 http://ik.iptv8.net:8888/rtp/225.1.4.49:1078
-#EXTINF:-1 group-title="河南联通-组播5",广东嘉佳卡通
+#EXTINF:-1 group-title="河南联通-组播4",广东嘉佳卡通
 http://ik.iptv8.net:8888/rtp/225.1.4.92:1121
-#EXTINF:-1 group-title="河南联通-组播5",陕西国学频道
+#EXTINF:-1 group-title="河南联通-组播4",陕西国学频道
 http://ik.iptv8.net:8888/rtp/225.1.4.196:1311
-#EXTINF:-1 group-title="河南联通-组播5",好享购物
+#EXTINF:-1 group-title="河南联通-组播4",好享购物
 http://ik.iptv8.net:8888/rtp/225.1.4.232:1278
-#EXTINF:-1 group-title="河南联通-组播5",央广购物
+#EXTINF:-1 group-title="河南联通-组播4",央广购物
 http://ik.iptv8.net:8888/rtp/225.1.4.230:1276
-#EXTINF:-1 group-title="河南联通-组播5",家有购物
+#EXTINF:-1 group-title="河南联通-组播4",家有购物
 http://ik.iptv8.net:8888/rtp/225.1.4.223:1273
-#EXTINF:-1 group-title="河南联通-组播5",驻马店公共频道
+#EXTINF:-1 group-title="河南联通-组播4",驻马店公共频道
 http://ik.iptv8.net:8888/rtp/225.1.4.136:1172
-#EXTINF:-1 group-title="河南联通-组播5",驻马店新闻综合
+#EXTINF:-1 group-title="河南联通-组播4",驻马店新闻综合
 http://ik.iptv8.net:8888/rtp/225.1.4.132:1168
-#EXTINF:-1 group-title="河南联通-组播5",驻马店科教频道
+#EXTINF:-1 group-title="河南联通-组播4",驻马店科教频道
 http://ik.iptv8.net:8888/rtp/225.1.4.133:1169
-#EXTINF:-1 group-title="河南联通-组播5",CGTN西班牙语
+#EXTINF:-1 group-title="河南联通-组播4",CGTN西班牙语
 http://ik.iptv8.net:8888/rtp/225.1.5.36:1346
-#EXTINF:-1 group-title="河南联通-组播5",CGTN阿拉伯语
+#EXTINF:-1 group-title="河南联通-组播4",CGTN阿拉伯语
 http://ik.iptv8.net:8888/rtp/225.1.5.38:1348
-#EXTINF:-1 group-title="河南联通-组播5",乒羽频道
+#EXTINF:-1 group-title="河南联通-组播4",乒羽频道
 http://ik.iptv8.net:8888/rtp/225.1.4.210:1263
-#EXTINF:-1 group-title="河南联通-组播5",体育竞技
+#EXTINF:-1 group-title="河南联通-组播4",体育竞技
 http://ik.iptv8.net:8888/rtp/225.1.4.235:1281
-#EXTINF:-1 group-title="河南联通-组播5",大象新闻
+#EXTINF:-1 group-title="河南联通-组播4",大象新闻
 http://ik.iptv8.net:8888/rtp/225.1.5.45:1355
-#EXTINF:-1 group-title="河南联通-组播5",快乐购
+#EXTINF:-1 group-title="河南联通-组播4",快乐购
 http://ik.iptv8.net:8888/rtp/225.1.4.231:1277
-#EXTINF:-1 group-title="河南联通-组播5",新蔡电视台
+#EXTINF:-1 group-title="河南联通-组播4",新蔡电视台
 http://ik.iptv8.net:8888/rtp/225.1.5.29:1341
-#EXTINF:-1 group-title="河南联通-组播5",欢腾购物
+#EXTINF:-1 group-title="河南联通-组播4",欢腾购物
 http://ik.iptv8.net:8888/rtp/225.1.4.236:1282
-#EXTINF:-1 group-title="河南联通-组播5",环球购物
+#EXTINF:-1 group-title="河南联通-组播4",环球购物
 http://ik.iptv8.net:8888/rtp/225.1.4.229:1275
-#EXTINF:-1 group-title="河南联通-组播5",现场直播
+#EXTINF:-1 group-title="河南联通-组播4",现场直播
 http://ik.iptv8.net:8888/rtp/225.1.5.42:1352
-#EXTINF:-1 group-title="河南联通-组播5",睛彩中原
+#EXTINF:-1 group-title="河南联通-组播4",睛彩中原
 http://ik.iptv8.net:8888/rtp/225.1.4.163:1203
-#EXTINF:-1 group-title="河南联通-组播5",移动戏曲
+#EXTINF:-1 group-title="河南联通-组播4",移动戏曲
 http://ik.iptv8.net:8888/rtp/225.1.4.206:1254
-#EXTINF:-1 group-title="河南联通-组播5",篮球
+#EXTINF:-1 group-title="河南联通-组播4",篮球
 http://ik.iptv8.net:8888/rtp/225.1.4.237:1283
-#EXTINF:-1 group-title="河南联通-组播5",网络棋牌
+#EXTINF:-1 group-title="河南联通-组播4",网络棋牌
 http://ik.iptv8.net:8888/rtp/225.1.4.211:1264
-#EXTINF:-1 group-title="河南联通-组播5",西平电视台
+#EXTINF:-1 group-title="河南联通-组播4",西平电视台
 http://ik.iptv8.net:8888/rtp/225.1.5.28:1340
-#EXTINF:-1 group-title="河南联通-组播5",风尚购物
+#EXTINF:-1 group-title="河南联通-组播4",风尚购物
 http://ik.iptv8.net:8888/rtp/225.1.4.233:1279
-#EXTINF:-1 group-title="河南联通-组播6",河南卫视
+#EXTINF:-1 group-title="河南联通-组播5",河南卫视
 http://www.siyao.xin:4000/rtp/225.1.4.98:1127
-#EXTINF:-1 group-title="河南联通-组播6",河南卫视
+#EXTINF:-1 group-title="河南联通-组播5",河南卫视
 http://www.siyao.xin:4000/rtp/225.1.4.254:1300
-#EXTINF:-1 group-title="河南联通-组播6",河南IPTV导视
+#EXTINF:-1 group-title="河南联通-组播5",河南IPTV导视
 http://www.siyao.xin:4000/rtp/225.1.4.194:1244
-#EXTINF:-1 group-title="河南联通-组播6",河南中华功夫
+#EXTINF:-1 group-title="河南联通-组播5",河南中华功夫
 http://www.siyao.xin:4000/rtp/225.1.4.101:1130
-#EXTINF:-1 group-title="河南联通-组播6",河南乡村频道
+#EXTINF:-1 group-title="河南联通-组播5",河南乡村频道
 http://www.siyao.xin:4000/rtp/225.1.4.120:1149
-#EXTINF:-1 group-title="河南联通-组播6",河南公共频道
+#EXTINF:-1 group-title="河南联通-组播5",河南公共频道
 http://www.siyao.xin:4000/rtp/225.1.4.58:1087
-#EXTINF:-1 group-title="河南联通-组播6",河南国际频道
+#EXTINF:-1 group-title="河南联通-组播5",河南国际频道
 http://www.siyao.xin:4000/rtp/225.1.4.102:1131
-#EXTINF:-1 group-title="河南联通-组播6",河南戏曲频道
+#EXTINF:-1 group-title="河南联通-组播5",河南戏曲频道
 http://www.siyao.xin:4000/rtp/225.1.4.99:1128
-#EXTINF:-1 group-title="河南联通-组播6",河南收藏天下
+#EXTINF:-1 group-title="河南联通-组播5",河南收藏天下
 http://www.siyao.xin:4000/rtp/225.1.4.100:1129
-#EXTINF:-1 group-title="河南联通-组播6",河南新闻频道
+#EXTINF:-1 group-title="河南联通-组播5",河南新闻频道
 http://www.siyao.xin:4000/rtp/225.1.4.56:1085
-#EXTINF:-1 group-title="河南联通-组播6",河南欢腾购物
+#EXTINF:-1 group-title="河南联通-组播5",河南欢腾购物
 http://www.siyao.xin:4000/rtp/225.1.4.57:1086
-#EXTINF:-1 group-title="河南联通-组播6",河南民生频道
+#EXTINF:-1 group-title="河南联通-组播5",河南民生频道
 http://www.siyao.xin:4000/rtp/225.1.4.53:1082
-#EXTINF:-1 group-title="河南联通-组播6",河南法治频道
+#EXTINF:-1 group-title="河南联通-组播5",河南法治频道
 http://www.siyao.xin:4000/rtp/225.1.4.54:1083
-#EXTINF:-1 group-title="河南联通-组播6",河南电视剧频道
+#EXTINF:-1 group-title="河南联通-组播5",河南电视剧频道
 http://www.siyao.xin:4000/rtp/225.1.4.55:1084
-#EXTINF:-1 group-title="河南联通-组播6",河南移动电视
+#EXTINF:-1 group-title="河南联通-组播5",河南移动电视
 http://www.siyao.xin:4000/rtp/225.1.5.40:1350
-#EXTINF:-1 group-title="河南联通-组播6",河南都市频道
+#EXTINF:-1 group-title="河南联通-组播5",河南都市频道
 http://www.siyao.xin:4000/rtp/225.1.4.52:1081
-#EXTINF:-1 group-title="河南联通-组播6",CCTV-高尔夫·网球
+#EXTINF:-1 group-title="河南联通-组播5",CCTV-高尔夫·网球
 http://www.siyao.xin:4000/rtp/225.1.4.180:1229
-#EXTINF:-1 group-title="河南联通-组播6",CGTN英语
+#EXTINF:-1 group-title="河南联通-组播5",CGTN英语
 http://www.siyao.xin:4000/rtp/225.1.4.16:1045
-#EXTINF:-1 group-title="河南联通-组播6",CGTN英语
+#EXTINF:-1 group-title="河南联通-组播5",CGTN英语
 http://www.siyao.xin:4000/rtp/225.1.5.34:1344
-#EXTINF:-1 group-title="河南联通-组播6",CGTN法语
+#EXTINF:-1 group-title="河南联通-组播5",CGTN法语
 http://www.siyao.xin:4000/rtp/225.1.5.37:1347
-#EXTINF:-1 group-title="河南联通-组播6",CGTN俄语
+#EXTINF:-1 group-title="河南联通-组播5",CGTN俄语
 http://www.siyao.xin:4000/rtp/225.1.5.39:1349
-#EXTINF:-1 group-title="河南联通-组播6",CGTN纪录
+#EXTINF:-1 group-title="河南联通-组播5",CGTN纪录
 http://www.siyao.xin:4000/rtp/225.1.5.35:1345
-#EXTINF:-1 group-title="河南联通-组播6",CETV-1综合教育
+#EXTINF:-1 group-title="河南联通-组播5",CETV-1综合教育
 http://www.siyao.xin:4000/rtp/225.1.4.173:1712
-#EXTINF:-1 group-title="河南联通-组播6",CETV-2空中课堂
+#EXTINF:-1 group-title="河南联通-组播5",CETV-2空中课堂
 http://www.siyao.xin:4000/rtp/225.1.4.165:1206
-#EXTINF:-1 group-title="河南联通-组播6",CETV-4职业教育
+#EXTINF:-1 group-title="河南联通-组播5",CETV-4职业教育
 http://www.siyao.xin:4000/rtp/225.1.4.171:1710
-#EXTINF:-1 group-title="河南联通-组播6",CHC家庭影院
+#EXTINF:-1 group-title="河南联通-组播5",CHC家庭影院
 http://www.siyao.xin:4000/rtp/225.1.4.209:1262
-#EXTINF:-1 group-title="河南联通-组播6",CHC影迷电影
+#EXTINF:-1 group-title="河南联通-组播5",CHC影迷电影
 http://www.siyao.xin:4000/rtp/225.1.4.207:1260
-#EXTINF:-1 group-title="河南联通-组播6",CHC动作电影
+#EXTINF:-1 group-title="河南联通-组播5",CHC动作电影
 http://www.siyao.xin:4000/rtp/225.1.4.208:1261
-#EXTINF:-1 group-title="河南联通-组播6",华数爱上4K电影
+#EXTINF:-1 group-title="河南联通-组播5",华数爱上4K电影
 http://www.siyao.xin:4000/rtp/225.1.4.6:1035
-#EXTINF:-1 group-title="河南联通-组播6",华数经典电影
+#EXTINF:-1 group-title="河南联通-组播5",华数经典电影
 http://www.siyao.xin:4000/rtp/225.1.4.175:1233
-#EXTINF:-1 group-title="河南联通-组播6",华数热播剧场
+#EXTINF:-1 group-title="河南联通-组播5",华数热播剧场
 http://www.siyao.xin:4000/rtp/225.1.4.190:1239
-#EXTINF:-1 group-title="河南联通-组播6",华数魅力时尚
+#EXTINF:-1 group-title="河南联通-组播5",华数魅力时尚
 http://www.siyao.xin:4000/rtp/225.1.4.205:1253
-#EXTINF:-1 group-title="河南联通-组播6",华数少儿动画
+#EXTINF:-1 group-title="河南联通-组播5",华数少儿动画
 http://www.siyao.xin:4000/rtp/225.1.4.189:1238
-#EXTINF:-1 group-title="河南联通-组播6",华数精选
+#EXTINF:-1 group-title="河南联通-组播5",华数精选
 http://www.siyao.xin:4000/rtp/225.1.4.253:1299
-#EXTINF:-1 group-title="河南联通-组播6",华数谍战剧场
+#EXTINF:-1 group-title="河南联通-组播5",华数谍战剧场
 http://www.siyao.xin:4000/rtp/225.1.4.185:1240
-#EXTINF:-1 group-title="河南联通-组播6",爱大剧
+#EXTINF:-1 group-title="河南联通-组播5",爱大剧
 http://www.siyao.xin:4000/rtp/225.1.4.8:1037
-#EXTINF:-1 group-title="河南联通-组播6",爱上4K
+#EXTINF:-1 group-title="河南联通-组播5",爱上4K
 http://www.siyao.xin:4000/rtp/225.1.4.162:1204
-#EXTINF:-1 group-title="河南联通-组播6",IPTV体育
+#EXTINF:-1 group-title="河南联通-组播5",IPTV体育
 http://www.siyao.xin:4000/rtp/225.1.4.168:1220
-#EXTINF:-1 group-title="河南联通-组播6",IPTV军事
+#EXTINF:-1 group-title="河南联通-组播5",IPTV军事
 http://www.siyao.xin:4000/rtp/225.1.4.181:1230
-#EXTINF:-1 group-title="河南联通-组播6",IPTV国学
+#EXTINF:-1 group-title="河南联通-组播5",IPTV国学
 http://www.siyao.xin:4000/rtp/225.1.4.178:1227
-#EXTINF:-1 group-title="河南联通-组播6",IPTV地理
+#EXTINF:-1 group-title="河南联通-组播5",IPTV地理
 http://www.siyao.xin:4000/rtp/225.1.4.183:1232
-#EXTINF:-1 group-title="河南联通-组播6",IPTV好学生
+#EXTINF:-1 group-title="河南联通-组播5",IPTV好学生
 http://www.siyao.xin:4000/rtp/225.1.4.177:1226
-#EXTINF:-1 group-title="河南联通-组播6",IPTV收视指南
+#EXTINF:-1 group-title="河南联通-组播5",IPTV收视指南
 http://www.siyao.xin:4000/rtp/225.1.4.50:1079
-#EXTINF:-1 group-title="河南联通-组播6",IPTV早教
+#EXTINF:-1 group-title="河南联通-组播5",IPTV早教
 http://www.siyao.xin:4000/rtp/225.1.4.179:1228
-#EXTINF:-1 group-title="河南联通-组播6",IPTV法治
+#EXTINF:-1 group-title="河南联通-组播5",IPTV法治
 http://www.siyao.xin:4000/rtp/225.1.4.188:1237
-#EXTINF:-1 group-title="河南联通-组播6",IPTV生活
+#EXTINF:-1 group-title="河南联通-组播5",IPTV生活
 http://www.siyao.xin:4000/rtp/225.1.4.176:1225
-#EXTINF:-1 group-title="河南联通-组播6",IPTV相声小品
+#EXTINF:-1 group-title="河南联通-组播5",IPTV相声小品
 http://www.siyao.xin:4000/rtp/225.1.4.186:1235
-#EXTINF:-1 group-title="河南联通-组播6",IPTV综艺
+#EXTINF:-1 group-title="河南联通-组播5",IPTV综艺
 http://www.siyao.xin:4000/rtp/225.1.4.204:1252
-#EXTINF:-1 group-title="河南联通-组播6",IPTV美妆
+#EXTINF:-1 group-title="河南联通-组播5",IPTV美妆
 http://www.siyao.xin:4000/rtp/225.1.4.182:1231
-#EXTINF:-1 group-title="河南联通-组播6",IPTV足球
+#EXTINF:-1 group-title="河南联通-组播5",IPTV足球
 http://www.siyao.xin:4000/rtp/225.1.4.200:1250
-#EXTINF:-1 group-title="河南联通-组播6",IPTV野外
+#EXTINF:-1 group-title="河南联通-组播5",IPTV野外
 http://www.siyao.xin:4000/rtp/225.1.4.187:1236
-#EXTINF:-1 group-title="河南联通-组播6",IPTV音乐
+#EXTINF:-1 group-title="河南联通-组播5",IPTV音乐
 http://www.siyao.xin:4000/rtp/225.1.4.184:1224
-#EXTINF:-1 group-title="河南联通-组播6",北京卡酷少儿
+#EXTINF:-1 group-title="河南联通-组播5",北京卡酷少儿
 http://www.siyao.xin:4000/rtp/225.1.4.48:1077
-#EXTINF:-1 group-title="河南联通-组播6",辽宁新动漫
+#EXTINF:-1 group-title="河南联通-组播5",辽宁新动漫
 http://www.siyao.xin:4000/rtp/225.1.4.212:1265
-#EXTINF:-1 group-title="河南联通-组播6",湖南金鹰纪实
+#EXTINF:-1 group-title="河南联通-组播5",湖南金鹰纪实
 http://www.siyao.xin:4000/rtp/225.1.4.172:1711
-#EXTINF:-1 group-title="河南联通-组播6",湖南金鹰卡通
+#EXTINF:-1 group-title="河南联通-组播5",湖南金鹰卡通
 http://www.siyao.xin:4000/rtp/225.1.4.49:1078
-#EXTINF:-1 group-title="河南联通-组播6",广东嘉佳卡通
+#EXTINF:-1 group-title="河南联通-组播5",广东嘉佳卡通
 http://www.siyao.xin:4000/rtp/225.1.4.92:1121
-#EXTINF:-1 group-title="河南联通-组播6",陕西国学频道
+#EXTINF:-1 group-title="河南联通-组播5",陕西国学频道
 http://www.siyao.xin:4000/rtp/225.1.4.196:1311
-#EXTINF:-1 group-title="河南联通-组播6",好享购物
+#EXTINF:-1 group-title="河南联通-组播5",好享购物
 http://www.siyao.xin:4000/rtp/225.1.4.232:1278
-#EXTINF:-1 group-title="河南联通-组播6",央广购物
+#EXTINF:-1 group-title="河南联通-组播5",央广购物
 http://www.siyao.xin:4000/rtp/225.1.4.230:1276
-#EXTINF:-1 group-title="河南联通-组播6",家有购物
+#EXTINF:-1 group-title="河南联通-组播5",家有购物
 http://www.siyao.xin:4000/rtp/225.1.4.223:1273
-#EXTINF:-1 group-title="河南联通-组播6",驻马店公共频道
+#EXTINF:-1 group-title="河南联通-组播5",驻马店公共频道
 http://www.siyao.xin:4000/rtp/225.1.4.136:1172
-#EXTINF:-1 group-title="河南联通-组播6",驻马店新闻综合
+#EXTINF:-1 group-title="河南联通-组播5",驻马店新闻综合
 http://www.siyao.xin:4000/rtp/225.1.4.132:1168
-#EXTINF:-1 group-title="河南联通-组播6",驻马店科教频道
+#EXTINF:-1 group-title="河南联通-组播5",驻马店科教频道
 http://www.siyao.xin:4000/rtp/225.1.4.133:1169
-#EXTINF:-1 group-title="河南联通-组播6",CGTN西班牙语
+#EXTINF:-1 group-title="河南联通-组播5",CGTN西班牙语
 http://www.siyao.xin:4000/rtp/225.1.5.36:1346
-#EXTINF:-1 group-title="河南联通-组播6",CGTN阿拉伯语
+#EXTINF:-1 group-title="河南联通-组播5",CGTN阿拉伯语
 http://www.siyao.xin:4000/rtp/225.1.5.38:1348
-#EXTINF:-1 group-title="河南联通-组播6",乒羽频道
+#EXTINF:-1 group-title="河南联通-组播5",乒羽频道
 http://www.siyao.xin:4000/rtp/225.1.4.210:1263
-#EXTINF:-1 group-title="河南联通-组播6",体育竞技
+#EXTINF:-1 group-title="河南联通-组播5",体育竞技
 http://www.siyao.xin:4000/rtp/225.1.4.235:1281
-#EXTINF:-1 group-title="河南联通-组播6",大象新闻
+#EXTINF:-1 group-title="河南联通-组播5",大象新闻
 http://www.siyao.xin:4000/rtp/225.1.5.45:1355
-#EXTINF:-1 group-title="河南联通-组播6",快乐购
+#EXTINF:-1 group-title="河南联通-组播5",快乐购
 http://www.siyao.xin:4000/rtp/225.1.4.231:1277
-#EXTINF:-1 group-title="河南联通-组播6",新蔡电视台
+#EXTINF:-1 group-title="河南联通-组播5",新蔡电视台
 http://www.siyao.xin:4000/rtp/225.1.5.29:1341
-#EXTINF:-1 group-title="河南联通-组播6",欢腾购物
+#EXTINF:-1 group-title="河南联通-组播5",欢腾购物
 http://www.siyao.xin:4000/rtp/225.1.4.236:1282
-#EXTINF:-1 group-title="河南联通-组播6",环球购物
+#EXTINF:-1 group-title="河南联通-组播5",环球购物
 http://www.siyao.xin:4000/rtp/225.1.4.229:1275
-#EXTINF:-1 group-title="河南联通-组播6",现场直播
+#EXTINF:-1 group-title="河南联通-组播5",现场直播
 http://www.siyao.xin:4000/rtp/225.1.5.42:1352
-#EXTINF:-1 group-title="河南联通-组播6",睛彩中原
+#EXTINF:-1 group-title="河南联通-组播5",睛彩中原
 http://www.siyao.xin:4000/rtp/225.1.4.163:1203
-#EXTINF:-1 group-title="河南联通-组播6",移动戏曲
+#EXTINF:-1 group-title="河南联通-组播5",移动戏曲
 http://www.siyao.xin:4000/rtp/225.1.4.206:1254
-#EXTINF:-1 group-title="河南联通-组播6",篮球
+#EXTINF:-1 group-title="河南联通-组播5",篮球
 http://www.siyao.xin:4000/rtp/225.1.4.237:1283
-#EXTINF:-1 group-title="河南联通-组播6",网络棋牌
+#EXTINF:-1 group-title="河南联通-组播5",网络棋牌
 http://www.siyao.xin:4000/rtp/225.1.4.211:1264
-#EXTINF:-1 group-title="河南联通-组播6",西平电视台
+#EXTINF:-1 group-title="河南联通-组播5",西平电视台
 http://www.siyao.xin:4000/rtp/225.1.5.28:1340
-#EXTINF:-1 group-title="河南联通-组播6",风尚购物
+#EXTINF:-1 group-title="河南联通-组播5",风尚购物
 http://www.siyao.xin:4000/rtp/225.1.4.233:1279
