@@ -1,17 +1,16 @@
-# 20260720_1230_precise_slow
+# 20260721_1158_precise_slow
 # 服务器地址	速度
-njbobo.mycloudnas.com:4022	281.62 KB/s
-j1900.silicaite.top:58888	263.07 KB/s
-home.amucn.net:8800	253.12 KB/s
-980413.xyz:6000	251.77 KB/s
-121.237.245.33:8888	244.61 KB/s
-49.79.83.211:58888	224.67 KB/s
-kouki.pro:8888	188.15 KB/s
-www.wxzmz.com:8800	163.67 KB/s
-iptv.feng.js.cn:58099	131.93 KB/s
-www.sclvip.top:8787	71.97 KB/s
-fengwei888888.myds.me:58099	66.39 KB/s
-www.266999.xyz:55555	38.09 KB/s
-ikuai-v4.17271201.xyz:4000	25.32 KB/s
-114.226.212.140:8787	2.77 KB/s
-114.226.212.136:8787	2.72 KB/s
+www.angel147.cf:9570	279.69 KB/s
+iptv.feng.js.cn:58099	277.65 KB/s
+lygzou.asuscomm.com:19999	274.55 KB/s
+njbobo.mycloudnas.com:4022	249.61 KB/s
+y1nf0x.myds.me:5888	225.90 KB/s
+www.wxzmz.com:8800	201.80 KB/s
+121.237.245.33:8888	159.08 KB/s
+kouki.pro:8888	51.66 KB/s
+home.amucn.net:8800	27.73 KB/s
+114.226.212.136:8787	25.36 KB/s
+114.226.212.140:8787	25.24 KB/s
+www.sclvip.top:8787	14.98 KB/s
+980413.xyz:6000	9.18 KB/s
+ikuai-v4.17271201.xyz:4000	8.22 KB/s

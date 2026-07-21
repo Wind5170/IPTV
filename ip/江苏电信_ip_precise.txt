@@ -1,17 +1,17 @@
-# 20260720_1230_precise
+# 20260721_1158_precise
 # 服务器地址	速度
-121.226.105.6:6888	484.91 KB/s
-gcyp.mycloudnas.com:4000	473.00 KB/s
-y1nf0x.myds.me:5888	456.45 KB/s
-istoreos.sclvip.top:5566	454.65 KB/s
-vs.heylc.com:4022	452.69 KB/s
-www.foreveryyl.top:8001	452.64 KB/s
-dx.joygala.cn:8118	448.46 KB/s
-nas2.bycza.top:9000	448.44 KB/s
-nas3.bycza.top:8100	447.56 KB/s
-h.vanshun.com:8802	408.19 KB/s
-www.yzddy.top:8800	372.95 KB/s
-lygzou.asuscomm.com:19999	367.15 KB/s
-www.nijingjing.site:8888	361.12 KB/s
-t.7ze.top:4022	350.33 KB/s
-acp-cloud.asuscomm.com:4000	310.58 KB/s
+dx.joygala.cn:8118	425.93 KB/s
+gcyp.mycloudnas.com:4000	408.49 KB/s
+fengwei888888.myds.me:58099	408.15 KB/s
+121.226.105.6:6888	394.34 KB/s
+nas3.bycza.top:8100	386.73 KB/s
+www.foreveryyl.top:8001	384.55 KB/s
+t.7ze.top:4022	373.56 KB/s
+j1900.silicaite.top:58888	370.09 KB/s
+h.vanshun.com:8802	367.54 KB/s
+www.yzddy.top:8800	363.09 KB/s
+istoreos.sclvip.top:5566	358.48 KB/s
+vs.heylc.com:4022	356.71 KB/s
+www.nijingjing.site:8888	343.40 KB/s
+nas2.bycza.top:9000	340.42 KB/s
+acp-cloud.asuscomm.com:4000	328.00 KB/s
