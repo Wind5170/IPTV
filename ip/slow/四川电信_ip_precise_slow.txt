@@ -1,15 +1,17 @@
-# 20260721_1204_precise_slow
+# 20260722_1208_precise_slow
 # 服务器地址	速度
-xmzj.f3322.net:8188	254.56 KB/s
-www.yanbingg.com:1888	227.57 KB/s
-www.998878.xyz:5050	211.67 KB/s
-www.yanbingg.com:18888	210.29 KB/s
-171.213.154.42:8188	123.44 KB/s
-171.213.237.218:8188	122.34 KB/s
-171.213.137.57:8188	120.99 KB/s
-vpn.ydcb.top:40000	119.01 KB/s
-171.213.216.10:4022	117.98 KB/s
-www.160638.xyz:8888	116.26 KB/s
-pp.ydcb.top:40000	73.40 KB/s
-ch3829.myds.me:4022	8.05 KB/s
-hhska.3322.org:8096	1.80 KB/s
+s.zssss.eu.org:888	269.50 KB/s
+xmzj.f3322.net:8188	259.78 KB/s
+171.213.142.215:8188	234.59 KB/s
+www.yanbingg.com:1888	212.20 KB/s
+www.yanbingg.com:18888	206.41 KB/s
+171.213.137.57:8188	124.57 KB/s
+171.213.239.44:8188	122.35 KB/s
+171.213.216.10:4022	118.12 KB/s
+171.213.242.117:8188	115.14 KB/s
+vpn.ydcb.top:40000	113.08 KB/s
+www.160638.xyz:8888	105.54 KB/s
+pp.ydcb.top:40000	95.78 KB/s
+171.213.154.42:8188	81.67 KB/s
+ch3829.myds.me:4022	20.84 KB/s
+hhska.3322.org:8096	16.38 KB/s

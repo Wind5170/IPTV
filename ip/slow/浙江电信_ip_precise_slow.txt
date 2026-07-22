@@ -1,7 +1,7 @@
-# 20260721_1207_precise_slow
+# 20260722_1211_precise_slow
 # 服务器地址	速度
-60.185.248.195:4022	284.93 KB/s
-9.lexlong.top:8001	274.56 KB/s
-gilbert0571.eu.org:8888	258.67 KB/s
-www.negative.top:50000	179.59 KB/s
-www.slq888.cn:9999	12.51 KB/s
+60.185.248.195:4022	290.60 KB/s
+www.liangcl.top:8686	238.90 KB/s
+zjhuct.synology.me:8881	169.50 KB/s
+www.slq888.cn:9999	92.03 KB/s
+www.negative.top:50000	60.90 KB/s
