@@ -1,13 +1,21 @@
-# 20260722_1202_precise_slow
+# 20260723_1205_precise_slow
 # 服务器地址	速度
-h.vanshun.com:8802	297.76 KB/s
-t.7ze.top:4022	289.28 KB/s
-fengwei888888.myds.me:58099	284.20 KB/s
-114.226.212.140:8787	277.86 KB/s
-iptv.feng.js.cn:58099	253.37 KB/s
-www.wxzmz.com:8800	184.61 KB/s
-121.237.245.33:8888	176.43 KB/s
-home.amucn.net:8800	159.33 KB/s
-kouki.pro:8888	45.54 KB/s
-ikuai-v4.17271201.xyz:4000	9.00 KB/s
-www.266999.xyz:55555	1.61 KB/s
+www.nijingjing.site:8888	286.60 KB/s
+y1nf0x.myds.me:5888	281.29 KB/s
+gcyp.mycloudnas.com:4000	270.86 KB/s
+ikuai-v4.17271201.xyz:4000	260.09 KB/s
+www.yzddy.top:8800	256.29 KB/s
+980413.xyz:6000	246.99 KB/s
+acp-cloud.asuscomm.com:4000	229.31 KB/s
+j1900.silicaite.top:58888	224.39 KB/s
+www.angel147.cf:9570	199.35 KB/s
+kouki.pro:8888	164.18 KB/s
+114.226.212.136:8787	148.61 KB/s
+iptv.feng.js.cn:58099	130.76 KB/s
+nas2.bycza.top:9000	118.37 KB/s
+114.226.212.140:8787	115.38 KB/s
+www.sclvip.top:8787	93.36 KB/s
+home.amucn.net:8800	92.91 KB/s
+fengwei888888.myds.me:58099	56.32 KB/s
+www.wxzmz.com:8800	15.50 KB/s
+121.237.245.33:8888	0.48 KB/s

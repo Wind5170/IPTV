@@ -1,6 +1,11 @@
-# 20260722_1150_precise_slow
+# 20260723_1154_precise_slow
 # 服务器地址	速度
-laiboy.myds.me:58686	284.36 KB/s
-111.194.237.226:4022	215.74 KB/s
-www.fjxzl.top:23234	140.57 KB/s
-unicom.swjms.com:4022	41.35 KB/s
+x1x.bid:5146	265.64 KB/s
+unicom.swjms.com:4022	210.10 KB/s
+superpostmail.3322.org:1193	155.61 KB/s
+triq.cc:8012	141.47 KB/s
+www.49156116.xyz:23234	96.09 KB/s
+www.irisxxd.cn:8888	75.19 KB/s
+www.irisxxd.cn:8000	73.64 KB/s
+aikuai.natnum.top:8099	73.32 KB/s
+111.196.129.242:20000	60.47 KB/s
