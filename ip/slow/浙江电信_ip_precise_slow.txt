@@ -1,7 +1,8 @@
-# 20260723_1214_precise_slow
+# 20260724_1205_precise_slow
 # 服务器地址	速度
-www.negative.top:50000	283.28 KB/s
-maymoon.asuscomm.com:7777	279.51 KB/s
-www.slq888.cn:9999	23.94 KB/s
-zjhuct.synology.me:8889	16.01 KB/s
-zjhuct.synology.me:8881	14.84 KB/s
+www.negative.top:50000	162.80 KB/s
+zjhuct.icu:8889	41.37 KB/s
+www.slq888.cn:9999	32.78 KB/s
+gilbert0571.eu.org:8888	30.44 KB/s
+zjhuct.synology.me:8881	6.92 KB/s
+zjhuct.synology.me:8889	4.84 KB/s

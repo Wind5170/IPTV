@@ -1,10 +1,8 @@
-# 20260723_1201_precise
+# 20260724_1154_precise
 # 服务器地址	速度
-42.238.254.32:8012	488.29 KB/s
-xz.78057805.xyz:4002	486.51 KB/s
-42.228.35.94:8190	478.69 KB/s
-115.58.143.111:4000	470.65 KB/s
-nnu.qzz.io:4000	459.71 KB/s
-www.flyju.top:8899	438.44 KB/s
-ik.iptv8.net:8888	421.63 KB/s
-www.siyao.xin:4000	398.90 KB/s
+42.238.254.32:8012	414.75 KB/s
+xz.78057805.xyz:4002	402.40 KB/s
+nnu.qzz.io:4000	390.26 KB/s
+www.flyju.top:8899	381.61 KB/s
+ik.iptv8.net:8888	368.97 KB/s
+www.siyao.xin:4000	328.98 KB/s

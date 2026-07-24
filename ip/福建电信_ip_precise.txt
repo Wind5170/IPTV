@@ -1,3 +1,3 @@
-# 20260723_1155_precise
+# 20260724_1149_precise
 # 服务器地址	速度
-remote.jackye.site:8000	369.32 KB/s
+remote.jackye.site:8000	363.31 KB/s
