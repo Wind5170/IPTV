@@ -1,0 +1,3 @@
+# 20260725_1116_precise_slow
+# 服务器地址	速度
+cpanel.lwfz.fun:8800	252.64 KB/s
