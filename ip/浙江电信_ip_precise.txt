@@ -1,5 +1,6 @@
-# 20260725_1130_precise
+# 20260726_1144_precise
 # 服务器地址	速度
-www.liangcl.top:8686	360.92 KB/s
-zjhuct.icu:8889	350.85 KB/s
-maymoon.asuscomm.com:7777	306.39 KB/s
+60.185.250.104:4022	378.34 KB/s
+www.liangcl.top:8686	376.20 KB/s
+hzmaidu.com:8090	370.65 KB/s
+maymoon.asuscomm.com:7777	367.49 KB/s
