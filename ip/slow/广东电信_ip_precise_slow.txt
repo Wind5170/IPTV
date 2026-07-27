@@ -1,11 +1,12 @@
-# 20260726_1125_precise_slow
+# 20260727_1300_precise_slow
 # 服务器地址	速度
-113.83.248.225:4200	298.42 KB/s
-113.101.245.171:9988	274.29 KB/s
-vp.maomizi.cc:9527	231.53 KB/s
-183.236.43.98:4013	224.25 KB/s
-liqn.mycloudnas.com:8188	207.11 KB/s
-vpn.jk960.cn:8686	160.83 KB/s
-www.hongzhijiaoyu.net:8188	0.88 KB/s
-wmh.wmh.ink:6633	0.12 KB/s
-line1.huase.ltd:8888	0.07 KB/s
+yanshifen.top:8889	272.55 KB/s
+113.101.245.171:9988	263.80 KB/s
+183.236.43.98:4013	254.38 KB/s
+vp.maomizi.cc:9527	241.75 KB/s
+wmh.wmh.ink:6633	236.71 KB/s
+unraid.cyruslee.top:8888	199.12 KB/s
+liqn.mycloudnas.com:8188	160.70 KB/s
+183.51.190.232:6633	27.77 KB/s
+www.hongzhijiaoyu.net:8188	1.73 KB/s
+www.yahao.host:4022	1.39 KB/s

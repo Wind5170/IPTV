@@ -1,5 +1,4 @@
-# 20260726_1144_precise_slow
+# 20260727_1317_precise_slow
 # 服务器地址	速度
-www.negative.top:50000	218.34 KB/s
-www.slq888.cn:9999	25.74 KB/s
-gilbert0571.eu.org:8888	11.23 KB/s
+www.negative.top:50000	81.52 KB/s
+www.slq888.cn:9999	19.20 KB/s

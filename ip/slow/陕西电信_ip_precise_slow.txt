@@ -1,3 +1,3 @@
-# 20260726_1138_precise_slow
+# 20260727_1311_precise_slow
 # 服务器地址	速度
-tiger81.i234.me:8888	273.41 KB/s
+tiger81.i234.me:8888	148.66 KB/s
