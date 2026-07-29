@@ -1,3 +1,5 @@
-# 20260728_1210_precise_slow
+# 20260729_1214_precise_slow
 # 服务器地址	速度
-www.zlizi.cn:4023	149.02 KB/s
+58.46.202.86:4022	120.29 KB/s
+www.zlizi.cn:4023	30.78 KB/s
+0000505.xyz:8888	2.41 KB/s
