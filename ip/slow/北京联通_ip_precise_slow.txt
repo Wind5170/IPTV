@@ -1,13 +1,10 @@
-# 20260729_1204_precise_slow
+# 20260730_1154_precise_slow
 # 服务器地址	速度
-rt.tunan.tech:7070	278.36 KB/s
-triq.cc:8012	205.28 KB/s
-trulyliu.vicp.net:8622	80.72 KB/s
-unicom.swjms.com:4022	72.34 KB/s
-www.photoby.us:28012	64.52 KB/s
-www.ikuai.me:4022	48.10 KB/s
-www.49156116.xyz:23234	44.60 KB/s
-aikuai.natnum.top:8099	29.46 KB/s
-123.118.49.62:8686	22.23 KB/s
-123.118.54.216:8686	18.03 KB/s
-111.196.129.242:20000	2.80 KB/s
+tnv.asuscomm.com:8012	191.60 KB/s
+111.193.235.123:9999	106.61 KB/s
+www.ikuai.me:4022	62.63 KB/s
+123.118.54.216:8686	47.87 KB/s
+unicom.swjms.com:4022	21.99 KB/s
+www.photoby.us:28012	13.85 KB/s
+111.196.129.242:20000	2.83 KB/s
+www.49156116.xyz:23234	2.10 KB/s

@@ -1,7 +1,6 @@
-# 20260729_1220_precise_slow
+# 20260730_1210_precise_slow
 # 服务器地址	速度
-www.rogerxlj.top:9998	284.17 KB/s
-www.wqcjoy.xyz:8188	269.35 KB/s
-wsc2007123.myds.me:30100	246.67 KB/s
-yyf1991.top:9999	94.48 KB/s
-180.159.68.231:4022	45.35 KB/s
+www.rogerxlj.top:9998	182.03 KB/s
+180.159.68.231:4022	105.66 KB/s
+wsc2007123.myds.me:30100	33.60 KB/s
+yyf1991.top:9999	1.61 KB/s

@@ -1,9 +1,6 @@
-# 20260729_1222_precise
+# 20260730_1211_precise
 # 服务器地址	速度
-s.zssss.eu.org:888	439.27 KB/s
-www.yanbingg.com:1888	439.11 KB/s
-www.yanbingg.com:18888	410.04 KB/s
-171.213.152.106:4022	373.82 KB/s
-xmzj.f3322.net:8188	343.28 KB/s
-ddns.55682750.xyz:18888	324.53 KB/s
-171.213.136.109:8188	324.11 KB/s
+s.zssss.eu.org:888	436.13 KB/s
+ddns.55682750.xyz:18888	370.60 KB/s
+wan1.tangwudi.cc:47859	325.45 KB/s
+xmzj.f3322.net:8188	310.67 KB/s
