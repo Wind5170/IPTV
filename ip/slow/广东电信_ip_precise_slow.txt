@@ -1,9 +1,6 @@
-# 20260730_1156_precise_slow
+# 20260731_1207_precise_slow
 # 服务器地址	速度
-www.yahao.host:4022	244.04 KB/s
-line1.huase.ltd:8888	242.71 KB/s
-unraid.cyruslee.top:8888	199.59 KB/s
-183.51.190.232:6633	66.72 KB/s
-www.hongzhijiaoyu.net:8188	1.78 KB/s
-wmh.wmh.ink:6633	1.54 KB/s
-nas.xxika.net:8188	1.33 KB/s
+wmh.wmh.ink:6633	262.18 KB/s
+line1.huase.ltd:8888	226.64 KB/s
+www.hongzhijiaoyu.net:8188	218.38 KB/s
+nas.xxika.net:8188	208.88 KB/s

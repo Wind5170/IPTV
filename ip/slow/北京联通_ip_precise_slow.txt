@@ -1,10 +1,12 @@
-# 20260730_1154_precise_slow
+# 20260731_1204_precise_slow
 # 服务器地址	速度
-tnv.asuscomm.com:8012	191.60 KB/s
-111.193.235.123:9999	106.61 KB/s
-www.ikuai.me:4022	62.63 KB/s
-123.118.54.216:8686	47.87 KB/s
-unicom.swjms.com:4022	21.99 KB/s
-www.photoby.us:28012	13.85 KB/s
-111.196.129.242:20000	2.83 KB/s
-www.49156116.xyz:23234	2.10 KB/s
+unicom.swjms.com:4022	232.57 KB/s
+trulyliu.vicp.net:8622	160.92 KB/s
+www.49156116.xyz:23234	146.07 KB/s
+www.fjxzl.top:23234	95.96 KB/s
+www.ikuai.me:4022	95.70 KB/s
+www.photoby.us:28012	81.06 KB/s
+tnv.asuscomm.com:8012	76.44 KB/s
+happy2015.synology.me:4000	2.52 KB/s
+superpostmail.3322.org:1193	1.78 KB/s
+aikuai.natnum.top:8099	1.59 KB/s
