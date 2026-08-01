@@ -1,18 +1,18 @@
-# 20260731_1219_precise_slow
+# 20260801_1133_precise_slow
 # 服务器地址	速度
-dx.joygala.cn:8118	293.84 KB/s
-www.foreveryyl.top:8001	289.96 KB/s
-vs.heylc.com:4022	289.67 KB/s
-www.wxzmz.com:8800	237.44 KB/s
-j1900.silicaite.top:58888	234.19 KB/s
-home.amucn.net:8800	220.97 KB/s
-www.266999.xyz:55555	155.58 KB/s
-www.sclvip.top:8787	114.98 KB/s
-kouki.pro:8888	111.22 KB/s
-980413.xyz:6000	29.49 KB/s
-fengwei888888.myds.me:58099	24.11 KB/s
-ikuai-v4.17271201.xyz:4000	11.50 KB/s
-huijie5421.cn:8800	1.76 KB/s
-iptv.feng.js.cn:58099	1.53 KB/s
-www.yzddy.top:8800	0.75 KB/s
-121.237.245.33:8888	0.15 KB/s
+t.7ze.top:4022	285.65 KB/s
+www.angel147.cf:9570	284.43 KB/s
+www.foreveryyl.top:8001	247.10 KB/s
+home.amucn.net:8800	240.73 KB/s
+h.vanshun.com:8802	236.48 KB/s
+www.sclvip.top:8787	204.62 KB/s
+j1900.silicaite.top:58888	164.84 KB/s
+huijie5421.cn:8800	148.54 KB/s
+121.237.245.33:8888	142.72 KB/s
+www.wxzmz.com:8800	129.14 KB/s
+980413.xyz:6000	108.58 KB/s
+ikuai-v4.17271201.xyz:4000	104.67 KB/s
+114.226.212.131:8787	81.88 KB/s
+114.226.212.132:8787	80.22 KB/s
+nas2.bycza.top:9000	64.51 KB/s
+nas3.bycza.top:8100	54.35 KB/s
