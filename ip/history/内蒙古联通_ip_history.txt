@@ -1,19 +1,19 @@
-# 20260802_1132_precise_history
+# 20260803_1313_precise_history
 # 服务器地址	状态	有效次数	无效次数
-1.26.26.36:9999	无效	0	89
-1.28.64.206:16666	无效	0	89
-110.18.153.7:17777	无效	0	74
+1.26.26.36:9999	无效	0	90
+1.28.64.206:16666	无效	0	90
+110.18.153.7:17777	无效	0	75
 110.18.154.75:17777	无效	0	12
-110.7.131.210:4022	无效	0	89
+110.7.131.210:4022	无效	0	90
 154.215.123.136:20231	无效	0	12
 58.18.98.250:20231	无效	0	12
-www.ikuai1.onetopcloud.com:16666	无效	0	77
-www.jellyfin.onetopcloud.com:17777	无效	0	77
-vpn.zhangzp.top:4022	无效	0	77
-dabaoerbao2021.myds.me:9999	无效	0	77
-www.nas.onetopcloud.com:17777	无效	0	77
-jenkins.ximen.fun:20231	无效	0	77
-pol.kuailaifan.com:20231	无效	0	77
-emby.zx-gs.top:20231	无效	0	77
-﻿# 2026/05/24 20:42	无效	0	77
+www.ikuai1.onetopcloud.com:16666	无效	0	78
+www.jellyfin.onetopcloud.com:17777	无效	0	78
+vpn.zhangzp.top:4022	无效	0	78
+dabaoerbao2021.myds.me:9999	无效	0	78
+www.nas.onetopcloud.com:17777	无效	0	78
+jenkins.ximen.fun:20231	无效	0	78
+pol.kuailaifan.com:20231	无效	0	78
+emby.zx-gs.top:20231	无效	0	78
+﻿# 2026/05/24 20:42	无效	0	78
 ssh.ximen.fun:20231	无效	0	1

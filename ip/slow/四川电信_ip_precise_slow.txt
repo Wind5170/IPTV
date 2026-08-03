@@ -1,9 +1,10 @@
-# 20260802_1136_precise_slow
+# 20260803_1320_precise_slow
 # 服务器地址	速度
-ddns.55682750.xyz:18888	190.11 KB/s
-171.213.200.220:4022	115.01 KB/s
-171.213.144.38:8188	111.38 KB/s
-171.213.147.243:8188	108.02 KB/s
-hhska.3322.org:8096	107.11 KB/s
-vpn.ydcb.top:40000	48.81 KB/s
-ch3829.myds.me:4022	15.84 KB/s
+vpn.ydcb.top:40000	134.35 KB/s
+171.213.200.220:4022	122.43 KB/s
+171.213.144.92:8188	113.80 KB/s
+www.yanbingg.com:1888	46.93 KB/s
+pp.ydcb.top:40000	44.27 KB/s
+www.yanbingg.com:18888	25.79 KB/s
+hhska.3322.org:8096	22.70 KB/s
+ch3829.myds.me:4022	8.12 KB/s

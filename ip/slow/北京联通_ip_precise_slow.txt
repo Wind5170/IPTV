@@ -1,14 +1,9 @@
-# 20260802_1118_precise_slow
+# 20260803_1257_precise_slow
 # 服务器地址	速度
-114.254.83.124:4022	289.69 KB/s
-superpostmail.3322.org:1193	286.89 KB/s
-laiboy.myds.me:58686	279.37 KB/s
-happy2015.synology.me:4000	247.34 KB/s
-unicom.swjms.com:4022	225.59 KB/s
-aikuai.natnum.top:8099	187.80 KB/s
-triq.cc:8012	167.27 KB/s
-wuyanjiang.cn:8012	149.24 KB/s
-111.196.129.242:20000	62.99 KB/s
-www.photoby.us:28012	29.41 KB/s
-www.49156116.xyz:23234	24.70 KB/s
-rt.tunan.tech:7070	12.99 KB/s
+unicom.swjms.com:4022	153.28 KB/s
+sphinger.f3322.net:11012	149.42 KB/s
+www.photoby.us:28012	112.31 KB/s
+aikuai.natnum.top:8099	39.96 KB/s
+n2.192372.xyz:8888	20.51 KB/s
+111.196.129.242:20000	7.69 KB/s
+www.49156116.xyz:23234	3.23 KB/s

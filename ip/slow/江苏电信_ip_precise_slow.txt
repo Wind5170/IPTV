@@ -1,23 +1,12 @@
-# 20260802_1131_precise_slow
+# 20260803_1312_precise_slow
 # 服务器地址	速度
-202.8090pc.cn:58888	293.04 KB/s
-acp-cloud.asuscomm.com:4000	284.05 KB/s
-www.angel147.cf:9570	282.56 KB/s
-j1900.silicaite.top:58888	263.46 KB/s
-www.yzddy.top:8800	261.86 KB/s
-dx.joygala.cn:8118	261.51 KB/s
-lygzou.asuscomm.com:19999	256.39 KB/s
-home.amucn.net:8800	231.58 KB/s
-nas2.bycza.top:9000	229.94 KB/s
-nas3.bycza.top:8100	223.15 KB/s
-www.wxzmz.com:8800	217.27 KB/s
-980413.xyz:6000	205.14 KB/s
-istoreos.sclvip.top:5566	185.50 KB/s
-www.266999.xyz:55555	182.47 KB/s
-www.sclvip.top:8787	112.54 KB/s
-ikuai-v4.17271201.xyz:4000	61.20 KB/s
-114.226.212.132:8787	38.65 KB/s
-www.foreveryyl.top:8001	15.79 KB/s
-121.237.245.33:8888	10.02 KB/s
-114.226.212.131:8787	0.82 KB/s
-huijie5421.cn:8800	0.77 KB/s
+h.vanshun.com:8802	288.45 KB/s
+acp-cloud.asuscomm.com:4000	276.25 KB/s
+www.wxzmz.com:8800	260.71 KB/s
+114.226.212.132:8787	137.74 KB/s
+iptv.feng.js.cn:58099	118.80 KB/s
+114.226.212.131:8787	38.62 KB/s
+home.amucn.net:8800	14.03 KB/s
+ikuai-v4.17271201.xyz:4000	11.86 KB/s
+www.sclvip.top:8787	10.12 KB/s
+fengwei888888.myds.me:58099	2.86 KB/s
