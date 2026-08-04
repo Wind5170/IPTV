@@ -1,0 +1,3 @@
+# 20260804_1214_precise_slow
+# 服务器地址	速度
+www.flyju.top:8899	211.06 KB/s

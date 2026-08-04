@@ -1,9 +1,4 @@
-# 20260803_1257_precise_slow
+# 20260804_1205_precise_slow
 # 服务器地址	速度
-unicom.swjms.com:4022	153.28 KB/s
-sphinger.f3322.net:11012	149.42 KB/s
-www.photoby.us:28012	112.31 KB/s
-aikuai.natnum.top:8099	39.96 KB/s
-n2.192372.xyz:8888	20.51 KB/s
-111.196.129.242:20000	7.69 KB/s
-www.49156116.xyz:23234	3.23 KB/s
+x1x.bid:5146	241.14 KB/s
+unicom.swjms.com:4022	85.91 KB/s
