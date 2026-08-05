@@ -1,17 +1,14 @@
-# 20260804_1220_precise
+# 20260805_1213_precise
 # 服务器地址	速度
-106.111.244.12:58099	544.46 KB/s
-kouki.pro:8888	519.38 KB/s
-lygzou.asuscomm.com:19999	479.24 KB/s
-iptv.feng.js.cn:58099	458.78 KB/s
-y1nf0x.myds.me:5888	450.80 KB/s
-www.foreveryyl.top:8001	410.02 KB/s
-nas3.bycza.top:8100	402.08 KB/s
-dx.joygala.cn:8118	387.10 KB/s
-t.7ze.top:4022	378.41 KB/s
-njbobo.mycloudnas.com:4022	371.31 KB/s
-istoreos.sclvip.top:5566	353.69 KB/s
-202.8090pc.cn:58888	347.30 KB/s
-vs.heylc.com:4022	346.80 KB/s
-acp-cloud.asuscomm.com:4000	308.59 KB/s
-www.angel147.cf:9570	306.28 KB/s
+kouki.pro:8888	376.32 KB/s
+106.111.244.12:58099	362.82 KB/s
+t.7ze.top:4022	348.93 KB/s
+lygzou.asuscomm.com:19999	347.71 KB/s
+iptv.feng.js.cn:58099	347.09 KB/s
+h.vanshun.com:8802	346.83 KB/s
+www.foreveryyl.top:8001	344.50 KB/s
+gcyp.mycloudnas.com:4000	335.27 KB/s
+www.266999.xyz:55555	327.70 KB/s
+www.yzddy.top:8800	318.97 KB/s
+www.angel147.cf:9570	312.67 KB/s
+dx.joygala.cn:8118	308.15 KB/s

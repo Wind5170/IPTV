@@ -1,7 +1,5 @@
-# 20260804_1216_precise
+# 20260805_1211_precise
 # 服务器地址	速度
-27.18.157.206:2701	473.96 KB/s
-hiliu.myds.me:18088	472.15 KB/s
-cqknas.myqnapcloud.com:8808	463.19 KB/s
-i2.timogo.cc:9156	458.34 KB/s
-wlei.myds.me:52057	364.41 KB/s
+wlei.myds.me:52057	365.39 KB/s
+www.661130.xyz:8188	358.63 KB/s
+cqknas.myqnapcloud.com:8808	334.77 KB/s

@@ -1,6 +1,4 @@
-# 20260804_1214_precise
+# 20260805_1209_precise
 # 服务器地址	速度
-xz.78057805.xyz:4002	453.32 KB/s
-nnu.qzz.io:4000	437.96 KB/s
-ik.iptv8.net:8888	413.39 KB/s
-www.siyao.xin:4000	411.92 KB/s
+xz.78057805.xyz:4002	388.53 KB/s
+www.siyao.xin:4000	333.39 KB/s
