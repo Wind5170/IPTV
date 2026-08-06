@@ -1,6 +1,0 @@
-# 20260805_1209_precise_slow
-# 服务器地址	速度
-42.228.37.233:8190	288.96 KB/s
-ik.iptv8.net:8888	195.00 KB/s
-nnu.qzz.io:4000	117.55 KB/s
-www.flyju.top:8899	23.38 KB/s
