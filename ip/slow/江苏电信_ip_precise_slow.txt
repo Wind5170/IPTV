@@ -1,16 +1,7 @@
-# 20260806_1216_precise_slow
+# 20260807_1104_precise_slow
 # 服务器地址	速度
-202.8090pc.cn:58888	282.33 KB/s
-dx.joygala.cn:8118	271.02 KB/s
-114.226.212.152:8787	255.83 KB/s
-nas2.bycza.top:9000	243.90 KB/s
-www.266999.xyz:55555	240.80 KB/s
-nas3.bycza.top:8100	239.22 KB/s
-www.wxzmz.com:8800	207.92 KB/s
-gcyp.mycloudnas.com:4000	155.11 KB/s
-njbobo.mycloudnas.com:4022	138.08 KB/s
-iptv.feng.js.cn:58099	55.76 KB/s
-home.amucn.net:8800	16.81 KB/s
-ikuai-v4.17271201.xyz:4000	16.54 KB/s
-h.vanshun.com:8802	12.14 KB/s
-106.111.244.12:58099	1.88 KB/s
+121.237.244.148:8888	257.37 KB/s
+gcyp.mycloudnas.com:4000	174.88 KB/s
+nas2.bycza.top:9000	113.70 KB/s
+home.amucn.net:8800	59.24 KB/s
+ikuai-v4.17271201.xyz:4000	19.66 KB/s

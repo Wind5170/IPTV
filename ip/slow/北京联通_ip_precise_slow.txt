@@ -1,0 +1,3 @@
+# 20260807_1054_precise_slow
+# 服务器地址	速度
+rt.tunan.tech:7070	21.62 KB/s

@@ -1,3 +1,7 @@
-# 20260806_1206_precise_slow
+# 20260807_1056_precise_slow
 # 服务器地址	速度
-113.101.245.171:9988	266.46 KB/s
+113.83.248.208:4200	215.18 KB/s
+liqn.mycloudnas.com:8188	177.05 KB/s
+wmh.wmh.ink:6633	2.82 KB/s
+183.236.43.98:4013	2.37 KB/s
+yanshifen.top:8889	1.06 KB/s
