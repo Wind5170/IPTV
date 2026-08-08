@@ -1,3 +1,5 @@
-# 20260807_1054_precise_slow
+# 20260808_1035_precise_slow
 # 服务器地址	速度
-rt.tunan.tech:7070	21.62 KB/s
+superpostmail.3322.org:1193	281.07 KB/s
+laiboy.myds.me:58686	279.15 KB/s
+rt.tunan.tech:7070	16.49 KB/s

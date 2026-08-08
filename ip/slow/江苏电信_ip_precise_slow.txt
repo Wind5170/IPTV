@@ -1,7 +1,10 @@
-# 20260807_1104_precise_slow
+# 20260808_1047_precise_slow
 # 服务器地址	速度
-121.237.244.148:8888	257.37 KB/s
-gcyp.mycloudnas.com:4000	174.88 KB/s
-nas2.bycza.top:9000	113.70 KB/s
-home.amucn.net:8800	59.24 KB/s
-ikuai-v4.17271201.xyz:4000	19.66 KB/s
+www.angel147.cf:9570	275.17 KB/s
+www.266999.xyz:55555	230.67 KB/s
+y1nf0x.myds.me:5888	219.23 KB/s
+121.237.244.148:8888	59.88 KB/s
+980413.xyz:6000	57.08 KB/s
+j1900.silicaite.top:58888	23.78 KB/s
+ikuai-v4.17271201.xyz:4000	12.98 KB/s
+home.amucn.net:8800	10.81 KB/s
