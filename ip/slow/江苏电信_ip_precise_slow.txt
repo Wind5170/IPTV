@@ -1,10 +1,14 @@
-# 20260808_1047_precise_slow
+# 20260809_1050_precise_slow
 # 服务器地址	速度
-www.angel147.cf:9570	275.17 KB/s
-www.266999.xyz:55555	230.67 KB/s
-y1nf0x.myds.me:5888	219.23 KB/s
-121.237.244.148:8888	59.88 KB/s
-980413.xyz:6000	57.08 KB/s
-j1900.silicaite.top:58888	23.78 KB/s
-ikuai-v4.17271201.xyz:4000	12.98 KB/s
-home.amucn.net:8800	10.81 KB/s
+114.226.212.152:8787	282.69 KB/s
+121.237.244.148:8888	256.12 KB/s
+istoreos.sclvip.top:5566	251.97 KB/s
+h.vanshun.com:8802	240.50 KB/s
+www.266999.xyz:55555	188.06 KB/s
+www.sclvip.top:8787	169.68 KB/s
+njbobo.mycloudnas.com:4022	143.43 KB/s
+980413.xyz:6000	123.72 KB/s
+home.amucn.net:8800	41.73 KB/s
+ikuai-v4.17271201.xyz:4000	18.92 KB/s
+nas2.bycza.top:9000	3.10 KB/s
+114.226.212.150:8787	2.98 KB/s

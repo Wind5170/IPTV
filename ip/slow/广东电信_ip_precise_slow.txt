@@ -1,8 +1,8 @@
-# 20260808_1037_precise_slow
+# 20260809_1042_precise_slow
 # 服务器地址	速度
-113.101.245.37:9988	275.97 KB/s
-wmh.wmh.ink:6633	164.32 KB/s
-www.maomizi.cn:9530	145.50 KB/s
-www.yahao.host:4022	61.98 KB/s
-183.236.43.98:4013	1.86 KB/s
-yanshifen.top:8889	1.54 KB/s
+113.101.245.37:9988	292.19 KB/s
+nas.xxika.net:8188	235.69 KB/s
+58.62.234.140:10000	215.25 KB/s
+183.236.43.98:4013	2.56 KB/s
+yanshifen.top:8889	1.99 KB/s
+www.maomizi.cn:9530	1.87 KB/s
