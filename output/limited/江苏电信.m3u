@@ -1,464 +1,464 @@
 #EXTM3U
 #EXTINF:-1 group-title="江苏电信-组播1",江苏卫视
-http://114.226.212.150:8787/udp/239.49.8.16:9602
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.16:9602
 #EXTINF:-1 group-title="江苏电信-组播1",江苏卫视
-http://114.226.212.150:8787/udp/239.49.8.138:6000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.138:6000
 #EXTINF:-1 group-title="江苏电信-组播1",江苏卫视4K
-http://114.226.212.150:8787/udp/239.49.1.62:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.62:8000
 #EXTINF:-1 group-title="江苏电信-组播1",江苏卫视4K
-http://114.226.212.150:8787/udp/239.49.1.61:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.61:8000
 #EXTINF:-1 group-title="江苏电信-组播1",江苏体育
-http://114.226.212.150:8787/udp/239.49.8.117:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.117:8000
 #EXTINF:-1 group-title="江苏电信-组播1",江苏国际
-http://114.226.212.150:8787/udp/239.49.1.81:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.81:8000
 #EXTINF:-1 group-title="江苏电信-组播1",江苏城市
-http://114.226.212.150:8787/udp/239.49.8.107:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.107:8000
 #EXTINF:-1 group-title="江苏电信-组播1",江苏影视
-http://114.226.212.150:8787/udp/239.49.8.118:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.118:8000
 #EXTINF:-1 group-title="江苏电信-组播1",江苏教育
-http://114.226.212.150:8787/udp/239.49.8.122:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.122:8000
 #EXTINF:-1 group-title="江苏电信-组播1",江苏新闻
-http://114.226.212.150:8787/udp/239.49.8.120:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.120:8000
 #EXTINF:-1 group-title="江苏电信-组播1",江苏综艺
-http://114.226.212.150:8787/udp/239.49.8.108:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.108:8000
 #EXTINF:-1 group-title="江苏电信-组播1",CGTN英语
-http://114.226.212.150:8787/udp/239.49.0.9:8064
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.9:8064
 #EXTINF:-1 group-title="江苏电信-组播1",CGTN英语
-http://114.226.212.150:8787/udp/239.49.1.9:6000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.9:6000
 #EXTINF:-1 group-title="江苏电信-组播1",CGTN西班牙语
-http://114.226.212.150:8787/udp/239.49.1.30:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.30:8000
 #EXTINF:-1 group-title="江苏电信-组播1",CGTN法语
-http://114.226.212.150:8787/udp/239.49.1.31:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.31:8000
 #EXTINF:-1 group-title="江苏电信-组播1",CGTN俄语
-http://114.226.212.150:8787/udp/239.49.0.111:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.111:8000
 #EXTINF:-1 group-title="江苏电信-组播1",CETV-1综合教育
-http://114.226.212.150:8787/udp/239.49.8.115:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.115:8000
 #EXTINF:-1 group-title="江苏电信-组播1",CETV-1综合教育
-http://114.226.212.150:8787/udp/239.49.0.70:8552
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.70:8552
 #EXTINF:-1 group-title="江苏电信-组播1",CETV-2空中课堂
-http://114.226.212.150:8787/udp/239.49.0.71:8560
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.71:8560
 #EXTINF:-1 group-title="江苏电信-组播1",CETV-4职业教育
-http://114.226.212.150:8787/udp/239.49.0.125:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.125:8000
 #EXTINF:-1 group-title="江苏电信-组播1",CETV-4职业教育
-http://114.226.212.150:8787/udp/239.49.0.72:8568
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.72:8568
 #EXTINF:-1 group-title="江苏电信-组播1",聚鲨环球精选
-http://114.226.212.150:8787/udp/239.49.0.212:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.212:8000
 #EXTINF:-1 group-title="江苏电信-组播1",中学生
-http://114.226.212.150:8787/udp/239.49.1.82:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.82:8000
 #EXTINF:-1 group-title="江苏电信-组播1",中国天气
-http://114.226.212.150:8787/udp/239.49.0.94:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.94:8000
 #EXTINF:-1 group-title="江苏电信-组播1",睛彩竞技
-http://114.226.212.150:8787/udp/239.49.8.39:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.39:8000
 #EXTINF:-1 group-title="江苏电信-组播1",睛彩广场舞
-http://114.226.212.150:8787/udp/239.49.8.64:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.64:8000
 #EXTINF:-1 group-title="江苏电信-组播1",睛彩青少
-http://114.226.212.150:8787/udp/239.49.8.46:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.46:8000
 #EXTINF:-1 group-title="江苏电信-组播1",睛彩篮球
-http://114.226.212.150:8787/udp/239.49.8.42:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.42:8000
 #EXTINF:-1 group-title="江苏电信-组播1",江苏优漫卡通
-http://114.226.212.150:8787/udp/239.49.8.119:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.119:8000
 #EXTINF:-1 group-title="江苏电信-组播1",江苏优漫卡通
-http://114.226.212.150:8787/udp/239.49.0.21:8160
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.21:8160
 #EXTINF:-1 group-title="江苏电信-组播1",江苏优漫卡通
-http://114.226.212.150:8787/udp/239.49.1.21:6000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.21:6000
 #EXTINF:-1 group-title="江苏电信-组播1",北京四海钓鱼
-http://114.226.212.150:8787/udp/239.49.1.80:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.80:8000
 #EXTINF:-1 group-title="江苏电信-组播1",北京卡酷少儿
-http://114.226.212.150:8787/udp/239.49.0.148:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.148:8000
 #EXTINF:-1 group-title="江苏电信-组播1",山西书画频道
-http://114.226.212.150:8787/udp/239.49.0.123:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.123:8000
 #EXTINF:-1 group-title="江苏电信-组播1",上海东方财经
-http://114.226.212.150:8787/udp/239.49.0.95:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.95:8000
 #EXTINF:-1 group-title="江苏电信-组播1",上海法治天地
-http://114.226.212.150:8787/udp/239.49.0.96:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.96:8000
 #EXTINF:-1 group-title="江苏电信-组播1",上海都市剧场
-http://114.226.212.150:8787/udp/239.49.0.99:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.99:8000
 #EXTINF:-1 group-title="江苏电信-组播1",上海生活时尚
-http://114.226.212.150:8787/udp/239.49.0.97:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.97:8000
 #EXTINF:-1 group-title="江苏电信-组播1",上海第一财经
-http://114.226.212.150:8787/udp/239.49.8.37:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.37:8000
 #EXTINF:-1 group-title="江苏电信-组播1",上海第一财经
-http://114.226.212.150:8787/udp/239.49.0.30:8232
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.30:8232
 #EXTINF:-1 group-title="江苏电信-组播1",江苏财富天下
-http://114.226.212.150:8787/udp/239.49.1.76:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.76:8000
 #EXTINF:-1 group-title="江苏电信-组播1",河南梨园
-http://114.226.212.150:8787/udp/239.49.8.193:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.193:8000
 #EXTINF:-1 group-title="江苏电信-组播1",河南武术世界
-http://114.226.212.150:8787/udp/239.49.0.205:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.205:8000
 #EXTINF:-1 group-title="江苏电信-组播1",河南文物宝库
-http://114.226.212.150:8787/udp/239.49.0.209:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.209:8000
 #EXTINF:-1 group-title="江苏电信-组播1",湖北快乐垂钓
-http://114.226.212.150:8787/udp/239.49.0.114:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.114:8000
 #EXTINF:-1 group-title="江苏电信-组播1",湖南茶频道
-http://114.226.212.150:8787/udp/239.49.0.146:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.146:8000
 #EXTINF:-1 group-title="江苏电信-组播1",湖南金鹰纪实
-http://114.226.212.150:8787/udp/239.49.8.79:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.79:8000
 #EXTINF:-1 group-title="江苏电信-组播1",湖南金鹰卡通
-http://114.226.212.150:8787/udp/239.49.8.33:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.33:8000
 #EXTINF:-1 group-title="江苏电信-组播1",贵州天元围棋
-http://114.226.212.150:8787/udp/239.49.1.79:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.79:8000
 #EXTINF:-1 group-title="江苏电信-组播1",精彩推荐
-http://114.226.212.150:8787/udp/239.49.0.190:9458
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.190:9458
 #EXTINF:-1 group-title="江苏电信-组播1",精彩推荐
-http://114.226.212.150:8787/udp/239.49.8.34:8612
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.34:8612
 #EXTINF:-1 group-title="江苏电信-组播1",南京少儿
-http://114.226.212.150:8787/udp/239.49.0.45:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.45:8000
 #EXTINF:-1 group-title="江苏电信-组播1",南京影视
-http://114.226.212.150:8787/udp/239.49.0.24:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.24:8000
 #EXTINF:-1 group-title="江苏电信-组播1",南京文旅纪录
-http://114.226.212.150:8787/udp/239.49.0.38:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.38:8000
 #EXTINF:-1 group-title="江苏电信-组播1",南京新闻综合
-http://114.226.212.150:8787/udp/239.49.0.25:8192
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.25:8192
 #EXTINF:-1 group-title="江苏电信-组播1",南京生活频道
-http://114.226.212.150:8787/udp/239.49.0.26:8200
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.26:8200
 #EXTINF:-1 group-title="江苏电信-组播1",南京科教频道
-http://114.226.212.150:8787/udp/239.49.0.183:9434
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.183:9434
 #EXTINF:-1 group-title="江苏电信-组播1",南京高淳新闻
-http://114.226.212.150:8787/udp/239.49.0.74:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.74:8000
 #EXTINF:-1 group-title="江苏电信-组播1",无锡新闻综合
-http://114.226.212.150:8787/udp/239.49.1.77:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.77:8000
 #EXTINF:-1 group-title="江苏电信-组播1",无锡都市资讯
-http://114.226.212.150:8787/udp/239.49.1.78:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.78:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州1
-http://114.226.212.150:8787/udp/239.49.0.203:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.203:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州2
-http://114.226.212.150:8787/udp/239.49.0.199:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.199:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州3
-http://114.226.212.150:8787/udp/239.49.0.211:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.211:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州新沂1
-http://114.226.212.150:8787/udp/239.49.0.238:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.238:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州沛县新闻综合
-http://114.226.212.150:8787/udp/239.49.0.214:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.214:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州睢宁综合
-http://114.226.212.150:8787/udp/239.49.0.239:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.239:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州贾汪新闻
-http://114.226.212.150:8787/udp/239.49.0.248:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.248:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州邳州综合
-http://114.226.212.150:8787/udp/239.49.0.182:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.182:8000
 #EXTINF:-1 group-title="江苏电信-组播1",徐州铜山1
-http://114.226.212.150:8787/udp/239.49.0.163:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.163:8000
 #EXTINF:-1 group-title="江苏电信-组播1",新沂生活
-http://114.226.212.150:8787/udp/239.49.0.124:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.124:8000
 #EXTINF:-1 group-title="江苏电信-组播1",常州公共
-http://114.226.212.150:8787/udp/239.49.0.218:9582
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.218:9582
 #EXTINF:-1 group-title="江苏电信-组播1",常州新闻综合
-http://114.226.212.150:8787/udp/239.49.1.83:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.83:8000
 #EXTINF:-1 group-title="江苏电信-组播1",常州生活
-http://114.226.212.150:8787/udp/239.49.1.85:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.85:8000
 #EXTINF:-1 group-title="江苏电信-组播1",常州生活
-http://114.226.212.150:8787/udp/239.49.0.219:9586
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.219:9586
 #EXTINF:-1 group-title="江苏电信-组播1",常州综合
-http://114.226.212.150:8787/udp/239.49.0.221:9594
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.221:9594
 #EXTINF:-1 group-title="江苏电信-组播1",常州都市
-http://114.226.212.150:8787/udp/239.49.1.84:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.84:8000
 #EXTINF:-1 group-title="江苏电信-组播1",常州都市
-http://114.226.212.150:8787/udp/239.49.0.220:9590
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.220:9590
 #EXTINF:-1 group-title="江苏电信-组播1",常州金坛电视台
-http://114.226.212.150:8787/udp/239.49.1.54:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.54:8000
 #EXTINF:-1 group-title="江苏电信-组播1",苏州生活资讯5
-http://114.226.212.150:8787/udp/239.49.8.116:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.116:8000
 #EXTINF:-1 group-title="江苏电信-组播1",南通公共
-http://114.226.212.150:8787/udp/239.49.0.197:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.197:8000
 #EXTINF:-1 group-title="江苏电信-组播1",南通新闻综合
-http://114.226.212.150:8787/udp/239.49.0.223:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.223:8000
 #EXTINF:-1 group-title="江苏电信-组播1",南通社教
-http://114.226.212.150:8787/udp/239.49.0.224:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.224:8000
 #EXTINF:-1 group-title="江苏电信-组播1",连云港东海综合
-http://114.226.212.150:8787/udp/239.49.0.121:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.121:8000
 #EXTINF:-1 group-title="江苏电信-组播1",连云港新闻综合
-http://114.226.212.150:8787/udp/239.49.0.225:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.225:8000
 #EXTINF:-1 group-title="江苏电信-组播1",连云港生活频道
-http://114.226.212.150:8787/udp/239.49.0.229:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.229:8000
 #EXTINF:-1 group-title="江苏电信-组播1",连云港赣榆电视台
-http://114.226.212.150:8787/udp/239.49.0.241:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.241:8000
 #EXTINF:-1 group-title="江苏电信-组播1",淮安公共
-http://114.226.212.150:8787/udp/239.49.0.181:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.181:8000
 #EXTINF:-1 group-title="江苏电信-组播1",淮安影视娱乐
-http://114.226.212.150:8787/udp/239.49.0.192:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.192:8000
 #EXTINF:-1 group-title="江苏电信-组播1",淮安新闻综合
-http://114.226.212.150:8787/udp/239.49.0.204:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.204:8000
 #EXTINF:-1 group-title="江苏电信-组播1",淮安洪泽1
-http://114.226.212.150:8787/udp/239.49.0.89:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.89:8000
 #EXTINF:-1 group-title="江苏电信-组播1",淮安淮阴综合
-http://114.226.212.150:8787/udp/239.49.0.169:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.169:8000
 #EXTINF:-1 group-title="江苏电信-组播1",淮安盱眙综合
-http://114.226.212.150:8787/udp/239.49.0.237:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.237:8000
 #EXTINF:-1 group-title="江苏电信-组播1",盐城1
-http://114.226.212.150:8787/udp/239.49.8.30:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.30:8000
 #EXTINF:-1 group-title="江苏电信-组播1",盐城2
-http://114.226.212.150:8787/udp/239.49.0.88:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.88:8000
 #EXTINF:-1 group-title="江苏电信-组播1",盐城响水综合
-http://114.226.212.150:8787/udp/239.49.0.115:8912
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.115:8912
 #EXTINF:-1 group-title="江苏电信-组播1",镇江新闻综合
-http://114.226.212.150:8787/udp/239.49.0.98:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.98:8000
 #EXTINF:-1 group-title="江苏电信-组播1",镇江民生教育
-http://114.226.212.150:8787/udp/239.49.1.73:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.1.73:8000
 #EXTINF:-1 group-title="江苏电信-组播1",泰州1
-http://114.226.212.150:8787/udp/239.49.0.215:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.215:8000
 #EXTINF:-1 group-title="江苏电信-组播1",泰州2
-http://114.226.212.150:8787/udp/239.49.0.217:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.217:8000
 #EXTINF:-1 group-title="江苏电信-组播1",泰州3
-http://114.226.212.150:8787/udp/239.49.0.222:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.222:8000
 #EXTINF:-1 group-title="江苏电信-组播1",泰州兴化新闻综合
-http://114.226.212.150:8787/udp/239.49.0.162:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.162:8000
 #EXTINF:-1 group-title="江苏电信-组播1",泰州泰兴综合
-http://114.226.212.150:8787/udp/239.49.0.168:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.168:8000
 #EXTINF:-1 group-title="江苏电信-组播1",宿迁公共
-http://114.226.212.150:8787/udp/239.49.0.236:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.236:8000
 #EXTINF:-1 group-title="江苏电信-组播1",宿迁宿豫综合
-http://114.226.212.150:8787/udp/239.49.0.83:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.83:8000
 #EXTINF:-1 group-title="江苏电信-组播1",宿迁沭阳综合
-http://114.226.212.150:8787/udp/239.49.0.189:8792
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.189:8792
 #EXTINF:-1 group-title="江苏电信-组播1",宿迁泗洪综合
-http://114.226.212.150:8787/udp/239.49.0.195:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.195:8000
 #EXTINF:-1 group-title="江苏电信-组播1",宿迁综合
-http://114.226.212.150:8787/udp/239.49.0.231:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.231:8000
 #EXTINF:-1 group-title="江苏电信-组播1",泗阳综合
-http://114.226.212.150:8787/udp/239.49.0.249:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.249:8000
 #EXTINF:-1 group-title="江苏电信-组播1",CCTV16_4k(SDR)
-http://114.226.212.150:8787/udp/239.49.0.109:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.0.109:8000
 #EXTINF:-1 group-title="江苏电信-组播1",苏超1
-http://114.226.212.150:8787/udp/239.49.8.96:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.96:8000
 #EXTINF:-1 group-title="江苏电信-组播1",苏超2
-http://114.226.212.150:8787/udp/239.49.8.97:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.97:8000
 #EXTINF:-1 group-title="江苏电信-组播1",苏超3
-http://114.226.212.150:8787/udp/239.49.8.98:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.98:8000
 #EXTINF:-1 group-title="江苏电信-组播1",苏超4
-http://114.226.212.150:8787/udp/239.49.8.99:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.99:8000
 #EXTINF:-1 group-title="江苏电信-组播1",苏超5
-http://114.226.212.150:8787/udp/239.49.8.100:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.100:8000
 #EXTINF:-1 group-title="江苏电信-组播1",苏超6
-http://114.226.212.150:8787/udp/239.49.8.101:8000
+http://njbobo.mycloudnas.com:4022/udp/239.49.8.101:8000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏卫视
-http://kouki.pro:8888/udp/239.49.8.16:9602
+http://www.foreveryyl.top:8001/udp/239.49.8.16:9602
 #EXTINF:-1 group-title="江苏电信-组播2",江苏卫视
-http://kouki.pro:8888/udp/239.49.8.138:6000
+http://www.foreveryyl.top:8001/udp/239.49.8.138:6000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏卫视4K
-http://kouki.pro:8888/udp/239.49.1.62:8000
+http://www.foreveryyl.top:8001/udp/239.49.1.62:8000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏卫视4K
-http://kouki.pro:8888/udp/239.49.1.61:8000
+http://www.foreveryyl.top:8001/udp/239.49.1.61:8000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏体育
-http://kouki.pro:8888/udp/239.49.8.117:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.117:8000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏国际
-http://kouki.pro:8888/udp/239.49.1.81:8000
+http://www.foreveryyl.top:8001/udp/239.49.1.81:8000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏城市
-http://kouki.pro:8888/udp/239.49.8.107:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.107:8000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏影视
-http://kouki.pro:8888/udp/239.49.8.118:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.118:8000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏教育
-http://kouki.pro:8888/udp/239.49.8.122:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.122:8000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏新闻
-http://kouki.pro:8888/udp/239.49.8.120:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.120:8000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏综艺
-http://kouki.pro:8888/udp/239.49.8.108:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.108:8000
 #EXTINF:-1 group-title="江苏电信-组播2",CGTN英语
-http://kouki.pro:8888/udp/239.49.0.9:8064
+http://www.foreveryyl.top:8001/udp/239.49.0.9:8064
 #EXTINF:-1 group-title="江苏电信-组播2",CGTN英语
-http://kouki.pro:8888/udp/239.49.1.9:6000
+http://www.foreveryyl.top:8001/udp/239.49.1.9:6000
 #EXTINF:-1 group-title="江苏电信-组播2",CGTN西班牙语
-http://kouki.pro:8888/udp/239.49.1.30:8000
+http://www.foreveryyl.top:8001/udp/239.49.1.30:8000
 #EXTINF:-1 group-title="江苏电信-组播2",CGTN法语
-http://kouki.pro:8888/udp/239.49.1.31:8000
+http://www.foreveryyl.top:8001/udp/239.49.1.31:8000
 #EXTINF:-1 group-title="江苏电信-组播2",CGTN俄语
-http://kouki.pro:8888/udp/239.49.0.111:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.111:8000
 #EXTINF:-1 group-title="江苏电信-组播2",CETV-1综合教育
-http://kouki.pro:8888/udp/239.49.8.115:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.115:8000
 #EXTINF:-1 group-title="江苏电信-组播2",CETV-1综合教育
-http://kouki.pro:8888/udp/239.49.0.70:8552
+http://www.foreveryyl.top:8001/udp/239.49.0.70:8552
 #EXTINF:-1 group-title="江苏电信-组播2",CETV-2空中课堂
-http://kouki.pro:8888/udp/239.49.0.71:8560
+http://www.foreveryyl.top:8001/udp/239.49.0.71:8560
 #EXTINF:-1 group-title="江苏电信-组播2",CETV-4职业教育
-http://kouki.pro:8888/udp/239.49.0.125:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.125:8000
 #EXTINF:-1 group-title="江苏电信-组播2",CETV-4职业教育
-http://kouki.pro:8888/udp/239.49.0.72:8568
+http://www.foreveryyl.top:8001/udp/239.49.0.72:8568
 #EXTINF:-1 group-title="江苏电信-组播2",聚鲨环球精选
-http://kouki.pro:8888/udp/239.49.0.212:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.212:8000
 #EXTINF:-1 group-title="江苏电信-组播2",中学生
-http://kouki.pro:8888/udp/239.49.1.82:8000
+http://www.foreveryyl.top:8001/udp/239.49.1.82:8000
 #EXTINF:-1 group-title="江苏电信-组播2",中国天气
-http://kouki.pro:8888/udp/239.49.0.94:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.94:8000
 #EXTINF:-1 group-title="江苏电信-组播2",睛彩竞技
-http://kouki.pro:8888/udp/239.49.8.39:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.39:8000
 #EXTINF:-1 group-title="江苏电信-组播2",睛彩广场舞
-http://kouki.pro:8888/udp/239.49.8.64:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.64:8000
 #EXTINF:-1 group-title="江苏电信-组播2",睛彩青少
-http://kouki.pro:8888/udp/239.49.8.46:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.46:8000
 #EXTINF:-1 group-title="江苏电信-组播2",睛彩篮球
-http://kouki.pro:8888/udp/239.49.8.42:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.42:8000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏优漫卡通
-http://kouki.pro:8888/udp/239.49.8.119:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.119:8000
 #EXTINF:-1 group-title="江苏电信-组播2",江苏优漫卡通
-http://kouki.pro:8888/udp/239.49.0.21:8160
+http://www.foreveryyl.top:8001/udp/239.49.0.21:8160
 #EXTINF:-1 group-title="江苏电信-组播2",江苏优漫卡通
-http://kouki.pro:8888/udp/239.49.1.21:6000
+http://www.foreveryyl.top:8001/udp/239.49.1.21:6000
 #EXTINF:-1 group-title="江苏电信-组播2",北京四海钓鱼
-http://kouki.pro:8888/udp/239.49.1.80:8000
+http://www.foreveryyl.top:8001/udp/239.49.1.80:8000
 #EXTINF:-1 group-title="江苏电信-组播2",北京卡酷少儿
-http://kouki.pro:8888/udp/239.49.0.148:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.148:8000
 #EXTINF:-1 group-title="江苏电信-组播2",山西书画频道
-http://kouki.pro:8888/udp/239.49.0.123:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.123:8000
 #EXTINF:-1 group-title="江苏电信-组播2",上海东方财经
-http://kouki.pro:8888/udp/239.49.0.95:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.95:8000
 #EXTINF:-1 group-title="江苏电信-组播2",上海法治天地
-http://kouki.pro:8888/udp/239.49.0.96:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.96:8000
 #EXTINF:-1 group-title="江苏电信-组播2",上海都市剧场
-http://kouki.pro:8888/udp/239.49.0.99:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.99:8000
 #EXTINF:-1 group-title="江苏电信-组播2",上海生活时尚
-http://kouki.pro:8888/udp/239.49.0.97:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.97:8000
 #EXTINF:-1 group-title="江苏电信-组播2",上海第一财经
-http://kouki.pro:8888/udp/239.49.8.37:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.37:8000
 #EXTINF:-1 group-title="江苏电信-组播2",上海第一财经
-http://kouki.pro:8888/udp/239.49.0.30:8232
+http://www.foreveryyl.top:8001/udp/239.49.0.30:8232
 #EXTINF:-1 group-title="江苏电信-组播2",江苏财富天下
-http://kouki.pro:8888/udp/239.49.1.76:8000
+http://www.foreveryyl.top:8001/udp/239.49.1.76:8000
 #EXTINF:-1 group-title="江苏电信-组播2",河南梨园
-http://kouki.pro:8888/udp/239.49.8.193:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.193:8000
 #EXTINF:-1 group-title="江苏电信-组播2",河南武术世界
-http://kouki.pro:8888/udp/239.49.0.205:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.205:8000
 #EXTINF:-1 group-title="江苏电信-组播2",河南文物宝库
-http://kouki.pro:8888/udp/239.49.0.209:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.209:8000
 #EXTINF:-1 group-title="江苏电信-组播2",湖北快乐垂钓
-http://kouki.pro:8888/udp/239.49.0.114:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.114:8000
 #EXTINF:-1 group-title="江苏电信-组播2",湖南茶频道
-http://kouki.pro:8888/udp/239.49.0.146:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.146:8000
 #EXTINF:-1 group-title="江苏电信-组播2",湖南金鹰纪实
-http://kouki.pro:8888/udp/239.49.8.79:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.79:8000
 #EXTINF:-1 group-title="江苏电信-组播2",湖南金鹰卡通
-http://kouki.pro:8888/udp/239.49.8.33:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.33:8000
 #EXTINF:-1 group-title="江苏电信-组播2",贵州天元围棋
-http://kouki.pro:8888/udp/239.49.1.79:8000
+http://www.foreveryyl.top:8001/udp/239.49.1.79:8000
 #EXTINF:-1 group-title="江苏电信-组播2",精彩推荐
-http://kouki.pro:8888/udp/239.49.0.190:9458
+http://www.foreveryyl.top:8001/udp/239.49.0.190:9458
 #EXTINF:-1 group-title="江苏电信-组播2",精彩推荐
-http://kouki.pro:8888/udp/239.49.8.34:8612
+http://www.foreveryyl.top:8001/udp/239.49.8.34:8612
 #EXTINF:-1 group-title="江苏电信-组播2",南京少儿
-http://kouki.pro:8888/udp/239.49.0.45:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.45:8000
 #EXTINF:-1 group-title="江苏电信-组播2",南京影视
-http://kouki.pro:8888/udp/239.49.0.24:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.24:8000
 #EXTINF:-1 group-title="江苏电信-组播2",南京文旅纪录
-http://kouki.pro:8888/udp/239.49.0.38:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.38:8000
 #EXTINF:-1 group-title="江苏电信-组播2",南京新闻综合
-http://kouki.pro:8888/udp/239.49.0.25:8192
+http://www.foreveryyl.top:8001/udp/239.49.0.25:8192
 #EXTINF:-1 group-title="江苏电信-组播2",南京生活频道
-http://kouki.pro:8888/udp/239.49.0.26:8200
+http://www.foreveryyl.top:8001/udp/239.49.0.26:8200
 #EXTINF:-1 group-title="江苏电信-组播2",南京科教频道
-http://kouki.pro:8888/udp/239.49.0.183:9434
+http://www.foreveryyl.top:8001/udp/239.49.0.183:9434
 #EXTINF:-1 group-title="江苏电信-组播2",南京高淳新闻
-http://kouki.pro:8888/udp/239.49.0.74:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.74:8000
 #EXTINF:-1 group-title="江苏电信-组播2",无锡新闻综合
-http://kouki.pro:8888/udp/239.49.1.77:8000
+http://www.foreveryyl.top:8001/udp/239.49.1.77:8000
 #EXTINF:-1 group-title="江苏电信-组播2",无锡都市资讯
-http://kouki.pro:8888/udp/239.49.1.78:8000
+http://www.foreveryyl.top:8001/udp/239.49.1.78:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州1
-http://kouki.pro:8888/udp/239.49.0.203:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.203:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州2
-http://kouki.pro:8888/udp/239.49.0.199:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.199:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州3
-http://kouki.pro:8888/udp/239.49.0.211:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.211:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州新沂1
-http://kouki.pro:8888/udp/239.49.0.238:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.238:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州沛县新闻综合
-http://kouki.pro:8888/udp/239.49.0.214:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.214:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州睢宁综合
-http://kouki.pro:8888/udp/239.49.0.239:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.239:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州贾汪新闻
-http://kouki.pro:8888/udp/239.49.0.248:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.248:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州邳州综合
-http://kouki.pro:8888/udp/239.49.0.182:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.182:8000
 #EXTINF:-1 group-title="江苏电信-组播2",徐州铜山1
-http://kouki.pro:8888/udp/239.49.0.163:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.163:8000
 #EXTINF:-1 group-title="江苏电信-组播2",新沂生活
-http://kouki.pro:8888/udp/239.49.0.124:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.124:8000
 #EXTINF:-1 group-title="江苏电信-组播2",常州公共
-http://kouki.pro:8888/udp/239.49.0.218:9582
+http://www.foreveryyl.top:8001/udp/239.49.0.218:9582
 #EXTINF:-1 group-title="江苏电信-组播2",常州新闻综合
-http://kouki.pro:8888/udp/239.49.1.83:8000
+http://www.foreveryyl.top:8001/udp/239.49.1.83:8000
 #EXTINF:-1 group-title="江苏电信-组播2",常州生活
-http://kouki.pro:8888/udp/239.49.1.85:8000
+http://www.foreveryyl.top:8001/udp/239.49.1.85:8000
 #EXTINF:-1 group-title="江苏电信-组播2",常州生活
-http://kouki.pro:8888/udp/239.49.0.219:9586
+http://www.foreveryyl.top:8001/udp/239.49.0.219:9586
 #EXTINF:-1 group-title="江苏电信-组播2",常州综合
-http://kouki.pro:8888/udp/239.49.0.221:9594
+http://www.foreveryyl.top:8001/udp/239.49.0.221:9594
 #EXTINF:-1 group-title="江苏电信-组播2",常州都市
-http://kouki.pro:8888/udp/239.49.1.84:8000
+http://www.foreveryyl.top:8001/udp/239.49.1.84:8000
 #EXTINF:-1 group-title="江苏电信-组播2",常州都市
-http://kouki.pro:8888/udp/239.49.0.220:9590
+http://www.foreveryyl.top:8001/udp/239.49.0.220:9590
 #EXTINF:-1 group-title="江苏电信-组播2",常州金坛电视台
-http://kouki.pro:8888/udp/239.49.1.54:8000
+http://www.foreveryyl.top:8001/udp/239.49.1.54:8000
 #EXTINF:-1 group-title="江苏电信-组播2",苏州生活资讯5
-http://kouki.pro:8888/udp/239.49.8.116:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.116:8000
 #EXTINF:-1 group-title="江苏电信-组播2",南通公共
-http://kouki.pro:8888/udp/239.49.0.197:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.197:8000
 #EXTINF:-1 group-title="江苏电信-组播2",南通新闻综合
-http://kouki.pro:8888/udp/239.49.0.223:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.223:8000
 #EXTINF:-1 group-title="江苏电信-组播2",南通社教
-http://kouki.pro:8888/udp/239.49.0.224:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.224:8000
 #EXTINF:-1 group-title="江苏电信-组播2",连云港东海综合
-http://kouki.pro:8888/udp/239.49.0.121:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.121:8000
 #EXTINF:-1 group-title="江苏电信-组播2",连云港新闻综合
-http://kouki.pro:8888/udp/239.49.0.225:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.225:8000
 #EXTINF:-1 group-title="江苏电信-组播2",连云港生活频道
-http://kouki.pro:8888/udp/239.49.0.229:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.229:8000
 #EXTINF:-1 group-title="江苏电信-组播2",连云港赣榆电视台
-http://kouki.pro:8888/udp/239.49.0.241:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.241:8000
 #EXTINF:-1 group-title="江苏电信-组播2",淮安公共
-http://kouki.pro:8888/udp/239.49.0.181:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.181:8000
 #EXTINF:-1 group-title="江苏电信-组播2",淮安影视娱乐
-http://kouki.pro:8888/udp/239.49.0.192:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.192:8000
 #EXTINF:-1 group-title="江苏电信-组播2",淮安新闻综合
-http://kouki.pro:8888/udp/239.49.0.204:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.204:8000
 #EXTINF:-1 group-title="江苏电信-组播2",淮安洪泽1
-http://kouki.pro:8888/udp/239.49.0.89:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.89:8000
 #EXTINF:-1 group-title="江苏电信-组播2",淮安淮阴综合
-http://kouki.pro:8888/udp/239.49.0.169:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.169:8000
 #EXTINF:-1 group-title="江苏电信-组播2",淮安盱眙综合
-http://kouki.pro:8888/udp/239.49.0.237:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.237:8000
 #EXTINF:-1 group-title="江苏电信-组播2",盐城1
-http://kouki.pro:8888/udp/239.49.8.30:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.30:8000
 #EXTINF:-1 group-title="江苏电信-组播2",盐城2
-http://kouki.pro:8888/udp/239.49.0.88:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.88:8000
 #EXTINF:-1 group-title="江苏电信-组播2",盐城响水综合
-http://kouki.pro:8888/udp/239.49.0.115:8912
+http://www.foreveryyl.top:8001/udp/239.49.0.115:8912
 #EXTINF:-1 group-title="江苏电信-组播2",镇江新闻综合
-http://kouki.pro:8888/udp/239.49.0.98:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.98:8000
 #EXTINF:-1 group-title="江苏电信-组播2",镇江民生教育
-http://kouki.pro:8888/udp/239.49.1.73:8000
+http://www.foreveryyl.top:8001/udp/239.49.1.73:8000
 #EXTINF:-1 group-title="江苏电信-组播2",泰州1
-http://kouki.pro:8888/udp/239.49.0.215:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.215:8000
 #EXTINF:-1 group-title="江苏电信-组播2",泰州2
-http://kouki.pro:8888/udp/239.49.0.217:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.217:8000
 #EXTINF:-1 group-title="江苏电信-组播2",泰州3
-http://kouki.pro:8888/udp/239.49.0.222:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.222:8000
 #EXTINF:-1 group-title="江苏电信-组播2",泰州兴化新闻综合
-http://kouki.pro:8888/udp/239.49.0.162:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.162:8000
 #EXTINF:-1 group-title="江苏电信-组播2",泰州泰兴综合
-http://kouki.pro:8888/udp/239.49.0.168:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.168:8000
 #EXTINF:-1 group-title="江苏电信-组播2",宿迁公共
-http://kouki.pro:8888/udp/239.49.0.236:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.236:8000
 #EXTINF:-1 group-title="江苏电信-组播2",宿迁宿豫综合
-http://kouki.pro:8888/udp/239.49.0.83:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.83:8000
 #EXTINF:-1 group-title="江苏电信-组播2",宿迁沭阳综合
-http://kouki.pro:8888/udp/239.49.0.189:8792
+http://www.foreveryyl.top:8001/udp/239.49.0.189:8792
 #EXTINF:-1 group-title="江苏电信-组播2",宿迁泗洪综合
-http://kouki.pro:8888/udp/239.49.0.195:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.195:8000
 #EXTINF:-1 group-title="江苏电信-组播2",宿迁综合
-http://kouki.pro:8888/udp/239.49.0.231:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.231:8000
 #EXTINF:-1 group-title="江苏电信-组播2",泗阳综合
-http://kouki.pro:8888/udp/239.49.0.249:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.249:8000
 #EXTINF:-1 group-title="江苏电信-组播2",CCTV16_4k(SDR)
-http://kouki.pro:8888/udp/239.49.0.109:8000
+http://www.foreveryyl.top:8001/udp/239.49.0.109:8000
 #EXTINF:-1 group-title="江苏电信-组播2",苏超1
-http://kouki.pro:8888/udp/239.49.8.96:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.96:8000
 #EXTINF:-1 group-title="江苏电信-组播2",苏超2
-http://kouki.pro:8888/udp/239.49.8.97:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.97:8000
 #EXTINF:-1 group-title="江苏电信-组播2",苏超3
-http://kouki.pro:8888/udp/239.49.8.98:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.98:8000
 #EXTINF:-1 group-title="江苏电信-组播2",苏超4
-http://kouki.pro:8888/udp/239.49.8.99:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.99:8000
 #EXTINF:-1 group-title="江苏电信-组播2",苏超5
-http://kouki.pro:8888/udp/239.49.8.100:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.100:8000
 #EXTINF:-1 group-title="江苏电信-组播2",苏超6
-http://kouki.pro:8888/udp/239.49.8.101:8000
+http://www.foreveryyl.top:8001/udp/239.49.8.101:8000
 #EXTINF:-1 group-title="江苏电信-组播3",江苏卫视
 http://www.sclvip.top:8787/udp/239.49.8.16:9602
 #EXTINF:-1 group-title="江苏电信-组播3",江苏卫视
@@ -690,692 +690,692 @@ http://www.sclvip.top:8787/udp/239.49.8.100:8000
 #EXTINF:-1 group-title="江苏电信-组播3",苏超6
 http://www.sclvip.top:8787/udp/239.49.8.101:8000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏卫视
-http://114.226.212.152:8787/udp/239.49.8.16:9602
+http://nas3.bycza.top:8100/udp/239.49.8.16:9602
 #EXTINF:-1 group-title="江苏电信-组播4",江苏卫视
-http://114.226.212.152:8787/udp/239.49.8.138:6000
+http://nas3.bycza.top:8100/udp/239.49.8.138:6000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏卫视4K
-http://114.226.212.152:8787/udp/239.49.1.62:8000
+http://nas3.bycza.top:8100/udp/239.49.1.62:8000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏卫视4K
-http://114.226.212.152:8787/udp/239.49.1.61:8000
+http://nas3.bycza.top:8100/udp/239.49.1.61:8000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏体育
-http://114.226.212.152:8787/udp/239.49.8.117:8000
+http://nas3.bycza.top:8100/udp/239.49.8.117:8000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏国际
-http://114.226.212.152:8787/udp/239.49.1.81:8000
+http://nas3.bycza.top:8100/udp/239.49.1.81:8000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏城市
-http://114.226.212.152:8787/udp/239.49.8.107:8000
+http://nas3.bycza.top:8100/udp/239.49.8.107:8000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏影视
-http://114.226.212.152:8787/udp/239.49.8.118:8000
+http://nas3.bycza.top:8100/udp/239.49.8.118:8000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏教育
-http://114.226.212.152:8787/udp/239.49.8.122:8000
+http://nas3.bycza.top:8100/udp/239.49.8.122:8000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏新闻
-http://114.226.212.152:8787/udp/239.49.8.120:8000
+http://nas3.bycza.top:8100/udp/239.49.8.120:8000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏综艺
-http://114.226.212.152:8787/udp/239.49.8.108:8000
+http://nas3.bycza.top:8100/udp/239.49.8.108:8000
 #EXTINF:-1 group-title="江苏电信-组播4",CGTN英语
-http://114.226.212.152:8787/udp/239.49.0.9:8064
+http://nas3.bycza.top:8100/udp/239.49.0.9:8064
 #EXTINF:-1 group-title="江苏电信-组播4",CGTN英语
-http://114.226.212.152:8787/udp/239.49.1.9:6000
+http://nas3.bycza.top:8100/udp/239.49.1.9:6000
 #EXTINF:-1 group-title="江苏电信-组播4",CGTN西班牙语
-http://114.226.212.152:8787/udp/239.49.1.30:8000
+http://nas3.bycza.top:8100/udp/239.49.1.30:8000
 #EXTINF:-1 group-title="江苏电信-组播4",CGTN法语
-http://114.226.212.152:8787/udp/239.49.1.31:8000
+http://nas3.bycza.top:8100/udp/239.49.1.31:8000
 #EXTINF:-1 group-title="江苏电信-组播4",CGTN俄语
-http://114.226.212.152:8787/udp/239.49.0.111:8000
+http://nas3.bycza.top:8100/udp/239.49.0.111:8000
 #EXTINF:-1 group-title="江苏电信-组播4",CETV-1综合教育
-http://114.226.212.152:8787/udp/239.49.8.115:8000
+http://nas3.bycza.top:8100/udp/239.49.8.115:8000
 #EXTINF:-1 group-title="江苏电信-组播4",CETV-1综合教育
-http://114.226.212.152:8787/udp/239.49.0.70:8552
+http://nas3.bycza.top:8100/udp/239.49.0.70:8552
 #EXTINF:-1 group-title="江苏电信-组播4",CETV-2空中课堂
-http://114.226.212.152:8787/udp/239.49.0.71:8560
+http://nas3.bycza.top:8100/udp/239.49.0.71:8560
 #EXTINF:-1 group-title="江苏电信-组播4",CETV-4职业教育
-http://114.226.212.152:8787/udp/239.49.0.125:8000
+http://nas3.bycza.top:8100/udp/239.49.0.125:8000
 #EXTINF:-1 group-title="江苏电信-组播4",CETV-4职业教育
-http://114.226.212.152:8787/udp/239.49.0.72:8568
+http://nas3.bycza.top:8100/udp/239.49.0.72:8568
 #EXTINF:-1 group-title="江苏电信-组播4",聚鲨环球精选
-http://114.226.212.152:8787/udp/239.49.0.212:8000
+http://nas3.bycza.top:8100/udp/239.49.0.212:8000
 #EXTINF:-1 group-title="江苏电信-组播4",中学生
-http://114.226.212.152:8787/udp/239.49.1.82:8000
+http://nas3.bycza.top:8100/udp/239.49.1.82:8000
 #EXTINF:-1 group-title="江苏电信-组播4",中国天气
-http://114.226.212.152:8787/udp/239.49.0.94:8000
+http://nas3.bycza.top:8100/udp/239.49.0.94:8000
 #EXTINF:-1 group-title="江苏电信-组播4",睛彩竞技
-http://114.226.212.152:8787/udp/239.49.8.39:8000
+http://nas3.bycza.top:8100/udp/239.49.8.39:8000
 #EXTINF:-1 group-title="江苏电信-组播4",睛彩广场舞
-http://114.226.212.152:8787/udp/239.49.8.64:8000
+http://nas3.bycza.top:8100/udp/239.49.8.64:8000
 #EXTINF:-1 group-title="江苏电信-组播4",睛彩青少
-http://114.226.212.152:8787/udp/239.49.8.46:8000
+http://nas3.bycza.top:8100/udp/239.49.8.46:8000
 #EXTINF:-1 group-title="江苏电信-组播4",睛彩篮球
-http://114.226.212.152:8787/udp/239.49.8.42:8000
+http://nas3.bycza.top:8100/udp/239.49.8.42:8000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏优漫卡通
-http://114.226.212.152:8787/udp/239.49.8.119:8000
+http://nas3.bycza.top:8100/udp/239.49.8.119:8000
 #EXTINF:-1 group-title="江苏电信-组播4",江苏优漫卡通
-http://114.226.212.152:8787/udp/239.49.0.21:8160
+http://nas3.bycza.top:8100/udp/239.49.0.21:8160
 #EXTINF:-1 group-title="江苏电信-组播4",江苏优漫卡通
-http://114.226.212.152:8787/udp/239.49.1.21:6000
+http://nas3.bycza.top:8100/udp/239.49.1.21:6000
 #EXTINF:-1 group-title="江苏电信-组播4",北京四海钓鱼
-http://114.226.212.152:8787/udp/239.49.1.80:8000
+http://nas3.bycza.top:8100/udp/239.49.1.80:8000
 #EXTINF:-1 group-title="江苏电信-组播4",北京卡酷少儿
-http://114.226.212.152:8787/udp/239.49.0.148:8000
+http://nas3.bycza.top:8100/udp/239.49.0.148:8000
 #EXTINF:-1 group-title="江苏电信-组播4",山西书画频道
-http://114.226.212.152:8787/udp/239.49.0.123:8000
+http://nas3.bycza.top:8100/udp/239.49.0.123:8000
 #EXTINF:-1 group-title="江苏电信-组播4",上海东方财经
-http://114.226.212.152:8787/udp/239.49.0.95:8000
+http://nas3.bycza.top:8100/udp/239.49.0.95:8000
 #EXTINF:-1 group-title="江苏电信-组播4",上海法治天地
-http://114.226.212.152:8787/udp/239.49.0.96:8000
+http://nas3.bycza.top:8100/udp/239.49.0.96:8000
 #EXTINF:-1 group-title="江苏电信-组播4",上海都市剧场
-http://114.226.212.152:8787/udp/239.49.0.99:8000
+http://nas3.bycza.top:8100/udp/239.49.0.99:8000
 #EXTINF:-1 group-title="江苏电信-组播4",上海生活时尚
-http://114.226.212.152:8787/udp/239.49.0.97:8000
+http://nas3.bycza.top:8100/udp/239.49.0.97:8000
 #EXTINF:-1 group-title="江苏电信-组播4",上海第一财经
-http://114.226.212.152:8787/udp/239.49.8.37:8000
+http://nas3.bycza.top:8100/udp/239.49.8.37:8000
 #EXTINF:-1 group-title="江苏电信-组播4",上海第一财经
-http://114.226.212.152:8787/udp/239.49.0.30:8232
+http://nas3.bycza.top:8100/udp/239.49.0.30:8232
 #EXTINF:-1 group-title="江苏电信-组播4",江苏财富天下
-http://114.226.212.152:8787/udp/239.49.1.76:8000
+http://nas3.bycza.top:8100/udp/239.49.1.76:8000
 #EXTINF:-1 group-title="江苏电信-组播4",河南梨园
-http://114.226.212.152:8787/udp/239.49.8.193:8000
+http://nas3.bycza.top:8100/udp/239.49.8.193:8000
 #EXTINF:-1 group-title="江苏电信-组播4",河南武术世界
-http://114.226.212.152:8787/udp/239.49.0.205:8000
+http://nas3.bycza.top:8100/udp/239.49.0.205:8000
 #EXTINF:-1 group-title="江苏电信-组播4",河南文物宝库
-http://114.226.212.152:8787/udp/239.49.0.209:8000
+http://nas3.bycza.top:8100/udp/239.49.0.209:8000
 #EXTINF:-1 group-title="江苏电信-组播4",湖北快乐垂钓
-http://114.226.212.152:8787/udp/239.49.0.114:8000
+http://nas3.bycza.top:8100/udp/239.49.0.114:8000
 #EXTINF:-1 group-title="江苏电信-组播4",湖南茶频道
-http://114.226.212.152:8787/udp/239.49.0.146:8000
+http://nas3.bycza.top:8100/udp/239.49.0.146:8000
 #EXTINF:-1 group-title="江苏电信-组播4",湖南金鹰纪实
-http://114.226.212.152:8787/udp/239.49.8.79:8000
+http://nas3.bycza.top:8100/udp/239.49.8.79:8000
 #EXTINF:-1 group-title="江苏电信-组播4",湖南金鹰卡通
-http://114.226.212.152:8787/udp/239.49.8.33:8000
+http://nas3.bycza.top:8100/udp/239.49.8.33:8000
 #EXTINF:-1 group-title="江苏电信-组播4",贵州天元围棋
-http://114.226.212.152:8787/udp/239.49.1.79:8000
+http://nas3.bycza.top:8100/udp/239.49.1.79:8000
 #EXTINF:-1 group-title="江苏电信-组播4",精彩推荐
-http://114.226.212.152:8787/udp/239.49.0.190:9458
+http://nas3.bycza.top:8100/udp/239.49.0.190:9458
 #EXTINF:-1 group-title="江苏电信-组播4",精彩推荐
-http://114.226.212.152:8787/udp/239.49.8.34:8612
+http://nas3.bycza.top:8100/udp/239.49.8.34:8612
 #EXTINF:-1 group-title="江苏电信-组播4",南京少儿
-http://114.226.212.152:8787/udp/239.49.0.45:8000
+http://nas3.bycza.top:8100/udp/239.49.0.45:8000
 #EXTINF:-1 group-title="江苏电信-组播4",南京影视
-http://114.226.212.152:8787/udp/239.49.0.24:8000
+http://nas3.bycza.top:8100/udp/239.49.0.24:8000
 #EXTINF:-1 group-title="江苏电信-组播4",南京文旅纪录
-http://114.226.212.152:8787/udp/239.49.0.38:8000
+http://nas3.bycza.top:8100/udp/239.49.0.38:8000
 #EXTINF:-1 group-title="江苏电信-组播4",南京新闻综合
-http://114.226.212.152:8787/udp/239.49.0.25:8192
+http://nas3.bycza.top:8100/udp/239.49.0.25:8192
 #EXTINF:-1 group-title="江苏电信-组播4",南京生活频道
-http://114.226.212.152:8787/udp/239.49.0.26:8200
+http://nas3.bycza.top:8100/udp/239.49.0.26:8200
 #EXTINF:-1 group-title="江苏电信-组播4",南京科教频道
-http://114.226.212.152:8787/udp/239.49.0.183:9434
+http://nas3.bycza.top:8100/udp/239.49.0.183:9434
 #EXTINF:-1 group-title="江苏电信-组播4",南京高淳新闻
-http://114.226.212.152:8787/udp/239.49.0.74:8000
+http://nas3.bycza.top:8100/udp/239.49.0.74:8000
 #EXTINF:-1 group-title="江苏电信-组播4",无锡新闻综合
-http://114.226.212.152:8787/udp/239.49.1.77:8000
+http://nas3.bycza.top:8100/udp/239.49.1.77:8000
 #EXTINF:-1 group-title="江苏电信-组播4",无锡都市资讯
-http://114.226.212.152:8787/udp/239.49.1.78:8000
+http://nas3.bycza.top:8100/udp/239.49.1.78:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州1
-http://114.226.212.152:8787/udp/239.49.0.203:8000
+http://nas3.bycza.top:8100/udp/239.49.0.203:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州2
-http://114.226.212.152:8787/udp/239.49.0.199:8000
+http://nas3.bycza.top:8100/udp/239.49.0.199:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州3
-http://114.226.212.152:8787/udp/239.49.0.211:8000
+http://nas3.bycza.top:8100/udp/239.49.0.211:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州新沂1
-http://114.226.212.152:8787/udp/239.49.0.238:8000
+http://nas3.bycza.top:8100/udp/239.49.0.238:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州沛县新闻综合
-http://114.226.212.152:8787/udp/239.49.0.214:8000
+http://nas3.bycza.top:8100/udp/239.49.0.214:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州睢宁综合
-http://114.226.212.152:8787/udp/239.49.0.239:8000
+http://nas3.bycza.top:8100/udp/239.49.0.239:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州贾汪新闻
-http://114.226.212.152:8787/udp/239.49.0.248:8000
+http://nas3.bycza.top:8100/udp/239.49.0.248:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州邳州综合
-http://114.226.212.152:8787/udp/239.49.0.182:8000
+http://nas3.bycza.top:8100/udp/239.49.0.182:8000
 #EXTINF:-1 group-title="江苏电信-组播4",徐州铜山1
-http://114.226.212.152:8787/udp/239.49.0.163:8000
+http://nas3.bycza.top:8100/udp/239.49.0.163:8000
 #EXTINF:-1 group-title="江苏电信-组播4",新沂生活
-http://114.226.212.152:8787/udp/239.49.0.124:8000
+http://nas3.bycza.top:8100/udp/239.49.0.124:8000
 #EXTINF:-1 group-title="江苏电信-组播4",常州公共
-http://114.226.212.152:8787/udp/239.49.0.218:9582
+http://nas3.bycza.top:8100/udp/239.49.0.218:9582
 #EXTINF:-1 group-title="江苏电信-组播4",常州新闻综合
-http://114.226.212.152:8787/udp/239.49.1.83:8000
+http://nas3.bycza.top:8100/udp/239.49.1.83:8000
 #EXTINF:-1 group-title="江苏电信-组播4",常州生活
-http://114.226.212.152:8787/udp/239.49.1.85:8000
+http://nas3.bycza.top:8100/udp/239.49.1.85:8000
 #EXTINF:-1 group-title="江苏电信-组播4",常州生活
-http://114.226.212.152:8787/udp/239.49.0.219:9586
+http://nas3.bycza.top:8100/udp/239.49.0.219:9586
 #EXTINF:-1 group-title="江苏电信-组播4",常州综合
-http://114.226.212.152:8787/udp/239.49.0.221:9594
+http://nas3.bycza.top:8100/udp/239.49.0.221:9594
 #EXTINF:-1 group-title="江苏电信-组播4",常州都市
-http://114.226.212.152:8787/udp/239.49.1.84:8000
+http://nas3.bycza.top:8100/udp/239.49.1.84:8000
 #EXTINF:-1 group-title="江苏电信-组播4",常州都市
-http://114.226.212.152:8787/udp/239.49.0.220:9590
+http://nas3.bycza.top:8100/udp/239.49.0.220:9590
 #EXTINF:-1 group-title="江苏电信-组播4",常州金坛电视台
-http://114.226.212.152:8787/udp/239.49.1.54:8000
+http://nas3.bycza.top:8100/udp/239.49.1.54:8000
 #EXTINF:-1 group-title="江苏电信-组播4",苏州生活资讯5
-http://114.226.212.152:8787/udp/239.49.8.116:8000
+http://nas3.bycza.top:8100/udp/239.49.8.116:8000
 #EXTINF:-1 group-title="江苏电信-组播4",南通公共
-http://114.226.212.152:8787/udp/239.49.0.197:8000
+http://nas3.bycza.top:8100/udp/239.49.0.197:8000
 #EXTINF:-1 group-title="江苏电信-组播4",南通新闻综合
-http://114.226.212.152:8787/udp/239.49.0.223:8000
+http://nas3.bycza.top:8100/udp/239.49.0.223:8000
 #EXTINF:-1 group-title="江苏电信-组播4",南通社教
-http://114.226.212.152:8787/udp/239.49.0.224:8000
+http://nas3.bycza.top:8100/udp/239.49.0.224:8000
 #EXTINF:-1 group-title="江苏电信-组播4",连云港东海综合
-http://114.226.212.152:8787/udp/239.49.0.121:8000
+http://nas3.bycza.top:8100/udp/239.49.0.121:8000
 #EXTINF:-1 group-title="江苏电信-组播4",连云港新闻综合
-http://114.226.212.152:8787/udp/239.49.0.225:8000
+http://nas3.bycza.top:8100/udp/239.49.0.225:8000
 #EXTINF:-1 group-title="江苏电信-组播4",连云港生活频道
-http://114.226.212.152:8787/udp/239.49.0.229:8000
+http://nas3.bycza.top:8100/udp/239.49.0.229:8000
 #EXTINF:-1 group-title="江苏电信-组播4",连云港赣榆电视台
-http://114.226.212.152:8787/udp/239.49.0.241:8000
+http://nas3.bycza.top:8100/udp/239.49.0.241:8000
 #EXTINF:-1 group-title="江苏电信-组播4",淮安公共
-http://114.226.212.152:8787/udp/239.49.0.181:8000
+http://nas3.bycza.top:8100/udp/239.49.0.181:8000
 #EXTINF:-1 group-title="江苏电信-组播4",淮安影视娱乐
-http://114.226.212.152:8787/udp/239.49.0.192:8000
+http://nas3.bycza.top:8100/udp/239.49.0.192:8000
 #EXTINF:-1 group-title="江苏电信-组播4",淮安新闻综合
-http://114.226.212.152:8787/udp/239.49.0.204:8000
+http://nas3.bycza.top:8100/udp/239.49.0.204:8000
 #EXTINF:-1 group-title="江苏电信-组播4",淮安洪泽1
-http://114.226.212.152:8787/udp/239.49.0.89:8000
+http://nas3.bycza.top:8100/udp/239.49.0.89:8000
 #EXTINF:-1 group-title="江苏电信-组播4",淮安淮阴综合
-http://114.226.212.152:8787/udp/239.49.0.169:8000
+http://nas3.bycza.top:8100/udp/239.49.0.169:8000
 #EXTINF:-1 group-title="江苏电信-组播4",淮安盱眙综合
-http://114.226.212.152:8787/udp/239.49.0.237:8000
+http://nas3.bycza.top:8100/udp/239.49.0.237:8000
 #EXTINF:-1 group-title="江苏电信-组播4",盐城1
-http://114.226.212.152:8787/udp/239.49.8.30:8000
+http://nas3.bycza.top:8100/udp/239.49.8.30:8000
 #EXTINF:-1 group-title="江苏电信-组播4",盐城2
-http://114.226.212.152:8787/udp/239.49.0.88:8000
+http://nas3.bycza.top:8100/udp/239.49.0.88:8000
 #EXTINF:-1 group-title="江苏电信-组播4",盐城响水综合
-http://114.226.212.152:8787/udp/239.49.0.115:8912
+http://nas3.bycza.top:8100/udp/239.49.0.115:8912
 #EXTINF:-1 group-title="江苏电信-组播4",镇江新闻综合
-http://114.226.212.152:8787/udp/239.49.0.98:8000
+http://nas3.bycza.top:8100/udp/239.49.0.98:8000
 #EXTINF:-1 group-title="江苏电信-组播4",镇江民生教育
-http://114.226.212.152:8787/udp/239.49.1.73:8000
+http://nas3.bycza.top:8100/udp/239.49.1.73:8000
 #EXTINF:-1 group-title="江苏电信-组播4",泰州1
-http://114.226.212.152:8787/udp/239.49.0.215:8000
+http://nas3.bycza.top:8100/udp/239.49.0.215:8000
 #EXTINF:-1 group-title="江苏电信-组播4",泰州2
-http://114.226.212.152:8787/udp/239.49.0.217:8000
+http://nas3.bycza.top:8100/udp/239.49.0.217:8000
 #EXTINF:-1 group-title="江苏电信-组播4",泰州3
-http://114.226.212.152:8787/udp/239.49.0.222:8000
+http://nas3.bycza.top:8100/udp/239.49.0.222:8000
 #EXTINF:-1 group-title="江苏电信-组播4",泰州兴化新闻综合
-http://114.226.212.152:8787/udp/239.49.0.162:8000
+http://nas3.bycza.top:8100/udp/239.49.0.162:8000
 #EXTINF:-1 group-title="江苏电信-组播4",泰州泰兴综合
-http://114.226.212.152:8787/udp/239.49.0.168:8000
+http://nas3.bycza.top:8100/udp/239.49.0.168:8000
 #EXTINF:-1 group-title="江苏电信-组播4",宿迁公共
-http://114.226.212.152:8787/udp/239.49.0.236:8000
+http://nas3.bycza.top:8100/udp/239.49.0.236:8000
 #EXTINF:-1 group-title="江苏电信-组播4",宿迁宿豫综合
-http://114.226.212.152:8787/udp/239.49.0.83:8000
+http://nas3.bycza.top:8100/udp/239.49.0.83:8000
 #EXTINF:-1 group-title="江苏电信-组播4",宿迁沭阳综合
-http://114.226.212.152:8787/udp/239.49.0.189:8792
+http://nas3.bycza.top:8100/udp/239.49.0.189:8792
 #EXTINF:-1 group-title="江苏电信-组播4",宿迁泗洪综合
-http://114.226.212.152:8787/udp/239.49.0.195:8000
+http://nas3.bycza.top:8100/udp/239.49.0.195:8000
 #EXTINF:-1 group-title="江苏电信-组播4",宿迁综合
-http://114.226.212.152:8787/udp/239.49.0.231:8000
+http://nas3.bycza.top:8100/udp/239.49.0.231:8000
 #EXTINF:-1 group-title="江苏电信-组播4",泗阳综合
-http://114.226.212.152:8787/udp/239.49.0.249:8000
+http://nas3.bycza.top:8100/udp/239.49.0.249:8000
 #EXTINF:-1 group-title="江苏电信-组播4",CCTV16_4k(SDR)
-http://114.226.212.152:8787/udp/239.49.0.109:8000
+http://nas3.bycza.top:8100/udp/239.49.0.109:8000
 #EXTINF:-1 group-title="江苏电信-组播4",苏超1
-http://114.226.212.152:8787/udp/239.49.8.96:8000
+http://nas3.bycza.top:8100/udp/239.49.8.96:8000
 #EXTINF:-1 group-title="江苏电信-组播4",苏超2
-http://114.226.212.152:8787/udp/239.49.8.97:8000
+http://nas3.bycza.top:8100/udp/239.49.8.97:8000
 #EXTINF:-1 group-title="江苏电信-组播4",苏超3
-http://114.226.212.152:8787/udp/239.49.8.98:8000
+http://nas3.bycza.top:8100/udp/239.49.8.98:8000
 #EXTINF:-1 group-title="江苏电信-组播4",苏超4
-http://114.226.212.152:8787/udp/239.49.8.99:8000
+http://nas3.bycza.top:8100/udp/239.49.8.99:8000
 #EXTINF:-1 group-title="江苏电信-组播4",苏超5
-http://114.226.212.152:8787/udp/239.49.8.100:8000
+http://nas3.bycza.top:8100/udp/239.49.8.100:8000
 #EXTINF:-1 group-title="江苏电信-组播4",苏超6
-http://114.226.212.152:8787/udp/239.49.8.101:8000
+http://nas3.bycza.top:8100/udp/239.49.8.101:8000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏卫视
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.16:9602
+http://114.226.212.152:8787/udp/239.49.8.16:9602
 #EXTINF:-1 group-title="江苏电信-组播5",江苏卫视
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.138:6000
+http://114.226.212.152:8787/udp/239.49.8.138:6000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏卫视4K
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.62:8000
+http://114.226.212.152:8787/udp/239.49.1.62:8000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏卫视4K
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.61:8000
+http://114.226.212.152:8787/udp/239.49.1.61:8000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏体育
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.117:8000
+http://114.226.212.152:8787/udp/239.49.8.117:8000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏国际
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.81:8000
+http://114.226.212.152:8787/udp/239.49.1.81:8000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏城市
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.107:8000
+http://114.226.212.152:8787/udp/239.49.8.107:8000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏影视
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.118:8000
+http://114.226.212.152:8787/udp/239.49.8.118:8000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏教育
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.122:8000
+http://114.226.212.152:8787/udp/239.49.8.122:8000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏新闻
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.120:8000
+http://114.226.212.152:8787/udp/239.49.8.120:8000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏综艺
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.108:8000
+http://114.226.212.152:8787/udp/239.49.8.108:8000
 #EXTINF:-1 group-title="江苏电信-组播5",CGTN英语
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.9:8064
+http://114.226.212.152:8787/udp/239.49.0.9:8064
 #EXTINF:-1 group-title="江苏电信-组播5",CGTN英语
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.9:6000
+http://114.226.212.152:8787/udp/239.49.1.9:6000
 #EXTINF:-1 group-title="江苏电信-组播5",CGTN西班牙语
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.30:8000
+http://114.226.212.152:8787/udp/239.49.1.30:8000
 #EXTINF:-1 group-title="江苏电信-组播5",CGTN法语
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.31:8000
+http://114.226.212.152:8787/udp/239.49.1.31:8000
 #EXTINF:-1 group-title="江苏电信-组播5",CGTN俄语
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.111:8000
+http://114.226.212.152:8787/udp/239.49.0.111:8000
 #EXTINF:-1 group-title="江苏电信-组播5",CETV-1综合教育
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.115:8000
+http://114.226.212.152:8787/udp/239.49.8.115:8000
 #EXTINF:-1 group-title="江苏电信-组播5",CETV-1综合教育
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.70:8552
+http://114.226.212.152:8787/udp/239.49.0.70:8552
 #EXTINF:-1 group-title="江苏电信-组播5",CETV-2空中课堂
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.71:8560
+http://114.226.212.152:8787/udp/239.49.0.71:8560
 #EXTINF:-1 group-title="江苏电信-组播5",CETV-4职业教育
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.125:8000
+http://114.226.212.152:8787/udp/239.49.0.125:8000
 #EXTINF:-1 group-title="江苏电信-组播5",CETV-4职业教育
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.72:8568
+http://114.226.212.152:8787/udp/239.49.0.72:8568
 #EXTINF:-1 group-title="江苏电信-组播5",聚鲨环球精选
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.212:8000
+http://114.226.212.152:8787/udp/239.49.0.212:8000
 #EXTINF:-1 group-title="江苏电信-组播5",中学生
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.82:8000
+http://114.226.212.152:8787/udp/239.49.1.82:8000
 #EXTINF:-1 group-title="江苏电信-组播5",中国天气
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.94:8000
+http://114.226.212.152:8787/udp/239.49.0.94:8000
 #EXTINF:-1 group-title="江苏电信-组播5",睛彩竞技
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.39:8000
+http://114.226.212.152:8787/udp/239.49.8.39:8000
 #EXTINF:-1 group-title="江苏电信-组播5",睛彩广场舞
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.64:8000
+http://114.226.212.152:8787/udp/239.49.8.64:8000
 #EXTINF:-1 group-title="江苏电信-组播5",睛彩青少
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.46:8000
+http://114.226.212.152:8787/udp/239.49.8.46:8000
 #EXTINF:-1 group-title="江苏电信-组播5",睛彩篮球
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.42:8000
+http://114.226.212.152:8787/udp/239.49.8.42:8000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏优漫卡通
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.119:8000
+http://114.226.212.152:8787/udp/239.49.8.119:8000
 #EXTINF:-1 group-title="江苏电信-组播5",江苏优漫卡通
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.21:8160
+http://114.226.212.152:8787/udp/239.49.0.21:8160
 #EXTINF:-1 group-title="江苏电信-组播5",江苏优漫卡通
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.21:6000
+http://114.226.212.152:8787/udp/239.49.1.21:6000
 #EXTINF:-1 group-title="江苏电信-组播5",北京四海钓鱼
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.80:8000
+http://114.226.212.152:8787/udp/239.49.1.80:8000
 #EXTINF:-1 group-title="江苏电信-组播5",北京卡酷少儿
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.148:8000
+http://114.226.212.152:8787/udp/239.49.0.148:8000
 #EXTINF:-1 group-title="江苏电信-组播5",山西书画频道
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.123:8000
+http://114.226.212.152:8787/udp/239.49.0.123:8000
 #EXTINF:-1 group-title="江苏电信-组播5",上海东方财经
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.95:8000
+http://114.226.212.152:8787/udp/239.49.0.95:8000
 #EXTINF:-1 group-title="江苏电信-组播5",上海法治天地
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.96:8000
+http://114.226.212.152:8787/udp/239.49.0.96:8000
 #EXTINF:-1 group-title="江苏电信-组播5",上海都市剧场
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.99:8000
+http://114.226.212.152:8787/udp/239.49.0.99:8000
 #EXTINF:-1 group-title="江苏电信-组播5",上海生活时尚
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.97:8000
+http://114.226.212.152:8787/udp/239.49.0.97:8000
 #EXTINF:-1 group-title="江苏电信-组播5",上海第一财经
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.37:8000
+http://114.226.212.152:8787/udp/239.49.8.37:8000
 #EXTINF:-1 group-title="江苏电信-组播5",上海第一财经
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.30:8232
+http://114.226.212.152:8787/udp/239.49.0.30:8232
 #EXTINF:-1 group-title="江苏电信-组播5",江苏财富天下
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.76:8000
+http://114.226.212.152:8787/udp/239.49.1.76:8000
 #EXTINF:-1 group-title="江苏电信-组播5",河南梨园
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.193:8000
+http://114.226.212.152:8787/udp/239.49.8.193:8000
 #EXTINF:-1 group-title="江苏电信-组播5",河南武术世界
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.205:8000
+http://114.226.212.152:8787/udp/239.49.0.205:8000
 #EXTINF:-1 group-title="江苏电信-组播5",河南文物宝库
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.209:8000
+http://114.226.212.152:8787/udp/239.49.0.209:8000
 #EXTINF:-1 group-title="江苏电信-组播5",湖北快乐垂钓
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.114:8000
+http://114.226.212.152:8787/udp/239.49.0.114:8000
 #EXTINF:-1 group-title="江苏电信-组播5",湖南茶频道
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.146:8000
+http://114.226.212.152:8787/udp/239.49.0.146:8000
 #EXTINF:-1 group-title="江苏电信-组播5",湖南金鹰纪实
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.79:8000
+http://114.226.212.152:8787/udp/239.49.8.79:8000
 #EXTINF:-1 group-title="江苏电信-组播5",湖南金鹰卡通
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.33:8000
+http://114.226.212.152:8787/udp/239.49.8.33:8000
 #EXTINF:-1 group-title="江苏电信-组播5",贵州天元围棋
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.79:8000
+http://114.226.212.152:8787/udp/239.49.1.79:8000
 #EXTINF:-1 group-title="江苏电信-组播5",精彩推荐
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.190:9458
+http://114.226.212.152:8787/udp/239.49.0.190:9458
 #EXTINF:-1 group-title="江苏电信-组播5",精彩推荐
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.34:8612
+http://114.226.212.152:8787/udp/239.49.8.34:8612
 #EXTINF:-1 group-title="江苏电信-组播5",南京少儿
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.45:8000
+http://114.226.212.152:8787/udp/239.49.0.45:8000
 #EXTINF:-1 group-title="江苏电信-组播5",南京影视
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.24:8000
+http://114.226.212.152:8787/udp/239.49.0.24:8000
 #EXTINF:-1 group-title="江苏电信-组播5",南京文旅纪录
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.38:8000
+http://114.226.212.152:8787/udp/239.49.0.38:8000
 #EXTINF:-1 group-title="江苏电信-组播5",南京新闻综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.25:8192
+http://114.226.212.152:8787/udp/239.49.0.25:8192
 #EXTINF:-1 group-title="江苏电信-组播5",南京生活频道
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.26:8200
+http://114.226.212.152:8787/udp/239.49.0.26:8200
 #EXTINF:-1 group-title="江苏电信-组播5",南京科教频道
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.183:9434
+http://114.226.212.152:8787/udp/239.49.0.183:9434
 #EXTINF:-1 group-title="江苏电信-组播5",南京高淳新闻
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.74:8000
+http://114.226.212.152:8787/udp/239.49.0.74:8000
 #EXTINF:-1 group-title="江苏电信-组播5",无锡新闻综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.77:8000
+http://114.226.212.152:8787/udp/239.49.1.77:8000
 #EXTINF:-1 group-title="江苏电信-组播5",无锡都市资讯
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.78:8000
+http://114.226.212.152:8787/udp/239.49.1.78:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州1
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.203:8000
+http://114.226.212.152:8787/udp/239.49.0.203:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州2
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.199:8000
+http://114.226.212.152:8787/udp/239.49.0.199:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州3
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.211:8000
+http://114.226.212.152:8787/udp/239.49.0.211:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州新沂1
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.238:8000
+http://114.226.212.152:8787/udp/239.49.0.238:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州沛县新闻综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.214:8000
+http://114.226.212.152:8787/udp/239.49.0.214:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州睢宁综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.239:8000
+http://114.226.212.152:8787/udp/239.49.0.239:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州贾汪新闻
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.248:8000
+http://114.226.212.152:8787/udp/239.49.0.248:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州邳州综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.182:8000
+http://114.226.212.152:8787/udp/239.49.0.182:8000
 #EXTINF:-1 group-title="江苏电信-组播5",徐州铜山1
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.163:8000
+http://114.226.212.152:8787/udp/239.49.0.163:8000
 #EXTINF:-1 group-title="江苏电信-组播5",新沂生活
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.124:8000
+http://114.226.212.152:8787/udp/239.49.0.124:8000
 #EXTINF:-1 group-title="江苏电信-组播5",常州公共
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.218:9582
+http://114.226.212.152:8787/udp/239.49.0.218:9582
 #EXTINF:-1 group-title="江苏电信-组播5",常州新闻综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.83:8000
+http://114.226.212.152:8787/udp/239.49.1.83:8000
 #EXTINF:-1 group-title="江苏电信-组播5",常州生活
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.85:8000
+http://114.226.212.152:8787/udp/239.49.1.85:8000
 #EXTINF:-1 group-title="江苏电信-组播5",常州生活
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.219:9586
+http://114.226.212.152:8787/udp/239.49.0.219:9586
 #EXTINF:-1 group-title="江苏电信-组播5",常州综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.221:9594
+http://114.226.212.152:8787/udp/239.49.0.221:9594
 #EXTINF:-1 group-title="江苏电信-组播5",常州都市
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.84:8000
+http://114.226.212.152:8787/udp/239.49.1.84:8000
 #EXTINF:-1 group-title="江苏电信-组播5",常州都市
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.220:9590
+http://114.226.212.152:8787/udp/239.49.0.220:9590
 #EXTINF:-1 group-title="江苏电信-组播5",常州金坛电视台
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.54:8000
+http://114.226.212.152:8787/udp/239.49.1.54:8000
 #EXTINF:-1 group-title="江苏电信-组播5",苏州生活资讯5
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.116:8000
+http://114.226.212.152:8787/udp/239.49.8.116:8000
 #EXTINF:-1 group-title="江苏电信-组播5",南通公共
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.197:8000
+http://114.226.212.152:8787/udp/239.49.0.197:8000
 #EXTINF:-1 group-title="江苏电信-组播5",南通新闻综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.223:8000
+http://114.226.212.152:8787/udp/239.49.0.223:8000
 #EXTINF:-1 group-title="江苏电信-组播5",南通社教
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.224:8000
+http://114.226.212.152:8787/udp/239.49.0.224:8000
 #EXTINF:-1 group-title="江苏电信-组播5",连云港东海综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.121:8000
+http://114.226.212.152:8787/udp/239.49.0.121:8000
 #EXTINF:-1 group-title="江苏电信-组播5",连云港新闻综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.225:8000
+http://114.226.212.152:8787/udp/239.49.0.225:8000
 #EXTINF:-1 group-title="江苏电信-组播5",连云港生活频道
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.229:8000
+http://114.226.212.152:8787/udp/239.49.0.229:8000
 #EXTINF:-1 group-title="江苏电信-组播5",连云港赣榆电视台
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.241:8000
+http://114.226.212.152:8787/udp/239.49.0.241:8000
 #EXTINF:-1 group-title="江苏电信-组播5",淮安公共
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.181:8000
+http://114.226.212.152:8787/udp/239.49.0.181:8000
 #EXTINF:-1 group-title="江苏电信-组播5",淮安影视娱乐
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.192:8000
+http://114.226.212.152:8787/udp/239.49.0.192:8000
 #EXTINF:-1 group-title="江苏电信-组播5",淮安新闻综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.204:8000
+http://114.226.212.152:8787/udp/239.49.0.204:8000
 #EXTINF:-1 group-title="江苏电信-组播5",淮安洪泽1
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.89:8000
+http://114.226.212.152:8787/udp/239.49.0.89:8000
 #EXTINF:-1 group-title="江苏电信-组播5",淮安淮阴综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.169:8000
+http://114.226.212.152:8787/udp/239.49.0.169:8000
 #EXTINF:-1 group-title="江苏电信-组播5",淮安盱眙综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.237:8000
+http://114.226.212.152:8787/udp/239.49.0.237:8000
 #EXTINF:-1 group-title="江苏电信-组播5",盐城1
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.30:8000
+http://114.226.212.152:8787/udp/239.49.8.30:8000
 #EXTINF:-1 group-title="江苏电信-组播5",盐城2
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.88:8000
+http://114.226.212.152:8787/udp/239.49.0.88:8000
 #EXTINF:-1 group-title="江苏电信-组播5",盐城响水综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.115:8912
+http://114.226.212.152:8787/udp/239.49.0.115:8912
 #EXTINF:-1 group-title="江苏电信-组播5",镇江新闻综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.98:8000
+http://114.226.212.152:8787/udp/239.49.0.98:8000
 #EXTINF:-1 group-title="江苏电信-组播5",镇江民生教育
-http://acp-cloud.asuscomm.com:4000/udp/239.49.1.73:8000
+http://114.226.212.152:8787/udp/239.49.1.73:8000
 #EXTINF:-1 group-title="江苏电信-组播5",泰州1
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.215:8000
+http://114.226.212.152:8787/udp/239.49.0.215:8000
 #EXTINF:-1 group-title="江苏电信-组播5",泰州2
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.217:8000
+http://114.226.212.152:8787/udp/239.49.0.217:8000
 #EXTINF:-1 group-title="江苏电信-组播5",泰州3
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.222:8000
+http://114.226.212.152:8787/udp/239.49.0.222:8000
 #EXTINF:-1 group-title="江苏电信-组播5",泰州兴化新闻综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.162:8000
+http://114.226.212.152:8787/udp/239.49.0.162:8000
 #EXTINF:-1 group-title="江苏电信-组播5",泰州泰兴综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.168:8000
+http://114.226.212.152:8787/udp/239.49.0.168:8000
 #EXTINF:-1 group-title="江苏电信-组播5",宿迁公共
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.236:8000
+http://114.226.212.152:8787/udp/239.49.0.236:8000
 #EXTINF:-1 group-title="江苏电信-组播5",宿迁宿豫综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.83:8000
+http://114.226.212.152:8787/udp/239.49.0.83:8000
 #EXTINF:-1 group-title="江苏电信-组播5",宿迁沭阳综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.189:8792
+http://114.226.212.152:8787/udp/239.49.0.189:8792
 #EXTINF:-1 group-title="江苏电信-组播5",宿迁泗洪综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.195:8000
+http://114.226.212.152:8787/udp/239.49.0.195:8000
 #EXTINF:-1 group-title="江苏电信-组播5",宿迁综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.231:8000
+http://114.226.212.152:8787/udp/239.49.0.231:8000
 #EXTINF:-1 group-title="江苏电信-组播5",泗阳综合
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.249:8000
+http://114.226.212.152:8787/udp/239.49.0.249:8000
 #EXTINF:-1 group-title="江苏电信-组播5",CCTV16_4k(SDR)
-http://acp-cloud.asuscomm.com:4000/udp/239.49.0.109:8000
+http://114.226.212.152:8787/udp/239.49.0.109:8000
 #EXTINF:-1 group-title="江苏电信-组播5",苏超1
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.96:8000
+http://114.226.212.152:8787/udp/239.49.8.96:8000
 #EXTINF:-1 group-title="江苏电信-组播5",苏超2
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.97:8000
+http://114.226.212.152:8787/udp/239.49.8.97:8000
 #EXTINF:-1 group-title="江苏电信-组播5",苏超3
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.98:8000
+http://114.226.212.152:8787/udp/239.49.8.98:8000
 #EXTINF:-1 group-title="江苏电信-组播5",苏超4
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.99:8000
+http://114.226.212.152:8787/udp/239.49.8.99:8000
 #EXTINF:-1 group-title="江苏电信-组播5",苏超5
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.100:8000
+http://114.226.212.152:8787/udp/239.49.8.100:8000
 #EXTINF:-1 group-title="江苏电信-组播5",苏超6
-http://acp-cloud.asuscomm.com:4000/udp/239.49.8.101:8000
+http://114.226.212.152:8787/udp/239.49.8.101:8000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏卫视
-http://vs.heylc.com:4022/udp/239.49.8.16:9602
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.16:9602
 #EXTINF:-1 group-title="江苏电信-组播6",江苏卫视
-http://vs.heylc.com:4022/udp/239.49.8.138:6000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.138:6000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏卫视4K
-http://vs.heylc.com:4022/udp/239.49.1.62:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.62:8000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏卫视4K
-http://vs.heylc.com:4022/udp/239.49.1.61:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.61:8000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏体育
-http://vs.heylc.com:4022/udp/239.49.8.117:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.117:8000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏国际
-http://vs.heylc.com:4022/udp/239.49.1.81:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.81:8000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏城市
-http://vs.heylc.com:4022/udp/239.49.8.107:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.107:8000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏影视
-http://vs.heylc.com:4022/udp/239.49.8.118:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.118:8000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏教育
-http://vs.heylc.com:4022/udp/239.49.8.122:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.122:8000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏新闻
-http://vs.heylc.com:4022/udp/239.49.8.120:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.120:8000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏综艺
-http://vs.heylc.com:4022/udp/239.49.8.108:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.108:8000
 #EXTINF:-1 group-title="江苏电信-组播6",CGTN英语
-http://vs.heylc.com:4022/udp/239.49.0.9:8064
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.9:8064
 #EXTINF:-1 group-title="江苏电信-组播6",CGTN英语
-http://vs.heylc.com:4022/udp/239.49.1.9:6000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.9:6000
 #EXTINF:-1 group-title="江苏电信-组播6",CGTN西班牙语
-http://vs.heylc.com:4022/udp/239.49.1.30:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.30:8000
 #EXTINF:-1 group-title="江苏电信-组播6",CGTN法语
-http://vs.heylc.com:4022/udp/239.49.1.31:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.31:8000
 #EXTINF:-1 group-title="江苏电信-组播6",CGTN俄语
-http://vs.heylc.com:4022/udp/239.49.0.111:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.111:8000
 #EXTINF:-1 group-title="江苏电信-组播6",CETV-1综合教育
-http://vs.heylc.com:4022/udp/239.49.8.115:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.115:8000
 #EXTINF:-1 group-title="江苏电信-组播6",CETV-1综合教育
-http://vs.heylc.com:4022/udp/239.49.0.70:8552
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.70:8552
 #EXTINF:-1 group-title="江苏电信-组播6",CETV-2空中课堂
-http://vs.heylc.com:4022/udp/239.49.0.71:8560
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.71:8560
 #EXTINF:-1 group-title="江苏电信-组播6",CETV-4职业教育
-http://vs.heylc.com:4022/udp/239.49.0.125:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.125:8000
 #EXTINF:-1 group-title="江苏电信-组播6",CETV-4职业教育
-http://vs.heylc.com:4022/udp/239.49.0.72:8568
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.72:8568
 #EXTINF:-1 group-title="江苏电信-组播6",聚鲨环球精选
-http://vs.heylc.com:4022/udp/239.49.0.212:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.212:8000
 #EXTINF:-1 group-title="江苏电信-组播6",中学生
-http://vs.heylc.com:4022/udp/239.49.1.82:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.82:8000
 #EXTINF:-1 group-title="江苏电信-组播6",中国天气
-http://vs.heylc.com:4022/udp/239.49.0.94:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.94:8000
 #EXTINF:-1 group-title="江苏电信-组播6",睛彩竞技
-http://vs.heylc.com:4022/udp/239.49.8.39:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.39:8000
 #EXTINF:-1 group-title="江苏电信-组播6",睛彩广场舞
-http://vs.heylc.com:4022/udp/239.49.8.64:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.64:8000
 #EXTINF:-1 group-title="江苏电信-组播6",睛彩青少
-http://vs.heylc.com:4022/udp/239.49.8.46:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.46:8000
 #EXTINF:-1 group-title="江苏电信-组播6",睛彩篮球
-http://vs.heylc.com:4022/udp/239.49.8.42:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.42:8000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏优漫卡通
-http://vs.heylc.com:4022/udp/239.49.8.119:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.119:8000
 #EXTINF:-1 group-title="江苏电信-组播6",江苏优漫卡通
-http://vs.heylc.com:4022/udp/239.49.0.21:8160
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.21:8160
 #EXTINF:-1 group-title="江苏电信-组播6",江苏优漫卡通
-http://vs.heylc.com:4022/udp/239.49.1.21:6000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.21:6000
 #EXTINF:-1 group-title="江苏电信-组播6",北京四海钓鱼
-http://vs.heylc.com:4022/udp/239.49.1.80:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.80:8000
 #EXTINF:-1 group-title="江苏电信-组播6",北京卡酷少儿
-http://vs.heylc.com:4022/udp/239.49.0.148:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.148:8000
 #EXTINF:-1 group-title="江苏电信-组播6",山西书画频道
-http://vs.heylc.com:4022/udp/239.49.0.123:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.123:8000
 #EXTINF:-1 group-title="江苏电信-组播6",上海东方财经
-http://vs.heylc.com:4022/udp/239.49.0.95:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.95:8000
 #EXTINF:-1 group-title="江苏电信-组播6",上海法治天地
-http://vs.heylc.com:4022/udp/239.49.0.96:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.96:8000
 #EXTINF:-1 group-title="江苏电信-组播6",上海都市剧场
-http://vs.heylc.com:4022/udp/239.49.0.99:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.99:8000
 #EXTINF:-1 group-title="江苏电信-组播6",上海生活时尚
-http://vs.heylc.com:4022/udp/239.49.0.97:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.97:8000
 #EXTINF:-1 group-title="江苏电信-组播6",上海第一财经
-http://vs.heylc.com:4022/udp/239.49.8.37:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.37:8000
 #EXTINF:-1 group-title="江苏电信-组播6",上海第一财经
-http://vs.heylc.com:4022/udp/239.49.0.30:8232
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.30:8232
 #EXTINF:-1 group-title="江苏电信-组播6",江苏财富天下
-http://vs.heylc.com:4022/udp/239.49.1.76:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.76:8000
 #EXTINF:-1 group-title="江苏电信-组播6",河南梨园
-http://vs.heylc.com:4022/udp/239.49.8.193:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.193:8000
 #EXTINF:-1 group-title="江苏电信-组播6",河南武术世界
-http://vs.heylc.com:4022/udp/239.49.0.205:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.205:8000
 #EXTINF:-1 group-title="江苏电信-组播6",河南文物宝库
-http://vs.heylc.com:4022/udp/239.49.0.209:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.209:8000
 #EXTINF:-1 group-title="江苏电信-组播6",湖北快乐垂钓
-http://vs.heylc.com:4022/udp/239.49.0.114:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.114:8000
 #EXTINF:-1 group-title="江苏电信-组播6",湖南茶频道
-http://vs.heylc.com:4022/udp/239.49.0.146:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.146:8000
 #EXTINF:-1 group-title="江苏电信-组播6",湖南金鹰纪实
-http://vs.heylc.com:4022/udp/239.49.8.79:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.79:8000
 #EXTINF:-1 group-title="江苏电信-组播6",湖南金鹰卡通
-http://vs.heylc.com:4022/udp/239.49.8.33:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.33:8000
 #EXTINF:-1 group-title="江苏电信-组播6",贵州天元围棋
-http://vs.heylc.com:4022/udp/239.49.1.79:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.79:8000
 #EXTINF:-1 group-title="江苏电信-组播6",精彩推荐
-http://vs.heylc.com:4022/udp/239.49.0.190:9458
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.190:9458
 #EXTINF:-1 group-title="江苏电信-组播6",精彩推荐
-http://vs.heylc.com:4022/udp/239.49.8.34:8612
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.34:8612
 #EXTINF:-1 group-title="江苏电信-组播6",南京少儿
-http://vs.heylc.com:4022/udp/239.49.0.45:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.45:8000
 #EXTINF:-1 group-title="江苏电信-组播6",南京影视
-http://vs.heylc.com:4022/udp/239.49.0.24:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.24:8000
 #EXTINF:-1 group-title="江苏电信-组播6",南京文旅纪录
-http://vs.heylc.com:4022/udp/239.49.0.38:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.38:8000
 #EXTINF:-1 group-title="江苏电信-组播6",南京新闻综合
-http://vs.heylc.com:4022/udp/239.49.0.25:8192
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.25:8192
 #EXTINF:-1 group-title="江苏电信-组播6",南京生活频道
-http://vs.heylc.com:4022/udp/239.49.0.26:8200
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.26:8200
 #EXTINF:-1 group-title="江苏电信-组播6",南京科教频道
-http://vs.heylc.com:4022/udp/239.49.0.183:9434
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.183:9434
 #EXTINF:-1 group-title="江苏电信-组播6",南京高淳新闻
-http://vs.heylc.com:4022/udp/239.49.0.74:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.74:8000
 #EXTINF:-1 group-title="江苏电信-组播6",无锡新闻综合
-http://vs.heylc.com:4022/udp/239.49.1.77:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.77:8000
 #EXTINF:-1 group-title="江苏电信-组播6",无锡都市资讯
-http://vs.heylc.com:4022/udp/239.49.1.78:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.78:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州1
-http://vs.heylc.com:4022/udp/239.49.0.203:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.203:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州2
-http://vs.heylc.com:4022/udp/239.49.0.199:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.199:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州3
-http://vs.heylc.com:4022/udp/239.49.0.211:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.211:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州新沂1
-http://vs.heylc.com:4022/udp/239.49.0.238:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.238:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州沛县新闻综合
-http://vs.heylc.com:4022/udp/239.49.0.214:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.214:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州睢宁综合
-http://vs.heylc.com:4022/udp/239.49.0.239:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.239:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州贾汪新闻
-http://vs.heylc.com:4022/udp/239.49.0.248:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.248:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州邳州综合
-http://vs.heylc.com:4022/udp/239.49.0.182:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.182:8000
 #EXTINF:-1 group-title="江苏电信-组播6",徐州铜山1
-http://vs.heylc.com:4022/udp/239.49.0.163:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.163:8000
 #EXTINF:-1 group-title="江苏电信-组播6",新沂生活
-http://vs.heylc.com:4022/udp/239.49.0.124:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.124:8000
 #EXTINF:-1 group-title="江苏电信-组播6",常州公共
-http://vs.heylc.com:4022/udp/239.49.0.218:9582
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.218:9582
 #EXTINF:-1 group-title="江苏电信-组播6",常州新闻综合
-http://vs.heylc.com:4022/udp/239.49.1.83:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.83:8000
 #EXTINF:-1 group-title="江苏电信-组播6",常州生活
-http://vs.heylc.com:4022/udp/239.49.1.85:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.85:8000
 #EXTINF:-1 group-title="江苏电信-组播6",常州生活
-http://vs.heylc.com:4022/udp/239.49.0.219:9586
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.219:9586
 #EXTINF:-1 group-title="江苏电信-组播6",常州综合
-http://vs.heylc.com:4022/udp/239.49.0.221:9594
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.221:9594
 #EXTINF:-1 group-title="江苏电信-组播6",常州都市
-http://vs.heylc.com:4022/udp/239.49.1.84:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.84:8000
 #EXTINF:-1 group-title="江苏电信-组播6",常州都市
-http://vs.heylc.com:4022/udp/239.49.0.220:9590
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.220:9590
 #EXTINF:-1 group-title="江苏电信-组播6",常州金坛电视台
-http://vs.heylc.com:4022/udp/239.49.1.54:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.54:8000
 #EXTINF:-1 group-title="江苏电信-组播6",苏州生活资讯5
-http://vs.heylc.com:4022/udp/239.49.8.116:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.116:8000
 #EXTINF:-1 group-title="江苏电信-组播6",南通公共
-http://vs.heylc.com:4022/udp/239.49.0.197:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.197:8000
 #EXTINF:-1 group-title="江苏电信-组播6",南通新闻综合
-http://vs.heylc.com:4022/udp/239.49.0.223:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.223:8000
 #EXTINF:-1 group-title="江苏电信-组播6",南通社教
-http://vs.heylc.com:4022/udp/239.49.0.224:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.224:8000
 #EXTINF:-1 group-title="江苏电信-组播6",连云港东海综合
-http://vs.heylc.com:4022/udp/239.49.0.121:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.121:8000
 #EXTINF:-1 group-title="江苏电信-组播6",连云港新闻综合
-http://vs.heylc.com:4022/udp/239.49.0.225:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.225:8000
 #EXTINF:-1 group-title="江苏电信-组播6",连云港生活频道
-http://vs.heylc.com:4022/udp/239.49.0.229:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.229:8000
 #EXTINF:-1 group-title="江苏电信-组播6",连云港赣榆电视台
-http://vs.heylc.com:4022/udp/239.49.0.241:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.241:8000
 #EXTINF:-1 group-title="江苏电信-组播6",淮安公共
-http://vs.heylc.com:4022/udp/239.49.0.181:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.181:8000
 #EXTINF:-1 group-title="江苏电信-组播6",淮安影视娱乐
-http://vs.heylc.com:4022/udp/239.49.0.192:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.192:8000
 #EXTINF:-1 group-title="江苏电信-组播6",淮安新闻综合
-http://vs.heylc.com:4022/udp/239.49.0.204:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.204:8000
 #EXTINF:-1 group-title="江苏电信-组播6",淮安洪泽1
-http://vs.heylc.com:4022/udp/239.49.0.89:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.89:8000
 #EXTINF:-1 group-title="江苏电信-组播6",淮安淮阴综合
-http://vs.heylc.com:4022/udp/239.49.0.169:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.169:8000
 #EXTINF:-1 group-title="江苏电信-组播6",淮安盱眙综合
-http://vs.heylc.com:4022/udp/239.49.0.237:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.237:8000
 #EXTINF:-1 group-title="江苏电信-组播6",盐城1
-http://vs.heylc.com:4022/udp/239.49.8.30:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.30:8000
 #EXTINF:-1 group-title="江苏电信-组播6",盐城2
-http://vs.heylc.com:4022/udp/239.49.0.88:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.88:8000
 #EXTINF:-1 group-title="江苏电信-组播6",盐城响水综合
-http://vs.heylc.com:4022/udp/239.49.0.115:8912
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.115:8912
 #EXTINF:-1 group-title="江苏电信-组播6",镇江新闻综合
-http://vs.heylc.com:4022/udp/239.49.0.98:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.98:8000
 #EXTINF:-1 group-title="江苏电信-组播6",镇江民生教育
-http://vs.heylc.com:4022/udp/239.49.1.73:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.1.73:8000
 #EXTINF:-1 group-title="江苏电信-组播6",泰州1
-http://vs.heylc.com:4022/udp/239.49.0.215:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.215:8000
 #EXTINF:-1 group-title="江苏电信-组播6",泰州2
-http://vs.heylc.com:4022/udp/239.49.0.217:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.217:8000
 #EXTINF:-1 group-title="江苏电信-组播6",泰州3
-http://vs.heylc.com:4022/udp/239.49.0.222:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.222:8000
 #EXTINF:-1 group-title="江苏电信-组播6",泰州兴化新闻综合
-http://vs.heylc.com:4022/udp/239.49.0.162:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.162:8000
 #EXTINF:-1 group-title="江苏电信-组播6",泰州泰兴综合
-http://vs.heylc.com:4022/udp/239.49.0.168:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.168:8000
 #EXTINF:-1 group-title="江苏电信-组播6",宿迁公共
-http://vs.heylc.com:4022/udp/239.49.0.236:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.236:8000
 #EXTINF:-1 group-title="江苏电信-组播6",宿迁宿豫综合
-http://vs.heylc.com:4022/udp/239.49.0.83:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.83:8000
 #EXTINF:-1 group-title="江苏电信-组播6",宿迁沭阳综合
-http://vs.heylc.com:4022/udp/239.49.0.189:8792
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.189:8792
 #EXTINF:-1 group-title="江苏电信-组播6",宿迁泗洪综合
-http://vs.heylc.com:4022/udp/239.49.0.195:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.195:8000
 #EXTINF:-1 group-title="江苏电信-组播6",宿迁综合
-http://vs.heylc.com:4022/udp/239.49.0.231:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.231:8000
 #EXTINF:-1 group-title="江苏电信-组播6",泗阳综合
-http://vs.heylc.com:4022/udp/239.49.0.249:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.249:8000
 #EXTINF:-1 group-title="江苏电信-组播6",CCTV16_4k(SDR)
-http://vs.heylc.com:4022/udp/239.49.0.109:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.0.109:8000
 #EXTINF:-1 group-title="江苏电信-组播6",苏超1
-http://vs.heylc.com:4022/udp/239.49.8.96:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.96:8000
 #EXTINF:-1 group-title="江苏电信-组播6",苏超2
-http://vs.heylc.com:4022/udp/239.49.8.97:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.97:8000
 #EXTINF:-1 group-title="江苏电信-组播6",苏超3
-http://vs.heylc.com:4022/udp/239.49.8.98:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.98:8000
 #EXTINF:-1 group-title="江苏电信-组播6",苏超4
-http://vs.heylc.com:4022/udp/239.49.8.99:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.99:8000
 #EXTINF:-1 group-title="江苏电信-组播6",苏超5
-http://vs.heylc.com:4022/udp/239.49.8.100:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.100:8000
 #EXTINF:-1 group-title="江苏电信-组播6",苏超6
-http://vs.heylc.com:4022/udp/239.49.8.101:8000
+http://gcyp.mycloudnas.com:4000/udp/239.49.8.101:8000
