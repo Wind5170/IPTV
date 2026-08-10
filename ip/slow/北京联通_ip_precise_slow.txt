@@ -1,11 +1,15 @@
-# 20260809_1039_precise_slow
+# 20260810_1111_precise_slow
 # 服务器地址	速度
-laiboy.myds.me:58686	299.05 KB/s
-114.254.35.127:18888	277.01 KB/s
-www.49156116.xyz:23234	265.86 KB/s
-superpostmail.3322.org:1193	163.44 KB/s
-aikuai.natnum.top:8099	142.68 KB/s
-x1x.bid:5146	106.72 KB/s
-unicom3.swjms.com:4022	33.26 KB/s
-rt.tunan.tech:7070	27.18 KB/s
-www.photoby.us:28012	12.37 KB/s
+laiboy.myds.me:58686	271.35 KB/s
+awnjnmctlaxqsapgzjjsvvfsp.xyz:4022	264.38 KB/s
+123.118.58.227:8686	241.14 KB/s
+aikuai.natnum.top:8099	192.35 KB/s
+tnv.asuscomm.com:8012	184.71 KB/s
+www.49156116.xyz:23234	89.26 KB/s
+114.254.35.127:18888	67.08 KB/s
+unicom3.swjms.com:4022	60.11 KB/s
+superpostmail.3322.org:1193	27.26 KB/s
+rt.tunan.tech:7070	20.33 KB/s
+www.photoby.us:28012	1.73 KB/s
+n2.192372.xyz:8888	1.42 KB/s
+111.196.134.175:20000	0.20 KB/s

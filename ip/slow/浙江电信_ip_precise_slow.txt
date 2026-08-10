@@ -1,5 +1,5 @@
-# 20260809_1058_precise_slow
+# 20260810_1131_precise_slow
 # 服务器地址	速度
-www.slq888.cn:9999	257.85 KB/s
-www.negative.top:50000	109.01 KB/s
-gilbert0571.eu.org:8888	34.68 KB/s
+www.slq888.cn:9999	66.16 KB/s
+zjhuct.synology.me:8881	51.65 KB/s
+www.negative.top:50000	14.47 KB/s
