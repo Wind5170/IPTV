@@ -1,13 +1,16 @@
-# 20260812_1113_precise_slow
+# 20260813_1116_precise_slow
 # 服务器地址	速度
-www.266999.xyz:55555	294.11 KB/s
-gcyp.mycloudnas.com:4000	288.63 KB/s
-j1900.silicaite.top:58888	250.88 KB/s
-114.226.212.152:8787	225.49 KB/s
-home.amucn.net:8800	208.98 KB/s
-106.111.244.12:58099	201.96 KB/s
-h.vanshun.com:8802	165.52 KB/s
-kouki.pro:8888	136.20 KB/s
-iptv.feng.js.cn:58099	105.90 KB/s
-121.237.244.148:8888	27.36 KB/s
-ikuai-v4.17271201.xyz:4000	17.78 KB/s
+y1nf0x.myds.me:5888	298.89 KB/s
+www.yzddy.top:8800	287.64 KB/s
+acp-cloud.asuscomm.com:4000	253.89 KB/s
+njbobo.mycloudnas.com:4022	215.99 KB/s
+gcyp.mycloudnas.com:4000	145.62 KB/s
+iptv.feng.js.cn:58099	138.28 KB/s
+kouki.pro:8888	109.43 KB/s
+nas2.bycza.top:9000	89.58 KB/s
+h.vanshun.com:8802	80.31 KB/s
+121.237.244.148:8888	36.64 KB/s
+ikuai-v4.17271201.xyz:4000	31.51 KB/s
+106.111.244.12:58099	20.96 KB/s
+www.266999.xyz:55555	8.88 KB/s
+home.amucn.net:8800	3.39 KB/s

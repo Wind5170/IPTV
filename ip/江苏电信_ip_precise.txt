@@ -1,17 +1,14 @@
-# 20260812_1113_precise
+# 20260813_1116_precise
 # 服务器地址	速度
-980413.xyz:6000	491.83 KB/s
-dx.joygala.cn:8118	450.23 KB/s
-y1nf0x.myds.me:5888	448.04 KB/s
-huijie5421.cn:8800	440.01 KB/s
-njbobo.mycloudnas.com:4022	398.04 KB/s
-www.angel147.cf:9570	378.63 KB/s
-nas3.bycza.top:8100	375.01 KB/s
-nas2.bycza.top:9000	372.80 KB/s
-acp-cloud.asuscomm.com:4000	372.55 KB/s
-vs.heylc.com:4022	362.95 KB/s
-202.8090pc.cn:58888	346.49 KB/s
-www.sclvip.top:8787	335.33 KB/s
-114.226.212.150:8787	332.85 KB/s
-www.yzddy.top:8800	304.32 KB/s
-istoreos.sclvip.top:5566	301.43 KB/s
+114.226.212.150:8787	512.90 KB/s
+114.226.212.152:8787	474.53 KB/s
+www.sclvip.top:8787	436.69 KB/s
+www.angel147.cf:9570	428.92 KB/s
+202.8090pc.cn:58888	416.48 KB/s
+980413.xyz:6000	400.46 KB/s
+j1900.silicaite.top:58888	394.69 KB/s
+dx.joygala.cn:8118	389.12 KB/s
+vs.heylc.com:4022	384.56 KB/s
+huijie5421.cn:8800	349.96 KB/s
+nas3.bycza.top:8100	321.55 KB/s
+istoreos.sclvip.top:5566	302.47 KB/s
