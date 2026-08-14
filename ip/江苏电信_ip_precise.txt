@@ -1,14 +1,11 @@
-# 20260813_1116_precise
+# 20260814_1112_precise
 # 服务器地址	速度
-114.226.212.150:8787	512.90 KB/s
-114.226.212.152:8787	474.53 KB/s
-www.sclvip.top:8787	436.69 KB/s
-www.angel147.cf:9570	428.92 KB/s
-202.8090pc.cn:58888	416.48 KB/s
-980413.xyz:6000	400.46 KB/s
-j1900.silicaite.top:58888	394.69 KB/s
-dx.joygala.cn:8118	389.12 KB/s
-vs.heylc.com:4022	384.56 KB/s
-huijie5421.cn:8800	349.96 KB/s
-nas3.bycza.top:8100	321.55 KB/s
-istoreos.sclvip.top:5566	302.47 KB/s
+istoreos.sclvip.top:5566	390.09 KB/s
+dx.joygala.cn:8118	384.14 KB/s
+nas3.bycza.top:8100	380.23 KB/s
+nas2.bycza.top:9000	378.39 KB/s
+t.7ze.top:4022	369.94 KB/s
+vs.heylc.com:4022	362.51 KB/s
+ikuai-v4.17271201.xyz:4000	356.65 KB/s
+www.266999.xyz:55555	348.41 KB/s
+j1900.silicaite.top:58888	340.22 KB/s
