@@ -1,13 +1,5 @@
-# 20260814_1101_precise_slow
+# 20260815_1024_precise_slow
 # 服务器地址	速度
-laiboy.myds.me:58686	296.10 KB/s
-owvpn.famcloud.top:9878	213.74 KB/s
-aikuai.natnum.top:8099	195.55 KB/s
-rt.tunan.tech:7070	158.89 KB/s
-happylive.asuscomm.com:8888	153.53 KB/s
-unicom3.swjms.com:4022	115.93 KB/s
-tnv.asuscomm.com:8012	47.57 KB/s
-114.254.35.127:18888	24.62 KB/s
-www.photoby.us:28012	3.00 KB/s
-111.196.134.175:20000	2.43 KB/s
-n2.192372.xyz:8888	0.36 KB/s
+happy2015.synology.me:4000	228.52 KB/s
+unicom3.swjms.com:4022	184.47 KB/s
+rt.tunan.tech:7070	76.60 KB/s

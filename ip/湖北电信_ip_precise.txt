@@ -1,5 +1,4 @@
-# 20260814_1110_precise
+# 20260815_1035_precise
 # 服务器地址	速度
-wlei.myds.me:52057	371.57 KB/s
-www.661130.xyz:8188	371.53 KB/s
-cqknas.myqnapcloud.com:8808	358.89 KB/s
+www.661130.xyz:8188	501.95 KB/s
+59.174.161.216:4022	480.69 KB/s
