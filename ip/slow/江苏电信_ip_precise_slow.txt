@@ -1,10 +1,12 @@
-# 20260815_1037_precise_slow
+# 20260816_1038_precise_slow
 # 服务器地址	速度
-fengwei888888.myds.me:58099	270.15 KB/s
-h.vanshun.com:8802	267.40 KB/s
-121.237.244.148:8888	247.47 KB/s
-iptv.feng.js.cn:58099	136.89 KB/s
-nas2.bycza.top:9000	108.99 KB/s
-kouki.pro:8888	50.39 KB/s
-home.amucn.net:8800	41.45 KB/s
-www.266999.xyz:55555	1.91 KB/s
+iptv.feng.js.cn:58099	298.98 KB/s
+www.foreveryyl.top:8001	261.27 KB/s
+121.237.244.148:8888	249.88 KB/s
+www.sclvip.top:8787	227.82 KB/s
+114.226.212.135:8787	96.43 KB/s
+114.226.212.134:8787	78.57 KB/s
+kouki.pro:8888	45.20 KB/s
+home.amucn.net:8800	36.00 KB/s
+ikuai-v4.17271201.xyz:4000	23.27 KB/s
+h.vanshun.com:8802	2.01 KB/s
