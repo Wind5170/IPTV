@@ -1,4 +1,5 @@
-# 20260816_1045_precise_slow
+# 20260817_1057_precise_slow
 # 服务器地址	速度
-bgs.cchui.fun:7912	202.12 KB/s
-bgs.cchui.fun:7911	55.91 KB/s
+bgs.cchui.fun:7912	15.44 KB/s
+hdys.myds.me:7912	6.01 KB/s
+bgs.cchui.fun:7911	5.67 KB/s

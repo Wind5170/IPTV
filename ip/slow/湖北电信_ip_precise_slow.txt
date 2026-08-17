@@ -1,4 +1,4 @@
-# 20260816_1035_precise_slow
+# 20260817_1046_precise_slow
 # 服务器地址	速度
-hiliu.myds.me:18088	248.29 KB/s
-cqknas.myqnapcloud.com:8808	13.10 KB/s
+qnapxuan.mycloudnas.com:10001	117.75 KB/s
+hiliu.myds.me:18088	65.18 KB/s
