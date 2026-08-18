@@ -1,10 +1,11 @@
-# 20260817_1049_precise_slow
+# 20260818_1044_precise_slow
 # 服务器地址	速度
-www.angel147.cf:9570	297.12 KB/s
-www.yzddy.top:8800	285.94 KB/s
-j1900.silicaite.top:58888	260.89 KB/s
-xy2dfh.myds.me:8888	251.01 KB/s
-www.266999.xyz:55555	249.63 KB/s
-980413.xyz:6000	43.57 KB/s
-ikuai-v4.17271201.xyz:4000	35.59 KB/s
-home.amucn.net:8800	12.17 KB/s
+kouki.pro:8888	276.18 KB/s
+j1900.silicaite.top:58888	274.52 KB/s
+huijie5421.cn:8800	260.94 KB/s
+t.7ze.top:4022	259.02 KB/s
+xy2dfh.myds.me:8888	244.08 KB/s
+www.angel147.cf:9570	234.42 KB/s
+980413.xyz:6000	160.92 KB/s
+ikuai-v4.17271201.xyz:4000	36.44 KB/s
+home.amucn.net:8800	14.92 KB/s

@@ -1,6 +1,7 @@
-# 20260817_1057_precise
+# 20260818_1054_precise
 # 服务器地址	速度
-60.163.19.176:8188	392.32 KB/s
-maymoon.asuscomm.com:7777	385.90 KB/s
-www.liangcl.top:8686	382.55 KB/s
-zjhuct.synology.me:8881	342.87 KB/s
+zjhuct.icu:8889	359.51 KB/s
+maymoon.asuscomm.com:7777	353.16 KB/s
+zjhuct.synology.me:8881	343.29 KB/s
+hzmaidu.com:8090	342.00 KB/s
+zjhuct.synology.me:8889	310.39 KB/s
