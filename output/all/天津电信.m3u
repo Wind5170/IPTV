@@ -1,0 +1,299 @@
+#EXTM3U
+#EXTINF:-1 group-title="天津电信-组播1",天津卫视
+http://168250.xyz:1111/rtp/239.5.1.1:5000
+#EXTINF:-1 group-title="天津电信-组播1",天津体育频道
+http://168250.xyz:1111/rtp/239.5.1.3:5000
+#EXTINF:-1 group-title="天津电信-组播1",天津少儿频道
+http://168250.xyz:1111/rtp/239.5.1.24:5000
+#EXTINF:-1 group-title="天津电信-组播1",天津影视频道
+http://168250.xyz:1111/rtp/239.5.1.2:5000
+#EXTINF:-1 group-title="天津电信-组播1",天津教育频道
+http://168250.xyz:1111/rtp/239.5.1.29:5000
+#EXTINF:-1 group-title="天津电信-组播1",天津文艺频道
+http://168250.xyz:1111/rtp/239.5.1.31:5000
+#EXTINF:-1 group-title="天津电信-组播1",天津新闻频道
+http://168250.xyz:1111/rtp/239.5.1.30:5000
+#EXTINF:-1 group-title="天津电信-组播1",天津购物频道
+http://168250.xyz:1111/rtp/239.5.1.114:5000
+#EXTINF:-1 group-title="天津电信-组播1",天津都市频道
+http://168250.xyz:1111/rtp/239.5.1.27:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-1综合
+http://168250.xyz:1111/rtp/239.5.1.4:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-2财经
+http://168250.xyz:1111/rtp/239.5.1.5:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-3综艺
+http://168250.xyz:1111/rtp/239.5.1.101:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-4中文国际
+http://168250.xyz:1111/rtp/239.5.1.6:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-5体育
+http://168250.xyz:1111/rtp/239.5.1.102:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-5+体育赛事
+http://168250.xyz:1111/rtp/239.5.1.7:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-6电影
+http://168250.xyz:1111/rtp/239.5.1.103:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-7国防军事
+http://168250.xyz:1111/rtp/239.5.1.8:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-8电视剧
+http://168250.xyz:1111/rtp/239.5.1.104:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-9纪录
+http://168250.xyz:1111/rtp/239.5.1.9:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-10科教
+http://168250.xyz:1111/rtp/239.5.1.10:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-11戏曲
+http://168250.xyz:1111/rtp/239.5.1.137:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-12社会与法
+http://168250.xyz:1111/rtp/239.5.1.11:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-13新闻
+http://168250.xyz:1111/rtp/239.5.1.138:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-14少儿
+http://168250.xyz:1111/rtp/239.5.1.12:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-15音乐
+http://168250.xyz:1111/rtp/239.5.1.139:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-16奥林匹克
+http://168250.xyz:1111/rtp/239.5.1.146:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-17农业农村
+http://168250.xyz:1111/rtp/239.5.1.140:5000
+#EXTINF:-1 group-title="天津电信-组播1",湖南卫视
+http://168250.xyz:1111/rtp/239.5.1.16:5000
+#EXTINF:-1 group-title="天津电信-组播1",浙江卫视
+http://168250.xyz:1111/rtp/239.5.1.14:5000
+#EXTINF:-1 group-title="天津电信-组播1",江苏卫视
+http://168250.xyz:1111/rtp/239.5.1.25:5000
+#EXTINF:-1 group-title="天津电信-组播1",北京卫视
+http://168250.xyz:1111/rtp/239.5.1.89:5000
+#EXTINF:-1 group-title="天津电信-组播1",东方卫视
+http://168250.xyz:1111/rtp/239.5.1.81:5000
+#EXTINF:-1 group-title="天津电信-组播1",安徽卫视
+http://168250.xyz:1111/rtp/239.5.1.26:5000
+#EXTINF:-1 group-title="天津电信-组播1",广东卫视
+http://168250.xyz:1111/rtp/239.5.1.18:5000
+#EXTINF:-1 group-title="天津电信-组播1",深圳卫视
+http://168250.xyz:1111/rtp/239.5.1.19:5000
+#EXTINF:-1 group-title="天津电信-组播1",辽宁卫视
+http://168250.xyz:1111/rtp/239.5.1.46:5000
+#EXTINF:-1 group-title="天津电信-组播1",山东卫视
+http://168250.xyz:1111/rtp/239.5.1.21:5000
+#EXTINF:-1 group-title="天津电信-组播1",山东教育卫视
+http://168250.xyz:1111/rtp/239.5.0.141:5000
+#EXTINF:-1 group-title="天津电信-组播1",重庆卫视
+http://168250.xyz:1111/rtp/239.5.1.47:5000
+#EXTINF:-1 group-title="天津电信-组播1",河北卫视
+http://168250.xyz:1111/rtp/239.5.1.82:5000
+#EXTINF:-1 group-title="天津电信-组播1",河南卫视
+http://168250.xyz:1111/rtp/239.5.1.109:5000
+#EXTINF:-1 group-title="天津电信-组播1",湖北卫视
+http://168250.xyz:1111/rtp/239.5.1.20:5000
+#EXTINF:-1 group-title="天津电信-组播1",四川卫视
+http://168250.xyz:1111/rtp/239.5.1.22:5000
+#EXTINF:-1 group-title="天津电信-组播1",海南卫视
+http://168250.xyz:1111/rtp/239.5.1.111:5000
+#EXTINF:-1 group-title="天津电信-组播1",广西卫视
+http://168250.xyz:1111/rtp/239.5.1.110:5000
+#EXTINF:-1 group-title="天津电信-组播1",贵州卫视
+http://168250.xyz:1111/rtp/239.5.1.85:5000
+#EXTINF:-1 group-title="天津电信-组播1",黑龙江卫视
+http://168250.xyz:1111/rtp/239.5.1.17:5000
+#EXTINF:-1 group-title="天津电信-组播1",江西卫视
+http://168250.xyz:1111/rtp/239.5.1.84:5000
+#EXTINF:-1 group-title="天津电信-组播1",吉林卫视
+http://168250.xyz:1111/rtp/239.5.1.83:5000
+#EXTINF:-1 group-title="天津电信-组播1",宁夏卫视
+http://168250.xyz:1111/rtp/239.5.0.56:5000
+#EXTINF:-1 group-title="天津电信-组播1",云南卫视
+http://168250.xyz:1111/rtp/239.5.0.61:5000
+#EXTINF:-1 group-title="天津电信-组播1",西藏卫视
+http://168250.xyz:1111/rtp/239.5.0.51:5000
+#EXTINF:-1 group-title="天津电信-组播1",兵团卫视
+http://168250.xyz:1111/rtp/239.5.0.57:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-卫生健康
+http://168250.xyz:1111/rtp/239.5.1.131:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-风云足球
+http://168250.xyz:1111/rtp/239.5.1.119:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-央视文化精品
+http://168250.xyz:1111/rtp/239.5.1.126:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-风云音乐
+http://168250.xyz:1111/rtp/239.5.1.128:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-第一剧场
+http://168250.xyz:1111/rtp/239.5.1.121:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-怀旧剧场
+http://168250.xyz:1111/rtp/239.5.1.122:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-风云剧场
+http://168250.xyz:1111/rtp/239.5.1.123:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-世界地理
+http://168250.xyz:1111/rtp/239.5.1.124:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-电视指南
+http://168250.xyz:1111/rtp/239.5.1.129:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-兵器科技
+http://168250.xyz:1111/rtp/239.5.1.125:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-女性时尚
+http://168250.xyz:1111/rtp/239.5.1.127:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV-央视台球
+http://168250.xyz:1111/rtp/239.5.1.130:5000
+#EXTINF:-1 group-title="天津电信-组播1",CETV早期教育
+http://168250.xyz:1111/rtp/239.5.1.144:5000
+#EXTINF:-1 group-title="天津电信-组播1",CHC家庭影院
+http://168250.xyz:1111/rtp/239.5.1.50:5000
+#EXTINF:-1 group-title="天津电信-组播1",CHC影迷电影
+http://168250.xyz:1111/rtp/239.5.1.51:5000
+#EXTINF:-1 group-title="天津电信-组播1",CHC动作电影
+http://168250.xyz:1111/rtp/239.5.1.52:5000
+#EXTINF:-1 group-title="天津电信-组播1",百事通体育
+http://168250.xyz:1111/rtp/239.5.1.74:5000
+#EXTINF:-1 group-title="天津电信-组播1",百事通体育
+http://168250.xyz:1111/rtp/239.5.1.80:5000
+#EXTINF:-1 group-title="天津电信-组播1",百事通体育
+http://168250.xyz:1111/rtp/239.5.1.77:5000
+#EXTINF:-1 group-title="天津电信-组播1",百事通体育
+http://168250.xyz:1111/rtp/239.5.1.71:5000
+#EXTINF:-1 group-title="天津电信-组播1",百事通体育
+http://168250.xyz:1111/rtp/239.5.1.70:5000
+#EXTINF:-1 group-title="天津电信-组播1",百事通体育
+http://168250.xyz:1111/rtp/239.5.1.73:5000
+#EXTINF:-1 group-title="天津电信-组播1",百事通体育
+http://168250.xyz:1111/rtp/239.5.1.75:5000
+#EXTINF:-1 group-title="天津电信-组播1",百事通体育
+http://168250.xyz:1111/rtp/239.5.1.78:5000
+#EXTINF:-1 group-title="天津电信-组播1",百事通体育
+http://168250.xyz:1111/rtp/239.5.1.76:5000
+#EXTINF:-1 group-title="天津电信-组播1",百事通体育
+http://168250.xyz:1111/rtp/239.5.1.79:5000
+#EXTINF:-1 group-title="天津电信-组播1",百事通电竞
+http://168250.xyz:1111/rtp/239.5.1.72:5000
+#EXTINF:-1 group-title="天津电信-组播1",IPTV赛事频道
+http://168250.xyz:1111/rtp/239.5.1.48:5000
+#EXTINF:-1 group-title="天津电信-组播1",北京卡酷少儿
+http://168250.xyz:1111/rtp/239.5.0.58:5000
+#EXTINF:-1 group-title="天津电信-组播1",辽宁新动漫
+http://168250.xyz:1111/rtp/239.5.0.109:5000
+#EXTINF:-1 group-title="天津电信-组播1",上海东方财经
+http://168250.xyz:1111/rtp/239.5.1.156:5000
+#EXTINF:-1 group-title="天津电信-组播1",上海动漫秀场
+http://168250.xyz:1111/rtp/239.5.1.35:5000
+#EXTINF:-1 group-title="天津电信-组播1",上海游戏风云
+http://168250.xyz:1111/rtp/239.5.1.36:5000
+#EXTINF:-1 group-title="天津电信-组播1",上海法治天地
+http://168250.xyz:1111/rtp/239.5.1.63:5000
+#EXTINF:-1 group-title="天津电信-组播1",上海都市剧场
+http://168250.xyz:1111/rtp/239.5.1.43:5000
+#EXTINF:-1 group-title="天津电信-组播1",上海金色学堂
+http://168250.xyz:1111/rtp/239.5.1.64:5000
+#EXTINF:-1 group-title="天津电信-组播1",上海生活时尚
+http://168250.xyz:1111/rtp/239.5.1.41:5000
+#EXTINF:-1 group-title="天津电信-组播1",上海哈哈炫动
+http://168250.xyz:1111/rtp/239.5.0.62:5000
+#EXTINF:-1 group-title="天津电信-组播1",上海魅力足球
+http://168250.xyz:1111/rtp/239.5.1.153:5000
+#EXTINF:-1 group-title="天津电信-组播1",江西陶瓷
+http://168250.xyz:1111/rtp/239.5.1.45:5000
+#EXTINF:-1 group-title="天津电信-组播1",河南武术世界
+http://168250.xyz:1111/rtp/239.5.1.150:5000
+#EXTINF:-1 group-title="天津电信-组播1",河南文物宝库
+http://168250.xyz:1111/rtp/239.5.1.149:5000
+#EXTINF:-1 group-title="天津电信-组播1",湖北快乐垂钓
+http://168250.xyz:1111/rtp/239.5.1.67:5000
+#EXTINF:-1 group-title="天津电信-组播1",湖北快乐垂钓
+http://168250.xyz:1111/rtp/239.5.1.92:5000
+#EXTINF:-1 group-title="天津电信-组播1",湖南先锋乒羽
+http://168250.xyz:1111/rtp/239.5.0.112:5000
+#EXTINF:-1 group-title="天津电信-组播1",湖南茶频道
+http://168250.xyz:1111/rtp/239.5.1.68:5000
+#EXTINF:-1 group-title="天津电信-组播1",湖南金鹰纪实
+http://168250.xyz:1111/rtp/239.5.1.23:5000
+#EXTINF:-1 group-title="天津电信-组播1",湖南金鹰卡通
+http://168250.xyz:1111/rtp/239.5.1.147:5000
+#EXTINF:-1 group-title="天津电信-组播1",交通广播
+http://168250.xyz:1111/rtp/239.5.0.117:5000
+#EXTINF:-1 group-title="天津电信-组播1",小说广播
+http://168250.xyz:1111/rtp/239.5.0.119:5000
+#EXTINF:-1 group-title="天津电信-组播1",文艺广播
+http://168250.xyz:1111/rtp/239.5.0.113:5000
+#EXTINF:-1 group-title="天津电信-组播1",新闻广播
+http://168250.xyz:1111/rtp/239.5.0.115:5000
+#EXTINF:-1 group-title="天津电信-组播1",滨海广播
+http://168250.xyz:1111/rtp/239.5.0.120:5000
+#EXTINF:-1 group-title="天津电信-组播1",生活广播
+http://168250.xyz:1111/rtp/239.5.0.116:5000
+#EXTINF:-1 group-title="天津电信-组播1",相声广播
+http://168250.xyz:1111/rtp/239.5.0.118:5000
+#EXTINF:-1 group-title="天津电信-组播1",经济广播
+http://168250.xyz:1111/rtp/239.5.0.114:5000
+#EXTINF:-1 group-title="天津电信-组播1",音乐广播
+http://168250.xyz:1111/rtp/239.5.0.121:5000
+#EXTINF:-1 group-title="天津电信-组播1",蓟州电视台
+http://168250.xyz:1111/rtp/239.5.1.112:5000
+#EXTINF:-1 group-title="天津电信-组播1",上海乐游频道
+http://168250.xyz:1111/rtp/239.5.1.42:5000
+#EXTINF:-1 group-title="天津电信-组播1",上海欢笑剧场
+http://168250.xyz:1111/rtp/239.5.1.39:5000
+#EXTINF:-1 group-title="天津电信-组播1",上海纪实
+http://168250.xyz:1111/rtp/239.5.1.87:5000
+#EXTINF:-1 group-title="天津电信-组播1",滨海1
+http://168250.xyz:1111/rtp/239.5.0.167:5000
+#EXTINF:-1 group-title="天津电信-组播1",滨海2
+http://168250.xyz:1111/rtp/239.5.0.168:5000
+#EXTINF:-1 group-title="天津电信-组播1",河南梨园频道
+http://168250.xyz:1111/rtp/239.5.1.148:5000
+#EXTINF:-1 group-title="天津电信-组播1",重庆汽摩频道
+http://168250.xyz:1111/rtp/239.5.0.88:5000
+#EXTINF:-1 group-title="天津电信-组播1",4K私享家
+http://168250.xyz:1111/rtp/239.5.1.33:5000
+#EXTINF:-1 group-title="天津电信-组播1",CBN幸福剧场
+http://168250.xyz:1111/rtp/239.5.1.107:5000
+#EXTINF:-1 group-title="天津电信-组播1",CBN幸福娱乐
+http://168250.xyz:1111/rtp/239.5.1.108:5000
+#EXTINF:-1 group-title="天津电信-组播1",CBN每日影院
+http://168250.xyz:1111/rtp/239.5.1.105:5000
+#EXTINF:-1 group-title="天津电信-组播1",CBN风尚生活
+http://168250.xyz:1111/rtp/239.5.1.106:5000
+#EXTINF:-1 group-title="天津电信-组播1",CCTV高尔夫网球
+http://168250.xyz:1111/rtp/239.5.1.120:5000
+#EXTINF:-1 group-title="天津电信-组播1",FTV足球频道
+http://168250.xyz:1111/rtp/239.5.1.113:5000
+#EXTINF:-1 group-title="天津电信-组播1",中华美食
+http://168250.xyz:1111/rtp/239.5.1.53:5000
+#EXTINF:-1 group-title="天津电信-组播1",健康直通车
+http://168250.xyz:1111/rtp/239.5.1.141:5000
+#EXTINF:-1 group-title="天津电信-组播1",动听885
+http://168250.xyz:1111/rtp/239.5.0.122:5000
+#EXTINF:-1 group-title="天津电信-组播1",大港油田企业频道
+http://168250.xyz:1111/rtp/239.5.1.135:5000
+#EXTINF:-1 group-title="天津电信-组播1",天视文旅频道
+http://168250.xyz:1111/rtp/239.5.1.116:5000
+#EXTINF:-1 group-title="天津电信-组播1",宝贝爱学
+http://168250.xyz:1111/rtp/239.5.1.152:5000
+#EXTINF:-1 group-title="天津电信-组播1",宝贝爱学
+http://168250.xyz:1111/rtp/239.5.1.32:5000
+#EXTINF:-1 group-title="天津电信-组播1",幸福彩
+http://168250.xyz:1111/rtp/239.5.1.44:5000
+#EXTINF:-1 group-title="天津电信-组播1",快乐英语ABC
+http://168250.xyz:1111/rtp/239.5.1.134:5000
+#EXTINF:-1 group-title="天津电信-组播1",悦美生活
+http://168250.xyz:1111/rtp/239.5.1.158:5000
+#EXTINF:-1 group-title="天津电信-组播1",曲艺大观
+http://168250.xyz:1111/rtp/239.5.1.88:5000
+#EXTINF:-1 group-title="天津电信-组播1",橙子视频
+http://168250.xyz:1111/rtp/239.5.1.142:5000
+#EXTINF:-1 group-title="天津电信-组播1",测试1
+http://168250.xyz:1111/rtp/239.5.1.62:5000
+#EXTINF:-1 group-title="天津电信-组播1",测试2
+http://168250.xyz:1111/rtp/239.5.1.151:5000
+#EXTINF:-1 group-title="天津电信-组播1",海外剧场
+http://168250.xyz:1111/rtp/239.5.1.115:5000
+#EXTINF:-1 group-title="天津电信-组播1",潮流音乐
+http://168250.xyz:1111/rtp/239.5.1.90:5000
+#EXTINF:-1 group-title="天津电信-组播1",爱心扶贫
+http://168250.xyz:1111/rtp/239.5.1.132:5000
+#EXTINF:-1 group-title="天津电信-组播1",睛彩影视
+http://168250.xyz:1111/rtp/239.5.1.40:5000
+#EXTINF:-1 group-title="天津电信-组播1",羽球精品赛事
+http://168250.xyz:1111/rtp/239.5.1.66:5000
+#EXTINF:-1 group-title="天津电信-组播1",街舞地带
+http://168250.xyz:1111/rtp/239.5.1.34:5000
+#EXTINF:-1 group-title="天津电信-组播1",购物频道
+http://168250.xyz:1111/rtp/239.5.1.161:5000
+#EXTINF:-1 group-title="天津电信-组播1",购物频道
+http://168250.xyz:1111/rtp/239.5.1.159:5000
+#EXTINF:-1 group-title="天津电信-组播1",购物频道
+http://168250.xyz:1111/rtp/239.5.1.160:5000
+#EXTINF:-1 group-title="天津电信-组播1",食全食美
+http://168250.xyz:1111/rtp/239.5.1.49:5000
