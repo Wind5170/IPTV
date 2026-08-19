@@ -1,11 +1,14 @@
-# 20260818_1044_precise_slow
+# 20260819_1043_precise_slow
 # 服务器地址	速度
-kouki.pro:8888	276.18 KB/s
-j1900.silicaite.top:58888	274.52 KB/s
-huijie5421.cn:8800	260.94 KB/s
-t.7ze.top:4022	259.02 KB/s
-xy2dfh.myds.me:8888	244.08 KB/s
-www.angel147.cf:9570	234.42 KB/s
-980413.xyz:6000	160.92 KB/s
-ikuai-v4.17271201.xyz:4000	36.44 KB/s
-home.amucn.net:8800	14.92 KB/s
+acp-cloud.asuscomm.com:4000	290.73 KB/s
+t.7ze.top:4022	286.74 KB/s
+huijie5421.cn:8800	277.20 KB/s
+www.angel147.cf:9570	277.01 KB/s
+j1900.silicaite.top:58888	239.04 KB/s
+fengwei888888.myds.me:58099	196.45 KB/s
+iptv.feng.js.cn:58099	175.69 KB/s
+980413.xyz:6000	166.10 KB/s
+kouki.pro:8888	81.01 KB/s
+h.vanshun.com:8802	49.96 KB/s
+home.amucn.net:8800	27.18 KB/s
+ikuai-v4.17271201.xyz:4000	17.74 KB/s

@@ -1,3 +1,6 @@
-# 20260818_1047_precise_slow
+# 20260819_1047_precise_slow
 # 服务器地址	速度
-180.159.68.231:4022	102.19 KB/s
+cloud.sunrisecom.wang:18888	239.93 KB/s
+cloud.sunrisecom.wang:8888	158.15 KB/s
+180.159.68.231:4022	49.43 KB/s
+wsc2007123.myds.me:30100	2.22 KB/s

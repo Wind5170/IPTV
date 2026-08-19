@@ -1,8 +1,11 @@
-# 20260818_1035_precise_slow
+# 20260819_1034_precise_slow
 # 服务器地址	速度
-113.101.245.37:9988	255.95 KB/s
-liqn.mycloudnas.com:8188	253.60 KB/s
-113.83.248.176:4200	82.65 KB/s
-183.236.43.98:4013	1.86 KB/s
-113.65.9.76:4013	1.81 KB/s
-yanshifen.top:8889	1.33 KB/s
+www.guangyuan.site:8188	290.05 KB/s
+liqn.mycloudnas.com:8188	247.91 KB/s
+183.236.43.98:4111	241.72 KB/s
+113.101.245.37:9988	234.21 KB/s
+unraid.cyruslee.top:8888	135.98 KB/s
+www.yahao.host:4022	93.93 KB/s
+183.236.43.98:4013	2.21 KB/s
+113.65.9.76:4013	2.13 KB/s
+yanshifen.top:8889	1.42 KB/s

@@ -1,14 +1,4 @@
-# 20260818_1032_precise_slow
+# 20260819_1032_precise_slow
 # 服务器地址	速度
-owvpn.famcloud.top:9878	242.08 KB/s
-unicom3.swjms.com:4022	201.79 KB/s
-www.irisxxd.cn:8888	184.26 KB/s
-www.irisxxd.cn:8000	175.01 KB/s
-x1x.bid:5146	80.32 KB/s
-triq.cc:8012	68.88 KB/s
-shunyi-home.wangbin.us:4022	49.71 KB/s
-rt.tunan.tech:7070	21.12 KB/s
-www.photoby.us:28012	18.84 KB/s
-111.196.134.175:20000	18.48 KB/s
-n2.192372.xyz:8888	1.25 KB/s
-happy2015.synology.me:4000	0.46 KB/s
+unicom3.swjms.com:4022	154.21 KB/s
+rt.tunan.tech:7070	9.69 KB/s
