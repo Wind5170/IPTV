@@ -1,6 +1,3 @@
-# 20260821_1052_precise_slow
+# 20260822_1044_precise_slow
 # 服务器地址	速度
-www.negative.top:50000	277.92 KB/s
-zjhuct.synology.me:8889	116.92 KB/s
-www.slq888.cn:9999	49.87 KB/s
-zjhuct.icu:8889	36.82 KB/s
+www.slq888.cn:9999	54.68 KB/s

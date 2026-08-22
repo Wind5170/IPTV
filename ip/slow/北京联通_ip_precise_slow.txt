@@ -1,8 +1,4 @@
-# 20260821_1033_precise_slow
+# 20260822_1027_precise_slow
 # 服务器地址	速度
-114.254.83.133:4022	289.17 KB/s
-laiboy.myds.me:58686	280.55 KB/s
-rt.tunan.tech:7070	197.80 KB/s
-unicom3.swjms.com:4022	161.33 KB/s
-qqdwtypm.f3322.org:64022	145.57 KB/s
-n2.192372.xyz:8888	1.26 KB/s
+unicom3.swjms.com:4022	175.31 KB/s
+rt.tunan.tech:7070	32.45 KB/s
