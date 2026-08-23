@@ -1,4 +1,8 @@
-# 20260822_1027_precise_slow
+# 20260823_1026_precise_slow
 # 服务器地址	速度
-unicom3.swjms.com:4022	175.31 KB/s
-rt.tunan.tech:7070	32.45 KB/s
+unicom3.swjms.com:4022	174.28 KB/s
+weixin.mfsz.cn:8888	171.43 KB/s
+rt.tunan.tech:7070	91.21 KB/s
+tnv.asuscomm.com:8012	72.37 KB/s
+111.196.134.175:20000	3.72 KB/s
+n2.192372.xyz:8888	2.70 KB/s
