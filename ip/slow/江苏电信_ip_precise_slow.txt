@@ -1,11 +1,9 @@
-# 20260823_1044_precise_slow
+# 20260824_1054_precise_slow
 # 服务器地址	速度
-fengwei888888.myds.me:58099	265.13 KB/s
-gcyp.mycloudnas.com:4000	226.44 KB/s
-iptv.feng.js.cn:58099	224.85 KB/s
-njbobo.mycloudnas.com:4022	163.89 KB/s
-ikuai-v4.17271201.xyz:4000	66.82 KB/s
-www.266999.xyz:55555	47.49 KB/s
-kouki.pro:8888	43.72 KB/s
-home.amucn.net:8800	3.86 KB/s
-dx.joygala.cn:8118	1.74 KB/s
+istoreos.sclvip.top:5566	294.33 KB/s
+www.angel147.cf:9570	287.47 KB/s
+njbobo.mycloudnas.com:4022	277.87 KB/s
+114.226.212.191:8787	246.87 KB/s
+ikuai-v4.17271201.xyz:4000	33.20 KB/s
+home.amucn.net:8800	20.41 KB/s
+www.266999.xyz:55555	1.69 KB/s

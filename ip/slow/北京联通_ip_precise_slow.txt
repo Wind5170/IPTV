@@ -1,8 +1,14 @@
-# 20260823_1026_precise_slow
+# 20260824_1040_precise_slow
 # 服务器地址	速度
-unicom3.swjms.com:4022	174.28 KB/s
-weixin.mfsz.cn:8888	171.43 KB/s
-rt.tunan.tech:7070	91.21 KB/s
-tnv.asuscomm.com:8012	72.37 KB/s
-111.196.134.175:20000	3.72 KB/s
-n2.192372.xyz:8888	2.70 KB/s
+yaoleyaotou.com:4022	237.97 KB/s
+weixin.mfsz.cn:8888	233.39 KB/s
+unicom3.swjms.com:4022	195.89 KB/s
+qqdwtypm.f3322.org:64022	141.87 KB/s
+www.irisxxd.cn:8000	113.69 KB/s
+www.photoby.us:28012	75.60 KB/s
+happylive.asuscomm.com:8888	70.87 KB/s
+rt.tunan.tech:7070	33.36 KB/s
+triq.cc:8012	16.81 KB/s
+owvpn.famcloud.top:9878	5.75 KB/s
+tnv.asuscomm.com:8012	1.93 KB/s
+n2.192372.xyz:8888	1.91 KB/s
