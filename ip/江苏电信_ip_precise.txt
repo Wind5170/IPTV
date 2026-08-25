@@ -1,21 +1,14 @@
-# 20260824_1054_precise
+# 20260825_1054_precise
 # 服务器地址	速度
-j1900.silicaite.top:58888	524.87 KB/s
-gcyp.mycloudnas.com:4000	494.57 KB/s
-fengwei888888.myds.me:58099	486.00 KB/s
-y1nf0x.myds.me:5888	469.05 KB/s
-vs.heylc.com:4022	462.34 KB/s
-lygzou.asuscomm.com:19999	460.76 KB/s
-nas2.bycza.top:9000	453.65 KB/s
-114.226.212.190:8787	448.97 KB/s
-acp-cloud.asuscomm.com:4000	435.48 KB/s
-dx.joygala.cn:8118	417.13 KB/s
-www.sclvip.top:8787	413.76 KB/s
-202.8090pc.cn:58888	406.48 KB/s
-h.vanshun.com:8802	405.27 KB/s
-t.7ze.top:4022	384.05 KB/s
-nas3.bycza.top:8100	383.02 KB/s
-iptv.feng.js.cn:58099	375.48 KB/s
-kouki.pro:8888	368.13 KB/s
-huijie5421.cn:8800	343.69 KB/s
-www.markc.top:8887	338.69 KB/s
+114.226.212.190:8787	399.35 KB/s
+fengwei888888.myds.me:58099	397.09 KB/s
+114.226.212.191:8787	388.90 KB/s
+y1nf0x.myds.me:5888	378.45 KB/s
+lygzou.asuscomm.com:19999	372.49 KB/s
+h.vanshun.com:8802	345.64 KB/s
+acp-cloud.asuscomm.com:4000	336.68 KB/s
+www.sclvip.top:8787	332.99 KB/s
+iptv.feng.js.cn:58099	332.05 KB/s
+t.7ze.top:4022	325.43 KB/s
+huijie5421.cn:8800	322.49 KB/s
+dx.joygala.cn:8118	303.30 KB/s

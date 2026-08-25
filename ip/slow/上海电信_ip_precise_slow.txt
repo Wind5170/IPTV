@@ -1,4 +1,6 @@
-# 20260824_1058_precise_slow
+# 20260825_1058_precise_slow
 # 服务器地址	速度
-180.165.8.10:4022	90.69 KB/s
-wsc2007123.myds.me:30100	2.44 KB/s
+shenhua.asuscomm.com:8888	293.03 KB/s
+wsc2007123.myds.me:30100	213.14 KB/s
+www.rogerxlj.top:9998	74.10 KB/s
+180.165.8.10:4022	56.89 KB/s
