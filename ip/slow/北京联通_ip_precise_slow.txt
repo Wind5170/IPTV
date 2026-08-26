@@ -1,16 +1,4 @@
-# 20260825_1037_precise_slow
+# 20260826_1044_precise_slow
 # 服务器地址	速度
-114.254.36.170:8888	292.61 KB/s
-happylive.asuscomm.com:8888	292.42 KB/s
-qqdwtypm.f3322.org:64022	290.40 KB/s
-laiboy.myds.me:58686	273.67 KB/s
-weixin.mfsz.cn:8888	171.40 KB/s
-www.xiongnas.top:8888	155.63 KB/s
-triq.cc:8012	86.66 KB/s
-superpostmail.3322.org:1193	85.14 KB/s
-unicom3.swjms.com:4022	84.83 KB/s
-111.196.134.175:20000	53.93 KB/s
-www.photoby.us:28012	34.95 KB/s
-tnv.asuscomm.com:8012	19.21 KB/s
-rt.tunan.tech:7070	17.89 KB/s
-n2.192372.xyz:8888	0.76 KB/s
+unicom3.swjms.com:4022	119.04 KB/s
+rt.tunan.tech:7070	37.46 KB/s
