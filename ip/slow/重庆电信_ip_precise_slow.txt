@@ -1,0 +1,4 @@
+# 20260827_2019_precise_slow
+# 服务器地址	速度
+www.wpfhome.cn:5555	114.32 KB/s
+2.wyb.cq.cn:8181	2.72 KB/s

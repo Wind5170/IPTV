@@ -1,3 +1,4 @@
-# 20260826_1058_precise_slow
+# 20260827_2030_precise_slow
 # 服务器地址	速度
-rongrong.synology.me:14022	250.61 KB/s
+www.rogerxlj.top:9998	225.27 KB/s
+wsc2007123.myds.me:30100	3.32 KB/s

@@ -1,9 +1,12 @@
-# 20260826_1056_precise_slow
+# 20260827_2028_precise_slow
 # 服务器地址	速度
-www.markc.top:8887	289.58 KB/s
-www.sclvip.top:8787	259.90 KB/s
-home.amucn.net:8800	241.75 KB/s
-iptv.feng.js.cn:58099	222.17 KB/s
-kouki.pro:8888	35.02 KB/s
-ikuai-v4.17271201.xyz:4000	18.14 KB/s
-www.266999.xyz:55555	1.84 KB/s
+kouki.pro:8888	296.56 KB/s
+istoreos.sclvip.top:5566	270.49 KB/s
+www.sclvip.top:8787	212.81 KB/s
+njbobo.mycloudnas.com:4022	167.14 KB/s
+gcyp.mycloudnas.com:4000	161.72 KB/s
+114.226.212.190:8787	150.83 KB/s
+nas2.bycza.top:9000	119.50 KB/s
+home.amucn.net:8800	92.51 KB/s
+www.266999.xyz:55555	39.58 KB/s
+ikuai-v4.17271201.xyz:4000	24.64 KB/s
