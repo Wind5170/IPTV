@@ -1,8 +1,3 @@
-# 20260827_2014_precise_slow
+# 20260828_2111_precise_slow
 # 服务器地址	速度
-unicom3.swjms.com:4022	187.63 KB/s
-triq.cc:8012	46.78 KB/s
-n2.192372.xyz:8888	3.38 KB/s
-www.photoby.us:28012	2.51 KB/s
-tnv.asuscomm.com:8012	2.46 KB/s
-111.196.134.175:20000	0.24 KB/s
+unicom3.swjms.com:4022	77.68 KB/s
