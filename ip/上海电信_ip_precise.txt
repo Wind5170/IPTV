@@ -1,12 +1,9 @@
-# 20260828_2126_precise
+# 20260829_1515_precise
 # 服务器地址	速度
-wsc2007123.myds.me:30100	573.20 KB/s
-180.165.8.10:4022	541.87 KB/s
-www.rogerxlj.top:9998	519.96 KB/s
-www.wqcjoy.xyz:8188	507.80 KB/s
-shenhua.asuscomm.com:8888	504.99 KB/s
-223.167.230.155:4022	488.04 KB/s
-cloud.sunrisecom.wang:18888	486.32 KB/s
-cloud.sunrisecom.wang:8888	484.12 KB/s
-rongrong.synology.me:14022	469.86 KB/s
-180.165.2.141:4022	457.49 KB/s
+cloud.sunrisecom.wang:8888	426.66 KB/s
+cloud.sunrisecom.wang:18888	396.72 KB/s
+rongrong.synology.me:14022	367.77 KB/s
+223.167.230.155:4022	365.08 KB/s
+www.rogerxlj.top:9998	348.16 KB/s
+shenhua.asuscomm.com:8888	337.35 KB/s
+180.165.2.141:4022	313.96 KB/s

@@ -1,6 +1,18 @@
-# 20260828_2124_precise_slow
+# 20260829_1512_precise_slow
 # 服务器地址	速度
-njbobo.mycloudnas.com:4022	143.72 KB/s
-980413.xyz:6000	49.00 KB/s
-kouki.pro:8888	24.81 KB/s
-ikuai-v4.17271201.xyz:4000	14.51 KB/s
+nas2.bycza.top:9000	295.12 KB/s
+nas3.bycza.top:8100	291.00 KB/s
+www.yzddy.top:8800	286.56 KB/s
+y1nf0x.myds.me:5888	269.12 KB/s
+www.markc.top:8887	259.74 KB/s
+dx.joygala.cn:8118	258.28 KB/s
+202.8090pc.cn:58888	238.32 KB/s
+www.angel147.cf:9570	236.56 KB/s
+fengwei888888.myds.me:58099	222.29 KB/s
+iptv.feng.js.cn:58099	218.66 KB/s
+gcyp.mycloudnas.com:4000	206.20 KB/s
+huijie5421.cn:8800	183.19 KB/s
+kouki.pro:8888	114.06 KB/s
+www.266999.xyz:55555	68.08 KB/s
+ikuai-v4.17271201.xyz:4000	27.32 KB/s
+home.amucn.net:8800	10.65 KB/s
