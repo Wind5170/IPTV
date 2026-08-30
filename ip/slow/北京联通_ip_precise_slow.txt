@@ -1,5 +1,4 @@
-# 20260829_1502_precise_slow
+# 20260830_1446_precise_slow
 # 服务器地址	速度
-unicom3.swjms.com:4022	278.91 KB/s
-laiboy.myds.me:58686	256.72 KB/s
-superpostmail.3322.org:1193	171.86 KB/s
+unicom3.swjms.com:4022	286.87 KB/s
+114.254.33.57:8888	263.25 KB/s

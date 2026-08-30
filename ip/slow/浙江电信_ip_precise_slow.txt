@@ -1,7 +1,9 @@
-# 20260829_1518_precise_slow
+# 20260830_1510_precise_slow
 # 服务器地址	速度
-zjhuct.synology.me:8881	284.02 KB/s
-60.183.105.124:8000	269.37 KB/s
-www.tangtuanpp.fun:4000	215.81 KB/s
-zjhuct.synology.me:8889	195.87 KB/s
-gilbert0571.eu.org:8888	45.02 KB/s
+zjhuct.synology.me:8889	291.06 KB/s
+60.183.109.106:8000	272.59 KB/s
+maymoon.asuscomm.com:7777	221.67 KB/s
+www.negative.top:50000	100.05 KB/s
+www.tangtuanpp.fun:4000	64.62 KB/s
+www.slq888.cn:9999	29.94 KB/s
+gilbert0571.eu.org:8888	11.73 KB/s
