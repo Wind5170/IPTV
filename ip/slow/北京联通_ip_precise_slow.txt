@@ -1,4 +1,4 @@
-# 20260830_1446_precise_slow
+# 20260831_1729_precise_slow
 # 服务器地址	速度
-unicom3.swjms.com:4022	286.87 KB/s
-114.254.33.57:8888	263.25 KB/s
+n2.192372.xyz:8888	169.53 KB/s
+www.irisxxd.cn:8888	64.73 KB/s

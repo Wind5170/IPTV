@@ -1,7 +1,3 @@
-# 20260830_1450_precise_slow
+# 20260831_1737_precise_slow
 # 服务器地址	速度
-liqn.mycloudnas.com:8188	298.27 KB/s
-113.101.245.37:9988	288.75 KB/s
-www.guangyuan.site:8188	213.88 KB/s
-nas.xxika.net:8188	113.02 KB/s
-113.65.9.76:4013	99.46 KB/s
+nas.xxika.net:8188	231.54 KB/s
