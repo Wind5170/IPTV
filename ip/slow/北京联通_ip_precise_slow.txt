@@ -1,4 +1,9 @@
-# 20260831_1729_precise_slow
+# 20260901_1440_precise_slow
 # 服务器地址	速度
-n2.192372.xyz:8888	169.53 KB/s
-www.irisxxd.cn:8888	64.73 KB/s
+superpostmail.3322.org:1193	263.96 KB/s
+unicom3.swjms.com:4022	233.65 KB/s
+qqdwtypm.f3322.org:64022	219.45 KB/s
+111.196.130.52:20000	178.58 KB/s
+n2.192372.xyz:8888	106.42 KB/s
+www.xiongnas.top:8888	58.15 KB/s
+114.254.38.62:8888	38.69 KB/s

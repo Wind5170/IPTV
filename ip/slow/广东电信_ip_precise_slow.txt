@@ -1,3 +1,3 @@
-# 20260831_1737_precise_slow
+# 20260901_1444_precise_slow
 # 服务器地址	速度
-nas.xxika.net:8188	231.54 KB/s
+nas.xxika.net:8188	1.93 KB/s
