@@ -1,4 +1,6 @@
-# 20260903_1434_precise_slow
+# 20260904_1423_precise_slow
 # 服务器地址	速度
-www.negative.top:50000	171.66 KB/s
-www.tangtuanpp.fun:4000	133.53 KB/s
+www.liangcl.top:8686	260.13 KB/s
+www.slq888.cn:9999	169.93 KB/s
+zjhuct.synology.me:8881	139.37 KB/s
+gilbert0571.eu.org:8888	108.22 KB/s

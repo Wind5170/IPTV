@@ -1,6 +1,5 @@
-# 20260903_1425_precise_slow
+# 20260904_1412_precise_slow
 # 服务器地址	速度
-www.661130.xyz:8188	294.63 KB/s
-hiliu.myds.me:18088	245.07 KB/s
-wlei.myds.me:52057	241.61 KB/s
-qnapxuan.mycloudnas.com:10001	2.80 KB/s
+www.661130.xyz:8188	294.56 KB/s
+hiliu.myds.me:18088	191.37 KB/s
+qnapxuan.mycloudnas.com:10001	13.93 KB/s
