@@ -1,11 +1,10 @@
-# 20260904_1421_precise_slow
+# 20260905_1334_precise_slow
 # 服务器地址	速度
-www.yanbingg.com:1888	237.65 KB/s
-hhska.3322.org:8096	205.01 KB/s
-vpn.ydcb.top:40000	111.14 KB/s
-171.213.145.230:8188	110.62 KB/s
-171.213.213.247:4022	107.95 KB/s
-pp.ydcb.top:40000	85.74 KB/s
-ipv4.roxette119.xyz:5555	73.37 KB/s
-xmzj.f3322.net:8188	32.85 KB/s
-171.213.148.75:8188	0.61 KB/s
+hhska.3322.org:8096	204.04 KB/s
+www.zhms.tk:5050	194.18 KB/s
+xmzj.f3322.net:8188	192.34 KB/s
+171.213.145.230:8188	124.11 KB/s
+vpn.ydcb.top:40000	121.28 KB/s
+171.213.213.247:4022	121.26 KB/s
+171.213.236.231:8188	112.93 KB/s
+pp.ydcb.top:40000	111.65 KB/s

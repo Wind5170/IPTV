@@ -1,5 +1,5 @@
-# 20260904_1404_precise_slow
+# 20260905_1318_precise_slow
 # 服务器地址	速度
-n2.192372.xyz:8888	152.52 KB/s
-unicom3.swjms.com:4022	142.52 KB/s
-rt.tunan.tech:7070	115.01 KB/s
+tnv.asuscomm.com:8012	293.04 KB/s
+sphinger.f3322.net:11012	254.01 KB/s
+www.photoby.us:28012	60.65 KB/s
