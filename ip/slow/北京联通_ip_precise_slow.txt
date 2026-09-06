@@ -1,5 +1,6 @@
-# 20260905_1318_precise_slow
+# 20260906_1329_precise_slow
 # 服务器地址	速度
-tnv.asuscomm.com:8012	293.04 KB/s
-sphinger.f3322.net:11012	254.01 KB/s
-www.photoby.us:28012	60.65 KB/s
+rt.tunan.tech:7070	293.06 KB/s
+unicom3.swjms.com:4022	111.72 KB/s
+superpostmail.3322.org:1193	99.77 KB/s
+triq.cc:8012	46.70 KB/s
