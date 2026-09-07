@@ -1,6 +1,5 @@
-# 20260906_1329_precise_slow
+# 20260907_1536_precise_slow
 # 服务器地址	速度
-rt.tunan.tech:7070	293.06 KB/s
-unicom3.swjms.com:4022	111.72 KB/s
-superpostmail.3322.org:1193	99.77 KB/s
-triq.cc:8012	46.70 KB/s
+triq.cc:8012	228.66 KB/s
+qqdwtypm.f3322.org:64022	176.42 KB/s
+unicom3.swjms.com:4022	30.35 KB/s

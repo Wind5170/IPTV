@@ -1,3 +1,0 @@
-# 20260906_1332_precise
-# 服务器地址	速度
-ximu.ecs.yue.zone:369	302.10 KB/s
