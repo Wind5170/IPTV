@@ -1,9 +1,5 @@
-# 20260907_1540_precise_slow
+# 20260908_1416_precise_slow
 # 服务器地址	速度
-113.101.245.37:9988	283.67 KB/s
-udp2.gdsz.eu.org:8888	280.59 KB/s
-vpn.jk960.cn:8686	278.49 KB/s
-www.yahao.host:4022	270.52 KB/s
-www.hongzhijiaoyu.net:8188	140.76 KB/s
-113.65.9.76:4013	35.87 KB/s
-183.236.43.98:4013	2.32 KB/s
+svn.huase.ltd:8888	286.90 KB/s
+vpn.jk960.cn:8686	279.64 KB/s
+113.101.245.37:9988	262.10 KB/s
