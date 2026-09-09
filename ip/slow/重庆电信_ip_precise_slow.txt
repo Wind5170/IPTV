@@ -1,5 +1,4 @@
-# 20260908_1415_precise_slow
+# 20260909_1417_precise_slow
 # 服务器地址	速度
-msen.site:8000	196.36 KB/s
-www.wpfhome.cn:5555	91.83 KB/s
-2.wyb.cq.cn:8181	58.07 KB/s
+www.wpfhome.cn:5555	110.98 KB/s
+2.wyb.cq.cn:8181	11.82 KB/s

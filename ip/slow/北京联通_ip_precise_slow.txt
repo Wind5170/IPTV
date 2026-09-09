@@ -1,9 +1,10 @@
-# 20260908_1414_precise_slow
+# 20260909_1416_precise_slow
 # 服务器地址	速度
-sphinger.f3322.net:11012	139.93 KB/s
-superpostmail.3322.org:1193	124.36 KB/s
-unicom3.swjms.com:4022	120.41 KB/s
-111.196.130.52:20000	103.06 KB/s
-www.irisxxd.cn:8000	23.24 KB/s
-www.irisxxd.cn:8888	23.07 KB/s
-triq.cc:8012	19.53 KB/s
+superpostmail.3322.org:1193	197.88 KB/s
+qqdwtypm.f3322.org:64022	156.62 KB/s
+unicom3.swjms.com:4022	154.77 KB/s
+111.193.234.149:9999	92.94 KB/s
+111.196.130.52:20000	38.99 KB/s
+triq.cc:8012	1.82 KB/s
+www.irisxxd.cn:8888	1.47 KB/s
+www.irisxxd.cn:8000	1.47 KB/s
