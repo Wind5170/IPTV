@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="2026/09/09 10:06精选更新",浙江卫视
+#EXTINF:-1 group-title="2026/09/09 22:09精选更新",浙江卫视
 http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 #EXTINF:-1 group-title="四川电信-组播1",四川卫视4K
 http://www.yanbingg.com:18888/udp/239.94.0.115:5140
@@ -3849,160 +3849,6 @@ http://ximu.ecs.yue.zone:369/rtp/238.255.2.128:5999
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.223:5999
 #EXTINF:-1 group-title="贵州电信-组播1",黔西-1
 http://ximu.ecs.yue.zone:369/rtp/238.255.2.161:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州卫视
-http://122.9.151.210:887/rtp/238.255.2.1:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州卫视
-http://122.9.151.210:887/rtp/238.255.2.147:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州卫视2
-http://122.9.151.210:887/rtp/238.255.2.2:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州卫视3
-http://122.9.151.210:887/rtp/238.255.2.3:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州卫视4
-http://122.9.151.210:887/rtp/238.255.2.4:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州卫视5
-http://122.9.151.210:887/rtp/238.255.2.5:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州卫视6
-http://122.9.151.210:887/rtp/238.255.2.6:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州卫视7
-http://122.9.151.210:887/rtp/238.255.2.9:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州-3
-http://122.9.151.210:887/rtp/238.255.2.159:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州-3
-http://122.9.151.210:887/rtp/238.255.2.183:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州-3
-http://122.9.151.210:887/rtp/238.255.2.187:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州-3
-http://122.9.151.210:887/rtp/238.255.2.200:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州宣传片
-http://122.9.151.210:887/rtp/238.255.2.112:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州宣传片
-http://122.9.151.210:887/rtp/238.255.2.141:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州宣传片
-http://122.9.151.210:887/rtp/238.255.2.142:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州直播频道
-http://122.9.151.210:887/rtp/238.255.2.206:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州移动电视
-http://122.9.151.210:887/rtp/238.255.2.117:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-卫生健康
-http://122.9.151.210:887/rtp/238.255.2.144:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-风云足球
-http://122.9.151.210:887/rtp/238.255.2.29:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-风云音乐
-http://122.9.151.210:887/rtp/238.255.2.24:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-第一剧场
-http://122.9.151.210:887/rtp/238.255.2.25:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-怀旧剧场
-http://122.9.151.210:887/rtp/238.255.2.33:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-风云剧场
-http://122.9.151.210:887/rtp/238.255.2.28:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-世界地理
-http://122.9.151.210:887/rtp/238.255.2.26:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-兵器科技
-http://122.9.151.210:887/rtp/238.255.2.34:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-女性时尚
-http://122.9.151.210:887/rtp/238.255.2.27:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CCTV-央视台球
-http://122.9.151.210:887/rtp/238.255.2.224:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN英语
-http://122.9.151.210:887/rtp/238.255.2.178:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN英语
-http://122.9.151.210:887/rtp/238.255.2.207:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN英语
-http://122.9.151.210:887/rtp/238.255.2.146:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN西班牙语
-http://122.9.151.210:887/rtp/238.255.2.209:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN法语
-http://122.9.151.210:887/rtp/238.255.2.208:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN法语
-http://122.9.151.210:887/rtp/238.255.2.83:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN阿拉伯语
-http://122.9.151.210:887/rtp/238.255.2.211:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN俄语
-http://122.9.151.210:887/rtp/238.255.2.210:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN纪录
-http://122.9.151.210:887/rtp/238.255.2.172:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CETV早期教育
-http://122.9.151.210:887/rtp/238.255.2.143:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CETV-1综合教育
-http://122.9.151.210:887/rtp/238.255.2.105:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CETV-2空中课堂
-http://122.9.151.210:887/rtp/238.255.2.221:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CETV-4职业教育
-http://122.9.151.210:887/rtp/238.255.2.222:5999
-#EXTINF:-1 group-title="贵州电信-组播2",环球奇观
-http://122.9.151.210:887/rtp/238.255.2.43:5999
-#EXTINF:-1 group-title="贵州电信-组播2",中国交通
-http://122.9.151.210:887/rtp/238.255.2.220:5999
-#EXTINF:-1 group-title="贵州电信-组播2",老故事
-http://122.9.151.210:887/rtp/238.255.2.35:5999
-#EXTINF:-1 group-title="贵州电信-组播2",江苏优漫卡通
-http://122.9.151.210:887/rtp/238.255.2.57:5999
-#EXTINF:-1 group-title="贵州电信-组播2",北京纪实科教
-http://122.9.151.210:887/rtp/238.255.2.107:5999
-#EXTINF:-1 group-title="贵州电信-组播2",北京卡酷少儿
-http://122.9.151.210:887/rtp/238.255.2.106:5999
-#EXTINF:-1 group-title="贵州电信-组播2",北京卡酷少儿
-http://122.9.151.210:887/rtp/238.255.2.80:5999
-#EXTINF:-1 group-title="贵州电信-组播2",江苏财富天下
-http://122.9.151.210:887/rtp/238.255.2.54:5999
-#EXTINF:-1 group-title="贵州电信-组播2",湖南金鹰卡通
-http://122.9.151.210:887/rtp/238.255.2.55:5999
-#EXTINF:-1 group-title="贵州电信-组播2",广东嘉佳卡通
-http://122.9.151.210:887/rtp/238.255.2.62:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵州天元围棋
-http://122.9.151.210:887/rtp/238.255.2.7:5999
-#EXTINF:-1 group-title="贵州电信-组播2",陕西国学频道
-http://122.9.151.210:887/rtp/238.255.2.176:5999
-#EXTINF:-1 group-title="贵州电信-组播2",中视购物
-http://122.9.151.210:887/rtp/238.255.2.44:5999
-#EXTINF:-1 group-title="贵州电信-组播2",家有购物
-http://122.9.151.210:887/rtp/238.255.2.10:5999
-#EXTINF:-1 group-title="贵州电信-组播2",江苏靓妆频道
-http://122.9.151.210:887/rtp/238.255.2.177:5999
-#EXTINF:-1 group-title="贵州电信-组播2",贵阳-1
-http://122.9.151.210:887/rtp/238.255.2.19:5999
-#EXTINF:-1 group-title="贵州电信-组播2",六盘水-1
-http://122.9.151.210:887/rtp/238.255.2.115:5999
-#EXTINF:-1 group-title="贵州电信-组播2",遵义综合频道
-http://122.9.151.210:887/rtp/238.255.2.153:5999
-#EXTINF:-1 group-title="贵州电信-组播2",安顺新闻综合
-http://122.9.151.210:887/rtp/238.255.2.157:5999
-#EXTINF:-1 group-title="贵州电信-组播2",毕节-1
-http://122.9.151.210:887/rtp/238.255.2.131:5999
-#EXTINF:-1 group-title="贵州电信-组播2",铜仁-1
-http://122.9.151.210:887/rtp/238.255.2.31:5999
-#EXTINF:-1 group-title="贵州电信-组播2",黔西南综合频道
-http://122.9.151.210:887/rtp/238.255.2.126:5999
-#EXTINF:-1 group-title="贵州电信-组播2",黔东南综合频道
-http://122.9.151.210:887/rtp/238.255.2.179:5999
-#EXTINF:-1 group-title="贵州电信-组播2",黔南-1
-http://122.9.151.210:887/rtp/238.255.2.150:5999
-#EXTINF:-1 group-title="贵州电信-组播2",CGTN记录
-http://122.9.151.210:887/rtp/238.255.2.49:5999
-#EXTINF:-1 group-title="贵州电信-组播2",中央新影中学生
-http://122.9.151.210:887/rtp/238.255.2.181:5999
-#EXTINF:-1 group-title="贵州电信-组播2",中央新影发现之旅
-http://122.9.151.210:887/rtp/238.255.2.184:5999
-#EXTINF:-1 group-title="贵州电信-组播2",农林卫视
-http://122.9.151.210:887/rtp/238.255.2.120:5999
-#EXTINF:-1 group-title="贵州电信-组播2",凯里TV
-http://122.9.151.210:887/rtp/238.255.2.180:5999
-#EXTINF:-1 group-title="贵州电信-组播2",央视精品
-http://122.9.151.210:887/rtp/238.255.2.32:5999
-#EXTINF:-1 group-title="贵州电信-组播2",思南综合频道
-http://122.9.151.210:887/rtp/238.255.2.218:5999
-#EXTINF:-1 group-title="贵州电信-组播2",桐梓频道
-http://122.9.151.210:887/rtp/238.255.2.162:5999
-#EXTINF:-1 group-title="贵州电信-组播2",汽摩频道
-http://122.9.151.210:887/rtp/238.255.2.148:5999
-#EXTINF:-1 group-title="贵州电信-组播2",瓮安电视台
-http://122.9.151.210:887/rtp/238.255.2.216:5999
-#EXTINF:-1 group-title="贵州电信-组播2",雷山综合频道
-http://122.9.151.210:887/rtp/238.255.2.128:5999
-#EXTINF:-1 group-title="贵州电信-组播2",高网频道
-http://122.9.151.210:887/rtp/238.255.2.223:5999
-#EXTINF:-1 group-title="贵州电信-组播2",黔西-1
-http://122.9.151.210:887/rtp/238.255.2.161:5999
 #EXTINF:-1 group-title="北京电信-组播1",北京卫视
 http://115.171.216.14:4000/rtp/225.1.8.121:8002
 #EXTINF:-1 group-title="北京电信-组播1",北京卫视
@@ -6308,825 +6154,825 @@ http://cloud.sunrisecom.wang:8888/rtp/233.18.204.2:5140
 #EXTINF:-1 group-title="上海电信-组播1",高网频道
 http://cloud.sunrisecom.wang:8888/rtp/233.18.204.181:5140
 #EXTINF:-1 group-title="上海电信-组播2",东方卫视
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.1:5140
-#EXTINF:-1 group-title="上海电信-组播2",东方卫视
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.51:5140
-#EXTINF:-1 group-title="上海电信-组播2",东方卫视4K
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.224:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海教育
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.11:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海教育HD
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.63:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海都市HD
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.53:5140
-#EXTINF:-1 group-title="上海电信-组播2",CCTV-风云足球
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.176:5140
-#EXTINF:-1 group-title="上海电信-组播2",CCTV-风云音乐
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.185:5140
-#EXTINF:-1 group-title="上海电信-组播2",CCTV-第一剧场
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.184:5140
-#EXTINF:-1 group-title="上海电信-组播2",CCTV-怀旧剧场
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.182:5140
-#EXTINF:-1 group-title="上海电信-组播2",CCTV-风云剧场
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.183:5140
-#EXTINF:-1 group-title="上海电信-组播2",CCTV-世界地理
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.179:5140
-#EXTINF:-1 group-title="上海电信-组播2",CCTV-兵器科技
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.178:5140
-#EXTINF:-1 group-title="上海电信-组播2",CCTV-女性时尚
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.180:5140
-#EXTINF:-1 group-title="上海电信-组播2",CCTV-央视台球
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.177:5140
-#EXTINF:-1 group-title="上海电信-组播2",CGTN英语
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.28:5140
-#EXTINF:-1 group-title="上海电信-组播2",CETV早期教育
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.187:5140
-#EXTINF:-1 group-title="上海电信-组播2",CETV-1综合教育
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.98:5140
-#EXTINF:-1 group-title="上海电信-组播2",CETV-1综合教育
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.153:5140
-#EXTINF:-1 group-title="上海电信-组播2",CETV-2空中课堂
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.154:5140
-#EXTINF:-1 group-title="上海电信-组播2",CETV-4职业教育
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.111:5140
-#EXTINF:-1 group-title="上海电信-组播2",CHC家庭影院
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.173:5140
-#EXTINF:-1 group-title="上海电信-组播2",CHC影迷电影
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.175:5140
-#EXTINF:-1 group-title="上海电信-组播2",CHC动作电影
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.174:5140
-#EXTINF:-1 group-title="上海电信-组播2",BesTV
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.161:5140
-#EXTINF:-1 group-title="上海电信-组播2",BesTV
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.162:5140
-#EXTINF:-1 group-title="上海电信-组播2",BesTV
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.163:5140
-#EXTINF:-1 group-title="上海电信-组播2",BesTV
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.164:5140
-#EXTINF:-1 group-title="上海电信-组播2",BesTV
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.165:5140
-#EXTINF:-1 group-title="上海电信-组播2",BesTV
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.166:5140
-#EXTINF:-1 group-title="上海电信-组播2",BesTV
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.167:5140
-#EXTINF:-1 group-title="上海电信-组播2",BesTV Live
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.158:5140
-#EXTINF:-1 group-title="上海电信-组播2",BesTV Live
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.159:5140
-#EXTINF:-1 group-title="上海电信-组播2",BesTV4K动画
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.171:5140
-#EXTINF:-1 group-title="上海电信-组播2",BesTV4K测试
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.201:5140
-#EXTINF:-1 group-title="上海电信-组播2",BesTV4K电影
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.169:5140
-#EXTINF:-1 group-title="上海电信-组播2",BesTV4K记录
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.170:5140
-#EXTINF:-1 group-title="上海电信-组播2",BesTV百视通
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.116:5140
-#EXTINF:-1 group-title="上海电信-组播2",BesTV直播10
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.160:5140
-#EXTINF:-1 group-title="上海电信-组播2",北京卡酷少儿
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.152:5140
-#EXTINF:-1 group-title="上海电信-组播2",北京卡酷少儿
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.109:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海动漫秀场
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.46:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海动漫秀场
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.54:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海游戏风云
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.13:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海游戏风云
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.44:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海乐游
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.47:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海法治天地
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.12:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海法治天地
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.49:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海都市剧场
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.48:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海多彩文体4K
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.205:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海多彩文体4K
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.50:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海多彩文体4K
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.55:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海多彩文体4K
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.115:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海金色学堂
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.14:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海金色学堂
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.66:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海生活时尚
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.45:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海第一财经
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.5:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海第一财经
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.59:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海第一财经
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.65:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海东方影视
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.4:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海哈哈炫动
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.7:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海五星体育
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.6:5140
-#EXTINF:-1 group-title="上海电信-组播2",上海五星体育
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.58:5140
-#EXTINF:-1 group-title="上海电信-组播2",江苏财富天下
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.41:5140
-#EXTINF:-1 group-title="上海电信-组播2",江苏财富天下
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.157:5140
-#EXTINF:-1 group-title="上海电信-组播2",江苏财富天下
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.231:5140
-#EXTINF:-1 group-title="上海电信-组播2",湖北快乐垂钓
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.42:5140
-#EXTINF:-1 group-title="上海电信-组播2",湖南金鹰纪实
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.104:5140
-#EXTINF:-1 group-title="上海电信-组播2",湖南金鹰卡通
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.113:5140
-#EXTINF:-1 group-title="上海电信-组播2",湖南金鹰卡通
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.150:5140
-#EXTINF:-1 group-title="上海电信-组播2",广东嘉佳卡通
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.151:5140
-#EXTINF:-1 group-title="上海电信-组播2",央视精品
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.186:5140
-#EXTINF:-1 group-title="上海电信-组播2",新闻综合
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.57:5140
-#EXTINF:-1 group-title="上海电信-组播2",新闻综合
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.189:5140
-#EXTINF:-1 group-title="上海电信-组播2",未知格式 SD
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.206:5140
-#EXTINF:-1 group-title="上海电信-组播2",未知格式 SD
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.207:5140
-#EXTINF:-1 group-title="上海电信-组播2",电信内部测试
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.202:5140
-#EXTINF:-1 group-title="上海电信-组播2",电信内部测试 SD
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.203:5140
-#EXTINF:-1 group-title="上海电信-组播2",节目中断 SD
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.208:5140
-#EXTINF:-1 group-title="上海电信-组播2",节目中断 SD
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.216:5140
-#EXTINF:-1 group-title="上海电信-组播2",都市频道
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.2:5140
-#EXTINF:-1 group-title="上海电信-组播2",高网频道
-http://www.wqcjoy.xyz:8188/rtp/233.18.204.181:5140
-#EXTINF:-1 group-title="上海电信-组播3",东方卫视
 http://180.165.29.171:4022/rtp/233.18.204.1:5140
-#EXTINF:-1 group-title="上海电信-组播3",东方卫视
+#EXTINF:-1 group-title="上海电信-组播2",东方卫视
 http://180.165.29.171:4022/rtp/233.18.204.51:5140
-#EXTINF:-1 group-title="上海电信-组播3",东方卫视4K
+#EXTINF:-1 group-title="上海电信-组播2",东方卫视4K
 http://180.165.29.171:4022/rtp/233.18.204.224:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海教育
+#EXTINF:-1 group-title="上海电信-组播2",上海教育
 http://180.165.29.171:4022/rtp/233.18.204.11:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海教育HD
+#EXTINF:-1 group-title="上海电信-组播2",上海教育HD
 http://180.165.29.171:4022/rtp/233.18.204.63:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海都市HD
+#EXTINF:-1 group-title="上海电信-组播2",上海都市HD
 http://180.165.29.171:4022/rtp/233.18.204.53:5140
-#EXTINF:-1 group-title="上海电信-组播3",CCTV-风云足球
+#EXTINF:-1 group-title="上海电信-组播2",CCTV-风云足球
 http://180.165.29.171:4022/rtp/233.18.204.176:5140
-#EXTINF:-1 group-title="上海电信-组播3",CCTV-风云音乐
+#EXTINF:-1 group-title="上海电信-组播2",CCTV-风云音乐
 http://180.165.29.171:4022/rtp/233.18.204.185:5140
-#EXTINF:-1 group-title="上海电信-组播3",CCTV-第一剧场
+#EXTINF:-1 group-title="上海电信-组播2",CCTV-第一剧场
 http://180.165.29.171:4022/rtp/233.18.204.184:5140
-#EXTINF:-1 group-title="上海电信-组播3",CCTV-怀旧剧场
+#EXTINF:-1 group-title="上海电信-组播2",CCTV-怀旧剧场
 http://180.165.29.171:4022/rtp/233.18.204.182:5140
-#EXTINF:-1 group-title="上海电信-组播3",CCTV-风云剧场
+#EXTINF:-1 group-title="上海电信-组播2",CCTV-风云剧场
 http://180.165.29.171:4022/rtp/233.18.204.183:5140
-#EXTINF:-1 group-title="上海电信-组播3",CCTV-世界地理
+#EXTINF:-1 group-title="上海电信-组播2",CCTV-世界地理
 http://180.165.29.171:4022/rtp/233.18.204.179:5140
-#EXTINF:-1 group-title="上海电信-组播3",CCTV-兵器科技
+#EXTINF:-1 group-title="上海电信-组播2",CCTV-兵器科技
 http://180.165.29.171:4022/rtp/233.18.204.178:5140
-#EXTINF:-1 group-title="上海电信-组播3",CCTV-女性时尚
+#EXTINF:-1 group-title="上海电信-组播2",CCTV-女性时尚
 http://180.165.29.171:4022/rtp/233.18.204.180:5140
-#EXTINF:-1 group-title="上海电信-组播3",CCTV-央视台球
+#EXTINF:-1 group-title="上海电信-组播2",CCTV-央视台球
 http://180.165.29.171:4022/rtp/233.18.204.177:5140
-#EXTINF:-1 group-title="上海电信-组播3",CGTN英语
+#EXTINF:-1 group-title="上海电信-组播2",CGTN英语
 http://180.165.29.171:4022/rtp/233.18.204.28:5140
-#EXTINF:-1 group-title="上海电信-组播3",CETV早期教育
+#EXTINF:-1 group-title="上海电信-组播2",CETV早期教育
 http://180.165.29.171:4022/rtp/233.18.204.187:5140
-#EXTINF:-1 group-title="上海电信-组播3",CETV-1综合教育
+#EXTINF:-1 group-title="上海电信-组播2",CETV-1综合教育
 http://180.165.29.171:4022/rtp/233.18.204.98:5140
-#EXTINF:-1 group-title="上海电信-组播3",CETV-1综合教育
+#EXTINF:-1 group-title="上海电信-组播2",CETV-1综合教育
 http://180.165.29.171:4022/rtp/233.18.204.153:5140
-#EXTINF:-1 group-title="上海电信-组播3",CETV-2空中课堂
+#EXTINF:-1 group-title="上海电信-组播2",CETV-2空中课堂
 http://180.165.29.171:4022/rtp/233.18.204.154:5140
-#EXTINF:-1 group-title="上海电信-组播3",CETV-4职业教育
+#EXTINF:-1 group-title="上海电信-组播2",CETV-4职业教育
 http://180.165.29.171:4022/rtp/233.18.204.111:5140
-#EXTINF:-1 group-title="上海电信-组播3",CHC家庭影院
+#EXTINF:-1 group-title="上海电信-组播2",CHC家庭影院
 http://180.165.29.171:4022/rtp/233.18.204.173:5140
-#EXTINF:-1 group-title="上海电信-组播3",CHC影迷电影
+#EXTINF:-1 group-title="上海电信-组播2",CHC影迷电影
 http://180.165.29.171:4022/rtp/233.18.204.175:5140
-#EXTINF:-1 group-title="上海电信-组播3",CHC动作电影
+#EXTINF:-1 group-title="上海电信-组播2",CHC动作电影
 http://180.165.29.171:4022/rtp/233.18.204.174:5140
-#EXTINF:-1 group-title="上海电信-组播3",BesTV
+#EXTINF:-1 group-title="上海电信-组播2",BesTV
 http://180.165.29.171:4022/rtp/233.18.204.161:5140
-#EXTINF:-1 group-title="上海电信-组播3",BesTV
+#EXTINF:-1 group-title="上海电信-组播2",BesTV
 http://180.165.29.171:4022/rtp/233.18.204.162:5140
-#EXTINF:-1 group-title="上海电信-组播3",BesTV
+#EXTINF:-1 group-title="上海电信-组播2",BesTV
 http://180.165.29.171:4022/rtp/233.18.204.163:5140
-#EXTINF:-1 group-title="上海电信-组播3",BesTV
+#EXTINF:-1 group-title="上海电信-组播2",BesTV
 http://180.165.29.171:4022/rtp/233.18.204.164:5140
-#EXTINF:-1 group-title="上海电信-组播3",BesTV
+#EXTINF:-1 group-title="上海电信-组播2",BesTV
 http://180.165.29.171:4022/rtp/233.18.204.165:5140
-#EXTINF:-1 group-title="上海电信-组播3",BesTV
+#EXTINF:-1 group-title="上海电信-组播2",BesTV
 http://180.165.29.171:4022/rtp/233.18.204.166:5140
-#EXTINF:-1 group-title="上海电信-组播3",BesTV
+#EXTINF:-1 group-title="上海电信-组播2",BesTV
 http://180.165.29.171:4022/rtp/233.18.204.167:5140
-#EXTINF:-1 group-title="上海电信-组播3",BesTV Live
+#EXTINF:-1 group-title="上海电信-组播2",BesTV Live
 http://180.165.29.171:4022/rtp/233.18.204.158:5140
-#EXTINF:-1 group-title="上海电信-组播3",BesTV Live
+#EXTINF:-1 group-title="上海电信-组播2",BesTV Live
 http://180.165.29.171:4022/rtp/233.18.204.159:5140
-#EXTINF:-1 group-title="上海电信-组播3",BesTV4K动画
+#EXTINF:-1 group-title="上海电信-组播2",BesTV4K动画
 http://180.165.29.171:4022/rtp/233.18.204.171:5140
-#EXTINF:-1 group-title="上海电信-组播3",BesTV4K测试
+#EXTINF:-1 group-title="上海电信-组播2",BesTV4K测试
 http://180.165.29.171:4022/rtp/233.18.204.201:5140
-#EXTINF:-1 group-title="上海电信-组播3",BesTV4K电影
+#EXTINF:-1 group-title="上海电信-组播2",BesTV4K电影
 http://180.165.29.171:4022/rtp/233.18.204.169:5140
-#EXTINF:-1 group-title="上海电信-组播3",BesTV4K记录
+#EXTINF:-1 group-title="上海电信-组播2",BesTV4K记录
 http://180.165.29.171:4022/rtp/233.18.204.170:5140
-#EXTINF:-1 group-title="上海电信-组播3",BesTV百视通
+#EXTINF:-1 group-title="上海电信-组播2",BesTV百视通
 http://180.165.29.171:4022/rtp/233.18.204.116:5140
-#EXTINF:-1 group-title="上海电信-组播3",BesTV直播10
+#EXTINF:-1 group-title="上海电信-组播2",BesTV直播10
 http://180.165.29.171:4022/rtp/233.18.204.160:5140
-#EXTINF:-1 group-title="上海电信-组播3",北京卡酷少儿
+#EXTINF:-1 group-title="上海电信-组播2",北京卡酷少儿
 http://180.165.29.171:4022/rtp/233.18.204.152:5140
-#EXTINF:-1 group-title="上海电信-组播3",北京卡酷少儿
+#EXTINF:-1 group-title="上海电信-组播2",北京卡酷少儿
 http://180.165.29.171:4022/rtp/233.18.204.109:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海动漫秀场
+#EXTINF:-1 group-title="上海电信-组播2",上海动漫秀场
 http://180.165.29.171:4022/rtp/233.18.204.46:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海动漫秀场
+#EXTINF:-1 group-title="上海电信-组播2",上海动漫秀场
 http://180.165.29.171:4022/rtp/233.18.204.54:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海游戏风云
+#EXTINF:-1 group-title="上海电信-组播2",上海游戏风云
 http://180.165.29.171:4022/rtp/233.18.204.13:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海游戏风云
+#EXTINF:-1 group-title="上海电信-组播2",上海游戏风云
 http://180.165.29.171:4022/rtp/233.18.204.44:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海乐游
+#EXTINF:-1 group-title="上海电信-组播2",上海乐游
 http://180.165.29.171:4022/rtp/233.18.204.47:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海法治天地
+#EXTINF:-1 group-title="上海电信-组播2",上海法治天地
 http://180.165.29.171:4022/rtp/233.18.204.12:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海法治天地
+#EXTINF:-1 group-title="上海电信-组播2",上海法治天地
 http://180.165.29.171:4022/rtp/233.18.204.49:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海都市剧场
+#EXTINF:-1 group-title="上海电信-组播2",上海都市剧场
 http://180.165.29.171:4022/rtp/233.18.204.48:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海多彩文体4K
+#EXTINF:-1 group-title="上海电信-组播2",上海多彩文体4K
 http://180.165.29.171:4022/rtp/233.18.204.205:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海多彩文体4K
+#EXTINF:-1 group-title="上海电信-组播2",上海多彩文体4K
 http://180.165.29.171:4022/rtp/233.18.204.50:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海多彩文体4K
+#EXTINF:-1 group-title="上海电信-组播2",上海多彩文体4K
 http://180.165.29.171:4022/rtp/233.18.204.55:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海多彩文体4K
+#EXTINF:-1 group-title="上海电信-组播2",上海多彩文体4K
 http://180.165.29.171:4022/rtp/233.18.204.115:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海金色学堂
+#EXTINF:-1 group-title="上海电信-组播2",上海金色学堂
 http://180.165.29.171:4022/rtp/233.18.204.14:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海金色学堂
+#EXTINF:-1 group-title="上海电信-组播2",上海金色学堂
 http://180.165.29.171:4022/rtp/233.18.204.66:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海生活时尚
+#EXTINF:-1 group-title="上海电信-组播2",上海生活时尚
 http://180.165.29.171:4022/rtp/233.18.204.45:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海第一财经
+#EXTINF:-1 group-title="上海电信-组播2",上海第一财经
 http://180.165.29.171:4022/rtp/233.18.204.5:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海第一财经
+#EXTINF:-1 group-title="上海电信-组播2",上海第一财经
 http://180.165.29.171:4022/rtp/233.18.204.59:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海第一财经
+#EXTINF:-1 group-title="上海电信-组播2",上海第一财经
 http://180.165.29.171:4022/rtp/233.18.204.65:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海东方影视
+#EXTINF:-1 group-title="上海电信-组播2",上海东方影视
 http://180.165.29.171:4022/rtp/233.18.204.4:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海哈哈炫动
+#EXTINF:-1 group-title="上海电信-组播2",上海哈哈炫动
 http://180.165.29.171:4022/rtp/233.18.204.7:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海五星体育
+#EXTINF:-1 group-title="上海电信-组播2",上海五星体育
 http://180.165.29.171:4022/rtp/233.18.204.6:5140
-#EXTINF:-1 group-title="上海电信-组播3",上海五星体育
+#EXTINF:-1 group-title="上海电信-组播2",上海五星体育
 http://180.165.29.171:4022/rtp/233.18.204.58:5140
-#EXTINF:-1 group-title="上海电信-组播3",江苏财富天下
+#EXTINF:-1 group-title="上海电信-组播2",江苏财富天下
 http://180.165.29.171:4022/rtp/233.18.204.41:5140
-#EXTINF:-1 group-title="上海电信-组播3",江苏财富天下
+#EXTINF:-1 group-title="上海电信-组播2",江苏财富天下
 http://180.165.29.171:4022/rtp/233.18.204.157:5140
-#EXTINF:-1 group-title="上海电信-组播3",江苏财富天下
+#EXTINF:-1 group-title="上海电信-组播2",江苏财富天下
 http://180.165.29.171:4022/rtp/233.18.204.231:5140
-#EXTINF:-1 group-title="上海电信-组播3",湖北快乐垂钓
+#EXTINF:-1 group-title="上海电信-组播2",湖北快乐垂钓
 http://180.165.29.171:4022/rtp/233.18.204.42:5140
-#EXTINF:-1 group-title="上海电信-组播3",湖南金鹰纪实
+#EXTINF:-1 group-title="上海电信-组播2",湖南金鹰纪实
 http://180.165.29.171:4022/rtp/233.18.204.104:5140
-#EXTINF:-1 group-title="上海电信-组播3",湖南金鹰卡通
+#EXTINF:-1 group-title="上海电信-组播2",湖南金鹰卡通
 http://180.165.29.171:4022/rtp/233.18.204.113:5140
-#EXTINF:-1 group-title="上海电信-组播3",湖南金鹰卡通
+#EXTINF:-1 group-title="上海电信-组播2",湖南金鹰卡通
 http://180.165.29.171:4022/rtp/233.18.204.150:5140
-#EXTINF:-1 group-title="上海电信-组播3",广东嘉佳卡通
+#EXTINF:-1 group-title="上海电信-组播2",广东嘉佳卡通
 http://180.165.29.171:4022/rtp/233.18.204.151:5140
-#EXTINF:-1 group-title="上海电信-组播3",央视精品
+#EXTINF:-1 group-title="上海电信-组播2",央视精品
 http://180.165.29.171:4022/rtp/233.18.204.186:5140
-#EXTINF:-1 group-title="上海电信-组播3",新闻综合
+#EXTINF:-1 group-title="上海电信-组播2",新闻综合
 http://180.165.29.171:4022/rtp/233.18.204.57:5140
-#EXTINF:-1 group-title="上海电信-组播3",新闻综合
+#EXTINF:-1 group-title="上海电信-组播2",新闻综合
 http://180.165.29.171:4022/rtp/233.18.204.189:5140
-#EXTINF:-1 group-title="上海电信-组播3",未知格式 SD
+#EXTINF:-1 group-title="上海电信-组播2",未知格式 SD
 http://180.165.29.171:4022/rtp/233.18.204.206:5140
-#EXTINF:-1 group-title="上海电信-组播3",未知格式 SD
+#EXTINF:-1 group-title="上海电信-组播2",未知格式 SD
 http://180.165.29.171:4022/rtp/233.18.204.207:5140
-#EXTINF:-1 group-title="上海电信-组播3",电信内部测试
+#EXTINF:-1 group-title="上海电信-组播2",电信内部测试
 http://180.165.29.171:4022/rtp/233.18.204.202:5140
-#EXTINF:-1 group-title="上海电信-组播3",电信内部测试 SD
+#EXTINF:-1 group-title="上海电信-组播2",电信内部测试 SD
 http://180.165.29.171:4022/rtp/233.18.204.203:5140
-#EXTINF:-1 group-title="上海电信-组播3",节目中断 SD
+#EXTINF:-1 group-title="上海电信-组播2",节目中断 SD
 http://180.165.29.171:4022/rtp/233.18.204.208:5140
-#EXTINF:-1 group-title="上海电信-组播3",节目中断 SD
+#EXTINF:-1 group-title="上海电信-组播2",节目中断 SD
 http://180.165.29.171:4022/rtp/233.18.204.216:5140
-#EXTINF:-1 group-title="上海电信-组播3",都市频道
+#EXTINF:-1 group-title="上海电信-组播2",都市频道
 http://180.165.29.171:4022/rtp/233.18.204.2:5140
-#EXTINF:-1 group-title="上海电信-组播3",高网频道
+#EXTINF:-1 group-title="上海电信-组播2",高网频道
 http://180.165.29.171:4022/rtp/233.18.204.181:5140
-#EXTINF:-1 group-title="上海电信-组播4",东方卫视
+#EXTINF:-1 group-title="上海电信-组播3",东方卫视
 http://223.167.230.155:4022/rtp/233.18.204.1:5140
-#EXTINF:-1 group-title="上海电信-组播4",东方卫视
+#EXTINF:-1 group-title="上海电信-组播3",东方卫视
 http://223.167.230.155:4022/rtp/233.18.204.51:5140
-#EXTINF:-1 group-title="上海电信-组播4",东方卫视4K
+#EXTINF:-1 group-title="上海电信-组播3",东方卫视4K
 http://223.167.230.155:4022/rtp/233.18.204.224:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海教育
+#EXTINF:-1 group-title="上海电信-组播3",上海教育
 http://223.167.230.155:4022/rtp/233.18.204.11:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海教育HD
+#EXTINF:-1 group-title="上海电信-组播3",上海教育HD
 http://223.167.230.155:4022/rtp/233.18.204.63:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海都市HD
+#EXTINF:-1 group-title="上海电信-组播3",上海都市HD
 http://223.167.230.155:4022/rtp/233.18.204.53:5140
-#EXTINF:-1 group-title="上海电信-组播4",CCTV-风云足球
+#EXTINF:-1 group-title="上海电信-组播3",CCTV-风云足球
 http://223.167.230.155:4022/rtp/233.18.204.176:5140
-#EXTINF:-1 group-title="上海电信-组播4",CCTV-风云音乐
+#EXTINF:-1 group-title="上海电信-组播3",CCTV-风云音乐
 http://223.167.230.155:4022/rtp/233.18.204.185:5140
-#EXTINF:-1 group-title="上海电信-组播4",CCTV-第一剧场
+#EXTINF:-1 group-title="上海电信-组播3",CCTV-第一剧场
 http://223.167.230.155:4022/rtp/233.18.204.184:5140
-#EXTINF:-1 group-title="上海电信-组播4",CCTV-怀旧剧场
+#EXTINF:-1 group-title="上海电信-组播3",CCTV-怀旧剧场
 http://223.167.230.155:4022/rtp/233.18.204.182:5140
-#EXTINF:-1 group-title="上海电信-组播4",CCTV-风云剧场
+#EXTINF:-1 group-title="上海电信-组播3",CCTV-风云剧场
 http://223.167.230.155:4022/rtp/233.18.204.183:5140
-#EXTINF:-1 group-title="上海电信-组播4",CCTV-世界地理
+#EXTINF:-1 group-title="上海电信-组播3",CCTV-世界地理
 http://223.167.230.155:4022/rtp/233.18.204.179:5140
-#EXTINF:-1 group-title="上海电信-组播4",CCTV-兵器科技
+#EXTINF:-1 group-title="上海电信-组播3",CCTV-兵器科技
 http://223.167.230.155:4022/rtp/233.18.204.178:5140
-#EXTINF:-1 group-title="上海电信-组播4",CCTV-女性时尚
+#EXTINF:-1 group-title="上海电信-组播3",CCTV-女性时尚
 http://223.167.230.155:4022/rtp/233.18.204.180:5140
-#EXTINF:-1 group-title="上海电信-组播4",CCTV-央视台球
+#EXTINF:-1 group-title="上海电信-组播3",CCTV-央视台球
 http://223.167.230.155:4022/rtp/233.18.204.177:5140
-#EXTINF:-1 group-title="上海电信-组播4",CGTN英语
+#EXTINF:-1 group-title="上海电信-组播3",CGTN英语
 http://223.167.230.155:4022/rtp/233.18.204.28:5140
-#EXTINF:-1 group-title="上海电信-组播4",CETV早期教育
+#EXTINF:-1 group-title="上海电信-组播3",CETV早期教育
 http://223.167.230.155:4022/rtp/233.18.204.187:5140
-#EXTINF:-1 group-title="上海电信-组播4",CETV-1综合教育
+#EXTINF:-1 group-title="上海电信-组播3",CETV-1综合教育
 http://223.167.230.155:4022/rtp/233.18.204.98:5140
-#EXTINF:-1 group-title="上海电信-组播4",CETV-1综合教育
+#EXTINF:-1 group-title="上海电信-组播3",CETV-1综合教育
 http://223.167.230.155:4022/rtp/233.18.204.153:5140
-#EXTINF:-1 group-title="上海电信-组播4",CETV-2空中课堂
+#EXTINF:-1 group-title="上海电信-组播3",CETV-2空中课堂
 http://223.167.230.155:4022/rtp/233.18.204.154:5140
-#EXTINF:-1 group-title="上海电信-组播4",CETV-4职业教育
+#EXTINF:-1 group-title="上海电信-组播3",CETV-4职业教育
 http://223.167.230.155:4022/rtp/233.18.204.111:5140
-#EXTINF:-1 group-title="上海电信-组播4",CHC家庭影院
+#EXTINF:-1 group-title="上海电信-组播3",CHC家庭影院
 http://223.167.230.155:4022/rtp/233.18.204.173:5140
-#EXTINF:-1 group-title="上海电信-组播4",CHC影迷电影
+#EXTINF:-1 group-title="上海电信-组播3",CHC影迷电影
 http://223.167.230.155:4022/rtp/233.18.204.175:5140
-#EXTINF:-1 group-title="上海电信-组播4",CHC动作电影
+#EXTINF:-1 group-title="上海电信-组播3",CHC动作电影
 http://223.167.230.155:4022/rtp/233.18.204.174:5140
-#EXTINF:-1 group-title="上海电信-组播4",BesTV
+#EXTINF:-1 group-title="上海电信-组播3",BesTV
 http://223.167.230.155:4022/rtp/233.18.204.161:5140
-#EXTINF:-1 group-title="上海电信-组播4",BesTV
+#EXTINF:-1 group-title="上海电信-组播3",BesTV
 http://223.167.230.155:4022/rtp/233.18.204.162:5140
-#EXTINF:-1 group-title="上海电信-组播4",BesTV
+#EXTINF:-1 group-title="上海电信-组播3",BesTV
 http://223.167.230.155:4022/rtp/233.18.204.163:5140
-#EXTINF:-1 group-title="上海电信-组播4",BesTV
+#EXTINF:-1 group-title="上海电信-组播3",BesTV
 http://223.167.230.155:4022/rtp/233.18.204.164:5140
-#EXTINF:-1 group-title="上海电信-组播4",BesTV
+#EXTINF:-1 group-title="上海电信-组播3",BesTV
 http://223.167.230.155:4022/rtp/233.18.204.165:5140
-#EXTINF:-1 group-title="上海电信-组播4",BesTV
+#EXTINF:-1 group-title="上海电信-组播3",BesTV
 http://223.167.230.155:4022/rtp/233.18.204.166:5140
-#EXTINF:-1 group-title="上海电信-组播4",BesTV
+#EXTINF:-1 group-title="上海电信-组播3",BesTV
 http://223.167.230.155:4022/rtp/233.18.204.167:5140
-#EXTINF:-1 group-title="上海电信-组播4",BesTV Live
+#EXTINF:-1 group-title="上海电信-组播3",BesTV Live
 http://223.167.230.155:4022/rtp/233.18.204.158:5140
-#EXTINF:-1 group-title="上海电信-组播4",BesTV Live
+#EXTINF:-1 group-title="上海电信-组播3",BesTV Live
 http://223.167.230.155:4022/rtp/233.18.204.159:5140
-#EXTINF:-1 group-title="上海电信-组播4",BesTV4K动画
+#EXTINF:-1 group-title="上海电信-组播3",BesTV4K动画
 http://223.167.230.155:4022/rtp/233.18.204.171:5140
-#EXTINF:-1 group-title="上海电信-组播4",BesTV4K测试
+#EXTINF:-1 group-title="上海电信-组播3",BesTV4K测试
 http://223.167.230.155:4022/rtp/233.18.204.201:5140
-#EXTINF:-1 group-title="上海电信-组播4",BesTV4K电影
+#EXTINF:-1 group-title="上海电信-组播3",BesTV4K电影
 http://223.167.230.155:4022/rtp/233.18.204.169:5140
-#EXTINF:-1 group-title="上海电信-组播4",BesTV4K记录
+#EXTINF:-1 group-title="上海电信-组播3",BesTV4K记录
 http://223.167.230.155:4022/rtp/233.18.204.170:5140
-#EXTINF:-1 group-title="上海电信-组播4",BesTV百视通
+#EXTINF:-1 group-title="上海电信-组播3",BesTV百视通
 http://223.167.230.155:4022/rtp/233.18.204.116:5140
-#EXTINF:-1 group-title="上海电信-组播4",BesTV直播10
+#EXTINF:-1 group-title="上海电信-组播3",BesTV直播10
 http://223.167.230.155:4022/rtp/233.18.204.160:5140
-#EXTINF:-1 group-title="上海电信-组播4",北京卡酷少儿
+#EXTINF:-1 group-title="上海电信-组播3",北京卡酷少儿
 http://223.167.230.155:4022/rtp/233.18.204.152:5140
-#EXTINF:-1 group-title="上海电信-组播4",北京卡酷少儿
+#EXTINF:-1 group-title="上海电信-组播3",北京卡酷少儿
 http://223.167.230.155:4022/rtp/233.18.204.109:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海动漫秀场
+#EXTINF:-1 group-title="上海电信-组播3",上海动漫秀场
 http://223.167.230.155:4022/rtp/233.18.204.46:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海动漫秀场
+#EXTINF:-1 group-title="上海电信-组播3",上海动漫秀场
 http://223.167.230.155:4022/rtp/233.18.204.54:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海游戏风云
+#EXTINF:-1 group-title="上海电信-组播3",上海游戏风云
 http://223.167.230.155:4022/rtp/233.18.204.13:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海游戏风云
+#EXTINF:-1 group-title="上海电信-组播3",上海游戏风云
 http://223.167.230.155:4022/rtp/233.18.204.44:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海乐游
+#EXTINF:-1 group-title="上海电信-组播3",上海乐游
 http://223.167.230.155:4022/rtp/233.18.204.47:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海法治天地
+#EXTINF:-1 group-title="上海电信-组播3",上海法治天地
 http://223.167.230.155:4022/rtp/233.18.204.12:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海法治天地
+#EXTINF:-1 group-title="上海电信-组播3",上海法治天地
 http://223.167.230.155:4022/rtp/233.18.204.49:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海都市剧场
+#EXTINF:-1 group-title="上海电信-组播3",上海都市剧场
 http://223.167.230.155:4022/rtp/233.18.204.48:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海多彩文体4K
+#EXTINF:-1 group-title="上海电信-组播3",上海多彩文体4K
 http://223.167.230.155:4022/rtp/233.18.204.205:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海多彩文体4K
+#EXTINF:-1 group-title="上海电信-组播3",上海多彩文体4K
 http://223.167.230.155:4022/rtp/233.18.204.50:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海多彩文体4K
+#EXTINF:-1 group-title="上海电信-组播3",上海多彩文体4K
 http://223.167.230.155:4022/rtp/233.18.204.55:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海多彩文体4K
+#EXTINF:-1 group-title="上海电信-组播3",上海多彩文体4K
 http://223.167.230.155:4022/rtp/233.18.204.115:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海金色学堂
+#EXTINF:-1 group-title="上海电信-组播3",上海金色学堂
 http://223.167.230.155:4022/rtp/233.18.204.14:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海金色学堂
+#EXTINF:-1 group-title="上海电信-组播3",上海金色学堂
 http://223.167.230.155:4022/rtp/233.18.204.66:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海生活时尚
+#EXTINF:-1 group-title="上海电信-组播3",上海生活时尚
 http://223.167.230.155:4022/rtp/233.18.204.45:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海第一财经
+#EXTINF:-1 group-title="上海电信-组播3",上海第一财经
 http://223.167.230.155:4022/rtp/233.18.204.5:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海第一财经
+#EXTINF:-1 group-title="上海电信-组播3",上海第一财经
 http://223.167.230.155:4022/rtp/233.18.204.59:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海第一财经
+#EXTINF:-1 group-title="上海电信-组播3",上海第一财经
 http://223.167.230.155:4022/rtp/233.18.204.65:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海东方影视
+#EXTINF:-1 group-title="上海电信-组播3",上海东方影视
 http://223.167.230.155:4022/rtp/233.18.204.4:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海哈哈炫动
+#EXTINF:-1 group-title="上海电信-组播3",上海哈哈炫动
 http://223.167.230.155:4022/rtp/233.18.204.7:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海五星体育
+#EXTINF:-1 group-title="上海电信-组播3",上海五星体育
 http://223.167.230.155:4022/rtp/233.18.204.6:5140
-#EXTINF:-1 group-title="上海电信-组播4",上海五星体育
+#EXTINF:-1 group-title="上海电信-组播3",上海五星体育
 http://223.167.230.155:4022/rtp/233.18.204.58:5140
-#EXTINF:-1 group-title="上海电信-组播4",江苏财富天下
+#EXTINF:-1 group-title="上海电信-组播3",江苏财富天下
 http://223.167.230.155:4022/rtp/233.18.204.41:5140
-#EXTINF:-1 group-title="上海电信-组播4",江苏财富天下
+#EXTINF:-1 group-title="上海电信-组播3",江苏财富天下
 http://223.167.230.155:4022/rtp/233.18.204.157:5140
-#EXTINF:-1 group-title="上海电信-组播4",江苏财富天下
+#EXTINF:-1 group-title="上海电信-组播3",江苏财富天下
 http://223.167.230.155:4022/rtp/233.18.204.231:5140
-#EXTINF:-1 group-title="上海电信-组播4",湖北快乐垂钓
+#EXTINF:-1 group-title="上海电信-组播3",湖北快乐垂钓
 http://223.167.230.155:4022/rtp/233.18.204.42:5140
-#EXTINF:-1 group-title="上海电信-组播4",湖南金鹰纪实
+#EXTINF:-1 group-title="上海电信-组播3",湖南金鹰纪实
 http://223.167.230.155:4022/rtp/233.18.204.104:5140
-#EXTINF:-1 group-title="上海电信-组播4",湖南金鹰卡通
+#EXTINF:-1 group-title="上海电信-组播3",湖南金鹰卡通
 http://223.167.230.155:4022/rtp/233.18.204.113:5140
-#EXTINF:-1 group-title="上海电信-组播4",湖南金鹰卡通
+#EXTINF:-1 group-title="上海电信-组播3",湖南金鹰卡通
 http://223.167.230.155:4022/rtp/233.18.204.150:5140
-#EXTINF:-1 group-title="上海电信-组播4",广东嘉佳卡通
+#EXTINF:-1 group-title="上海电信-组播3",广东嘉佳卡通
 http://223.167.230.155:4022/rtp/233.18.204.151:5140
-#EXTINF:-1 group-title="上海电信-组播4",央视精品
+#EXTINF:-1 group-title="上海电信-组播3",央视精品
 http://223.167.230.155:4022/rtp/233.18.204.186:5140
-#EXTINF:-1 group-title="上海电信-组播4",新闻综合
+#EXTINF:-1 group-title="上海电信-组播3",新闻综合
 http://223.167.230.155:4022/rtp/233.18.204.57:5140
-#EXTINF:-1 group-title="上海电信-组播4",新闻综合
+#EXTINF:-1 group-title="上海电信-组播3",新闻综合
 http://223.167.230.155:4022/rtp/233.18.204.189:5140
-#EXTINF:-1 group-title="上海电信-组播4",未知格式 SD
+#EXTINF:-1 group-title="上海电信-组播3",未知格式 SD
 http://223.167.230.155:4022/rtp/233.18.204.206:5140
-#EXTINF:-1 group-title="上海电信-组播4",未知格式 SD
+#EXTINF:-1 group-title="上海电信-组播3",未知格式 SD
 http://223.167.230.155:4022/rtp/233.18.204.207:5140
-#EXTINF:-1 group-title="上海电信-组播4",电信内部测试
+#EXTINF:-1 group-title="上海电信-组播3",电信内部测试
 http://223.167.230.155:4022/rtp/233.18.204.202:5140
-#EXTINF:-1 group-title="上海电信-组播4",电信内部测试 SD
+#EXTINF:-1 group-title="上海电信-组播3",电信内部测试 SD
 http://223.167.230.155:4022/rtp/233.18.204.203:5140
-#EXTINF:-1 group-title="上海电信-组播4",节目中断 SD
+#EXTINF:-1 group-title="上海电信-组播3",节目中断 SD
 http://223.167.230.155:4022/rtp/233.18.204.208:5140
-#EXTINF:-1 group-title="上海电信-组播4",节目中断 SD
+#EXTINF:-1 group-title="上海电信-组播3",节目中断 SD
 http://223.167.230.155:4022/rtp/233.18.204.216:5140
-#EXTINF:-1 group-title="上海电信-组播4",都市频道
+#EXTINF:-1 group-title="上海电信-组播3",都市频道
 http://223.167.230.155:4022/rtp/233.18.204.2:5140
-#EXTINF:-1 group-title="上海电信-组播4",高网频道
+#EXTINF:-1 group-title="上海电信-组播3",高网频道
 http://223.167.230.155:4022/rtp/233.18.204.181:5140
-#EXTINF:-1 group-title="上海电信-组播5",东方卫视
+#EXTINF:-1 group-title="上海电信-组播4",东方卫视
 http://180.165.2.141:4022/rtp/233.18.204.1:5140
-#EXTINF:-1 group-title="上海电信-组播5",东方卫视
+#EXTINF:-1 group-title="上海电信-组播4",东方卫视
 http://180.165.2.141:4022/rtp/233.18.204.51:5140
-#EXTINF:-1 group-title="上海电信-组播5",东方卫视4K
+#EXTINF:-1 group-title="上海电信-组播4",东方卫视4K
 http://180.165.2.141:4022/rtp/233.18.204.224:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海教育
+#EXTINF:-1 group-title="上海电信-组播4",上海教育
 http://180.165.2.141:4022/rtp/233.18.204.11:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海教育HD
+#EXTINF:-1 group-title="上海电信-组播4",上海教育HD
 http://180.165.2.141:4022/rtp/233.18.204.63:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海都市HD
+#EXTINF:-1 group-title="上海电信-组播4",上海都市HD
 http://180.165.2.141:4022/rtp/233.18.204.53:5140
-#EXTINF:-1 group-title="上海电信-组播5",CCTV-风云足球
+#EXTINF:-1 group-title="上海电信-组播4",CCTV-风云足球
 http://180.165.2.141:4022/rtp/233.18.204.176:5140
-#EXTINF:-1 group-title="上海电信-组播5",CCTV-风云音乐
+#EXTINF:-1 group-title="上海电信-组播4",CCTV-风云音乐
 http://180.165.2.141:4022/rtp/233.18.204.185:5140
-#EXTINF:-1 group-title="上海电信-组播5",CCTV-第一剧场
+#EXTINF:-1 group-title="上海电信-组播4",CCTV-第一剧场
 http://180.165.2.141:4022/rtp/233.18.204.184:5140
-#EXTINF:-1 group-title="上海电信-组播5",CCTV-怀旧剧场
+#EXTINF:-1 group-title="上海电信-组播4",CCTV-怀旧剧场
 http://180.165.2.141:4022/rtp/233.18.204.182:5140
-#EXTINF:-1 group-title="上海电信-组播5",CCTV-风云剧场
+#EXTINF:-1 group-title="上海电信-组播4",CCTV-风云剧场
 http://180.165.2.141:4022/rtp/233.18.204.183:5140
-#EXTINF:-1 group-title="上海电信-组播5",CCTV-世界地理
+#EXTINF:-1 group-title="上海电信-组播4",CCTV-世界地理
 http://180.165.2.141:4022/rtp/233.18.204.179:5140
-#EXTINF:-1 group-title="上海电信-组播5",CCTV-兵器科技
+#EXTINF:-1 group-title="上海电信-组播4",CCTV-兵器科技
 http://180.165.2.141:4022/rtp/233.18.204.178:5140
-#EXTINF:-1 group-title="上海电信-组播5",CCTV-女性时尚
+#EXTINF:-1 group-title="上海电信-组播4",CCTV-女性时尚
 http://180.165.2.141:4022/rtp/233.18.204.180:5140
-#EXTINF:-1 group-title="上海电信-组播5",CCTV-央视台球
+#EXTINF:-1 group-title="上海电信-组播4",CCTV-央视台球
 http://180.165.2.141:4022/rtp/233.18.204.177:5140
-#EXTINF:-1 group-title="上海电信-组播5",CGTN英语
+#EXTINF:-1 group-title="上海电信-组播4",CGTN英语
 http://180.165.2.141:4022/rtp/233.18.204.28:5140
-#EXTINF:-1 group-title="上海电信-组播5",CETV早期教育
+#EXTINF:-1 group-title="上海电信-组播4",CETV早期教育
 http://180.165.2.141:4022/rtp/233.18.204.187:5140
-#EXTINF:-1 group-title="上海电信-组播5",CETV-1综合教育
+#EXTINF:-1 group-title="上海电信-组播4",CETV-1综合教育
 http://180.165.2.141:4022/rtp/233.18.204.98:5140
-#EXTINF:-1 group-title="上海电信-组播5",CETV-1综合教育
+#EXTINF:-1 group-title="上海电信-组播4",CETV-1综合教育
 http://180.165.2.141:4022/rtp/233.18.204.153:5140
-#EXTINF:-1 group-title="上海电信-组播5",CETV-2空中课堂
+#EXTINF:-1 group-title="上海电信-组播4",CETV-2空中课堂
 http://180.165.2.141:4022/rtp/233.18.204.154:5140
-#EXTINF:-1 group-title="上海电信-组播5",CETV-4职业教育
+#EXTINF:-1 group-title="上海电信-组播4",CETV-4职业教育
 http://180.165.2.141:4022/rtp/233.18.204.111:5140
-#EXTINF:-1 group-title="上海电信-组播5",CHC家庭影院
+#EXTINF:-1 group-title="上海电信-组播4",CHC家庭影院
 http://180.165.2.141:4022/rtp/233.18.204.173:5140
-#EXTINF:-1 group-title="上海电信-组播5",CHC影迷电影
+#EXTINF:-1 group-title="上海电信-组播4",CHC影迷电影
 http://180.165.2.141:4022/rtp/233.18.204.175:5140
-#EXTINF:-1 group-title="上海电信-组播5",CHC动作电影
+#EXTINF:-1 group-title="上海电信-组播4",CHC动作电影
 http://180.165.2.141:4022/rtp/233.18.204.174:5140
-#EXTINF:-1 group-title="上海电信-组播5",BesTV
+#EXTINF:-1 group-title="上海电信-组播4",BesTV
 http://180.165.2.141:4022/rtp/233.18.204.161:5140
-#EXTINF:-1 group-title="上海电信-组播5",BesTV
+#EXTINF:-1 group-title="上海电信-组播4",BesTV
 http://180.165.2.141:4022/rtp/233.18.204.162:5140
-#EXTINF:-1 group-title="上海电信-组播5",BesTV
+#EXTINF:-1 group-title="上海电信-组播4",BesTV
 http://180.165.2.141:4022/rtp/233.18.204.163:5140
-#EXTINF:-1 group-title="上海电信-组播5",BesTV
+#EXTINF:-1 group-title="上海电信-组播4",BesTV
 http://180.165.2.141:4022/rtp/233.18.204.164:5140
-#EXTINF:-1 group-title="上海电信-组播5",BesTV
+#EXTINF:-1 group-title="上海电信-组播4",BesTV
 http://180.165.2.141:4022/rtp/233.18.204.165:5140
-#EXTINF:-1 group-title="上海电信-组播5",BesTV
+#EXTINF:-1 group-title="上海电信-组播4",BesTV
 http://180.165.2.141:4022/rtp/233.18.204.166:5140
-#EXTINF:-1 group-title="上海电信-组播5",BesTV
+#EXTINF:-1 group-title="上海电信-组播4",BesTV
 http://180.165.2.141:4022/rtp/233.18.204.167:5140
-#EXTINF:-1 group-title="上海电信-组播5",BesTV Live
+#EXTINF:-1 group-title="上海电信-组播4",BesTV Live
 http://180.165.2.141:4022/rtp/233.18.204.158:5140
-#EXTINF:-1 group-title="上海电信-组播5",BesTV Live
+#EXTINF:-1 group-title="上海电信-组播4",BesTV Live
 http://180.165.2.141:4022/rtp/233.18.204.159:5140
-#EXTINF:-1 group-title="上海电信-组播5",BesTV4K动画
+#EXTINF:-1 group-title="上海电信-组播4",BesTV4K动画
 http://180.165.2.141:4022/rtp/233.18.204.171:5140
-#EXTINF:-1 group-title="上海电信-组播5",BesTV4K测试
+#EXTINF:-1 group-title="上海电信-组播4",BesTV4K测试
 http://180.165.2.141:4022/rtp/233.18.204.201:5140
-#EXTINF:-1 group-title="上海电信-组播5",BesTV4K电影
+#EXTINF:-1 group-title="上海电信-组播4",BesTV4K电影
 http://180.165.2.141:4022/rtp/233.18.204.169:5140
-#EXTINF:-1 group-title="上海电信-组播5",BesTV4K记录
+#EXTINF:-1 group-title="上海电信-组播4",BesTV4K记录
 http://180.165.2.141:4022/rtp/233.18.204.170:5140
-#EXTINF:-1 group-title="上海电信-组播5",BesTV百视通
+#EXTINF:-1 group-title="上海电信-组播4",BesTV百视通
 http://180.165.2.141:4022/rtp/233.18.204.116:5140
-#EXTINF:-1 group-title="上海电信-组播5",BesTV直播10
+#EXTINF:-1 group-title="上海电信-组播4",BesTV直播10
 http://180.165.2.141:4022/rtp/233.18.204.160:5140
-#EXTINF:-1 group-title="上海电信-组播5",北京卡酷少儿
+#EXTINF:-1 group-title="上海电信-组播4",北京卡酷少儿
 http://180.165.2.141:4022/rtp/233.18.204.152:5140
-#EXTINF:-1 group-title="上海电信-组播5",北京卡酷少儿
+#EXTINF:-1 group-title="上海电信-组播4",北京卡酷少儿
 http://180.165.2.141:4022/rtp/233.18.204.109:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海动漫秀场
+#EXTINF:-1 group-title="上海电信-组播4",上海动漫秀场
 http://180.165.2.141:4022/rtp/233.18.204.46:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海动漫秀场
+#EXTINF:-1 group-title="上海电信-组播4",上海动漫秀场
 http://180.165.2.141:4022/rtp/233.18.204.54:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海游戏风云
+#EXTINF:-1 group-title="上海电信-组播4",上海游戏风云
 http://180.165.2.141:4022/rtp/233.18.204.13:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海游戏风云
+#EXTINF:-1 group-title="上海电信-组播4",上海游戏风云
 http://180.165.2.141:4022/rtp/233.18.204.44:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海乐游
+#EXTINF:-1 group-title="上海电信-组播4",上海乐游
 http://180.165.2.141:4022/rtp/233.18.204.47:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海法治天地
+#EXTINF:-1 group-title="上海电信-组播4",上海法治天地
 http://180.165.2.141:4022/rtp/233.18.204.12:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海法治天地
+#EXTINF:-1 group-title="上海电信-组播4",上海法治天地
 http://180.165.2.141:4022/rtp/233.18.204.49:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海都市剧场
+#EXTINF:-1 group-title="上海电信-组播4",上海都市剧场
 http://180.165.2.141:4022/rtp/233.18.204.48:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海多彩文体4K
+#EXTINF:-1 group-title="上海电信-组播4",上海多彩文体4K
 http://180.165.2.141:4022/rtp/233.18.204.205:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海多彩文体4K
+#EXTINF:-1 group-title="上海电信-组播4",上海多彩文体4K
 http://180.165.2.141:4022/rtp/233.18.204.50:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海多彩文体4K
+#EXTINF:-1 group-title="上海电信-组播4",上海多彩文体4K
 http://180.165.2.141:4022/rtp/233.18.204.55:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海多彩文体4K
+#EXTINF:-1 group-title="上海电信-组播4",上海多彩文体4K
 http://180.165.2.141:4022/rtp/233.18.204.115:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海金色学堂
+#EXTINF:-1 group-title="上海电信-组播4",上海金色学堂
 http://180.165.2.141:4022/rtp/233.18.204.14:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海金色学堂
+#EXTINF:-1 group-title="上海电信-组播4",上海金色学堂
 http://180.165.2.141:4022/rtp/233.18.204.66:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海生活时尚
+#EXTINF:-1 group-title="上海电信-组播4",上海生活时尚
 http://180.165.2.141:4022/rtp/233.18.204.45:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海第一财经
+#EXTINF:-1 group-title="上海电信-组播4",上海第一财经
 http://180.165.2.141:4022/rtp/233.18.204.5:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海第一财经
+#EXTINF:-1 group-title="上海电信-组播4",上海第一财经
 http://180.165.2.141:4022/rtp/233.18.204.59:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海第一财经
+#EXTINF:-1 group-title="上海电信-组播4",上海第一财经
 http://180.165.2.141:4022/rtp/233.18.204.65:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海东方影视
+#EXTINF:-1 group-title="上海电信-组播4",上海东方影视
 http://180.165.2.141:4022/rtp/233.18.204.4:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海哈哈炫动
+#EXTINF:-1 group-title="上海电信-组播4",上海哈哈炫动
 http://180.165.2.141:4022/rtp/233.18.204.7:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海五星体育
+#EXTINF:-1 group-title="上海电信-组播4",上海五星体育
 http://180.165.2.141:4022/rtp/233.18.204.6:5140
-#EXTINF:-1 group-title="上海电信-组播5",上海五星体育
+#EXTINF:-1 group-title="上海电信-组播4",上海五星体育
 http://180.165.2.141:4022/rtp/233.18.204.58:5140
-#EXTINF:-1 group-title="上海电信-组播5",江苏财富天下
+#EXTINF:-1 group-title="上海电信-组播4",江苏财富天下
 http://180.165.2.141:4022/rtp/233.18.204.41:5140
-#EXTINF:-1 group-title="上海电信-组播5",江苏财富天下
+#EXTINF:-1 group-title="上海电信-组播4",江苏财富天下
 http://180.165.2.141:4022/rtp/233.18.204.157:5140
-#EXTINF:-1 group-title="上海电信-组播5",江苏财富天下
+#EXTINF:-1 group-title="上海电信-组播4",江苏财富天下
 http://180.165.2.141:4022/rtp/233.18.204.231:5140
-#EXTINF:-1 group-title="上海电信-组播5",湖北快乐垂钓
+#EXTINF:-1 group-title="上海电信-组播4",湖北快乐垂钓
 http://180.165.2.141:4022/rtp/233.18.204.42:5140
-#EXTINF:-1 group-title="上海电信-组播5",湖南金鹰纪实
+#EXTINF:-1 group-title="上海电信-组播4",湖南金鹰纪实
 http://180.165.2.141:4022/rtp/233.18.204.104:5140
-#EXTINF:-1 group-title="上海电信-组播5",湖南金鹰卡通
+#EXTINF:-1 group-title="上海电信-组播4",湖南金鹰卡通
 http://180.165.2.141:4022/rtp/233.18.204.113:5140
-#EXTINF:-1 group-title="上海电信-组播5",湖南金鹰卡通
+#EXTINF:-1 group-title="上海电信-组播4",湖南金鹰卡通
 http://180.165.2.141:4022/rtp/233.18.204.150:5140
-#EXTINF:-1 group-title="上海电信-组播5",广东嘉佳卡通
+#EXTINF:-1 group-title="上海电信-组播4",广东嘉佳卡通
 http://180.165.2.141:4022/rtp/233.18.204.151:5140
-#EXTINF:-1 group-title="上海电信-组播5",央视精品
+#EXTINF:-1 group-title="上海电信-组播4",央视精品
 http://180.165.2.141:4022/rtp/233.18.204.186:5140
-#EXTINF:-1 group-title="上海电信-组播5",新闻综合
+#EXTINF:-1 group-title="上海电信-组播4",新闻综合
 http://180.165.2.141:4022/rtp/233.18.204.57:5140
-#EXTINF:-1 group-title="上海电信-组播5",新闻综合
+#EXTINF:-1 group-title="上海电信-组播4",新闻综合
 http://180.165.2.141:4022/rtp/233.18.204.189:5140
-#EXTINF:-1 group-title="上海电信-组播5",未知格式 SD
+#EXTINF:-1 group-title="上海电信-组播4",未知格式 SD
 http://180.165.2.141:4022/rtp/233.18.204.206:5140
-#EXTINF:-1 group-title="上海电信-组播5",未知格式 SD
+#EXTINF:-1 group-title="上海电信-组播4",未知格式 SD
 http://180.165.2.141:4022/rtp/233.18.204.207:5140
-#EXTINF:-1 group-title="上海电信-组播5",电信内部测试
+#EXTINF:-1 group-title="上海电信-组播4",电信内部测试
 http://180.165.2.141:4022/rtp/233.18.204.202:5140
-#EXTINF:-1 group-title="上海电信-组播5",电信内部测试 SD
+#EXTINF:-1 group-title="上海电信-组播4",电信内部测试 SD
 http://180.165.2.141:4022/rtp/233.18.204.203:5140
-#EXTINF:-1 group-title="上海电信-组播5",节目中断 SD
+#EXTINF:-1 group-title="上海电信-组播4",节目中断 SD
 http://180.165.2.141:4022/rtp/233.18.204.208:5140
-#EXTINF:-1 group-title="上海电信-组播5",节目中断 SD
+#EXTINF:-1 group-title="上海电信-组播4",节目中断 SD
 http://180.165.2.141:4022/rtp/233.18.204.216:5140
-#EXTINF:-1 group-title="上海电信-组播5",都市频道
+#EXTINF:-1 group-title="上海电信-组播4",都市频道
 http://180.165.2.141:4022/rtp/233.18.204.2:5140
-#EXTINF:-1 group-title="上海电信-组播5",高网频道
+#EXTINF:-1 group-title="上海电信-组播4",高网频道
 http://180.165.2.141:4022/rtp/233.18.204.181:5140
-#EXTINF:-1 group-title="上海电信-组播6",东方卫视
+#EXTINF:-1 group-title="上海电信-组播5",东方卫视
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.1:5140
-#EXTINF:-1 group-title="上海电信-组播6",东方卫视
+#EXTINF:-1 group-title="上海电信-组播5",东方卫视
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.51:5140
-#EXTINF:-1 group-title="上海电信-组播6",东方卫视4K
+#EXTINF:-1 group-title="上海电信-组播5",东方卫视4K
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.224:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海教育
+#EXTINF:-1 group-title="上海电信-组播5",上海教育
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.11:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海教育HD
+#EXTINF:-1 group-title="上海电信-组播5",上海教育HD
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.63:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海都市HD
+#EXTINF:-1 group-title="上海电信-组播5",上海都市HD
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.53:5140
-#EXTINF:-1 group-title="上海电信-组播6",CCTV-风云足球
+#EXTINF:-1 group-title="上海电信-组播5",CCTV-风云足球
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.176:5140
-#EXTINF:-1 group-title="上海电信-组播6",CCTV-风云音乐
+#EXTINF:-1 group-title="上海电信-组播5",CCTV-风云音乐
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.185:5140
-#EXTINF:-1 group-title="上海电信-组播6",CCTV-第一剧场
+#EXTINF:-1 group-title="上海电信-组播5",CCTV-第一剧场
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.184:5140
-#EXTINF:-1 group-title="上海电信-组播6",CCTV-怀旧剧场
+#EXTINF:-1 group-title="上海电信-组播5",CCTV-怀旧剧场
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.182:5140
-#EXTINF:-1 group-title="上海电信-组播6",CCTV-风云剧场
+#EXTINF:-1 group-title="上海电信-组播5",CCTV-风云剧场
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.183:5140
-#EXTINF:-1 group-title="上海电信-组播6",CCTV-世界地理
+#EXTINF:-1 group-title="上海电信-组播5",CCTV-世界地理
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.179:5140
-#EXTINF:-1 group-title="上海电信-组播6",CCTV-兵器科技
+#EXTINF:-1 group-title="上海电信-组播5",CCTV-兵器科技
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.178:5140
-#EXTINF:-1 group-title="上海电信-组播6",CCTV-女性时尚
+#EXTINF:-1 group-title="上海电信-组播5",CCTV-女性时尚
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.180:5140
-#EXTINF:-1 group-title="上海电信-组播6",CCTV-央视台球
+#EXTINF:-1 group-title="上海电信-组播5",CCTV-央视台球
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.177:5140
-#EXTINF:-1 group-title="上海电信-组播6",CGTN英语
+#EXTINF:-1 group-title="上海电信-组播5",CGTN英语
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.28:5140
-#EXTINF:-1 group-title="上海电信-组播6",CETV早期教育
+#EXTINF:-1 group-title="上海电信-组播5",CETV早期教育
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.187:5140
-#EXTINF:-1 group-title="上海电信-组播6",CETV-1综合教育
+#EXTINF:-1 group-title="上海电信-组播5",CETV-1综合教育
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.98:5140
-#EXTINF:-1 group-title="上海电信-组播6",CETV-1综合教育
+#EXTINF:-1 group-title="上海电信-组播5",CETV-1综合教育
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.153:5140
-#EXTINF:-1 group-title="上海电信-组播6",CETV-2空中课堂
+#EXTINF:-1 group-title="上海电信-组播5",CETV-2空中课堂
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.154:5140
-#EXTINF:-1 group-title="上海电信-组播6",CETV-4职业教育
+#EXTINF:-1 group-title="上海电信-组播5",CETV-4职业教育
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.111:5140
-#EXTINF:-1 group-title="上海电信-组播6",CHC家庭影院
+#EXTINF:-1 group-title="上海电信-组播5",CHC家庭影院
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.173:5140
-#EXTINF:-1 group-title="上海电信-组播6",CHC影迷电影
+#EXTINF:-1 group-title="上海电信-组播5",CHC影迷电影
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.175:5140
-#EXTINF:-1 group-title="上海电信-组播6",CHC动作电影
+#EXTINF:-1 group-title="上海电信-组播5",CHC动作电影
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.174:5140
-#EXTINF:-1 group-title="上海电信-组播6",BesTV
+#EXTINF:-1 group-title="上海电信-组播5",BesTV
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.161:5140
-#EXTINF:-1 group-title="上海电信-组播6",BesTV
+#EXTINF:-1 group-title="上海电信-组播5",BesTV
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.162:5140
-#EXTINF:-1 group-title="上海电信-组播6",BesTV
+#EXTINF:-1 group-title="上海电信-组播5",BesTV
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.163:5140
-#EXTINF:-1 group-title="上海电信-组播6",BesTV
+#EXTINF:-1 group-title="上海电信-组播5",BesTV
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.164:5140
-#EXTINF:-1 group-title="上海电信-组播6",BesTV
+#EXTINF:-1 group-title="上海电信-组播5",BesTV
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.165:5140
-#EXTINF:-1 group-title="上海电信-组播6",BesTV
+#EXTINF:-1 group-title="上海电信-组播5",BesTV
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.166:5140
-#EXTINF:-1 group-title="上海电信-组播6",BesTV
+#EXTINF:-1 group-title="上海电信-组播5",BesTV
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.167:5140
-#EXTINF:-1 group-title="上海电信-组播6",BesTV Live
+#EXTINF:-1 group-title="上海电信-组播5",BesTV Live
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.158:5140
-#EXTINF:-1 group-title="上海电信-组播6",BesTV Live
+#EXTINF:-1 group-title="上海电信-组播5",BesTV Live
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.159:5140
-#EXTINF:-1 group-title="上海电信-组播6",BesTV4K动画
+#EXTINF:-1 group-title="上海电信-组播5",BesTV4K动画
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.171:5140
-#EXTINF:-1 group-title="上海电信-组播6",BesTV4K测试
+#EXTINF:-1 group-title="上海电信-组播5",BesTV4K测试
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.201:5140
-#EXTINF:-1 group-title="上海电信-组播6",BesTV4K电影
+#EXTINF:-1 group-title="上海电信-组播5",BesTV4K电影
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.169:5140
-#EXTINF:-1 group-title="上海电信-组播6",BesTV4K记录
+#EXTINF:-1 group-title="上海电信-组播5",BesTV4K记录
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.170:5140
-#EXTINF:-1 group-title="上海电信-组播6",BesTV百视通
+#EXTINF:-1 group-title="上海电信-组播5",BesTV百视通
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.116:5140
-#EXTINF:-1 group-title="上海电信-组播6",BesTV直播10
+#EXTINF:-1 group-title="上海电信-组播5",BesTV直播10
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.160:5140
-#EXTINF:-1 group-title="上海电信-组播6",北京卡酷少儿
+#EXTINF:-1 group-title="上海电信-组播5",北京卡酷少儿
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.152:5140
-#EXTINF:-1 group-title="上海电信-组播6",北京卡酷少儿
+#EXTINF:-1 group-title="上海电信-组播5",北京卡酷少儿
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.109:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海动漫秀场
+#EXTINF:-1 group-title="上海电信-组播5",上海动漫秀场
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.46:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海动漫秀场
+#EXTINF:-1 group-title="上海电信-组播5",上海动漫秀场
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.54:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海游戏风云
+#EXTINF:-1 group-title="上海电信-组播5",上海游戏风云
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.13:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海游戏风云
+#EXTINF:-1 group-title="上海电信-组播5",上海游戏风云
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.44:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海乐游
+#EXTINF:-1 group-title="上海电信-组播5",上海乐游
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.47:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海法治天地
+#EXTINF:-1 group-title="上海电信-组播5",上海法治天地
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.12:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海法治天地
+#EXTINF:-1 group-title="上海电信-组播5",上海法治天地
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.49:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海都市剧场
+#EXTINF:-1 group-title="上海电信-组播5",上海都市剧场
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.48:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海多彩文体4K
+#EXTINF:-1 group-title="上海电信-组播5",上海多彩文体4K
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.205:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海多彩文体4K
+#EXTINF:-1 group-title="上海电信-组播5",上海多彩文体4K
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.50:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海多彩文体4K
+#EXTINF:-1 group-title="上海电信-组播5",上海多彩文体4K
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.55:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海多彩文体4K
+#EXTINF:-1 group-title="上海电信-组播5",上海多彩文体4K
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.115:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海金色学堂
+#EXTINF:-1 group-title="上海电信-组播5",上海金色学堂
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.14:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海金色学堂
+#EXTINF:-1 group-title="上海电信-组播5",上海金色学堂
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.66:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海生活时尚
+#EXTINF:-1 group-title="上海电信-组播5",上海生活时尚
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.45:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海第一财经
+#EXTINF:-1 group-title="上海电信-组播5",上海第一财经
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.5:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海第一财经
+#EXTINF:-1 group-title="上海电信-组播5",上海第一财经
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.59:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海第一财经
+#EXTINF:-1 group-title="上海电信-组播5",上海第一财经
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.65:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海东方影视
+#EXTINF:-1 group-title="上海电信-组播5",上海东方影视
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.4:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海哈哈炫动
+#EXTINF:-1 group-title="上海电信-组播5",上海哈哈炫动
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.7:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海五星体育
+#EXTINF:-1 group-title="上海电信-组播5",上海五星体育
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.6:5140
-#EXTINF:-1 group-title="上海电信-组播6",上海五星体育
+#EXTINF:-1 group-title="上海电信-组播5",上海五星体育
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.58:5140
-#EXTINF:-1 group-title="上海电信-组播6",江苏财富天下
+#EXTINF:-1 group-title="上海电信-组播5",江苏财富天下
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.41:5140
-#EXTINF:-1 group-title="上海电信-组播6",江苏财富天下
+#EXTINF:-1 group-title="上海电信-组播5",江苏财富天下
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.157:5140
-#EXTINF:-1 group-title="上海电信-组播6",江苏财富天下
+#EXTINF:-1 group-title="上海电信-组播5",江苏财富天下
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.231:5140
-#EXTINF:-1 group-title="上海电信-组播6",湖北快乐垂钓
+#EXTINF:-1 group-title="上海电信-组播5",湖北快乐垂钓
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.42:5140
-#EXTINF:-1 group-title="上海电信-组播6",湖南金鹰纪实
+#EXTINF:-1 group-title="上海电信-组播5",湖南金鹰纪实
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.104:5140
-#EXTINF:-1 group-title="上海电信-组播6",湖南金鹰卡通
+#EXTINF:-1 group-title="上海电信-组播5",湖南金鹰卡通
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.113:5140
-#EXTINF:-1 group-title="上海电信-组播6",湖南金鹰卡通
+#EXTINF:-1 group-title="上海电信-组播5",湖南金鹰卡通
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.150:5140
-#EXTINF:-1 group-title="上海电信-组播6",广东嘉佳卡通
+#EXTINF:-1 group-title="上海电信-组播5",广东嘉佳卡通
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.151:5140
-#EXTINF:-1 group-title="上海电信-组播6",央视精品
+#EXTINF:-1 group-title="上海电信-组播5",央视精品
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.186:5140
-#EXTINF:-1 group-title="上海电信-组播6",新闻综合
+#EXTINF:-1 group-title="上海电信-组播5",新闻综合
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.57:5140
-#EXTINF:-1 group-title="上海电信-组播6",新闻综合
+#EXTINF:-1 group-title="上海电信-组播5",新闻综合
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.189:5140
-#EXTINF:-1 group-title="上海电信-组播6",未知格式 SD
+#EXTINF:-1 group-title="上海电信-组播5",未知格式 SD
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.206:5140
-#EXTINF:-1 group-title="上海电信-组播6",未知格式 SD
+#EXTINF:-1 group-title="上海电信-组播5",未知格式 SD
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.207:5140
-#EXTINF:-1 group-title="上海电信-组播6",电信内部测试
+#EXTINF:-1 group-title="上海电信-组播5",电信内部测试
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.202:5140
-#EXTINF:-1 group-title="上海电信-组播6",电信内部测试 SD
+#EXTINF:-1 group-title="上海电信-组播5",电信内部测试 SD
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.203:5140
-#EXTINF:-1 group-title="上海电信-组播6",节目中断 SD
+#EXTINF:-1 group-title="上海电信-组播5",节目中断 SD
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.208:5140
-#EXTINF:-1 group-title="上海电信-组播6",节目中断 SD
+#EXTINF:-1 group-title="上海电信-组播5",节目中断 SD
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.216:5140
-#EXTINF:-1 group-title="上海电信-组播6",都市频道
+#EXTINF:-1 group-title="上海电信-组播5",都市频道
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.2:5140
-#EXTINF:-1 group-title="上海电信-组播6",高网频道
+#EXTINF:-1 group-title="上海电信-组播5",高网频道
 http://cloud.sunrisecom.wang:18888/rtp/233.18.204.181:5140
+#EXTINF:-1 group-title="上海电信-组播6",东方卫视
+http://rongrong.synology.me:14022/rtp/233.18.204.1:5140
+#EXTINF:-1 group-title="上海电信-组播6",东方卫视
+http://rongrong.synology.me:14022/rtp/233.18.204.51:5140
+#EXTINF:-1 group-title="上海电信-组播6",东方卫视4K
+http://rongrong.synology.me:14022/rtp/233.18.204.224:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海教育
+http://rongrong.synology.me:14022/rtp/233.18.204.11:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海教育HD
+http://rongrong.synology.me:14022/rtp/233.18.204.63:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海都市HD
+http://rongrong.synology.me:14022/rtp/233.18.204.53:5140
+#EXTINF:-1 group-title="上海电信-组播6",CCTV-风云足球
+http://rongrong.synology.me:14022/rtp/233.18.204.176:5140
+#EXTINF:-1 group-title="上海电信-组播6",CCTV-风云音乐
+http://rongrong.synology.me:14022/rtp/233.18.204.185:5140
+#EXTINF:-1 group-title="上海电信-组播6",CCTV-第一剧场
+http://rongrong.synology.me:14022/rtp/233.18.204.184:5140
+#EXTINF:-1 group-title="上海电信-组播6",CCTV-怀旧剧场
+http://rongrong.synology.me:14022/rtp/233.18.204.182:5140
+#EXTINF:-1 group-title="上海电信-组播6",CCTV-风云剧场
+http://rongrong.synology.me:14022/rtp/233.18.204.183:5140
+#EXTINF:-1 group-title="上海电信-组播6",CCTV-世界地理
+http://rongrong.synology.me:14022/rtp/233.18.204.179:5140
+#EXTINF:-1 group-title="上海电信-组播6",CCTV-兵器科技
+http://rongrong.synology.me:14022/rtp/233.18.204.178:5140
+#EXTINF:-1 group-title="上海电信-组播6",CCTV-女性时尚
+http://rongrong.synology.me:14022/rtp/233.18.204.180:5140
+#EXTINF:-1 group-title="上海电信-组播6",CCTV-央视台球
+http://rongrong.synology.me:14022/rtp/233.18.204.177:5140
+#EXTINF:-1 group-title="上海电信-组播6",CGTN英语
+http://rongrong.synology.me:14022/rtp/233.18.204.28:5140
+#EXTINF:-1 group-title="上海电信-组播6",CETV早期教育
+http://rongrong.synology.me:14022/rtp/233.18.204.187:5140
+#EXTINF:-1 group-title="上海电信-组播6",CETV-1综合教育
+http://rongrong.synology.me:14022/rtp/233.18.204.98:5140
+#EXTINF:-1 group-title="上海电信-组播6",CETV-1综合教育
+http://rongrong.synology.me:14022/rtp/233.18.204.153:5140
+#EXTINF:-1 group-title="上海电信-组播6",CETV-2空中课堂
+http://rongrong.synology.me:14022/rtp/233.18.204.154:5140
+#EXTINF:-1 group-title="上海电信-组播6",CETV-4职业教育
+http://rongrong.synology.me:14022/rtp/233.18.204.111:5140
+#EXTINF:-1 group-title="上海电信-组播6",CHC家庭影院
+http://rongrong.synology.me:14022/rtp/233.18.204.173:5140
+#EXTINF:-1 group-title="上海电信-组播6",CHC影迷电影
+http://rongrong.synology.me:14022/rtp/233.18.204.175:5140
+#EXTINF:-1 group-title="上海电信-组播6",CHC动作电影
+http://rongrong.synology.me:14022/rtp/233.18.204.174:5140
+#EXTINF:-1 group-title="上海电信-组播6",BesTV
+http://rongrong.synology.me:14022/rtp/233.18.204.161:5140
+#EXTINF:-1 group-title="上海电信-组播6",BesTV
+http://rongrong.synology.me:14022/rtp/233.18.204.162:5140
+#EXTINF:-1 group-title="上海电信-组播6",BesTV
+http://rongrong.synology.me:14022/rtp/233.18.204.163:5140
+#EXTINF:-1 group-title="上海电信-组播6",BesTV
+http://rongrong.synology.me:14022/rtp/233.18.204.164:5140
+#EXTINF:-1 group-title="上海电信-组播6",BesTV
+http://rongrong.synology.me:14022/rtp/233.18.204.165:5140
+#EXTINF:-1 group-title="上海电信-组播6",BesTV
+http://rongrong.synology.me:14022/rtp/233.18.204.166:5140
+#EXTINF:-1 group-title="上海电信-组播6",BesTV
+http://rongrong.synology.me:14022/rtp/233.18.204.167:5140
+#EXTINF:-1 group-title="上海电信-组播6",BesTV Live
+http://rongrong.synology.me:14022/rtp/233.18.204.158:5140
+#EXTINF:-1 group-title="上海电信-组播6",BesTV Live
+http://rongrong.synology.me:14022/rtp/233.18.204.159:5140
+#EXTINF:-1 group-title="上海电信-组播6",BesTV4K动画
+http://rongrong.synology.me:14022/rtp/233.18.204.171:5140
+#EXTINF:-1 group-title="上海电信-组播6",BesTV4K测试
+http://rongrong.synology.me:14022/rtp/233.18.204.201:5140
+#EXTINF:-1 group-title="上海电信-组播6",BesTV4K电影
+http://rongrong.synology.me:14022/rtp/233.18.204.169:5140
+#EXTINF:-1 group-title="上海电信-组播6",BesTV4K记录
+http://rongrong.synology.me:14022/rtp/233.18.204.170:5140
+#EXTINF:-1 group-title="上海电信-组播6",BesTV百视通
+http://rongrong.synology.me:14022/rtp/233.18.204.116:5140
+#EXTINF:-1 group-title="上海电信-组播6",BesTV直播10
+http://rongrong.synology.me:14022/rtp/233.18.204.160:5140
+#EXTINF:-1 group-title="上海电信-组播6",北京卡酷少儿
+http://rongrong.synology.me:14022/rtp/233.18.204.152:5140
+#EXTINF:-1 group-title="上海电信-组播6",北京卡酷少儿
+http://rongrong.synology.me:14022/rtp/233.18.204.109:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海动漫秀场
+http://rongrong.synology.me:14022/rtp/233.18.204.46:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海动漫秀场
+http://rongrong.synology.me:14022/rtp/233.18.204.54:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海游戏风云
+http://rongrong.synology.me:14022/rtp/233.18.204.13:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海游戏风云
+http://rongrong.synology.me:14022/rtp/233.18.204.44:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海乐游
+http://rongrong.synology.me:14022/rtp/233.18.204.47:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海法治天地
+http://rongrong.synology.me:14022/rtp/233.18.204.12:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海法治天地
+http://rongrong.synology.me:14022/rtp/233.18.204.49:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海都市剧场
+http://rongrong.synology.me:14022/rtp/233.18.204.48:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海多彩文体4K
+http://rongrong.synology.me:14022/rtp/233.18.204.205:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海多彩文体4K
+http://rongrong.synology.me:14022/rtp/233.18.204.50:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海多彩文体4K
+http://rongrong.synology.me:14022/rtp/233.18.204.55:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海多彩文体4K
+http://rongrong.synology.me:14022/rtp/233.18.204.115:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海金色学堂
+http://rongrong.synology.me:14022/rtp/233.18.204.14:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海金色学堂
+http://rongrong.synology.me:14022/rtp/233.18.204.66:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海生活时尚
+http://rongrong.synology.me:14022/rtp/233.18.204.45:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海第一财经
+http://rongrong.synology.me:14022/rtp/233.18.204.5:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海第一财经
+http://rongrong.synology.me:14022/rtp/233.18.204.59:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海第一财经
+http://rongrong.synology.me:14022/rtp/233.18.204.65:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海东方影视
+http://rongrong.synology.me:14022/rtp/233.18.204.4:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海哈哈炫动
+http://rongrong.synology.me:14022/rtp/233.18.204.7:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海五星体育
+http://rongrong.synology.me:14022/rtp/233.18.204.6:5140
+#EXTINF:-1 group-title="上海电信-组播6",上海五星体育
+http://rongrong.synology.me:14022/rtp/233.18.204.58:5140
+#EXTINF:-1 group-title="上海电信-组播6",江苏财富天下
+http://rongrong.synology.me:14022/rtp/233.18.204.41:5140
+#EXTINF:-1 group-title="上海电信-组播6",江苏财富天下
+http://rongrong.synology.me:14022/rtp/233.18.204.157:5140
+#EXTINF:-1 group-title="上海电信-组播6",江苏财富天下
+http://rongrong.synology.me:14022/rtp/233.18.204.231:5140
+#EXTINF:-1 group-title="上海电信-组播6",湖北快乐垂钓
+http://rongrong.synology.me:14022/rtp/233.18.204.42:5140
+#EXTINF:-1 group-title="上海电信-组播6",湖南金鹰纪实
+http://rongrong.synology.me:14022/rtp/233.18.204.104:5140
+#EXTINF:-1 group-title="上海电信-组播6",湖南金鹰卡通
+http://rongrong.synology.me:14022/rtp/233.18.204.113:5140
+#EXTINF:-1 group-title="上海电信-组播6",湖南金鹰卡通
+http://rongrong.synology.me:14022/rtp/233.18.204.150:5140
+#EXTINF:-1 group-title="上海电信-组播6",广东嘉佳卡通
+http://rongrong.synology.me:14022/rtp/233.18.204.151:5140
+#EXTINF:-1 group-title="上海电信-组播6",央视精品
+http://rongrong.synology.me:14022/rtp/233.18.204.186:5140
+#EXTINF:-1 group-title="上海电信-组播6",新闻综合
+http://rongrong.synology.me:14022/rtp/233.18.204.57:5140
+#EXTINF:-1 group-title="上海电信-组播6",新闻综合
+http://rongrong.synology.me:14022/rtp/233.18.204.189:5140
+#EXTINF:-1 group-title="上海电信-组播6",未知格式 SD
+http://rongrong.synology.me:14022/rtp/233.18.204.206:5140
+#EXTINF:-1 group-title="上海电信-组播6",未知格式 SD
+http://rongrong.synology.me:14022/rtp/233.18.204.207:5140
+#EXTINF:-1 group-title="上海电信-组播6",电信内部测试
+http://rongrong.synology.me:14022/rtp/233.18.204.202:5140
+#EXTINF:-1 group-title="上海电信-组播6",电信内部测试 SD
+http://rongrong.synology.me:14022/rtp/233.18.204.203:5140
+#EXTINF:-1 group-title="上海电信-组播6",节目中断 SD
+http://rongrong.synology.me:14022/rtp/233.18.204.208:5140
+#EXTINF:-1 group-title="上海电信-组播6",节目中断 SD
+http://rongrong.synology.me:14022/rtp/233.18.204.216:5140
+#EXTINF:-1 group-title="上海电信-组播6",都市频道
+http://rongrong.synology.me:14022/rtp/233.18.204.2:5140
+#EXTINF:-1 group-title="上海电信-组播6",高网频道
+http://rongrong.synology.me:14022/rtp/233.18.204.181:5140
 #EXTINF:-1 group-title="广东电信-组播1",广东卫视
 http://183.51.190.156:6633/udp/239.77.0.84:5146
 #EXTINF:-1 group-title="广东电信-组播1",广东卫视
@@ -19578,665 +19424,225 @@ http://168250.xyz:1111/rtp/239.5.1.160:5000
 #EXTINF:-1 group-title="天津电信-组播1",食全食美
 http://168250.xyz:1111/rtp/239.5.1.49:5000
 #EXTINF:-1 group-title="天津联通-组播1",天津卫视
-http://117.8.141.128:8834/rtp/225.1.1.111:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津交通广播
-http://117.8.141.128:8834/rtp/225.1.1.175:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津体育频道
-http://117.8.141.128:8834/rtp/225.1.1.122:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津农村广播
-http://117.8.141.128:8834/rtp/225.1.1.180:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津小说广播
-http://117.8.141.128:8834/rtp/225.1.1.177:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津少儿
-http://117.8.141.128:8834/rtp/225.1.1.125:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津影视频道
-http://117.8.141.128:8834/rtp/225.1.1.149:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津教育频道
-http://117.8.141.128:8834/rtp/225.1.1.129:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津文旅频道
-http://117.8.141.128:8834/rtp/225.1.2.123:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津文艺广播
-http://117.8.141.128:8834/rtp/225.1.1.171:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津文艺频道
-http://117.8.141.128:8834/rtp/225.1.1.131:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津新闻广播
-http://117.8.141.128:8834/rtp/225.1.1.173:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津新闻频道
-http://117.8.141.128:8834/rtp/225.1.1.130:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津滨海广播
-http://117.8.141.128:8834/rtp/225.1.1.178:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津生活广播
-http://117.8.141.128:8834/rtp/225.1.1.174:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津相声广播
-http://117.8.141.128:8834/rtp/225.1.1.176:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津经济广播
-http://117.8.141.128:8834/rtp/225.1.1.172:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津购物自营
-http://117.8.141.128:8834/rtp/225.1.1.108:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津购物频道
-http://117.8.141.128:8834/rtp/225.1.1.151:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津都市频道
-http://117.8.141.128:8834/rtp/225.1.1.128:5002
-#EXTINF:-1 group-title="天津联通-组播1",天津音乐广播
-http://117.8.141.128:8834/rtp/225.1.1.179:5002
-#EXTINF:-1 group-title="天津联通-组播1",CCTV-风云足球
-http://117.8.141.128:8834/rtp/225.1.2.168:5002
-#EXTINF:-1 group-title="天津联通-组播1",CCTV-央视文化精品
-http://117.8.141.128:8834/rtp/225.1.2.177:5002
-#EXTINF:-1 group-title="天津联通-组播1",CCTV-风云音乐
-http://117.8.141.128:8834/rtp/225.1.2.176:5002
-#EXTINF:-1 group-title="天津联通-组播1",CCTV-第一剧场
-http://117.8.141.128:8834/rtp/225.1.2.175:5002
-#EXTINF:-1 group-title="天津联通-组播1",CCTV-怀旧剧场
-http://117.8.141.128:8834/rtp/225.1.2.173:5002
-#EXTINF:-1 group-title="天津联通-组播1",CCTV-风云剧场
-http://117.8.141.128:8834/rtp/225.1.2.174:5002
-#EXTINF:-1 group-title="天津联通-组播1",CCTV-世界地理
-http://117.8.141.128:8834/rtp/225.1.2.171:5002
-#EXTINF:-1 group-title="天津联通-组播1",CCTV-电视指南
-http://117.8.141.128:8834/rtp/225.1.2.167:5002
-#EXTINF:-1 group-title="天津联通-组播1",CCTV-兵器科技
-http://117.8.141.128:8834/rtp/225.1.2.166:5002
-#EXTINF:-1 group-title="天津联通-组播1",CCTV-女性时尚
-http://117.8.141.128:8834/rtp/225.1.2.172:5002
-#EXTINF:-1 group-title="天津联通-组播1",CCTV-央视台球
-http://117.8.141.128:8834/rtp/225.1.2.170:5002
-#EXTINF:-1 group-title="天津联通-组播1",CGTN英语
-http://117.8.141.128:8834/rtp/225.1.1.27:5002
-#EXTINF:-1 group-title="天津联通-组播1",CGTN纪录
-http://117.8.141.128:8834/rtp/225.1.1.55:5002
-#EXTINF:-1 group-title="天津联通-组播1",CETV早期教育
-http://117.8.141.128:8834/rtp/225.1.2.207:5002
-#EXTINF:-1 group-title="天津联通-组播1",CHC家庭影院
-http://117.8.141.128:8834/rtp/225.1.1.213:5002
-#EXTINF:-1 group-title="天津联通-组播1",CHC影迷电影
-http://117.8.141.128:8834/rtp/225.1.1.214:5002
-#EXTINF:-1 group-title="天津联通-组播1",CHC动作电影
-http://117.8.141.128:8834/rtp/225.1.1.215:5002
-#EXTINF:-1 group-title="天津联通-组播1",聚鲨环球精选
-http://117.8.141.128:8834/rtp/225.1.1.102:5002
-#EXTINF:-1 group-title="天津联通-组播1",环球奇观
-http://117.8.141.128:8834/rtp/225.1.1.197:5002
-#EXTINF:-1 group-title="天津联通-组播1",中国交通
-http://117.8.141.128:8834/rtp/225.1.2.57:5002
-#EXTINF:-1 group-title="天津联通-组播1",老故事
-http://117.8.141.128:8834/rtp/225.1.1.188:5002
-#EXTINF:-1 group-title="天津联通-组播1",中学生
-http://117.8.141.128:8834/rtp/225.1.1.193:5002
-#EXTINF:-1 group-title="天津联通-组播1",中国天气
-http://117.8.141.128:8834/rtp/225.1.2.119:5002
-#EXTINF:-1 group-title="天津联通-组播1",北京优优宝贝
-http://117.8.141.128:8834/rtp/225.1.2.203:5002
-#EXTINF:-1 group-title="天津联通-组播1",北京中华特产
-http://117.8.141.128:8834/rtp/225.1.2.197:5002
-#EXTINF:-1 group-title="天津联通-组播1",北京四海钓鱼
-http://117.8.141.128:8834/rtp/225.1.2.202:5002
-#EXTINF:-1 group-title="天津联通-组播1",北京环球旅游
-http://117.8.141.128:8834/rtp/225.1.2.200:5002
-#EXTINF:-1 group-title="天津联通-组播1",北京生态环境
-http://117.8.141.128:8834/rtp/225.1.2.201:5002
-#EXTINF:-1 group-title="天津联通-组播1",北京车迷频道
-http://117.8.141.128:8834/rtp/225.1.2.199:5002
-#EXTINF:-1 group-title="天津联通-组播1",北京卡酷少儿
-http://117.8.141.128:8834/rtp/225.1.1.58:5002
-#EXTINF:-1 group-title="天津联通-组播1",辽宁新动漫
-http://117.8.141.128:8834/rtp/225.1.1.216:5002
-#EXTINF:-1 group-title="天津联通-组播1",上海东方财经
-http://117.8.141.128:8834/rtp/225.1.1.247:5002
-#EXTINF:-1 group-title="天津联通-组播1",上海动漫秀场
-http://117.8.141.128:8834/rtp/225.1.1.134:5002
-#EXTINF:-1 group-title="天津联通-组播1",上海游戏风云
-http://117.8.141.128:8834/rtp/225.1.1.135:5002
-#EXTINF:-1 group-title="天津联通-组播1",上海法治天地
-http://117.8.141.128:8834/rtp/225.1.1.237:5002
-#EXTINF:-1 group-title="天津联通-组播1",上海都市剧场
-http://117.8.141.128:8834/rtp/225.1.1.146:5002
-#EXTINF:-1 group-title="天津联通-组播1",上海金色学堂
-http://117.8.141.128:8834/rtp/225.1.1.236:5002
-#EXTINF:-1 group-title="天津联通-组播1",上海生活时尚
-http://117.8.141.128:8834/rtp/225.1.1.143:5002
-#EXTINF:-1 group-title="天津联通-组播1",上海哈哈炫动
-http://117.8.141.128:8834/rtp/225.1.1.62:5002
-#EXTINF:-1 group-title="天津联通-组播1",上海纪实人文
-http://117.8.141.128:8834/udp/225.1.2.25:5002
-#EXTINF:-1 group-title="天津联通-组播1",上海魅力足球
-http://117.8.141.128:8834/rtp/225.1.1.137:5002
-#EXTINF:-1 group-title="天津联通-组播1",江苏财富天下
-http://117.8.141.128:8834/rtp/225.1.2.198:5002
-#EXTINF:-1 group-title="天津联通-组播1",江西陶瓷
-http://117.8.141.128:8834/rtp/225.1.1.153:5002
-#EXTINF:-1 group-title="天津联通-组播1",河南武术世界
-http://117.8.141.128:8834/rtp/225.1.2.129:5002
-#EXTINF:-1 group-title="天津联通-组播1",河南文物宝库
-http://117.8.141.128:8834/rtp/225.1.2.105:5002
-#EXTINF:-1 group-title="天津联通-组播1",湖北精彩影视
-http://117.8.141.128:8834/rtp/225.1.1.141:5002
-#EXTINF:-1 group-title="天津联通-组播1",湖北快乐垂钓
-http://117.8.141.128:8834/rtp/225.1.1.92:5002
-#EXTINF:-1 group-title="天津联通-组播1",湖南先锋乒羽
-http://117.8.141.128:8834/rtp/225.1.1.219:5002
-#EXTINF:-1 group-title="天津联通-组播1",湖南茶频道
-http://117.8.141.128:8834/rtp/225.1.2.19:5002
-#EXTINF:-1 group-title="天津联通-组播1",湖南金鹰纪实
-http://117.8.141.128:8834/rtp/225.1.1.124:5002
-#EXTINF:-1 group-title="天津联通-组播1",湖南金鹰卡通
-http://117.8.141.128:8834/rtp/225.1.2.236:5002
-#EXTINF:-1 group-title="天津联通-组播1",重庆汽摩
-http://117.8.141.128:8834/rtp/225.1.1.205:5002
-#EXTINF:-1 group-title="天津联通-组播1",好享购物
-http://117.8.141.128:8834/rtp/225.1.1.224:5002
-#EXTINF:-1 group-title="天津联通-组播1",央广购物
-http://117.8.141.128:8834/rtp/225.1.1.65:5002
-#EXTINF:-1 group-title="天津联通-组播1",中视购物
-http://117.8.141.128:8834/rtp/225.1.2.85:5002
-#EXTINF:-1 group-title="天津联通-组播1",优购物
-http://117.8.141.128:8834/rtp/225.1.1.225:5002
-#EXTINF:-1 group-title="天津联通-组播1",家有购物
-http://117.8.141.128:8834/rtp/225.1.1.226:5002
-#EXTINF:-1 group-title="天津联通-组播1",上海东方购物
-http://117.8.141.128:8834/rtp/225.1.1.223:5002
-#EXTINF:-1 group-title="天津联通-组播1",河东频道
-http://117.8.141.128:8834/rtp/225.1.2.2:5002
-#EXTINF:-1 group-title="天津联通-组播1",河西频道
-http://117.8.141.128:8834/rtp/225.1.2.4:5002
-#EXTINF:-1 group-title="天津联通-组播1",静海电视台
-http://117.8.141.128:8834/rtp/225.1.1.110:5002
-#EXTINF:-1 group-title="天津联通-组播1",蓟州电视台
-http://117.8.141.128:8834/rtp/225.1.1.82:5002
-#EXTINF:-1 group-title="天津联通-组播1",保定电视台
-http://117.8.141.128:8834/rtp/225.1.1.83:5002
-#EXTINF:-1 group-title="天津联通-组播1",上海乐游频道
-http://117.8.141.128:8834/rtp/225.1.1.145:5002
-#EXTINF:-1 group-title="天津联通-组播1",上海欢笑剧场
-http://117.8.141.128:8834/rtp/225.1.1.139:5002
-#EXTINF:-1 group-title="天津联通-组播1",滨海1
-http://117.8.141.128:8834/rtp/225.1.2.7:5002
-#EXTINF:-1 group-title="天津联通-组播1",滨海2
-http://117.8.141.128:8834/rtp/225.1.2.8:5002
-#EXTINF:-1 group-title="天津联通-组播1",河南梨园频道
-http://117.8.141.128:8834/rtp/225.1.2.104:5002
-#EXTINF:-1 group-title="天津联通-组播1",湖北购物
-http://117.8.141.128:8834/rtp/225.1.2.183:5002
-#EXTINF:-1 group-title="天津联通-组播1",4K影视
-http://117.8.141.128:8834/udp/225.1.2.190:5002
-#EXTINF:-1 group-title="天津联通-组播1",4K私享家
-http://117.8.141.128:8834/rtp/225.1.1.156:5002
-#EXTINF:-1 group-title="天津联通-组播1",CCTV高尔夫网球
-http://117.8.141.128:8834/rtp/225.1.2.169:5002
-#EXTINF:-1 group-title="天津联通-组播1",FTV足球
-http://117.8.141.128:8834/rtp/225.1.2.83:5002
-#EXTINF:-1 group-title="天津联通-组播1",GTV游戏竞技
-http://117.8.141.128:8834/rtp/225.1.1.222:5002
-#EXTINF:-1 group-title="天津联通-组播1",GTV网络棋牌
-http://117.8.141.128:8834/rtp/225.1.1.217:5002
-#EXTINF:-1 group-title="天津联通-组播1",三角英语
-http://117.8.141.128:8834/rtp/225.1.2.182:5002
-#EXTINF:-1 group-title="天津联通-组播1",书法
-http://117.8.141.128:8834/rtp/225.1.2.22:5002
-#EXTINF:-1 group-title="天津联通-组播1",大港油田企业
-http://117.8.141.128:8834/rtp/225.1.2.14:5002
-#EXTINF:-1 group-title="天津联通-组播1",家家购物
-http://117.8.141.128:8834/rtp/225.1.1.227:5002
-#EXTINF:-1 group-title="天津联通-组播1",家庭理*
-http://117.8.141.128:8834/rtp/225.1.2.23:5002
-#EXTINF:-1 group-title="天津联通-组播1",幸福剧场
-http://117.8.141.128:8834/rtp/225.1.2.59:5002
-#EXTINF:-1 group-title="天津联通-组播1",幸福娱乐
-http://117.8.141.128:8834/rtp/225.1.2.60:5002
-#EXTINF:-1 group-title="天津联通-组播1",幸福彩
-http://117.8.141.128:8834/rtp/225.1.1.152:5002
-#EXTINF:-1 group-title="天津联通-组播1",快乐生活
-http://117.8.141.128:8834/rtp/225.1.2.24:5002
-#EXTINF:-1 group-title="天津联通-组播1",悦美生活
-http://117.8.141.128:8834/rtp/225.1.2.55:5002
-#EXTINF:-1 group-title="天津联通-组播1",欢乐动漫
-http://117.8.141.128:8834/rtp/225.1.1.132:5002
-#EXTINF:-1 group-title="天津联通-组播1",靓妆
-http://117.8.141.128:8834/rtp/225.1.1.200:5002
-#EXTINF:-1 group-title="天津联通-组播1",风尚生活
-http://117.8.141.128:8834/rtp/225.1.2.58:5002
-#EXTINF:-1 group-title="天津联通-组播1",风尚购物
-http://117.8.141.128:8834/rtp/225.1.2.204:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津卫视
 http://117.12.151.30:4022/rtp/225.1.1.111:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津交通广播
+#EXTINF:-1 group-title="天津联通-组播1",天津交通广播
 http://117.12.151.30:4022/rtp/225.1.1.175:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津体育频道
+#EXTINF:-1 group-title="天津联通-组播1",天津体育频道
 http://117.12.151.30:4022/rtp/225.1.1.122:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津农村广播
+#EXTINF:-1 group-title="天津联通-组播1",天津农村广播
 http://117.12.151.30:4022/rtp/225.1.1.180:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津小说广播
+#EXTINF:-1 group-title="天津联通-组播1",天津小说广播
 http://117.12.151.30:4022/rtp/225.1.1.177:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津少儿
+#EXTINF:-1 group-title="天津联通-组播1",天津少儿
 http://117.12.151.30:4022/rtp/225.1.1.125:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津影视频道
+#EXTINF:-1 group-title="天津联通-组播1",天津影视频道
 http://117.12.151.30:4022/rtp/225.1.1.149:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津教育频道
+#EXTINF:-1 group-title="天津联通-组播1",天津教育频道
 http://117.12.151.30:4022/rtp/225.1.1.129:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津文旅频道
+#EXTINF:-1 group-title="天津联通-组播1",天津文旅频道
 http://117.12.151.30:4022/rtp/225.1.2.123:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津文艺广播
+#EXTINF:-1 group-title="天津联通-组播1",天津文艺广播
 http://117.12.151.30:4022/rtp/225.1.1.171:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津文艺频道
+#EXTINF:-1 group-title="天津联通-组播1",天津文艺频道
 http://117.12.151.30:4022/rtp/225.1.1.131:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津新闻广播
+#EXTINF:-1 group-title="天津联通-组播1",天津新闻广播
 http://117.12.151.30:4022/rtp/225.1.1.173:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津新闻频道
+#EXTINF:-1 group-title="天津联通-组播1",天津新闻频道
 http://117.12.151.30:4022/rtp/225.1.1.130:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津滨海广播
+#EXTINF:-1 group-title="天津联通-组播1",天津滨海广播
 http://117.12.151.30:4022/rtp/225.1.1.178:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津生活广播
+#EXTINF:-1 group-title="天津联通-组播1",天津生活广播
 http://117.12.151.30:4022/rtp/225.1.1.174:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津相声广播
+#EXTINF:-1 group-title="天津联通-组播1",天津相声广播
 http://117.12.151.30:4022/rtp/225.1.1.176:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津经济广播
+#EXTINF:-1 group-title="天津联通-组播1",天津经济广播
 http://117.12.151.30:4022/rtp/225.1.1.172:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津购物自营
+#EXTINF:-1 group-title="天津联通-组播1",天津购物自营
 http://117.12.151.30:4022/rtp/225.1.1.108:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津购物频道
+#EXTINF:-1 group-title="天津联通-组播1",天津购物频道
 http://117.12.151.30:4022/rtp/225.1.1.151:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津都市频道
+#EXTINF:-1 group-title="天津联通-组播1",天津都市频道
 http://117.12.151.30:4022/rtp/225.1.1.128:5002
-#EXTINF:-1 group-title="天津联通-组播2",天津音乐广播
+#EXTINF:-1 group-title="天津联通-组播1",天津音乐广播
 http://117.12.151.30:4022/rtp/225.1.1.179:5002
-#EXTINF:-1 group-title="天津联通-组播2",CCTV-风云足球
+#EXTINF:-1 group-title="天津联通-组播1",CCTV-风云足球
 http://117.12.151.30:4022/rtp/225.1.2.168:5002
-#EXTINF:-1 group-title="天津联通-组播2",CCTV-央视文化精品
+#EXTINF:-1 group-title="天津联通-组播1",CCTV-央视文化精品
 http://117.12.151.30:4022/rtp/225.1.2.177:5002
-#EXTINF:-1 group-title="天津联通-组播2",CCTV-风云音乐
+#EXTINF:-1 group-title="天津联通-组播1",CCTV-风云音乐
 http://117.12.151.30:4022/rtp/225.1.2.176:5002
-#EXTINF:-1 group-title="天津联通-组播2",CCTV-第一剧场
+#EXTINF:-1 group-title="天津联通-组播1",CCTV-第一剧场
 http://117.12.151.30:4022/rtp/225.1.2.175:5002
-#EXTINF:-1 group-title="天津联通-组播2",CCTV-怀旧剧场
+#EXTINF:-1 group-title="天津联通-组播1",CCTV-怀旧剧场
 http://117.12.151.30:4022/rtp/225.1.2.173:5002
-#EXTINF:-1 group-title="天津联通-组播2",CCTV-风云剧场
+#EXTINF:-1 group-title="天津联通-组播1",CCTV-风云剧场
 http://117.12.151.30:4022/rtp/225.1.2.174:5002
-#EXTINF:-1 group-title="天津联通-组播2",CCTV-世界地理
+#EXTINF:-1 group-title="天津联通-组播1",CCTV-世界地理
 http://117.12.151.30:4022/rtp/225.1.2.171:5002
-#EXTINF:-1 group-title="天津联通-组播2",CCTV-电视指南
+#EXTINF:-1 group-title="天津联通-组播1",CCTV-电视指南
 http://117.12.151.30:4022/rtp/225.1.2.167:5002
-#EXTINF:-1 group-title="天津联通-组播2",CCTV-兵器科技
+#EXTINF:-1 group-title="天津联通-组播1",CCTV-兵器科技
 http://117.12.151.30:4022/rtp/225.1.2.166:5002
-#EXTINF:-1 group-title="天津联通-组播2",CCTV-女性时尚
+#EXTINF:-1 group-title="天津联通-组播1",CCTV-女性时尚
 http://117.12.151.30:4022/rtp/225.1.2.172:5002
-#EXTINF:-1 group-title="天津联通-组播2",CCTV-央视台球
+#EXTINF:-1 group-title="天津联通-组播1",CCTV-央视台球
 http://117.12.151.30:4022/rtp/225.1.2.170:5002
-#EXTINF:-1 group-title="天津联通-组播2",CGTN英语
+#EXTINF:-1 group-title="天津联通-组播1",CGTN英语
 http://117.12.151.30:4022/rtp/225.1.1.27:5002
-#EXTINF:-1 group-title="天津联通-组播2",CGTN纪录
+#EXTINF:-1 group-title="天津联通-组播1",CGTN纪录
 http://117.12.151.30:4022/rtp/225.1.1.55:5002
-#EXTINF:-1 group-title="天津联通-组播2",CETV早期教育
+#EXTINF:-1 group-title="天津联通-组播1",CETV早期教育
 http://117.12.151.30:4022/rtp/225.1.2.207:5002
-#EXTINF:-1 group-title="天津联通-组播2",CHC家庭影院
+#EXTINF:-1 group-title="天津联通-组播1",CHC家庭影院
 http://117.12.151.30:4022/rtp/225.1.1.213:5002
-#EXTINF:-1 group-title="天津联通-组播2",CHC影迷电影
+#EXTINF:-1 group-title="天津联通-组播1",CHC影迷电影
 http://117.12.151.30:4022/rtp/225.1.1.214:5002
-#EXTINF:-1 group-title="天津联通-组播2",CHC动作电影
+#EXTINF:-1 group-title="天津联通-组播1",CHC动作电影
 http://117.12.151.30:4022/rtp/225.1.1.215:5002
-#EXTINF:-1 group-title="天津联通-组播2",聚鲨环球精选
+#EXTINF:-1 group-title="天津联通-组播1",聚鲨环球精选
 http://117.12.151.30:4022/rtp/225.1.1.102:5002
-#EXTINF:-1 group-title="天津联通-组播2",环球奇观
+#EXTINF:-1 group-title="天津联通-组播1",环球奇观
 http://117.12.151.30:4022/rtp/225.1.1.197:5002
-#EXTINF:-1 group-title="天津联通-组播2",中国交通
+#EXTINF:-1 group-title="天津联通-组播1",中国交通
 http://117.12.151.30:4022/rtp/225.1.2.57:5002
-#EXTINF:-1 group-title="天津联通-组播2",老故事
+#EXTINF:-1 group-title="天津联通-组播1",老故事
 http://117.12.151.30:4022/rtp/225.1.1.188:5002
-#EXTINF:-1 group-title="天津联通-组播2",中学生
+#EXTINF:-1 group-title="天津联通-组播1",中学生
 http://117.12.151.30:4022/rtp/225.1.1.193:5002
-#EXTINF:-1 group-title="天津联通-组播2",中国天气
+#EXTINF:-1 group-title="天津联通-组播1",中国天气
 http://117.12.151.30:4022/rtp/225.1.2.119:5002
-#EXTINF:-1 group-title="天津联通-组播2",北京优优宝贝
+#EXTINF:-1 group-title="天津联通-组播1",北京优优宝贝
 http://117.12.151.30:4022/rtp/225.1.2.203:5002
-#EXTINF:-1 group-title="天津联通-组播2",北京中华特产
+#EXTINF:-1 group-title="天津联通-组播1",北京中华特产
 http://117.12.151.30:4022/rtp/225.1.2.197:5002
-#EXTINF:-1 group-title="天津联通-组播2",北京四海钓鱼
+#EXTINF:-1 group-title="天津联通-组播1",北京四海钓鱼
 http://117.12.151.30:4022/rtp/225.1.2.202:5002
-#EXTINF:-1 group-title="天津联通-组播2",北京环球旅游
+#EXTINF:-1 group-title="天津联通-组播1",北京环球旅游
 http://117.12.151.30:4022/rtp/225.1.2.200:5002
-#EXTINF:-1 group-title="天津联通-组播2",北京生态环境
+#EXTINF:-1 group-title="天津联通-组播1",北京生态环境
 http://117.12.151.30:4022/rtp/225.1.2.201:5002
-#EXTINF:-1 group-title="天津联通-组播2",北京车迷频道
+#EXTINF:-1 group-title="天津联通-组播1",北京车迷频道
 http://117.12.151.30:4022/rtp/225.1.2.199:5002
-#EXTINF:-1 group-title="天津联通-组播2",北京卡酷少儿
+#EXTINF:-1 group-title="天津联通-组播1",北京卡酷少儿
 http://117.12.151.30:4022/rtp/225.1.1.58:5002
-#EXTINF:-1 group-title="天津联通-组播2",辽宁新动漫
+#EXTINF:-1 group-title="天津联通-组播1",辽宁新动漫
 http://117.12.151.30:4022/rtp/225.1.1.216:5002
-#EXTINF:-1 group-title="天津联通-组播2",上海东方财经
+#EXTINF:-1 group-title="天津联通-组播1",上海东方财经
 http://117.12.151.30:4022/rtp/225.1.1.247:5002
-#EXTINF:-1 group-title="天津联通-组播2",上海动漫秀场
+#EXTINF:-1 group-title="天津联通-组播1",上海动漫秀场
 http://117.12.151.30:4022/rtp/225.1.1.134:5002
-#EXTINF:-1 group-title="天津联通-组播2",上海游戏风云
+#EXTINF:-1 group-title="天津联通-组播1",上海游戏风云
 http://117.12.151.30:4022/rtp/225.1.1.135:5002
-#EXTINF:-1 group-title="天津联通-组播2",上海法治天地
+#EXTINF:-1 group-title="天津联通-组播1",上海法治天地
 http://117.12.151.30:4022/rtp/225.1.1.237:5002
-#EXTINF:-1 group-title="天津联通-组播2",上海都市剧场
+#EXTINF:-1 group-title="天津联通-组播1",上海都市剧场
 http://117.12.151.30:4022/rtp/225.1.1.146:5002
-#EXTINF:-1 group-title="天津联通-组播2",上海金色学堂
+#EXTINF:-1 group-title="天津联通-组播1",上海金色学堂
 http://117.12.151.30:4022/rtp/225.1.1.236:5002
-#EXTINF:-1 group-title="天津联通-组播2",上海生活时尚
+#EXTINF:-1 group-title="天津联通-组播1",上海生活时尚
 http://117.12.151.30:4022/rtp/225.1.1.143:5002
-#EXTINF:-1 group-title="天津联通-组播2",上海哈哈炫动
+#EXTINF:-1 group-title="天津联通-组播1",上海哈哈炫动
 http://117.12.151.30:4022/rtp/225.1.1.62:5002
-#EXTINF:-1 group-title="天津联通-组播2",上海纪实人文
+#EXTINF:-1 group-title="天津联通-组播1",上海纪实人文
 http://117.12.151.30:4022/udp/225.1.2.25:5002
-#EXTINF:-1 group-title="天津联通-组播2",上海魅力足球
+#EXTINF:-1 group-title="天津联通-组播1",上海魅力足球
 http://117.12.151.30:4022/rtp/225.1.1.137:5002
-#EXTINF:-1 group-title="天津联通-组播2",江苏财富天下
+#EXTINF:-1 group-title="天津联通-组播1",江苏财富天下
 http://117.12.151.30:4022/rtp/225.1.2.198:5002
-#EXTINF:-1 group-title="天津联通-组播2",江西陶瓷
+#EXTINF:-1 group-title="天津联通-组播1",江西陶瓷
 http://117.12.151.30:4022/rtp/225.1.1.153:5002
-#EXTINF:-1 group-title="天津联通-组播2",河南武术世界
+#EXTINF:-1 group-title="天津联通-组播1",河南武术世界
 http://117.12.151.30:4022/rtp/225.1.2.129:5002
-#EXTINF:-1 group-title="天津联通-组播2",河南文物宝库
+#EXTINF:-1 group-title="天津联通-组播1",河南文物宝库
 http://117.12.151.30:4022/rtp/225.1.2.105:5002
-#EXTINF:-1 group-title="天津联通-组播2",湖北精彩影视
+#EXTINF:-1 group-title="天津联通-组播1",湖北精彩影视
 http://117.12.151.30:4022/rtp/225.1.1.141:5002
-#EXTINF:-1 group-title="天津联通-组播2",湖北快乐垂钓
+#EXTINF:-1 group-title="天津联通-组播1",湖北快乐垂钓
 http://117.12.151.30:4022/rtp/225.1.1.92:5002
-#EXTINF:-1 group-title="天津联通-组播2",湖南先锋乒羽
+#EXTINF:-1 group-title="天津联通-组播1",湖南先锋乒羽
 http://117.12.151.30:4022/rtp/225.1.1.219:5002
-#EXTINF:-1 group-title="天津联通-组播2",湖南茶频道
+#EXTINF:-1 group-title="天津联通-组播1",湖南茶频道
 http://117.12.151.30:4022/rtp/225.1.2.19:5002
-#EXTINF:-1 group-title="天津联通-组播2",湖南金鹰纪实
+#EXTINF:-1 group-title="天津联通-组播1",湖南金鹰纪实
 http://117.12.151.30:4022/rtp/225.1.1.124:5002
-#EXTINF:-1 group-title="天津联通-组播2",湖南金鹰卡通
+#EXTINF:-1 group-title="天津联通-组播1",湖南金鹰卡通
 http://117.12.151.30:4022/rtp/225.1.2.236:5002
-#EXTINF:-1 group-title="天津联通-组播2",重庆汽摩
+#EXTINF:-1 group-title="天津联通-组播1",重庆汽摩
 http://117.12.151.30:4022/rtp/225.1.1.205:5002
-#EXTINF:-1 group-title="天津联通-组播2",好享购物
+#EXTINF:-1 group-title="天津联通-组播1",好享购物
 http://117.12.151.30:4022/rtp/225.1.1.224:5002
-#EXTINF:-1 group-title="天津联通-组播2",央广购物
+#EXTINF:-1 group-title="天津联通-组播1",央广购物
 http://117.12.151.30:4022/rtp/225.1.1.65:5002
-#EXTINF:-1 group-title="天津联通-组播2",中视购物
+#EXTINF:-1 group-title="天津联通-组播1",中视购物
 http://117.12.151.30:4022/rtp/225.1.2.85:5002
-#EXTINF:-1 group-title="天津联通-组播2",优购物
+#EXTINF:-1 group-title="天津联通-组播1",优购物
 http://117.12.151.30:4022/rtp/225.1.1.225:5002
-#EXTINF:-1 group-title="天津联通-组播2",家有购物
+#EXTINF:-1 group-title="天津联通-组播1",家有购物
 http://117.12.151.30:4022/rtp/225.1.1.226:5002
-#EXTINF:-1 group-title="天津联通-组播2",上海东方购物
+#EXTINF:-1 group-title="天津联通-组播1",上海东方购物
 http://117.12.151.30:4022/rtp/225.1.1.223:5002
-#EXTINF:-1 group-title="天津联通-组播2",河东频道
+#EXTINF:-1 group-title="天津联通-组播1",河东频道
 http://117.12.151.30:4022/rtp/225.1.2.2:5002
-#EXTINF:-1 group-title="天津联通-组播2",河西频道
+#EXTINF:-1 group-title="天津联通-组播1",河西频道
 http://117.12.151.30:4022/rtp/225.1.2.4:5002
-#EXTINF:-1 group-title="天津联通-组播2",静海电视台
+#EXTINF:-1 group-title="天津联通-组播1",静海电视台
 http://117.12.151.30:4022/rtp/225.1.1.110:5002
-#EXTINF:-1 group-title="天津联通-组播2",蓟州电视台
+#EXTINF:-1 group-title="天津联通-组播1",蓟州电视台
 http://117.12.151.30:4022/rtp/225.1.1.82:5002
-#EXTINF:-1 group-title="天津联通-组播2",保定电视台
+#EXTINF:-1 group-title="天津联通-组播1",保定电视台
 http://117.12.151.30:4022/rtp/225.1.1.83:5002
-#EXTINF:-1 group-title="天津联通-组播2",上海乐游频道
+#EXTINF:-1 group-title="天津联通-组播1",上海乐游频道
 http://117.12.151.30:4022/rtp/225.1.1.145:5002
-#EXTINF:-1 group-title="天津联通-组播2",上海欢笑剧场
+#EXTINF:-1 group-title="天津联通-组播1",上海欢笑剧场
 http://117.12.151.30:4022/rtp/225.1.1.139:5002
-#EXTINF:-1 group-title="天津联通-组播2",滨海1
+#EXTINF:-1 group-title="天津联通-组播1",滨海1
 http://117.12.151.30:4022/rtp/225.1.2.7:5002
-#EXTINF:-1 group-title="天津联通-组播2",滨海2
+#EXTINF:-1 group-title="天津联通-组播1",滨海2
 http://117.12.151.30:4022/rtp/225.1.2.8:5002
-#EXTINF:-1 group-title="天津联通-组播2",河南梨园频道
+#EXTINF:-1 group-title="天津联通-组播1",河南梨园频道
 http://117.12.151.30:4022/rtp/225.1.2.104:5002
-#EXTINF:-1 group-title="天津联通-组播2",湖北购物
+#EXTINF:-1 group-title="天津联通-组播1",湖北购物
 http://117.12.151.30:4022/rtp/225.1.2.183:5002
-#EXTINF:-1 group-title="天津联通-组播2",4K影视
+#EXTINF:-1 group-title="天津联通-组播1",4K影视
 http://117.12.151.30:4022/udp/225.1.2.190:5002
-#EXTINF:-1 group-title="天津联通-组播2",4K私享家
+#EXTINF:-1 group-title="天津联通-组播1",4K私享家
 http://117.12.151.30:4022/rtp/225.1.1.156:5002
-#EXTINF:-1 group-title="天津联通-组播2",CCTV高尔夫网球
+#EXTINF:-1 group-title="天津联通-组播1",CCTV高尔夫网球
 http://117.12.151.30:4022/rtp/225.1.2.169:5002
-#EXTINF:-1 group-title="天津联通-组播2",FTV足球
+#EXTINF:-1 group-title="天津联通-组播1",FTV足球
 http://117.12.151.30:4022/rtp/225.1.2.83:5002
-#EXTINF:-1 group-title="天津联通-组播2",GTV游戏竞技
+#EXTINF:-1 group-title="天津联通-组播1",GTV游戏竞技
 http://117.12.151.30:4022/rtp/225.1.1.222:5002
-#EXTINF:-1 group-title="天津联通-组播2",GTV网络棋牌
+#EXTINF:-1 group-title="天津联通-组播1",GTV网络棋牌
 http://117.12.151.30:4022/rtp/225.1.1.217:5002
-#EXTINF:-1 group-title="天津联通-组播2",三角英语
+#EXTINF:-1 group-title="天津联通-组播1",三角英语
 http://117.12.151.30:4022/rtp/225.1.2.182:5002
-#EXTINF:-1 group-title="天津联通-组播2",书法
+#EXTINF:-1 group-title="天津联通-组播1",书法
 http://117.12.151.30:4022/rtp/225.1.2.22:5002
-#EXTINF:-1 group-title="天津联通-组播2",大港油田企业
+#EXTINF:-1 group-title="天津联通-组播1",大港油田企业
 http://117.12.151.30:4022/rtp/225.1.2.14:5002
-#EXTINF:-1 group-title="天津联通-组播2",家家购物
+#EXTINF:-1 group-title="天津联通-组播1",家家购物
 http://117.12.151.30:4022/rtp/225.1.1.227:5002
-#EXTINF:-1 group-title="天津联通-组播2",家庭理*
+#EXTINF:-1 group-title="天津联通-组播1",家庭理*
 http://117.12.151.30:4022/rtp/225.1.2.23:5002
-#EXTINF:-1 group-title="天津联通-组播2",幸福剧场
+#EXTINF:-1 group-title="天津联通-组播1",幸福剧场
 http://117.12.151.30:4022/rtp/225.1.2.59:5002
-#EXTINF:-1 group-title="天津联通-组播2",幸福娱乐
+#EXTINF:-1 group-title="天津联通-组播1",幸福娱乐
 http://117.12.151.30:4022/rtp/225.1.2.60:5002
-#EXTINF:-1 group-title="天津联通-组播2",幸福彩
+#EXTINF:-1 group-title="天津联通-组播1",幸福彩
 http://117.12.151.30:4022/rtp/225.1.1.152:5002
-#EXTINF:-1 group-title="天津联通-组播2",快乐生活
+#EXTINF:-1 group-title="天津联通-组播1",快乐生活
 http://117.12.151.30:4022/rtp/225.1.2.24:5002
-#EXTINF:-1 group-title="天津联通-组播2",悦美生活
+#EXTINF:-1 group-title="天津联通-组播1",悦美生活
 http://117.12.151.30:4022/rtp/225.1.2.55:5002
-#EXTINF:-1 group-title="天津联通-组播2",欢乐动漫
+#EXTINF:-1 group-title="天津联通-组播1",欢乐动漫
 http://117.12.151.30:4022/rtp/225.1.1.132:5002
-#EXTINF:-1 group-title="天津联通-组播2",靓妆
+#EXTINF:-1 group-title="天津联通-组播1",靓妆
 http://117.12.151.30:4022/rtp/225.1.1.200:5002
-#EXTINF:-1 group-title="天津联通-组播2",风尚生活
+#EXTINF:-1 group-title="天津联通-组播1",风尚生活
 http://117.12.151.30:4022/rtp/225.1.2.58:5002
-#EXTINF:-1 group-title="天津联通-组播2",风尚购物
+#EXTINF:-1 group-title="天津联通-组播1",风尚购物
 http://117.12.151.30:4022/rtp/225.1.2.204:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津卫视
-http://117.8.140.88:8834/rtp/225.1.1.111:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津交通广播
-http://117.8.140.88:8834/rtp/225.1.1.175:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津体育频道
-http://117.8.140.88:8834/rtp/225.1.1.122:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津农村广播
-http://117.8.140.88:8834/rtp/225.1.1.180:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津小说广播
-http://117.8.140.88:8834/rtp/225.1.1.177:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津少儿
-http://117.8.140.88:8834/rtp/225.1.1.125:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津影视频道
-http://117.8.140.88:8834/rtp/225.1.1.149:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津教育频道
-http://117.8.140.88:8834/rtp/225.1.1.129:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津文旅频道
-http://117.8.140.88:8834/rtp/225.1.2.123:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津文艺广播
-http://117.8.140.88:8834/rtp/225.1.1.171:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津文艺频道
-http://117.8.140.88:8834/rtp/225.1.1.131:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津新闻广播
-http://117.8.140.88:8834/rtp/225.1.1.173:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津新闻频道
-http://117.8.140.88:8834/rtp/225.1.1.130:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津滨海广播
-http://117.8.140.88:8834/rtp/225.1.1.178:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津生活广播
-http://117.8.140.88:8834/rtp/225.1.1.174:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津相声广播
-http://117.8.140.88:8834/rtp/225.1.1.176:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津经济广播
-http://117.8.140.88:8834/rtp/225.1.1.172:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津购物自营
-http://117.8.140.88:8834/rtp/225.1.1.108:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津购物频道
-http://117.8.140.88:8834/rtp/225.1.1.151:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津都市频道
-http://117.8.140.88:8834/rtp/225.1.1.128:5002
-#EXTINF:-1 group-title="天津联通-组播3",天津音乐广播
-http://117.8.140.88:8834/rtp/225.1.1.179:5002
-#EXTINF:-1 group-title="天津联通-组播3",CCTV-风云足球
-http://117.8.140.88:8834/rtp/225.1.2.168:5002
-#EXTINF:-1 group-title="天津联通-组播3",CCTV-央视文化精品
-http://117.8.140.88:8834/rtp/225.1.2.177:5002
-#EXTINF:-1 group-title="天津联通-组播3",CCTV-风云音乐
-http://117.8.140.88:8834/rtp/225.1.2.176:5002
-#EXTINF:-1 group-title="天津联通-组播3",CCTV-第一剧场
-http://117.8.140.88:8834/rtp/225.1.2.175:5002
-#EXTINF:-1 group-title="天津联通-组播3",CCTV-怀旧剧场
-http://117.8.140.88:8834/rtp/225.1.2.173:5002
-#EXTINF:-1 group-title="天津联通-组播3",CCTV-风云剧场
-http://117.8.140.88:8834/rtp/225.1.2.174:5002
-#EXTINF:-1 group-title="天津联通-组播3",CCTV-世界地理
-http://117.8.140.88:8834/rtp/225.1.2.171:5002
-#EXTINF:-1 group-title="天津联通-组播3",CCTV-电视指南
-http://117.8.140.88:8834/rtp/225.1.2.167:5002
-#EXTINF:-1 group-title="天津联通-组播3",CCTV-兵器科技
-http://117.8.140.88:8834/rtp/225.1.2.166:5002
-#EXTINF:-1 group-title="天津联通-组播3",CCTV-女性时尚
-http://117.8.140.88:8834/rtp/225.1.2.172:5002
-#EXTINF:-1 group-title="天津联通-组播3",CCTV-央视台球
-http://117.8.140.88:8834/rtp/225.1.2.170:5002
-#EXTINF:-1 group-title="天津联通-组播3",CGTN英语
-http://117.8.140.88:8834/rtp/225.1.1.27:5002
-#EXTINF:-1 group-title="天津联通-组播3",CGTN纪录
-http://117.8.140.88:8834/rtp/225.1.1.55:5002
-#EXTINF:-1 group-title="天津联通-组播3",CETV早期教育
-http://117.8.140.88:8834/rtp/225.1.2.207:5002
-#EXTINF:-1 group-title="天津联通-组播3",CHC家庭影院
-http://117.8.140.88:8834/rtp/225.1.1.213:5002
-#EXTINF:-1 group-title="天津联通-组播3",CHC影迷电影
-http://117.8.140.88:8834/rtp/225.1.1.214:5002
-#EXTINF:-1 group-title="天津联通-组播3",CHC动作电影
-http://117.8.140.88:8834/rtp/225.1.1.215:5002
-#EXTINF:-1 group-title="天津联通-组播3",聚鲨环球精选
-http://117.8.140.88:8834/rtp/225.1.1.102:5002
-#EXTINF:-1 group-title="天津联通-组播3",环球奇观
-http://117.8.140.88:8834/rtp/225.1.1.197:5002
-#EXTINF:-1 group-title="天津联通-组播3",中国交通
-http://117.8.140.88:8834/rtp/225.1.2.57:5002
-#EXTINF:-1 group-title="天津联通-组播3",老故事
-http://117.8.140.88:8834/rtp/225.1.1.188:5002
-#EXTINF:-1 group-title="天津联通-组播3",中学生
-http://117.8.140.88:8834/rtp/225.1.1.193:5002
-#EXTINF:-1 group-title="天津联通-组播3",中国天气
-http://117.8.140.88:8834/rtp/225.1.2.119:5002
-#EXTINF:-1 group-title="天津联通-组播3",北京优优宝贝
-http://117.8.140.88:8834/rtp/225.1.2.203:5002
-#EXTINF:-1 group-title="天津联通-组播3",北京中华特产
-http://117.8.140.88:8834/rtp/225.1.2.197:5002
-#EXTINF:-1 group-title="天津联通-组播3",北京四海钓鱼
-http://117.8.140.88:8834/rtp/225.1.2.202:5002
-#EXTINF:-1 group-title="天津联通-组播3",北京环球旅游
-http://117.8.140.88:8834/rtp/225.1.2.200:5002
-#EXTINF:-1 group-title="天津联通-组播3",北京生态环境
-http://117.8.140.88:8834/rtp/225.1.2.201:5002
-#EXTINF:-1 group-title="天津联通-组播3",北京车迷频道
-http://117.8.140.88:8834/rtp/225.1.2.199:5002
-#EXTINF:-1 group-title="天津联通-组播3",北京卡酷少儿
-http://117.8.140.88:8834/rtp/225.1.1.58:5002
-#EXTINF:-1 group-title="天津联通-组播3",辽宁新动漫
-http://117.8.140.88:8834/rtp/225.1.1.216:5002
-#EXTINF:-1 group-title="天津联通-组播3",上海东方财经
-http://117.8.140.88:8834/rtp/225.1.1.247:5002
-#EXTINF:-1 group-title="天津联通-组播3",上海动漫秀场
-http://117.8.140.88:8834/rtp/225.1.1.134:5002
-#EXTINF:-1 group-title="天津联通-组播3",上海游戏风云
-http://117.8.140.88:8834/rtp/225.1.1.135:5002
-#EXTINF:-1 group-title="天津联通-组播3",上海法治天地
-http://117.8.140.88:8834/rtp/225.1.1.237:5002
-#EXTINF:-1 group-title="天津联通-组播3",上海都市剧场
-http://117.8.140.88:8834/rtp/225.1.1.146:5002
-#EXTINF:-1 group-title="天津联通-组播3",上海金色学堂
-http://117.8.140.88:8834/rtp/225.1.1.236:5002
-#EXTINF:-1 group-title="天津联通-组播3",上海生活时尚
-http://117.8.140.88:8834/rtp/225.1.1.143:5002
-#EXTINF:-1 group-title="天津联通-组播3",上海哈哈炫动
-http://117.8.140.88:8834/rtp/225.1.1.62:5002
-#EXTINF:-1 group-title="天津联通-组播3",上海纪实人文
-http://117.8.140.88:8834/udp/225.1.2.25:5002
-#EXTINF:-1 group-title="天津联通-组播3",上海魅力足球
-http://117.8.140.88:8834/rtp/225.1.1.137:5002
-#EXTINF:-1 group-title="天津联通-组播3",江苏财富天下
-http://117.8.140.88:8834/rtp/225.1.2.198:5002
-#EXTINF:-1 group-title="天津联通-组播3",江西陶瓷
-http://117.8.140.88:8834/rtp/225.1.1.153:5002
-#EXTINF:-1 group-title="天津联通-组播3",河南武术世界
-http://117.8.140.88:8834/rtp/225.1.2.129:5002
-#EXTINF:-1 group-title="天津联通-组播3",河南文物宝库
-http://117.8.140.88:8834/rtp/225.1.2.105:5002
-#EXTINF:-1 group-title="天津联通-组播3",湖北精彩影视
-http://117.8.140.88:8834/rtp/225.1.1.141:5002
-#EXTINF:-1 group-title="天津联通-组播3",湖北快乐垂钓
-http://117.8.140.88:8834/rtp/225.1.1.92:5002
-#EXTINF:-1 group-title="天津联通-组播3",湖南先锋乒羽
-http://117.8.140.88:8834/rtp/225.1.1.219:5002
-#EXTINF:-1 group-title="天津联通-组播3",湖南茶频道
-http://117.8.140.88:8834/rtp/225.1.2.19:5002
-#EXTINF:-1 group-title="天津联通-组播3",湖南金鹰纪实
-http://117.8.140.88:8834/rtp/225.1.1.124:5002
-#EXTINF:-1 group-title="天津联通-组播3",湖南金鹰卡通
-http://117.8.140.88:8834/rtp/225.1.2.236:5002
-#EXTINF:-1 group-title="天津联通-组播3",重庆汽摩
-http://117.8.140.88:8834/rtp/225.1.1.205:5002
-#EXTINF:-1 group-title="天津联通-组播3",好享购物
-http://117.8.140.88:8834/rtp/225.1.1.224:5002
-#EXTINF:-1 group-title="天津联通-组播3",央广购物
-http://117.8.140.88:8834/rtp/225.1.1.65:5002
-#EXTINF:-1 group-title="天津联通-组播3",中视购物
-http://117.8.140.88:8834/rtp/225.1.2.85:5002
-#EXTINF:-1 group-title="天津联通-组播3",优购物
-http://117.8.140.88:8834/rtp/225.1.1.225:5002
-#EXTINF:-1 group-title="天津联通-组播3",家有购物
-http://117.8.140.88:8834/rtp/225.1.1.226:5002
-#EXTINF:-1 group-title="天津联通-组播3",上海东方购物
-http://117.8.140.88:8834/rtp/225.1.1.223:5002
-#EXTINF:-1 group-title="天津联通-组播3",河东频道
-http://117.8.140.88:8834/rtp/225.1.2.2:5002
-#EXTINF:-1 group-title="天津联通-组播3",河西频道
-http://117.8.140.88:8834/rtp/225.1.2.4:5002
-#EXTINF:-1 group-title="天津联通-组播3",静海电视台
-http://117.8.140.88:8834/rtp/225.1.1.110:5002
-#EXTINF:-1 group-title="天津联通-组播3",蓟州电视台
-http://117.8.140.88:8834/rtp/225.1.1.82:5002
-#EXTINF:-1 group-title="天津联通-组播3",保定电视台
-http://117.8.140.88:8834/rtp/225.1.1.83:5002
-#EXTINF:-1 group-title="天津联通-组播3",上海乐游频道
-http://117.8.140.88:8834/rtp/225.1.1.145:5002
-#EXTINF:-1 group-title="天津联通-组播3",上海欢笑剧场
-http://117.8.140.88:8834/rtp/225.1.1.139:5002
-#EXTINF:-1 group-title="天津联通-组播3",滨海1
-http://117.8.140.88:8834/rtp/225.1.2.7:5002
-#EXTINF:-1 group-title="天津联通-组播3",滨海2
-http://117.8.140.88:8834/rtp/225.1.2.8:5002
-#EXTINF:-1 group-title="天津联通-组播3",河南梨园频道
-http://117.8.140.88:8834/rtp/225.1.2.104:5002
-#EXTINF:-1 group-title="天津联通-组播3",湖北购物
-http://117.8.140.88:8834/rtp/225.1.2.183:5002
-#EXTINF:-1 group-title="天津联通-组播3",4K影视
-http://117.8.140.88:8834/udp/225.1.2.190:5002
-#EXTINF:-1 group-title="天津联通-组播3",4K私享家
-http://117.8.140.88:8834/rtp/225.1.1.156:5002
-#EXTINF:-1 group-title="天津联通-组播3",CCTV高尔夫网球
-http://117.8.140.88:8834/rtp/225.1.2.169:5002
-#EXTINF:-1 group-title="天津联通-组播3",FTV足球
-http://117.8.140.88:8834/rtp/225.1.2.83:5002
-#EXTINF:-1 group-title="天津联通-组播3",GTV游戏竞技
-http://117.8.140.88:8834/rtp/225.1.1.222:5002
-#EXTINF:-1 group-title="天津联通-组播3",GTV网络棋牌
-http://117.8.140.88:8834/rtp/225.1.1.217:5002
-#EXTINF:-1 group-title="天津联通-组播3",三角英语
-http://117.8.140.88:8834/rtp/225.1.2.182:5002
-#EXTINF:-1 group-title="天津联通-组播3",书法
-http://117.8.140.88:8834/rtp/225.1.2.22:5002
-#EXTINF:-1 group-title="天津联通-组播3",大港油田企业
-http://117.8.140.88:8834/rtp/225.1.2.14:5002
-#EXTINF:-1 group-title="天津联通-组播3",家家购物
-http://117.8.140.88:8834/rtp/225.1.1.227:5002
-#EXTINF:-1 group-title="天津联通-组播3",家庭理*
-http://117.8.140.88:8834/rtp/225.1.2.23:5002
-#EXTINF:-1 group-title="天津联通-组播3",幸福剧场
-http://117.8.140.88:8834/rtp/225.1.2.59:5002
-#EXTINF:-1 group-title="天津联通-组播3",幸福娱乐
-http://117.8.140.88:8834/rtp/225.1.2.60:5002
-#EXTINF:-1 group-title="天津联通-组播3",幸福彩
-http://117.8.140.88:8834/rtp/225.1.1.152:5002
-#EXTINF:-1 group-title="天津联通-组播3",快乐生活
-http://117.8.140.88:8834/rtp/225.1.2.24:5002
-#EXTINF:-1 group-title="天津联通-组播3",悦美生活
-http://117.8.140.88:8834/rtp/225.1.2.55:5002
-#EXTINF:-1 group-title="天津联通-组播3",欢乐动漫
-http://117.8.140.88:8834/rtp/225.1.1.132:5002
-#EXTINF:-1 group-title="天津联通-组播3",靓妆
-http://117.8.140.88:8834/rtp/225.1.1.200:5002
-#EXTINF:-1 group-title="天津联通-组播3",风尚生活
-http://117.8.140.88:8834/rtp/225.1.2.58:5002
-#EXTINF:-1 group-title="天津联通-组播3",风尚购物
-http://117.8.140.88:8834/rtp/225.1.2.204:5002
 #EXTINF:-1 group-title="安徽电信-组播1",安徽卫视
 http://183.162.205.235:4022/rtp/238.1.78.150:7072
 #EXTINF:-1 group-title="安徽电信-组播1",安徽卫视
@@ -34882,952 +34288,478 @@ http://171.119.206.163:6000/rtp/226.0.2.112:8808
 #EXTINF:-1 group-title="山西联通-组播2",阳曲
 http://171.119.206.163:6000/rtp/226.0.2.196:9480
 #EXTINF:-1 group-title="陕西电信-组播1",陕西卫视
-http://tiger81.i234.me:8888/rtp/239.109.205.66:8464
-#EXTINF:-1 group-title="陕西电信-组播1",陕西卫视
-http://tiger81.i234.me:8888/rtp/239.109.205.107:8792
-#EXTINF:-1 group-title="陕西电信-组播1",陕西卫视
-http://tiger81.i234.me:8888/rtp/239.111.205.35:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陕西卫视
-http://tiger81.i234.me:8888/rtp/239.112.205.17:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陕西1套
-http://tiger81.i234.me:8888/rtp/239.109.205.2:9120
-#EXTINF:-1 group-title="陕西电信-组播1",陕西1套
-http://tiger81.i234.me:8888/rtp/239.110.205.83:7944
-#EXTINF:-1 group-title="陕西电信-组播1",陕西1套
-http://tiger81.i234.me:8888/rtp/239.112.205.18:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陕西2套
-http://tiger81.i234.me:8888/rtp/239.109.205.3:9128
-#EXTINF:-1 group-title="陕西电信-组播1",陕西2套
-http://tiger81.i234.me:8888/rtp/239.110.205.84:7940
-#EXTINF:-1 group-title="陕西电信-组播1",陕西2套
-http://tiger81.i234.me:8888/rtp/239.112.205.19:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陕西3套
-http://tiger81.i234.me:8888/rtp/239.109.205.4:9136
-#EXTINF:-1 group-title="陕西电信-组播1",陕西4套
-http://tiger81.i234.me:8888/rtp/239.109.205.5:9144
-#EXTINF:-1 group-title="陕西电信-组播1",陕西5套
-http://tiger81.i234.me:8888/rtp/239.109.205.6:9152
-#EXTINF:-1 group-title="陕西电信-组播1",陕西6套
-http://tiger81.i234.me:8888/rtp/239.109.205.7:9160
-#EXTINF:-1 group-title="陕西电信-组播1",陕西6套
-http://tiger81.i234.me:8888/rtp/239.112.205.23:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陕西7套
-http://tiger81.i234.me:8888/rtp/239.109.205.8:9168
-#EXTINF:-1 group-title="陕西电信-组播1",陕西7套
-http://tiger81.i234.me:8888/rtp/239.110.205.85:7936
-#EXTINF:-1 group-title="陕西电信-组播1",陕西7套
-http://tiger81.i234.me:8888/rtp/239.112.205.24:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陕西8套
-http://tiger81.i234.me:8888/rtp/239.109.205.217:9706
-#EXTINF:-1 group-title="陕西电信-组播1",陕西体育休闲
-http://tiger81.i234.me:8888/rtp/239.111.205.36:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陕西公共
-http://tiger81.i234.me:8888/rtp/239.111.205.100:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陕西农林卫视
-http://tiger81.i234.me:8888/rtp/239.112.205.26:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陕西影视
-http://tiger81.i234.me:8888/rtp/239.112.205.21:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陕西新闻资讯
-http://tiger81.i234.me:8888/rtp/239.111.205.28:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陕西生活
-http://tiger81.i234.me:8888/rtp/239.111.205.98:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陕西秦腔频道
-http://tiger81.i234.me:8888/rtp/239.112.205.22:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陕西西部电影
-http://tiger81.i234.me:8888/rtp/239.111.205.41:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陕西都市青春
-http://tiger81.i234.me:8888/rtp/239.111.205.42:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陕西银铃频道
-http://tiger81.i234.me:8888/rtp/239.112.205.20:5140
-#EXTINF:-1 group-title="陕西电信-组播1",凤凰中文
-http://tiger81.i234.me:8888/rtp/239.111.205.78:5140
-#EXTINF:-1 group-title="陕西电信-组播1",凤凰资讯
-http://tiger81.i234.me:8888/rtp/239.111.205.82:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CCTV-风云足球
-http://tiger81.i234.me:8888/rtp/239.112.205.127:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CCTV-高尔夫·网球
-http://tiger81.i234.me:8888/rtp/239.110.205.16:9810
-#EXTINF:-1 group-title="陕西电信-组播1",CCTV-高尔夫·网球
-http://tiger81.i234.me:8888/rtp/239.110.205.94:7900
-#EXTINF:-1 group-title="陕西电信-组播1",CCTV-高尔夫·网球
-http://tiger81.i234.me:8888/rtp/239.112.205.90:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CCTV-风云音乐
-http://tiger81.i234.me:8888/rtp/239.110.205.90:7916
-#EXTINF:-1 group-title="陕西电信-组播1",CCTV-第一剧场
-http://tiger81.i234.me:8888/rtp/239.111.205.65:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CCTV-怀旧剧场
-http://tiger81.i234.me:8888/rtp/239.110.205.88:7924
-#EXTINF:-1 group-title="陕西电信-组播1",CCTV-怀旧剧场
-http://tiger81.i234.me:8888/rtp/239.111.205.67:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CCTV-风云剧场
-http://tiger81.i234.me:8888/rtp/239.111.205.66:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CCTV-世界地理
-http://tiger81.i234.me:8888/rtp/239.110.205.92:7908
-#EXTINF:-1 group-title="陕西电信-组播1",CCTV-兵器科技
-http://tiger81.i234.me:8888/rtp/239.110.205.95:7896
-#EXTINF:-1 group-title="陕西电信-组播1",CCTV-央视台球
-http://tiger81.i234.me:8888/rtp/239.110.205.91:7912
-#EXTINF:-1 group-title="陕西电信-组播1",CGTN英语
-http://tiger81.i234.me:8888/rtp/239.110.205.78:7964
-#EXTINF:-1 group-title="陕西电信-组播1",CGTN英语
-http://tiger81.i234.me:8888/rtp/239.111.205.32:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CGTN英语
-http://tiger81.i234.me:8888/rtp/239.112.205.14:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CGTN西班牙语
-http://tiger81.i234.me:8888/rtp/239.110.205.79:7960
-#EXTINF:-1 group-title="陕西电信-组播1",CGTN西班牙语
-http://tiger81.i234.me:8888/rtp/239.111.205.33:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CGTN法语
-http://tiger81.i234.me:8888/rtp/239.110.205.80:7956
-#EXTINF:-1 group-title="陕西电信-组播1",CGTN法语
-http://tiger81.i234.me:8888/rtp/239.111.205.34:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CGTN俄语
-http://tiger81.i234.me:8888/rtp/239.111.205.87:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CGTN纪录
-http://tiger81.i234.me:8888/rtp/239.111.205.85:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CETV-1综合教育
-http://tiger81.i234.me:8888/rtp/239.109.205.47:8312
-#EXTINF:-1 group-title="陕西电信-组播1",CETV-1综合教育
-http://tiger81.i234.me:8888/rtp/239.112.205.137:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CETV-1综合教育
-http://tiger81.i234.me:8888/rtp/239.109.205.78:8560
-#EXTINF:-1 group-title="陕西电信-组播1",CETV-1综合教育
-http://tiger81.i234.me:8888/rtp/239.112.205.201:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CETV-2空中课堂
-http://tiger81.i234.me:8888/rtp/239.109.205.48:8320
-#EXTINF:-1 group-title="陕西电信-组播1",CETV-2空中课堂
-http://tiger81.i234.me:8888/rtp/239.111.205.168:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CETV-4职业教育
-http://tiger81.i234.me:8888/rtp/239.109.205.49:8328
-#EXTINF:-1 group-title="陕西电信-组播1",CETV-4职业教育
-http://tiger81.i234.me:8888/rtp/239.111.205.15:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CETV-4职业教育
-http://tiger81.i234.me:8888/rtp/239.111.205.169:5140
-#EXTINF:-1 group-title="陕西电信-组播1",爱生活高清专区
-http://tiger81.i234.me:8888/rtp/239.110.205.55:9946
-#EXTINF:-1 group-title="陕西电信-组播1",爱生活高清专区
-http://tiger81.i234.me:8888/rtp/239.112.205.234:5140
-#EXTINF:-1 group-title="陕西电信-组播1",爱上4K
-http://tiger81.i234.me:8888/rtp/239.109.205.53:8360
-#EXTINF:-1 group-title="陕西电信-组播1",BesTV体育
-http://tiger81.i234.me:8888/rtp/239.111.205.23:5140
-#EXTINF:-1 group-title="陕西电信-组播1",江苏优漫卡通
-http://tiger81.i234.me:8888/rtp/239.110.205.17:9814
-#EXTINF:-1 group-title="陕西电信-组播1",江苏优漫卡通
-http://tiger81.i234.me:8888/rtp/239.112.205.185:5140
-#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
-http://tiger81.i234.me:8888/rtp/239.109.205.197:9650
-#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
-http://tiger81.i234.me:8888/rtp/239.109.205.198:9654
-#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
-http://tiger81.i234.me:8888/rtp/239.109.205.199:9658
-#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
-http://tiger81.i234.me:8888/rtp/239.109.205.211:9184
-#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
-http://tiger81.i234.me:8888/rtp/239.109.205.212:9192
-#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
-http://tiger81.i234.me:8888/rtp/239.109.205.216:9702
-#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
-http://tiger81.i234.me:8888/rtp/239.111.205.10:5140
-#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
-http://tiger81.i234.me:8888/rtp/239.111.205.11:5140
-#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
-http://tiger81.i234.me:8888/rtp/239.111.205.40:5140
-#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
-http://tiger81.i234.me:8888/rtp/239.112.205.116:5140
-#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
-http://tiger81.i234.me:8888/rtp/239.112.205.118:5140
-#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
-http://tiger81.i234.me:8888/rtp/239.112.205.119:5140
-#EXTINF:-1 group-title="陕西电信-组播1",北京优优宝贝
-http://tiger81.i234.me:8888/rtp/239.111.205.62:5140
-#EXTINF:-1 group-title="陕西电信-组播1",北京环球旅游
-http://tiger81.i234.me:8888/rtp/239.111.205.61:5140
-#EXTINF:-1 group-title="陕西电信-组播1",北京生态环境
-http://tiger81.i234.me:8888/rtp/239.111.205.60:5140
-#EXTINF:-1 group-title="陕西电信-组播1",北京车迷频道
-http://tiger81.i234.me:8888/rtp/239.111.205.63:5140
-#EXTINF:-1 group-title="陕西电信-组播1",北京卡酷少儿
-http://tiger81.i234.me:8888/rtp/239.109.205.124:8928
-#EXTINF:-1 group-title="陕西电信-组播1",北京卡酷少儿
-http://tiger81.i234.me:8888/rtp/239.112.205.138:5140
-#EXTINF:-1 group-title="陕西电信-组播1",呼和浩特足球
-http://tiger81.i234.me:8888/rtp/239.110.205.25:9846
-#EXTINF:-1 group-title="陕西电信-组播1",上海游戏风云
-http://tiger81.i234.me:8888/rtp/239.109.205.62:8432
-#EXTINF:-1 group-title="陕西电信-组播1",上海游戏风云
-http://tiger81.i234.me:8888/rtp/239.109.205.195:9642
-#EXTINF:-1 group-title="陕西电信-组播1",上海游戏风云
-http://tiger81.i234.me:8888/rtp/239.111.205.183:5140
-#EXTINF:-1 group-title="陕西电信-组播1",上海乐游
-http://tiger81.i234.me:8888/rtp/239.109.205.56:8384
-#EXTINF:-1 group-title="陕西电信-组播1",上海法治天地
-http://tiger81.i234.me:8888/rtp/239.109.205.57:8392
-#EXTINF:-1 group-title="陕西电信-组播1",上海法治天地
-http://tiger81.i234.me:8888/rtp/239.111.205.178:5140
-#EXTINF:-1 group-title="陕西电信-组播1",上海都市剧场
-http://tiger81.i234.me:8888/rtp/239.109.205.50:8336
-#EXTINF:-1 group-title="陕西电信-组播1",上海都市剧场
-http://tiger81.i234.me:8888/rtp/239.109.205.77:8552
-#EXTINF:-1 group-title="陕西电信-组播1",上海都市剧场
-http://tiger81.i234.me:8888/rtp/239.111.205.171:5140
-#EXTINF:-1 group-title="陕西电信-组播1",上海多彩文体4K
-http://tiger81.i234.me:8888/rtp/239.109.205.51:8344
-#EXTINF:-1 group-title="陕西电信-组播1",上海多彩文体4K
-http://tiger81.i234.me:8888/rtp/239.110.205.36:9850
-#EXTINF:-1 group-title="陕西电信-组播1",上海多彩文体4K
-http://tiger81.i234.me:8888/rtp/239.112.205.236:5140
-#EXTINF:-1 group-title="陕西电信-组播1",上海金色学堂
-http://tiger81.i234.me:8888/rtp/239.109.205.65:8456
-#EXTINF:-1 group-title="陕西电信-组播1",上海生活时尚
-http://tiger81.i234.me:8888/rtp/239.109.205.55:8376
-#EXTINF:-1 group-title="陕西电信-组播1",上海生活时尚
-http://tiger81.i234.me:8888/rtp/239.111.205.176:5140
-#EXTINF:-1 group-title="陕西电信-组播1",上海纪实人文
-http://tiger81.i234.me:8888/rtp/239.109.205.52:8352
-#EXTINF:-1 group-title="陕西电信-组播1",上海纪实人文
-http://tiger81.i234.me:8888/rtp/239.109.205.215:9216
-#EXTINF:-1 group-title="陕西电信-组播1",上海纪实人文
-http://tiger81.i234.me:8888/rtp/239.111.205.14:5140
-#EXTINF:-1 group-title="陕西电信-组播1",上海纪实人文
-http://tiger81.i234.me:8888/rtp/239.111.205.177:5140
-#EXTINF:-1 group-title="陕西电信-组播1",江苏财富天下
-http://tiger81.i234.me:8888/rtp/239.109.205.94:8688
-#EXTINF:-1 group-title="陕西电信-组播1",江苏财富天下
-http://tiger81.i234.me:8888/rtp/239.112.205.196:5140
-#EXTINF:-1 group-title="陕西电信-组播1",湖南金鹰纪实
-http://tiger81.i234.me:8888/rtp/239.109.205.59:8408
-#EXTINF:-1 group-title="陕西电信-组播1",湖南金鹰纪实
-http://tiger81.i234.me:8888/rtp/239.112.205.203:5140
-#EXTINF:-1 group-title="陕西电信-组播1",湖南金鹰卡通
-http://tiger81.i234.me:8888/rtp/239.109.205.42:8272
-#EXTINF:-1 group-title="陕西电信-组播1",湖南金鹰卡通
-http://tiger81.i234.me:8888/rtp/239.112.205.136:5140
-#EXTINF:-1 group-title="陕西电信-组播1",广东嘉佳卡通
-http://tiger81.i234.me:8888/rtp/239.109.205.150:9078
-#EXTINF:-1 group-title="陕西电信-组播1",广东嘉佳卡通
-http://tiger81.i234.me:8888/rtp/239.112.205.135:5140
-#EXTINF:-1 group-title="陕西电信-组播1",金色频道
-http://tiger81.i234.me:8888/rtp/239.111.205.186:5140
-#EXTINF:-1 group-title="陕西电信-组播1",极速汽车
-http://tiger81.i234.me:8888/rtp/239.109.205.64:8448
-#EXTINF:-1 group-title="陕西电信-组播1",央广购物
-http://tiger81.i234.me:8888/rtp/239.109.205.75:8536
-#EXTINF:-1 group-title="陕西电信-组播1",优购物
-http://tiger81.i234.me:8888/rtp/239.109.205.101:8744
-#EXTINF:-1 group-title="陕西电信-组播1",家有购物
-http://tiger81.i234.me:8888/rtp/239.110.205.31:9788
-#EXTINF:-1 group-title="陕西电信-组播1",山西优购物
-http://tiger81.i234.me:8888/rtp/239.112.205.209:5140
-#EXTINF:-1 group-title="陕西电信-组播1",山东教育
-http://tiger81.i234.me:8888/rtp/239.112.205.197:5140
-#EXTINF:-1 group-title="陕西电信-组播1",湖南快乐购
-http://tiger81.i234.me:8888/rtp/239.111.205.37:5140
-#EXTINF:-1 group-title="陕西电信-组播1",西安1
-http://tiger81.i234.me:8888/rtp/239.109.205.130:8976
-#EXTINF:-1 group-title="陕西电信-组播1",西安2
-http://tiger81.i234.me:8888/rtp/239.109.205.131:8984
-#EXTINF:-1 group-title="陕西电信-组播1",西安3
-http://tiger81.i234.me:8888/rtp/239.110.205.38:9858
-#EXTINF:-1 group-title="陕西电信-组播1",西安4
-http://tiger81.i234.me:8888/rtp/239.110.205.39:9862
-#EXTINF:-1 group-title="陕西电信-组播1",西安丝路频道
-http://tiger81.i234.me:8888/rtp/239.112.205.176:5140
-#EXTINF:-1 group-title="陕西电信-组播1",西安戏剧影视
-http://tiger81.i234.me:8888/rtp/239.112.205.175:5140
-#EXTINF:-1 group-title="陕西电信-组播1",西安教育
-http://tiger81.i234.me:8888/rtp/239.110.205.24:9842
-#EXTINF:-1 group-title="陕西电信-组播1",西安教育频道
-http://tiger81.i234.me:8888/rtp/239.112.205.142:5140
-#EXTINF:-1 group-title="陕西电信-组播1",西安新闻综合
-http://tiger81.i234.me:8888/rtp/239.111.205.242:5140
-#EXTINF:-1 group-title="陕西电信-组播1",西安都市频道
-http://tiger81.i234.me:8888/rtp/239.111.205.243:5140
-#EXTINF:-1 group-title="陕西电信-组播1",铜川
-http://tiger81.i234.me:8888/rtp/239.109.205.194:9638
-#EXTINF:-1 group-title="陕西电信-组播1",铜川[785*576]
-http://tiger81.i234.me:8888/rtp/239.111.205.29:5140
-#EXTINF:-1 group-title="陕西电信-组播1",宝鸡
-http://tiger81.i234.me:8888/rtp/239.112.205.147:5140
-#EXTINF:-1 group-title="陕西电信-组播1",宝鸡1
-http://tiger81.i234.me:8888/rtp/239.112.205.143:5140
-#EXTINF:-1 group-title="陕西电信-组播1",咸阳综合[720*576]
-http://tiger81.i234.me:8888/rtp/239.112.205.141:5140
-#EXTINF:-1 group-title="陕西电信-组播1",渭南新闻
-http://tiger81.i234.me:8888/rtp/239.110.205.37:9854
-#EXTINF:-1 group-title="陕西电信-组播1",渭南新闻
-http://tiger81.i234.me:8888/rtp/239.111.205.19:5140
-#EXTINF:-1 group-title="陕西电信-组播1",渭南新闻[720*576]
-http://tiger81.i234.me:8888/rtp/239.111.205.94:5140
-#EXTINF:-1 group-title="陕西电信-组播1",延安1[720*576]
-http://tiger81.i234.me:8888/rtp/239.112.205.169:5140
-#EXTINF:-1 group-title="陕西电信-组播1",汉中
-http://tiger81.i234.me:8888/rtp/239.112.205.215:5140
-#EXTINF:-1 group-title="陕西电信-组播1",榆林1
-http://tiger81.i234.me:8888/rtp/239.110.205.42:9882
-#EXTINF:-1 group-title="陕西电信-组播1",榆林1[720*576]
-http://tiger81.i234.me:8888/rtp/239.112.205.177:5140
-#EXTINF:-1 group-title="陕西电信-组播1",安康综合
-http://tiger81.i234.me:8888/rtp/239.109.205.104:8768
-#EXTINF:-1 group-title="陕西电信-组播1",安康综合
-http://tiger81.i234.me:8888/rtp/239.112.205.216:5140
-#EXTINF:-1 group-title="陕西电信-组播1",安康镇坪
-http://tiger81.i234.me:8888/rtp/239.109.205.67:8472
-#EXTINF:-1 group-title="陕西电信-组播1",安康镇坪
-http://tiger81.i234.me:8888/rtp/239.111.205.27:5140
-#EXTINF:-1 group-title="陕西电信-组播1",商洛
-http://tiger81.i234.me:8888/rtp/239.109.205.69:8488
-#EXTINF:-1 group-title="陕西电信-组播1",商洛
-http://tiger81.i234.me:8888/rtp/239.112.205.189:5140
-#EXTINF:-1 group-title="陕西电信-组播1",4K
-http://tiger81.i234.me:8888/rtp/239.112.205.186:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CCTV16SDR
-http://tiger81.i234.me:8888/rtp/239.111.205.134:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CCTV-1综艺
-http://tiger81.i234.me:8888/rtp/239.112.205.59:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CCTV-3综合
-http://tiger81.i234.me:8888/rtp/239.112.205.221:5140
-#EXTINF:-1 group-title="陕西电信-组播1",CCTVNEWS
-http://tiger81.i234.me:8888/rtp/239.109.205.13:8032
-#EXTINF:-1 group-title="陕西电信-组播1",CGTN阿拉伯语高清
-http://tiger81.i234.me:8888/rtp/239.111.205.86:5140
-#EXTINF:-1 group-title="陕西电信-组播1",丝路
-http://tiger81.i234.me:8888/rtp/239.110.205.40:9866
-#EXTINF:-1 group-title="陕西电信-组播1",中视购物[768*576]
-http://tiger81.i234.me:8888/rtp/239.111.205.96:5140
-#EXTINF:-1 group-title="陕西电信-组播1",佛坪
-http://tiger81.i234.me:8888/rtp/239.112.205.229:5140
-#EXTINF:-1 group-title="陕西电信-组播1",兴平融媒[785*576]
-http://tiger81.i234.me:8888/rtp/239.112.205.168:5140
-#EXTINF:-1 group-title="陕西电信-组播1",农林卫视
-http://tiger81.i234.me:8888/rtp/239.112.205.27:5140
-#EXTINF:-1 group-title="陕西电信-组播1",凤翔
-http://tiger81.i234.me:8888/rtp/239.111.205.244:5140
-#EXTINF:-1 group-title="陕西电信-组播1",动作电影
-http://tiger81.i234.me:8888/rtp/239.110.205.6:9770
-#EXTINF:-1 group-title="陕西电信-组播1",勉县综合
-http://tiger81.i234.me:8888/rtp/239.110.205.53:9938
-#EXTINF:-1 group-title="陕西电信-组播1",勉县综合
-http://tiger81.i234.me:8888/rtp/239.112.205.239:5140
-#EXTINF:-1 group-title="陕西电信-组播1",千阳
-http://tiger81.i234.me:8888/rtp/239.111.205.250:5140
-#EXTINF:-1 group-title="陕西电信-组播1",华州综合
-http://tiger81.i234.me:8888/rtp/239.109.205.93:8680
-#EXTINF:-1 group-title="陕西电信-组播1",华州综合[768*576]
-http://tiger81.i234.me:8888/rtp/239.112.205.192:5140
-#EXTINF:-1 group-title="陕西电信-组播1",华阴1
-http://tiger81.i234.me:8888/rtp/239.109.205.63:8440
-#EXTINF:-1 group-title="陕西电信-组播1",华阴[720*576]
-http://tiger81.i234.me:8888/rtp/239.112.205.193:5140
-#EXTINF:-1 group-title="陕西电信-组播1",南郑
-http://tiger81.i234.me:8888/rtp/239.110.205.82:7948
-#EXTINF:-1 group-title="陕西电信-组播1",南郑
-http://tiger81.i234.me:8888/rtp/239.111.205.8:5140
-#EXTINF:-1 group-title="陕西电信-组播1",合阳
-http://tiger81.i234.me:8888/rtp/239.109.205.92:8672
-#EXTINF:-1 group-title="陕西电信-组播1",合阳
-http://tiger81.i234.me:8888/rtp/239.112.205.190:5140
-#EXTINF:-1 group-title="陕西电信-组播1",圆点影视
-http://tiger81.i234.me:8888/rtp/239.111.205.64:5140
-#EXTINF:-1 group-title="陕西电信-组播1",圆点生活
-http://tiger81.i234.me:8888/rtp/239.109.205.192:9608
-#EXTINF:-1 group-title="陕西电信-组播1",城固频道
-http://tiger81.i234.me:8888/rtp/239.111.205.79:5140
-#EXTINF:-1 group-title="陕西电信-组播1",太白
-http://tiger81.i234.me:8888/rtp/239.111.205.251:5140
-#EXTINF:-1 group-title="陕西电信-组播1",央广购物[768*576]
-http://tiger81.i234.me:8888/rtp/239.112.205.208:5140
-#EXTINF:-1 group-title="陕西电信-组播1",宁强
-http://tiger81.i234.me:8888/rtp/239.111.205.18:5140
-#EXTINF:-1 group-title="陕西电信-组播1",富平
-http://tiger81.i234.me:8888/rtp/239.109.205.71:8504
-#EXTINF:-1 group-title="陕西电信-组播1",富平
-http://tiger81.i234.me:8888/rtp/239.112.205.188:5140
-#EXTINF:-1 group-title="陕西电信-组播1",岚皋
-http://tiger81.i234.me:8888/rtp/239.111.205.248:5140
-#EXTINF:-1 group-title="陕西电信-组播1",彬洲
-http://tiger81.i234.me:8888/rtp/239.110.205.49:9922
-#EXTINF:-1 group-title="陕西电信-组播1",彬洲
-http://tiger81.i234.me:8888/rtp/239.112.205.181:5140
-#EXTINF:-1 group-title="陕西电信-组播1",影迷电影
-http://tiger81.i234.me:8888/rtp/239.109.205.97:8712
-#EXTINF:-1 group-title="陕西电信-组播1",扶风
-http://tiger81.i234.me:8888/rtp/239.111.205.80:5140
-#EXTINF:-1 group-title="陕西电信-组播1",曲艺大观
-http://tiger81.i234.me:8888/rtp/239.111.205.31:5140
-#EXTINF:-1 group-title="陕西电信-组播1",杨凌[785*576]
-http://tiger81.i234.me:8888/rtp/239.111.205.253:5140
-#EXTINF:-1 group-title="陕西电信-组播1",洋县电视台
-http://tiger81.i234.me:8888/rtp/239.111.205.77:5140
-#EXTINF:-1 group-title="陕西电信-组播1",淳化频道
-http://tiger81.i234.me:8888/rtp/239.111.205.97:5140
-#EXTINF:-1 group-title="陕西电信-组播1",潼关综合[720*576]
-http://tiger81.i234.me:8888/rtp/239.111.205.12:5140
-#EXTINF:-1 group-title="陕西电信-组播1",澄城新闻
-http://tiger81.i234.me:8888/rtp/239.109.205.76:8544
-#EXTINF:-1 group-title="陕西电信-组播1",澄城新闻
-http://tiger81.i234.me:8888/rtp/239.112.205.191:5140
-#EXTINF:-1 group-title="陕西电信-组播1",留坝
-http://tiger81.i234.me:8888/rtp/239.110.205.54:9942
-#EXTINF:-1 group-title="陕西电信-组播1",留坝
-http://tiger81.i234.me:8888/rtp/239.112.205.240:5140
-#EXTINF:-1 group-title="陕西电信-组播1",略阳
-http://tiger81.i234.me:8888/rtp/239.110.205.50:9926
-#EXTINF:-1 group-title="陕西电信-组播1",略阳
-http://tiger81.i234.me:8888/rtp/239.112.205.235:5140
-#EXTINF:-1 group-title="陕西电信-组播1",白水
-http://tiger81.i234.me:8888/rtp/239.109.205.87:8632
-#EXTINF:-1 group-title="陕西电信-组播1",白水频道
-http://tiger81.i234.me:8888/rtp/239.112.205.219:5140
-#EXTINF:-1 group-title="陕西电信-组播1",百事直播
-http://tiger81.i234.me:8888/rtp/239.111.205.20:5140
-#EXTINF:-1 group-title="陕西电信-组播1",百事直播
-http://tiger81.i234.me:8888/rtp/239.111.205.21:5140
-#EXTINF:-1 group-title="陕西电信-组播1",百事直播
-http://tiger81.i234.me:8888/rtp/239.111.205.22:5140
-#EXTINF:-1 group-title="陕西电信-组播1",百事直播
-http://tiger81.i234.me:8888/rtp/239.111.205.25:5140
-#EXTINF:-1 group-title="陕西电信-组播1",百事直播
-http://tiger81.i234.me:8888/rtp/239.111.205.43:5140
-#EXTINF:-1 group-title="陕西电信-组播1",直播室101
-http://tiger81.i234.me:8888/rtp/239.109.205.170:9612
-#EXTINF:-1 group-title="陕西电信-组播1",直播室102
-http://tiger81.i234.me:8888/rtp/239.109.205.171:9614
-#EXTINF:-1 group-title="陕西电信-组播1",直播室103
-http://tiger81.i234.me:8888/rtp/239.109.205.172:9616
-#EXTINF:-1 group-title="陕西电信-组播1",直播室104
-http://tiger81.i234.me:8888/rtp/239.109.205.173:9618
-#EXTINF:-1 group-title="陕西电信-组播1",直播室105
-http://tiger81.i234.me:8888/rtp/239.109.205.174:9620
-#EXTINF:-1 group-title="陕西电信-组播1",直播室105
-http://tiger81.i234.me:8888/rtp/239.111.205.24:5140
-#EXTINF:-1 group-title="陕西电信-组播1",直播室106
-http://tiger81.i234.me:8888/rtp/239.109.205.175:9622
-#EXTINF:-1 group-title="陕西电信-组播1",直播室107
-http://tiger81.i234.me:8888/rtp/239.109.205.176:9624
-#EXTINF:-1 group-title="陕西电信-组播1",直播室107
-http://tiger81.i234.me:8888/rtp/239.111.205.26:5140
-#EXTINF:-1 group-title="陕西电信-组播1",直播室108
-http://tiger81.i234.me:8888/rtp/239.109.205.219:9714
-#EXTINF:-1 group-title="陕西电信-组播1",直播室109
-http://tiger81.i234.me:8888/rtp/239.109.205.220:9718
-#EXTINF:-1 group-title="陕西电信-组播1",直播室109
-http://tiger81.i234.me:8888/rtp/239.111.205.44:5140
-#EXTINF:-1 group-title="陕西电信-组播1",直播室110
-http://tiger81.i234.me:8888/rtp/239.109.205.221:9722
-#EXTINF:-1 group-title="陕西电信-组播1",直播室110
-http://tiger81.i234.me:8888/rtp/239.111.205.45:5140
-#EXTINF:-1 group-title="陕西电信-组播1",直播室111
-http://tiger81.i234.me:8888/rtp/239.109.205.222:9726
-#EXTINF:-1 group-title="陕西电信-组播1",直播室111
-http://tiger81.i234.me:8888/rtp/239.111.205.46:5140
-#EXTINF:-1 group-title="陕西电信-组播1",直播室201
-http://tiger81.i234.me:8888/rtp/239.109.205.108:8800
-#EXTINF:-1 group-title="陕西电信-组播1",直播室202
-http://tiger81.i234.me:8888/rtp/239.109.205.109:8808
-#EXTINF:-1 group-title="陕西电信-组播1",直播室203
-http://tiger81.i234.me:8888/rtp/239.109.205.110:8816
-#EXTINF:-1 group-title="陕西电信-组播1",眉县新闻
-http://tiger81.i234.me:8888/rtp/239.111.205.81:5140
-#EXTINF:-1 group-title="陕西电信-组播1",紫阳
-http://tiger81.i234.me:8888/rtp/239.109.205.74:8528
-#EXTINF:-1 group-title="陕西电信-组播1",紫阳
-http://tiger81.i234.me:8888/rtp/239.112.205.220:5140
-#EXTINF:-1 group-title="陕西电信-组播1",聚鲨环球
-http://tiger81.i234.me:8888/rtp/239.110.205.34:9800
-#EXTINF:-1 group-title="陕西电信-组播1",聚鲨环球
-http://tiger81.i234.me:8888/rtp/239.112.205.158:5140
-#EXTINF:-1 group-title="陕西电信-组播1",蒲城综合[720*576]
-http://tiger81.i234.me:8888/rtp/239.112.205.194:5140
-#EXTINF:-1 group-title="陕西电信-组播1",西乡融媒
-http://tiger81.i234.me:8888/rtp/239.111.205.17:5140
-#EXTINF:-1 group-title="陕西电信-组播1",西部电影
-http://tiger81.i234.me:8888/rtp/239.111.205.102:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陇县
-http://tiger81.i234.me:8888/rtp/239.111.205.252:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陈仓频道
-http://tiger81.i234.me:8888/rtp/239.111.205.245:5140
-#EXTINF:-1 group-title="陕西电信-组播1",陕视直播
-http://tiger81.i234.me:8888/rtp/239.110.205.41:9874
-#EXTINF:-1 group-title="陕西电信-组播1",陕视融媒
-http://tiger81.i234.me:8888/rtp/239.110.205.52:9934
-#EXTINF:-1 group-title="陕西电信-组播1",韩城综合
-http://tiger81.i234.me:8888/rtp/239.109.205.72:8512
-#EXTINF:-1 group-title="陕西电信-组播1",韩城综合
-http://tiger81.i234.me:8888/rtp/239.112.205.166:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陕西卫视
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.66:8464
-#EXTINF:-1 group-title="陕西电信-组播2",陕西卫视
+#EXTINF:-1 group-title="陕西电信-组播1",陕西卫视
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.107:8792
-#EXTINF:-1 group-title="陕西电信-组播2",陕西卫视
+#EXTINF:-1 group-title="陕西电信-组播1",陕西卫视
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.35:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陕西卫视
+#EXTINF:-1 group-title="陕西电信-组播1",陕西卫视
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.17:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陕西1套
+#EXTINF:-1 group-title="陕西电信-组播1",陕西1套
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.2:9120
-#EXTINF:-1 group-title="陕西电信-组播2",陕西1套
+#EXTINF:-1 group-title="陕西电信-组播1",陕西1套
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.83:7944
-#EXTINF:-1 group-title="陕西电信-组播2",陕西1套
+#EXTINF:-1 group-title="陕西电信-组播1",陕西1套
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.18:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陕西2套
+#EXTINF:-1 group-title="陕西电信-组播1",陕西2套
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.3:9128
-#EXTINF:-1 group-title="陕西电信-组播2",陕西2套
+#EXTINF:-1 group-title="陕西电信-组播1",陕西2套
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.84:7940
-#EXTINF:-1 group-title="陕西电信-组播2",陕西2套
+#EXTINF:-1 group-title="陕西电信-组播1",陕西2套
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.19:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陕西3套
+#EXTINF:-1 group-title="陕西电信-组播1",陕西3套
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.4:9136
-#EXTINF:-1 group-title="陕西电信-组播2",陕西4套
+#EXTINF:-1 group-title="陕西电信-组播1",陕西4套
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.5:9144
-#EXTINF:-1 group-title="陕西电信-组播2",陕西5套
+#EXTINF:-1 group-title="陕西电信-组播1",陕西5套
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.6:9152
-#EXTINF:-1 group-title="陕西电信-组播2",陕西6套
+#EXTINF:-1 group-title="陕西电信-组播1",陕西6套
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.7:9160
-#EXTINF:-1 group-title="陕西电信-组播2",陕西6套
+#EXTINF:-1 group-title="陕西电信-组播1",陕西6套
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.23:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陕西7套
+#EXTINF:-1 group-title="陕西电信-组播1",陕西7套
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.8:9168
-#EXTINF:-1 group-title="陕西电信-组播2",陕西7套
+#EXTINF:-1 group-title="陕西电信-组播1",陕西7套
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.85:7936
-#EXTINF:-1 group-title="陕西电信-组播2",陕西7套
+#EXTINF:-1 group-title="陕西电信-组播1",陕西7套
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.24:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陕西8套
+#EXTINF:-1 group-title="陕西电信-组播1",陕西8套
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.217:9706
-#EXTINF:-1 group-title="陕西电信-组播2",陕西体育休闲
+#EXTINF:-1 group-title="陕西电信-组播1",陕西体育休闲
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.36:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陕西公共
+#EXTINF:-1 group-title="陕西电信-组播1",陕西公共
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.100:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陕西农林卫视
+#EXTINF:-1 group-title="陕西电信-组播1",陕西农林卫视
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.26:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陕西影视
+#EXTINF:-1 group-title="陕西电信-组播1",陕西影视
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.21:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陕西新闻资讯
+#EXTINF:-1 group-title="陕西电信-组播1",陕西新闻资讯
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.28:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陕西生活
+#EXTINF:-1 group-title="陕西电信-组播1",陕西生活
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.98:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陕西秦腔频道
+#EXTINF:-1 group-title="陕西电信-组播1",陕西秦腔频道
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.22:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陕西西部电影
+#EXTINF:-1 group-title="陕西电信-组播1",陕西西部电影
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.41:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陕西都市青春
+#EXTINF:-1 group-title="陕西电信-组播1",陕西都市青春
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.42:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陕西银铃频道
+#EXTINF:-1 group-title="陕西电信-组播1",陕西银铃频道
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.20:5140
-#EXTINF:-1 group-title="陕西电信-组播2",凤凰中文
+#EXTINF:-1 group-title="陕西电信-组播1",凤凰中文
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.78:5140
-#EXTINF:-1 group-title="陕西电信-组播2",凤凰资讯
+#EXTINF:-1 group-title="陕西电信-组播1",凤凰资讯
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.82:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CCTV-风云足球
+#EXTINF:-1 group-title="陕西电信-组播1",CCTV-风云足球
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.127:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CCTV-高尔夫·网球
+#EXTINF:-1 group-title="陕西电信-组播1",CCTV-高尔夫·网球
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.16:9810
-#EXTINF:-1 group-title="陕西电信-组播2",CCTV-高尔夫·网球
+#EXTINF:-1 group-title="陕西电信-组播1",CCTV-高尔夫·网球
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.94:7900
-#EXTINF:-1 group-title="陕西电信-组播2",CCTV-高尔夫·网球
+#EXTINF:-1 group-title="陕西电信-组播1",CCTV-高尔夫·网球
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.90:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CCTV-风云音乐
+#EXTINF:-1 group-title="陕西电信-组播1",CCTV-风云音乐
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.90:7916
-#EXTINF:-1 group-title="陕西电信-组播2",CCTV-第一剧场
+#EXTINF:-1 group-title="陕西电信-组播1",CCTV-第一剧场
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.65:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CCTV-怀旧剧场
+#EXTINF:-1 group-title="陕西电信-组播1",CCTV-怀旧剧场
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.88:7924
-#EXTINF:-1 group-title="陕西电信-组播2",CCTV-怀旧剧场
+#EXTINF:-1 group-title="陕西电信-组播1",CCTV-怀旧剧场
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.67:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CCTV-风云剧场
+#EXTINF:-1 group-title="陕西电信-组播1",CCTV-风云剧场
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.66:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CCTV-世界地理
+#EXTINF:-1 group-title="陕西电信-组播1",CCTV-世界地理
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.92:7908
-#EXTINF:-1 group-title="陕西电信-组播2",CCTV-兵器科技
+#EXTINF:-1 group-title="陕西电信-组播1",CCTV-兵器科技
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.95:7896
-#EXTINF:-1 group-title="陕西电信-组播2",CCTV-央视台球
+#EXTINF:-1 group-title="陕西电信-组播1",CCTV-央视台球
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.91:7912
-#EXTINF:-1 group-title="陕西电信-组播2",CGTN英语
+#EXTINF:-1 group-title="陕西电信-组播1",CGTN英语
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.78:7964
-#EXTINF:-1 group-title="陕西电信-组播2",CGTN英语
+#EXTINF:-1 group-title="陕西电信-组播1",CGTN英语
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.32:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CGTN英语
+#EXTINF:-1 group-title="陕西电信-组播1",CGTN英语
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.14:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CGTN西班牙语
+#EXTINF:-1 group-title="陕西电信-组播1",CGTN西班牙语
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.79:7960
-#EXTINF:-1 group-title="陕西电信-组播2",CGTN西班牙语
+#EXTINF:-1 group-title="陕西电信-组播1",CGTN西班牙语
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.33:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CGTN法语
+#EXTINF:-1 group-title="陕西电信-组播1",CGTN法语
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.80:7956
-#EXTINF:-1 group-title="陕西电信-组播2",CGTN法语
+#EXTINF:-1 group-title="陕西电信-组播1",CGTN法语
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.34:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CGTN俄语
+#EXTINF:-1 group-title="陕西电信-组播1",CGTN俄语
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.87:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CGTN纪录
+#EXTINF:-1 group-title="陕西电信-组播1",CGTN纪录
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.85:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CETV-1综合教育
+#EXTINF:-1 group-title="陕西电信-组播1",CETV-1综合教育
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.47:8312
-#EXTINF:-1 group-title="陕西电信-组播2",CETV-1综合教育
+#EXTINF:-1 group-title="陕西电信-组播1",CETV-1综合教育
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.137:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CETV-1综合教育
+#EXTINF:-1 group-title="陕西电信-组播1",CETV-1综合教育
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.78:8560
-#EXTINF:-1 group-title="陕西电信-组播2",CETV-1综合教育
+#EXTINF:-1 group-title="陕西电信-组播1",CETV-1综合教育
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.201:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CETV-2空中课堂
+#EXTINF:-1 group-title="陕西电信-组播1",CETV-2空中课堂
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.48:8320
-#EXTINF:-1 group-title="陕西电信-组播2",CETV-2空中课堂
+#EXTINF:-1 group-title="陕西电信-组播1",CETV-2空中课堂
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.168:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CETV-4职业教育
+#EXTINF:-1 group-title="陕西电信-组播1",CETV-4职业教育
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.49:8328
-#EXTINF:-1 group-title="陕西电信-组播2",CETV-4职业教育
+#EXTINF:-1 group-title="陕西电信-组播1",CETV-4职业教育
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.15:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CETV-4职业教育
+#EXTINF:-1 group-title="陕西电信-组播1",CETV-4职业教育
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.169:5140
-#EXTINF:-1 group-title="陕西电信-组播2",爱生活高清专区
+#EXTINF:-1 group-title="陕西电信-组播1",爱生活高清专区
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.55:9946
-#EXTINF:-1 group-title="陕西电信-组播2",爱生活高清专区
+#EXTINF:-1 group-title="陕西电信-组播1",爱生活高清专区
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.234:5140
-#EXTINF:-1 group-title="陕西电信-组播2",爱上4K
+#EXTINF:-1 group-title="陕西电信-组播1",爱上4K
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.53:8360
-#EXTINF:-1 group-title="陕西电信-组播2",BesTV体育
+#EXTINF:-1 group-title="陕西电信-组播1",BesTV体育
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.23:5140
-#EXTINF:-1 group-title="陕西电信-组播2",江苏优漫卡通
+#EXTINF:-1 group-title="陕西电信-组播1",江苏优漫卡通
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.17:9814
-#EXTINF:-1 group-title="陕西电信-组播2",江苏优漫卡通
+#EXTINF:-1 group-title="陕西电信-组播1",江苏优漫卡通
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.185:5140
-#EXTINF:-1 group-title="陕西电信-组播2",IPTV频道
+#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.197:9650
-#EXTINF:-1 group-title="陕西电信-组播2",IPTV频道
+#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.198:9654
-#EXTINF:-1 group-title="陕西电信-组播2",IPTV频道
+#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.199:9658
-#EXTINF:-1 group-title="陕西电信-组播2",IPTV频道
+#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.211:9184
-#EXTINF:-1 group-title="陕西电信-组播2",IPTV频道
+#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.212:9192
-#EXTINF:-1 group-title="陕西电信-组播2",IPTV频道
+#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.216:9702
-#EXTINF:-1 group-title="陕西电信-组播2",IPTV频道
+#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.10:5140
-#EXTINF:-1 group-title="陕西电信-组播2",IPTV频道
+#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.11:5140
-#EXTINF:-1 group-title="陕西电信-组播2",IPTV频道
+#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.40:5140
-#EXTINF:-1 group-title="陕西电信-组播2",IPTV频道
+#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.116:5140
-#EXTINF:-1 group-title="陕西电信-组播2",IPTV频道
+#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.118:5140
-#EXTINF:-1 group-title="陕西电信-组播2",IPTV频道
+#EXTINF:-1 group-title="陕西电信-组播1",IPTV频道
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.119:5140
-#EXTINF:-1 group-title="陕西电信-组播2",北京优优宝贝
+#EXTINF:-1 group-title="陕西电信-组播1",北京优优宝贝
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.62:5140
-#EXTINF:-1 group-title="陕西电信-组播2",北京环球旅游
+#EXTINF:-1 group-title="陕西电信-组播1",北京环球旅游
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.61:5140
-#EXTINF:-1 group-title="陕西电信-组播2",北京生态环境
+#EXTINF:-1 group-title="陕西电信-组播1",北京生态环境
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.60:5140
-#EXTINF:-1 group-title="陕西电信-组播2",北京车迷频道
+#EXTINF:-1 group-title="陕西电信-组播1",北京车迷频道
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.63:5140
-#EXTINF:-1 group-title="陕西电信-组播2",北京卡酷少儿
+#EXTINF:-1 group-title="陕西电信-组播1",北京卡酷少儿
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.124:8928
-#EXTINF:-1 group-title="陕西电信-组播2",北京卡酷少儿
+#EXTINF:-1 group-title="陕西电信-组播1",北京卡酷少儿
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.138:5140
-#EXTINF:-1 group-title="陕西电信-组播2",呼和浩特足球
+#EXTINF:-1 group-title="陕西电信-组播1",呼和浩特足球
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.25:9846
-#EXTINF:-1 group-title="陕西电信-组播2",上海游戏风云
+#EXTINF:-1 group-title="陕西电信-组播1",上海游戏风云
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.62:8432
-#EXTINF:-1 group-title="陕西电信-组播2",上海游戏风云
+#EXTINF:-1 group-title="陕西电信-组播1",上海游戏风云
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.195:9642
-#EXTINF:-1 group-title="陕西电信-组播2",上海游戏风云
+#EXTINF:-1 group-title="陕西电信-组播1",上海游戏风云
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.183:5140
-#EXTINF:-1 group-title="陕西电信-组播2",上海乐游
+#EXTINF:-1 group-title="陕西电信-组播1",上海乐游
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.56:8384
-#EXTINF:-1 group-title="陕西电信-组播2",上海法治天地
+#EXTINF:-1 group-title="陕西电信-组播1",上海法治天地
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.57:8392
-#EXTINF:-1 group-title="陕西电信-组播2",上海法治天地
+#EXTINF:-1 group-title="陕西电信-组播1",上海法治天地
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.178:5140
-#EXTINF:-1 group-title="陕西电信-组播2",上海都市剧场
+#EXTINF:-1 group-title="陕西电信-组播1",上海都市剧场
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.50:8336
-#EXTINF:-1 group-title="陕西电信-组播2",上海都市剧场
+#EXTINF:-1 group-title="陕西电信-组播1",上海都市剧场
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.77:8552
-#EXTINF:-1 group-title="陕西电信-组播2",上海都市剧场
+#EXTINF:-1 group-title="陕西电信-组播1",上海都市剧场
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.171:5140
-#EXTINF:-1 group-title="陕西电信-组播2",上海多彩文体4K
+#EXTINF:-1 group-title="陕西电信-组播1",上海多彩文体4K
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.51:8344
-#EXTINF:-1 group-title="陕西电信-组播2",上海多彩文体4K
+#EXTINF:-1 group-title="陕西电信-组播1",上海多彩文体4K
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.36:9850
-#EXTINF:-1 group-title="陕西电信-组播2",上海多彩文体4K
+#EXTINF:-1 group-title="陕西电信-组播1",上海多彩文体4K
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.236:5140
-#EXTINF:-1 group-title="陕西电信-组播2",上海金色学堂
+#EXTINF:-1 group-title="陕西电信-组播1",上海金色学堂
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.65:8456
-#EXTINF:-1 group-title="陕西电信-组播2",上海生活时尚
+#EXTINF:-1 group-title="陕西电信-组播1",上海生活时尚
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.55:8376
-#EXTINF:-1 group-title="陕西电信-组播2",上海生活时尚
+#EXTINF:-1 group-title="陕西电信-组播1",上海生活时尚
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.176:5140
-#EXTINF:-1 group-title="陕西电信-组播2",上海纪实人文
+#EXTINF:-1 group-title="陕西电信-组播1",上海纪实人文
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.52:8352
-#EXTINF:-1 group-title="陕西电信-组播2",上海纪实人文
+#EXTINF:-1 group-title="陕西电信-组播1",上海纪实人文
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.215:9216
-#EXTINF:-1 group-title="陕西电信-组播2",上海纪实人文
+#EXTINF:-1 group-title="陕西电信-组播1",上海纪实人文
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.14:5140
-#EXTINF:-1 group-title="陕西电信-组播2",上海纪实人文
+#EXTINF:-1 group-title="陕西电信-组播1",上海纪实人文
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.177:5140
-#EXTINF:-1 group-title="陕西电信-组播2",江苏财富天下
+#EXTINF:-1 group-title="陕西电信-组播1",江苏财富天下
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.94:8688
-#EXTINF:-1 group-title="陕西电信-组播2",江苏财富天下
+#EXTINF:-1 group-title="陕西电信-组播1",江苏财富天下
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.196:5140
-#EXTINF:-1 group-title="陕西电信-组播2",湖南金鹰纪实
+#EXTINF:-1 group-title="陕西电信-组播1",湖南金鹰纪实
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.59:8408
-#EXTINF:-1 group-title="陕西电信-组播2",湖南金鹰纪实
+#EXTINF:-1 group-title="陕西电信-组播1",湖南金鹰纪实
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.203:5140
-#EXTINF:-1 group-title="陕西电信-组播2",湖南金鹰卡通
+#EXTINF:-1 group-title="陕西电信-组播1",湖南金鹰卡通
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.42:8272
-#EXTINF:-1 group-title="陕西电信-组播2",湖南金鹰卡通
+#EXTINF:-1 group-title="陕西电信-组播1",湖南金鹰卡通
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.136:5140
-#EXTINF:-1 group-title="陕西电信-组播2",广东嘉佳卡通
+#EXTINF:-1 group-title="陕西电信-组播1",广东嘉佳卡通
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.150:9078
-#EXTINF:-1 group-title="陕西电信-组播2",广东嘉佳卡通
+#EXTINF:-1 group-title="陕西电信-组播1",广东嘉佳卡通
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.135:5140
-#EXTINF:-1 group-title="陕西电信-组播2",金色频道
+#EXTINF:-1 group-title="陕西电信-组播1",金色频道
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.186:5140
-#EXTINF:-1 group-title="陕西电信-组播2",极速汽车
+#EXTINF:-1 group-title="陕西电信-组播1",极速汽车
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.64:8448
-#EXTINF:-1 group-title="陕西电信-组播2",央广购物
+#EXTINF:-1 group-title="陕西电信-组播1",央广购物
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.75:8536
-#EXTINF:-1 group-title="陕西电信-组播2",优购物
+#EXTINF:-1 group-title="陕西电信-组播1",优购物
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.101:8744
-#EXTINF:-1 group-title="陕西电信-组播2",家有购物
+#EXTINF:-1 group-title="陕西电信-组播1",家有购物
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.31:9788
-#EXTINF:-1 group-title="陕西电信-组播2",山西优购物
+#EXTINF:-1 group-title="陕西电信-组播1",山西优购物
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.209:5140
-#EXTINF:-1 group-title="陕西电信-组播2",山东教育
+#EXTINF:-1 group-title="陕西电信-组播1",山东教育
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.197:5140
-#EXTINF:-1 group-title="陕西电信-组播2",湖南快乐购
+#EXTINF:-1 group-title="陕西电信-组播1",湖南快乐购
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.37:5140
-#EXTINF:-1 group-title="陕西电信-组播2",西安1
+#EXTINF:-1 group-title="陕西电信-组播1",西安1
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.130:8976
-#EXTINF:-1 group-title="陕西电信-组播2",西安2
+#EXTINF:-1 group-title="陕西电信-组播1",西安2
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.131:8984
-#EXTINF:-1 group-title="陕西电信-组播2",西安3
+#EXTINF:-1 group-title="陕西电信-组播1",西安3
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.38:9858
-#EXTINF:-1 group-title="陕西电信-组播2",西安4
+#EXTINF:-1 group-title="陕西电信-组播1",西安4
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.39:9862
-#EXTINF:-1 group-title="陕西电信-组播2",西安丝路频道
+#EXTINF:-1 group-title="陕西电信-组播1",西安丝路频道
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.176:5140
-#EXTINF:-1 group-title="陕西电信-组播2",西安戏剧影视
+#EXTINF:-1 group-title="陕西电信-组播1",西安戏剧影视
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.175:5140
-#EXTINF:-1 group-title="陕西电信-组播2",西安教育
+#EXTINF:-1 group-title="陕西电信-组播1",西安教育
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.24:9842
-#EXTINF:-1 group-title="陕西电信-组播2",西安教育频道
+#EXTINF:-1 group-title="陕西电信-组播1",西安教育频道
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.142:5140
-#EXTINF:-1 group-title="陕西电信-组播2",西安新闻综合
+#EXTINF:-1 group-title="陕西电信-组播1",西安新闻综合
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.242:5140
-#EXTINF:-1 group-title="陕西电信-组播2",西安都市频道
+#EXTINF:-1 group-title="陕西电信-组播1",西安都市频道
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.243:5140
-#EXTINF:-1 group-title="陕西电信-组播2",铜川
+#EXTINF:-1 group-title="陕西电信-组播1",铜川
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.194:9638
-#EXTINF:-1 group-title="陕西电信-组播2",铜川[785*576]
+#EXTINF:-1 group-title="陕西电信-组播1",铜川[785*576]
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.29:5140
-#EXTINF:-1 group-title="陕西电信-组播2",宝鸡
+#EXTINF:-1 group-title="陕西电信-组播1",宝鸡
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.147:5140
-#EXTINF:-1 group-title="陕西电信-组播2",宝鸡1
+#EXTINF:-1 group-title="陕西电信-组播1",宝鸡1
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.143:5140
-#EXTINF:-1 group-title="陕西电信-组播2",咸阳综合[720*576]
+#EXTINF:-1 group-title="陕西电信-组播1",咸阳综合[720*576]
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.141:5140
-#EXTINF:-1 group-title="陕西电信-组播2",渭南新闻
+#EXTINF:-1 group-title="陕西电信-组播1",渭南新闻
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.37:9854
-#EXTINF:-1 group-title="陕西电信-组播2",渭南新闻
+#EXTINF:-1 group-title="陕西电信-组播1",渭南新闻
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.19:5140
-#EXTINF:-1 group-title="陕西电信-组播2",渭南新闻[720*576]
+#EXTINF:-1 group-title="陕西电信-组播1",渭南新闻[720*576]
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.94:5140
-#EXTINF:-1 group-title="陕西电信-组播2",延安1[720*576]
+#EXTINF:-1 group-title="陕西电信-组播1",延安1[720*576]
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.169:5140
-#EXTINF:-1 group-title="陕西电信-组播2",汉中
+#EXTINF:-1 group-title="陕西电信-组播1",汉中
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.215:5140
-#EXTINF:-1 group-title="陕西电信-组播2",榆林1
+#EXTINF:-1 group-title="陕西电信-组播1",榆林1
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.42:9882
-#EXTINF:-1 group-title="陕西电信-组播2",榆林1[720*576]
+#EXTINF:-1 group-title="陕西电信-组播1",榆林1[720*576]
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.177:5140
-#EXTINF:-1 group-title="陕西电信-组播2",安康综合
+#EXTINF:-1 group-title="陕西电信-组播1",安康综合
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.104:8768
-#EXTINF:-1 group-title="陕西电信-组播2",安康综合
+#EXTINF:-1 group-title="陕西电信-组播1",安康综合
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.216:5140
-#EXTINF:-1 group-title="陕西电信-组播2",安康镇坪
+#EXTINF:-1 group-title="陕西电信-组播1",安康镇坪
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.67:8472
-#EXTINF:-1 group-title="陕西电信-组播2",安康镇坪
+#EXTINF:-1 group-title="陕西电信-组播1",安康镇坪
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.27:5140
-#EXTINF:-1 group-title="陕西电信-组播2",商洛
+#EXTINF:-1 group-title="陕西电信-组播1",商洛
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.69:8488
-#EXTINF:-1 group-title="陕西电信-组播2",商洛
+#EXTINF:-1 group-title="陕西电信-组播1",商洛
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.189:5140
-#EXTINF:-1 group-title="陕西电信-组播2",4K
+#EXTINF:-1 group-title="陕西电信-组播1",4K
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.186:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CCTV16SDR
+#EXTINF:-1 group-title="陕西电信-组播1",CCTV16SDR
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.134:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CCTV-1综艺
+#EXTINF:-1 group-title="陕西电信-组播1",CCTV-1综艺
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.59:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CCTV-3综合
+#EXTINF:-1 group-title="陕西电信-组播1",CCTV-3综合
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.221:5140
-#EXTINF:-1 group-title="陕西电信-组播2",CCTVNEWS
+#EXTINF:-1 group-title="陕西电信-组播1",CCTVNEWS
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.13:8032
-#EXTINF:-1 group-title="陕西电信-组播2",CGTN阿拉伯语高清
+#EXTINF:-1 group-title="陕西电信-组播1",CGTN阿拉伯语高清
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.86:5140
-#EXTINF:-1 group-title="陕西电信-组播2",丝路
+#EXTINF:-1 group-title="陕西电信-组播1",丝路
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.40:9866
-#EXTINF:-1 group-title="陕西电信-组播2",中视购物[768*576]
+#EXTINF:-1 group-title="陕西电信-组播1",中视购物[768*576]
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.96:5140
-#EXTINF:-1 group-title="陕西电信-组播2",佛坪
+#EXTINF:-1 group-title="陕西电信-组播1",佛坪
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.229:5140
-#EXTINF:-1 group-title="陕西电信-组播2",兴平融媒[785*576]
+#EXTINF:-1 group-title="陕西电信-组播1",兴平融媒[785*576]
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.168:5140
-#EXTINF:-1 group-title="陕西电信-组播2",农林卫视
+#EXTINF:-1 group-title="陕西电信-组播1",农林卫视
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.27:5140
-#EXTINF:-1 group-title="陕西电信-组播2",凤翔
+#EXTINF:-1 group-title="陕西电信-组播1",凤翔
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.244:5140
-#EXTINF:-1 group-title="陕西电信-组播2",动作电影
+#EXTINF:-1 group-title="陕西电信-组播1",动作电影
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.6:9770
-#EXTINF:-1 group-title="陕西电信-组播2",勉县综合
+#EXTINF:-1 group-title="陕西电信-组播1",勉县综合
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.53:9938
-#EXTINF:-1 group-title="陕西电信-组播2",勉县综合
+#EXTINF:-1 group-title="陕西电信-组播1",勉县综合
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.239:5140
-#EXTINF:-1 group-title="陕西电信-组播2",千阳
+#EXTINF:-1 group-title="陕西电信-组播1",千阳
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.250:5140
-#EXTINF:-1 group-title="陕西电信-组播2",华州综合
+#EXTINF:-1 group-title="陕西电信-组播1",华州综合
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.93:8680
-#EXTINF:-1 group-title="陕西电信-组播2",华州综合[768*576]
+#EXTINF:-1 group-title="陕西电信-组播1",华州综合[768*576]
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.192:5140
-#EXTINF:-1 group-title="陕西电信-组播2",华阴1
+#EXTINF:-1 group-title="陕西电信-组播1",华阴1
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.63:8440
-#EXTINF:-1 group-title="陕西电信-组播2",华阴[720*576]
+#EXTINF:-1 group-title="陕西电信-组播1",华阴[720*576]
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.193:5140
-#EXTINF:-1 group-title="陕西电信-组播2",南郑
+#EXTINF:-1 group-title="陕西电信-组播1",南郑
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.82:7948
-#EXTINF:-1 group-title="陕西电信-组播2",南郑
+#EXTINF:-1 group-title="陕西电信-组播1",南郑
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.8:5140
-#EXTINF:-1 group-title="陕西电信-组播2",合阳
+#EXTINF:-1 group-title="陕西电信-组播1",合阳
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.92:8672
-#EXTINF:-1 group-title="陕西电信-组播2",合阳
+#EXTINF:-1 group-title="陕西电信-组播1",合阳
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.190:5140
-#EXTINF:-1 group-title="陕西电信-组播2",圆点影视
+#EXTINF:-1 group-title="陕西电信-组播1",圆点影视
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.64:5140
-#EXTINF:-1 group-title="陕西电信-组播2",圆点生活
+#EXTINF:-1 group-title="陕西电信-组播1",圆点生活
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.192:9608
-#EXTINF:-1 group-title="陕西电信-组播2",城固频道
+#EXTINF:-1 group-title="陕西电信-组播1",城固频道
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.79:5140
-#EXTINF:-1 group-title="陕西电信-组播2",太白
+#EXTINF:-1 group-title="陕西电信-组播1",太白
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.251:5140
-#EXTINF:-1 group-title="陕西电信-组播2",央广购物[768*576]
+#EXTINF:-1 group-title="陕西电信-组播1",央广购物[768*576]
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.208:5140
-#EXTINF:-1 group-title="陕西电信-组播2",宁强
+#EXTINF:-1 group-title="陕西电信-组播1",宁强
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.18:5140
-#EXTINF:-1 group-title="陕西电信-组播2",富平
+#EXTINF:-1 group-title="陕西电信-组播1",富平
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.71:8504
-#EXTINF:-1 group-title="陕西电信-组播2",富平
+#EXTINF:-1 group-title="陕西电信-组播1",富平
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.188:5140
-#EXTINF:-1 group-title="陕西电信-组播2",岚皋
+#EXTINF:-1 group-title="陕西电信-组播1",岚皋
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.248:5140
-#EXTINF:-1 group-title="陕西电信-组播2",彬洲
+#EXTINF:-1 group-title="陕西电信-组播1",彬洲
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.49:9922
-#EXTINF:-1 group-title="陕西电信-组播2",彬洲
+#EXTINF:-1 group-title="陕西电信-组播1",彬洲
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.181:5140
-#EXTINF:-1 group-title="陕西电信-组播2",影迷电影
+#EXTINF:-1 group-title="陕西电信-组播1",影迷电影
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.97:8712
-#EXTINF:-1 group-title="陕西电信-组播2",扶风
+#EXTINF:-1 group-title="陕西电信-组播1",扶风
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.80:5140
-#EXTINF:-1 group-title="陕西电信-组播2",曲艺大观
+#EXTINF:-1 group-title="陕西电信-组播1",曲艺大观
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.31:5140
-#EXTINF:-1 group-title="陕西电信-组播2",杨凌[785*576]
+#EXTINF:-1 group-title="陕西电信-组播1",杨凌[785*576]
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.253:5140
-#EXTINF:-1 group-title="陕西电信-组播2",洋县电视台
+#EXTINF:-1 group-title="陕西电信-组播1",洋县电视台
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.77:5140
-#EXTINF:-1 group-title="陕西电信-组播2",淳化频道
+#EXTINF:-1 group-title="陕西电信-组播1",淳化频道
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.97:5140
-#EXTINF:-1 group-title="陕西电信-组播2",潼关综合[720*576]
+#EXTINF:-1 group-title="陕西电信-组播1",潼关综合[720*576]
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.12:5140
-#EXTINF:-1 group-title="陕西电信-组播2",澄城新闻
+#EXTINF:-1 group-title="陕西电信-组播1",澄城新闻
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.76:8544
-#EXTINF:-1 group-title="陕西电信-组播2",澄城新闻
+#EXTINF:-1 group-title="陕西电信-组播1",澄城新闻
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.191:5140
-#EXTINF:-1 group-title="陕西电信-组播2",留坝
+#EXTINF:-1 group-title="陕西电信-组播1",留坝
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.54:9942
-#EXTINF:-1 group-title="陕西电信-组播2",留坝
+#EXTINF:-1 group-title="陕西电信-组播1",留坝
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.240:5140
-#EXTINF:-1 group-title="陕西电信-组播2",略阳
+#EXTINF:-1 group-title="陕西电信-组播1",略阳
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.50:9926
-#EXTINF:-1 group-title="陕西电信-组播2",略阳
+#EXTINF:-1 group-title="陕西电信-组播1",略阳
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.235:5140
-#EXTINF:-1 group-title="陕西电信-组播2",白水
+#EXTINF:-1 group-title="陕西电信-组播1",白水
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.87:8632
-#EXTINF:-1 group-title="陕西电信-组播2",白水频道
+#EXTINF:-1 group-title="陕西电信-组播1",白水频道
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.219:5140
-#EXTINF:-1 group-title="陕西电信-组播2",百事直播
+#EXTINF:-1 group-title="陕西电信-组播1",百事直播
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.20:5140
-#EXTINF:-1 group-title="陕西电信-组播2",百事直播
+#EXTINF:-1 group-title="陕西电信-组播1",百事直播
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.21:5140
-#EXTINF:-1 group-title="陕西电信-组播2",百事直播
+#EXTINF:-1 group-title="陕西电信-组播1",百事直播
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.22:5140
-#EXTINF:-1 group-title="陕西电信-组播2",百事直播
+#EXTINF:-1 group-title="陕西电信-组播1",百事直播
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.25:5140
-#EXTINF:-1 group-title="陕西电信-组播2",百事直播
+#EXTINF:-1 group-title="陕西电信-组播1",百事直播
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.43:5140
-#EXTINF:-1 group-title="陕西电信-组播2",直播室101
+#EXTINF:-1 group-title="陕西电信-组播1",直播室101
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.170:9612
-#EXTINF:-1 group-title="陕西电信-组播2",直播室102
+#EXTINF:-1 group-title="陕西电信-组播1",直播室102
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.171:9614
-#EXTINF:-1 group-title="陕西电信-组播2",直播室103
+#EXTINF:-1 group-title="陕西电信-组播1",直播室103
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.172:9616
-#EXTINF:-1 group-title="陕西电信-组播2",直播室104
+#EXTINF:-1 group-title="陕西电信-组播1",直播室104
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.173:9618
-#EXTINF:-1 group-title="陕西电信-组播2",直播室105
+#EXTINF:-1 group-title="陕西电信-组播1",直播室105
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.174:9620
-#EXTINF:-1 group-title="陕西电信-组播2",直播室105
+#EXTINF:-1 group-title="陕西电信-组播1",直播室105
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.24:5140
-#EXTINF:-1 group-title="陕西电信-组播2",直播室106
+#EXTINF:-1 group-title="陕西电信-组播1",直播室106
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.175:9622
-#EXTINF:-1 group-title="陕西电信-组播2",直播室107
+#EXTINF:-1 group-title="陕西电信-组播1",直播室107
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.176:9624
-#EXTINF:-1 group-title="陕西电信-组播2",直播室107
+#EXTINF:-1 group-title="陕西电信-组播1",直播室107
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.26:5140
-#EXTINF:-1 group-title="陕西电信-组播2",直播室108
+#EXTINF:-1 group-title="陕西电信-组播1",直播室108
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.219:9714
-#EXTINF:-1 group-title="陕西电信-组播2",直播室109
+#EXTINF:-1 group-title="陕西电信-组播1",直播室109
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.220:9718
-#EXTINF:-1 group-title="陕西电信-组播2",直播室109
+#EXTINF:-1 group-title="陕西电信-组播1",直播室109
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.44:5140
-#EXTINF:-1 group-title="陕西电信-组播2",直播室110
+#EXTINF:-1 group-title="陕西电信-组播1",直播室110
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.221:9722
-#EXTINF:-1 group-title="陕西电信-组播2",直播室110
+#EXTINF:-1 group-title="陕西电信-组播1",直播室110
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.45:5140
-#EXTINF:-1 group-title="陕西电信-组播2",直播室111
+#EXTINF:-1 group-title="陕西电信-组播1",直播室111
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.222:9726
-#EXTINF:-1 group-title="陕西电信-组播2",直播室111
+#EXTINF:-1 group-title="陕西电信-组播1",直播室111
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.46:5140
-#EXTINF:-1 group-title="陕西电信-组播2",直播室201
+#EXTINF:-1 group-title="陕西电信-组播1",直播室201
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.108:8800
-#EXTINF:-1 group-title="陕西电信-组播2",直播室202
+#EXTINF:-1 group-title="陕西电信-组播1",直播室202
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.109:8808
-#EXTINF:-1 group-title="陕西电信-组播2",直播室203
+#EXTINF:-1 group-title="陕西电信-组播1",直播室203
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.110:8816
-#EXTINF:-1 group-title="陕西电信-组播2",眉县新闻
+#EXTINF:-1 group-title="陕西电信-组播1",眉县新闻
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.81:5140
-#EXTINF:-1 group-title="陕西电信-组播2",紫阳
+#EXTINF:-1 group-title="陕西电信-组播1",紫阳
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.74:8528
-#EXTINF:-1 group-title="陕西电信-组播2",紫阳
+#EXTINF:-1 group-title="陕西电信-组播1",紫阳
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.220:5140
-#EXTINF:-1 group-title="陕西电信-组播2",聚鲨环球
+#EXTINF:-1 group-title="陕西电信-组播1",聚鲨环球
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.34:9800
-#EXTINF:-1 group-title="陕西电信-组播2",聚鲨环球
+#EXTINF:-1 group-title="陕西电信-组播1",聚鲨环球
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.158:5140
-#EXTINF:-1 group-title="陕西电信-组播2",蒲城综合[720*576]
+#EXTINF:-1 group-title="陕西电信-组播1",蒲城综合[720*576]
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.194:5140
-#EXTINF:-1 group-title="陕西电信-组播2",西乡融媒
+#EXTINF:-1 group-title="陕西电信-组播1",西乡融媒
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.17:5140
-#EXTINF:-1 group-title="陕西电信-组播2",西部电影
+#EXTINF:-1 group-title="陕西电信-组播1",西部电影
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.102:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陇县
+#EXTINF:-1 group-title="陕西电信-组播1",陇县
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.252:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陈仓频道
+#EXTINF:-1 group-title="陕西电信-组播1",陈仓频道
 http://wddpmpc.sosos.run:4022/rtp/239.111.205.245:5140
-#EXTINF:-1 group-title="陕西电信-组播2",陕视直播
+#EXTINF:-1 group-title="陕西电信-组播1",陕视直播
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.41:9874
-#EXTINF:-1 group-title="陕西电信-组播2",陕视融媒
+#EXTINF:-1 group-title="陕西电信-组播1",陕视融媒
 http://wddpmpc.sosos.run:4022/rtp/239.110.205.52:9934
-#EXTINF:-1 group-title="陕西电信-组播2",韩城综合
+#EXTINF:-1 group-title="陕西电信-组播1",韩城综合
 http://wddpmpc.sosos.run:4022/rtp/239.109.205.72:8512
-#EXTINF:-1 group-title="陕西电信-组播2",韩城综合
+#EXTINF:-1 group-title="陕西电信-组播1",韩城综合
 http://wddpmpc.sosos.run:4022/rtp/239.112.205.166:5140
 #EXTINF:-1 group-title="云南电信-组播1",云南卫视
 http://106.59.2.152:55555/rtp/239.200.200.145:8840
