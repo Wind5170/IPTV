@@ -1,7 +1,7 @@
-# 20260910_1430_precise_slow
+# 20260911_1435_precise_slow
 # 服务器地址	速度
-zjhuct.synology.me:8881	282.59 KB/s
-zjhuct.icu:8889	240.96 KB/s
-www.tangtuanpp.fun:4000	118.70 KB/s
-www.slq888.cn:9999	53.24 KB/s
-www.negative.top:50000	31.41 KB/s
+60.183.110.254:8000	276.63 KB/s
+zjhuct.synology.me:8881	269.72 KB/s
+www.negative.top:50000	256.92 KB/s
+www.tangtuanpp.fun:4000	96.42 KB/s
+www.slq888.cn:9999	35.38 KB/s

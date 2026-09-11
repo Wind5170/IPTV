@@ -1,11 +1,15 @@
-# 20260910_1412_precise
+# 20260911_1411_precise
 # 服务器地址	速度
-183.236.43.98:4111	392.63 KB/s
-183.236.43.98:4013	387.40 KB/s
-wmh.wmh.ink:6633	381.52 KB/s
-www.yahao.host:4022	377.79 KB/s
-home.8v8.fun:4333	365.72 KB/s
-svn.huase.ltd:8888	356.46 KB/s
-www.guangyuan.site:8188	339.48 KB/s
-yanshifen.top:8889	321.16 KB/s
-udp2.gdsz.eu.org:8888	302.03 KB/s
+183.51.190.156:6633	517.49 KB/s
+wmh.wmh.ink:6633	505.14 KB/s
+www.guangyuan.site:8188	495.49 KB/s
+183.236.43.98:4013	476.60 KB/s
+183.236.43.98:4111	472.55 KB/s
+home.8v8.fun:4333	462.90 KB/s
+www.hongzhijiaoyu.net:8188	428.46 KB/s
+yanshifen.top:8889	417.98 KB/s
+liqn.mycloudnas.com:8188	407.51 KB/s
+www.yahao.host:4022	401.06 KB/s
+udp2.gdsz.eu.org:8888	321.67 KB/s
+58.62.234.188:10000	319.40 KB/s
+113.101.245.37:9988	314.49 KB/s
