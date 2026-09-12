@@ -1,4 +1,4 @@
-# 20260911_1420_precise
+# 20260912_1334_precise
 # 服务器地址	速度
-hiliu.myds.me:18088	406.50 KB/s
-wlei.myds.me:52057	326.13 KB/s
+www.661130.xyz:8188	471.03 KB/s
+wlei.myds.me:52057	369.34 KB/s

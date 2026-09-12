@@ -1,8 +1,0 @@
-# 20260911_1408_precise_slow
-# 服务器地址	速度
-triq.cc:8012	253.15 KB/s
-unicom3.swjms.com:4022	248.87 KB/s
-superpostmail.3322.org:1193	141.48 KB/s
-111.196.130.52:20000	56.02 KB/s
-www.irisxxd.cn:8888	1.21 KB/s
-www.irisxxd.cn:8000	1.21 KB/s
