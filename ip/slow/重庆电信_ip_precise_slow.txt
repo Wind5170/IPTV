@@ -1,3 +1,3 @@
 # 20260915_1443_precise_slow
 # 服务器地址	速度
-remote.jackye.site:8000	29.56 KB/s
+www.wpfhome.cn:5555	101.33 KB/s
