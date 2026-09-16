@@ -1,9 +1,9 @@
-# 20260915_1500_precise
+# 20260916_1503_precise
 # 服务器地址	速度
-60.183.106.224:8000	501.39 KB/s
-zjhuct.synology.me:8889	475.69 KB/s
-maymoon.asuscomm.com:7777	475.25 KB/s
-zjhuct.synology.me:8881	446.07 KB/s
-hzmaidu.com:8090	420.11 KB/s
-www.negative.top:50000	337.63 KB/s
-www.liangcl.top:8686	312.91 KB/s
+gilbert0571.eu.org:8888	424.47 KB/s
+zjhuct.icu:8889	406.59 KB/s
+www.liangcl.top:8686	390.75 KB/s
+hzmaidu.com:8090	371.25 KB/s
+zjhuct.synology.me:8881	353.56 KB/s
+maymoon.asuscomm.com:7777	331.38 KB/s
+zjhuct.synology.me:8889	326.71 KB/s
