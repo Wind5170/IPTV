@@ -1,5 +1,6 @@
-# 20260916_1454_precise_slow
+# 20260917_1458_precise_slow
 # 服务器地址	速度
-wlei.myds.me:52057	282.40 KB/s
-hiliu.myds.me:18088	166.04 KB/s
-qnapxuan.mycloudnas.com:10001	36.89 KB/s
+www.661130.xyz:8188	269.14 KB/s
+wlei.myds.me:52057	267.15 KB/s
+qnapxuan.mycloudnas.com:10001	116.40 KB/s
+hiliu.myds.me:18088	98.32 KB/s

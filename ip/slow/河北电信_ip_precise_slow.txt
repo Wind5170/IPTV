@@ -1,5 +1,4 @@
-# 20260916_1448_precise_slow
+# 20260917_1453_precise_slow
 # 服务器地址	速度
-prozyt.top:4022	269.22 KB/s
-emby.xlangnan.cn:8189	263.67 KB/s
-111.226.232.250:10010	33.04 KB/s
+emby.xlangnan.cn:8189	240.38 KB/s
+111.226.232.250:10010	34.55 KB/s
