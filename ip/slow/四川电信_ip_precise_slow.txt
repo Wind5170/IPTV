@@ -1,10 +1,8 @@
-# 20260917_1509_precise_slow
+# 20260918_1431_precise_slow
 # 服务器地址	速度
-ddns.55682750.xyz:18888	208.26 KB/s
-171.213.148.218:4022	204.18 KB/s
-wxk.x3322.net:8188	120.97 KB/s
-ch3829.myds.me:4022	118.98 KB/s
-vpn.ydcb.top:40000	117.37 KB/s
-xmzj.f3322.net:8188	113.49 KB/s
-171.213.145.222:8188	106.29 KB/s
-pp.ydcb.top:40000	102.12 KB/s
+s.zssss.eu.org:888	264.79 KB/s
+wxk.x3322.net:8188	230.31 KB/s
+171.213.144.169:4022	120.06 KB/s
+vpn.ydcb.top:40000	118.72 KB/s
+pp.ydcb.top:40000	68.77 KB/s
+ipv4.roxette119.xyz:5555	60.54 KB/s

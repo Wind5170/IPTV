@@ -1,3 +1,3 @@
-# 20260917_1449_precise
+# 20260918_1413_precise
 # 服务器地址	速度
-woc.iiiya.cn:18888	361.87 KB/s
+remote.jackye.site:8000	473.49 KB/s
