@@ -1,211 +1,421 @@
 #EXTM3U
 #EXTINF:-1 group-title="福建电信-组播1",福建公共频道
-http://woc.iiiya.cn:18888/rtp/239.61.2.3:8012
+http://remote.jackye.site:8000/rtp/239.61.2.3:8012
 #EXTINF:-1 group-title="福建电信-组播1",福建少儿频道
-http://woc.iiiya.cn:18888/rtp/239.61.2.9:8048
+http://remote.jackye.site:8000/rtp/239.61.2.9:8048
 #EXTINF:-1 group-title="福建电信-组播1",福建教育频道
-http://woc.iiiya.cn:18888/rtp/239.61.2.173:9026
+http://remote.jackye.site:8000/rtp/239.61.2.173:9026
 #EXTINF:-1 group-title="福建电信-组播1",福建文体频道
-http://woc.iiiya.cn:18888/rtp/239.61.2.160:8948
+http://remote.jackye.site:8000/rtp/239.61.2.160:8948
 #EXTINF:-1 group-title="福建电信-组播1",福建新闻频道
-http://woc.iiiya.cn:18888/rtp/239.61.2.4:8018
+http://remote.jackye.site:8000/rtp/239.61.2.4:8018
 #EXTINF:-1 group-title="福建电信-组播1",福建旅游频道
-http://woc.iiiya.cn:18888/rtp/239.61.2.6:8030
+http://remote.jackye.site:8000/rtp/239.61.2.6:8030
 #EXTINF:-1 group-title="福建电信-组播1",福建电视剧频道
-http://woc.iiiya.cn:18888/rtp/239.61.2.5:8024
+http://remote.jackye.site:8000/rtp/239.61.2.5:8024
 #EXTINF:-1 group-title="福建电信-组播1",福建经济频道
-http://woc.iiiya.cn:18888/rtp/239.61.2.7:8036
+http://remote.jackye.site:8000/rtp/239.61.2.7:8036
 #EXTINF:-1 group-title="福建电信-组播1",福建综合频道
-http://woc.iiiya.cn:18888/rtp/239.61.3.4:9542
+http://remote.jackye.site:8000/rtp/239.61.3.4:9542
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-1综合
-http://woc.iiiya.cn:18888/rtp/239.61.3.61:9884
+http://remote.jackye.site:8000/rtp/239.61.3.61:9884
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-2财经
-http://woc.iiiya.cn:18888/rtp/239.61.2.174:9032
+http://remote.jackye.site:8000/rtp/239.61.2.174:9032
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-3综艺
-http://woc.iiiya.cn:18888/rtp/239.61.3.34:9722
+http://remote.jackye.site:8000/rtp/239.61.3.34:9722
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-4中文国际
-http://woc.iiiya.cn:18888/rtp/239.61.2.206:9224
+http://remote.jackye.site:8000/rtp/239.61.2.206:9224
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-5体育
-http://woc.iiiya.cn:18888/rtp/239.61.3.35:9728
+http://remote.jackye.site:8000/rtp/239.61.3.35:9728
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-5+体育赛事
-http://woc.iiiya.cn:18888/rtp/239.61.2.171:9014
+http://remote.jackye.site:8000/rtp/239.61.2.171:9014
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-6电影
-http://woc.iiiya.cn:18888/rtp/239.61.3.36:9734
+http://remote.jackye.site:8000/rtp/239.61.3.36:9734
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-7国防军事
-http://woc.iiiya.cn:18888/rtp/239.61.2.175:9038
+http://remote.jackye.site:8000/rtp/239.61.2.175:9038
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-8电视剧
-http://woc.iiiya.cn:18888/rtp/239.61.3.37:9740
+http://remote.jackye.site:8000/rtp/239.61.3.37:9740
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-9纪录
-http://woc.iiiya.cn:18888/rtp/239.61.2.172:9020
+http://remote.jackye.site:8000/rtp/239.61.2.172:9020
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-10科教
-http://woc.iiiya.cn:18888/rtp/239.61.2.176:9044
+http://remote.jackye.site:8000/rtp/239.61.2.176:9044
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-11戏曲
-http://woc.iiiya.cn:18888/rtp/239.61.2.21:8120
+http://remote.jackye.site:8000/rtp/239.61.2.21:8120
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-12社会与法
-http://woc.iiiya.cn:18888/rtp/239.61.2.177:9050
+http://remote.jackye.site:8000/rtp/239.61.2.177:9050
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-13新闻
-http://woc.iiiya.cn:18888/rtp/239.61.2.23:8132
+http://remote.jackye.site:8000/rtp/239.61.2.23:8132
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-14少儿
-http://woc.iiiya.cn:18888/rtp/239.61.2.178:9056
+http://remote.jackye.site:8000/rtp/239.61.2.178:9056
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-15音乐
-http://woc.iiiya.cn:18888/rtp/239.61.2.25:8144
+http://remote.jackye.site:8000/rtp/239.61.2.25:8144
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-16奥林匹克
-http://woc.iiiya.cn:18888/rtp/239.61.4.135:1025
+http://remote.jackye.site:8000/rtp/239.61.4.135:1025
 #EXTINF:-1 group-title="福建电信-组播1",CCTV-17农业农村
-http://woc.iiiya.cn:18888/rtp/239.61.3.9:9572
+http://remote.jackye.site:8000/rtp/239.61.3.9:9572
 #EXTINF:-1 group-title="福建电信-组播1",湖南卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.31:8180
+http://remote.jackye.site:8000/rtp/239.61.2.31:8180
 #EXTINF:-1 group-title="福建电信-组播1",浙江卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.29:8168
+http://remote.jackye.site:8000/rtp/239.61.2.29:8168
 #EXTINF:-1 group-title="福建电信-组播1",江苏卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.30:8174
+http://remote.jackye.site:8000/rtp/239.61.2.30:8174
 #EXTINF:-1 group-title="福建电信-组播1",北京卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.32:8186
+http://remote.jackye.site:8000/rtp/239.61.2.32:8186
 #EXTINF:-1 group-title="福建电信-组播1",东方卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.28:8162
+http://remote.jackye.site:8000/rtp/239.61.2.28:8162
 #EXTINF:-1 group-title="福建电信-组播1",安徽卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.248:9476
+http://remote.jackye.site:8000/rtp/239.61.2.248:9476
 #EXTINF:-1 group-title="福建电信-组播1",广东卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.33:8192
+http://remote.jackye.site:8000/rtp/239.61.2.33:8192
 #EXTINF:-1 group-title="福建电信-组播1",深圳卫视
-http://woc.iiiya.cn:18888/rtp/239.61.3.46:9794
+http://remote.jackye.site:8000/rtp/239.61.3.46:9794
 #EXTINF:-1 group-title="福建电信-组播1",辽宁卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.181:9074
+http://remote.jackye.site:8000/rtp/239.61.2.181:9074
 #EXTINF:-1 group-title="福建电信-组播1",山东卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.119:8708
+http://remote.jackye.site:8000/rtp/239.61.2.119:8708
 #EXTINF:-1 group-title="福建电信-组播1",天津卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.180:9068
+http://remote.jackye.site:8000/rtp/239.61.2.180:9068
 #EXTINF:-1 group-title="福建电信-组播1",重庆卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.250:9488
+http://remote.jackye.site:8000/rtp/239.61.2.250:9488
 #EXTINF:-1 group-title="福建电信-组播1",东南卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.132:8708
+http://remote.jackye.site:8000/rtp/239.61.2.132:8708
 #EXTINF:-1 group-title="福建电信-组播1",河北卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.57:8336
+http://remote.jackye.site:8000/rtp/239.61.2.57:8336
 #EXTINF:-1 group-title="福建电信-组播1",河南卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.59:8348
+http://remote.jackye.site:8000/rtp/239.61.2.59:8348
 #EXTINF:-1 group-title="福建电信-组播1",湖北卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.120:8714
+http://remote.jackye.site:8000/rtp/239.61.2.120:8714
 #EXTINF:-1 group-title="福建电信-组播1",四川卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.251:9494
+http://remote.jackye.site:8000/rtp/239.61.2.251:9494
 #EXTINF:-1 group-title="福建电信-组播1",海南卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.42:8246
+http://remote.jackye.site:8000/rtp/239.61.2.42:8246
 #EXTINF:-1 group-title="福建电信-组播1",甘肃卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.225:9338
+http://remote.jackye.site:8000/rtp/239.61.2.225:9338
 #EXTINF:-1 group-title="福建电信-组播1",广西卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.48:8282
+http://remote.jackye.site:8000/rtp/239.61.2.48:8282
 #EXTINF:-1 group-title="福建电信-组播1",贵州卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.159:8942
+http://remote.jackye.site:8000/rtp/239.61.2.159:8942
 #EXTINF:-1 group-title="福建电信-组播1",黑龙江卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.34:8198
+http://remote.jackye.site:8000/rtp/239.61.2.34:8198
 #EXTINF:-1 group-title="福建电信-组播1",江西卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.182:9080
+http://remote.jackye.site:8000/rtp/239.61.2.182:9080
 #EXTINF:-1 group-title="福建电信-组播1",吉林卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.223:9326
+http://remote.jackye.site:8000/rtp/239.61.2.223:9326
 #EXTINF:-1 group-title="福建电信-组播1",内蒙古卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.226:9344
+http://remote.jackye.site:8000/rtp/239.61.2.226:9344
 #EXTINF:-1 group-title="福建电信-组播1",宁夏卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.56:8330
+http://remote.jackye.site:8000/rtp/239.61.2.56:8330
 #EXTINF:-1 group-title="福建电信-组播1",山西卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.224:9332
+http://remote.jackye.site:8000/rtp/239.61.2.224:9332
 #EXTINF:-1 group-title="福建电信-组播1",新疆卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.227:9350
+http://remote.jackye.site:8000/rtp/239.61.2.227:9350
 #EXTINF:-1 group-title="福建电信-组播1",云南卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.61:8360
+http://remote.jackye.site:8000/rtp/239.61.2.61:8360
 #EXTINF:-1 group-title="福建电信-组播1",青海卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.60:8354
+http://remote.jackye.site:8000/rtp/239.61.2.60:8354
 #EXTINF:-1 group-title="福建电信-组播1",西藏卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.229:9362
+http://remote.jackye.site:8000/rtp/239.61.2.229:9362
 #EXTINF:-1 group-title="福建电信-组播1",兵团卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.228:9356
+http://remote.jackye.site:8000/rtp/239.61.2.228:9356
 #EXTINF:-1 group-title="福建电信-组播1",三沙卫视
-http://woc.iiiya.cn:18888/rtp/239.61.3.10:9578
+http://remote.jackye.site:8000/rtp/239.61.3.10:9578
 #EXTINF:-1 group-title="福建电信-组播1",厦门卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.11:8060
+http://remote.jackye.site:8000/rtp/239.61.2.11:8060
 #EXTINF:-1 group-title="福建电信-组播1",湖南卫视4K
-http://woc.iiiya.cn:18888/rtp/239.61.4.219:1025
+http://remote.jackye.site:8000/rtp/239.61.4.219:1025
 #EXTINF:-1 group-title="福建电信-组播1",浙江卫视4K
-http://woc.iiiya.cn:18888/rtp/239.61.4.217:1025
+http://remote.jackye.site:8000/rtp/239.61.4.217:1025
 #EXTINF:-1 group-title="福建电信-组播1",江苏卫视4K
-http://woc.iiiya.cn:18888/rtp/239.61.4.216:1025
+http://remote.jackye.site:8000/rtp/239.61.4.216:1025
 #EXTINF:-1 group-title="福建电信-组播1",北京卫视4K
-http://woc.iiiya.cn:18888/rtp/239.61.4.194:1025
+http://remote.jackye.site:8000/rtp/239.61.4.194:1025
 #EXTINF:-1 group-title="福建电信-组播1",东方卫视4K
-http://woc.iiiya.cn:18888/rtp/239.61.4.215:1025
+http://remote.jackye.site:8000/rtp/239.61.4.215:1025
 #EXTINF:-1 group-title="福建电信-组播1",广东卫视4K
-http://woc.iiiya.cn:18888/rtp/239.61.4.195:1025
+http://remote.jackye.site:8000/rtp/239.61.4.195:1025
 #EXTINF:-1 group-title="福建电信-组播1",深圳卫视4K
-http://woc.iiiya.cn:18888/rtp/239.61.4.196:1025
+http://remote.jackye.site:8000/rtp/239.61.4.196:1025
 #EXTINF:-1 group-title="福建电信-组播1",山东卫视4K
-http://woc.iiiya.cn:18888/rtp/239.61.4.218:1025
+http://remote.jackye.site:8000/rtp/239.61.4.218:1025
 #EXTINF:-1 group-title="福建电信-组播1",四川卫视4K
-http://woc.iiiya.cn:18888/rtp/239.61.4.220:1025
+http://remote.jackye.site:8000/rtp/239.61.4.220:1025
 #EXTINF:-1 group-title="福建电信-组播1",凤凰中文
-http://woc.iiiya.cn:18888/rtp/239.61.2.184:9092
+http://remote.jackye.site:8000/rtp/239.61.2.184:9092
 #EXTINF:-1 group-title="福建电信-组播1",凤凰资讯
-http://woc.iiiya.cn:18888/rtp/239.61.2.183:9086
+http://remote.jackye.site:8000/rtp/239.61.2.183:9086
 #EXTINF:-1 group-title="福建电信-组播1",CGTN英语
-http://woc.iiiya.cn:18888/rtp/239.61.2.19:8108
+http://remote.jackye.site:8000/rtp/239.61.2.19:8108
 #EXTINF:-1 group-title="福建电信-组播1",CGTN法语
-http://woc.iiiya.cn:18888/rtp/239.61.3.44:9782
+http://remote.jackye.site:8000/rtp/239.61.3.44:9782
 #EXTINF:-1 group-title="福建电信-组播1",CGTN俄语
-http://woc.iiiya.cn:18888/rtp/239.61.3.45:9788
+http://remote.jackye.site:8000/rtp/239.61.3.45:9788
 #EXTINF:-1 group-title="福建电信-组播1",CGTN纪录
-http://woc.iiiya.cn:18888/rtp/239.61.3.43:9776
+http://remote.jackye.site:8000/rtp/239.61.3.43:9776
 #EXTINF:-1 group-title="福建电信-组播1",CETV-1综合教育
-http://woc.iiiya.cn:18888/rtp/239.61.2.167:8990
+http://remote.jackye.site:8000/rtp/239.61.2.167:8990
 #EXTINF:-1 group-title="福建电信-组播1",CETV-2空中课堂
-http://woc.iiiya.cn:18888/rtp/239.61.3.6:9554
+http://remote.jackye.site:8000/rtp/239.61.3.6:9554
 #EXTINF:-1 group-title="福建电信-组播1",CETV-4职业教育
-http://woc.iiiya.cn:18888/rtp/239.61.3.15:9608
+http://remote.jackye.site:8000/rtp/239.61.3.15:9608
 #EXTINF:-1 group-title="福建电信-组播1",CHC动作电影
-http://woc.iiiya.cn:18888/rtp/239.61.3.16:9616
+http://remote.jackye.site:8000/rtp/239.61.3.16:9616
 #EXTINF:-1 group-title="福建电信-组播1",中国天气
-http://woc.iiiya.cn:18888/rtp/239.61.2.64:8378
+http://remote.jackye.site:8000/rtp/239.61.2.64:8378
 #EXTINF:-1 group-title="福建电信-组播1",爱上4K
-http://woc.iiiya.cn:18888/rtp/239.61.5.164:1025
+http://remote.jackye.site:8000/rtp/239.61.5.164:1025
 #EXTINF:-1 group-title="福建电信-组播1",北京卡酷少儿
-http://woc.iiiya.cn:18888/rtp/239.61.2.222:9320
+http://remote.jackye.site:8000/rtp/239.61.2.222:9320
 #EXTINF:-1 group-title="福建电信-组播1",上海多彩文体4K
-http://woc.iiiya.cn:18888/rtp/239.61.4.145:1025
+http://remote.jackye.site:8000/rtp/239.61.4.145:1025
 #EXTINF:-1 group-title="福建电信-组播1",上海纪实人文
-http://woc.iiiya.cn:18888/rtp/239.61.2.165:8978
+http://remote.jackye.site:8000/rtp/239.61.2.165:8978
 #EXTINF:-1 group-title="福建电信-组播1",河南武术世界
-http://woc.iiiya.cn:18888/rtp/239.61.3.22:9652
+http://remote.jackye.site:8000/rtp/239.61.3.22:9652
 #EXTINF:-1 group-title="福建电信-组播1",河南文物宝库
-http://woc.iiiya.cn:18888/rtp/239.61.3.21:9646
+http://remote.jackye.site:8000/rtp/239.61.3.21:9646
 #EXTINF:-1 group-title="福建电信-组播1",湖南茶频道
-http://woc.iiiya.cn:18888/rtp/239.61.3.59:9872
+http://remote.jackye.site:8000/rtp/239.61.3.59:9872
 #EXTINF:-1 group-title="福建电信-组播1",湖南金鹰纪实
-http://woc.iiiya.cn:18888/rtp/239.61.3.7:9560
+http://remote.jackye.site:8000/rtp/239.61.3.7:9560
 #EXTINF:-1 group-title="福建电信-组播1",湖南金鹰卡通
-http://woc.iiiya.cn:18888/rtp/239.61.2.221:9314
+http://remote.jackye.site:8000/rtp/239.61.2.221:9314
 #EXTINF:-1 group-title="福建电信-组播1",广东嘉佳卡通
-http://woc.iiiya.cn:18888/rtp/239.61.2.72:8426
+http://remote.jackye.site:8000/rtp/239.61.2.72:8426
 #EXTINF:-1 group-title="福建电信-组播1",福州新闻
-http://woc.iiiya.cn:18888/rtp/239.61.5.97:1025
+http://remote.jackye.site:8000/rtp/239.61.5.97:1025
 #EXTINF:-1 group-title="福建电信-组播1",厦门1
-http://woc.iiiya.cn:18888/rtp/239.61.4.139:1025
+http://remote.jackye.site:8000/rtp/239.61.4.139:1025
 #EXTINF:-1 group-title="福建电信-组播1",厦门2
-http://woc.iiiya.cn:18888/rtp/239.61.4.140:1025
+http://remote.jackye.site:8000/rtp/239.61.4.140:1025
 #EXTINF:-1 group-title="福建电信-组播1",莆田新闻
-http://woc.iiiya.cn:18888/rtp/239.61.5.94:1025
+http://remote.jackye.site:8000/rtp/239.61.5.94:1025
 #EXTINF:-1 group-title="福建电信-组播1",三明新闻
-http://woc.iiiya.cn:18888/rtp/239.61.5.93:1025
+http://remote.jackye.site:8000/rtp/239.61.5.93:1025
 #EXTINF:-1 group-title="福建电信-组播1",泉州新闻
-http://woc.iiiya.cn:18888/rtp/239.61.5.98:1025
+http://remote.jackye.site:8000/rtp/239.61.5.98:1025
 #EXTINF:-1 group-title="福建电信-组播1",漳州新闻
-http://woc.iiiya.cn:18888/rtp/239.61.5.91:1025
+http://remote.jackye.site:8000/rtp/239.61.5.91:1025
 #EXTINF:-1 group-title="福建电信-组播1",南平新闻
-http://woc.iiiya.cn:18888/rtp/239.61.5.92:1025
+http://remote.jackye.site:8000/rtp/239.61.5.92:1025
 #EXTINF:-1 group-title="福建电信-组播1",龙岩新闻
-http://woc.iiiya.cn:18888/rtp/239.61.5.95:1025
+http://remote.jackye.site:8000/rtp/239.61.5.95:1025
 #EXTINF:-1 group-title="福建电信-组播1",宁德新闻
-http://woc.iiiya.cn:18888/rtp/239.61.5.96:1025
+http://remote.jackye.site:8000/rtp/239.61.5.96:1025
 #EXTINF:-1 group-title="福建电信-组播1",河南梨园频道
-http://woc.iiiya.cn:18888/rtp/239.61.3.19:9634
+http://remote.jackye.site:8000/rtp/239.61.3.19:9634
 #EXTINF:-1 group-title="福建电信-组播1",平潭新闻
-http://woc.iiiya.cn:18888/rtp/239.61.5.117:1025
+http://remote.jackye.site:8000/rtp/239.61.5.117:1025
 #EXTINF:-1 group-title="福建电信-组播1",海峡卫视
-http://woc.iiiya.cn:18888/rtp/239.61.2.151:8894
+http://remote.jackye.site:8000/rtp/239.61.2.151:8894
 #EXTINF:-1 group-title="福建电信-组播1",百视4K
+http://remote.jackye.site:8000/rtp/239.61.4.129:1025
+#EXTINF:-1 group-title="福建电信-组播2",福建公共频道
+http://woc.iiiya.cn:18888/rtp/239.61.2.3:8012
+#EXTINF:-1 group-title="福建电信-组播2",福建少儿频道
+http://woc.iiiya.cn:18888/rtp/239.61.2.9:8048
+#EXTINF:-1 group-title="福建电信-组播2",福建教育频道
+http://woc.iiiya.cn:18888/rtp/239.61.2.173:9026
+#EXTINF:-1 group-title="福建电信-组播2",福建文体频道
+http://woc.iiiya.cn:18888/rtp/239.61.2.160:8948
+#EXTINF:-1 group-title="福建电信-组播2",福建新闻频道
+http://woc.iiiya.cn:18888/rtp/239.61.2.4:8018
+#EXTINF:-1 group-title="福建电信-组播2",福建旅游频道
+http://woc.iiiya.cn:18888/rtp/239.61.2.6:8030
+#EXTINF:-1 group-title="福建电信-组播2",福建电视剧频道
+http://woc.iiiya.cn:18888/rtp/239.61.2.5:8024
+#EXTINF:-1 group-title="福建电信-组播2",福建经济频道
+http://woc.iiiya.cn:18888/rtp/239.61.2.7:8036
+#EXTINF:-1 group-title="福建电信-组播2",福建综合频道
+http://woc.iiiya.cn:18888/rtp/239.61.3.4:9542
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-1综合
+http://woc.iiiya.cn:18888/rtp/239.61.3.61:9884
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-2财经
+http://woc.iiiya.cn:18888/rtp/239.61.2.174:9032
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-3综艺
+http://woc.iiiya.cn:18888/rtp/239.61.3.34:9722
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-4中文国际
+http://woc.iiiya.cn:18888/rtp/239.61.2.206:9224
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-5体育
+http://woc.iiiya.cn:18888/rtp/239.61.3.35:9728
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-5+体育赛事
+http://woc.iiiya.cn:18888/rtp/239.61.2.171:9014
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-6电影
+http://woc.iiiya.cn:18888/rtp/239.61.3.36:9734
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-7国防军事
+http://woc.iiiya.cn:18888/rtp/239.61.2.175:9038
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-8电视剧
+http://woc.iiiya.cn:18888/rtp/239.61.3.37:9740
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-9纪录
+http://woc.iiiya.cn:18888/rtp/239.61.2.172:9020
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-10科教
+http://woc.iiiya.cn:18888/rtp/239.61.2.176:9044
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-11戏曲
+http://woc.iiiya.cn:18888/rtp/239.61.2.21:8120
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-12社会与法
+http://woc.iiiya.cn:18888/rtp/239.61.2.177:9050
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-13新闻
+http://woc.iiiya.cn:18888/rtp/239.61.2.23:8132
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-14少儿
+http://woc.iiiya.cn:18888/rtp/239.61.2.178:9056
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-15音乐
+http://woc.iiiya.cn:18888/rtp/239.61.2.25:8144
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-16奥林匹克
+http://woc.iiiya.cn:18888/rtp/239.61.4.135:1025
+#EXTINF:-1 group-title="福建电信-组播2",CCTV-17农业农村
+http://woc.iiiya.cn:18888/rtp/239.61.3.9:9572
+#EXTINF:-1 group-title="福建电信-组播2",湖南卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.31:8180
+#EXTINF:-1 group-title="福建电信-组播2",浙江卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.29:8168
+#EXTINF:-1 group-title="福建电信-组播2",江苏卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.30:8174
+#EXTINF:-1 group-title="福建电信-组播2",北京卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.32:8186
+#EXTINF:-1 group-title="福建电信-组播2",东方卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.28:8162
+#EXTINF:-1 group-title="福建电信-组播2",安徽卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.248:9476
+#EXTINF:-1 group-title="福建电信-组播2",广东卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.33:8192
+#EXTINF:-1 group-title="福建电信-组播2",深圳卫视
+http://woc.iiiya.cn:18888/rtp/239.61.3.46:9794
+#EXTINF:-1 group-title="福建电信-组播2",辽宁卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.181:9074
+#EXTINF:-1 group-title="福建电信-组播2",山东卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.119:8708
+#EXTINF:-1 group-title="福建电信-组播2",天津卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.180:9068
+#EXTINF:-1 group-title="福建电信-组播2",重庆卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.250:9488
+#EXTINF:-1 group-title="福建电信-组播2",东南卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.132:8708
+#EXTINF:-1 group-title="福建电信-组播2",河北卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.57:8336
+#EXTINF:-1 group-title="福建电信-组播2",河南卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.59:8348
+#EXTINF:-1 group-title="福建电信-组播2",湖北卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.120:8714
+#EXTINF:-1 group-title="福建电信-组播2",四川卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.251:9494
+#EXTINF:-1 group-title="福建电信-组播2",海南卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.42:8246
+#EXTINF:-1 group-title="福建电信-组播2",甘肃卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.225:9338
+#EXTINF:-1 group-title="福建电信-组播2",广西卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.48:8282
+#EXTINF:-1 group-title="福建电信-组播2",贵州卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.159:8942
+#EXTINF:-1 group-title="福建电信-组播2",黑龙江卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.34:8198
+#EXTINF:-1 group-title="福建电信-组播2",江西卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.182:9080
+#EXTINF:-1 group-title="福建电信-组播2",吉林卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.223:9326
+#EXTINF:-1 group-title="福建电信-组播2",内蒙古卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.226:9344
+#EXTINF:-1 group-title="福建电信-组播2",宁夏卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.56:8330
+#EXTINF:-1 group-title="福建电信-组播2",山西卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.224:9332
+#EXTINF:-1 group-title="福建电信-组播2",新疆卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.227:9350
+#EXTINF:-1 group-title="福建电信-组播2",云南卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.61:8360
+#EXTINF:-1 group-title="福建电信-组播2",青海卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.60:8354
+#EXTINF:-1 group-title="福建电信-组播2",西藏卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.229:9362
+#EXTINF:-1 group-title="福建电信-组播2",兵团卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.228:9356
+#EXTINF:-1 group-title="福建电信-组播2",三沙卫视
+http://woc.iiiya.cn:18888/rtp/239.61.3.10:9578
+#EXTINF:-1 group-title="福建电信-组播2",厦门卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.11:8060
+#EXTINF:-1 group-title="福建电信-组播2",湖南卫视4K
+http://woc.iiiya.cn:18888/rtp/239.61.4.219:1025
+#EXTINF:-1 group-title="福建电信-组播2",浙江卫视4K
+http://woc.iiiya.cn:18888/rtp/239.61.4.217:1025
+#EXTINF:-1 group-title="福建电信-组播2",江苏卫视4K
+http://woc.iiiya.cn:18888/rtp/239.61.4.216:1025
+#EXTINF:-1 group-title="福建电信-组播2",北京卫视4K
+http://woc.iiiya.cn:18888/rtp/239.61.4.194:1025
+#EXTINF:-1 group-title="福建电信-组播2",东方卫视4K
+http://woc.iiiya.cn:18888/rtp/239.61.4.215:1025
+#EXTINF:-1 group-title="福建电信-组播2",广东卫视4K
+http://woc.iiiya.cn:18888/rtp/239.61.4.195:1025
+#EXTINF:-1 group-title="福建电信-组播2",深圳卫视4K
+http://woc.iiiya.cn:18888/rtp/239.61.4.196:1025
+#EXTINF:-1 group-title="福建电信-组播2",山东卫视4K
+http://woc.iiiya.cn:18888/rtp/239.61.4.218:1025
+#EXTINF:-1 group-title="福建电信-组播2",四川卫视4K
+http://woc.iiiya.cn:18888/rtp/239.61.4.220:1025
+#EXTINF:-1 group-title="福建电信-组播2",凤凰中文
+http://woc.iiiya.cn:18888/rtp/239.61.2.184:9092
+#EXTINF:-1 group-title="福建电信-组播2",凤凰资讯
+http://woc.iiiya.cn:18888/rtp/239.61.2.183:9086
+#EXTINF:-1 group-title="福建电信-组播2",CGTN英语
+http://woc.iiiya.cn:18888/rtp/239.61.2.19:8108
+#EXTINF:-1 group-title="福建电信-组播2",CGTN法语
+http://woc.iiiya.cn:18888/rtp/239.61.3.44:9782
+#EXTINF:-1 group-title="福建电信-组播2",CGTN俄语
+http://woc.iiiya.cn:18888/rtp/239.61.3.45:9788
+#EXTINF:-1 group-title="福建电信-组播2",CGTN纪录
+http://woc.iiiya.cn:18888/rtp/239.61.3.43:9776
+#EXTINF:-1 group-title="福建电信-组播2",CETV-1综合教育
+http://woc.iiiya.cn:18888/rtp/239.61.2.167:8990
+#EXTINF:-1 group-title="福建电信-组播2",CETV-2空中课堂
+http://woc.iiiya.cn:18888/rtp/239.61.3.6:9554
+#EXTINF:-1 group-title="福建电信-组播2",CETV-4职业教育
+http://woc.iiiya.cn:18888/rtp/239.61.3.15:9608
+#EXTINF:-1 group-title="福建电信-组播2",CHC动作电影
+http://woc.iiiya.cn:18888/rtp/239.61.3.16:9616
+#EXTINF:-1 group-title="福建电信-组播2",中国天气
+http://woc.iiiya.cn:18888/rtp/239.61.2.64:8378
+#EXTINF:-1 group-title="福建电信-组播2",爱上4K
+http://woc.iiiya.cn:18888/rtp/239.61.5.164:1025
+#EXTINF:-1 group-title="福建电信-组播2",北京卡酷少儿
+http://woc.iiiya.cn:18888/rtp/239.61.2.222:9320
+#EXTINF:-1 group-title="福建电信-组播2",上海多彩文体4K
+http://woc.iiiya.cn:18888/rtp/239.61.4.145:1025
+#EXTINF:-1 group-title="福建电信-组播2",上海纪实人文
+http://woc.iiiya.cn:18888/rtp/239.61.2.165:8978
+#EXTINF:-1 group-title="福建电信-组播2",河南武术世界
+http://woc.iiiya.cn:18888/rtp/239.61.3.22:9652
+#EXTINF:-1 group-title="福建电信-组播2",河南文物宝库
+http://woc.iiiya.cn:18888/rtp/239.61.3.21:9646
+#EXTINF:-1 group-title="福建电信-组播2",湖南茶频道
+http://woc.iiiya.cn:18888/rtp/239.61.3.59:9872
+#EXTINF:-1 group-title="福建电信-组播2",湖南金鹰纪实
+http://woc.iiiya.cn:18888/rtp/239.61.3.7:9560
+#EXTINF:-1 group-title="福建电信-组播2",湖南金鹰卡通
+http://woc.iiiya.cn:18888/rtp/239.61.2.221:9314
+#EXTINF:-1 group-title="福建电信-组播2",广东嘉佳卡通
+http://woc.iiiya.cn:18888/rtp/239.61.2.72:8426
+#EXTINF:-1 group-title="福建电信-组播2",福州新闻
+http://woc.iiiya.cn:18888/rtp/239.61.5.97:1025
+#EXTINF:-1 group-title="福建电信-组播2",厦门1
+http://woc.iiiya.cn:18888/rtp/239.61.4.139:1025
+#EXTINF:-1 group-title="福建电信-组播2",厦门2
+http://woc.iiiya.cn:18888/rtp/239.61.4.140:1025
+#EXTINF:-1 group-title="福建电信-组播2",莆田新闻
+http://woc.iiiya.cn:18888/rtp/239.61.5.94:1025
+#EXTINF:-1 group-title="福建电信-组播2",三明新闻
+http://woc.iiiya.cn:18888/rtp/239.61.5.93:1025
+#EXTINF:-1 group-title="福建电信-组播2",泉州新闻
+http://woc.iiiya.cn:18888/rtp/239.61.5.98:1025
+#EXTINF:-1 group-title="福建电信-组播2",漳州新闻
+http://woc.iiiya.cn:18888/rtp/239.61.5.91:1025
+#EXTINF:-1 group-title="福建电信-组播2",南平新闻
+http://woc.iiiya.cn:18888/rtp/239.61.5.92:1025
+#EXTINF:-1 group-title="福建电信-组播2",龙岩新闻
+http://woc.iiiya.cn:18888/rtp/239.61.5.95:1025
+#EXTINF:-1 group-title="福建电信-组播2",宁德新闻
+http://woc.iiiya.cn:18888/rtp/239.61.5.96:1025
+#EXTINF:-1 group-title="福建电信-组播2",河南梨园频道
+http://woc.iiiya.cn:18888/rtp/239.61.3.19:9634
+#EXTINF:-1 group-title="福建电信-组播2",平潭新闻
+http://woc.iiiya.cn:18888/rtp/239.61.5.117:1025
+#EXTINF:-1 group-title="福建电信-组播2",海峡卫视
+http://woc.iiiya.cn:18888/rtp/239.61.2.151:8894
+#EXTINF:-1 group-title="福建电信-组播2",百视4K
 http://woc.iiiya.cn:18888/rtp/239.61.4.129:1025
