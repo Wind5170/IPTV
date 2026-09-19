@@ -1,3 +1,0 @@
-# 20260918_1413_precise_slow
-# 服务器地址	速度
-woc.iiiya.cn:18888	273.77 KB/s
