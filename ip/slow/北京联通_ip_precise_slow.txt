@@ -1,9 +1,11 @@
-# 20260919_1345_precise_slow
+# 20260920_1401_precise_slow
 # 服务器地址	速度
-111.194.237.233:4022	251.36 KB/s
-sphinger.f3322.net:11012	197.66 KB/s
-111.196.130.52:20000	178.14 KB/s
-unicom3.swjms.com:4022	125.70 KB/s
-superpostmail.3322.org:1193	97.81 KB/s
-www.fjxzl.top:23234	91.81 KB/s
-owvpn.famcloud.top:9878	89.73 KB/s
+superpostmail.3322.org:1193	290.76 KB/s
+laiboy.myds.me:58686	278.00 KB/s
+111.194.237.233:4022	257.47 KB/s
+sphinger.f3322.net:11012	197.55 KB/s
+triq.cc:8012	71.82 KB/s
+111.196.130.52:20000	33.47 KB/s
+www.irisxxd.cn:8888	6.38 KB/s
+www.irisxxd.cn:8000	6.34 KB/s
+yaoleyaotou.com:4022	1.93 KB/s

@@ -1,5 +1,4 @@
-# 20260919_1401_precise_slow
+# 20260920_1429_precise_slow
 # 服务器地址	速度
-www.liangcl.top:8686	244.97 KB/s
-www.tangtuanpp.fun:4000	106.59 KB/s
-www.slq888.cn:9999	86.94 KB/s
+www.tangtuanpp.fun:4000	86.51 KB/s
+www.slq888.cn:9999	35.72 KB/s
