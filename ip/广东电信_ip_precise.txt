@@ -1,10 +1,11 @@
-# 20260920_1406_precise
+# 20260921_1626_precise
 # 服务器地址	速度
-www.guangyuan.site:8188	438.08 KB/s
-113.77.240.63:6822	428.09 KB/s
-www.yahao.host:4022	419.34 KB/s
-www.tyio.cc:8188	417.14 KB/s
-www.hongzhijiaoyu.net:8188	408.69 KB/s
-yanshifen.top:8889	408.22 KB/s
-183.236.43.98:4013	391.18 KB/s
-183.236.43.98:4111	366.42 KB/s
+113.77.240.63:6822	425.98 KB/s
+www.guangyuan.site:8188	425.34 KB/s
+www.tyio.cc:8188	412.68 KB/s
+wmh.wmh.ink:6633	399.96 KB/s
+183.236.43.98:4013	395.35 KB/s
+113.101.245.37:9988	394.82 KB/s
+183.236.43.98:4111	393.03 KB/s
+www.hongzhijiaoyu.net:8188	332.90 KB/s
+vpn.jk960.cn:8686	328.03 KB/s

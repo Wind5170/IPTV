@@ -1,21 +1,14 @@
-# 20260920_1401_precise
+# 20260921_1621_precise
 # 服务器地址	速度
-www.49156116.xyz:23234	413.33 KB/s
-rt.tunan.tech:7070	396.89 KB/s
-111.193.236.45:9999	394.69 KB/s
-unicom3.swjms.com:4022	387.17 KB/s
-114.254.32.36:18888	386.83 KB/s
-rt.096096.xyz:61612	384.36 KB/s
-n2.192372.xyz:8888	381.20 KB/s
-www.221111.best:8012	380.79 KB/s
-happy2015.synology.me:4000	380.32 KB/s
-happylive.asuscomm.com:8888	378.14 KB/s
-shunyi-home.wangbin.us:4022	375.80 KB/s
-nas.alber2025.top:8188	371.05 KB/s
-owvpn.famcloud.top:9878	367.47 KB/s
-www.fjxzl.top:23234	362.09 KB/s
-home.zgnc.fun:8821	357.73 KB/s
-x1x.bid:5146	354.43 KB/s
-www.photoby.us:28012	352.63 KB/s
-114.254.36.113:8888	343.42 KB/s
-114.254.82.219:4022	322.98 KB/s
+www.221111.best:8012	394.03 KB/s
+www.49156116.xyz:23234	388.45 KB/s
+x1x.bid:5146	386.99 KB/s
+happylive.asuscomm.com:8888	379.71 KB/s
+111.193.233.218:9999	364.74 KB/s
+www.fjxzl.top:23234	362.34 KB/s
+rt.tunan.tech:7070	357.92 KB/s
+www.photoby.us:28012	355.70 KB/s
+wuyanjiang.cn:8012	353.22 KB/s
+www.xiongnas.top:8888	347.06 KB/s
+114.254.38.234:8888	335.83 KB/s
+sphinger.f3322.net:11012	305.76 KB/s
