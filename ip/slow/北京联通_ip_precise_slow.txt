@@ -1,19 +1,9 @@
-# 20260921_1621_precise_slow
+# 20260922_1426_precise_slow
 # 服务器地址	速度
-114.254.32.36:18888	296.35 KB/s
-n2.192372.xyz:8888	292.52 KB/s
-owvpn.famcloud.top:9878	274.00 KB/s
-shunyi-home.wangbin.us:4022	268.33 KB/s
-rt.096096.xyz:61612	266.74 KB/s
-happy2015.synology.me:4000	265.59 KB/s
-111.196.130.52:20000	220.22 KB/s
-nas.alber2025.top:8188	213.56 KB/s
-www.irisxxd.cn:8888	201.83 KB/s
-111.194.237.233:4022	177.21 KB/s
-laiboy.myds.me:58686	171.39 KB/s
-www.irisxxd.cn:8000	168.61 KB/s
-home.zgnc.fun:8821	166.71 KB/s
-superpostmail.3322.org:1193	107.52 KB/s
-unicom3.swjms.com:4022	42.38 KB/s
-triq.cc:8012	8.81 KB/s
-yaoleyaotou.com:4022	7.98 KB/s
+111.194.237.233:4022	255.64 KB/s
+114.254.32.36:18888	229.90 KB/s
+unicom3.swjms.com:4022	226.94 KB/s
+rt.096096.xyz:61612	210.52 KB/s
+sphinger.f3322.net:11012	201.65 KB/s
+www.fjxzl.top:23234	175.65 KB/s
+111.196.130.52:20000	83.73 KB/s
