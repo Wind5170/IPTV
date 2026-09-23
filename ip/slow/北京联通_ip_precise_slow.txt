@@ -1,9 +1,14 @@
-# 20260922_1426_precise_slow
+# 20260923_1447_precise_slow
 # 服务器地址	速度
-111.194.237.233:4022	255.64 KB/s
-114.254.32.36:18888	229.90 KB/s
-unicom3.swjms.com:4022	226.94 KB/s
-rt.096096.xyz:61612	210.52 KB/s
-sphinger.f3322.net:11012	201.65 KB/s
-www.fjxzl.top:23234	175.65 KB/s
-111.196.130.52:20000	83.73 KB/s
+wuyanjiang.cn:8012	298.54 KB/s
+laiboy.myds.me:58686	284.27 KB/s
+111.194.232.91:4022	265.61 KB/s
+www.221111.best:8012	256.56 KB/s
+111.193.237.102:9999	242.17 KB/s
+114.254.38.189:8888	80.93 KB/s
+superpostmail.3322.org:1193	78.86 KB/s
+yaoleyaotou.com:4022	76.02 KB/s
+triq.cc:8012	20.65 KB/s
+111.196.130.52:20000	2.71 KB/s
+www.irisxxd.cn:8000	1.26 KB/s
+www.irisxxd.cn:8888	1.25 KB/s

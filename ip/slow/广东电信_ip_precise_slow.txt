@@ -1,5 +1,7 @@
-# 20260922_1430_precise_slow
+# 20260923_1450_precise_slow
 # 服务器地址	速度
-113.101.245.37:9988	272.98 KB/s
-yanshifen.top:8889	204.09 KB/s
-www.hongzhijiaoyu.net:8188	101.06 KB/s
+www.yahao.host:4022	283.41 KB/s
+www.guangyuan.site:8188	279.81 KB/s
+www.tyio.cc:8188	248.78 KB/s
+113.104.187.160:7088	241.33 KB/s
+www.hongzhijiaoyu.net:8188	202.73 KB/s
