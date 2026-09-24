@@ -1,3 +1,4 @@
-# 20260923_1507_precise_slow
+# 20260924_1507_precise_slow
 # 服务器地址	速度
-www.sccckj.cn:8899	200.17 KB/s
+www.sccckj.cn:8899	60.17 KB/s
+183.220.107.138:4022	2.86 KB/s

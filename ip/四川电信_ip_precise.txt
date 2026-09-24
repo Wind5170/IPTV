@@ -1,7 +1,11 @@
-# 20260923_1506_precise
+# 20260924_1506_precise
 # 服务器地址	速度
-www.yanbingg.com:1888	423.95 KB/s
-wxk.x3322.net:8188	417.85 KB/s
-171.213.154.133:4022	400.87 KB/s
-www.yanbingg.com:18888	400.80 KB/s
-ddns.55682750.xyz:18888	359.11 KB/s
+wxk.x3322.net:8188	393.97 KB/s
+www.yanbingg.com:1888	389.05 KB/s
+www.yanbingg.com:18888	385.59 KB/s
+171.213.148.179:4022	357.47 KB/s
+xmzj.f3322.net:8188	347.15 KB/s
+wan1.tangwudi.cc:47859	346.21 KB/s
+171.213.241.117:8188	337.39 KB/s
+171.213.149.118:4022	329.72 KB/s
+ddns.55682750.xyz:18888	328.99 KB/s

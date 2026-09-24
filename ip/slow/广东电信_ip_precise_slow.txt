@@ -1,7 +1,9 @@
-# 20260923_1450_precise_slow
+# 20260924_1447_precise_slow
 # 服务器地址	速度
-www.yahao.host:4022	283.41 KB/s
-www.guangyuan.site:8188	279.81 KB/s
-www.tyio.cc:8188	248.78 KB/s
-113.104.187.160:7088	241.33 KB/s
-www.hongzhijiaoyu.net:8188	202.73 KB/s
+www.tyio.cc:8188	291.97 KB/s
+113.101.245.37:9988	279.89 KB/s
+vpn.jk960.cn:8686	260.80 KB/s
+183.236.43.98:4013	170.17 KB/s
+liqn.mycloudnas.com:8188	164.12 KB/s
+www.hongzhijiaoyu.net:8188	157.82 KB/s
+udp2.gdsz.eu.org:8888	129.39 KB/s

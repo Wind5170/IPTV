@@ -1,3 +1,4 @@
-# 20260923_1508_precise_slow
+# 20260924_1509_precise_slow
 # 服务器地址	速度
-www.tangtuanpp.fun:4000	147.73 KB/s
+www.liangcl.top:8686	296.43 KB/s
+www.negative.top:50000	242.86 KB/s
