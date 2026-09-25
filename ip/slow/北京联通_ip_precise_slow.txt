@@ -1,8 +1,7 @@
-# 20260924_1443_precise_slow
+# 20260925_1503_precise_slow
 # 服务器地址	速度
-n2.192372.xyz:8888	286.78 KB/s
-sphinger.f3322.net:11012	285.48 KB/s
-www.xiongnas.top:8888	189.42 KB/s
-www.irisxxd.cn:8000	39.31 KB/s
-www.irisxxd.cn:8888	39.26 KB/s
-triq.cc:8012	1.62 KB/s
+rt.tunan.tech:7070	276.91 KB/s
+111.194.232.91:4022	251.63 KB/s
+sphinger.f3322.net:11012	250.07 KB/s
+111.196.130.52:20000	175.62 KB/s
+www.irisxxd.cn:8888	85.89 KB/s
