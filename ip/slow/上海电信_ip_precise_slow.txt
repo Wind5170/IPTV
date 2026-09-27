@@ -1,3 +1,6 @@
-# 20260926_1428_precise_slow
+# 20260927_1518_precise_slow
 # 服务器地址	速度
-cloud.sunrisecom.wang:8888	261.25 KB/s
+180.165.13.174:4022	278.32 KB/s
+cloud.sunrisecom.wang:8888	273.23 KB/s
+www.rogerxlj.top:9998	262.66 KB/s
+180.165.1.161:4022	245.03 KB/s

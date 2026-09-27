@@ -1,9 +1,6 @@
-# 20260926_1434_precise
+# 20260927_1524_precise
 # 服务器地址	速度
-rhfwily.synology.me:4022	470.00 KB/s
-zjhuct.synology.me:8881	468.22 KB/s
-gilbert0571.eu.org:8888	463.77 KB/s
-www.tangtuanpp.fun:4000	450.26 KB/s
-hzmaidu.com:8090	403.94 KB/s
-maymoon.asuscomm.com:7777	319.64 KB/s
-zjhuct.synology.me:8889	306.96 KB/s
+zjhuct.synology.me:8881	420.00 KB/s
+maymoon.asuscomm.com:7777	418.52 KB/s
+rhfwily.synology.me:4022	413.90 KB/s
+www.liangcl.top:8686	378.17 KB/s
