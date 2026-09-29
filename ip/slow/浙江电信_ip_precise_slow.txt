@@ -1,5 +1,7 @@
-# 20260928_1816_precise_slow
+# 20260929_1643_precise_slow
 # 服务器地址	速度
-www.slq888.cn:9999	267.23 KB/s
-www.tangtuanpp.fun:4000	238.88 KB/s
-gilbert0571.eu.org:8888	13.09 KB/s
+www.liangcl.top:8686	203.89 KB/s
+www.tangtuanpp.fun:4000	143.86 KB/s
+gilbert0571.eu.org:8888	109.91 KB/s
+zjhuct.synology.me:8881	104.18 KB/s
+www.slq888.cn:9999	34.30 KB/s
