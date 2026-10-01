@@ -1,5 +1,5 @@
-# 20260930_1638_precise_slow
+# 20261001_1722_precise_slow
 # 服务器地址	速度
-zjhuct.synology.me:8889	253.85 KB/s
-zjhuct.icu:8889	228.64 KB/s
-www.liangcl.top:8686	191.19 KB/s
+www.tangtuanpp.fun:4000	256.82 KB/s
+www.slq888.cn:9999	157.10 KB/s
+gilbert0571.eu.org:8888	30.97 KB/s

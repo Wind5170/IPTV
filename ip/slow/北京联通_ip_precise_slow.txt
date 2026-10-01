@@ -1,6 +1,7 @@
-# 20260930_1621_precise_slow
+# 20261001_1657_precise_slow
 # 服务器地址	速度
-superpostmail.3322.org:1193	248.91 KB/s
-114.254.80.144:4022	240.75 KB/s
-sphinger.f3322.net:11012	216.68 KB/s
-unicom3.swjms.com:4022	20.32 KB/s
+triq.cc:8012	273.08 KB/s
+shunyi-home.wangbin.us:4022	248.22 KB/s
+sphinger.f3322.net:11012	184.53 KB/s
+www.fjxzl.top:23234	181.69 KB/s
+unicom3.swjms.com:4022	65.05 KB/s
