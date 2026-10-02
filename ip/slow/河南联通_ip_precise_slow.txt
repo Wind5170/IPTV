@@ -1,4 +1,0 @@
-# 20261001_1706_precise_slow
-# 服务器地址	速度
-ik.iptv8.net:8888	285.40 KB/s
-www.siyao.xin:4000	281.76 KB/s

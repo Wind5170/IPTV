@@ -1,7 +1,5 @@
-# 20261001_1657_precise_slow
+# 20261002_1610_precise_slow
 # 服务器地址	速度
-triq.cc:8012	273.08 KB/s
-shunyi-home.wangbin.us:4022	248.22 KB/s
-sphinger.f3322.net:11012	184.53 KB/s
-www.fjxzl.top:23234	181.69 KB/s
-unicom3.swjms.com:4022	65.05 KB/s
+wuyanjiang.cn:8012	279.03 KB/s
+laiboy.myds.me:58686	275.36 KB/s
+superpostmail.3322.org:1193	188.77 KB/s

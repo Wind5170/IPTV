@@ -1,10 +1,7 @@
-# 20261001_1722_precise
+# 20261002_1639_precise
 # 服务器地址	速度
-60.183.108.160:8000	399.02 KB/s
-rhfwily.synology.me:4022	394.71 KB/s
-115.230.59.58:4022	394.39 KB/s
-zjhuct.icu:8889	382.04 KB/s
-www.liangcl.top:8686	375.97 KB/s
-zjhuct.synology.me:8881	371.96 KB/s
-hzmaidu.com:8090	364.19 KB/s
-zjhuct.synology.me:8889	363.81 KB/s
+hzmaidu.com:8090	493.79 KB/s
+zjhuct.synology.me:8881	467.85 KB/s
+zjhuct.synology.me:8889	372.46 KB/s
+rhfwily.synology.me:4022	366.52 KB/s
+www.tangtuanpp.fun:4000	325.64 KB/s
