@@ -1,4 +1,7 @@
-# 20261002_1639_precise_slow
+# 20261003_1500_precise_slow
 # 服务器地址	速度
-www.slq888.cn:9999	116.06 KB/s
-gilbert0571.eu.org:8888	21.69 KB/s
+www.liangcl.top:8686	297.19 KB/s
+hzmaidu.com:8090	204.26 KB/s
+www.slq888.cn:9999	154.85 KB/s
+www.tangtuanpp.fun:4000	102.48 KB/s
+gilbert0571.eu.org:8888	36.30 KB/s

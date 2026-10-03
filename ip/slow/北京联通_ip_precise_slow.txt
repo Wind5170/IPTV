@@ -1,5 +1,4 @@
-# 20261002_1610_precise_slow
+# 20261003_1436_precise_slow
 # 服务器地址	速度
-wuyanjiang.cn:8012	279.03 KB/s
-laiboy.myds.me:58686	275.36 KB/s
-superpostmail.3322.org:1193	188.77 KB/s
+111.196.130.121:20000	224.44 KB/s
+unicom3.swjms.com:4022	198.90 KB/s
