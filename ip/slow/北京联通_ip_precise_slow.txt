@@ -1,4 +1,4 @@
-# 20261003_1436_precise_slow
+# 20261004_1515_precise_slow
 # 服务器地址	速度
-111.196.130.121:20000	224.44 KB/s
-unicom3.swjms.com:4022	198.90 KB/s
+yaoleyaotou.com:4022	269.45 KB/s
+unicom3.swjms.com:4022	223.55 KB/s

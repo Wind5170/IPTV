@@ -1,6 +1,3 @@
-# 20261003_1451_precise
+# 20261004_1525_precise
 # 服务器地址	速度
-wlei.myds.me:52057	452.52 KB/s
-www.661130.xyz:8188	451.13 KB/s
-hiliu.myds.me:18088	434.54 KB/s
-m3u.fanhuahust.top:8188	432.15 KB/s
+hiliu.myds.me:18088	383.39 KB/s
