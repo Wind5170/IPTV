@@ -1,7 +1,5 @@
-# 20261004_1525_precise_slow
+# 20261005_1920_precise_slow
 # 服务器地址	速度
-m3u.fanhuahust.top:8188	281.60 KB/s
-58.48.104.152:4022	275.04 KB/s
-www.661130.xyz:8188	226.61 KB/s
-wlei.myds.me:52057	223.63 KB/s
-qnapxuan.mycloudnas.com:10001	6.75 KB/s
+58.48.104.152:4022	277.38 KB/s
+hiliu.myds.me:18088	223.79 KB/s
+qnapxuan.mycloudnas.com:10001	15.21 KB/s

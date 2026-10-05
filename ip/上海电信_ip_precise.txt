@@ -1,9 +1,13 @@
-# 20261004_1533_precise
+# 20261005_1925_precise
 # 服务器地址	速度
-shenhua.asuscomm.com:8888	469.75 KB/s
-rongrong.synology.me:14022	413.77 KB/s
-180.165.2.141:4022	395.83 KB/s
-180.165.1.161:4022	390.47 KB/s
-223.167.230.155:4022	382.51 KB/s
-www.rogerxlj.top:9998	378.42 KB/s
-cloud.sunrisecom.wang:18888	326.16 KB/s
+shenhua.asuscomm.com:8888	511.58 KB/s
+180.165.1.161:4022	471.33 KB/s
+rongrong.synology.me:14022	464.82 KB/s
+180.165.8.10:4022	462.23 KB/s
+180.165.2.141:4022	447.72 KB/s
+www.rogerxlj.top:9998	445.96 KB/s
+180.165.13.174:4022	425.99 KB/s
+180.165.18.51:4022	410.33 KB/s
+223.167.230.155:4022	408.11 KB/s
+cloud.sunrisecom.wang:18888	335.33 KB/s
+cloud.sunrisecom.wang:8888	300.35 KB/s
