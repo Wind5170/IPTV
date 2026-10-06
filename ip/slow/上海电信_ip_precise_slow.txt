@@ -1,3 +1,4 @@
-# 20261005_1925_precise_slow
+# 20261006_1653_precise_slow
 # 服务器地址	速度
-wsc2007123.myds.me:30100	11.90 KB/s
+www.rogerxlj.top:9998	234.54 KB/s
+cloud.sunrisecom.wang:18888	205.59 KB/s
