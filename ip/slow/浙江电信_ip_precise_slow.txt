@@ -1,7 +1,0 @@
-# 20261006_1657_precise_slow
-# 服务器地址	速度
-hzmaidu.com:8090	290.67 KB/s
-zjhuct.synology.me:8881	285.81 KB/s
-rhfwily.synology.me:4022	283.45 KB/s
-www.slq888.cn:9999	247.98 KB/s
-gilbert0571.eu.org:8888	26.79 KB/s
