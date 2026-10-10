@@ -1,0 +1,4 @@
+# 20261010_1547_precise_slow
+# 服务器地址	速度
+www.49156116.xyz:23234	243.97 KB/s
+unicom3.swjms.com:4022	240.65 KB/s
