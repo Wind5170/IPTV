@@ -1,6 +1,4 @@
-# 20261024_1408_precise_slow
+# 20261025_1433_precise_slow
 # 服务器地址	速度
-gilbert0571.eu.org:8888	270.49 KB/s
-rhfwily.synology.me:4022	269.64 KB/s
-www.slq888.cn:9999	260.08 KB/s
-zjhuct.synology.me:8889	239.65 KB/s
+zjhuct.icu:8889	286.82 KB/s
+www.liangcl.top:8686	247.23 KB/s
