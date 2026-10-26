@@ -1,4 +1,0 @@
-# 20261025_1433_precise_slow
-# 服务器地址	速度
-zjhuct.icu:8889	286.82 KB/s
-www.liangcl.top:8686	247.23 KB/s
