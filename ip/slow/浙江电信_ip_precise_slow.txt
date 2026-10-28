@@ -1,4 +1,3 @@
-# 20261027_1607_precise_slow
+# 20261028_1651_precise_slow
 # 服务器地址	速度
-www.slq888.cn:9999	268.78 KB/s
-zjhuct.synology.me:8889	232.89 KB/s
+www.slq888.cn:9999	210.69 KB/s
