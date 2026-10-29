@@ -1,4 +1,3 @@
-# 20261028_1642_precise_slow
+# 20261029_1658_precise_slow
 # 服务器地址	速度
-wddpmpc.sosos.run:4022	254.31 KB/s
-tiger81.i234.me:8888	214.66 KB/s
+tiger81.i234.me:8888	299.85 KB/s

@@ -1,5 +1,4 @@
-# 20261028_1635_precise_slow
+# 20261029_1649_precise_slow
 # 服务器地址	速度
-prozyt.top:4022	290.12 KB/s
-lghome.haitun99.com:4022	258.13 KB/s
-111.226.232.81:10010	24.99 KB/s
+lghome.haitun99.com:4022	277.21 KB/s
+111.226.232.81:10010	21.33 KB/s
