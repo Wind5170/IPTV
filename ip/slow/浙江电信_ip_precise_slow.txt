@@ -1,6 +1,0 @@
-# 20261029_1702_precise_slow
-# 服务器地址	速度
-zjhuct.icu:8889	298.56 KB/s
-www.tangtuanpp.fun:4000	296.12 KB/s
-www.liangcl.top:8686	161.38 KB/s
-www.slq888.cn:9999	158.93 KB/s
