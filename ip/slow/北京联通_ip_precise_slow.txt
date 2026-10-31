@@ -1,3 +1,5 @@
-# 20261030_1635_precise_slow
+# 20261031_1539_precise_slow
 # 服务器地址	速度
-unicom3.swjms.com:4022	25.06 KB/s
+sphinger.f3322.net:11012	264.47 KB/s
+superpostmail.3322.org:1193	139.60 KB/s
+unicom3.swjms.com:4022	22.92 KB/s
