@@ -1,5 +1,4 @@
-# 20261101_1638_precise_slow
+# 20261102_2002_precise_slow
 # 服务器地址	速度
-111.193.232.174:9999	133.09 KB/s
-home.zgnc.fun:8821	83.84 KB/s
-unicom3.swjms.com:4022	39.31 KB/s
+owvpn.famcloud.top:9878	121.21 KB/s
+unicom3.swjms.com:4022	39.42 KB/s

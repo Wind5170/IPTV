@@ -1,0 +1,4 @@
+# 20261102_2012_precise_slow
+# 服务器地址	速度
+tiger81.i234.me:8888	127.95 KB/s
+wddpmpc.sosos.run:4022	42.44 KB/s

@@ -1,3 +1,3 @@
-# 20261101_1702_precise
+# 20261102_2017_precise
 # 服务器地址	速度
-z2m.eversouthhangzhou.com.cn:8188	417.11 KB/s
+z2m.eversouthhangzhou.com.cn:8188	497.08 KB/s

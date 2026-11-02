@@ -1,3 +1,4 @@
-# 20261101_1702_precise_slow
+# 20261102_2017_precise_slow
 # 服务器地址	速度
-gilbert0571.eu.org:8888	12.16 KB/s
+hzmaidu.com:8090	60.10 KB/s
+gilbert0571.eu.org:8888	52.75 KB/s

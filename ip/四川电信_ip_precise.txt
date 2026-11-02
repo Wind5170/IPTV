@@ -1,9 +1,7 @@
-# 20261101_1659_precise
+# 20261102_2015_precise
 # 服务器地址	速度
-171.88.107.192:8118	453.24 KB/s
-www.yanbingg.com:18888	406.28 KB/s
-171.213.154.148:4022	372.76 KB/s
-xmzj.f3322.net:8188	342.71 KB/s
-ddns.55682750.xyz:18888	340.85 KB/s
-www.yanbingg.com:1888	322.86 KB/s
-171.213.144.232:8188	310.50 KB/s
+171.88.107.192:8118	520.95 KB/s
+www.yanbingg.com:1888	473.62 KB/s
+www.yanbingg.com:18888	471.55 KB/s
+ddns.55682750.xyz:18888	376.51 KB/s
+xmzj.f3322.net:8188	371.50 KB/s
