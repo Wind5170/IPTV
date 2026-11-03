@@ -1,4 +1,5 @@
-# 20261102_2002_precise_slow
+# 20261103_1737_precise_slow
 # 服务器地址	速度
-owvpn.famcloud.top:9878	121.21 KB/s
-unicom3.swjms.com:4022	39.42 KB/s
+superpostmail.3322.org:1193	195.11 KB/s
+guoxue7.3322.org:57022	112.49 KB/s
+unicom3.swjms.com:4022	55.32 KB/s

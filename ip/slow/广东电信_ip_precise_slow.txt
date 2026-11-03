@@ -1,5 +1,6 @@
-# 20261102_2003_precise_slow
+# 20261103_1739_precise_slow
 # 服务器地址	速度
-vpn.jk960.cn:8686	228.89 KB/s
-liqn.mycloudnas.com:8188	92.95 KB/s
-113.46.194.7:8140	45.97 KB/s
+www.tyio.cc:8188	282.81 KB/s
+line1.huase.ltd:8888	250.97 KB/s
+www.yahao.host:4022	212.51 KB/s
+113.46.194.7:8140	45.63 KB/s
