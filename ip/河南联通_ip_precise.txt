@@ -1,6 +1,6 @@
-# 20261105_1801_precise
+# 20261106_1723_precise
 # 服务器地址	速度
-222.141.134.219:8888	571.55 KB/s
-nnu.qzz.io:4000	556.42 KB/s
-www.flyju.top:8899	542.89 KB/s
-www.siyao.xin:4000	534.40 KB/s
+222.141.134.219:8888	416.25 KB/s
+www.flyju.top:8899	412.07 KB/s
+nnu.qzz.io:4000	400.68 KB/s
+www.siyao.xin:4000	370.12 KB/s
