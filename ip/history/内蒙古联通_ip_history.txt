@@ -1,21 +1,21 @@
-# 20261106_1726_precise_history
+# 20261107_1624_precise_history
 # 服务器地址	状态	有效次数	无效次数
-1.26.26.36:9999	无效	0	185
-1.28.64.206:16666	无效	0	185
-110.18.153.7:17777	无效	0	170
+1.26.26.36:9999	无效	0	186
+1.28.64.206:16666	无效	0	186
+110.18.153.7:17777	无效	0	171
 110.18.154.75:17777	无效	0	12
-110.7.131.210:4022	无效	0	185
+110.7.131.210:4022	无效	0	186
 154.215.123.136:20231	无效	0	13
 58.18.98.250:20231	无效	0	12
-www.ikuai1.onetopcloud.com:16666	无效	0	173
-www.jellyfin.onetopcloud.com:17777	无效	0	173
-vpn.zhangzp.top:4022	无效	0	173
-dabaoerbao2021.myds.me:9999	无效	0	173
-www.nas.onetopcloud.com:17777	无效	0	173
-jenkins.ximen.fun:20231	无效	0	173
-pol.kuailaifan.com:20231	无效	0	173
-emby.zx-gs.top:20231	无效	0	173
-﻿# 2026/05/24 20:42	无效	0	173
+www.ikuai1.onetopcloud.com:16666	无效	0	174
+www.jellyfin.onetopcloud.com:17777	无效	0	174
+vpn.zhangzp.top:4022	无效	0	174
+dabaoerbao2021.myds.me:9999	无效	0	174
+www.nas.onetopcloud.com:17777	无效	0	174
+jenkins.ximen.fun:20231	无效	0	174
+pol.kuailaifan.com:20231	无效	0	174
+emby.zx-gs.top:20231	无效	0	174
+﻿# 2026/05/24 20:42	无效	0	174
 ssh.ximen.fun:20231	无效	0	2
 cocktailserver.ximen.fun:20231	无效	0	1
 kd.ximen.fun:20231	无效	0	1
