@@ -1,5 +1,5 @@
-# 20261107_1612_precise_slow
+# 20261108_1634_precise_slow
 # 服务器地址	速度
-nas.xxika.net:8188	137.67 KB/s
-vpn.jk960.cn:8686	73.31 KB/s
-113.46.194.7:8140	45.59 KB/s
+vpn.jk960.cn:8686	252.43 KB/s
+udp2.gdsz.eu.org:8888	237.80 KB/s
+113.46.194.7:8140	44.51 KB/s

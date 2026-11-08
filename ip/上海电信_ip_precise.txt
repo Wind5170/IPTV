@@ -1,6 +1,7 @@
-# 20261107_1626_precise
+# 20261108_1647_precise
 # 服务器地址	速度
-rongrong.synology.me:14022	552.56 KB/s
-yyf1991.top:9999	547.50 KB/s
-cloud.sunrisecom.wang:18888	486.24 KB/s
-223.167.230.155:4022	456.56 KB/s
+223.167.230.155:4022	545.70 KB/s
+rongrong.synology.me:14022	534.21 KB/s
+shenhua.asuscomm.com:8888	522.94 KB/s
+yyf1991.top:9999	458.66 KB/s
+cloud.sunrisecom.wang:8888	348.58 KB/s

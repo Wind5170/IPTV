@@ -1,4 +1,3 @@
-# 20261107_1609_precise_slow
+# 20261108_1633_precise_slow
 # 服务器地址	速度
-qqdwtypm.f3322.org:64022	246.33 KB/s
-unicom3.swjms.com:4022	93.03 KB/s
+unicom3.swjms.com:4022	239.37 KB/s
