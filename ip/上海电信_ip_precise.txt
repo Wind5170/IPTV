@@ -1,7 +1,5 @@
-# 20261110_1748_precise
+# 20261111_1800_precise
 # 服务器地址	速度
-shenhua.asuscomm.com:8888	559.81 KB/s
-wsc2007123.myds.me:30100	505.05 KB/s
-223.167.230.155:4022	457.03 KB/s
-yyf1991.top:9999	415.25 KB/s
-rongrong.synology.me:14022	359.41 KB/s
+223.167.230.155:4022	582.14 KB/s
+shenhua.asuscomm.com:8888	477.53 KB/s
+rongrong.synology.me:14022	417.17 KB/s

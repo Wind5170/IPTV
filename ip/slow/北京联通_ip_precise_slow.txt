@@ -1,3 +1,4 @@
-# 20261110_1733_precise_slow
+# 20261111_1746_precise_slow
 # 服务器地址	速度
-unicom3.swjms.com:4022	81.72 KB/s
+www.fjxzl.top:23234	121.32 KB/s
+unicom3.swjms.com:4022	85.20 KB/s
