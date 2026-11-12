@@ -1,9 +1,7 @@
-# 20261111_1801_precise_slow
+# 20261112_1814_precise_slow
 # 服务器地址	速度
-171.88.107.192:8118	287.26 KB/s
-hhska.3322.org:8096	214.74 KB/s
-171.213.145.50:4022	115.45 KB/s
-vpn.ydcb.top:40000	105.67 KB/s
-ipv4.roxette119.xyz:5555	74.54 KB/s
-171.213.145.229:8188	38.80 KB/s
-pp.ydcb.top:40000	28.79 KB/s
+xmzj.f3322.net:8188	266.56 KB/s
+hhska.3322.org:8096	238.01 KB/s
+vpn.ydcb.top:40000	120.57 KB/s
+ipv4.roxette119.xyz:5555	114.76 KB/s
+pp.ydcb.top:40000	107.66 KB/s

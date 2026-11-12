@@ -1,11 +1,11 @@
-# 20261111_1751_precise
+# 20261112_1804_precise
 # 服务器地址	速度
-113.104.185.228:7088	464.21 KB/s
-59.32.96.26:8000	447.26 KB/s
-183.236.43.98:4111	425.60 KB/s
-line1.huase.ltd:8888	419.99 KB/s
-home.8v8.fun:4333	411.30 KB/s
-www.guangyuan.site:8188	401.11 KB/s
-www.yahao.host:4022	399.71 KB/s
-nas.xxika.net:8188	373.64 KB/s
-vpn.jk960.cn:8686	338.89 KB/s
+59.32.96.26:8000	451.60 KB/s
+183.236.43.98:4111	439.31 KB/s
+home.8v8.fun:4333	434.72 KB/s
+www.tyio.cc:8188	429.00 KB/s
+liqn.mycloudnas.com:8188	422.79 KB/s
+www.guangyuan.site:8188	416.18 KB/s
+113.104.187.199:7088	408.07 KB/s
+www.yahao.host:4022	403.09 KB/s
+line1.huase.ltd:8888	374.96 KB/s
