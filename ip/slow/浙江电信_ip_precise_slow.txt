@@ -1,3 +1,0 @@
-# 20261112_1816_precise_slow
-# 服务器地址	速度
-www.tangtuanpp.fun:4000	130.53 KB/s
