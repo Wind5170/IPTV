@@ -1,4 +1,4 @@
-# 20261116_2005_precise_slow
+# 20261117_1904_precise_slow
 # 服务器地址	速度
-nas.xxika.net:8188	101.53 KB/s
-113.46.194.7:8140	43.50 KB/s
+www.guangyuan.site:8188	109.19 KB/s
+113.46.194.7:8140	43.87 KB/s
