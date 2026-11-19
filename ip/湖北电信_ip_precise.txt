@@ -1,9 +1,7 @@
-# 20261118_1851_precise
+# 20261119_1903_precise
 # 服务器地址	速度
-wlei.myds.me:52057	620.71 KB/s
-www.661130.xyz:8188	579.91 KB/s
-59.174.160.12:4022	572.69 KB/s
-m3u.fanhuahust.top:8188	548.43 KB/s
-zhangkx717.cn:9999	504.70 KB/s
-59.174.160.10:4022	340.65 KB/s
-qnapxuan.mycloudnas.com:10001	327.39 KB/s
+m3u.fanhuahust.top:8188	452.90 KB/s
+hiliu.myds.me:18088	451.52 KB/s
+www.661130.xyz:8188	424.97 KB/s
+wlei.myds.me:52057	403.64 KB/s
+zhangkx717.cn:9999	393.19 KB/s

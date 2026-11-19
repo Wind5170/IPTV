@@ -1,3 +1,3 @@
-# 20261118_1842_precise_slow
+# 20261119_1855_precise_slow
 # 服务器地址	速度
-unicom.swjms.com:4022	26.10 KB/s
+unicom.swjms.com:4022	22.86 KB/s
