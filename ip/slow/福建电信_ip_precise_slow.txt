@@ -1,3 +1,0 @@
-# 20261119_1858_precise_slow
-# 服务器地址	速度
-remote.jackye.site:8000	18.55 KB/s

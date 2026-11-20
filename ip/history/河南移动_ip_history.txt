@@ -1,4 +1,4 @@
-# 20261119_1902_precise_history
+# 20261120_1829_precise_history
 # 服务器地址	状态	有效次数	无效次数
 115.212.191.166:8188	无效	0	12
 117.159.7.203:4000	无效	0	12
@@ -6,15 +6,15 @@
 117.160.155.91:4011	无效	0	12
 39.164.125.177:55556	无效	0	12
 39.165.155.43:8188	无效	0	12
-zzczzj.eu.org:55556	无效	0	186
-www.yinbaodashuju.com:4000	无效	0	186
-crm.zzxingjie.com:4000	无效	0	186
-dpzh.zwd5168.cn:4011	无效	0	186
-fsywrt.cchui.fun:8188	无效	0	186
-fsy.cchui.fun:8188	无效	0	186
-www.28256.cc:55556	无效	0	186
-﻿# 2026/05/24 20:42	无效	0	186
-tv.zwd5168.cn:4011	无效	0	153
-tc.zwd5168.cn:4011	无效	0	151
-api.zwd5168.cn:4011	无效	0	151
+zzczzj.eu.org:55556	无效	0	187
+www.yinbaodashuju.com:4000	无效	0	187
+crm.zzxingjie.com:4000	无效	0	187
+dpzh.zwd5168.cn:4011	无效	0	187
+fsywrt.cchui.fun:8188	无效	0	187
+fsy.cchui.fun:8188	无效	0	187
+www.28256.cc:55556	无效	0	187
+﻿# 2026/05/24 20:42	无效	0	187
+tv.zwd5168.cn:4011	无效	0	154
+tc.zwd5168.cn:4011	无效	0	152
+api.zwd5168.cn:4011	无效	0	152
 ssssss.site:55556	无效	0	22
