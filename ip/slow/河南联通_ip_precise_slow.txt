@@ -1,0 +1,3 @@
+# 20261121_1718_precise_slow
+# 服务器地址	速度
+nas.zzxingjie.com:4000	6.40 KB/s
