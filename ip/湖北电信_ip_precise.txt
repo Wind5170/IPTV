@@ -1,5 +1,5 @@
-# 20261121_1720_precise
+# 20261122_1750_precise
 # 服务器地址	速度
-m3u.fanhuahust.top:8188	435.72 KB/s
-www.661130.xyz:8188	425.69 KB/s
-zhangkx717.cn:9999	379.13 KB/s
+m3u.fanhuahust.top:8188	439.25 KB/s
+www.661130.xyz:8188	429.49 KB/s
+zhangkx717.cn:9999	303.05 KB/s

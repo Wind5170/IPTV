@@ -1,5 +1,5 @@
-# 20261121_1717_precise
+# 20261122_1747_precise
 # 服务器地址	速度
-106.8.17.2:14258	386.44 KB/s
-emby.xlangnan.cn:8189	374.45 KB/s
-lghome.haitun99.com:4022	341.02 KB/s
+106.8.17.2:14258	415.39 KB/s
+emby.xlangnan.cn:8189	377.11 KB/s
+lghome.haitun99.com:4022	322.05 KB/s

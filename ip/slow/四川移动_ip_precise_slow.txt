@@ -1,3 +1,0 @@
-# 20261121_1730_precise_slow
-# 服务器地址	速度
-www.sccckj.cn:8899	235.10 KB/s

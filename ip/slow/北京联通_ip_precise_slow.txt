@@ -1,4 +1,4 @@
-# 20261121_1711_precise_slow
+# 20261122_1741_precise_slow
 # 服务器地址	速度
-sphinger.f3322.net:11012	145.27 KB/s
-unicom.swjms.com:4022	30.96 KB/s
+www.fjxzl.top:23234	228.59 KB/s
+n2.192372.xyz:8888	11.99 KB/s
