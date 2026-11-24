@@ -1,6 +1,6 @@
-# 20261123_2157_precise_slow
+# 20261124_2032_precise_slow
 # 服务器地址	速度
-114.254.86.171:4022	289.70 KB/s
-unicom.swjms.com:4022	218.48 KB/s
-www.fjxzl.top:23234	184.86 KB/s
-111.196.135.80:20000	49.45 KB/s
+wuyanjiang.cn:8012	211.85 KB/s
+happy2015.synology.me:4000	193.51 KB/s
+n2.192372.xyz:8888	39.24 KB/s
+unicom.swjms.com:4022	24.35 KB/s
