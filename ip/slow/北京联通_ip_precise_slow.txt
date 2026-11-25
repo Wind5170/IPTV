@@ -1,6 +1,5 @@
-# 20261124_2032_precise_slow
+# 20261125_1949_precise_slow
 # 服务器地址	速度
-wuyanjiang.cn:8012	211.85 KB/s
-happy2015.synology.me:4000	193.51 KB/s
-n2.192372.xyz:8888	39.24 KB/s
-unicom.swjms.com:4022	24.35 KB/s
+111.196.135.80:20000	254.60 KB/s
+owvpn.famcloud.top:9878	94.95 KB/s
+n2.192372.xyz:8888	32.52 KB/s

@@ -1,3 +1,0 @@
-# 20261124_2037_precise_slow
-# 服务器地址	速度
-www.siyao.xin:4000	72.35 KB/s
