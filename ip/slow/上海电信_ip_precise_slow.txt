@@ -1,5 +1,4 @@
-# 20261126_1942_precise_slow
+# 20261127_1936_precise_slow
 # 服务器地址	速度
-cloud.sunrisecom.wang:18888	266.60 KB/s
-shenhua.asuscomm.com:8888	14.57 KB/s
-wsc2007123.myds.me:30100	14.07 KB/s
+cloud.sunrisecom.wang:18888	264.62 KB/s
+wsc2007123.myds.me:30100	13.95 KB/s

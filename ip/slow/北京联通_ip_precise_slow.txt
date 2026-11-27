@@ -1,3 +1,4 @@
-# 20261126_1929_precise_slow
+# 20261127_1924_precise_slow
 # 服务器地址	速度
-n2.192372.xyz:8888	92.75 KB/s
+unicom.swjms.com:4022	260.10 KB/s
+n2.192372.xyz:8888	39.52 KB/s

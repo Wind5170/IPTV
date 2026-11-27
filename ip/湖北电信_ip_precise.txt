@@ -1,8 +1,7 @@
-# 20261126_1937_precise
+# 20261127_1931_precise
 # 服务器地址	速度
-m3u.fanhuahust.top:8188	480.00 KB/s
-wlei.myds.me:52057	478.83 KB/s
-www.661130.xyz:8188	451.15 KB/s
-hiliu.myds.me:18088	439.15 KB/s
-i2.timogo.cc:9156	399.87 KB/s
-zhangkx717.cn:9999	378.09 KB/s
+m3u.fanhuahust.top:8188	482.56 KB/s
+www.661130.xyz:8188	479.32 KB/s
+wlei.myds.me:52057	476.69 KB/s
+hiliu.myds.me:18088	418.17 KB/s
+zhangkx717.cn:9999	410.13 KB/s
