@@ -1,4 +1,3 @@
-# 20261127_1926_precise_slow
+# 20261128_1806_precise_slow
 # 服务器地址	速度
-113.101.245.41:9988	267.86 KB/s
-www.yahao.host:4022	153.40 KB/s
+nas.xxika.net:8188	131.47 KB/s
